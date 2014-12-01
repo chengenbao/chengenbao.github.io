@@ -1,12 +1,12 @@
-# Site settings
-title: chengenbao
-email: genbao.chen@gmail.com, 4159688378@qq.com
-description: > # this means to ignore newlines until "baseurl:"
-  No Stop!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: chengenbao
-github_username:  chengenbao
-
-# Build settings
-markdown: kramdown
+title:        chengenbao
+tagline:      'I do && I can'
+description:  'Yesterday, I waste my day for the god; Today, is the day for myself!'
+url:          http://chengenbao.github.io
+version:      1.1.1
+author:
+  name:       ''
+  email:      ''
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     5
