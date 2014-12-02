@@ -11,8 +11,8 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
+    font-size: 18px;
+    line-height: 30px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -233,4 +233,10 @@
             font-size: 18px;
         }
     }
+}
+
+.site-desc {
+  font-size: 12px;
+  font-family: verdana,helvetica,arial,sans-serif;
+  font-weight: lighter;
 }
