@@ -32,8 +32,7 @@ the original library function, so now you can imagine how powerful of this can b
 
 what is block
 -------------
-A block in ruby is actually a code block, which is a object internally. Block is the most common
-way to implement closure.
+A block in ruby is actually a code block. Block is the most common way to implement closure.
 
 {% highlight ruby %}
 class Array
@@ -63,9 +62,12 @@ When you define your function you can alway add block injection in your function
 following.
 
 {% highlight ruby %}
-def func(arg1, arg2 &p)
+def func(arg1, arg2, &p)
   # do something with arg1 and arg2
-  p.call # you can add arguments too
+
+  if block_given?
+    p.call # you can add arguments too
+  end
 end
 
 # you can call this func with no block attached, as
@@ -79,3 +81,53 @@ end
 
 deferences with proc and lambda
 -------------------------------
+Block is code block, Proc is an object, there is only an block parameters in the argument list, but
+can be many Proc or Lambda. Block can be considered as an instance of Proc.
+
+Lambda will check the parameter, but Proc not. So all you should remember is, use Block and Lambda, but
+not Proc.
+
+{% highlight ruby %}
+# block Examples 
+[1,2,3].each { |x| puts x*2 } # block is in between the curly braces
+[1,2,3].each do |x| puts x*2 # block is everything between the do and end end
+
+# Proc Examples
+p = Proc.new { |x| puts x*2 } 
+[1,2,3].each(&p) # The '&' tells ruby to turn the proc into a block 
+proc = Proc.new { puts "Hello World" } 
+proc.call # The body of the Proc object gets executed when called 
+
+# Lambda Examples 
+lam = lambda { |x| puts x*2 } 
+[1,2,3].each(&lam) 
+lam = lambda { puts "Hello World" } 
+lam.call
+
+# parameter transfer 
+lam = lambda { |x| puts x } # creates a lambda that takes 1 argument
+lam.call(2) # prints out 2 lam.call # ArgumentError: wrong number of arguments (0 for 1) 
+lam.call(1,2,3) # ArgumentError: wrong number of arguments (3 for 1) 
+
+proc = Proc.new { |x| puts x } # creates a proc that takes 1 argument
+proc.call(2) # prints out 2
+proc.call # returns nil 
+proc.call(1,2,3) # prints out 1 and forgets about the extra arguments
+
+# Return behavor
+# in lambda, return jump out lambda，continue runing the code outside of lambda
+
+def lambda_test 
+  lam = lambda { return } 
+  lam.call puts "Hello world" 
+end 
+lambda_test # calling lambda_test prints 'Hello World'
+
+def proc_test 
+#in proc, return jump out directly
+  proc = Proc.new { return } 
+  proc.call 
+  puts "Hello world"
+end 
+proc_test # calling proc_test prints nothing
+{% endhighlight%}
