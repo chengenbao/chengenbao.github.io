@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Block in ruby language
+categories: Ruby
 ---
 
 One of the most useful functions in ruby programming language I think is block. With block
