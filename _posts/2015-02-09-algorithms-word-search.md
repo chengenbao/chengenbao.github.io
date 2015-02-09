@@ -28,160 +28,163 @@ word = "ABCB", then return false;
 Solution
 --------
 {% highlight  c++ %}
-class Solution {
-public:
-  struct step
-  {
-    int x;
-    int y;
-    int direction;
-
-    step(int x_pos = 0, int y_pos = 0, int d = 0) :
-      x(x_pos), y(y_pos), direction(d)
-    {}
-
-    step next()
+class Solution 
+{
+  public:
+    struct step
     {
-      step s;
-      s.x = x;
-      s.y = y;
-      s.direction = 0;
+      int x;
+      int y;
+      int direction;
 
-      switch (direction)
+      step(int x_pos = 0, int y_pos = 0, int d = 0) :
+        x(x_pos), y(y_pos), direction(d){}
+
+      step next()
       {
-      case 0: // turn left
-        s.y += 1;
-        break;
-      case 1: // down
-        s.x += 1;
-        break;
-      case 2:
-        s.y -= 1;
-        break;
-      case 3:
-        s.x -= 1;
-        break;
-      default:
-        break;
-      }
+        step s;
+        s.x = x;
+        s.y = y;
+        s.direction = 0;
 
-      return s;
-    }
-
-    bool operator==(const step &rhs)
-    {
-      return x == rhs.x && y == rhs.y;
-    }
-  };
-
-  bool exist(vector<vector<char> > &board, string word)
-  {
-    char board_letters[256];
-    char word_letters[256];
-    for (int i = 0; i < 256; ++i)
-    {
-      board_letters[i] = 0;
-      word_letters[i] = 0;
-    }
-
-    for (int i = 0; i < board.size(); ++i)
-    {
-      for (int j = 0; j < board[i].size(); ++j)
-      {
-        ++board_letters[board[i][j]];
-      }
-    }
-
-    for (int i = 0; i < word.length(); ++i)
-    {
-      ++word_letters[word[i]];
-    }
-
-    for (int i = 0; i < 256; ++i)
-    {
-      if (word_letters[i] > board_letters[i])
-        return false;
-    }
-
-    step *track = new step[word.length()];
-
-    for (int i = 0; i < board.size(); ++i)
-    {
-      for (int j = 0; j < board[i].size(); ++j)
-      {
-        if (word[0] != board[i][j])
-          continue;
-
-        int top = -1;
-        step s(i, j, 0);
-        // push to track
-        track[++top] = s;
-        while (top > -1)
+        switch (direction)
         {
-          s = track[top]; // get the last step
-          if (top == word.length() - 1 && word[top] == board[s.x][s.y]) // matched 
-          {
-            delete[]track;
-            return true;
-          }
+          case 0: // turn left
+            s.y += 1;
+            break;
+          case 1: // down
+            s.x += 1;
+            break;
+          case 2:
+            s.y -= 1;
+            break;
+          case 3:
+            s.x -= 1;
+            break;
+          default:
+            break;
+        }
 
-          if (word[top] == board[s.x][s.y]) // go to the next step
+        return s;
+      }
+
+      bool operator==(const step &rhs)
+      {
+        return x == rhs.x && y == rhs.y;
+      }
+    };
+
+    bool exist(vector<vector<char> > &board, string word)
+    {
+      char board_letters[256];
+      char word_letters[256];
+      for (int i = 0; i < 256; ++i)
+      {
+        board_letters[i] = 0;
+        word_letters[i] = 0;
+      }
+
+      for (int i = 0; i < board.size(); ++i)
+      {
+        for (int j = 0; j < board[i].size(); ++j)
+        {
+          ++board_letters[board[i][j]];
+        }
+      }
+
+      for (int i = 0; i < word.length(); ++i)
+      {
+        ++word_letters[word[i]];
+      }
+
+      for (int i = 0; i < 256; ++i)
+      {
+        if (word_letters[i] > board_letters[i])
+          return false;
+      }
+
+      step *track = new step[word.length()];
+
+      for (int i = 0; i < board.size(); ++i)
+      {
+        for (int j = 0; j < board[i].size(); ++j)
+        {
+          if (word[0] != board[i][j])
+            continue;
+
+          int top = -1;
+          step s(i, j, 0);
+          // push to track
+          track[++top] = s;
+          while (top > -1)
           {
-            if (s.direction < 4)
+            s = track[top]; // get the last step
+            if (top == word.length() - 1 && 
+              word[top] == board[s.x][s.y]) // matched 
             {
-              step t = s.next();
-              bool valid = false;
-              if (t.x >= 0 && t.x < board.size() && t.y >= 0 && t.y < board[t.x].size())
-              {
-                valid = true;
-              }
+              delete[]track;
+              return true;
+            }
 
-              if (valid)
+            if (word[top] == board[s.x][s.y]) 
+            {
+              // go to the next step
+              if (s.direction < 4)
               {
-                bool find = false;
-                for (int k = top; k >= 0; --k)
+                step t = s.next();
+                bool valid = false;
+                if (t.x >= 0 && t.x < board.size() && 
+                  t.y >= 0 && t.y < board[t.x].size())
                 {
-                  if (track[k] == t)
-                  {
-                    find = true;
-                    break;
-                  }
+                  valid = true;
                 }
 
-                if (!find)
+                if (valid)
                 {
-                  track[++top] = t;
+                  bool find = false;
+                  for (int k = top; k >= 0; --k)
+                  {
+                    if (track[k] == t)
+                    {
+                      find = true;
+                      break;
+                    }
+                  }
+
+                  if (!find)
+                  {
+                    track[++top] = t;
+                  }
+                  else
+                  {
+                    ++track[top].direction;
+                  }
                 }
                 else
                 {
                   ++track[top].direction;
                 }
               }
-              else
+              else // pop the top
               {
-                ++track[top].direction;
+                --top;
+                if (top > -1)
+                  ++track[top].direction;
               }
             }
-            else // pop the top
+            else // do not match, try next direction
             {
               --top;
               if (top > -1)
                 ++track[top].direction;
             }
           }
-          else // do not match, try next direction
-          {
-            --top;
-            if (top > -1)
-              ++track[top].direction;
-          }
         }
-      }
-    } // end for 
-    delete[]track;
+      } // end for 
+      delete[]track;
 
-    return false;
-  }
+      return false;
+    }
 };
 {% endhighlight %}
 
