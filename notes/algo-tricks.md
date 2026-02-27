@@ -84,11 +84,11 @@ def two_pointer_collision(arr, target):
 ```
 
 **经典例题**
-- **[LC 167 两数之和 II（有序数组）](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)**：直接套对撞模板，O(n)。
-- **[LC 15 三数之和](https://leetcode.cn/problems/3sum/)**：排序后固定一个数，对剩余数组用对撞指针，注意去重。
-- **[LC 11 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/)**：容量 = `min(h[l], h[r]) * (r-l)`，每次移动较矮一侧指针。
-- **[LC 125 验证回文串](https://leetcode.cn/problems/valid-palindrome/)**：左右同时向中间走，忽略非字母数字字符。
-- **[LC 42 接雨水](https://leetcode.cn/problems/trapping-rain-water/)**：左右各维护最大高度 `maxL/maxR`，较小侧计算积水。
+- [[LC 167 两数之和 II](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)（有序数组）](https://leetcode.cn/problems/PLACEHOLDER/)：直接套对撞模板，O(n)。
+- [LC 15 三数之和](https://leetcode.cn/problems/PLACEHOLDER/)：排序后固定一个数，对剩余数组用对撞指针，注意去重。
+- [LC 11 盛最多水的容器](https://leetcode.cn/problems/PLACEHOLDER/)：容量 = `min(h[l], h[r]) * (r-l)`，每次移动较矮一侧指针。
+- [LC 125 验证回文串](https://leetcode.cn/problems/PLACEHOLDER/)：左右同时向中间走，忽略非字母数字字符。
+- [LC 42 接雨水](https://leetcode.cn/problems/PLACEHOLDER/)：左右各维护最大高度 `maxL/maxR`，较小侧计算积水。
 
 ---
 
@@ -191,11 +191,11 @@ def detect_cycle(head):
 ```
 
 **经典例题**
-- **[LC 141 环形链表](https://leetcode.cn/problems/linked-list-cycle/)**：快慢指针是否相遇。
-- **[LC 142 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)**：Floyd算法找入口。
-- **[LC 876 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)**：快慢指针找中点。
-- **[LC 234 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)**：找中点 → 反转后半段 → 比较。
-- **[LC 19 删除链表倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)**：快指针先走N步，再同步前进。
+- [LC 141 环形链表](https://leetcode.cn/problems/PLACEHOLDER/)：快慢指针是否相遇。
+- [LC 142 环形链表 II](https://leetcode.cn/problems/PLACEHOLDER/)：Floyd算法找入口。
+- [LC 876 链表的中间结点](https://leetcode.cn/problems/PLACEHOLDER/)：快慢指针找中点。
+- [LC 234 回文链表](https://leetcode.cn/problems/PLACEHOLDER/)：找中点 → 反转后半段 → 比较。
+- [LC 19 删除链表倒数第N个节点](https://leetcode.cn/problems/PLACEHOLDER/)：快指针先走N步，再同步前进。
 
 ---
 
@@ -287,11 +287,11 @@ def sliding_window(s, need_dict):
 ```
 
 **经典例题**
-- **[LC 76 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)**：经典滑动窗口，上方模板直接适用。
-- **[LC 438 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)**：固定窗口大小 = `len(p)`。
-- **[LC 3 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)**：窗口内字符不重复，`valid`改为set计数。
-- **[LC 209 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)**：窗口和 ≥ target 时尝试收缩。
-- **[LC 567 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)**：固定窗口，判断窗口是否是排列。
+- [LC 76 最小覆盖子串](https://leetcode.cn/problems/PLACEHOLDER/)：经典滑动窗口，上方模板直接适用。
+- [LC 438 找到字符串中所有字母异位词](https://leetcode.cn/problems/PLACEHOLDER/)：固定窗口大小 = `len(p)`。
+- [LC 3 无重复字符的最长子串](https://leetcode.cn/problems/PLACEHOLDER/)：窗口内字符不重复，`valid`改为set计数。
+- [LC 209 长度最小的子数组](https://leetcode.cn/problems/PLACEHOLDER/)：窗口和 ≥ target 时尝试收缩。
+- [LC 567 字符串的排列](https://leetcode.cn/problems/PLACEHOLDER/)：固定窗口，判断窗口是否是排列。
 
 ---
 
@@ -401,11 +401,11 @@ def query_2d(prefix, r1, c1, r2, c2):
 ```
 
 **经典例题**
-- **[LC 303 区域和检索](https://leetcode.cn/problems/range-sum-query-immutable/)**：build_prefix + range_sum。
-- **[LC 560 和为K的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)**：前缀和 + 哈希计数。
-- **[LC 304 二维区域和检索](https://leetcode.cn/problems/range-sum-query-2d-immutable/)**：二维前缀和模板。
-- **[LC 525 连续数组](https://leetcode.cn/problems/contiguous-array/)**：0变-1，转化为子数组和为0。
-- **[LC 974 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)**：`(prefix % k + k) % k` 哈希计数。
+- [LC 303 区域和检索](https://leetcode.cn/problems/PLACEHOLDER/)：build_prefix + range_sum。
+- [LC 560 和为K的子数组](https://leetcode.cn/problems/PLACEHOLDER/)：前缀和 + 哈希计数。
+- [LC 304 二维区域和检索](https://leetcode.cn/problems/PLACEHOLDER/)：二维前缀和模板。
+- [LC 525 连续数组](https://leetcode.cn/problems/PLACEHOLDER/)：0变-1，转化为子数组和为0。
+- [LC 974 和可被 K 整除的子数组](https://leetcode.cn/problems/PLACEHOLDER/)：`(prefix % k + k) % k` 哈希计数。
 
 ---
 
@@ -441,9 +441,9 @@ class DiffArray:
 ```
 
 **经典例题**
-- **[LC 1109 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)**：区间 `[first, last]` 都加 seats，最后输出结果数组。
-- **[LC 1094 拼车](https://leetcode.cn/problems/car-pooling/)**：差分数组统计每个站的乘客数，判断是否超容量。
-- **[LC 798 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)**：差分统计每种轮调得分变化。
+- [LC 1109 航班预订统计](https://leetcode.cn/problems/PLACEHOLDER/)：区间 `[first, last]` 都加 seats，最后输出结果数组。
+- [LC 1094 拼车](https://leetcode.cn/problems/PLACEHOLDER/)：差分数组统计每个站的乘客数，判断是否超容量。
+- [LC 798 得分最高的最小轮调](https://leetcode.cn/problems/PLACEHOLDER/)：差分统计每种轮调得分变化。
 
 ---
 
@@ -491,11 +491,11 @@ def longest_consecutive(nums):
 ```
 
 **经典例题**
-- **[LC 1 两数之和](https://leetcode.cn/problems/two-sum/)**：单次遍历 + dict，O(n)。
-- **[LC 49 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)**：排序后的字符串作 key。
-- **[LC 128 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)**：set + 从序列起点向右延伸。
-- **[LC 146 LRU 缓存](https://leetcode.cn/problems/lru-cache/)**：OrderedDict 或 哈希表 + 双向链表。
-- **[LC 380 O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)**：dict(val→idx) + list 配合。
+- [LC 1 两数之和](https://leetcode.cn/problems/PLACEHOLDER/)：单次遍历 + dict，O(n)。
+- [LC 49 字母异位词分组](https://leetcode.cn/problems/PLACEHOLDER/)：排序后的字符串作 key。
+- [LC 128 最长连续序列](https://leetcode.cn/problems/PLACEHOLDER/)：set + 从序列起点向右延伸。
+- [LC 146 LRU 缓存](https://leetcode.cn/problems/PLACEHOLDER/)：OrderedDict 或 哈希表 + 双向链表。
+- [LC 380 O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/PLACEHOLDER/)：dict(val→idx) + list 配合。
 
 ---
 
@@ -655,11 +655,11 @@ def largest_rectangle_in_histogram(heights):
 ```
 
 **经典例题**
-- **[LC 496 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)**：单调递减栈 + 哈希映射。
-- **[LC 739 每日温度](https://leetcode.cn/problems/daily-temperatures/)**：单调递减栈，弹出时记录等待天数。
-- **[LC 84 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)**：哨兵 + 单调递增栈。
-- **[LC 85 最大矩形（矩阵）](https://leetcode.cn/problems/maximal-rectangle/)**：逐行转化为直方图，套LC 84。
-- **[LC 316 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)**：单调递增栈 + 剩余计数控制贪心。
+- [LC 496 下一个更大元素 I](https://leetcode.cn/problems/PLACEHOLDER/)：单调递减栈 + 哈希映射。
+- [LC 739 每日温度](https://leetcode.cn/problems/PLACEHOLDER/)：单调递减栈，弹出时记录等待天数。
+- [LC 84 柱状图中最大的矩形](https://leetcode.cn/problems/PLACEHOLDER/)：哨兵 + 单调递增栈。
+- [[LC 85 最大矩形](https://leetcode.cn/problems/maximal-rectangle/)（矩阵）](https://leetcode.cn/problems/PLACEHOLDER/)：逐行转化为直方图，套LC 84。
+- [LC 316 去除重复字母](https://leetcode.cn/problems/PLACEHOLDER/)：单调递增栈 + 剩余计数控制贪心。
 
 ---
 
@@ -690,9 +690,9 @@ def max_sliding_window(nums, k):
 ```
 
 **经典例题**
-- **[LC 239 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)**：单调队列模板题。
-- **[LC 862 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)**：前缀和 + 单调队列。
-- **[LC 1438 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)**：两个单调队列分别维护最大最小值。
+- [LC 239 滑动窗口最大值](https://leetcode.cn/problems/PLACEHOLDER/)：单调队列模板题。
+- [LC 862 和至少为K的最短子数组](https://leetcode.cn/problems/PLACEHOLDER/)：前缀和 + 单调队列。
+- [LC 1438 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/PLACEHOLDER/)：两个单调队列分别维护最大最小值。
 
 ---
 
@@ -833,11 +833,11 @@ def minimize_max(data, limit):
 ```
 
 **经典例题**
-- **[LC 704 二分查找](https://leetcode.cn/problems/binary-search/)**：标准模板题。
-- **[LC 34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)**：左右边界二分。
-- **[LC 875 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)**：在答案空间二分速度。
-- **[LC 1011 在 D 天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/)**：二分最小载重能力。
-- **[LC 410 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)**：二分答案 + 贪心验证。
+- [LC 704 二分查找](https://leetcode.cn/problems/PLACEHOLDER/)：标准模板题。
+- [LC 34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/PLACEHOLDER/)：左右边界二分。
+- [LC 875 爱吃香蕉的珂珂](https://leetcode.cn/problems/PLACEHOLDER/)：在答案空间二分速度。
+- [LC 1011 在 D 天内送达包裹的能力](https://leetcode.cn/problems/PLACEHOLDER/)：二分最小载重能力。
+- [LC 410 分割数组的最大值](https://leetcode.cn/problems/PLACEHOLDER/)：二分答案 + 贪心验证。
 
 ---
 
@@ -955,11 +955,11 @@ def solve_n_queens(n):
 ```
 
 **经典例题**
-- **[LC 46 全排列](https://leetcode.cn/problems/permutations/)**：used数组去重。
-- **[LC 77 组合](https://leetcode.cn/problems/combinations/)**：start参数控制不重复选取。
-- **[LC 78 子集](https://leetcode.cn/problems/subsets/)**：每层都记录结果。
-- **[LC 39 组合总和](https://leetcode.cn/problems/combination-sum/)**：可重复选，sum>target 时剪枝。
-- **[LC 51 N皇后](https://leetcode.cn/problems/n-queens/)**：三个 set 判断冲突，速度远快于矩阵遍历。
+- [LC 46 全排列](https://leetcode.cn/problems/PLACEHOLDER/)：used数组去重。
+- [LC 77 组合](https://leetcode.cn/problems/PLACEHOLDER/)：start参数控制不重复选取。
+- [LC 78 子集](https://leetcode.cn/problems/PLACEHOLDER/)：每层都记录结果。
+- [LC 39 组合总和](https://leetcode.cn/problems/PLACEHOLDER/)：可重复选，sum>target 时剪枝。
+- [LC 51 N皇后](https://leetcode.cn/problems/PLACEHOLDER/)：三个 set 判断冲突，速度远快于矩阵遍历。
 
 ---
 
@@ -1045,11 +1045,11 @@ def topological_sort(n, edges):
 ```
 
 **经典例题**
-- **[LC 127 单词接龙](https://leetcode.cn/problems/word-ladder/)**：BFS 按层扩散，每次替换一个字符。
-- **[LC 994 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/)**：多源 BFS，所有腐烂橘子同时扩散。
-- **[LC 207 课程表](https://leetcode.cn/problems/course-schedule/)**：拓扑排序判断有无环。
-- **[LC 210 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)**：返回拓扑序。
-- **[LC 1162 地图分析](https://leetcode.cn/problems/as-far-from-land-as-possible/)**：多源 BFS 求最远陆地。
+- [LC 127 单词接龙](https://leetcode.cn/problems/PLACEHOLDER/)：BFS 按层扩散，每次替换一个字符。
+- [LC 994 腐烂的橘子](https://leetcode.cn/problems/PLACEHOLDER/)：多源 BFS，所有腐烂橘子同时扩散。
+- [LC 207 课程表](https://leetcode.cn/problems/PLACEHOLDER/)：拓扑排序判断有无环。
+- [LC 210 课程表 II](https://leetcode.cn/problems/PLACEHOLDER/)：返回拓扑序。
+- [LC 1162 地图分析](https://leetcode.cn/problems/PLACEHOLDER/)：多源 BFS 求最远陆地。
 
 ---
 
@@ -1101,10 +1101,10 @@ def min_distance(word1, word2):
 ```
 
 **经典例题**
-- **[LC 300 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)**：O(n²) DP 或 O(n log n) 贪心+二分。
-- **[LC 72 编辑距离](https://leetcode.cn/problems/edit-distance/)**：二维 DP，三种操作转移。
-- **[LC 1143 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)**：`dp[i][j]` 以两串各前i/j字符为结尾的LCS长度。
-- **[LC 5 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)**：区间DP或中心扩展O(n²)。
+- [LC 300 最长递增子序列](https://leetcode.cn/problems/PLACEHOLDER/)：O(n²) DP 或 O(n log n) 贪心+二分。
+- [LC 72 编辑距离](https://leetcode.cn/problems/PLACEHOLDER/)：二维 DP，三种操作转移。
+- [LC 1143 最长公共子序列](https://leetcode.cn/problems/PLACEHOLDER/)：`dp[i][j]` 以两串各前i/j字符为结尾的LCS长度。
+- [LC 5 最长回文子串](https://leetcode.cn/problems/PLACEHOLDER/)：区间DP或中心扩展O(n²)。
 
 ---
 
@@ -1147,10 +1147,10 @@ def knapsack_complete(weights, values, W):
 ```
 
 **经典例题**
-- **[LC 416 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)**：0/1背包，背包容量 = sum//2，物品重量=值。
-- **[LC 322 零钱兑换](https://leetcode.cn/problems/coin-change/)**：完全背包，求凑成 amount 的最少硬币数。
-- **[LC 518 零钱兑换 II](https://leetcode.cn/problems/coin-change-ii/)**：完全背包，求凑成 amount 的方案数。
-- **[LC 474 一和零](https://leetcode.cn/problems/ones-and-zeroes/)**：二维0/1背包（容量是 m 个0和 n 个1）。
+- [LC 416 分割等和子集](https://leetcode.cn/problems/PLACEHOLDER/)：0/1背包，背包容量 = sum//2，物品重量=值。
+- [LC 322 零钱兑换](https://leetcode.cn/problems/PLACEHOLDER/)：完全背包，求凑成 amount 的最少硬币数。
+- [LC 518 零钱兑换 II](https://leetcode.cn/problems/PLACEHOLDER/)：完全背包，求凑成 amount 的方案数。
+- [LC 474 一和零](https://leetcode.cn/problems/PLACEHOLDER/)：二维0/1背包（容量是 m 个0和 n 个1）。
 
 ---
 
@@ -1174,9 +1174,9 @@ def interval_dp(arr):
 ```
 
 **经典例题**
-- **[LC 312 戳气球](https://leetcode.cn/problems/burst-balloons/)**：区间DP，`dp[i][j]` = 戳完 `(i,j)` 内气球的最大硬币数。
-- **[LC 1039 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/)**：区间DP求最小权值三角剖分。
-- **[LC 516 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)**：区间DP，`dp[i][j]` 为子串中最长回文子序列长度。
+- [LC 312 戳气球](https://leetcode.cn/problems/PLACEHOLDER/)：区间DP，`dp[i][j]` = 戳完 `(i,j)` 内气球的最大硬币数。
+- [LC 1039 多边形三角剖分的最低得分](https://leetcode.cn/problems/PLACEHOLDER/)：区间DP求最小权值三角剖分。
+- [LC 516 最长回文子序列](https://leetcode.cn/problems/PLACEHOLDER/)：区间DP，`dp[i][j]` 为子串中最长回文子序列长度。
 
 ---
 
@@ -1205,9 +1205,9 @@ def tsp(dist, n):
 ```
 
 **经典例题**
-- **[LC 847 访问所有节点的最短路径](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/)**：状压DP + BFS。
-- **[LC 691 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/)**：状压DP，用位掩码表示已覆盖的字符。
-- **[LC 1986 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)**：状压DP枚举子集划分。
+- [LC 847 访问所有节点的最短路径](https://leetcode.cn/problems/PLACEHOLDER/)：状压DP + BFS。
+- [LC 691 贴纸拼词](https://leetcode.cn/problems/PLACEHOLDER/)：状压DP，用位掩码表示已覆盖的字符。
+- [LC 1986 完成任务的最少工作时间段](https://leetcode.cn/problems/PLACEHOLDER/)：状压DP枚举子集划分。
 
 ---
 
@@ -1318,11 +1318,11 @@ def jump(nums):
 3. **验证方法**：交换论证（假设最优解与贪心解在某步不同，交换后不变差）或数学归纳。
 
 **经典例题**
-- **[LC 455 分发饼干](https://leetcode.cn/problems/assign-cookies/)**：小饼干优先满足小胃口，双指针贪心。
-- **[LC 45 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/)**：每次在当前可达范围内选最远跳。
-- **[LC 435 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)**：按结束时间排序，贪心保留结束早的区间。
-- **[LC 763 划分字母区间](https://leetcode.cn/problems/partition-labels/)**：记录每字母最远出现位置，贪心确定区间端点。
-- **[LC 406 根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height/)**：按身高降序+k升序排列后依次插入。
+- [LC 455 分发饼干](https://leetcode.cn/problems/PLACEHOLDER/)：小饼干优先满足小胃口，双指针贪心。
+- [LC 45 跳跃游戏 II](https://leetcode.cn/problems/PLACEHOLDER/)：每次在当前可达范围内选最远跳。
+- [LC 435 无重叠区间](https://leetcode.cn/problems/PLACEHOLDER/)：按结束时间排序，贪心保留结束早的区间。
+- [LC 763 划分字母区间](https://leetcode.cn/problems/PLACEHOLDER/)：记录每字母最远出现位置，贪心确定区间端点。
+- [LC 406 根据身高重建队列](https://leetcode.cn/problems/PLACEHOLDER/)：按身高降序+k升序排列后依次插入。
 
 ---
 
@@ -1383,10 +1383,10 @@ def find_kth_largest(nums, k):
 ```
 
 **经典例题**
-- **[LC 148 排序链表](https://leetcode.cn/problems/sort-list/)**：归并排序链表，O(n log n) 空间 O(log n)。
-- **[LC 315 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/)**：归并排序统计逆序对变体。
-- **[LC 215 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)**：快速选择平均 O(n)。
-- **[LC 4 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)**：分治二分，O(log(m+n))。
+- [LC 148 排序链表](https://leetcode.cn/problems/PLACEHOLDER/)：归并排序链表，O(n log n) 空间 O(log n)。
+- [LC 315 计算右侧小于当前元素的个数](https://leetcode.cn/problems/PLACEHOLDER/)：归并排序统计逆序对变体。
+- [LC 215 数组中的第K个最大元素](https://leetcode.cn/problems/PLACEHOLDER/)：快速选择平均 O(n)。
+- [LC 4 寻找两个正序数组的中位数](https://leetcode.cn/problems/PLACEHOLDER/)：分治二分，O(log(m+n))。
 
 ---
 
@@ -1483,11 +1483,11 @@ def rob(root):
 ```
 
 **经典例题**
-- **[LC 104 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)**：递归 `1 + max(left, right)`。
-- **[LC 236 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)**：后序DFS，左右同时找到则当前节点即为LCA。
-- **[LC 124 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)**：树形DP，每个节点维护单侧最大贡献。
-- **[LC 337 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/)**：树形DP，每节点返回选/不选两个状态。
-- **[LC 543 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)**：`left_depth + right_depth` 的最大值。
+- [LC 104 二叉树的最大深度](https://leetcode.cn/problems/PLACEHOLDER/)：递归 `1 + max(left, right)`。
+- [LC 236 二叉树的最近公共祖先](https://leetcode.cn/problems/PLACEHOLDER/)：后序DFS，左右同时找到则当前节点即为LCA。
+- [LC 124 二叉树中的最大路径和](https://leetcode.cn/problems/PLACEHOLDER/)：树形DP，每个节点维护单侧最大贡献。
+- [LC 337 打家劫舍 III](https://leetcode.cn/problems/PLACEHOLDER/)：树形DP，每节点返回选/不选两个状态。
+- [LC 543 二叉树的直径](https://leetcode.cn/problems/PLACEHOLDER/)：`left_depth + right_depth` 的最大值。
 
 ---
 
@@ -1683,10 +1683,10 @@ class UnionFind:
 ```
 
 **经典例题**
-- **[LC 200 岛屿数量](https://leetcode.cn/problems/number-of-islands/)**：DFS/BFS 或并查集均可。
-- **[LC 547 省份数量](https://leetcode.cn/problems/number-of-provinces/)**：并查集统计连通分量数。
-- **[LC 684 冗余连接](https://leetcode.cn/problems/redundant-connection/)**：并查集检测环，添加边时若已连通则该边冗余。
-- **[LC 1584 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)**：Kruskal 最小生成树。
+- [LC 200 岛屿数量](https://leetcode.cn/problems/PLACEHOLDER/)：DFS/BFS 或并查集均可。
+- [LC 547 省份数量](https://leetcode.cn/problems/PLACEHOLDER/)：并查集统计连通分量数。
+- [LC 684 冗余连接](https://leetcode.cn/problems/PLACEHOLDER/)：并查集检测环，添加边时若已连通则该边冗余。
+- [LC 1584 连接所有点的最小费用](https://leetcode.cn/problems/PLACEHOLDER/)：Kruskal 最小生成树。
 
 ---
 
@@ -1725,9 +1725,9 @@ def dijkstra(n, edges, src):
 ```
 
 **经典例题**
-- **[LC 743 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)**：Dijkstra 单源最短路，返回 max(dist)。
-- **[LC 1631 最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)**：Dijkstra（最小化路径上最大差值）。
-- **[LC 787 K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/)**：Bellman-Ford（限制边数）或 Dijkstra+层数。
+- [LC 743 网络延迟时间](https://leetcode.cn/problems/PLACEHOLDER/)：Dijkstra 单源最短路，返回 max(dist)。
+- [LC 1631 最小体力消耗路径](https://leetcode.cn/problems/PLACEHOLDER/)：Dijkstra（最小化路径上最大差值）。
+- [LC 787 K 站中转内最便宜的航班](https://leetcode.cn/problems/PLACEHOLDER/)：Bellman-Ford（限制边数）或 Dijkstra+层数。
 
 ---
 
@@ -1766,9 +1766,9 @@ def topo_dfs(n, edges):
 ```
 
 **经典例题**
-- **[LC 207 课程表](https://leetcode.cn/problems/course-schedule/)**：Kahn 算法检测有无环。
-- **[LC 210 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)**：返回拓扑序。
-- **[LC 269 火星词典](https://leetcode.cn/problems/alien-dictionary/)**：从字典构建偏序关系，拓扑排序。
+- [LC 207 课程表](https://leetcode.cn/problems/PLACEHOLDER/)：Kahn 算法检测有无环。
+- [LC 210 课程表 II](https://leetcode.cn/problems/PLACEHOLDER/)：返回拓扑序。
+- [LC 269 火星词典](https://leetcode.cn/problems/PLACEHOLDER/)：从字典构建偏序关系，拓扑排序。
 
 ---
 
