@@ -50,8 +50,8 @@
       /* ===== Note Layout ===== */
       .note-layout {
         display: flex;
-        gap: 2rem;
-        max-width: 1200px;
+        gap: 1.5rem;
+        max-width: 1400px;
         margin: 2rem auto;
         padding: 0 1.5rem;
         align-items: flex-start;
@@ -59,7 +59,7 @@
       .note-toc {
         position: sticky;
         top: 80px;
-        width: 220px;
+        width: 180px;
         flex-shrink: 0;
         background: #f8f9fa;
         border-radius: 8px;
@@ -67,7 +67,7 @@
         border: 1px solid #e9ecef;
         max-height: calc(100vh - 100px);
         overflow-y: auto;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
       }
       .toc-title {
         font-weight: 700;
@@ -177,7 +177,7 @@
       /* ===== TOC active ===== */
       #toc-list a.active { color: #007bff; font-weight: 600; }
       /* ===== Mobile ===== */
-      @media (max-width: 768px) {
+      @media (max-width: 900px) {
         .note-toc { display: none; }
         .note-layout { padding: 0 1rem; }
       }
