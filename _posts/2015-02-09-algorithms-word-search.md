@@ -1,190 +1,134 @@
 ---
 layout: post
-title: Word Search
+title: "Word Search"
 categories: Algorithm
+tags: [DFS, Backtracking, Matrix]
 ---
 
-Problem description
--------------------
-Given a 2D board and a word, find if the word exists in the grid. 
-The word can be constructed from letters of sequentially adjacent cell,
- where "adjacent" cells are those horizontally or vertically neighboring. 
-The same letter cell may not be used more than once. 
+## Problem
 
-For example, given board as:
-{% highlight c++ %}
-board = 
-{
-  {'A', 'B', 'C', 'E'},
-  {'S', 'F', 'C', 'S'},
-  {'A', 'D', 'E', 'E'}
-}
+> **LeetCode 79 · Word Search**  
+> Given an `m × n` character grid `board` and a string `word`, return `true` if `word` exists in the grid.  
+> The word must be constructed from letters of **sequentially adjacent cells** (horizontally or vertically neighboring), and the **same cell may not be used more than once**.
 
-word = "ABCCED", then return true;
-word = "SEE", then return true;
-word = "ABCB", then return false;
-{% endhighlight %}
+**Example:**
 
-Solution
---------
-{% highlight  c++ %}
-class Solution 
-{
-  public:
-    struct step
-    {
-      int x;
-      int y;
-      int direction;
+```
+board =
+  A B C E
+  S F C S
+  A D E E
 
-      step(int x_pos = 0, int y_pos = 0, int d = 0) :
-        x(x_pos), y(y_pos), direction(d){}
+"ABCCED" → true   (A→B→C→C→E→D)
+"SEE"    → true   (S→E→E)
+"ABCB"   → false  (B cannot be reused)
+```
 
-      step next()
-      {
-        step s;
-        s.x = x;
-        s.y = y;
-        s.direction = 0;
+---
 
-        switch (direction)
-        {
-          case 0: // turn left
-            s.y += 1;
-            break;
-          case 1: // down
-            s.x += 1;
-            break;
-          case 2:
-            s.y -= 1;
-            break;
-          case 3:
-            s.x -= 1;
-            break;
-          default:
-            break;
-        }
+## Analysis
 
-        return s;
-      }
+Standard **DFS + Backtracking** on a 2-D grid.
 
-      bool operator==(const step &rhs)
-      {
-        return x == rhs.x && y == rhs.y;
-      }
-    };
+| Step | Action |
+|------|--------|
+| 1 | Iterate every cell as a potential starting point |
+| 2 | If `board[r][c] == word[0]`, launch DFS |
+| 3 | DFS: mark cell visited → recurse on 4 neighbours → unmark (backtrack) |
+| 4 | Return `true` as soon as the full word is matched |
 
-    bool exist(vector<vector<char> > &board, string word)
-    {
-      char board_letters[256];
-      char word_letters[256];
-      for (int i = 0; i < 256; ++i)
-      {
-        board_letters[i] = 0;
-        word_letters[i] = 0;
-      }
+**Complexity:** Time O(m·n·4^L), Space O(L) — where L = `len(word)`.
 
-      for (int i = 0; i < board.size(); ++i)
-      {
-        for (int j = 0; j < board[i].size(); ++j)
-        {
-          ++board_letters[board[i][j]];
-        }
-      }
+**Optimization:** Check character frequency up front; if the board lacks enough of any character in `word`, short-circuit immediately.
 
-      for (int i = 0; i < word.length(); ++i)
-      {
-        ++word_letters[word[i]];
-      }
+---
 
-      for (int i = 0; i < 256; ++i)
-      {
-        if (word_letters[i] > board_letters[i])
-          return false;
-      }
+## Solution (Python)
 
-      step *track = new step[word.length()];
+```python
+class Solution:
+    def exist(self, board: list[list[str]], word: str) -> bool:
+        from collections import Counter
 
-      for (int i = 0; i < board.size(); ++i)
-      {
-        for (int j = 0; j < board[i].size(); ++j)
-        {
-          if (word[0] != board[i][j])
-            continue;
+        # Early exit: board must contain at least as many of each char as word needs
+        board_count = Counter(c for row in board for c in row)
+        for c, need in Counter(word).items():
+            if board_count[c] < need:
+                return False
 
-          int top = -1;
-          step s(i, j, 0);
-          // push to track
-          track[++top] = s;
-          while (top > -1)
-          {
-            s = track[top]; // get the last step
-            if (top == word.length() - 1 && 
-              word[top] == board[s.x][s.y]) // matched 
-            {
-              delete[]track;
-              return true;
-            }
+        rows, cols = len(board), len(board[0])
+        DIRS = ((0, 1), (0, -1), (1, 0), (-1, 0))
 
-            if (word[top] == board[s.x][s.y]) 
-            {
-              // go to the next step
-              if (s.direction < 4)
-              {
-                step t = s.next();
-                bool valid = false;
-                if (t.x >= 0 && t.x < board.size() && 
-                  t.y >= 0 && t.y < board[t.x].size())
-                {
-                  valid = true;
+        def dfs(r: int, c: int, idx: int) -> bool:
+            if idx == len(word):          # all characters matched
+                return True
+            if not (0 <= r < rows and 0 <= c < cols):
+                return False
+            if board[r][c] != word[idx]:  # character mismatch
+                return False
+
+            tmp, board[r][c] = board[r][c], "#"   # mark as visited
+            found = any(dfs(r + dr, c + dc, idx + 1) for dr, dc in DIRS)
+            board[r][c] = tmp                       # backtrack
+
+            return found
+
+        return any(
+            dfs(r, c, 0)
+            for r in range(rows)
+            for c in range(cols)
+        )
+```
+
+---
+
+## Solution (C++)
+
+```cpp
+class Solution {
+public:
+    bool exist(vector<vector<char>>& board, string word) {
+        int m = board.size(), n = board[0].size();
+
+        // Frequency check
+        int boardFreq[128]{}, wordFreq[128]{};
+        for (auto& row : board)
+            for (char ch : row) ++boardFreq[(int)ch];
+        for (char ch : word) ++wordFreq[(int)ch];
+        for (int i = 0; i < 128; ++i)
+            if (wordFreq[i] > boardFreq[i]) return false;
+
+        const int DIRS[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
+
+        function<bool(int,int,int)> dfs = [&](int r, int c, int idx) -> bool {
+            if (idx == (int)word.size()) return true;
+            if (r < 0 || r >= m || c < 0 || c >= n) return false;
+            if (board[r][c] != word[idx]) return false;
+
+            char tmp = board[r][c];
+            board[r][c] = '#';  // mark visited
+            for (auto& d : DIRS)
+                if (dfs(r + d[0], c + d[1], idx + 1)) {
+                    board[r][c] = tmp;
+                    return true;
                 }
+            board[r][c] = tmp;  // backtrack
+            return false;
+        };
 
-                if (valid)
-                {
-                  bool find = false;
-                  for (int k = top; k >= 0; --k)
-                  {
-                    if (track[k] == t)
-                    {
-                      find = true;
-                      break;
-                    }
-                  }
+        for (int r = 0; r < m; ++r)
+            for (int c = 0; c < n; ++c)
+                if (dfs(r, c, 0)) return true;
 
-                  if (!find)
-                  {
-                    track[++top] = t;
-                  }
-                  else
-                  {
-                    ++track[top].direction;
-                  }
-                }
-                else
-                {
-                  ++track[top].direction;
-                }
-              }
-              else // pop the top
-              {
-                --top;
-                if (top > -1)
-                  ++track[top].direction;
-              }
-            }
-            else // do not match, try next direction
-            {
-              --top;
-              if (top > -1)
-                ++track[top].direction;
-            }
-          }
-        }
-      } // end for 
-      delete[]track;
-
-      return false;
+        return false;
     }
 };
-{% endhighlight %}
+```
 
+---
+
+## Why the Original Solution Had Issues
+
+The 2015 iterative version simulated a stack manually with a `direction` counter per frame.  
+The bug: when a cell matched but **all 4 neighbours were exhausted or invalid**, it popped the stack but incremented the *parent's* direction counter — effectively skipping valid sibling paths that hadn't been tried yet from the grandparent.  
+Recursive backtracking avoids this entirely: the call stack itself handles the frame management correctly.
