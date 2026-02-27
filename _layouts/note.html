@@ -16,7 +16,11 @@
       </div>
     </main>
     {% include footer.html %}
-    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script>hljs.highlightAll();</script>
+        <style>
       /* ===== Note Layout ===== */
       .note-layout {
         display: flex;
@@ -101,12 +105,10 @@
       .note-body h3 .hard  { background:#dc3545; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
       /* ===== Code Blocks ===== */
       .note-body pre {
-        background: #f4f5f7;
-        color: #24292e;
         border-radius: 8px;
-        padding: 1rem 1.2rem;
+        padding: 1rem 1.2rem !important;
         overflow-x: auto;
-        font-size: 0.88rem;
+        font-size: 0.88rem !important;
         line-height: 1.6;
         margin: 0.75rem 0 1rem;
         border: 1px solid #e1e4e8;
@@ -178,3 +180,4 @@
     </script>
   </body>
 </html>
+
