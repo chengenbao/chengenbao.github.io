@@ -18,5 +18,16 @@ permalink: /notes/
         <span class="tag">MLIR</span>
       </div>
     </a>
+    <a class="note-card" href="/notes/leetcode-top100/">
+      <div class="note-icon">🧩</div>
+      <div class="note-body">
+        <h2>LeetCode 高频100题总结</h2>
+        <p>按题型分类整理，每题含完整题目描述、核心思路、复杂度分析与 Python 代码模板。</p>
+        <span class="tag">LeetCode</span>
+        <span class="tag">算法</span>
+        <span class="tag">Python</span>
+        <span class="tag">面试</span>
+      </div>
+    </a>
   </div>
 </div>
