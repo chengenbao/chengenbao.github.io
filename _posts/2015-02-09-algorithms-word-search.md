@@ -98,7 +98,11 @@ public:
         for (int i = 0; i < 128; ++i)
             if (wordFreq[i] > boardFreq[i]) return false;
 
-        const int DIRS[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
+        int DIRS[4][2];
+        DIRS[0][0]=0;  DIRS[0][1]=1;
+        DIRS[1][0]=0;  DIRS[1][1]=-1;
+        DIRS[2][0]=1;  DIRS[2][1]=0;
+        DIRS[3][0]=-1; DIRS[3][1]=0;
 
         function<bool(int,int,int)> dfs = [&](int r, int c, int idx) -> bool {
             if (idx == (int)word.size()) return true;
