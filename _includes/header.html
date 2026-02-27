@@ -1,11 +1,12 @@
 <header class="site-header">
   <div class="container">
     <a class="site-title" href="{{ "/" | relative_url }}">
-      <span class="title-icon">⚡</span>{{ site.title }}
+      <img src="https://avatars.githubusercontent.com/u/4043979" alt="chengenbao" class="avatar">
+      <span>chengenbao</span>
     </a>
     <nav class="site-nav">
       <a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Blog</a>
-      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/chengenbao" target="_blank" rel="noopener">GitHub</a>
       <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
     </nav>
   </div>
