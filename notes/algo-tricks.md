@@ -1500,161 +1500,156 @@ def rob(root):
 > 💡 **图示**（并查集合并与路径压缩）
 
 <div style="overflow-x:auto;margin:1rem 0">
-<svg viewBox="0 0 560 530" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:12px">
+<svg viewBox="0 0 580 640" xmlns="http://www.w3.org/2000/svg" style="max-width:580px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:12px">
   <defs>
-    <marker id="uf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <marker id="uf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="uf-arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <marker id="uf-arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M1,2 L8,5 L1,8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
 
   <!-- ══ 标题 ══ -->
-  <text x="280" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：Union 过程 &amp; 路径压缩</text>
-  <text x="280" y="30" text-anchor="middle" fill="#888" font-size="10">箭头方向：孩子 → 父亲（parent[child]=parent）</text>
+  <text x="290" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：Union 过程 &amp; 路径压缩</text>
+  <text x="290" y="30" text-anchor="middle" fill="#888" font-size="10">箭头方向：孩子 → 父亲（parent[child] = parent）</text>
 
   <!-- 左右分隔线 -->
-  <line x1="390" y1="36" x2="390" y2="520" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="400" y1="36" x2="400" y2="635" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,3"/>
 
-  <!-- ══ 左侧：列标题 ══ -->
+  <!-- 列标题 -->
   <text x="55"  y="44" text-anchor="middle" fill="#888" font-size="10">操作</text>
-  <text x="210" y="44" text-anchor="middle" fill="#888" font-size="10">当前树形状态</text>
-  <text x="330" y="44" text-anchor="middle" fill="#888" font-size="10">parent数组</text>
-  <line x1="10" y1="48" x2="385" y2="48" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="200" y="44" text-anchor="middle" fill="#888" font-size="10">当前树形状态</text>
+  <text x="328" y="44" text-anchor="middle" fill="#888" font-size="10">parent 数组</text>
+  <line x1="10" y1="48" x2="395" y2="48" stroke="#e0e0e0" stroke-width="1"/>
 
-  <!-- ━━━━ Step 1: union(1,2) ━━━━ -->
-  <rect x="10" y="54" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
-  <text x="55" y="70" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,2)</text>
-  <!-- 根1 at(185,62), 子2 at(185,93) -->
-  <circle cx="185" cy="62" r="11" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="185" y="66" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="11">1</text>
-  <!-- 2→1: from(185,82) to(185,73) -->
-  <line x1="185" y1="82" x2="185" y2="74" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
-  <circle cx="185" cy="93" r="11" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
-  <text x="185" y="97" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">2</text>
-  <text x="295" y="62" fill="#555" font-size="11">parent:</text>
-  <text x="295" y="76" fill="#888" font-size="10">[_, 1, 1, 3, 4, 5]</text>
-  <text x="295" y="90" fill="#e65100" font-size="10">↑ [2]=1 (新)</text>
-  <line x1="10" y1="114" x2="385" y2="114" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- ━━━━ Step 1: union(1,2)  根1(200,75) 子2(200,135) ━━━━ -->
+  <rect x="10" y="56" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="55" y="72" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,2)</text>
+  <circle cx="200" cy="75" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="200" y="80" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="12">1</text>
+  <!-- 2→1: from(200,122) to(200,89) -->
+  <line x1="200" y1="122" x2="200" y2="90" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
+  <circle cx="200" cy="135" r="13" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
+  <text x="200" y="140" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">2</text>
+  <text x="310" y="72" fill="#555" font-size="11">parent:</text>
+  <text x="310" y="88" fill="#888" font-size="10">[_, 1, 1, 3, 4, 5]</text>
+  <text x="310" y="103" fill="#e65100" font-size="10">↑ [2]=1 新增</text>
+  <line x1="10" y1="160" x2="395" y2="160" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
 
-  <!-- ━━━━ Step 2: union(1,3) ━━━━ -->
-  <rect x="10" y="122" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
-  <text x="55" y="138" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,3)</text>
-  <!-- 根1 at(185,132), 子2 at(158,163), 子3 at(212,163) -->
-  <circle cx="185" cy="132" r="11" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="185" y="136" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="11">1</text>
-  <!-- 2→1: from(163,153) to(177,142) -->
-  <line x1="163" y1="153" x2="177" y2="143" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="158" cy="163" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="158" y="167" text-anchor="middle" fill="#333" font-size="11">2</text>
-  <!-- 3→1: from(207,153) to(193,142) -->
-  <line x1="207" y1="153" x2="193" y2="143" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
-  <circle cx="212" cy="163" r="11" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
-  <text x="212" y="167" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">3</text>
-  <text x="295" y="132" fill="#555" font-size="11">parent:</text>
-  <text x="295" y="147" fill="#888" font-size="10">[_, 1, 1, 1, 4, 5]</text>
-  <text x="295" y="161" fill="#e65100" font-size="10">↑ [3]=1 (新)</text>
-  <line x1="10" y1="184" x2="385" y2="184" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- ━━━━ Step 2: union(1,3)  根1(200,180) 子2(160,240) 子3(240,240) ━━━━ -->
+  <rect x="10" y="168" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="55" y="184" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,3)</text>
+  <circle cx="200" cy="188" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="200" y="193" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="12">1</text>
+  <!-- 2→1: from(164,227) to(188,201) -->
+  <line x1="164" y1="227" x2="188" y2="201" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="160" cy="240" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="160" y="245" text-anchor="middle" fill="#333" font-size="12">2</text>
+  <!-- 3→1: from(236,227) to(212,201) -->
+  <line x1="236" y1="227" x2="212" y2="201" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
+  <circle cx="240" cy="240" r="13" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
+  <text x="240" y="245" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">3</text>
+  <text x="310" y="185" fill="#555" font-size="11">parent:</text>
+  <text x="310" y="201" fill="#888" font-size="10">[_, 1, 1, 1, 4, 5]</text>
+  <text x="310" y="216" fill="#e65100" font-size="10">↑ [3]=1 新增</text>
+  <line x1="10" y1="268" x2="395" y2="268" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
 
-  <!-- ━━━━ Step 3: union(3,4) ━━━━ -->
-  <rect x="10" y="192" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
-  <text x="55" y="208" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(3,4)</text>
-  <!-- 根1 at(175,203), 子2 at(145,233), 子3 at(205,233), 孙4 at(205,263) -->
-  <circle cx="175" cy="203" r="11" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="175" y="207" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="11">1</text>
+  <!-- ━━━━ Step 3: union(3,4)  根1(195,285) 子2(145,345) 子3(245,345) 孙4(245,405) ━━━━ -->
+  <rect x="10" y="276" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="55" y="292" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(3,4)</text>
+  <circle cx="195" cy="293" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="195" y="298" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="12">1</text>
   <!-- 2→1 -->
-  <line x1="150" y1="223" x2="164" y2="213" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="145" cy="234" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="145" y="238" text-anchor="middle" fill="#333" font-size="11">2</text>
+  <line x1="149" y1="332" x2="182" y2="306" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="145" cy="345" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="145" y="350" text-anchor="middle" fill="#333" font-size="12">2</text>
   <!-- 3→1 -->
-  <line x1="200" y1="223" x2="186" y2="213" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="205" cy="234" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="205" y="238" text-anchor="middle" fill="#333" font-size="11">3</text>
+  <line x1="241" y1="332" x2="208" y2="306" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="245" cy="345" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="245" y="350" text-anchor="middle" fill="#333" font-size="12">3</text>
   <!-- 4→3 -->
-  <line x1="205" y1="254" x2="205" y2="246" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
-  <circle cx="205" cy="265" r="11" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
-  <text x="205" y="269" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">4</text>
-  <text x="295" y="207" fill="#555" font-size="11">parent:</text>
-  <text x="295" y="222" fill="#888" font-size="10">[_, 1, 1, 1, 3, 5]</text>
-  <text x="295" y="236" fill="#e65100" font-size="10">↑ [4]=3 (新)</text>
-  <text x="295" y="250" fill="#888" font-size="10">find(4)=find(3)=1</text>
-  <line x1="10" y1="284" x2="385" y2="284" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="245" y1="392" x2="245" y2="360" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
+  <circle cx="245" cy="405" r="13" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
+  <text x="245" y="410" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">4</text>
+  <text x="310" y="290" fill="#555" font-size="11">parent:</text>
+  <text x="310" y="306" fill="#888" font-size="10">[_, 1, 1, 1, 3, 5]</text>
+  <text x="310" y="321" fill="#e65100" font-size="10">↑ [4]=3 新增</text>
+  <text x="310" y="336" fill="#888" font-size="10">find(4)→3→1</text>
+  <line x1="10" y1="430" x2="395" y2="430" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="3,3"/>
 
-  <!-- ━━━━ Step 4: union(1,5) ━━━━ -->
-  <rect x="10" y="292" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
-  <text x="55" y="308" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,5)</text>
-  <!-- 根1 at(165,302), 子2(130,332), 子3(165,332), 子5(200,332), 孙4(165,362) -->
-  <circle cx="165" cy="302" r="11" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="165" y="306" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="11">1</text>
+  <!-- ━━━━ Step 4: union(1,5)  根1(190,448) 子2(115,508) 子3(190,508) 子5(265,508) 孙4(190,568) ━━━━ -->
+  <rect x="10" y="438" width="90" height="24" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="55" y="454" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union(1,5)</text>
+  <circle cx="190" cy="456" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="190" y="461" text-anchor="middle" fill="#1b5e20" font-weight="bold" font-size="12">1</text>
   <!-- 2→1 -->
-  <line x1="135" y1="322" x2="154" y2="312" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="130" cy="333" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="130" y="337" text-anchor="middle" fill="#333" font-size="11">2</text>
+  <line x1="119" y1="495" x2="178" y2="469" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="115" cy="508" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="115" y="513" text-anchor="middle" fill="#333" font-size="12">2</text>
   <!-- 3→1 -->
-  <line x1="165" y1="322" x2="165" y2="314" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="165" cy="333" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="165" y="337" text-anchor="middle" fill="#333" font-size="11">3</text>
+  <line x1="190" y1="495" x2="190" y2="470" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="190" cy="508" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="190" y="513" text-anchor="middle" fill="#333" font-size="12">3</text>
   <!-- 5→1 (新，橙色) -->
-  <line x1="193" y1="322" x2="176" y2="312" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
-  <circle cx="198" cy="333" r="11" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
-  <text x="198" y="337" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">5</text>
+  <line x1="261" y1="495" x2="202" y2="469" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
+  <circle cx="265" cy="508" r="13" fill="#fff9c4" stroke="#ffd54f" stroke-width="2"/>
+  <text x="265" y="513" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">5</text>
   <!-- 4→3 -->
-  <line x1="165" y1="354" x2="165" y2="346" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="165" cy="365" r="11" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="165" y="369" text-anchor="middle" fill="#333" font-size="11">4</text>
-  <text x="295" y="306" fill="#555" font-size="11">parent:</text>
-  <text x="295" y="321" fill="#888" font-size="10">[_, 1, 1, 1, 3, 1]</text>
-  <text x="295" y="335" fill="#e65100" font-size="10">↑ [5]=1 (新)</text>
-  <line x1="10" y1="388" x2="385" y2="388" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="190" y1="555" x2="190" y2="523" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="190" cy="568" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="190" y="573" text-anchor="middle" fill="#333" font-size="12">4</text>
+  <text x="310" y="453" fill="#555" font-size="11">parent:</text>
+  <text x="310" y="469" fill="#888" font-size="10">[_, 1, 1, 1, 3, 1]</text>
+  <text x="310" y="484" fill="#e65100" font-size="10">↑ [5]=1 新增</text>
+  <line x1="10" y1="595" x2="395" y2="595" stroke="#e0e0e0" stroke-width="1"/>
 
   <!-- 图例 -->
-  <line x1="18" y1="400" x2="38" y2="400" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
-  <text x="42" y="404" fill="#e65100" font-size="10">本步新增边</text>
-  <line x1="118" y1="400" x2="138" y2="400" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <text x="142" y="404" fill="#1565c0" font-size="10">已有边</text>
-  <circle cx="215" cy="400" r="7" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="225" y="404" fill="#e65100" font-size="10">新加入节点</text>
+  <line x1="18" y1="610" x2="42" y2="610" stroke="#e65100" stroke-width="2" marker-end="url(#uf-arrO)"/>
+  <text x="46" y="614" fill="#e65100" font-size="10">本步新增</text>
+  <line x1="118" y1="610" x2="142" y2="610" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <text x="146" y="614" fill="#1565c0" font-size="10">已有边</text>
+  <circle cx="220" cy="610" r="8" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="232" y="614" fill="#e65100" font-size="10">新节点</text>
 
   <!-- ══ 右侧：路径压缩 ══ -->
-  <text x="470" y="44" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">路径压缩 find(4)</text>
-  <line x1="400" y1="48" x2="555" y2="48" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="490" y="44" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">路径压缩 find(4)</text>
+  <line x1="408" y1="48" x2="572" y2="48" stroke="#e0e0e0" stroke-width="1"/>
 
   <!-- 压缩前 -->
-  <text x="470" y="66" text-anchor="middle" fill="#666" font-size="11">压缩前：4→3→1</text>
-  <!-- 竖排：1(顶) 3(中) 4(底)，箭头向上（孩子→父） -->
-  <circle cx="470" cy="85" r="12" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="470" y="89" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <text x="490" y="68" text-anchor="middle" fill="#666" font-size="11">压缩前：4→3→1</text>
+  <circle cx="490" cy="90" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="490" y="95" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
   <!-- 3→1 -->
-  <line x1="470" y1="109" x2="470" y2="98" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="470" cy="121" r="12" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="470" y="125" text-anchor="middle" fill="#333">3</text>
+  <line x1="490" y1="133" x2="490" y2="104" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="490" cy="147" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="490" y="152" text-anchor="middle" fill="#333">3</text>
   <!-- 4→3 -->
-  <line x1="470" y1="145" x2="470" y2="134" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="470" cy="157" r="12" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="470" y="161" text-anchor="middle" fill="#333">4</text>
-  <text x="470" y="180" text-anchor="middle" fill="#888" font-size="10">深度=2，find(4)需走2步</text>
+  <line x1="490" y1="190" x2="490" y2="161" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="490" cy="204" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="490" y="209" text-anchor="middle" fill="#333">4</text>
+  <text x="490" y="228" text-anchor="middle" fill="#888" font-size="10">深度=2，需走2步</text>
 
-  <text x="470" y="204" text-anchor="middle" fill="#e65100" font-size="20">↓</text>
-  <text x="470" y="222" text-anchor="middle" fill="#e65100" font-size="11">路径压缩后</text>
+  <text x="490" y="256" text-anchor="middle" fill="#e65100" font-size="22">↓</text>
+  <text x="490" y="276" text-anchor="middle" fill="#e65100" font-size="11">路径压缩后</text>
 
   <!-- 压缩后 -->
-  <text x="470" y="244" text-anchor="middle" fill="#666" font-size="11">压缩后：4直连根1</text>
-  <circle cx="470" cy="263" r="12" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="470" y="267" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <text x="490" y="298" text-anchor="middle" fill="#666" font-size="11">压缩后：4直连根1</text>
+  <circle cx="490" cy="318" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="490" y="323" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
   <!-- 3→1 -->
-  <line x1="445" y1="291" x2="459" y2="275" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="438" cy="302" r="12" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="438" y="306" text-anchor="middle" fill="#333">3</text>
-  <!-- 4→1 (压缩新边，橙色虚线) -->
-  <line x1="499" y1="291" x2="481" y2="275" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
-  <circle cx="505" cy="302" r="12" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="505" y="306" text-anchor="middle" fill="#e65100" font-weight="bold">4</text>
-  <text x="470" y="328" text-anchor="middle" fill="#888" font-size="10">深度=1，find(4)只需1步 ✓</text>
+  <line x1="460" y1="355" x2="478" y2="332" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="454" cy="368" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="454" y="373" text-anchor="middle" fill="#333">3</text>
+  <!-- 4→1 压缩新边 -->
+  <line x1="520" y1="355" x2="502" y2="332" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
+  <circle cx="526" cy="368" r="13" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="526" y="373" text-anchor="middle" fill="#e65100" font-weight="bold">4</text>
+  <text x="490" y="396" text-anchor="middle" fill="#888" font-size="10">深度=1，只需1步 ✓</text>
 
   <!-- 右侧图例 -->
-  <line x1="408" y1="350" x2="428" y2="350" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
-  <text x="432" y="354" fill="#e65100" font-size="10">压缩新边（直连根）</text>
+  <line x1="412" y1="420" x2="436" y2="420" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
+  <text x="440" y="424" fill="#e65100" font-size="10">压缩新边</text>
 </svg>
 </div>
 
