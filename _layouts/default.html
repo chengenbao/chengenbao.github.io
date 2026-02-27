@@ -1,39 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html lang="zh-CN">
   {% include head.html %}
-
   <body>
-
-    <header class="masthead">
-      <div class="masthead-inner">
-        <div style="padding-bottom: 50px;"><img src="http://chengenbao.github.io/public/chess.jpg" /> </div>
-        <h2>{{ site.title }}</h2>
-        <p class="site-desc">{{ site.description }}</p>
-        <div class="colophon">
-          <ul class="colophon-links" style="font-size:12px;">
-            <li>
-              Email: genbao.chen@gmail.com
-            </li>
-            <li>
-              Mobile: (+86) 186-1228-5355
-            </li>
-            <li>
-              QQ: 415968378
-            </li>
-            <li>
-              Address: DAXING District, BEIJING, CHINA
-            </li>
-
-          </ul>
-          <p style="font-size:12px;">&copy; 2014. {{ site.author.name }} All rights reserved.</p>
-        </div>
+    {% include header.html %}
+    <main class="main-content">
+      <div class="container">
+        {{ content }}
       </div>
-    </header>
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
+    </main>
+    {% include footer.html %}
   </body>
 </html>
