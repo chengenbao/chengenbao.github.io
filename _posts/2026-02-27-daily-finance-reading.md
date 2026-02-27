@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "财经精选 2026-02-27：AI贸易影响、美债长端利率、Stablecoin历史"
-categories: FinanceReading
-tags: [宏观经济, 美联储, Stablecoin, 利率, AI经济]
+categories: ReadingList
+tags: [ReadingList, Finance, 宏观经济, 美联储, Stablecoin, 利率, AI经济]
 ---
 
 > 每日精选：宏观经济 / 金融科技 / 资产配置  
