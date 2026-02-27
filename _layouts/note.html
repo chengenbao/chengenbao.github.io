@@ -20,7 +20,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
     <script>hljs.highlightAll();</script>
-        <style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      /* ===== Global Font ===== */
+      .note-title {
+        font-family: 'Noto Serif SC', 'Noto Sans SC', serif;
+        letter-spacing: 0.03em;
+      }
+      .note-body h2 {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+      .note-body h3 {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-weight: 600;
+      }
+      .note-body h4 {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-weight: 500;
+      }
+      .note-body p, .note-body li {
+        line-height: 1.9;
+      }
+      .note-toc {
+        font-family: 'Noto Sans SC', sans-serif;
+      }
       /* ===== Note Layout ===== */
       .note-layout {
         display: flex;
@@ -65,6 +91,11 @@
       .note-body {
         flex: 1;
         min-width: 0;
+        font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        font-size: 15px;
+        line-height: 1.8;
+        color: #2c3e50;
+        letter-spacing: 0.02em;
       }
       .note-title {
         font-size: 1.8rem;
