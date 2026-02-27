@@ -541,7 +541,7 @@ def minimize_max(data, limit):
 
 > 💡 **图示**（全排列 `[1,2,3]` 的递归树）
 
-```mermaid
+<div class="mermaid">
 graph TD
   A["[]"] --> B["[1]"]
   A --> C["[2]"]
@@ -564,7 +564,7 @@ graph TD
   style N fill:#d4edda
   style O fill:#d4edda
   style P fill:#d4edda
-```
+</div>
 
 **解题模板**
 ```python
@@ -663,7 +663,7 @@ def solve_n_queens(n):
 
 > 💡 **图示**（BFS 最短路径示例）
 
-```mermaid
+<div class="mermaid">
 graph LR
   S((起点S)) -->|1| A((A))
   S -->|4| B((B))
@@ -673,7 +673,7 @@ graph LR
   C -->|1| E
   style S fill:#cce5ff
   style E fill:#d4edda
-```
+</div>
 
 **解题模板**
 ```python
@@ -804,12 +804,12 @@ def min_distance(word1, word2):
 
 > 💡 **图示**（0/1背包状态转移）
 
-```mermaid
+<div class="mermaid">
 graph LR
   A["dp[i-1][j]<br/>不选第i件"] --> C["dp[i][j]<br/>= max(A, B)"]
   B["dp[i-1][j-w]+v<br/>选第i件"] --> C
   style C fill:#fff3cd
-```
+</div>
 
 ```text
        容量j: 0  1  2  3  4  5
@@ -1065,7 +1065,7 @@ def find_kth_largest(nums, k):
 
 > 💡 **图示**（二叉树递归结构）
 
-```mermaid
+<div class="mermaid">
 graph TD
   R((根节点)) --> L((左子树))
   R --> Ri((右子树))
@@ -1076,7 +1076,7 @@ graph TD
   style R fill:#cce5ff
   style L fill:#d4edda
   style Ri fill:#d4edda
-```
+</div>
 
 **解题模板**
 ```python
