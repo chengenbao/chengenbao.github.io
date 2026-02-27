@@ -510,63 +510,118 @@ def longest_consecutive(nums):
 > 💡 **图示**
 
 <div style="overflow-x:auto;margin:1rem 0">
-<svg viewBox="0 0 520 230" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
     <marker id="ms-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M1,2 L8,5 L1,8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
-  <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">单调栈：下一个更大元素</text>
-  <text x="12" y="38" fill="#666" font-size="11">数组:</text>
-  <rect x="54" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="78" y="43" text-anchor="middle" fill="#333" font-weight="bold">2</text>
-  <rect x="110" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="134" y="43" text-anchor="middle" fill="#333" font-weight="bold">1</text>
-  <rect x="166" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="190" y="43" text-anchor="middle" fill="#333" font-weight="bold">5</text>
-  <rect x="222" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="246" y="43" text-anchor="middle" fill="#333" font-weight="bold">3</text>
-  <rect x="278" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="302" y="43" text-anchor="middle" fill="#333" font-weight="bold">6</text>
-  <text x="350" y="38" fill="#888" font-size="11">idx: 0  1  2  3  4</text>
-  <text x="12" y="70" fill="#555" font-size="11" font-weight="bold">&#x2460; i=0</text>
-  <text x="12" y="82" fill="#777" font-size="11">入栈2</text>
-  <rect x="54" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="74" y="77" text-anchor="middle" fill="#f57f17">2</text>
-  <text x="98" y="77" fill="#aaa" font-size="11">&#x2190;栈顶</text>
-  <text x="190" y="70" fill="#555" font-size="11" font-weight="bold">&#x2461; i=1</text>
-  <text x="190" y="82" fill="#777" font-size="11">1&lt;2，入栈1</text>
-  <rect x="240" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="260" y="77" text-anchor="middle" fill="#f57f17">2</text>
-  <rect x="284" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="304" y="77" text-anchor="middle" fill="#f57f17">1</text>
-  <text x="328" y="77" fill="#aaa" font-size="11">&#x2190;栈顶</text>
-  <text x="12" y="112" fill="#555" font-size="11" font-weight="bold">&#x2462; i=2，nums[i]=5</text>
-  <rect x="54" y="100" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="74" y="117" text-anchor="middle" fill="#e65100" font-weight="bold">2</text>
-  <rect x="98" y="100" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="118" y="117" text-anchor="middle" fill="#e65100" font-weight="bold">1</text>
-  <line x1="118" y1="100" x2="146" y2="88" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
-  <text x="150" y="88" fill="#e65100" font-size="11">res[1]=5</text>
-  <line x1="74" y1="100" x2="150" y2="108" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
-  <text x="154" y="110" fill="#e65100" font-size="11">res[0]=5</text>
-  <rect x="210" y="100" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="230" y="117" text-anchor="middle" fill="#f57f17">5</text>
-  <text x="254" y="117" fill="#aaa" font-size="11">&#x2190;弹出后只剩5</text>
-  <text x="12" y="155" fill="#555" font-size="11" font-weight="bold">&#x2463; i=3 入栈3，i=4 nums=6 弹出3和5</text>
-  <rect x="54" y="162" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="74" y="179" text-anchor="middle" fill="#e65100" font-weight="bold">5</text>
-  <rect x="98" y="162" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="118" y="179" text-anchor="middle" fill="#e65100" font-weight="bold">3</text>
-  <line x1="118" y1="162" x2="150" y2="152" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
-  <text x="154" y="152" fill="#e65100" font-size="11">res[3]=6</text>
-  <line x1="74" y1="162" x2="154" y2="170" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
-  <text x="158" y="172" fill="#e65100" font-size="11">res[2]=6</text>
-  <rect x="230" y="162" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
-  <text x="250" y="179" text-anchor="middle" fill="#f57f17">6</text>
-  <text x="274" y="179" fill="#aaa" font-size="11">&#x2190;最终只剩6，res[4]=-1</text>
-  <rect x="12" y="200" width="496" height="26" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
-  <text x="260" y="217" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="12">最终结果 result = [5, 5, 6, 6, &#x2212;1]</text>
+
+  <!-- Title -->
+  <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">单调栈：下一个更大元素 [2,1,5,3,6]</text>
+
+  <!-- ── 顶部：原数组 ── y=28 -->
+  <text x="12" y="44" fill="#666" font-size="11">原数组:</text>
+  <rect x="70"  y="28" width="44" height="28" rx="5" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="92"  y="47" text-anchor="middle" fill="#333" font-weight="bold">2</text>
+  <text x="92"  y="66" text-anchor="middle" fill="#aaa" font-size="10">[0]</text>
+  <rect x="120" y="28" width="44" height="28" rx="5" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="142" y="47" text-anchor="middle" fill="#333" font-weight="bold">1</text>
+  <text x="142" y="66" text-anchor="middle" fill="#aaa" font-size="10">[1]</text>
+  <rect x="170" y="28" width="44" height="28" rx="5" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="192" y="47" text-anchor="middle" fill="#333" font-weight="bold">5</text>
+  <text x="192" y="66" text-anchor="middle" fill="#aaa" font-size="10">[2]</text>
+  <rect x="220" y="28" width="44" height="28" rx="5" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="242" y="47" text-anchor="middle" fill="#333" font-weight="bold">3</text>
+  <text x="242" y="66" text-anchor="middle" fill="#aaa" font-size="10">[3]</text>
+  <rect x="270" y="28" width="44" height="28" rx="5" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="292" y="47" text-anchor="middle" fill="#333" font-weight="bold">6</text>
+  <text x="292" y="66" text-anchor="middle" fill="#aaa" font-size="10">[4]</text>
+
+  <!-- 分隔线 -->
+  <line x1="12" y1="74" x2="508" y2="74" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ── 步骤① i=0 ── y_base=82 -->
+  <rect x="8" y="80" width="120" height="50" rx="6" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="68" y="98"  text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">① i=0, val=2</text>
+  <text x="68" y="114" text-anchor="middle" fill="#555" font-size="11">入栈 2</text>
+  <!-- 栈内容 -->
+  <text x="140" y="95" fill="#888" font-size="10">栈 (底→顶):</text>
+  <rect x="140" y="100" width="36" height="24" rx="4" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="158" y="116" text-anchor="middle" fill="#f57f17" font-weight="bold">2</text>
+  <text x="180" y="116" fill="#aaa" font-size="10">← 栈顶</text>
+  <!-- 结果 -->
+  <text x="340" y="112" fill="#9e9e9e" font-size="11">result: [?, ?, ?, ?, ?]</text>
+
+  <!-- 分隔线 -->
+  <line x1="12" y1="138" x2="508" y2="138" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ── 步骤② i=1 ── y_base=146 -->
+  <rect x="8" y="144" width="120" height="50" rx="6" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="68" y="162" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">② i=1, val=1</text>
+  <text x="68" y="178" text-anchor="middle" fill="#555" font-size="11">1&lt;2，直接入栈</text>
+  <!-- 栈内容 -->
+  <text x="140" y="159" fill="#888" font-size="10">栈 (底→顶):</text>
+  <rect x="140" y="164" width="36" height="24" rx="4" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="158" y="180" text-anchor="middle" fill="#f57f17" font-weight="bold">2</text>
+  <rect x="182" y="164" width="36" height="24" rx="4" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="200" y="180" text-anchor="middle" fill="#f57f17" font-weight="bold">1</text>
+  <text x="222" y="180" fill="#aaa" font-size="10">← 栈顶</text>
+  <!-- 结果 -->
+  <text x="340" y="176" fill="#9e9e9e" font-size="11">result: [?, ?, ?, ?, ?]</text>
+
+  <!-- 分隔线 -->
+  <line x1="12" y1="202" x2="508" y2="202" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ── 步骤③ i=2 ── y_base=210 -->
+  <rect x="8" y="208" width="120" height="64" rx="6" fill="#fff3e0" stroke="#ffcc02" stroke-width="1.5"/>
+  <text x="68" y="226" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">③ i=2, val=5</text>
+  <text x="68" y="242" text-anchor="middle" fill="#e65100" font-size="11">5&gt;1 弹出1→res[1]=5</text>
+  <text x="68" y="258" text-anchor="middle" fill="#e65100" font-size="11">5&gt;2 弹出2→res[0]=5</text>
+  <!-- 被弹出的栈元素（高亮橙色） -->
+  <text x="140" y="223" fill="#888" font-size="10">弹出:</text>
+  <rect x="140" y="228" width="36" height="24" rx="4" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="158" y="244" text-anchor="middle" fill="#e65100" font-weight="bold">1</text>
+  <line x1="178" y1="240" x2="218" y2="240" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="222" y="244" fill="#e65100" font-size="11">res[1]=5</text>
+  <rect x="140" y="256" width="36" height="24" rx="4" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="158" y="272" text-anchor="middle" fill="#e65100" font-weight="bold">2</text>
+  <line x1="178" y1="268" x2="218" y2="268" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="222" y="272" fill="#e65100" font-size="11">res[0]=5</text>
+  <!-- 剩余栈 -->
+  <text x="330" y="223" fill="#888" font-size="10">入栈后:</text>
+  <rect x="330" y="228" width="36" height="24" rx="4" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="348" y="244" text-anchor="middle" fill="#f57f17" font-weight="bold">5</text>
+  <text x="370" y="244" fill="#aaa" font-size="10">← 栈顶</text>
+
+  <!-- 分隔线 -->
+  <line x1="12" y1="290" x2="508" y2="290" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ── 步骤④ i=3,4 ── y_base=298 -->
+  <rect x="8" y="296" width="120" height="64" rx="6" fill="#fff3e0" stroke="#ffcc02" stroke-width="1.5"/>
+  <text x="68" y="314" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">④ i=3 入栈3</text>
+  <text x="68" y="330" text-anchor="middle" fill="#e65100" font-size="11">i=4, val=6</text>
+  <text x="68" y="346" text-anchor="middle" fill="#e65100" font-size="11">弹3和5</text>
+  <!-- 弹出元素 -->
+  <text x="140" y="311" fill="#888" font-size="10">弹出:</text>
+  <rect x="140" y="316" width="36" height="24" rx="4" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="158" y="332" text-anchor="middle" fill="#e65100" font-weight="bold">3</text>
+  <line x1="178" y1="328" x2="218" y2="328" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="222" y="332" fill="#e65100" font-size="11">res[3]=6</text>
+  <rect x="140" y="344" width="36" height="24" rx="4" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="158" y="360" text-anchor="middle" fill="#e65100" font-weight="bold">5</text>
+  <line x1="178" y1="356" x2="218" y2="356" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="222" y="360" fill="#e65100" font-size="11">res[2]=6</text>
+  <!-- 剩余栈 -->
+  <text x="330" y="311" fill="#888" font-size="10">入栈后:</text>
+  <rect x="330" y="316" width="36" height="24" rx="4" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="348" y="332" text-anchor="middle" fill="#f57f17" font-weight="bold">6</text>
+  <text x="370" y="332" fill="#aaa" font-size="10">← 栈顶</text>
+  <text x="330" y="356" fill="#9e9e9e" font-size="10">res[4]=-1（无更大元素）</text>
+
+  <!-- 结果汇总 -->
+  <rect x="12" y="372" width="496" height="24" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="260" y="388" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="12">最终结果 result = [5, 5, 6, 6, −1]</text>
 </svg>
 </div>
 
