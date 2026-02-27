@@ -19,9 +19,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>
+      // highlight.js: 跳过 mermaid 代码块，只高亮其他语言
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('pre code').forEach(function(block) {
+          if (!block.classList.contains('language-mermaid')) {
+            hljs.highlightElement(block);
+          }
+        });
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true, theme:'neutral', fontSize:14});</script>
+    <script>mermaid.initialize({startOnLoad:true, theme:'neutral', fontSize:14, securityLevel:'loose'});</script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <style>
