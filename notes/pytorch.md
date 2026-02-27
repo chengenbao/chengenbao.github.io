@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: note
 title: PyTorch 学习资源汇总（面向系统开发者）
 permalink: /notes/pytorch/
 ---
-<div class="post-header">
-  <h1 class="post-title">PyTorch 学习资源汇总</h1>
-  <div class="post-meta">面向系统开发者 · 持续更新</div>
-</div>
-<div class="post-content notes-content">
-
 # PyTorch 学习资源汇总（面向系统开发者）
 
 > 本文档整理了面向系统开发者的 PyTorch 学习资料，侧重底层实现和系统架构。
@@ -339,6 +333,3 @@ megatron/
 ---
 
 **Happy Learning! 🚀**
-
-
-</div>
