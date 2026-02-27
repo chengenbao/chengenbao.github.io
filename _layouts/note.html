@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="main-content">
+      <div class="note-layout">
+        <aside class="note-toc" id="toc">
+          <div class="toc-title">目录</div>
+          <div id="toc-list"></div>
+        </aside>
+        <article class="note-body">
+          <h1 class="note-title">{{ page.title }}</h1>
+          {{ content }}
+        </article>
+      </div>
+    </main>
+    {% include footer.html %}
+    <style>
+      /* ===== Note Layout ===== */
+      .note-layout {
+        display: flex;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+        align-items: flex-start;
+      }
+      .note-toc {
+        position: sticky;
+        top: 80px;
+        width: 220px;
+        flex-shrink: 0;
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 1rem;
+        border: 1px solid #e9ecef;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+        font-size: 0.85rem;
+      }
+      .toc-title {
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: #495057;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #dee2e6;
+      }
+      #toc-list a {
+        display: block;
+        color: #6c757d;
+        text-decoration: none;
+        padding: 3px 0;
+        line-height: 1.4;
+        transition: color 0.2s;
+      }
+      #toc-list a:hover { color: #007bff; }
+      #toc-list a.toc-h2 { font-weight: 600; color: #495057; margin-top: 0.4rem; }
+      #toc-list a.toc-h3 { padding-left: 0.8rem; font-size: 0.82rem; }
+      .note-body {
+        flex: 1;
+        min-width: 0;
+      }
+      .note-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 3px solid #007bff;
+        color: #212529;
+      }
+      /* ===== Problem Cards ===== */
+      .note-body h3 {
+        background: #f8f9fa;
+        border-left: 4px solid #007bff;
+        padding: 0.6rem 1rem;
+        border-radius: 0 6px 6px 0;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+      .note-body h3 a {
+        color: #0056b3;
+        text-decoration: none;
+      }
+      .note-body h3 a:hover { text-decoration: underline; }
+      .note-body h4 {
+        color: #495057;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+        border-bottom: 1px dashed #dee2e6;
+        padding-bottom: 0.2rem;
+      }
+      /* ===== Difficulty Badges ===== */
+      .note-body h3 .easy  { background:#28a745; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
+      .note-body h3 .medium{ background:#fd7e14; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
+      .note-body h3 .hard  { background:#dc3545; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
+      /* ===== Code Blocks ===== */
+      .note-body pre {
+        background: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 8px;
+        padding: 1rem 1.2rem;
+        overflow-x: auto;
+        font-size: 0.88rem;
+        line-height: 1.6;
+        margin: 0.75rem 0 1rem;
+        border: none;
+      }
+      .note-body code {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
+      }
+      .note-body p > code, .note-body li > code {
+        background: #e8f4f8;
+        color: #c7254e;
+        padding: 2px 5px;
+        border-radius: 4px;
+        font-size: 0.88em;
+      }
+      /* ===== Blockquote for examples ===== */
+      .note-body blockquote {
+        background: #f0f7ff;
+        border-left: 4px solid #007bff;
+        border-radius: 0 6px 6px 0;
+        margin: 0.5rem 0;
+        padding: 0.6rem 1rem;
+        color: #444;
+      }
+      /* ===== Complexity table ===== */
+      .note-body ul li strong { color: #007bff; }
+      /* ===== Section headers (h2) ===== */
+      .note-body h2 {
+        font-size: 1.3rem;
+        color: #fff;
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        margin-top: 2.5rem;
+      }
+      /* ===== TOC active ===== */
+      #toc-list a.active { color: #007bff; font-weight: 600; }
+      /* ===== Mobile ===== */
+      @media (max-width: 768px) {
+        .note-toc { display: none; }
+        .note-layout { padding: 0 1rem; }
+      }
+    </style>
+    <script>
+      // Build TOC from headings
+      (function() {
+        var headings = document.querySelectorAll('.note-body h2, .note-body h3');
+        var toc = document.getElementById('toc-list');
+        headings.forEach(function(h) {
+          if (!h.id) h.id = h.textContent.trim().replace(/\s+/g,'-').replace(/[^\w\-\u4e00-\u9fff]/g,'').toLowerCase();
+          var a = document.createElement('a');
+          a.href = '#' + h.id;
+          a.className = 'toc-' + h.tagName.toLowerCase();
+          a.textContent = h.textContent.replace(/🟢|🟡|🔴/g,'').trim();
+          toc.appendChild(a);
+        });
+        // Highlight active on scroll
+        window.addEventListener('scroll', function() {
+          var pos = window.scrollY + 120;
+          var links = toc.querySelectorAll('a');
+          links.forEach(function(a) {
+            var target = document.querySelector(a.getAttribute('href'));
+            if (target && target.offsetTop <= pos) {
+              links.forEach(function(l){ l.classList.remove('active'); });
+              a.classList.add('active');
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
