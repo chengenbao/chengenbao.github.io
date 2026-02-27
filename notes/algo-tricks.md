@@ -18,21 +18,73 @@ permalink: /notes/algo-tricks/
 
 > 💡 **图示**
 
-<pre class="ascii">
-nums = [ 1,  3,  5,  7,  9, 11]   target = 12
-         ↑                  ↑
-         L                  R      L+R=12 ✓ 找到！
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <!-- Title -->
+  <text x="260" y="20" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">对撞指针示例：nums=[1,3,5,7,9,11], target=12</text>
 
-若 L+R &lt; target → L 右移：
-nums = [ 1,  3,  5,  7,  9, 11]   target = 14
-         ↑                  ↑  →      ↑       ↑
-         L                  R         L       R
+  <!-- Array boxes -->
+  <!-- positions: x = 20 + i*80, y=35, w=60, h=40 -->
+  <!-- values -->
+  <g>
+    <!-- box 0: val=1 -->
+    <rect x="20" y="35" width="60" height="40" rx="6" fill="#e8f4f8" stroke="#90caf9" stroke-width="1.5"/>
+    <text x="50" y="60" text-anchor="middle" fill="#1a237e" font-weight="bold">1</text>
+    <text x="50" y="90" text-anchor="middle" fill="#888" font-size="11">0</text>
 
-若 L+R &gt; target → R 左移：
-nums = [ 1,  3,  5,  7,  9, 11]   target = 10
-         ↑                  ↑          ↑   ↑
-         L                  R          L   R
-</pre>
+    <rect x="100" y="35" width="60" height="40" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+    <text x="130" y="60" text-anchor="middle" fill="#333">3</text>
+    <text x="130" y="90" text-anchor="middle" fill="#888" font-size="11">1</text>
+
+    <rect x="180" y="35" width="60" height="40" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+    <text x="210" y="60" text-anchor="middle" fill="#333">5</text>
+    <text x="210" y="90" text-anchor="middle" fill="#888" font-size="11">2</text>
+
+    <rect x="260" y="35" width="60" height="40" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+    <text x="290" y="60" text-anchor="middle" fill="#333">7</text>
+    <text x="290" y="90" text-anchor="middle" fill="#888" font-size="11">3</text>
+
+    <rect x="340" y="35" width="60" height="40" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+    <text x="370" y="60" text-anchor="middle" fill="#333">9</text>
+    <text x="370" y="90" text-anchor="middle" fill="#888" font-size="11">4</text>
+
+    <!-- box 5: val=11 -->
+    <rect x="420" y="35" width="60" height="40" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+    <text x="450" y="60" text-anchor="middle" fill="#1b5e20" font-weight="bold">11</text>
+    <text x="450" y="90" text-anchor="middle" fill="#888" font-size="11">5</text>
+  </g>
+
+  <!-- L pointer -->
+  <line x1="50" y1="100" x2="50" y2="112" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowB)"/>
+  <text x="50" y="126" text-anchor="middle" fill="#1565c0" font-weight="bold">L</text>
+
+  <!-- R pointer -->
+  <line x1="450" y1="100" x2="450" y2="112" stroke="#c62828" stroke-width="2" marker-end="url(#arrowR)"/>
+  <text x="450" y="126" text-anchor="middle" fill="#c62828" font-weight="bold">R</text>
+
+  <!-- Sum annotation -->
+  <text x="260" y="148" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="13">L + R = 1 + 11 = 12 = target ✓ 找到！</text>
+
+  <!-- Rule boxes -->
+  <rect x="20" y="158" width="220" height="42" rx="6" fill="#fff8e1" stroke="#ffe082" stroke-width="1.5"/>
+  <text x="130" y="175" text-anchor="middle" fill="#e65100" font-size="12">L+R &lt; target</text>
+  <text x="130" y="193" text-anchor="middle" fill="#e65100" font-size="12">→ L 右移（增大sum）</text>
+
+  <rect x="280" y="158" width="220" height="42" rx="6" fill="#fce4ec" stroke="#f48fb1" stroke-width="1.5"/>
+  <text x="390" y="175" text-anchor="middle" fill="#880e4f" font-size="12">L+R &gt; target</text>
+  <text x="390" y="193" text-anchor="middle" fill="#880e4f" font-size="12">→ R 左移（减小sum）</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c62828"/>
+    </marker>
+  </defs>
+</svg>
+</div>
 
 **解题模板**
 ```python
