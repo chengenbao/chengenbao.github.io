@@ -18,17 +18,21 @@ permalink: /notes/algo-tricks/
 
 > 💡 **图示**
 
-```text
- nums = [1, 3, 5, 7, 9, 11]  target=12
-  ↑                      ↑
-  L                      R
-  1+11=12 ✓ → 找到！
+<pre class="ascii">
+nums = [ 1,  3,  5,  7,  9, 11]   target = 12
+         ↑                  ↑
+         L                  R      L+R=12 ✓ 找到！
 
- 若 L+R < target → L右移
- 若 L+R > target → R左移
-  ↑          ↑
-  L          R
-```
+若 L+R &lt; target → L 右移：
+nums = [ 1,  3,  5,  7,  9, 11]   target = 14
+         ↑                  ↑  →      ↑       ↑
+         L                  R         L       R
+
+若 L+R &gt; target → R 左移：
+nums = [ 1,  3,  5,  7,  9, 11]   target = 10
+         ↑                  ↑          ↑   ↑
+         L                  R          L   R
+</pre>
 
 **解题模板**
 ```python
