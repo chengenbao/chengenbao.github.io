@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: LeetCode 高频100题总结
 permalink: /notes/leetcode-top100/
 ---
