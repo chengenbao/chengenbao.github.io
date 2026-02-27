@@ -85,10 +85,92 @@ def two_pointer_collision(arr, target):
 
 **经典例题**
 - [LC 167 两数之和 II（有序数组）](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)：直接套对撞模板，O(n)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def twoSum(numbers, target):
+      l, r = 0, len(numbers) - 1
+      while l < r:
+          s = numbers[l] + numbers[r]
+          if s == target:   return [l + 1, r + 1]
+          elif s < target:  l += 1
+          else:             r -= 1
+  ```
+
+  </details>
 - [LC 15 三数之和](https://leetcode.cn/problems/3sum/)：排序后固定一个数，对剩余数组用对撞指针，注意去重。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def threeSum(nums):
+      nums.sort()
+      res = []
+      for i in range(len(nums) - 2):
+          if i > 0 and nums[i] == nums[i-1]: continue  # 去重
+          l, r = i + 1, len(nums) - 1
+          while l < r:
+              s = nums[i] + nums[l] + nums[r]
+              if s == 0:
+                  res.append([nums[i], nums[l], nums[r]])
+                  while l < r and nums[l] == nums[l+1]: l += 1
+                  while l < r and nums[r] == nums[r-1]: r -= 1
+                  l += 1; r -= 1
+              elif s < 0: l += 1
+              else:       r -= 1
+      return res
+  ```
+
+  </details>
 - [LC 11 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/)：容量 = `min(h[l], h[r]) * (r-l)`，每次移动较矮一侧指针。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def maxArea(height):
+      l, r = 0, len(height) - 1
+      ans = 0
+      while l < r:
+          ans = max(ans, min(height[l], height[r]) * (r - l))
+          if height[l] < height[r]: l += 1
+          else:                      r -= 1
+      return ans
+  ```
+
+  </details>
 - [LC 125 验证回文串](https://leetcode.cn/problems/valid-palindrome/)：左右同时向中间走，忽略非字母数字字符。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def isPalindrome(s):
+      l, r = 0, len(s) - 1
+      while l < r:
+          while l < r and not s[l].isalnum(): l += 1
+          while l < r and not s[r].isalnum(): r -= 1
+          if s[l].lower() != s[r].lower(): return False
+          l += 1; r -= 1
+      return True
+  ```
+
+  </details>
 - [LC 42 接雨水](https://leetcode.cn/problems/trapping-rain-water/)：左右各维护最大高度 `maxL/maxR`，较小侧计算积水。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def trap(height):
+      l, r = 0, len(height) - 1
+      max_l = max_r = res = 0
+      while l < r:
+          if height[l] < height[r]:
+              if height[l] >= max_l: max_l = height[l]
+              else:                  res += max_l - height[l]
+              l += 1
+          else:
+              if height[r] >= max_r: max_r = height[r]
+              else:                  res += max_r - height[r]
+              r -= 1
+      return res
+  ```
+
+  </details>
 
 ---
 
@@ -192,10 +274,88 @@ def detect_cycle(head):
 
 **经典例题**
 - [LC 141 环形链表](https://leetcode.cn/problems/linked-list-cycle/)：快慢指针是否相遇。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def hasCycle(head):
+      slow = fast = head
+      while fast and fast.next:
+          slow = slow.next
+          fast = fast.next.next
+          if slow is fast: return True
+      return False
+  ```
+
+  </details>
 - [LC 142 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)：Floyd算法找入口。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def detectCycle(head):
+      slow = fast = head
+      while fast and fast.next:
+          slow = slow.next
+          fast = fast.next.next
+          if slow is fast:
+              ptr = head
+              while ptr is not slow:
+                  ptr = ptr.next
+                  slow = slow.next
+              return ptr
+      return None
+  ```
+
+  </details>
 - [LC 876 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)：快慢指针找中点。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def middleNode(head):
+      slow = fast = head
+      while fast and fast.next:
+          slow = slow.next
+          fast = fast.next.next
+      return slow
+  ```
+
+  </details>
 - [LC 234 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)：找中点 → 反转后半段 → 比较。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def isPalindrome(head):
+      # 1. 找中点
+      slow = fast = head
+      while fast and fast.next:
+          slow = slow.next; fast = fast.next.next
+      # 2. 反转后半段
+      prev, cur = None, slow
+      while cur:
+          cur.next, prev, cur = prev, cur, cur.next
+      # 3. 比较
+      l, r = head, prev
+      while r:
+          if l.val != r.val: return False
+          l = l.next; r = r.next
+      return True
+  ```
+
+  </details>
 - [LC 19 删除链表倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)：快指针先走N步，再同步前进。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def removeNthFromEnd(head, n):
+      dummy = ListNode(0, head)
+      fast = slow = dummy
+      for _ in range(n + 1): fast = fast.next
+      while fast:
+          fast = fast.next; slow = slow.next
+      slow.next = slow.next.next
+      return dummy.next
+  ```
+
+  </details>
 
 ---
 
@@ -288,10 +448,100 @@ def sliding_window(s, need_dict):
 
 **经典例题**
 - [LC 76 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)：经典滑动窗口，上方模板直接适用。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import Counter
+  def minWindow(s, t):
+      need = Counter(t)
+      window = {}
+      l = valid = 0
+      start = 0; min_len = float('inf')
+      for r, c in enumerate(s):
+          window[c] = window.get(c, 0) + 1
+          if c in need and window[c] == need[c]: valid += 1
+          while valid == len(need):
+              if r - l + 1 < min_len:
+                  min_len = r - l + 1; start = l
+              d = s[l]; l += 1
+              if d in need:
+                  if window[d] == need[d]: valid -= 1
+                  window[d] -= 1
+      return s[start:start + min_len] if min_len != float('inf') else ""
+  ```
+
+  </details>
 - [LC 438 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)：固定窗口大小 = `len(p)`。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import Counter
+  def findAnagrams(s, p):
+      need = Counter(p)
+      window = Counter(s[:len(p)])
+      res = [0] if window == need else []
+      for i in range(len(p), len(s)):
+          window[s[i]] += 1
+          old = s[i - len(p)]
+          window[old] -= 1
+          if window[old] == 0: del window[old]
+          if window == need: res.append(i - len(p) + 1)
+      return res
+  ```
+
+  </details>
 - [LC 3 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)：窗口内字符不重复，`valid`改为set计数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def lengthOfLongestSubstring(s):
+      seen = {}
+      l = ans = 0
+      for r, c in enumerate(s):
+          if c in seen and seen[c] >= l:
+              l = seen[c] + 1
+          seen[c] = r
+          ans = max(ans, r - l + 1)
+      return ans
+  ```
+
+  </details>
 - [LC 209 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)：窗口和 ≥ target 时尝试收缩。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def minSubArrayLen(target, nums):
+      l = total = 0
+      ans = float('inf')
+      for r, v in enumerate(nums):
+          total += v
+          while total >= target:
+              ans = min(ans, r - l + 1)
+              total -= nums[l]; l += 1
+      return 0 if ans == float('inf') else ans
+  ```
+
+  </details>
 - [LC 567 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)：固定窗口，判断窗口是否是排列。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import Counter
+  def checkInclusion(s1, s2):
+      if len(s1) > len(s2): return False
+      need = Counter(s1)
+      window = Counter(s2[:len(s1)])
+      if window == need: return True
+      for i in range(len(s1), len(s2)):
+          window[s2[i]] += 1
+          old = s2[i - len(s1)]
+          window[old] -= 1
+          if window[old] == 0: del window[old]
+          if window == need: return True
+      return False
+  ```
+
+  </details>
 
 ---
 
@@ -402,10 +652,85 @@ def query_2d(prefix, r1, c1, r2, c2):
 
 **经典例题**
 - [LC 303 区域和检索](https://leetcode.cn/problems/range-sum-query-immutable/)：build_prefix + range_sum。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  class NumArray:
+      def __init__(self, nums):
+          self.pre = [0] * (len(nums) + 1)
+          for i, v in enumerate(nums):
+              self.pre[i+1] = self.pre[i] + v
+      def sumRange(self, l, r):
+          return self.pre[r+1] - self.pre[l]
+  ```
+
+  </details>
 - [LC 560 和为K的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)：前缀和 + 哈希计数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import defaultdict
+  def subarraySum(nums, k):
+      cnt = defaultdict(int); cnt[0] = 1
+      pre = ans = 0
+      for v in nums:
+          pre += v
+          ans += cnt[pre - k]
+          cnt[pre] += 1
+      return ans
+  ```
+
+  </details>
 - [LC 304 二维区域和检索](https://leetcode.cn/problems/range-sum-query-2d-immutable/)：二维前缀和模板。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  class NumMatrix:
+      def __init__(self, matrix):
+          m, n = len(matrix), len(matrix[0])
+          self.pre = [[0]*(n+1) for _ in range(m+1)]
+          for i in range(m):
+              for j in range(n):
+                  self.pre[i+1][j+1] = (matrix[i][j] + self.pre[i][j+1]
+                                         + self.pre[i+1][j] - self.pre[i][j])
+      def sumRegion(self, r1, c1, r2, c2):
+          p = self.pre
+          return p[r2+1][c2+1] - p[r1][c2+1] - p[r2+1][c1] + p[r1][c1]
+  ```
+
+  </details>
 - [LC 525 连续数组](https://leetcode.cn/problems/contiguous-array/)：0变-1，转化为子数组和为0。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import defaultdict
+  def findMaxLength(nums):
+      idx = defaultdict(int); idx[0] = -1
+      pre = ans = 0
+      for i, v in enumerate(nums):
+          pre += 1 if v else -1  # 0 变 -1
+          if pre in idx: ans = max(ans, i - idx[pre])
+          else:          idx[pre] = i
+      return ans
+  ```
+
+  </details>
 - [LC 974 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)：`(prefix % k + k) % k` 哈希计数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import defaultdict
+  def subarraysDivByK(nums, k):
+      cnt = defaultdict(int); cnt[0] = 1
+      pre = ans = 0
+      for v in nums:
+          pre = (pre + v) % k
+          ans += cnt[pre]
+          cnt[pre] += 1
+      return ans
+  ```
+
+  </details>
 
 ---
 
@@ -442,8 +767,59 @@ class DiffArray:
 
 **经典例题**
 - [LC 1109 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)：区间 `[first, last]` 都加 seats，最后输出结果数组。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def corpFlightBookings(bookings, n):
+      diff = [0] * (n + 2)
+      for first, last, seats in bookings:
+          diff[first] += seats
+          diff[last + 1] -= seats
+      ans, cur = [], 0
+      for i in range(1, n + 1):
+          cur += diff[i]
+          ans.append(cur)
+      return ans
+  ```
+
+  </details>
 - [LC 1094 拼车](https://leetcode.cn/problems/car-pooling/)：差分数组统计每个站的乘客数，判断是否超容量。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def carPooling(trips, capacity):
+      diff = [0] * 1002
+      for num, start, end in trips:
+          diff[start] += num; diff[end] -= num
+      cur = 0
+      for v in diff:
+          cur += v
+          if cur > capacity: return False
+      return True
+  ```
+
+  </details>
 - [LC 798 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)：差分统计每种轮调得分变化。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def bestRotation(nums):
+      n = len(nums)
+      diff = [0] * n
+      for i, v in enumerate(nums):
+          lo = (i - v + 1 + n) % n
+          hi = (i + 1) % n
+          diff[lo] += 1
+          diff[hi] -= 1
+          if lo > hi: diff[0] += 1
+      best = cur = 0
+      for k in range(n):
+          cur += diff[k]
+          if cur > diff[best]: best = k
+      return best
+  ```
+
+  </details>
 
 ---
 
@@ -492,10 +868,90 @@ def longest_consecutive(nums):
 
 **经典例题**
 - [LC 1 两数之和](https://leetcode.cn/problems/two-sum/)：单次遍历 + dict，O(n)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def twoSum(nums, target):
+      seen = {}
+      for i, v in enumerate(nums):
+          if target - v in seen: return [seen[target - v], i]
+          seen[v] = i
+  ```
+
+  </details>
 - [LC 49 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)：排序后的字符串作 key。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import defaultdict
+  def groupAnagrams(strs):
+      groups = defaultdict(list)
+      for s in strs:
+          groups[tuple(sorted(s))].append(s)
+      return list(groups.values())
+  ```
+
+  </details>
 - [LC 128 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)：set + 从序列起点向右延伸。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def longestConsecutive(nums):
+      num_set = set(nums)
+      ans = 0
+      for v in num_set:
+          if v - 1 not in num_set:        # 序列起点
+              cur = v; length = 1
+              while cur + 1 in num_set:
+                  cur += 1; length += 1
+              ans = max(ans, length)
+      return ans
+  ```
+
+  </details>
 - [LC 146 LRU 缓存](https://leetcode.cn/problems/lru-cache/)：OrderedDict 或 哈希表 + 双向链表。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import OrderedDict
+  class LRUCache:
+      def __init__(self, capacity):
+          self.cap = capacity
+          self.cache = OrderedDict()
+      def get(self, key):
+          if key not in self.cache: return -1
+          self.cache.move_to_end(key)
+          return self.cache[key]
+      def put(self, key, value):
+          if key in self.cache: self.cache.move_to_end(key)
+          self.cache[key] = value
+          if len(self.cache) > self.cap:
+              self.cache.popitem(last=False)
+  ```
+
+  </details>
 - [LC 380 O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)：dict(val→idx) + list 配合。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import random
+  class RandomizedSet:
+      def __init__(self):
+          self.idx = {}   # val -> index in vals
+          self.vals = []
+      def insert(self, val):
+          if val in self.idx: return False
+          self.idx[val] = len(self.vals); self.vals.append(val); return True
+      def remove(self, val):
+          if val not in self.idx: return False
+          i = self.idx[val]; last = self.vals[-1]
+          self.vals[i] = last; self.idx[last] = i
+          self.vals.pop(); del self.idx[val]; return True
+      def getRandom(self):
+          return random.choice(self.vals)
+  ```
+
+  </details>
 
 ---
 
@@ -656,10 +1112,92 @@ def largest_rectangle_in_histogram(heights):
 
 **经典例题**
 - [LC 496 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)：单调递减栈 + 哈希映射。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def nextGreaterElement(nums1, nums2):
+      greater = {}
+      stk = []
+      for v in nums2:
+          while stk and stk[-1] < v:
+              greater[stk.pop()] = v
+          stk.append(v)
+      return [greater.get(v, -1) for v in nums1]
+  ```
+
+  </details>
 - [LC 739 每日温度](https://leetcode.cn/problems/daily-temperatures/)：单调递减栈，弹出时记录等待天数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def dailyTemperatures(temperatures):
+      ans = [0] * len(temperatures)
+      stk = []   # 单调递减栈，存索引
+      for i, t in enumerate(temperatures):
+          while stk and temperatures[stk[-1]] < t:
+              j = stk.pop(); ans[j] = i - j
+          stk.append(i)
+      return ans
+  ```
+
+  </details>
 - [LC 84 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)：哨兵 + 单调递增栈。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def largestRectangleArea(heights):
+      heights = [0] + heights + [0]   # 哨兵
+      stk = []; ans = 0
+      for i, h in enumerate(heights):
+          while stk and heights[stk[-1]] > h:
+              top = stk.pop()
+              w = i - stk[-1] - 1
+              ans = max(ans, heights[top] * w)
+          stk.append(i)
+      return ans
+  ```
+
+  </details>
 - [LC 85 最大矩形（矩阵）](https://leetcode.cn/problems/maximal-rectangle/)：逐行转化为直方图，套LC 84。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def maximalRectangle(matrix):
+      if not matrix: return 0
+      n = len(matrix[0]); ans = 0
+      heights = [0] * n
+      for row in matrix:
+          for j in range(n):
+              heights[j] = heights[j] + 1 if row[j] == '1' else 0
+          # 套 LC 84
+          h = [0] + heights + [0]; stk = []
+          for i in range(len(h)):
+              while stk and h[stk[-1]] > h[i]:
+                  top = stk.pop()
+                  ans = max(ans, h[top] * (i - stk[-1] - 1))
+              stk.append(i)
+      return ans
+  ```
+
+  </details>
 - [LC 316 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)：单调递增栈 + 剩余计数控制贪心。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def removeDuplicateLetters(s):
+      cnt = {}
+      for c in s: cnt[c] = cnt.get(c, 0) + 1
+      stk = []; in_stk = set()
+      for c in s:
+          cnt[c] -= 1
+          if c in in_stk: continue
+          while stk and stk[-1] > c and cnt[stk[-1]] > 0:
+              in_stk.remove(stk.pop())
+          stk.append(c); in_stk.add(c)
+      return ''.join(stk)
+  ```
+
+  </details>
 
 ---
 
@@ -691,8 +1229,62 @@ def max_sliding_window(nums, k):
 
 **经典例题**
 - [LC 239 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)：单调队列模板题。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def maxSlidingWindow(nums, k):
+      dq = deque()   # 存索引，队首最大
+      ans = []
+      for i, v in enumerate(nums):
+          while dq and nums[dq[-1]] <= v: dq.pop()
+          dq.append(i)
+          if dq[0] <= i - k: dq.popleft()
+          if i >= k - 1: ans.append(nums[dq[0]])
+      return ans
+  ```
+
+  </details>
 - [LC 862 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)：前缀和 + 单调队列。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def shortestSubarray(nums, k):
+      n = len(nums)
+      pre = [0] * (n + 1)
+      for i, v in enumerate(nums): pre[i+1] = pre[i] + v
+      dq = deque(); ans = float('inf')
+      for i in range(n + 1):
+          while dq and pre[i] - pre[dq[0]] >= k:
+              ans = min(ans, i - dq.popleft())
+          while dq and pre[dq[-1]] >= pre[i]: dq.pop()
+          dq.append(i)
+      return ans if ans != float('inf') else -1
+  ```
+
+  </details>
 - [LC 1438 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)：两个单调队列分别维护最大最小值。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def longestSubarray(nums, limit):
+      max_dq, min_dq = deque(), deque()
+      l = ans = 0
+      for r, v in enumerate(nums):
+          while max_dq and nums[max_dq[-1]] <= v: max_dq.pop()
+          while min_dq and nums[min_dq[-1]] >= v: min_dq.pop()
+          max_dq.append(r); min_dq.append(r)
+          while nums[max_dq[0]] - nums[min_dq[0]] > limit:
+              l += 1
+              if max_dq[0] < l: max_dq.popleft()
+              if min_dq[0] < l: min_dq.popleft()
+          ans = max(ans, r - l + 1)
+      return ans
+  ```
+
+  </details>
 
 ---
 
@@ -834,10 +1426,90 @@ def minimize_max(data, limit):
 
 **经典例题**
 - [LC 704 二分查找](https://leetcode.cn/problems/binary-search/)：标准模板题。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def search(nums, target):
+      l, r = 0, len(nums) - 1
+      while l <= r:
+          mid = (l + r) // 2
+          if nums[mid] == target: return mid
+          elif nums[mid] < target: l = mid + 1
+          else:                    r = mid - 1
+      return -1
+  ```
+
+  </details>
 - [LC 34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)：左右边界二分。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import bisect
+  def searchRange(nums, target):
+      l = bisect.bisect_left(nums, target)
+      if l == len(nums) or nums[l] != target: return [-1, -1]
+      r = bisect.bisect_right(nums, target) - 1
+      return [l, r]
+  ```
+
+  </details>
 - [LC 875 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)：在答案空间二分速度。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import math
+  def minEatingSpeed(piles, h):
+      def can_finish(k):
+          return sum(math.ceil(p / k) for p in piles) <= h
+      l, r = 1, max(piles)
+      while l < r:
+          mid = (l + r) // 2
+          if can_finish(mid): r = mid
+          else:               l = mid + 1
+      return l
+  ```
+
+  </details>
 - [LC 1011 在 D 天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/)：二分最小载重能力。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def shipWithinDays(weights, days):
+      def can_ship(cap):
+          d = 1; cur = 0
+          for w in weights:
+              if cur + w > cap: d += 1; cur = 0
+              cur += w
+          return d <= days
+      l, r = max(weights), sum(weights)
+      while l < r:
+          mid = (l + r) // 2
+          if can_ship(mid): r = mid
+          else:             l = mid + 1
+      return l
+  ```
+
+  </details>
 - [LC 410 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)：二分答案 + 贪心验证。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def splitArray(nums, k):
+      def check(cap):
+          cnt = 1; cur = 0
+          for v in nums:
+              if cur + v > cap: cnt += 1; cur = 0
+              cur += v
+          return cnt <= k
+      l, r = max(nums), sum(nums)
+      while l < r:
+          mid = (l + r) // 2
+          if check(mid): r = mid
+          else:          l = mid + 1
+      return l
+  ```
+
+  </details>
 
 ---
 
@@ -956,10 +1628,87 @@ def solve_n_queens(n):
 
 **经典例题**
 - [LC 46 全排列](https://leetcode.cn/problems/permutations/)：used数组去重。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def permute(nums):
+      res = []; used = [False] * len(nums)
+      def bt(path):
+          if len(path) == len(nums): res.append(path[:]); return
+          for i, v in enumerate(nums):
+              if used[i]: continue
+              used[i] = True; path.append(v)
+              bt(path)
+              path.pop(); used[i] = False
+      bt([]); return res
+  ```
+
+  </details>
 - [LC 77 组合](https://leetcode.cn/problems/combinations/)：start参数控制不重复选取。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def combine(n, k):
+      res = []
+      def bt(start, path):
+          if len(path) == k: res.append(path[:]); return
+          for i in range(start, n - (k - len(path)) + 2):
+              path.append(i); bt(i + 1, path); path.pop()
+      bt(1, []); return res
+  ```
+
+  </details>
 - [LC 78 子集](https://leetcode.cn/problems/subsets/)：每层都记录结果。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def subsets(nums):
+      res = []
+      def bt(start, path):
+          res.append(path[:])
+          for i in range(start, len(nums)):
+              path.append(nums[i]); bt(i + 1, path); path.pop()
+      bt(0, []); return res
+  ```
+
+  </details>
 - [LC 39 组合总和](https://leetcode.cn/problems/combination-sum/)：可重复选，sum>target 时剪枝。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def combinationSum(candidates, target):
+      res = []; candidates.sort()
+      def bt(start, path, remain):
+          if remain == 0: res.append(path[:]); return
+          for i in range(start, len(candidates)):
+              if candidates[i] > remain: break
+              path.append(candidates[i])
+              bt(i, path, remain - candidates[i])
+              path.pop()
+      bt(0, [], target); return res
+  ```
+
+  </details>
 - [LC 51 N皇后](https://leetcode.cn/problems/n-queens/)：三个 set 判断冲突，速度远快于矩阵遍历。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def solveNQueens(n):
+      res = []; cols = set(); diag1 = set(); diag2 = set()
+      board = ['.' * n] * n
+      def bt(row):
+          if row == n: res.append(board[:]); return
+          for col in range(n):
+              if col in cols or row-col in diag1 or row+col in diag2: continue
+              cols.add(col); diag1.add(row-col); diag2.add(row+col)
+              board[row] = '.' * col + 'Q' + '.' * (n - col - 1)
+              bt(row + 1)
+              cols.discard(col); diag1.discard(row-col); diag2.discard(row+col)
+              board[row] = '.' * n
+      bt(0); return res
+  ```
+
+  </details>
 
 ---
 
@@ -1046,10 +1795,117 @@ def topological_sort(n, edges):
 
 **经典例题**
 - [LC 127 单词接龙](https://leetcode.cn/problems/word-ladder/)：BFS 按层扩散，每次替换一个字符。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def ladderLength(beginWord, endWord, wordList):
+      word_set = set(wordList)
+      if endWord not in word_set: return 0
+      q = deque([(beginWord, 1)])
+      while q:
+          word, steps = q.popleft()
+          for i in range(len(word)):
+              for c in 'abcdefghijklmnopqrstuvwxyz':
+                  nw = word[:i] + c + word[i+1:]
+                  if nw == endWord: return steps + 1
+                  if nw in word_set:
+                      word_set.discard(nw); q.append((nw, steps + 1))
+      return 0
+  ```
+
+  </details>
 - [LC 994 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/)：多源 BFS，所有腐烂橘子同时扩散。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def orangesRotting(grid):
+      m, n = len(grid), len(grid[0])
+      q = deque(); fresh = 0
+      for i in range(m):
+          for j in range(n):
+              if grid[i][j] == 2: q.append((i, j, 0))
+              elif grid[i][j] == 1: fresh += 1
+      ans = 0
+      while q:
+          i, j, t = q.popleft()
+          for di, dj in [(-1,0),(1,0),(0,-1),(0,1)]:
+              ni, nj = i+di, j+dj
+              if 0 <= ni < m and 0 <= nj < n and grid[ni][nj] == 1:
+                  grid[ni][nj] = 2; fresh -= 1; ans = t + 1
+                  q.append((ni, nj, t + 1))
+      return ans if fresh == 0 else -1
+  ```
+
+  </details>
 - [LC 207 课程表](https://leetcode.cn/problems/course-schedule/)：拓扑排序判断有无环。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def canFinish(numCourses, prerequisites):
+      graph = [[] for _ in range(numCourses)]
+      indegree = [0] * numCourses
+      for a, b in prerequisites:
+          graph[b].append(a); indegree[a] += 1
+      q = deque(i for i in range(numCourses) if indegree[i] == 0)
+      count = 0
+      while q:
+          node = q.popleft(); count += 1
+          for nb in graph[node]:
+              indegree[nb] -= 1
+              if indegree[nb] == 0: q.append(nb)
+      return count == numCourses
+  ```
+
+  </details>
 - [LC 210 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)：返回拓扑序。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def findOrder(numCourses, prerequisites):
+      graph = [[] for _ in range(numCourses)]
+      indegree = [0] * numCourses
+      for a, b in prerequisites:
+          graph[b].append(a); indegree[a] += 1
+      q = deque(i for i in range(numCourses) if indegree[i] == 0)
+      order = []
+      while q:
+          node = q.popleft(); order.append(node)
+          for nb in graph[node]:
+              indegree[nb] -= 1
+              if indegree[nb] == 0: q.append(nb)
+      return order if len(order) == numCourses else []
+  ```
+
+  </details>
 - [LC 1162 地图分析](https://leetcode.cn/problems/as-far-from-land-as-possible/)：多源 BFS 求最远陆地。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def maxDistance(grid):
+      n = len(grid)
+      q = deque()
+      for i in range(n):
+          for j in range(n):
+              if grid[i][j] == 1: q.append((i, j))
+      if len(q) == 0 or len(q) == n*n: return -1
+      ans = -1
+      while q:
+          i, j = q.popleft()
+          for di, dj in [(-1,0),(1,0),(0,-1),(0,1)]:
+              ni, nj = i+di, j+dj
+              if 0 <= ni < n and 0 <= nj < n and grid[ni][nj] == 0:
+                  grid[ni][nj] = grid[i][j] + 1
+                  ans = max(ans, grid[ni][nj] - 1)
+                  q.append((ni, nj))
+      return ans
+  ```
+
+  </details>
 
 ---
 
@@ -1102,9 +1958,72 @@ def min_distance(word1, word2):
 
 **经典例题**
 - [LC 300 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)：O(n²) DP 或 O(n log n) 贪心+二分。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import bisect
+  def lengthOfLIS(nums):
+      # O(n log n) 贪心 + 二分
+      tails = []
+      for v in nums:
+          pos = bisect.bisect_left(tails, v)
+          if pos == len(tails): tails.append(v)
+          else:                 tails[pos] = v
+      return len(tails)
+  ```
+
+  </details>
 - [LC 72 编辑距离](https://leetcode.cn/problems/edit-distance/)：二维 DP，三种操作转移。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def minDistance(word1, word2):
+      m, n = len(word1), len(word2)
+      dp = list(range(n + 1))
+      for i in range(1, m + 1):
+          prev = dp[0]; dp[0] = i
+          for j in range(1, n + 1):
+              tmp = dp[j]
+              if word1[i-1] == word2[j-1]: dp[j] = prev
+              else: dp[j] = 1 + min(prev, dp[j], dp[j-1])
+              prev = tmp
+      return dp[n]
+  ```
+
+  </details>
 - [LC 1143 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)：`dp[i][j]` 以两串各前i/j字符为结尾的LCS长度。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def longestCommonSubsequence(text1, text2):
+      m, n = len(text1), len(text2)
+      dp = [0] * (n + 1)
+      for i in range(m):
+          prev = 0
+          for j in range(n):
+              tmp = dp[j+1]
+              if text1[i] == text2[j]: dp[j+1] = prev + 1
+              else:                    dp[j+1] = max(dp[j+1], dp[j])
+              prev = tmp
+      return dp[n]
+  ```
+
+  </details>
 - [LC 5 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)：区间DP或中心扩展O(n²)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def longestPalindrome(s):
+      n = len(s); res = s[0]
+      for i in range(n):
+          for l, r in [(i, i), (i, i+1)]:   # 奇/偶
+              while l >= 0 and r < n and s[l] == s[r]:
+                  if r - l + 1 > len(res): res = s[l:r+1]
+                  l -= 1; r += 1
+      return res
+  ```
+
+  </details>
 
 ---
 
@@ -1148,9 +2067,62 @@ def knapsack_complete(weights, values, W):
 
 **经典例题**
 - [LC 416 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)：0/1背包，背包容量 = sum//2，物品重量=值。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def canPartition(nums):
+      total = sum(nums)
+      if total % 2: return False
+      cap = total // 2
+      dp = [False] * (cap + 1); dp[0] = True
+      for v in nums:
+          for j in range(cap, v - 1, -1):
+              dp[j] = dp[j] or dp[j - v]
+      return dp[cap]
+  ```
+
+  </details>
 - [LC 322 零钱兑换](https://leetcode.cn/problems/coin-change/)：完全背包，求凑成 amount 的最少硬币数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def coinChange(coins, amount):
+      dp = [float('inf')] * (amount + 1); dp[0] = 0
+      for c in coins:
+          for j in range(c, amount + 1):
+              dp[j] = min(dp[j], dp[j - c] + 1)
+      return dp[amount] if dp[amount] != float('inf') else -1
+  ```
+
+  </details>
 - [LC 518 零钱兑换 II](https://leetcode.cn/problems/coin-change-ii/)：完全背包，求凑成 amount 的方案数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def change(amount, coins):
+      dp = [0] * (amount + 1); dp[0] = 1
+      for c in coins:
+          for j in range(c, amount + 1):
+              dp[j] += dp[j - c]
+      return dp[amount]
+  ```
+
+  </details>
 - [LC 474 一和零](https://leetcode.cn/problems/ones-and-zeroes/)：二维0/1背包（容量是 m 个0和 n 个1）。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findMaxForm(strs, m, n):
+      dp = [[0] * (n + 1) for _ in range(m + 1)]
+      for s in strs:
+          zeros = s.count('0'); ones = s.count('1')
+          for i in range(m, zeros - 1, -1):
+              for j in range(n, ones - 1, -1):
+                  dp[i][j] = max(dp[i][j], dp[i-zeros][j-ones] + 1)
+      return dp[m][n]
+  ```
+
+  </details>
 
 ---
 
@@ -1175,8 +2147,58 @@ def interval_dp(arr):
 
 **经典例题**
 - [LC 312 戳气球](https://leetcode.cn/problems/burst-balloons/)：区间DP，`dp[i][j]` = 戳完 `(i,j)` 内气球的最大硬币数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def maxCoins(nums):
+      nums = [1] + nums + [1]
+      n = len(nums)
+      dp = [[0] * n for _ in range(n)]
+      for length in range(2, n):
+          for l in range(0, n - length):
+              r = l + length
+              for k in range(l + 1, r):
+                  dp[l][r] = max(dp[l][r],
+                                 dp[l][k] + nums[l]*nums[k]*nums[r] + dp[k][r])
+      return dp[0][n-1]
+  ```
+
+  </details>
 - [LC 1039 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/)：区间DP求最小权值三角剖分。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def minScoreTriangulation(values):
+      n = len(values)
+      dp = [[0] * n for _ in range(n)]
+      for length in range(2, n):
+          for l in range(n - length):
+              r = l + length
+              dp[l][r] = float('inf')
+              for k in range(l + 1, r):
+                  dp[l][r] = min(dp[l][r],
+                                 dp[l][k] + values[l]*values[k]*values[r] + dp[k][r])
+      return dp[0][n-1]
+  ```
+
+  </details>
 - [LC 516 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)：区间DP，`dp[i][j]` 为子串中最长回文子序列长度。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def longestPalindromeSubseq(s):
+      n = len(s)
+      dp = [[0] * n for _ in range(n)]
+      for i in range(n): dp[i][i] = 1
+      for length in range(2, n + 1):
+          for l in range(n - length + 1):
+              r = l + length - 1
+              if s[l] == s[r]: dp[l][r] = dp[l+1][r-1] + 2
+              else:            dp[l][r] = max(dp[l+1][r], dp[l][r-1])
+      return dp[0][n-1]
+  ```
+
+  </details>
 
 ---
 
@@ -1206,8 +2228,98 @@ def tsp(dist, n):
 
 **经典例题**
 - [LC 847 访问所有节点的最短路径](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/)：状压DP + BFS。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def shortestPathLength(graph):
+      n = len(graph)
+      full = (1 << n) - 1
+      q = deque(); visited = set()
+      for i in range(n):
+          state = 1 << i; q.append((i, state, 0)); visited.add((i, state))
+      while q:
+          node, state, dist = q.popleft()
+          if state == full: return dist
+          for nb in graph[node]:
+              ns = state | (1 << nb)
+              if (nb, ns) not in visited:
+                  visited.add((nb, ns)); q.append((nb, ns, dist + 1))
+      return 0
+  ```
+
+  </details>
 - [LC 691 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/)：状压DP，用位掩码表示已覆盖的字符。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from functools import lru_cache
+  from collections import Counter
+  def minStickers(stickers, target):
+      n = len(target)
+      full = (1 << n) - 1
+      sticker_cnts = [Counter(s) for s in stickers]
+      @lru_cache(maxsize=None)
+      def dp(state):
+          if state == full: return 0
+          # 找第一个未覆盖的字符
+          idx = next(i for i in range(n) if not (state >> i & 1))
+          res = float('inf')
+          for sc in sticker_cnts:
+              if target[idx] not in sc: continue
+              ns = state
+              for i, c in enumerate(target):
+                  if sc[c] > 0:
+                      sc[c] -= 1
+                      if not (ns >> i & 1): ns |= (1 << i)
+              # restore (Counter is mutable, need a fresh copy approach)
+              sub = dp(ns)
+              if sub != float('inf'): res = min(res, sub + 1)
+              # rebuild counter (since we mutated, recalc)
+              for i, c in enumerate(target):
+                  pass  # handled via lru_cache with immutable state
+          return res
+      # use iterative DP instead to avoid mutation issues
+      dp2 = [float('inf')] * (full + 1); dp2[0] = 0
+      for state in range(full + 1):
+          if dp2[state] == float('inf'): continue
+          idx = next(i for i in range(n) if not (state >> i & 1))
+          for sc in sticker_cnts:
+              if target[idx] not in sc: continue
+              ns = state
+              for i, c in enumerate(target):
+                  if sc[c] > 0: ns |= (1 << i)
+              dp2[ns] = min(dp2[ns], dp2[state] + 1)
+      return dp2[full] if dp2[full] != float('inf') else -1
+  ```
+
+  </details>
 - [LC 1986 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)：状压DP枚举子集划分。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def minSessions(tasks, sessionTime):
+      n = len(tasks)
+      full = (1 << n) - 1
+      # 预计算每个子集的总时间
+      subset_sum = [0] * (full + 1)
+      for mask in range(1, full + 1):
+          lsb = mask & (-mask)
+          idx = lsb.bit_length() - 1
+          subset_sum[mask] = subset_sum[mask ^ lsb] + tasks[idx]
+      # dp[mask] = 完成 mask 集合任务所需最少工作时间段数
+      dp = [float('inf')] * (full + 1); dp[0] = 0
+      for mask in range(1, full + 1):
+          # 枚举 mask 的所有非空子集作为最后一个时间段
+          sub = mask
+          while sub:
+              if subset_sum[sub] <= sessionTime:
+                  dp[mask] = min(dp[mask], dp[mask ^ sub] + 1)
+              sub = (sub - 1) & mask
+      return dp[full]
+  ```
+
+  </details>
 
 ---
 
@@ -1319,10 +2431,75 @@ def jump(nums):
 
 **经典例题**
 - [LC 455 分发饼干](https://leetcode.cn/problems/assign-cookies/)：小饼干优先满足小胃口，双指针贪心。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findContentChildren(g, s):
+      g.sort(); s.sort()
+      i = j = 0
+      while i < len(g) and j < len(s):
+          if s[j] >= g[i]: i += 1
+          j += 1
+      return i
+  ```
+
+  </details>
 - [LC 45 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/)：每次在当前可达范围内选最远跳。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def jump(nums):
+      ans = cur_end = far = 0
+      for i in range(len(nums) - 1):
+          far = max(far, i + nums[i])
+          if i == cur_end:
+              ans += 1; cur_end = far
+      return ans
+  ```
+
+  </details>
 - [LC 435 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)：按结束时间排序，贪心保留结束早的区间。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def eraseOverlapIntervals(intervals):
+      intervals.sort(key=lambda x: x[1])
+      ans = 0; end = float('-inf')
+      for l, r in intervals:
+          if l >= end: end = r
+          else:        ans += 1
+      return ans
+  ```
+
+  </details>
 - [LC 763 划分字母区间](https://leetcode.cn/problems/partition-labels/)：记录每字母最远出现位置，贪心确定区间端点。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def partitionLabels(s):
+      last = {c: i for i, c in enumerate(s)}
+      res = []; start = end = 0
+      for i, c in enumerate(s):
+          end = max(end, last[c])
+          if i == end:
+              res.append(end - start + 1); start = end + 1
+      return res
+  ```
+
+  </details>
 - [LC 406 根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height/)：按身高降序+k升序排列后依次插入。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def reconstructQueue(people):
+      people.sort(key=lambda x: (-x[0], x[1]))
+      res = []
+      for p in people:
+          res.insert(p[1], p)
+      return res
+  ```
+
+  </details>
 
 ---
 
@@ -1384,9 +2561,97 @@ def find_kth_largest(nums, k):
 
 **经典例题**
 - [LC 148 排序链表](https://leetcode.cn/problems/sort-list/)：归并排序链表，O(n log n) 空间 O(log n)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def sortList(head):
+      if not head or not head.next: return head
+      # 找中点
+      slow, fast = head, head.next
+      while fast and fast.next:
+          slow = slow.next; fast = fast.next.next
+      mid = slow.next; slow.next = None
+      l, r = sortList(head), sortList(mid)
+      # 归并
+      dummy = cur = ListNode(0)
+      while l and r:
+          if l.val <= r.val: cur.next = l; l = l.next
+          else:              cur.next = r; r = r.next
+          cur = cur.next
+      cur.next = l or r
+      return dummy.next
+  ```
+
+  </details>
 - [LC 315 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/)：归并排序统计逆序对变体。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def countSmaller(nums):
+      res = [0] * len(nums)
+      indexed = list(enumerate(nums))
+      def merge_sort(arr):
+          if len(arr) <= 1: return arr
+          mid = len(arr) // 2
+          left = merge_sort(arr[:mid])
+          right = merge_sort(arr[mid:])
+          merged = []; i = j = 0
+          while i < len(left) and j < len(right):
+              if left[i][1] <= right[j][1]:
+                  res[left[i][0]] += j   # right 中已越过 j 个更小元素
+                  merged.append(left[i]); i += 1
+              else:
+                  merged.append(right[j]); j += 1
+          for x in left[i:]:
+              res[x[0]] += j; merged.append(x)
+          merged += right[j:]
+          return merged
+      merge_sort(indexed); return res
+  ```
+
+  </details>
 - [LC 215 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)：快速选择平均 O(n)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import random
+  def findKthLargest(nums, k):
+      def quickselect(l, r, k):
+          pivot = nums[random.randint(l, r)]
+          lo = eq = l; gt = r
+          while eq <= gt:
+              if nums[eq] > pivot:   nums[eq], nums[lo] = nums[lo], nums[eq]; lo += 1; eq += 1
+              elif nums[eq] == pivot: eq += 1
+              else:                  nums[eq], nums[gt] = nums[gt], nums[eq]; gt -= 1
+          if k <= r - gt:           return quickselect(gt + 1, r, k)
+          elif k <= r - lo + 1:    return pivot
+          else:                    return quickselect(l, lo - 1, k - (r - lo + 1))
+      return quickselect(0, len(nums) - 1, k)
+  ```
+
+  </details>
 - [LC 4 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)：分治二分，O(log(m+n))。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findMedianSortedArrays(nums1, nums2):
+      if len(nums1) > len(nums2): nums1, nums2 = nums2, nums1
+      m, n = len(nums1), len(nums2)
+      lo, hi = 0, m
+      while lo <= hi:
+          i = (lo + hi) // 2; j = (m + n + 1) // 2 - i
+          lmax1 = nums1[i-1] if i > 0 else float('-inf')
+          rmin1 = nums1[i]   if i < m else float('inf')
+          lmax2 = nums2[j-1] if j > 0 else float('-inf')
+          rmin2 = nums2[j]   if j < n else float('inf')
+          if lmax1 <= rmin2 and lmax2 <= rmin1:
+              if (m + n) % 2: return float(max(lmax1, lmax2))
+              return (max(lmax1, lmax2) + min(rmin1, rmin2)) / 2
+          elif lmax1 > rmin2: hi = i - 1
+          else:               lo = i + 1
+  ```
+
+  </details>
 
 ---
 
@@ -1484,10 +2749,74 @@ def rob(root):
 
 **经典例题**
 - [LC 104 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)：递归 `1 + max(left, right)`。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def maxDepth(root):
+      if not root: return 0
+      return 1 + max(maxDepth(root.left), maxDepth(root.right))
+  ```
+
+  </details>
 - [LC 236 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)：后序DFS，左右同时找到则当前节点即为LCA。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def lowestCommonAncestor(root, p, q):
+      if not root or root is p or root is q: return root
+      l = lowestCommonAncestor(root.left, p, q)
+      r = lowestCommonAncestor(root.right, p, q)
+      return root if l and r else l or r
+  ```
+
+  </details>
 - [LC 124 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)：树形DP，每个节点维护单侧最大贡献。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def maxPathSum(root):
+      ans = [float('-inf')]
+      def dfs(node):
+          if not node: return 0
+          l = max(dfs(node.left), 0)
+          r = max(dfs(node.right), 0)
+          ans[0] = max(ans[0], node.val + l + r)
+          return node.val + max(l, r)
+      dfs(root); return ans[0]
+  ```
+
+  </details>
 - [LC 337 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/)：树形DP，每节点返回选/不选两个状态。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def rob(root):
+      def dfs(node):
+          if not node: return 0, 0   # (rob, skip)
+          ll, ls = dfs(node.left)
+          rl, rs = dfs(node.right)
+          rob_cur  = node.val + ls + rs
+          skip_cur = max(ll, ls) + max(rl, rs)
+          return rob_cur, skip_cur
+      return max(dfs(root))
+  ```
+
+  </details>
 - [LC 543 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)：`left_depth + right_depth` 的最大值。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def diameterOfBinaryTree(root):
+      ans = [0]
+      def dfs(node):
+          if not node: return 0
+          l = dfs(node.left); r = dfs(node.right)
+          ans[0] = max(ans[0], l + r)
+          return 1 + max(l, r)
+      dfs(root); return ans[0]
+  ```
+
+  </details>
 
 ---
 
@@ -1684,9 +3013,86 @@ class UnionFind:
 
 **经典例题**
 - [LC 200 岛屿数量](https://leetcode.cn/problems/number-of-islands/)：DFS/BFS 或并查集均可。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def numIslands(grid):
+      m, n = len(grid), len(grid[0])
+      def dfs(i, j):
+          if i < 0 or i >= m or j < 0 or j >= n or grid[i][j] != '1': return
+          grid[i][j] = '0'
+          dfs(i+1,j); dfs(i-1,j); dfs(i,j+1); dfs(i,j-1)
+      ans = 0
+      for i in range(m):
+          for j in range(n):
+              if grid[i][j] == '1': dfs(i, j); ans += 1
+      return ans
+  ```
+
+  </details>
 - [LC 547 省份数量](https://leetcode.cn/problems/number-of-provinces/)：并查集统计连通分量数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findCircleNum(isConnected):
+      n = len(isConnected)
+      parent = list(range(n))
+      def find(x):
+          while parent[x] != x: parent[x] = parent[parent[x]]; x = parent[x]
+          return x
+      def union(a, b):
+          pa, pb = find(a), find(b)
+          if pa != pb: parent[pa] = pb; return True
+          return False
+      cnt = n
+      for i in range(n):
+          for j in range(i+1, n):
+              if isConnected[i][j] and union(i, j): cnt -= 1
+      return cnt
+  ```
+
+  </details>
 - [LC 684 冗余连接](https://leetcode.cn/problems/redundant-connection/)：并查集检测环，添加边时若已连通则该边冗余。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findRedundantConnection(edges):
+      parent = list(range(len(edges) + 1))
+      def find(x):
+          while parent[x] != x: parent[x] = parent[parent[x]]; x = parent[x]
+          return x
+      for u, v in edges:
+          pu, pv = find(u), find(v)
+          if pu == pv: return [u, v]
+          parent[pu] = pv
+  ```
+
+  </details>
 - [LC 1584 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)：Kruskal 最小生成树。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def minCostConnectPoints(points):
+      n = len(points)
+      edges = []
+      for i in range(n):
+          for j in range(i+1, n):
+              d = abs(points[i][0]-points[j][0]) + abs(points[i][1]-points[j][1])
+              edges.append((d, i, j))
+      edges.sort()
+      parent = list(range(n))
+      def find(x):
+          while parent[x] != x: parent[x] = parent[parent[x]]; x = parent[x]
+          return x
+      cost = cnt = 0
+      for d, u, v in edges:
+          pu, pv = find(u), find(v)
+          if pu != pv: parent[pu] = pv; cost += d; cnt += 1
+          if cnt == n - 1: break
+      return cost
+  ```
+
+  </details>
 
 ---
 
@@ -1726,8 +3132,65 @@ def dijkstra(n, edges, src):
 
 **经典例题**
 - [LC 743 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)：Dijkstra 单源最短路，返回 max(dist)。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import heapq
+  def networkDelayTime(times, n, k):
+      graph = [[] for _ in range(n+1)]
+      for u, v, w in times: graph[u].append((v, w))
+      dist = [float('inf')] * (n+1); dist[k] = 0
+      heap = [(0, k)]
+      while heap:
+          d, u = heapq.heappop(heap)
+          if d > dist[u]: continue
+          for v, w in graph[u]:
+              if dist[u] + w < dist[v]:
+                  dist[v] = dist[u] + w; heapq.heappush(heap, (dist[v], v))
+      ans = max(dist[1:])
+      return ans if ans != float('inf') else -1
+  ```
+
+  </details>
 - [LC 1631 最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)：Dijkstra（最小化路径上最大差值）。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  import heapq
+  def minimumEffortPath(heights):
+      m, n = len(heights), len(heights[0])
+      dist = [[float('inf')]*n for _ in range(m)]; dist[0][0] = 0
+      heap = [(0, 0, 0)]
+      while heap:
+          effort, i, j = heapq.heappop(heap)
+          if effort > dist[i][j]: continue
+          if i == m-1 and j == n-1: return effort
+          for di, dj in [(-1,0),(1,0),(0,-1),(0,1)]:
+              ni, nj = i+di, j+dj
+              if 0 <= ni < m and 0 <= nj < n:
+                  ne = max(effort, abs(heights[ni][nj] - heights[i][j]))
+                  if ne < dist[ni][nj]:
+                      dist[ni][nj] = ne; heapq.heappush(heap, (ne, ni, nj))
+      return 0
+  ```
+
+  </details>
 - [LC 787 K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/)：Bellman-Ford（限制边数）或 Dijkstra+层数。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  def findCheapestPrice(n, flights, src, dst, k):
+      dist = [float('inf')] * n; dist[src] = 0
+      for _ in range(k + 1):
+          tmp = dist[:]
+          for u, v, w in flights:
+              if dist[u] != float('inf') and dist[u] + w < tmp[v]:
+                  tmp[v] = dist[u] + w
+          dist = tmp
+      return dist[dst] if dist[dst] != float('inf') else -1
+  ```
+
+  </details>
 
 ---
 
@@ -1767,8 +3230,78 @@ def topo_dfs(n, edges):
 
 **经典例题**
 - [LC 207 课程表](https://leetcode.cn/problems/course-schedule/)：Kahn 算法检测有无环。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def canFinish(numCourses, prerequisites):
+      # Kahn 算法（BFS 拓扑排序）
+      graph = [[] for _ in range(numCourses)]
+      indegree = [0] * numCourses
+      for a, b in prerequisites:
+          graph[b].append(a); indegree[a] += 1
+      q = deque(i for i in range(numCourses) if indegree[i] == 0)
+      visited = 0
+      while q:
+          node = q.popleft(); visited += 1
+          for nb in graph[node]:
+              indegree[nb] -= 1
+              if indegree[nb] == 0: q.append(nb)
+      return visited == numCourses
+  ```
+
+  </details>
 - [LC 210 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)：返回拓扑序。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import deque
+  def findOrder(numCourses, prerequisites):
+      # Kahn 算法返回拓扑序
+      graph = [[] for _ in range(numCourses)]
+      indegree = [0] * numCourses
+      for a, b in prerequisites:
+          graph[b].append(a); indegree[a] += 1
+      q = deque(i for i in range(numCourses) if indegree[i] == 0)
+      order = []
+      while q:
+          node = q.popleft(); order.append(node)
+          for nb in graph[node]:
+              indegree[nb] -= 1
+              if indegree[nb] == 0: q.append(nb)
+      return order if len(order) == numCourses else []
+  ```
+
+  </details>
 - [LC 269 火星词典](https://leetcode.cn/problems/alien-dictionary/)：从字典构建偏序关系，拓扑排序。
+  <details><summary>▶ 参考解法</summary>
+
+  ```python
+  from collections import defaultdict, deque
+  def alienOrder(words):
+      # 构建邻接表
+      adj = defaultdict(set)
+      indegree = {c: 0 for word in words for c in word}
+      for i in range(len(words) - 1):
+          w1, w2 = words[i], words[i+1]
+          min_len = min(len(w1), len(w2))
+          if len(w1) > len(w2) and w1[:min_len] == w2[:min_len]: return ""
+          for j in range(min_len):
+              if w1[j] != w2[j]:
+                  if w2[j] not in adj[w1[j]]:
+                      adj[w1[j]].add(w2[j]); indegree[w2[j]] += 1
+                  break
+      q = deque(c for c in indegree if indegree[c] == 0)
+      order = []
+      while q:
+          c = q.popleft(); order.append(c)
+          for nb in adj[c]:
+              indegree[nb] -= 1
+              if indegree[nb] == 0: q.append(nb)
+      return ''.join(order) if len(order) == len(indegree) else ""
+  ```
+
+  </details>
 
 ---
 
