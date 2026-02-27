@@ -1,37 +1,37 @@
 ---
 layout: default
+title: Blog
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<div class="home">
+  <div class="hero">
+    <h1>I do <span class="amp">&amp;&amp;</span> I can</h1>
+    <p>{{ site.description }}</p>
   </div>
-  {% endfor %}
-</div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="older">Older</a>
-  {% else %}
-    <span class="next">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a href="/" class="newer">Newer</a>
-    {% else %}
-      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+  <div class="posts-list">
+    {% for post in paginator.posts %}
+    <article class="post-item">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+        {% if post.categories %}
+          {% for cat in post.categories %}<span class="tag">{{ cat }}</span>{% endfor %}
+        {% endif %}
+      </div>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="btn">&larr; Newer</a>
     {% endif %}
-  {% else %}
-    <span class="previous">Newer</span>
+    <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="btn">Older &rarr;</a>
+    {% endif %}
+  </nav>
   {% endif %}
 </div>
