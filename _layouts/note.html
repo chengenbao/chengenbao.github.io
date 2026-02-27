@@ -20,6 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
     <script>hljs.highlightAll();</script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true, theme:'neutral', fontSize:14});</script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -149,6 +151,25 @@
       .note-body h3 .easy  { background:#28a745; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
       .note-body h3 .medium{ background:#fd7e14; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
       .note-body h3 .hard  { background:#dc3545; color:#fff; font-size:0.72rem; padding:2px 7px; border-radius:12px; margin-left:6px; font-weight:600; vertical-align:middle; }
+      /* ===== Mermaid diagrams ===== */
+      .note-body .mermaid {
+        text-align: center;
+        margin: 1rem 0;
+        overflow-x: auto;
+      }
+      /* ===== ASCII diagrams ===== */
+      .note-body pre.ascii {
+        background: #f8f9fa;
+        color: #2c3e50;
+        border: 1px solid #dee2e6;
+        border-left: 4px solid #007bff;
+        font-family: 'Fira Code', Consolas, monospace;
+        font-size: 0.85rem;
+        line-height: 1.5;
+        padding: 1rem 1.2rem;
+        border-radius: 0 8px 8px 0;
+        overflow-x: auto;
+      }
       /* ===== Code Blocks ===== */
       .note-body pre {
         border-radius: 8px;
