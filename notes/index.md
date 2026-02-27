@@ -29,5 +29,16 @@ permalink: /notes/
         <span class="tag">面试</span>
       </div>
     </a>
+    <a class="note-card" href="/notes/algo-tricks/">
+      <div class="note-icon">🛠️</div>
+      <div class="note-body">
+        <h2>算法解题技巧总结</h2>
+        <p>双指针、前缀和、哈希表、单调栈、二分、DFS/BFS、动态规划、贪心、分治、图论等核心解题技巧，含模板代码与经典例题。</p>
+        <span class="tag">算法</span>
+        <span class="tag">技巧</span>
+        <span class="tag">模板</span>
+        <span class="tag">Python</span>
+      </div>
+    </a>
   </div>
 </div>
