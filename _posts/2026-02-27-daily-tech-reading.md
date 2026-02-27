@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "技术速递 2026-02-27：torchforge RL框架、MoE训练优化、CUDA Kernel自动生成"
-categories: TechReading
-tags: [LLM, PyTorch, MoE, CUDA, 推理优化]
+categories: ReadingList
+tags: [ReadingList, Tech, LLM, PyTorch, MoE, CUDA, 推理优化]
 ---
 
 > 每日精选：大模型 / PyTorch 框架 / 推理技术  
