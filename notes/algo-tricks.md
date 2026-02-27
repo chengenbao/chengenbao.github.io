@@ -1500,7 +1500,7 @@ def rob(root):
 > 💡 **图示**（并查集合并与路径压缩）
 
 <div style="overflow-x:auto;margin:1rem 0">
-<svg viewBox="0 0 540 220" xmlns="http://www.w3.org/2000/svg" style="max-width:540px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+<svg viewBox="0 0 560 215" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
     <marker id="uf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1510,74 +1510,59 @@ def rob(root):
     </marker>
   </defs>
 
-  <text x="270" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：合并与路径压缩</text>
+  <text x="280" y="15" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：合并与路径压缩</text>
 
-  <!-- ── 列1：初始状态 x=80 ── -->
-  <text x="80" y="34" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="12">初始状态</text>
-  <!-- 5个独立节点 -->
-  <circle cx="30"  cy="62" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="30"  y="67" text-anchor="middle" fill="#1a237e" font-weight="bold">1</text>
-  <circle cx="58"  cy="62" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="58"  y="67" text-anchor="middle" fill="#1a237e" font-weight="bold">2</text>
-  <circle cx="86"  cy="62" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="86"  y="67" text-anchor="middle" fill="#1a237e" font-weight="bold">3</text>
-  <circle cx="114" cy="62" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="114" y="67" text-anchor="middle" fill="#1a237e" font-weight="bold">4</text>
-  <circle cx="142" cy="62" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="142" y="67" text-anchor="middle" fill="#1a237e" font-weight="bold">5</text>
-  <text x="86" y="92" text-anchor="middle" fill="#888" font-size="11">各自为根</text>
+  <!-- ── 列1：初始状态 ── -->
+  <text x="80" y="32" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">初始状态</text>
+  <circle cx="30"  cy="58" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="30"  y="63" text-anchor="middle" fill="#1a237e" font-weight="bold">1</text>
+  <circle cx="58"  cy="58" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="58"  y="63" text-anchor="middle" fill="#1a237e" font-weight="bold">2</text>
+  <circle cx="86"  cy="58" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="86"  y="63" text-anchor="middle" fill="#1a237e" font-weight="bold">3</text>
+  <circle cx="114" cy="58" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="114" y="63" text-anchor="middle" fill="#1a237e" font-weight="bold">4</text>
+  <circle cx="142" cy="58" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="142" y="63" text-anchor="middle" fill="#1a237e" font-weight="bold">5</text>
+  <text x="86" y="88" text-anchor="middle" fill="#888" font-size="10">各自为根</text>
 
-  <!-- 分隔线 -->
-  <line x1="174" y1="30" x2="174" y2="215" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="168" y1="28" x2="168" y2="210" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
 
-  <!-- ── 列2：union后（链式，1为根） x=270 ── -->
-  <text x="270" y="34" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="12">union后（1为根）</text>
-  <!-- 根 1 -->
-  <circle cx="270" cy="62" r="14" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="270" y="67" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
-  <!-- 1→2, 1→3 -->
-  <line x1="258" y1="74" x2="234" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="228" cy="112" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="228" y="117" text-anchor="middle" fill="#1a237e">2</text>
-  <line x1="282" y1="74" x2="296" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="302" cy="112" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="302" y="117" text-anchor="middle" fill="#1a237e">3</text>
-  <!-- 3→4 (链式) -->
-  <line x1="302" y1="126" x2="302" y2="146" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="302" cy="160" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="302" y="165" text-anchor="middle" fill="#1a237e">4</text>
-  <!-- 1→5 -->
-  <line x1="258" y1="70" x2="228" y2="155" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="228" cy="160" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="228" y="165" text-anchor="middle" fill="#1a237e">5</text>
-  <text x="270" y="192" text-anchor="middle" fill="#888" font-size="11">find(4): 4→3→1（路径长度2）</text>
-
-  <!-- 分隔线 -->
-  <line x1="356" y1="30" x2="356" y2="215" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
-
-  <!-- ── 列3：路径压缩后 x=450 ── -->
-  <text x="450" y="34" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">find(4) 路径压缩后</text>
-  <!-- 根 1 -->
-  <circle cx="450" cy="62" r="14" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
-  <text x="450" y="67" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <!-- ── 列2：union后，1为根，3下面挂4 ── -->
+  <!-- 根1 -->
+  <text x="270" y="32" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union后（1为根）</text>
+  <circle cx="270" cy="55" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/><text x="270" y="60" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
   <!-- 1→2 -->
-  <line x1="438" y1="74" x2="402" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="396" cy="112" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="396" y="117" text-anchor="middle" fill="#1a237e">2</text>
-  <!-- 1→3（压缩后3直接→1） -->
-  <line x1="450" y1="76" x2="450" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="450" cy="112" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="450" y="117" text-anchor="middle" fill="#1a237e">3</text>
-  <!-- 1→4（压缩后4直接→1，橙色虚线表示被压缩的新边） -->
-  <line x1="462" y1="74" x2="496" y2="100" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
-  <circle cx="502" cy="112" r="14" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
-  <text x="502" y="117" text-anchor="middle" fill="#e65100" font-weight="bold">4</text>
+  <line x1="259" y1="67" x2="223" y2="103" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="216" cy="115" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="216" y="120" text-anchor="middle" fill="#1a237e">2</text>
+  <!-- 1→3 -->
+  <line x1="270" y1="68" x2="270" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="270" cy="113" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="270" y="118" text-anchor="middle" fill="#1a237e">3</text>
+  <!-- 3→4 链式 -->
+  <line x1="270" y1="126" x2="270" y2="155" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="270" cy="168" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="270" y="173" text-anchor="middle" fill="#1a237e">4</text>
   <!-- 1→5 -->
-  <line x1="438" y1="70" x2="396" y2="150" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
-  <circle cx="396" cy="162" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
-  <text x="396" y="167" text-anchor="middle" fill="#1a237e">5</text>
-  <text x="450" y="148" fill="#e65100" font-size="10">← 4直接连根</text>
-  <text x="450" y="192" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">find(4): 4→1 ✓ 深度减为1</text>
+  <line x1="281" y1="67" x2="317" y2="103" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="324" cy="115" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="324" y="120" text-anchor="middle" fill="#1a237e">5</text>
+  <text x="270" y="196" text-anchor="middle" fill="#888" font-size="10">find(4): 4→3→1（链深度2）</text>
+
+  <line x1="352" y1="28" x2="352" y2="210" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ── 列3：路径压缩后，4直连根1 ── -->
+  <text x="456" y="32" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">find(4) 路径压缩后</text>
+  <!-- 根1 -->
+  <circle cx="456" cy="55" r="13" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/><text x="456" y="60" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <!-- 1→2 -->
+  <line x1="445" y1="67" x2="401" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="394" cy="113" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="394" y="118" text-anchor="middle" fill="#1a237e">2</text>
+  <!-- 1→3 -->
+  <line x1="449" y1="68" x2="435" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="428" cy="113" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="428" y="118" text-anchor="middle" fill="#1a237e">3</text>
+  <!-- 1→4 橙色虚线（压缩新边） -->
+  <line x1="463" y1="68" x2="477" y2="100" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
+  <circle cx="484" cy="113" r="13" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/><text x="484" y="118" text-anchor="middle" fill="#e65100" font-weight="bold">4</text>
+  <!-- 1→5 -->
+  <line x1="468" y1="67" x2="514" y2="100" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="521" cy="113" r="13" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/><text x="521" y="118" text-anchor="middle" fill="#1a237e">5</text>
+  <!-- 图例 -->
+  <line x1="364" y1="148" x2="384" y2="148" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
+  <text x="388" y="152" fill="#e65100" font-size="10">压缩新边（4直连根）</text>
+  <text x="456" y="196" text-anchor="middle" fill="#e65100" font-size="10" font-weight="bold">find(4): 4→1 ✓ 深度压为1</text>
 </svg>
 </div>
 
