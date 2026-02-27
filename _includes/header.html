@@ -6,8 +6,8 @@
     </a>
     <nav class="site-nav">
       <a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Blog</a>
+      <a href="/notes/" {% if page.url contains "/notes" %}class="active"{% endif %}>Notes</a>
       <a href="https://github.com/chengenbao" target="_blank" rel="noopener">GitHub</a>
-      <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
     </nav>
   </div>
 </header>
