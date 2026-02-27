@@ -51,15 +51,17 @@
       .note-layout {
         display: flex;
         gap: 1.5rem;
-        max-width: 1400px;
+        max-width: 98vw;
+        width: 100%;
         margin: 2rem auto;
-        padding: 0 1.5rem;
+        padding: 0 2rem;
         align-items: flex-start;
+        box-sizing: border-box;
       }
       .note-toc {
         position: sticky;
         top: 80px;
-        width: 180px;
+        width: clamp(160px, 18%, 240px);
         flex-shrink: 0;
         background: #f8f9fa;
         border-radius: 8px;
@@ -87,23 +89,28 @@
       }
       #toc-list a:hover { color: #007bff; }
       #toc-list a.toc-h2 { font-weight: 600; color: #495057; margin-top: 0.4rem; }
-      #toc-list a.toc-h3 { padding-left: 0.8rem; font-size: 0.82rem; }
+      #toc-list a.toc-h3 { padding-left: 0.8rem; font-size: 0.78rem; }
       .note-body {
         flex: 1;
         min-width: 0;
-        font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-        font-size: 15px;
-        line-height: 1.8;
-        color: #2c3e50;
-        letter-spacing: 0.02em;
+        width: 0;
       }
       .note-title {
-        font-size: 1.8rem;
+        font-size: clamp(1.4rem, 2.5vw, 1.9rem);
         font-weight: 700;
         margin-bottom: 1.5rem;
         padding-bottom: 0.75rem;
         border-bottom: 3px solid #007bff;
         color: #212529;
+        font-family: 'Noto Serif SC', 'Noto Sans SC', serif;
+        letter-spacing: 0.03em;
+      }
+      /* ===== TOC active ===== */
+      #toc-list a.active { color: #007bff; font-weight: 600; }
+      /* ===== Mobile / Tablet ===== */
+      @media (max-width: 900px) {
+        .note-toc { display: none; }
+        .note-layout { padding: 0 1rem; }
       }
       /* ===== Problem Cards ===== */
       .note-body h3 {
