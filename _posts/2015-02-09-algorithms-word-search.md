@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: "Word Search"
 categories: Algorithm
 tags: [DFS, Backtracking, Matrix]
