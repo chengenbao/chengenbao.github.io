@@ -15,3 +15,15 @@ paginate_path: "/page:num/"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+collections:
+  reading_list:
+    output: true
+    permalink: /reading-list/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: reading_list
+    values:
+      layout: default
