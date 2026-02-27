@@ -118,15 +118,50 @@ def two_pointer_collision(arr, target):
 
 > 💡 **图示**
 
-```text
- 1 → 2 → 3 → 4 → 5 → NULL
- S                          (slow每次走1步)
- F                          (fast每次走2步)
-
- Step1:  S=2, F=3
- Step2:  S=3, F=5
- Step3:  S=4, F=NULL → 中点=4（奇数链表）
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#90a4ae"/>
+    </marker>
+    <marker id="arrS" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="arrF" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#c62828"/>
+    </marker>
+  </defs>
+  <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">快慢指针：找链表中点</text>
+  <rect x="20" y="30" width="56" height="36" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="48" y="53" text-anchor="middle" font-weight="bold" fill="#1a237e">1</text>
+  <rect x="105" y="30" width="56" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="133" y="53" text-anchor="middle" fill="#333">2</text>
+  <rect x="190" y="30" width="56" height="36" rx="6" fill="#e8f5e9" stroke="#81c784" stroke-width="1.5"/>
+  <text x="218" y="53" text-anchor="middle" font-weight="bold" fill="#2e7d32">3</text>
+  <rect x="275" y="30" width="56" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="303" y="53" text-anchor="middle" fill="#333">4</text>
+  <rect x="360" y="30" width="56" height="36" rx="6" fill="#fce4ec" stroke="#f48fb1" stroke-width="1.5"/>
+  <text x="388" y="53" text-anchor="middle" font-weight="bold" fill="#880e4f">5</text>
+  <text x="445" y="53" text-anchor="start" fill="#999" font-size="12">NULL</text>
+  <line x1="77" y1="48" x2="104" y2="48" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="162" y1="48" x2="189" y2="48" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="247" y1="48" x2="274" y2="48" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="332" y1="48" x2="359" y2="48" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="417" y1="48" x2="440" y2="48" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="32" y="85" fill="#1565c0" font-size="11" font-weight="bold">S&#x2080;</text>
+  <text x="32" y="98" fill="#c62828" font-size="11" font-weight="bold">F&#x2080;</text>
+  <line x1="218" y1="72" x2="218" y2="82" stroke="#1565c0" stroke-width="2" marker-end="url(#arrS)"/>
+  <text x="218" y="95" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="12">S</text>
+  <line x1="388" y1="72" x2="388" y2="82" stroke="#c62828" stroke-width="2" marker-end="url(#arrF)"/>
+  <text x="388" y="95" text-anchor="middle" fill="#c62828" font-weight="bold" font-size="12">F</text>
+  <rect x="20" y="110" width="230" height="40" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="135" y="126" text-anchor="middle" fill="#1565c0" font-size="12">slow 每次走 1 步</text>
+  <text x="135" y="143" text-anchor="middle" fill="#1565c0" font-size="12">fast 到达末尾时，slow 在中点</text>
+  <rect x="265" y="110" width="230" height="40" rx="6" fill="#fce4ec" stroke="#f48fb1" stroke-width="1"/>
+  <text x="380" y="126" text-anchor="middle" fill="#c62828" font-size="12">fast 每次走 2 步</text>
+  <text x="380" y="143" text-anchor="middle" fill="#c62828" font-size="12">节点数=5，中点=节点3 ✓</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -181,14 +216,43 @@ def detect_cycle(head):
 
 > 💡 **图示**
 
-```text
- s = "a b c b a"
-     [a b c]          窗口扩展
-       [b c b]        左指针收缩（遇重复）
-         [c b a]      继续扩展
-
- left↑         ↑right
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">滑动窗口：无重复字符最长子串</text>
+  <text x="20" y="50" fill="#666" font-size="12">数组:</text>
+  <rect x="62" y="28" width="56" height="34" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="90" y="50" text-anchor="middle" fill="#333" font-weight="bold">a</text>
+  <rect x="126" y="28" width="56" height="34" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="154" y="50" text-anchor="middle" fill="#333" font-weight="bold">b</text>
+  <rect x="190" y="28" width="56" height="34" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="218" y="50" text-anchor="middle" fill="#333" font-weight="bold">c</text>
+  <rect x="254" y="28" width="56" height="34" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="282" y="50" text-anchor="middle" fill="#333" font-weight="bold">b</text>
+  <rect x="318" y="28" width="56" height="34" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="346" y="50" text-anchor="middle" fill="#333" font-weight="bold">a</text>
+  <text x="90" y="72" text-anchor="middle" fill="#aaa" font-size="11">0</text>
+  <text x="154" y="72" text-anchor="middle" fill="#aaa" font-size="11">1</text>
+  <text x="218" y="72" text-anchor="middle" fill="#aaa" font-size="11">2</text>
+  <text x="282" y="72" text-anchor="middle" fill="#aaa" font-size="11">3</text>
+  <text x="346" y="72" text-anchor="middle" fill="#aaa" font-size="11">4</text>
+  <rect x="57" y="84" width="174" height="34" rx="6" fill="rgba(33,150,243,0.12)" stroke="#42a5f5" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="16" y="105" fill="#1565c0" font-size="11" font-weight="bold">&#x2460;</text>
+  <text x="62" y="100" fill="#1565c0" font-size="11">L</text>
+  <text x="218" y="100" fill="#1565c0" font-size="11">R</text>
+  <text x="390" y="105" fill="#2e7d32" font-size="12" font-weight="bold">窗口扩展 len=3</text>
+  <rect x="121" y="128" width="174" height="34" rx="6" fill="rgba(255,152,0,0.12)" stroke="#ffa726" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="16" y="149" fill="#e65100" font-size="11" font-weight="bold">&#x2461;</text>
+  <text x="126" y="144" fill="#e65100" font-size="11">L</text>
+  <text x="282" y="144" fill="#e65100" font-size="11">R</text>
+  <text x="390" y="149" fill="#e65100" font-size="12" font-weight="bold">左指针收缩 len=3</text>
+  <text x="390" y="163" fill="#e65100" font-size="11">（遇重复 'b'）</text>
+  <rect x="185" y="172" width="174" height="34" rx="6" fill="rgba(76,175,80,0.12)" stroke="#66bb6a" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="16" y="193" fill="#2e7d32" font-size="11" font-weight="bold">&#x2462;</text>
+  <text x="190" y="188" fill="#2e7d32" font-size="11">L</text>
+  <text x="346" y="188" fill="#2e7d32" font-size="11">R</text>
+  <text x="390" y="193" fill="#2e7d32" font-size="12" font-weight="bold">继续扩展 len=3</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -243,14 +307,53 @@ def sliding_window(s, need_dict):
 
 > 💡 **图示**
 
-```text
- 原数组:   [1,  2,  3,  4,  5]
- 前缀和:   [0,  1,  3,  6, 10, 15]
-            ↑
-           pre[0]=0 (哨兵)
-
- 区间[1,3]之和 = pre[4] - pre[1] = 10 - 1 = 9
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">前缀和：O(1) 区间查询</text>
+  <text x="8" y="49" fill="#666" font-size="11">原数组</text>
+  <rect x="122" y="26" width="160" height="36" rx="4" fill="rgba(33,150,243,0.15)" stroke="#90caf9" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="68" y="28" width="52" height="32" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="94" y="49" text-anchor="middle" fill="#1a237e">1</text>
+  <rect x="124" y="28" width="52" height="32" rx="6" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+  <text x="150" y="49" text-anchor="middle" fill="#1a237e" font-weight="bold">2</text>
+  <rect x="180" y="28" width="52" height="32" rx="6" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+  <text x="206" y="49" text-anchor="middle" fill="#1a237e" font-weight="bold">3</text>
+  <rect x="236" y="28" width="52" height="32" rx="6" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+  <text x="262" y="49" text-anchor="middle" fill="#1a237e" font-weight="bold">4</text>
+  <rect x="292" y="28" width="52" height="32" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="318" y="49" text-anchor="middle" fill="#1a237e">5</text>
+  <text x="94" y="72" text-anchor="middle" fill="#aaa" font-size="11">0</text>
+  <text x="150" y="72" text-anchor="middle" fill="#aaa" font-size="11">1</text>
+  <text x="206" y="72" text-anchor="middle" fill="#aaa" font-size="11">2</text>
+  <text x="262" y="72" text-anchor="middle" fill="#aaa" font-size="11">3</text>
+  <text x="318" y="72" text-anchor="middle" fill="#aaa" font-size="11">4</text>
+  <text x="150" y="84" text-anchor="middle" fill="#1565c0" font-size="11">l=1</text>
+  <text x="262" y="84" text-anchor="middle" fill="#1565c0" font-size="11">r=3</text>
+  <text x="8" y="115" fill="#666" font-size="11">前缀和</text>
+  <rect x="68" y="94" width="52" height="32" rx="6" fill="#fff9c4" stroke="#ffee58" stroke-width="2"/>
+  <text x="94" y="115" text-anchor="middle" fill="#f57f17" font-weight="bold">0</text>
+  <text x="94" y="130" text-anchor="middle" fill="#f9a825" font-size="10">哨兵</text>
+  <rect x="124" y="94" width="52" height="32" rx="6" fill="#c8e6c9" stroke="#81c784" stroke-width="2"/>
+  <text x="150" y="115" text-anchor="middle" fill="#2e7d32" font-weight="bold">1</text>
+  <rect x="180" y="94" width="52" height="32" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="206" y="115" text-anchor="middle" fill="#388e3c">3</text>
+  <rect x="236" y="94" width="52" height="32" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="262" y="115" text-anchor="middle" fill="#388e3c">6</text>
+  <rect x="292" y="94" width="52" height="32" rx="6" fill="#c8e6c9" stroke="#81c784" stroke-width="2"/>
+  <text x="318" y="115" text-anchor="middle" fill="#2e7d32" font-weight="bold">10</text>
+  <rect x="348" y="94" width="52" height="32" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="374" y="115" text-anchor="middle" fill="#388e3c">15</text>
+  <text x="94" y="138" text-anchor="middle" fill="#aaa" font-size="11">0</text>
+  <text x="150" y="138" text-anchor="middle" fill="#aaa" font-size="11">1</text>
+  <text x="206" y="138" text-anchor="middle" fill="#aaa" font-size="11">2</text>
+  <text x="262" y="138" text-anchor="middle" fill="#aaa" font-size="11">3</text>
+  <text x="318" y="138" text-anchor="middle" fill="#aaa" font-size="11">4</text>
+  <text x="374" y="138" text-anchor="middle" fill="#aaa" font-size="11">5</text>
+  <rect x="68" y="150" width="420" height="34" rx="6" fill="#fff8e1" stroke="#ffe082" stroke-width="1.5"/>
+  <text x="278" y="163" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">区间[1,3]之和 = pre[r+1] &#x2212; pre[l] = pre[4] &#x2212; pre[1] = 10 &#x2212; 1 = 9</text>
+  <text x="278" y="178" text-anchor="middle" fill="#9e9e9e" font-size="11">（闭区间 [l, r]，查询时间 O(1)）</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -408,17 +511,66 @@ def longest_consecutive(nums):
 
 > 💡 **图示**
 
-```text
- 求下一个更大元素: [2, 1, 5, 3, 6]
-
- i=0: 栈=[2]
- i=1: 1<2, 栈=[2,1]
- i=2: 5>1, 弹1→res[1]=5; 5>2, 弹2→res[0]=5; 栈=[5]
- i=3: 3<5, 栈=[5,3]
- i=4: 6>3, 弹3→res[3]=6; 6>5, 弹5→res[2]=6; 栈=[6]
-
- 结果: [5, 5, 6, 6, -1]
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 230" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <defs>
+    <marker id="ms-arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    </marker>
+  </defs>
+  <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">单调栈：下一个更大元素</text>
+  <text x="12" y="38" fill="#666" font-size="11">数组:</text>
+  <rect x="54" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="78" y="43" text-anchor="middle" fill="#333" font-weight="bold">2</text>
+  <rect x="110" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="134" y="43" text-anchor="middle" fill="#333" font-weight="bold">1</text>
+  <rect x="166" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="190" y="43" text-anchor="middle" fill="#333" font-weight="bold">5</text>
+  <rect x="222" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="246" y="43" text-anchor="middle" fill="#333" font-weight="bold">3</text>
+  <rect x="278" y="22" width="48" height="32" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="302" y="43" text-anchor="middle" fill="#333" font-weight="bold">6</text>
+  <text x="350" y="38" fill="#888" font-size="11">idx: 0  1  2  3  4</text>
+  <text x="12" y="70" fill="#555" font-size="11" font-weight="bold">&#x2460; i=0</text>
+  <text x="12" y="82" fill="#777" font-size="11">入栈2</text>
+  <rect x="54" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="74" y="77" text-anchor="middle" fill="#f57f17">2</text>
+  <text x="98" y="77" fill="#aaa" font-size="11">&#x2190;栈顶</text>
+  <text x="190" y="70" fill="#555" font-size="11" font-weight="bold">&#x2461; i=1</text>
+  <text x="190" y="82" fill="#777" font-size="11">1&lt;2，入栈1</text>
+  <rect x="240" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="260" y="77" text-anchor="middle" fill="#f57f17">2</text>
+  <rect x="284" y="60" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="304" y="77" text-anchor="middle" fill="#f57f17">1</text>
+  <text x="328" y="77" fill="#aaa" font-size="11">&#x2190;栈顶</text>
+  <text x="12" y="112" fill="#555" font-size="11" font-weight="bold">&#x2462; i=2，nums[i]=5</text>
+  <rect x="54" y="100" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="74" y="117" text-anchor="middle" fill="#e65100" font-weight="bold">2</text>
+  <rect x="98" y="100" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="118" y="117" text-anchor="middle" fill="#e65100" font-weight="bold">1</text>
+  <line x1="118" y1="100" x2="146" y2="88" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="150" y="88" fill="#e65100" font-size="11">res[1]=5</text>
+  <line x1="74" y1="100" x2="150" y2="108" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="154" y="110" fill="#e65100" font-size="11">res[0]=5</text>
+  <rect x="210" y="100" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="230" y="117" text-anchor="middle" fill="#f57f17">5</text>
+  <text x="254" y="117" fill="#aaa" font-size="11">&#x2190;弹出后只剩5</text>
+  <text x="12" y="155" fill="#555" font-size="11" font-weight="bold">&#x2463; i=3 入栈3，i=4 nums=6 弹出3和5</text>
+  <rect x="54" y="162" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="74" y="179" text-anchor="middle" fill="#e65100" font-weight="bold">5</text>
+  <rect x="98" y="162" width="40" height="26" rx="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="118" y="179" text-anchor="middle" fill="#e65100" font-weight="bold">3</text>
+  <line x1="118" y1="162" x2="150" y2="152" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="154" y="152" fill="#e65100" font-size="11">res[3]=6</text>
+  <line x1="74" y1="162" x2="154" y2="170" stroke="#e65100" stroke-width="1.5" marker-end="url(#ms-arr)"/>
+  <text x="158" y="172" fill="#e65100" font-size="11">res[2]=6</text>
+  <rect x="230" y="162" width="40" height="26" rx="5" fill="#fff9c4" stroke="#ffd54f" stroke-width="1.5"/>
+  <text x="250" y="179" text-anchor="middle" fill="#f57f17">6</text>
+  <text x="274" y="179" fill="#aaa" font-size="11">&#x2190;最终只剩6，res[4]=-1</text>
+  <rect x="12" y="200" width="496" height="26" rx="6" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="260" y="217" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="12">最终结果 result = [5, 5, 6, 6, &#x2212;1]</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -501,15 +653,56 @@ def max_sliding_window(nums, k):
 
 > 💡 **图示**
 
-```text
- arr = [1, 3, 5, 7, 9, 11, 13]  target=7
-        0  1  2  3  4   5   6
-
- lo=0, hi=6, mid=3 → arr[3]=7 ✓ 找到！
-
- 若 arr[mid] < target → lo = mid+1  (搜右半)
- 若 arr[mid] > target → hi = mid-1  (搜左半)
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 185" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <defs>
+    <marker id="bs-arrB" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="bs-arrR" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#c62828"/>
+    </marker>
+    <marker id="bs-arrO" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    </marker>
+  </defs>
+  <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">二分查找：target = 7</text>
+  <rect x="12" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="41" y="51" text-anchor="middle" fill="#333">1</text>
+  <rect x="76" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="105" y="51" text-anchor="middle" fill="#333">3</text>
+  <rect x="140" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="169" y="51" text-anchor="middle" fill="#333">5</text>
+  <rect x="204" y="28" width="58" height="36" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2.5"/>
+  <text x="233" y="51" text-anchor="middle" fill="#1b5e20" font-weight="bold">7</text>
+  <rect x="268" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="297" y="51" text-anchor="middle" fill="#333">9</text>
+  <rect x="332" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="361" y="51" text-anchor="middle" fill="#333">11</text>
+  <rect x="396" y="28" width="58" height="36" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="425" y="51" text-anchor="middle" fill="#333">13</text>
+  <text x="41" y="74" text-anchor="middle" fill="#aaa" font-size="11">0</text>
+  <text x="105" y="74" text-anchor="middle" fill="#aaa" font-size="11">1</text>
+  <text x="169" y="74" text-anchor="middle" fill="#aaa" font-size="11">2</text>
+  <text x="233" y="74" text-anchor="middle" fill="#aaa" font-size="11">3</text>
+  <text x="297" y="74" text-anchor="middle" fill="#aaa" font-size="11">4</text>
+  <text x="361" y="74" text-anchor="middle" fill="#aaa" font-size="11">5</text>
+  <text x="425" y="74" text-anchor="middle" fill="#aaa" font-size="11">6</text>
+  <line x1="41" y1="78" x2="41" y2="88" stroke="#1565c0" stroke-width="2" marker-end="url(#bs-arrB)"/>
+  <text x="41" y="100" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="12">lo=0</text>
+  <line x1="425" y1="78" x2="425" y2="88" stroke="#c62828" stroke-width="2" marker-end="url(#bs-arrR)"/>
+  <text x="425" y="100" text-anchor="middle" fill="#c62828" font-weight="bold" font-size="12">hi=6</text>
+  <line x1="233" y1="68" x2="233" y2="78" stroke="#e65100" stroke-width="2" marker-end="url(#bs-arrO)"/>
+  <text x="233" y="62" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="12">mid=3</text>
+  <text x="233" y="112" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="13">= target &#x2713; 找到！</text>
+  <rect x="12" y="122" width="240" height="38" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="132" y="137" text-anchor="middle" fill="#1565c0" font-size="12">arr[mid] &lt; target</text>
+  <text x="132" y="153" text-anchor="middle" fill="#1565c0" font-size="12">&#x2192; lo = mid+1（搜右半）</text>
+  <rect x="268" y="122" width="240" height="38" rx="6" fill="#fce4ec" stroke="#f48fb1" stroke-width="1.5"/>
+  <text x="388" y="137" text-anchor="middle" fill="#c62828" font-size="12">arr[mid] &gt; target</text>
+  <text x="388" y="153" text-anchor="middle" fill="#c62828" font-size="12">&#x2192; hi = mid&#x2212;1（搜左半）</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -991,18 +1184,45 @@ def lcs(s1, s2):
 
 > 💡 **图示**（区间调度贪心）
 
-```text
- 活动（按结束时间排序）:
- [1,3]  ████
- [2,4]   ████
- [3,5]    ████
- [4,6]     ████
- [1,6]  ██████████
-
- 贪心选择:
- 选[1,3] → 选[3,5] → 选[5,...]
- 最多选不重叠区间数 = 3
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">贪心区间调度（按结束时间排序）</text>
+  <text x="110" y="30" text-anchor="middle" fill="#999" font-size="11">0</text>
+  <text x="166" y="30" text-anchor="middle" fill="#999" font-size="11">1</text>
+  <text x="222" y="30" text-anchor="middle" fill="#999" font-size="11">2</text>
+  <text x="278" y="30" text-anchor="middle" fill="#999" font-size="11">3</text>
+  <text x="334" y="30" text-anchor="middle" fill="#999" font-size="11">4</text>
+  <text x="390" y="30" text-anchor="middle" fill="#999" font-size="11">5</text>
+  <text x="446" y="30" text-anchor="middle" fill="#999" font-size="11">6</text>
+  <text x="502" y="30" text-anchor="middle" fill="#999" font-size="11">7</text>
+  <line x1="110" y1="34" x2="110" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="166" y1="34" x2="166" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="222" y1="34" x2="222" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="278" y1="34" x2="278" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="334" y1="34" x2="334" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="390" y1="34" x2="390" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="446" y1="34" x2="446" y2="190" stroke="#eee" stroke-width="1"/>
+  <line x1="502" y1="34" x2="502" y2="190" stroke="#eee" stroke-width="1"/>
+  <text x="8" y="58" fill="#555" font-size="12">[1, 3]</text>
+  <rect x="166" y="44" width="112" height="22" rx="4" fill="#1976d2" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="222" y="59" text-anchor="middle" fill="white" font-size="12" font-weight="bold">&#x2713; 选中</text>
+  <text x="8" y="90" fill="#555" font-size="12">[2, 4]</text>
+  <rect x="222" y="76" width="112" height="22" rx="4" fill="#b0bec5" stroke="#90a4ae" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="278" y="91" text-anchor="middle" fill="#607d8b" font-size="12">跳过</text>
+  <text x="8" y="122" fill="#555" font-size="12">[3, 5]</text>
+  <rect x="278" y="108" width="112" height="22" rx="4" fill="#388e3c" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="334" y="123" text-anchor="middle" fill="white" font-size="12" font-weight="bold">&#x2713; 选中</text>
+  <text x="8" y="154" fill="#555" font-size="12">[4, 6]</text>
+  <rect x="334" y="140" width="112" height="22" rx="4" fill="#b0bec5" stroke="#90a4ae" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="390" y="155" text-anchor="middle" fill="#607d8b" font-size="12">跳过</text>
+  <text x="8" y="186" fill="#555" font-size="12">[1, 6]</text>
+  <rect x="166" y="172" width="280" height="22" rx="4" fill="#b0bec5" stroke="#90a4ae" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="306" y="187" text-anchor="middle" fill="#607d8b" font-size="12">跳过（结束时间晚）</text>
+  <rect x="390" y="150" width="118" height="36" rx="6" fill="#e8f5e9" stroke="#81c784" stroke-width="1.5"/>
+  <text x="449" y="165" text-anchor="middle" fill="#2e7d32" font-size="11" font-weight="bold">贪心选中 2 个</text>
+  <text x="449" y="179" text-anchor="middle" fill="#388e3c" font-size="11">最多不重叠区间</text>
+</svg>
+</div>
 
 **解题模板**
 ```python
@@ -1220,17 +1440,63 @@ def rob(root):
 
 > 💡 **图示**（并查集合并与路径压缩）
 
-```text
- 初始: 1  2  3  4  5  (各自为根)
-
- union(1,2): 1←2    union(3,4): 3←4    union(1,3): 1←3
-      1            3←4               1
-      ↑            ↑                 ↑
-      2            4               3   2
-                                   ↑
-                                   4
- find(4) → 4→3→1 (路径压缩后: 4→1)
-```
+<div style="overflow-x:auto;margin:1rem 0">
+<svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
+  <defs>
+    <marker id="uf-arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="uf-arrO" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    </marker>
+  </defs>
+  <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：合并与路径压缩</text>
+  <text x="86" y="32" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="12">初始状态</text>
+  <text x="264" y="32" text-anchor="middle" fill="#1565c0" font-weight="bold" font-size="11">union后（1为根）</text>
+  <text x="440" y="32" text-anchor="middle" fill="#e65100" font-weight="bold" font-size="11">路径压缩 find(4)</text>
+  <line x1="172" y1="36" x2="172" y2="205" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="348" y1="36" x2="348" y2="205" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <circle cx="30" cy="60" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="30" y="65" text-anchor="middle" fill="#1a237e" font-weight="bold">1</text>
+  <circle cx="60" cy="60" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="60" y="65" text-anchor="middle" fill="#1a237e" font-weight="bold">2</text>
+  <circle cx="90" cy="60" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="90" y="65" text-anchor="middle" fill="#1a237e" font-weight="bold">3</text>
+  <circle cx="120" cy="60" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="120" y="65" text-anchor="middle" fill="#1a237e" font-weight="bold">4</text>
+  <circle cx="150" cy="60" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="150" y="65" text-anchor="middle" fill="#1a237e" font-weight="bold">5</text>
+  <text x="86" y="92" text-anchor="middle" fill="#888" font-size="11">各自为根</text>
+  <circle cx="264" cy="60" r="14" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="264" y="65" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <line x1="250" y1="72" x2="235" y2="98" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="230" cy="110" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="230" y="115" text-anchor="middle" fill="#1a237e">2</text>
+  <line x1="278" y1="72" x2="293" y2="98" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="298" cy="110" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="298" y="115" text-anchor="middle" fill="#1a237e">3</text>
+  <line x1="298" y1="124" x2="298" y2="141" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="298" cy="155" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="298" y="160" text-anchor="middle" fill="#1a237e">4</text>
+  <circle cx="230" cy="155" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="230" y="160" text-anchor="middle" fill="#1a237e">5</text>
+  <text x="264" y="185" text-anchor="middle" fill="#888" font-size="11">find(4): 4&#x2192;3&#x2192;1</text>
+  <circle cx="440" cy="60" r="14" fill="#c8e6c9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="440" y="65" text-anchor="middle" fill="#1b5e20" font-weight="bold">1</text>
+  <line x1="426" y1="72" x2="411" y2="98" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="404" cy="110" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="404" y="115" text-anchor="middle" fill="#1a237e">2</text>
+  <line x1="440" y1="74" x2="440" y2="96" stroke="#1565c0" stroke-width="1.5" marker-end="url(#uf-arr)"/>
+  <circle cx="440" cy="110" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="440" y="115" text-anchor="middle" fill="#1a237e">3</text>
+  <line x1="468" y1="68" x2="476" y2="110" stroke="#e65100" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#uf-arrO)"/>
+  <circle cx="476" cy="124" r="14" fill="#ffe0b2" stroke="#ff9800" stroke-width="2"/>
+  <text x="476" y="129" text-anchor="middle" fill="#e65100" font-weight="bold">4</text>
+  <circle cx="404" cy="155" r="14" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="404" y="160" text-anchor="middle" fill="#1a237e">5</text>
+  <text x="440" y="185" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">find(4): 4&#x2192;1 &#x2713; 已压缩</text>
+</svg>
+</div>
 
 ```python
 class UnionFind:
@@ -1372,3 +1638,4 @@ def topo_dfs(n, edges):
 | 快速选择 | O(n)均摊 | 第K大元素 |
 | 并查集 | O(α(n))≈O(1) | 连通性、环检测 |
 | Dijkstra | O((V+E)log V) | 非负权最短路 |
+
