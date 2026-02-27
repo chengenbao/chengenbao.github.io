@@ -21,11 +21,11 @@ permalink: /notes/algo-tricks/
 <div style="overflow-x:auto;margin:1rem 0">
 <svg viewBox="0 0 520 240" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
-    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#1565c0"/>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#c62828"/>
+    <marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <!-- Title -->
@@ -103,14 +103,14 @@ def two_pointer_collision(arr, target):
 <div style="overflow-x:auto;margin:1rem 0">
 <svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
-    <marker id="arr-link" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#90a4ae"/>
+    <marker id="arr-link" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="arr-slow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    <marker id="arr-slow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="arr-fast" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#c62828"/>
+    <marker id="arr-fast" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">快慢指针：找链表中点</text>
@@ -512,8 +512,8 @@ def longest_consecutive(nums):
 <div style="overflow-x:auto;margin:1rem 0">
 <svg viewBox="0 0 520 230" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
-    <marker id="ms-arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    <marker id="ms-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">单调栈：下一个更大元素</text>
@@ -654,14 +654,14 @@ def max_sliding_window(nums, k):
 <div style="overflow-x:auto;margin:1rem 0">
 <svg viewBox="0 0 520 215" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
-    <marker id="bs-arrB" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    <marker id="bs-arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="bs-arrR" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#c62828"/>
+    <marker id="bs-arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="bs-arrO" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    <marker id="bs-arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <text x="260" y="18" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">二分查找：target = 7</text>
@@ -1447,11 +1447,11 @@ def rob(root):
 <div style="overflow-x:auto;margin:1rem 0">
 <svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:'Noto Sans SC',sans-serif;font-size:13px">
   <defs>
-    <marker id="uf-arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#1565c0"/>
+    <marker id="uf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <marker id="uf-arrO" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M1,1 L7,4 L1,7 Z" fill="#e65100"/>
+    <marker id="uf-arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1,2 L8,5 L1,8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <text x="260" y="16" text-anchor="middle" font-weight="bold" fill="#2c3e50" font-size="14">并查集：合并与路径压缩</text>
