@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<article class="reading-article">
+  <header class="ra-header">
+    <a class="ra-back" href="/reading-list/">← Reading List</a>
+    <div class="ra-meta-top">
+      <span class="ra-badge {% if page.category == 'finance' %}finance{% else %}tech{% endif %}">
+        {% if page.category == 'finance' %}💰 财经精选{% else %}📰 技术速递{% endif %}
+      </span>
+      <time>{{ page.date | date: "%Y年%m月%d日" }}</time>
+    </div>
+    <h1>{{ page.title }}</h1>
+    {% if page.tags %}
+    <div class="ra-tags">
+      {% for tag in page.tags %}<span class="ra-tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="ra-content post-content">
+    {{ content }}
+  </div>
+
+  <div class="ra-nav">
+    <a class="ra-nav-btn" href="/reading-list/">← 返回列表</a>
+  </div>
+</article>
+
+<style>
+.reading-article { max-width: 780px; margin: 0 auto; }
+
+/* Header */
+.ra-back {
+  display: inline-block; font-size: 13px; color: var(--muted); text-decoration: none;
+  margin-bottom: 20px; transition: color .15s;
+}
+.ra-back:hover { color: var(--accent); }
+
+.ra-meta-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.ra-badge {
+  font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 10px;
+}
+.ra-badge.tech    { background: var(--accent-bg); color: var(--accent); }
+.ra-badge.finance { background: #fffbeb; color: #b45309; }
+.ra-meta-top time { font-size: 13px; color: var(--muted); }
+
+.ra-header h1 {
+  font-size: 1.9em; font-weight: 700; letter-spacing: -.4px; line-height: 1.3;
+  margin-bottom: 16px; color: var(--text);
+}
+
+/* Tags */
+.ra-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 32px; }
+.ra-tag {
+  font-size: 11px; font-weight: 500; padding: 3px 9px;
+  background: var(--tag-bg); color: var(--tag-text); border-radius: 5px;
+}
+
+/* Content overrides for reading articles */
+.ra-content { border-top: 1px solid var(--border); padding-top: 32px; }
+.ra-content h1 { font-size: 1.5em; margin-top: 0; }
+.ra-content h2 {
+  font-size: 1.2em; margin-top: 2.2em; padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
+}
+.ra-content blockquote {
+  border-left: 3px solid var(--accent); background: var(--accent-bg);
+  padding: 12px 18px; border-radius: 0 6px 6px 0; color: var(--muted); font-style: normal;
+  margin: 1em 0 1.5em;
+}
+.ra-content strong { color: var(--text); }
+.ra-content hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+.ra-content a { color: var(--accent); text-underline-offset: 2px; }
+.ra-content a:hover { color: var(--accent-h); }
+
+/* Back button */
+.ra-nav { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+.ra-nav-btn {
+  display: inline-flex; align-items: center; padding: 8px 16px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+  color: var(--text); text-decoration: none; font-size: 13px; font-weight: 500; transition: all .15s;
+}
+.ra-nav-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+</style>

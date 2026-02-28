@@ -4,254 +4,166 @@ title: "Reading List"
 permalink: /reading-list/
 ---
 
-<div class="reading-list">
-  <div class="header">
+<div class="rl-page">
+  <div class="rl-hero">
     <h1>Reading List</h1>
-    <p>每日精选 · 技术 & 财经</p>
-    <div class="filters">
-      <button class="filter-btn active" data-filter="all">全部 (4)</button>
-      <button class="filter-btn" data-filter="tech">技术速递 (2)</button>
-      <button class="filter-btn" data-filter="finance">财经精选 (2)</button>
+    <p>每日精选 · 技术 &amp; 财经</p>
+    <div class="rl-filters">
+      <button class="rl-filter active" data-filter="all">全部</button>
+      <button class="rl-filter" data-filter="tech">📰 技术速递</button>
+      <button class="rl-filter" data-filter="finance">💰 财经精选</button>
     </div>
   </div>
 
-  <div class="articles">
-    <article class="article tech">
-      <div class="article-header">
-        <span class="icon">📰</span>
-        <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-28-tech/">技术速递（2026-02-28）</a></h2>
-          <p class="sub-title">TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 MoE / CUDA Kernel Agent</p>
-        </div>
-        <time>2026-02-28</time>
-      </div>
-      <div class="meta">
-        <span class="source">pytorch.org/blog · huggingface.co/blog</span>
-        <span class="tags">#大模型 #PyTorch #推理技术</span>
-      </div>
-      <p class="summary">TorchForge + Weaver LLM大规模RL后训练，AMD MI325X + TorchTitan 1024 GPU MoE预训练，HF Transformers v5 MoE加载优化，AI Agent自动生成CUDA Kernel</p>
-    </article>
+  <div class="rl-grid">
 
-    <article class="article tech">
-      <div class="article-header">
-        <span class="icon">📰</span>
-        <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-27-tech/">技术速递（2026-02-27）</a></h2>
-          <p class="sub-title">torchforge RL框架、MoE训练优化、CUDA Kernel自动生成</p>
+    <a class="rl-card tech" href="/reading-list/2026-02-28-tech/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge tech">📰 技术速递</span>
+          <time>2026-02-28</time>
         </div>
-        <time>2026-02-27</time>
+        <h2>TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 / CUDA Kernel Agent</h2>
+        <p>TorchForge + Weaver LLM 大规模 RL 后训练，AMD MI325X + TorchTitan 1024 GPU MoE 预训练，HF Transformers v5 MoE 加载优化，AI Agent 自动生成 CUDA Kernel</p>
+        <div class="rl-meta">
+          <span class="rl-source">pytorch.org/blog · huggingface.co/blog</span>
+          <span class="rl-tags">#大模型 #PyTorch #推理技术</span>
+        </div>
       </div>
-      <div class="meta">
-        <span class="source">pytorch.org/blog · huggingface.co/blog</span>
-        <span class="tags">#大模型 #PyTorch #推理技术</span>
-      </div>
-      <p class="summary">PyTorch生态技术进展：RL框架优化、MoE训练性能提升、CUDA Kernel自动生成工具</p>
-    </article>
+    </a>
 
-    <article class="article finance">
-      <div class="article-header">
-        <span class="icon">💰</span>
-        <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-28-finance/">财经精选（2026-02-28）</a></h2>
-          <p class="sub-title">AI 基建热潮推动全球贸易增长，远端国债利率创50年新高 + 稳定币监管框架对比</p>
+    <a class="rl-card finance" href="/reading-list/2026-02-28-finance/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge finance">💰 财经精选</span>
+          <time>2026-02-28</time>
         </div>
-        <time>2026-02-28</time>
+        <h2>AI 贸易效应 / 国债远端利率急升 / 稳定币历史启示</h2>
+        <p>2025H1 AI 相关贸易同比增长 65%，规模达 2720 亿美元；9–10 年期远期利率创 1970s 以来最大涨幅；美国银行券历史对稳定币监管的启示</p>
+        <div class="rl-meta">
+          <span class="rl-source">federalreserve.gov/econres/notes</span>
+          <span class="rl-tags">#宏观经济 #AI贸易 #稳定币</span>
+        </div>
       </div>
-      <div class="meta">
-        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/" target="_blank">Federal Reserve Economic Data</a></span>
-        <span class="tags">#宏观经济 #AI贸易 #国债市场 #金融科技 #稳定币</span>
-      </div>
-      <p class="summary"><strong>核心发现一：</strong>美联储研究显示，2025年上半年AI基础设施建设热潮推动全球AI相关贸易额增长65%，达到2720亿美元，占全球贸易增量的50%。同时，长期国债远期利率出现50年来最大涨幅，反映市场对供给冲击风险和债务可持续性的重新定价。<br><br><strong>核心发现二：</strong>基于《GENIUS Act》框架，对比分析19世纪美国私人银行券与现代稳定币监管挑战。研究发现历史银行券因缺乏统一标准导致价值波动，当前稳定币在透明度、储备管理方面面临类似挑战，建议建立分级监管体系并加强国际合作。</p>
-    </article>
+    </a>
 
-    <article class="article finance">
-      <div class="article-header">
-        <span class="icon">💰</span>
-        <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-27-finance/">财经精选（2026-02-27）</a></h2>
-          <p class="sub-title">AI贸易影响、美债长端利率、Stablecoin历史</p>
+    <a class="rl-card tech" href="/reading-list/2026-02-27-tech/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge tech">📰 技术速递</span>
+          <time>2026-02-27</time>
         </div>
-        <time>2026-02-27</time>
+        <h2>torchforge RL 框架 / MoE 训练优化 / CUDA Kernel 自动生成</h2>
+        <p>PyTorch 生态技术进展：RL 框架优化、MoE 训练性能提升、CUDA Kernel 自动生成工具</p>
+        <div class="rl-meta">
+          <span class="rl-source">pytorch.org/blog · huggingface.co/blog</span>
+          <span class="rl-tags">#大模型 #PyTorch #推理技术</span>
+        </div>
       </div>
-      <div class="meta">
-        <span class="source">federalreserve.gov/econres</span>
-        <span class="tags">#宏观经济 #金融科技 #资产配置</span>
+    </a>
+
+    <a class="rl-card finance" href="/reading-list/2026-02-27-finance/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge finance">💰 财经精选</span>
+          <time>2026-02-27</time>
+        </div>
+        <h2>AI 贸易影响 / 美债长端利率 / Stablecoin 历史</h2>
+        <p>AI 贸易对全球经济影响分析，美债长端利率走势，稳定币监管框架对比研究</p>
+        <div class="rl-meta">
+          <span class="rl-source">federalreserve.gov/econres</span>
+          <span class="rl-tags">#宏观经济 #金融科技 #资产配置</span>
+        </div>
       </div>
-      <p class="summary">AI贸易对全球经济影响分析，美债长端利率走势，稳定币监管框架对比研究</p>
-    </article>
+    </a>
+
   </div>
 </div>
 
 <style>
-.reading-list {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+.rl-page { max-width: 900px; margin: 0 auto; }
+
+/* Hero */
+.rl-hero { text-align: center; padding: 8px 0 40px; margin-bottom: 36px; border-bottom: 1px solid var(--border); }
+.rl-hero h1 { font-size: 2em; font-weight: 700; letter-spacing: -.5px; color: var(--text); margin-bottom: 8px; }
+.rl-hero > p { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+
+/* Filters */
+.rl-filters { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.rl-filter {
+  padding: 6px 16px; border: 1.5px solid var(--border); border-radius: 20px;
+  background: var(--surface); color: var(--muted); font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: all .15s; outline: none; font-family: var(--sans);
+}
+.rl-filter:hover { border-color: var(--accent); color: var(--accent); }
+.rl-filter.active { background: var(--text); border-color: var(--text); color: #fff; }
+
+/* Grid */
+.rl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 620px) { .rl-grid { grid-template-columns: 1fr; } }
+
+/* Card */
+.rl-card {
+  display: flex; border-radius: var(--rl); border: 1px solid var(--border);
+  background: var(--surface); text-decoration: none; color: var(--text); overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.rl-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.09);
+  border-color: var(--accent);
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 30px;
-}
+/* Accent bar */
+.rl-accent { width: 4px; flex-shrink: 0; }
+.rl-card.tech .rl-accent    { background: var(--accent); }
+.rl-card.finance .rl-accent { background: #f59e0b; }
 
-.header h1 {
-  font-size: 1.8em;
-  color: #333;
-  margin: 0 0 5px 0;
-  font-weight: 600;
-}
+/* Body */
+.rl-body { padding: 18px 20px; display: flex; flex-direction: column; gap: 9px; flex: 1; min-width: 0; }
 
-.header p {
-  color: #666;
-  margin: 0 0 20px 0;
-  font-size: 14px;
+/* Top row */
+.rl-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.rl-badge {
+  font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 10px; white-space: nowrap;
 }
+.rl-badge.tech    { background: var(--accent-bg); color: var(--accent); }
+.rl-badge.finance { background: #fffbeb; color: #b45309; }
+.rl-top time { font-size: 12px; color: var(--muted); white-space: nowrap; }
 
-.filters {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
+/* Title */
+.rl-body h2 { font-size: 15px; font-weight: 600; color: var(--text); margin: 0; line-height: 1.45; }
+.rl-card:hover .rl-body h2 { color: var(--accent); }
 
-.filter-btn {
-  padding: 6px 16px;
-  border: 1px solid #ddd;
-  background: white;
-  color: #666;
-  border-radius: 15px;
-  cursor: pointer;
-  font-size: 13px;
-  transition: all 0.2s;
-}
+/* Summary */
+.rl-body > p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.6; flex: 1; }
 
-.filter-btn:hover {
-  border-color: #999;
-}
-
-.filter-btn.active {
-  background: #333;
-  color: white;
-  border-color: #333;
-}
-
-.articles {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.article {
-  padding: 20px;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  background: white;
-}
-
-.article.tech {
-  border-left: 1px solid #eee;
-}
-
-.article.finance {
-  border-left: 1px solid #eee;
-}
-
-.article-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 10px;
-}
-
-.icon {
-  font-size: 18px;
-  margin-top: 4px;
-}
-
-.titles {
-  flex: 1;
-}
-
-.main-title {
-  margin: 0 0 5px 0;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.main-title a {
-  color: #333;
-  text-decoration: none;
-}
-
-.main-title a:hover {
-  color: #007cba;
-}
-
-.sub-title {
-  margin: 0;
-  font-size: 14px;
-  color: #888;
-  line-height: 1.4;
-}
-
-time {
-  color: #999;
-  font-size: 12px;
-  white-space: nowrap;
-  margin-top: 2px;
-}
-
-.meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-  font-size: 12px;
-}
-
-.source {
-  color: #666;
-}
-
-.source a {
-  color: #666;
-  text-decoration: none;
-}
-
-.source a:hover {
-  color: #007cba;
-  text-decoration: underline;
-}
-
-.tags {
-  color: #007cba;
-}
-
-.summary {
-  margin: 0;
-  color: #555;
-  font-size: 14px;
-  line-height: 1.5;
-}
+/* Meta */
+.rl-meta { display: flex; flex-direction: column; gap: 2px; padding-top: 10px; border-top: 1px solid var(--border); }
+.rl-source { font-size: 11px; color: #bbb; }
+.rl-tags { font-size: 11px; }
+.rl-card.tech    .rl-tags { color: var(--accent); }
+.rl-card.finance .rl-tags { color: #f59e0b; }
 </style>
 
 <script>
- document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    
-    const filter = btn.dataset.filter;
-    const articles = document.querySelectorAll('.article');
-    
-    articles.forEach(article => {
-      if (filter === 'all' || article.classList.contains(filter)) {
-        article.style.display = 'block';
-      } else {
-        article.style.display = 'none';
-      }
+(function(){
+  var btns = document.querySelectorAll('.rl-filter');
+  var cards = document.querySelectorAll('.rl-card');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.dataset.filter;
+      cards.forEach(function(c){
+        c.style.display = (f === 'all' || c.classList.contains(f)) ? '' : 'none';
+      });
     });
   });
-});
+})();
 </script>
