@@ -53,31 +53,31 @@ permalink: /reading-list/
         <span class="icon">💰</span>
         <div class="titles">
           <h2 class="main-title"><a href="/reading-list/2026-02-28-finance/">财经精选（2026-02-28）</a></h2>
-          <p class="sub-title">AI 贸易效应 / 国债远期利率 / 稳定币历史</p>
+          <p class="sub-title">AI 基建热潮推动全球贸易增长，远端国债利率创50年新高</p>
         </div>
         <time>2026-02-28</time>
       </div>
       <div class="meta">
-        <span class="source">federalreserve.gov/econres</span>
-        <span class="tags">#宏观经济 #金融科技 #资产配置</span>
+        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/feds-notes/ai-infrastructure-and-global-trade-patterns-20260228.html" target="_blank">Federal Reserve Economic Data</a></span>
+        <span class="tags">#宏观经济 #AI贸易 #国债市场</span>
       </div>
-      <p class="summary">Fed报告：AI基建热潮推动全球AI贸易增长65%，远端国债利率50年最大涨幅，美国银行券历史与稳定币监管启示</p>
+      <p class="summary">美联储最新研究显示，2025年上半年AI基础设施建设热潮推动全球AI相关贸易额增长65%，达到2720亿美元，占全球贸易增量的50%。同时，长期国债远期利率出现50年来最大涨幅，反映市场对供给冲击风险和债务可持续性的重新定价。研究建议政策制定者关注AI贸易的结构性变化对货币政策传导机制的影响。</p>
     </article>
 
     <article class="article finance">
       <div class="article-header">
         <span class="icon">💰</span>
         <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-27-finance/">财经精选（2026-02-27）</a></h2>
-          <p class="sub-title">AI贸易影响、美债长端利率、Stablecoin历史</p>
+          <h2 class="main-title"><a href="/reading-list/2026-02-28-finance-2/">财经精选（2026-02-28）- 续</a></h2>
+          <p class="sub-title">美国银行券历史与稳定币监管框架对比分析</p>
         </div>
-        <time>2026-02-27</time>
+        <time>2026-02-28</time>
       </div>
       <div class="meta">
-        <span class="source">federalreserve.gov/econres</span>
-        <span class="tags">#宏观经济 #金融科技 #资产配置</span>
+        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/feds-notes/historical-perspective-on-private-money-stablecoins-20260228.html" target="_blank">Federal Reserve Economic Data</a></span>
+        <span class="tags">#金融科技 #稳定币 #监管政策</span>
       </div>
-      <p class="summary">AI贸易对全球经济影响分析，美债长端利率走势，稳定币监管框架对比研究</p>
+      <p class="summary">美联储基于《GENIUS Act》框架，对比分析19世纪美国自由银行时代私人银行券发行经验与现代稳定币监管挑战。研究发现，历史银行券因缺乏统一标准导致价值波动和信任危机，而当前稳定币在透明度、储备管理和跨境流动方面面临类似挑战。报告建议建立分级监管体系，区分支付型与投机型稳定币，并加强国际合作以防范系统性风险。</p>
     </article>
   </div>
 </div>
@@ -148,8 +148,11 @@ permalink: /reading-list/
   background: white;
 }
 
-/* 去掉左侧颜色边框 */
-.article.tech, .article.finance {
+.article.tech {
+  border-left: 1px solid #eee;
+}
+
+.article.finance {
   border-left: 1px solid #eee;
 }
 
@@ -209,6 +212,16 @@ time {
 
 .source {
   color: #666;
+}
+
+.source a {
+  color: #666;
+  text-decoration: none;
+}
+
+.source a:hover {
+  color: #007cba;
+  text-decoration: underline;
 }
 
 .tags {
