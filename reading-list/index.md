@@ -4,280 +4,216 @@ title: "Reading List"
 permalink: /reading-list/
 ---
 
-<div class="reading-list-container">
-  <div class="header-section">
-    <h1 class="page-title">📚 Reading List</h1>
-    <p class="page-desc">每日精选 · 技术 & 财经</p>
-    
-    <!-- 分类筛选按钮 -->
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all">📋 全部文章 (4)</button>
-      <button class="filter-btn" data-filter="tech">📰 技术速递 (2)</button>
-      <button class="filter-btn" data-filter="finance">💰 财经精选 (2)</button>
+<div class="reading-list">
+  <div class="header">
+    <h1>Reading List</h1>
+    <p>每日精选 · 技术 & 财经</p>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">全部 (4)</button>
+      <button class="filter-btn" data-filter="tech">技术速递 (2)</button>
+      <button class="filter-btn" data-filter="finance">财经精选 (2)</button>
     </div>
   </div>
 
-  <div class="articles-list">
-    <!-- 技术速递 -->
-    <article class="article-card tech" data-type="tech">
+  <div class="articles">
+    <article class="article tech">
       <div class="article-header">
-        <span class="article-icon">📰</span>
-        <h2 class="article-title">
-          <a href="/reading-list/2026-02-28-tech/">技术速递 2026-02-28：TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 MoE / CUDA Kernel Agent</a>
-        </h2>
-        <span class="article-date">2026年02月28日</span>
+        <span class="icon">📰</span>
+        <h2><a href="/reading-list/2026-02-28-tech/">技术速递 2026-02-28：TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 MoE / CUDA Kernel Agent</a></h2>
+        <time>2026-02-28</time>
       </div>
-      <div class="article-meta">
-        <span class="source">来源：pytorch.org/blog · huggingface.co/blog</span>
-        <span class="tags">#大模型 #PyTorch框架 #推理技术</span>
+      <div class="meta">
+        <span class="source">pytorch.org/blog · huggingface.co/blog</span>
+        <span class="tags">#大模型 #PyTorch #推理技术</span>
       </div>
-      <p class="article-summary">每日精选：大模型 / PyTorch 框架 / 推理技术的最新进展汇总</p>
+      <p class="summary">TorchForge + Weaver LLM大规模RL后训练，AMD MI325X + TorchTitan 1024 GPU MoE预训练，HF Transformers v5 MoE加载优化，AI Agent自动生成CUDA Kernel</p>
     </article>
 
-    <article class="article-card tech" data-type="tech">
+    <article class="article tech">
       <div class="article-header">
-        <span class="article-icon">📰</span>
-        <h2 class="article-title">
-          <a href="/reading-list/2026-02-27-tech/">技术速递 2026-02-27：torchforge RL框架、MoE训练优化、CUDA Kernel自动生成</a>
-        </h2>
-        <span class="article-date">2026年02月27日</span>
+        <span class="icon">📰</span>
+        <h2><a href="/reading-list/2026-02-27-tech/">技术速递 2026-02-27：torchforge RL框架、MoE训练优化、CUDA Kernel自动生成</a></h2>
+        <time>2026-02-27</time>
       </div>
-      <div class="article-meta">
-        <span class="source">来源：pytorch.org/blog · huggingface.co/blog</span>
-        <span class="tags">#大模型 #PyTorch框架 #推理技术</span>
+      <div class="meta">
+        <span class="source">pytorch.org/blog · huggingface.co/blog</span>
+        <span class="tags">#大模型 #PyTorch #推理技术</span>
       </div>
-      <p class="article-summary">每日精选：大模型 / PyTorch 框架 / 推理技术的最新进展汇总</p>
+      <p class="summary">PyTorch生态技术进展：RL框架优化、MoE训练性能提升、CUDA Kernel自动生成工具</p>
     </article>
 
-    <!-- 财经精选 -->
-    <article class="article-card finance" data-type="finance">
+    <article class="article finance">
       <div class="article-header">
-        <span class="article-icon">💰</span>
-        <h2 class="article-title">
-          <a href="/reading-list/2026-02-28-finance/">财经精选 2026-02-28：AI 贸易效应 / 国债远期利率 / 稳定币历史</a>
-        </h2>
-        <span class="article-date">2026年02月28日</span>
+        <span class="icon">💰</span>
+        <h2><a href="/reading-list/2026-02-28-finance/">财经精选 2026-02-28：AI 贸易效应 / 国债远期利率 / 稳定币历史</a></h2>
+        <time>2026-02-28</time>
       </div>
-      <div class="article-meta">
-        <span class="source">来源：federalreserve.gov/econres（Fed Notes）</span>
+      <div class="meta">
+        <span class="source">federalreserve.gov/econres</span>
         <span class="tags">#宏观经济 #金融科技 #资产配置</span>
       </div>
-      <p class="article-summary">每日精选：宏观经济 / 金融科技 / 资产配置的深度分析</p>
+      <p class="summary">Fed报告：AI基建热潮推动全球AI贸易增长65%，远端国债利率50年最大涨幅，美国银行券历史与稳定币监管启示</p>
     </article>
 
-    <article class="article-card finance" data-type="finance">
+    <article class="article finance">
       <div class="article-header">
-        <span class="article-icon">💰</span>
-        <h2 class="article-title">
-          <a href="/reading-list/2026-02-27-finance/">财经精选 2026-02-27：AI贸易影响、美债长端利率、Stablecoin历史</a>
-        </h2>
-        <span class="article-date">2026年02月27日</span>
+        <span class="icon">💰</span>
+        <h2><a href="/reading-list/2026-02-27-finance/">财经精选 2026-02-27：AI贸易影响、美债长端利率、Stablecoin历史</a></h2>
+        <time>2026-02-27</time>
       </div>
-      <div class="article-meta">
-        <span class="source">来源：federalreserve.gov/econres（Fed Notes）</span>
+      <div class="meta">
+        <span class="source">federalreserve.gov/econres</span>
         <span class="tags">#宏观经济 #金融科技 #资产配置</span>
       </div>
-      <p class="article-summary">每日精选：宏观经济 / 金融科技 / 资产配置的深度分析</p>
+      <p class="summary">AI贸易对全球经济影响分析，美债长端利率走势，稳定币监管框架对比研究</p>
     </article>
   </div>
 </div>
 
 <style>
-.reading-list-container {
-  max-width: 900px;
+.reading-list {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.header-section {
+.header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.page-title {
-  font-size: 2.5em;
-  color: #2c3e50;
-  margin: 0 0 10px 0;
-  font-weight: 700;
+.header h1 {
+  font-size: 1.8em;
+  color: #333;
+  margin: 0 0 5px 0;
+  font-weight: 600;
 }
 
-.page-desc {
-  font-size: 1.2em;
-  color: #7f8c8d;
-  margin: 0 0 30px 0;
+.header p {
+  color: #666;
+  margin: 0 0 20px 0;
+  font-size: 14px;
 }
 
-.filter-bar {
+.filters {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .filter-btn {
-  padding: 12px 24px;
-  border: 2px solid #3498db;
+  padding: 6px 16px;
+  border: 1px solid #ddd;
   background: white;
-  color: #3498db;
-  border-radius: 25px;
+  color: #666;
+  border-radius: 15px;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
+  font-size: 13px;
+  transition: all 0.2s;
 }
 
 .filter-btn:hover {
-  background: #3498db;
-  color: white;
-  transform: translateY(-2px);
+  border-color: #999;
 }
 
 .filter-btn.active {
-  background: #3498db;
+  background: #333;
   color: white;
-  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+  border-color: #333;
 }
 
-.articles-list {
+.articles {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
-.article-card {
+.article {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
   background: white;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border-left: 5px solid #3498db;
-  transition: all 0.3s ease;
 }
 
-.article-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+.article.tech {
+  border-left: 3px solid #e74c3c;
 }
 
-.article-card.tech {
-  border-left-color: #e74c3c;
-}
-
-.article-card.finance {
-  border-left-color: #f39c12;
+.article.finance {
+  border-left: 3px solid #f39c12;
 }
 
 .article-header {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
-  margin-bottom: 15px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.article-icon {
-  font-size: 24px;
+.icon {
+  font-size: 18px;
   margin-top: 2px;
 }
 
-.article-title {
+.article-header h2 {
   flex: 1;
   margin: 0;
-}
-
-.article-title a {
-  color: #2c3e50;
-  text-decoration: none;
-  font-size: 1.3em;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
 }
 
-.article-title a:hover {
-  color: #3498db;
+.article-header h2 a {
+  color: #333;
+  text-decoration: none;
 }
 
-.article-date {
-  color: #95a5a6;
-  font-size: 14px;
+.article-header h2 a:hover {
+  color: #007cba;
+}
+
+time {
+  color: #999;
+  font-size: 12px;
   white-space: nowrap;
-  font-weight: 500;
 }
 
-.article-meta {
+.meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
-  flex-wrap: wrap;
-  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 12px;
 }
 
 .source {
-  color: #7f8c8d;
-  font-size: 13px;
+  color: #666;
 }
 
 .tags {
-  color: #3498db;
-  font-size: 13px;
-  font-weight: 500;
+  color: #007cba;
 }
 
-.article-summary {
-  color: #555;
-  line-height: 1.6;
+.summary {
   margin: 0;
-  font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  .reading-list-container {
-    padding: 20px 15px;
-  }
-  
-  .page-title {
-    font-size: 2em;
-  }
-  
-  .filter-bar {
-    gap: 10px;
-  }
-  
-  .filter-btn {
-    padding: 10px 18px;
-    font-size: 13px;
-  }
-  
-  .article-header {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .article-date {
-    align-self: flex-start;
-  }
-  
-  .article-meta {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
 }
 </style>
 
 <script>
-// 分类筛选功能
  document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    // 更新按钮状态
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     
     const filter = btn.dataset.filter;
-    const articles = document.querySelectorAll('.article-card');
+    const articles = document.querySelectorAll('.article');
     
-    // 筛选文章
     articles.forEach(article => {
-      if (filter === 'all' || article.dataset.type === filter) {
+      if (filter === 'all' || article.classList.contains(filter)) {
         article.style.display = 'block';
       } else {
         article.style.display = 'none';
