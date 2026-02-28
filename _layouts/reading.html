@@ -83,4 +83,17 @@ layout: default
   color: var(--text); text-decoration: none; font-size: 13px; font-weight: 500; transition: all .15s;
 }
 .ra-nav-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+
+{% if page.category == 'math' %}
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+{% endif %}
 </style>

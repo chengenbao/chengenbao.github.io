@@ -15,6 +15,7 @@ paginate_path: "/page:num/"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  math_engine: mathjax
 
 collections:
   reading_list:
