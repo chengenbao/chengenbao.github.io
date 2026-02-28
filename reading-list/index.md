@@ -53,31 +53,31 @@ permalink: /reading-list/
         <span class="icon">💰</span>
         <div class="titles">
           <h2 class="main-title"><a href="/reading-list/2026-02-28-finance/">财经精选（2026-02-28）</a></h2>
-          <p class="sub-title">AI 基建热潮推动全球贸易增长，远端国债利率创50年新高</p>
+          <p class="sub-title">AI 基建热潮推动全球贸易增长，远端国债利率创50年新高 + 稳定币监管框架对比</p>
         </div>
         <time>2026-02-28</time>
       </div>
       <div class="meta">
-        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/feds-notes/ai-infrastructure-and-global-trade-patterns-20260228.html" target="_blank">Federal Reserve Economic Data</a></span>
-        <span class="tags">#宏观经济 #AI贸易 #国债市场</span>
+        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/" target="_blank">Federal Reserve Economic Data</a></span>
+        <span class="tags">#宏观经济 #AI贸易 #国债市场 #金融科技 #稳定币</span>
       </div>
-      <p class="summary">美联储最新研究显示，2025年上半年AI基础设施建设热潮推动全球AI相关贸易额增长65%，达到2720亿美元，占全球贸易增量的50%。同时，长期国债远期利率出现50年来最大涨幅，反映市场对供给冲击风险和债务可持续性的重新定价。研究建议政策制定者关注AI贸易的结构性变化对货币政策传导机制的影响。</p>
+      <p class="summary"><strong>核心发现一：</strong>美联储研究显示，2025年上半年AI基础设施建设热潮推动全球AI相关贸易额增长65%，达到2720亿美元，占全球贸易增量的50%。同时，长期国债远期利率出现50年来最大涨幅，反映市场对供给冲击风险和债务可持续性的重新定价。<br><br><strong>核心发现二：</strong>基于《GENIUS Act》框架，对比分析19世纪美国私人银行券与现代稳定币监管挑战。研究发现历史银行券因缺乏统一标准导致价值波动，当前稳定币在透明度、储备管理方面面临类似挑战，建议建立分级监管体系并加强国际合作。</p>
     </article>
 
     <article class="article finance">
       <div class="article-header">
         <span class="icon">💰</span>
         <div class="titles">
-          <h2 class="main-title"><a href="/reading-list/2026-02-28-finance-2/">财经精选（2026-02-28）- 续</a></h2>
-          <p class="sub-title">美国银行券历史与稳定币监管框架对比分析</p>
+          <h2 class="main-title"><a href="/reading-list/2026-02-27-finance/">财经精选（2026-02-27）</a></h2>
+          <p class="sub-title">AI贸易影响、美债长端利率、Stablecoin历史</p>
         </div>
-        <time>2026-02-28</time>
+        <time>2026-02-27</time>
       </div>
       <div class="meta">
-        <span class="source"><a href="https://www.federalreserve.gov/econres/notes/feds-notes/historical-perspective-on-private-money-stablecoins-20260228.html" target="_blank">Federal Reserve Economic Data</a></span>
-        <span class="tags">#金融科技 #稳定币 #监管政策</span>
+        <span class="source">federalreserve.gov/econres</span>
+        <span class="tags">#宏观经济 #金融科技 #资产配置</span>
       </div>
-      <p class="summary">美联储基于《GENIUS Act》框架，对比分析19世纪美国自由银行时代私人银行券发行经验与现代稳定币监管挑战。研究发现，历史银行券因缺乏统一标准导致价值波动和信任危机，而当前稳定币在透明度、储备管理和跨境流动方面面临类似挑战。报告建议建立分级监管体系，区分支付型与投机型稳定币，并加强国际合作以防范系统性风险。</p>
+      <p class="summary">AI贸易对全球经济影响分析，美债长端利率走势，稳定币监管框架对比研究</p>
     </article>
   </div>
 </div>
