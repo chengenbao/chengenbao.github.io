@@ -19,7 +19,10 @@ permalink: /reading-list/
     <article class="article tech">
       <div class="article-header">
         <span class="icon">📰</span>
-        <h2><a href="/reading-list/2026-02-28-tech/">技术速递 2026-02-28：TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 MoE / CUDA Kernel Agent</a></h2>
+        <div class="titles">
+          <h2 class="main-title"><a href="/reading-list/2026-02-28-tech/">技术速递（2026-02-28）</a></h2>
+          <p class="sub-title">TorchForge RL 后训练 / AMD 1K GPU MoE / HF Transformers v5 MoE / CUDA Kernel Agent</p>
+        </div>
         <time>2026-02-28</time>
       </div>
       <div class="meta">
@@ -32,7 +35,10 @@ permalink: /reading-list/
     <article class="article tech">
       <div class="article-header">
         <span class="icon">📰</span>
-        <h2><a href="/reading-list/2026-02-27-tech/">技术速递 2026-02-27：torchforge RL框架、MoE训练优化、CUDA Kernel自动生成</a></h2>
+        <div class="titles">
+          <h2 class="main-title"><a href="/reading-list/2026-02-27-tech/">技术速递（2026-02-27）</a></h2>
+          <p class="sub-title">torchforge RL框架、MoE训练优化、CUDA Kernel自动生成</p>
+        </div>
         <time>2026-02-27</time>
       </div>
       <div class="meta">
@@ -45,7 +51,10 @@ permalink: /reading-list/
     <article class="article finance">
       <div class="article-header">
         <span class="icon">💰</span>
-        <h2><a href="/reading-list/2026-02-28-finance/">财经精选 2026-02-28：AI 贸易效应 / 国债远期利率 / 稳定币历史</a></h2>
+        <div class="titles">
+          <h2 class="main-title"><a href="/reading-list/2026-02-28-finance/">财经精选（2026-02-28）</a></h2>
+          <p class="sub-title">AI 贸易效应 / 国债远期利率 / 稳定币历史</p>
+        </div>
         <time>2026-02-28</time>
       </div>
       <div class="meta">
@@ -58,7 +67,10 @@ permalink: /reading-list/
     <article class="article finance">
       <div class="article-header">
         <span class="icon">💰</span>
-        <h2><a href="/reading-list/2026-02-27-finance/">财经精选 2026-02-27：AI贸易影响、美债长端利率、Stablecoin历史</a></h2>
+        <div class="titles">
+          <h2 class="main-title"><a href="/reading-list/2026-02-27-finance/">财经精选（2026-02-27）</a></h2>
+          <p class="sub-title">AI贸易影响、美债长端利率、Stablecoin历史</p>
+        </div>
         <time>2026-02-27</time>
       </div>
       <div class="meta">
@@ -126,7 +138,7 @@ permalink: /reading-list/
 .articles {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .article {
@@ -147,36 +159,47 @@ permalink: /reading-list/
 .article-header {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 10px;
 }
 
 .icon {
   font-size: 18px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
-.article-header h2 {
+.titles {
   flex: 1;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.4;
 }
 
-.article-header h2 a {
+.main-title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.main-title a {
   color: #333;
   text-decoration: none;
 }
 
-.article-header h2 a:hover {
+.main-title a:hover {
   color: #007cba;
+}
+
+.sub-title {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+  line-height: 1.4;
 }
 
 time {
   color: #999;
   font-size: 12px;
   white-space: nowrap;
+  margin-top: 2px;
 }
 
 .meta {
