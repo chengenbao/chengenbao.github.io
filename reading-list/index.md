@@ -148,12 +148,9 @@ permalink: /reading-list/
   background: white;
 }
 
-.article.tech {
-  border-left: 3px solid #e74c3c;
-}
-
-.article.finance {
-  border-left: 3px solid #f39c12;
+/* 去掉左侧颜色边框 */
+.article.tech, .article.finance {
+  border-left: 1px solid #eee;
 }
 
 .article-header {
