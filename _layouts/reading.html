@@ -5,8 +5,8 @@ layout: default
   <header class="ra-header">
     <a class="ra-back" href="/reading-list/">← Reading List</a>
     <div class="ra-meta-top">
-      <span class="ra-badge {% if page.category == 'finance' %}finance{% else %}tech{% endif %}">
-        {% if page.category == 'finance' %}💰 财经精选{% else %}📰 技术速递{% endif %}
+      <span class="ra-badge {% if page.category == 'finance' %}finance{% elsif page.category == 'math' %}math{% else %}tech{% endif %}">
+        {% if page.category == 'finance' %}💰 财经精选{% elsif page.category == 'math' %}🧮 奥数题{% else %}📰 技术速递{% endif %}
       </span>
       <time>{{ page.date | date: "%Y年%m月%d日" }}</time>
     </div>
@@ -43,6 +43,7 @@ layout: default
 }
 .ra-badge.tech    { background: var(--accent-bg); color: var(--accent); }
 .ra-badge.finance { background: #fffbeb; color: #b45309; }
+.ra-badge.math    { background: #ecfdf5; color: #065f46; }
 .ra-meta-top time { font-size: 13px; color: var(--muted); }
 
 .ra-header h1 {

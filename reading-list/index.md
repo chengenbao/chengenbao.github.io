@@ -7,15 +7,32 @@ permalink: /reading-list/
 <div class="rl-page">
   <div class="rl-hero">
     <h1>Reading List</h1>
-    <p>每日精选 · 技术 &amp; 财经</p>
+    <p>每日精选 · 技术 &amp; 财经 &amp; 奥数</p>
     <div class="rl-filters">
       <button class="rl-filter active" data-filter="all">全部</button>
       <button class="rl-filter" data-filter="tech">📰 技术速递</button>
       <button class="rl-filter" data-filter="finance">💰 财经精选</button>
+      <button class="rl-filter" data-filter="math">🧮 奥数题</button>
     </div>
   </div>
 
   <div class="rl-grid">
+
+    <a class="rl-card math" href="/reading-list/2026-02-28-math/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge math">🧮 奥数题</span>
+          <time>2026-02-28</time>
+        </div>
+        <h2>完全平方数求和 / 铺砖方案数与斐波那契</h2>
+        <p>完全平方数数列的规律与平方和公式；用递推思维求 2×8 棋盘铺法数，引出斐波那契数列与黄金比例</p>
+        <div class="rl-meta">
+          <span class="rl-source">四年级～初中梯度</span>
+          <span class="rl-tags">#完全平方数 #斐波那契 #递推</span>
+        </div>
+      </div>
+    </a>
 
     <a class="rl-card tech" href="/reading-list/2026-02-28-tech/">
       <div class="rl-accent"></div>
@@ -123,6 +140,7 @@ permalink: /reading-list/
 .rl-accent { width: 4px; flex-shrink: 0; }
 .rl-card.tech .rl-accent    { background: var(--accent); }
 .rl-card.finance .rl-accent { background: #f59e0b; }
+.rl-card.math .rl-accent    { background: #10b981; }
 
 /* Body */
 .rl-body { padding: 18px 20px; display: flex; flex-direction: column; gap: 9px; flex: 1; min-width: 0; }
@@ -134,6 +152,7 @@ permalink: /reading-list/
 }
 .rl-badge.tech    { background: var(--accent-bg); color: var(--accent); }
 .rl-badge.finance { background: #fffbeb; color: #b45309; }
+.rl-badge.math    { background: #ecfdf5; color: #065f46; }
 .rl-top time { font-size: 12px; color: var(--muted); white-space: nowrap; }
 
 /* Title */
@@ -149,6 +168,7 @@ permalink: /reading-list/
 .rl-tags { font-size: 11px; }
 .rl-card.tech    .rl-tags { color: var(--accent); }
 .rl-card.finance .rl-tags { color: #f59e0b; }
+.rl-card.math    .rl-tags { color: #10b981; }
 </style>
 
 <script>
