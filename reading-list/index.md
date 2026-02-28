@@ -120,8 +120,7 @@ permalink: /reading-list/
 .rl-filter.active { background: var(--text); border-color: var(--text); color: #fff; }
 
 /* Grid */
-.rl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-@media (max-width: 620px) { .rl-grid { grid-template-columns: 1fr; } }
+.rl-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
 
 /* Card */
 .rl-card {
