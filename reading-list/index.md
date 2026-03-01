@@ -18,6 +18,23 @@ permalink: /reading-list/
 
   <div class="rl-grid">
 
+    <a class="rl-card math" href="/reading-list/2026-03-01-math/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge math">🧮 奥数题</span>
+          <time>2026-03-01</time>
+        </div>
+        <h2>二次方程的整数根（初二） / 圆的幂与切割线定理（初三）</h2>
+        <p>从分组因式分解求含参二次方程的整数根，到用圆幂定理快速求割线截距——两道经典竞赛几何与代数题。</p>
+        <div class="rl-meta">
+          <span class="rl-source">初中二年级～初中三年级</span>
+          <span class="rl-tags">#二次方程 #整数根 #圆幂定理 #切割线</span>
+        </div>
+      </div>
+    </a>
+
+
     <a class="rl-card tech" href="/reading-list/2026-03-01-tech/">
       <div class="rl-accent"></div>
       <div class="rl-body">
