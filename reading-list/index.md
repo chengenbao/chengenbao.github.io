@@ -18,6 +18,38 @@ permalink: /reading-list/
 
   <div class="rl-grid">
 
+    <a class="rl-card tech" href="/reading-list/2026-03-01-tech/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge tech">📰 技术速递</span>
+          <time>2026-03-01</time>
+        </div>
+        <h2>torchforge RL 后训练 / MoE 完整指南 / MapTrace 空间推理 / CORPGEN 多任务 Agent / Nova RFT</h2>
+        <p>PyTorch torchforge+Weaver 512 GPU 大规模 RL 后训练；HuggingFace MoE 深度解析；Google MapTrace 200 万合成数据空间推理；Microsoft CORPGEN 完成率提升 3.5×；AWS Nova 强化微调</p>
+        <div class="rl-meta">
+          <span class="rl-source">pytorch.org · huggingface.co · research.google · microsoft.com · aws.amazon.com</span>
+          <span class="rl-tags">#大模型 #MoE #Agent #强化学习</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="rl-card finance" href="/reading-list/2026-03-01-finance/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge finance">💰 财经精选</span>
+          <time>2026-03-01</time>
+        </div>
+        <h2>银行融资韧性 / 美联储百年资产负债表 / AI 贸易效应 / 远端利率上行 / BIS 私人信贷</h2>
+        <p>美联储：存款冲击压力测试框架、1914-2025 资产负债表图解、AI 基础设施贸易效应（同比+65%）、远期利率创 1970s 最大涨幅；BIS：私人信贷风险与货币政策演变</p>
+        <div class="rl-meta">
+          <span class="rl-source">federalreserve.gov · bis.org</span>
+          <span class="rl-tags">#美联储 #宏观经济 #AI贸易 #私人信贷</span>
+        </div>
+      </div>
+    </a>
+
     <a class="rl-card math" href="/reading-list/2026-02-28-math/">
       <div class="rl-accent"></div>
       <div class="rl-body">
