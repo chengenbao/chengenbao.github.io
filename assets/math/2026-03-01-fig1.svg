@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="340" viewBox="0 0 400 340" style="background:#fff;font-family:Georgia,serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="340" viewBox="0 0 420 340" style="background:#fff;font-family:Georgia,serif;">
   <!-- 圆 -->
-  <circle cx="190.0" cy="190.0" r="120.0" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="245.0" cy="175.0" r="120.0" fill="none" stroke="#4a90d9" stroke-width="2"/>
   <!-- 圆心 -->
-  <circle cx="190.0" cy="190.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="245.0" cy="175.0" r="3.5" fill="#4a90d9"/>
   <!-- OA 虚线 -->
-  <line x1="190.0" y1="190.0" x2="123.4" y2="90.2" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.7"/>
+  <line x1="245.0" y1="175.0" x2="178.4" y2="75.2" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.7"/>
   <!-- 切线 PA -->
-  <line x1="-26.3" y1="190.0" x2="123.4" y2="90.2" stroke="#333" stroke-width="1.8"/>
-  <!-- 割线（P 到圆外延伸） -->
-  <line x1="-26.3" y1="190.0" x2="257.6" y2="326.4" stroke="#333" stroke-width="1.8"/>
+  <line x1="28.7" y1="175.0" x2="178.4" y2="75.2" stroke="#333" stroke-width="1.8"/>
+  <!-- 割线 P→圆外延伸 -->
+  <line x1="28.7" y1="175.0" x2="312.6" y2="311.4" stroke="#333" stroke-width="1.8"/>
   <!-- BC 红色高亮 -->
-  <line x1="81.8" y1="242.0" x2="217.0" y2="306.9" stroke="#e0294a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="136.8" y1="227.0" x2="272.0" y2="291.9" stroke="#e0294a" stroke-width="3" stroke-linecap="round"/>
   <!-- 直角标记 -->
-  <polyline points="116.8,94.6 121.2,101.2 127.9,96.8" fill="none" stroke="#888" stroke-width="1.2"/>
+  <polyline points="171.8,79.6 176.2,86.2 182.9,81.8" fill="none" stroke="#888" stroke-width="1.2"/>
   <!-- 点 -->
-  <circle cx="-26.3" cy="190.0" r="4.5" fill="#333"/>
-  <circle cx="123.4" cy="90.2" r="4" fill="#333"/>
-  <circle cx="81.8" cy="242.0" r="4" fill="#333"/>
-  <circle cx="217.0" cy="306.9" r="4" fill="#333"/>
+  <circle cx="28.7" cy="175.0" r="4.5" fill="#333"/>
+  <circle cx="178.4" cy="75.2" r="4" fill="#333"/>
+  <circle cx="136.8" cy="227.0" r="4" fill="#333"/>
+  <circle cx="272.0" cy="291.9" r="4" fill="#333"/>
   <!-- 标注字母 -->
-  <text x="-44.3" y="195.0" font-size="15" font-weight="bold" fill="#222">P</text>
-  <text x="118.4" y="80.2" font-size="15" font-weight="bold" fill="#222">A</text>
-  <text x="63.8" y="258.0" font-size="15" font-weight="bold" fill="#222">B</text>
-  <text x="223.0" y="322.9" font-size="15" font-weight="bold" fill="#222">C</text>
-  <text x="195.0" y="182.0" font-size="13" fill="#4a90d9">O</text>
+  <text x="10.7" y="180.0" font-size="15" font-weight="bold" fill="#222">P</text>
+  <text x="173.4" y="63.2" font-size="15" font-weight="bold" fill="#222">A</text>
+  <text x="118.8" y="245.0" font-size="15" font-weight="bold" fill="#222">B</text>
+  <text x="278.0" y="309.9" font-size="15" font-weight="bold" fill="#222">C</text>
+  <text x="250.0" y="167.0" font-size="13" fill="#4a90d9">O</text>
   <!-- 标注长度 -->
-  <text x="20.6" y="132.1" font-size="11" fill="#555">PA=6</text>
-  <text x="31.8" y="230.0" font-size="11" fill="#555">PB=4</text>
-  <text x="153.4" y="288.4" font-size="11" fill="#e0294a" font-weight="bold">BC=5</text>
+  <text x="75.6" y="117.1" font-size="11" fill="#555">PA=6</text>
+  <text x="80.8" y="217.0" font-size="11" fill="#555">PB=4</text>
+  <text x="208.4" y="275.4" font-size="11" fill="#e0294a" font-weight="bold">BC=5</text>
   <!-- r 标注 -->
-  <text x="140.7" y="136.1" font-size="11" fill="#4a90d9" opacity="0.9">r=4</text>
+  <text x="195.7" y="121.1" font-size="11" fill="#4a90d9" opacity="0.9">r=4</text>
   <!-- 底部公式 -->
-  <text x="10" y="324" font-size="12.5" fill="#444">PA&#xB2; = PB &#xB7; PC &#x27F9; 6&#xB2; = 4 &#xD7; 9 = 36 &#x2714;</text>
+  <text x="10" y="326" font-size="12.5" fill="#444">PA&#xB2; = PB &#xB7; PC &#x27F9; 6&#xB2; = 4 &#xD7; 9 = 36 &#x2714;</text>
 </svg>
