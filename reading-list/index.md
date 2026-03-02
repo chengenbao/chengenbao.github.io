@@ -25,8 +25,8 @@ permalink: /reading-list/
           <span class="rl-badge tech">📰 技术速递</span>
           <time>2026-03-02</time>
         </div>
-        <h2>torchforge RL 后训练 / MoE 完整指南 / MapTrace 空间推理 / CORPGEN 多任务 Agent / Nova RFT / Sequential Attention / Project Silica</h2>
-        <p>PyTorch torchforge+Weaver 512 GPU RL 后训练；HuggingFace MoE 深度解析；Google MapTrace 空间推理；Microsoft CORPGEN 多任务 Agent；AWS Nova 强化微调；模型剪枝；玻璃存储突破</p>
+        <h2>torchforge RL 后训练 / MoE 架构深析 / MapTrace 空间推理 / CORPGEN Agent / Nova RFT</h2>
+        <p>PyTorch 512 GPU RL 后训练框架；HuggingFace MoE 完整指南；Google 地图空间推理；Microsoft 多任务 Agent 完成率提升 3.5×；AWS Nova 强化微调；Sequential Attention 剪枝；Project Silica 玻璃存储</p>
         <div class="rl-meta">
           <span class="rl-source">pytorch.org · huggingface.co · research.google · microsoft.com · aws.amazon.com</span>
           <span class="rl-tags">#大模型 #MoE #Agent #强化学习 #模型剪枝</span>
@@ -41,8 +41,8 @@ permalink: /reading-list/
           <span class="rl-badge finance">💰 财经精选</span>
           <time>2026-03-02</time>
         </div>
-        <h2>AI 贸易效应 / 银行韧性压测 / 美联储资产负债表历史 / IMF 世界经济展望 / BIS 私人信贷</h2>
-        <p>美联储 FEDS Notes 三篇：AI 基建热潮全球贸易效应、银行融资冲击韧性框架、1914-2025 资产负债表图解；IMF 全球宏观展望；BIS 私人信贷与货币政策演变</p>
+        <h2>AI 贸易效应 / 银行融资韧性 / 美联储百年资产负债表 / IMF 全球展望 / BIS 私人信贷</h2>
+        <p>美联储：AI 基建贸易效应（同比+65%）、存款冲击压力测试、1914-2025 资产负债表图解；IMF 世界经济展望 2026-02；BIS 私人信贷与货币政策演变</p>
         <div class="rl-meta">
           <span class="rl-source">federalreserve.gov · imf.org · bis.org</span>
           <span class="rl-tags">#美联储 #宏观经济 #AI贸易 #私人信贷 #IMF</span>
