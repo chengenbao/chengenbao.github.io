@@ -7,6 +7,18 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/moe-survey/">
+      <div class="note-icon">📚</div>
+      <div class="note-body">
+        <h2>Mixture of Experts (MoE) 完整技术综述</h2>
+        <p>从 1991 年理论提出到 2024 年 DeepSeek-V3 工程突破，全面覆盖 MoE 架构、路由机制、负载均衡、训练推理优化，含代码示例与模型对比。</p>
+        <span class="tag">MoE</span>
+        <span class="tag">Survey</span>
+        <span class="tag">DeepSeek</span>
+        <span class="tag">Mixtral</span>
+        <span class="tag">稀疏模型</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/latentmoe/">
       <div class="note-icon">🧠</div>
       <div class="note-body">
