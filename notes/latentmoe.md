@@ -135,7 +135,9 @@ LatentMoE 作为标准 MoE-FFN 子层的**直接替换**，在 Nemotron 3 的 Hy
 
 $$G = \text{softmax}(XW_g + b_g) \in \mathbb{R}^{B \times N}$$
 
-$$\tilde{g}_i(x) = \begin{cases} g_i(x), & i \in \text{TopK}(g(x)) \\\\ 0, & \text{otherwise} \end{cases}$$
+<div>
+$$\tilde{g}_i(x) = \begin{cases} g_i(x) & \text{if } i \in \text{TopK}(g(x)) \\ 0 & \text{otherwise} \end{cases}$$
+</div>
 
 ### 潜空间投影
 
