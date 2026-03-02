@@ -1,0 +1,59 @@
+{
+  "tech": {
+    "2026-02-27": [
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://pytorch.org/blog/efficient-moe-pre-training-at-scale-with-torchtitan/",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills"
+    ],
+    "2026-02-28": [
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://pytorch.org/blog/efficient-moe-pre-training-at-scale-with-torchtitan/",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills"
+    ],
+    "2026-03-01": [
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://research.google/blog/teaching-ai-to-read-a-map/",
+      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
+      "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/"
+    ],
+    "2026-03-02": [
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://research.google/blog/teaching-ai-to-read-a-map/",
+      "https://research.google/blog/sequential-attention-making-ai-models-leaner-and-faster-without-sacrificing-accuracy/",
+      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
+      "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
+      "https://www.microsoft.com/en-us/research/blog/from-glass-to-gigabytes-microsoft-project-silica/"
+    ]
+  },
+  "finance": {
+    "2026-02-27": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-and-trade-2025.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/long-term-treasury-rates.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/us-banknotes-stablecoins.htm"
+    ],
+    "2026-02-28": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-and-trade-2025.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/long-term-treasury-rates.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/us-banknotes-stablecoins.htm"
+    ],
+    "2026-03-01": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-and-trade-2025.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/long-term-treasury-rates.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/bank-funding-resilience.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/fed-balance-sheet-history.htm",
+      "https://www.bis.org/publ/qtrpdf/r_qt2503.htm"
+    ],
+    "2026-03-02": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-and-trade-2025.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/bank-funding-resilience.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/fed-balance-sheet-history.htm",
+      "https://www.imf.org/en/Publications/WEO/Issues/2026/01/17/world-economic-outlook-update-january-2026",
+      "https://www.bis.org/publ/qtrpdf/r_qt2503.htm"
+    ]
+  },
+  "updated": "2026-03-02"
+}
