@@ -318,10 +318,23 @@
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          processEscapes: true
+          processEscapes: true,
+          processEnvironments: true
         },
         options: {
-          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+          processHtmlClass: 'note-body'
+        },
+        startup: {
+          ready() {
+            MathJax.startup.defaultReady();
+            MathJax.startup.promise.then(() => {
+              // Re-typeset after highlight.js runs
+              if (typeof MathJax.typesetPromise !== 'undefined') {
+                MathJax.typesetPromise();
+              }
+            });
+          }
         }
       };
     </script>
