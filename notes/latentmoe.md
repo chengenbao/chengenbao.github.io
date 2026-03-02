@@ -106,24 +106,78 @@ K' = K × (d/ℓ)   # 每 token 激活的专家数也增加
 
 LatentMoE 作为标准 MoE-FFN 子层的**直接替换**，在 Nemotron 3 的 Hybrid Mamba-Transformer 架构中使用。每个 LatentMoE 层的处理流程：
 
-```mermaid
-flowchart TD
-    A["输入 X ∈ ℝᴮˣᵈ"] --> B["🔀 路由网络（全维度 d）\nG = softmax(X·Wg + bg) ∈ ℝᴮˣᴺ\nTop-K 掩码：只保留每行最大 K 个"]
-    A --> C["📉 潜空间投影\nH = X·W_lat，W_lat ∈ ℝᵈˣˡ\n（ℓ ≪ d，压缩维度）"]
-    C --> D["📡 分发 H 到 Top-K 专家\n通信量 = B×K×ℓ（而非 B×K×d）"]
-    B --> D
-    D --> E["⚙️ 各专家在 ℓ 维计算 FFN\nEᵢ(H) = φ(H·Wᵢ¹ + bᵢ¹)·Wᵢ² + bᵢ²\nWᵢ¹ ∈ ℝˡˣᵐ，Wᵢ² ∈ ℝᵐˣˡ"]
-    E --> F["➕ 加权聚合\nY_lat = Σ G̃_{b,i} · Eᵢ(H_{b,:})"]
-    F --> G["📈 投影回原始维度 + 残差\nY = Y_lat·W_out + b_out\n输出: X + Y ∈ ℝᴮˣᵈ"]
+<div class="arch-flow">
+  <div class="arch-step step-input">
+    <div class="step-num">①</div>
+    <div class="step-body">
+      <strong>输入</strong>
+      <p>$X \in \mathbb{R}^{B 	imes d}$（batch size $B$，隐层维度 $d$）</p>
+    </div>
+  </div>
+  <div class="arch-arrow">↓ 同时进行两路处理</div>
+  <div class="arch-parallel">
+    <div class="arch-step step-route">
+      <div class="step-num">②</div>
+      <div class="step-body">
+        <strong>路由网络（全维度 $d$）</strong>
+        <p>$G = 	ext{softmax}(XW_g + b_g) \in \mathbb{R}^{B 	imes N}$</p>
+        <p>Top-K 掩码：每行只保留最大的 $K$ 个权重</p>
+      </div>
+    </div>
+    <div class="arch-step step-latent">
+      <div class="step-num">③</div>
+      <div class="step-body">
+        <strong>潜空间投影（压缩维度）</strong>
+        <p>$H = X W_{	ext{lat}},\quad W_{	ext{lat}} \in \mathbb{R}^{d 	imes \ell},\quad \ell \ll d$</p>
+        <p>通信量从 $B 	imes K 	imes d$ 降至 $B 	imes K 	imes \ell$</p>
+      </div>
+    </div>
+  </div>
+  <div class="arch-arrow">↓ 路由权重 × 压缩表示 → 分发到专家</div>
+  <div class="arch-step step-expert">
+    <div class="step-num">④</div>
+    <div class="step-body">
+      <strong>各专家在 $\ell$ 维空间计算 FFN</strong>
+      <p>$E_i(H_{b,:}) = \phi(H_{b,:} W_i^{(1)} + b_i^{(1)}) W_i^{(2)} + b_i^{(2)}$</p>
+      <p>权重形状：$W_i^{(1)} \in \mathbb{R}^{\ell 	imes m}$，$W_i^{(2)} \in \mathbb{R}^{m 	imes \ell}$（节省 $d/\ell$ 倍内存）</p>
+    </div>
+  </div>
+  <div class="arch-arrow">↓</div>
+  <div class="arch-step step-agg">
+    <div class="step-num">⑤</div>
+    <div class="step-body">
+      <strong>加权聚合</strong>
+      <p>$Y_{	ext{lat}, b} = \sum_{i=1}^{N} 	ilde{G}_{b,i}\, E_i(H_{b,:})$</p>
+    </div>
+  </div>
+  <div class="arch-arrow">↓</div>
+  <div class="arch-step step-output">
+    <div class="step-num">⑥</div>
+    <div class="step-body">
+      <strong>投影回原始维度 + 残差连接</strong>
+      <p>$Y = Y_{	ext{lat}} W_{	ext{out}} + b_{	ext{out}},\quad W_{	ext{out}} \in \mathbb{R}^{\ell 	imes d}$</p>
+      <p>最终输出：$X + Y \in \mathbb{R}^{B 	imes d}$</p>
+    </div>
+  </div>
+</div>
 
-    style A fill:#e8f4ff,stroke:#007bff,stroke-width:2px
-    style B fill:#fff3cd,stroke:#fd7e14,stroke-width:1px
-    style C fill:#d4edda,stroke:#28a745,stroke-width:1px
-    style D fill:#f8d7da,stroke:#dc3545,stroke-width:1px
-    style E fill:#d1ecf1,stroke:#17a2b8,stroke-width:1px
-    style F fill:#e2d9f3,stroke:#6f42c1,stroke-width:1px
-    style G fill:#e8f4ff,stroke:#007bff,stroke-width:2px
-```
+<style>
+.arch-flow { margin: 1.5rem 0; font-size: 0.92rem; }
+.arch-step { display: flex; gap: 1rem; align-items: flex-start; margin: 0.4rem 0; padding: 0.75rem 1rem; border-radius: 8px; border-left: 4px solid #ccc; background: #f8f9fa; }
+.arch-parallel { display: flex; gap: 1rem; margin: 0.4rem 0; }
+.arch-parallel .arch-step { flex: 1; }
+.step-num { font-size: 1.3rem; font-weight: 700; line-height: 1; min-width: 1.8rem; }
+.step-body strong { display: block; margin-bottom: 0.25rem; }
+.step-body p { margin: 0.15rem 0; color: #444; }
+.arch-arrow { text-align: center; color: #6c757d; font-size: 0.85rem; padding: 0.2rem 0; }
+.step-input  { border-color: #007bff; background: #e8f4ff; }
+.step-route  { border-color: #fd7e14; background: #fff3e0; }
+.step-latent { border-color: #28a745; background: #e8f5e9; }
+.step-expert { border-color: #17a2b8; background: #e0f7fa; }
+.step-agg    { border-color: #6f42c1; background: #f3e5f5; }
+.step-output { border-color: #007bff; background: #e8f4ff; }
+@media (max-width: 700px) { .arch-parallel { flex-direction: column; } }
+</style>
 
 **注意**：路由网络仍在完整 `d` 维操作，保证路由决策的质量；只有专家计算和通信在 `ℓ` 维进行。
 
