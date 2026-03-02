@@ -106,23 +106,23 @@ K' = K × (d/ℓ)   # 每 token 激活的专家数也增加
 
 LatentMoE 作为标准 MoE-FFN 子层的**直接替换**，在 Nemotron 3 的 Hybrid Mamba-Transformer 架构中使用。每个 LatentMoE 层的处理流程：
 
-```
-输入 X ∈ R^{B×d}
-    │
-    ├─→ 路由网络（全维度 d）：G = softmax(X·Wg + bg) ∈ R^{B×N}
-    │         Top-K 掩码：G̃（只保留每行最大的 K 个）
-    │
-    ├─→ 潜空间投影：H = X·W_lat，其中 W_lat ∈ R^{d×ℓ}
-    │
-    ├─→ 分发 H 到 Top-K 专家（通信量 = B×K×ℓ，而非 B×K×d）
-    │
-    ├─→ 各专家在 ℓ 维空间计算 FFN：
-    │     E_i(H) = φ(H·W_i^(1) + b_i^(1))·W_i^(2) + b_i^(2)
-    │     W_i^(1) ∈ R^{ℓ×m}，W_i^(2) ∈ R^{m×ℓ}
-    │
-    ├─→ 加权聚合：Y_lat = Σ G̃_{b,i} · E_i(H_{b,:})
-    │
-    └─→ 投影回原始维度 + 残差连接：Y = Y_lat · W_out + bout，输出 X + Y
+```mermaid
+flowchart TD
+    A["输入 X ∈ ℝᴮˣᵈ"] --> B["🔀 路由网络（全维度 d）\nG = softmax(X·Wg + bg) ∈ ℝᴮˣᴺ\nTop-K 掩码：只保留每行最大 K 个"]
+    A --> C["📉 潜空间投影\nH = X·W_lat，W_lat ∈ ℝᵈˣˡ\n（ℓ ≪ d，压缩维度）"]
+    C --> D["📡 分发 H 到 Top-K 专家\n通信量 = B×K×ℓ（而非 B×K×d）"]
+    B --> D
+    D --> E["⚙️ 各专家在 ℓ 维计算 FFN\nEᵢ(H) = φ(H·Wᵢ¹ + bᵢ¹)·Wᵢ² + bᵢ²\nWᵢ¹ ∈ ℝˡˣᵐ，Wᵢ² ∈ ℝᵐˣˡ"]
+    E --> F["➕ 加权聚合\nY_lat = Σ G̃_{b,i} · Eᵢ(H_{b,:})"]
+    F --> G["📈 投影回原始维度 + 残差\nY = Y_lat·W_out + b_out\n输出: X + Y ∈ ℝᴮˣᵈ"]
+
+    style A fill:#e8f4ff,stroke:#007bff,stroke-width:2px
+    style B fill:#fff3cd,stroke:#fd7e14,stroke-width:1px
+    style C fill:#d4edda,stroke:#28a745,stroke-width:1px
+    style D fill:#f8d7da,stroke:#dc3545,stroke-width:1px
+    style E fill:#d1ecf1,stroke:#17a2b8,stroke-width:1px
+    style F fill:#e2d9f3,stroke:#6f42c1,stroke-width:1px
+    style G fill:#e8f4ff,stroke:#007bff,stroke-width:2px
 ```
 
 **注意**：路由网络仍在完整 `d` 维操作，保证路由决策的质量；只有专家计算和通信在 `ℓ` 维进行。
