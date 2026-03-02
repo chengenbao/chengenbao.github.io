@@ -45,9 +45,22 @@ permalink: /notes/moe-survey/
 
 **Mixture of Experts（混合专家模型）** 将这种稀疏激活特性显式化：
 
-```
-传统 Dense: 输入 → 所有参数 → 输出
-MoE:       输入 → 路由器 → 选中的专家子集 → 输出
+```mermaid
+flowchart LR
+    subgraph Dense["Dense Model"]
+        D1[Input] --> D2[All Parameters]
+        D2 --> D3[Output]
+    end
+    
+    subgraph MoE["MoE Model"]
+        M1[Input] --> M2[Router]
+        M2 --> M3[Expert 1]
+        M2 --> M4[Expert 2]
+        M2 -.-> M5[Expert N]
+        M3 --> M6[Weighted Sum]
+        M4 --> M6
+        M6 --> M7[Output]
+    end
 ```
 
 这种设计实现了：
@@ -61,16 +74,34 @@ MoE:       输入 → 路由器 → 选中的专家子集 → 输出
 
 ### 2.1 历史演进时间线
 
-| 年份 | 里程碑 | 核心贡献 |
-|------|--------|----------|
-| **1991** | Jacobs & Hinton | 提出 MoE 基本概念："Adaptive Mixtures of Local Experts" |
-| **2017** | Shazeer et al. | 首次将 MoE 应用于超大规模模型 (LSTM)："Sparsely-Gated MoE" |
-| **2020** | GShard (Google) | 600B 参数 MoE，提出专家并行和负载均衡损失 |
-| **2021** | Switch Transformer | 简化为 Top-1 路由，首个 1.6T 参数模型 |
-| **2022** | ST-MoE | 系统研究训练稳定性，提出 Router z-loss |
-| **2023** | Mixtral 8x7B | 开源 MoE 标杆，匹配 GPT-3.5 性能 |
-| **2024** | DeepSeek-V2/V3 | 无辅助损失负载均衡，Fine-grained Experts |
-| **2025** | LatentMoE | 潜空间路由，进一步效率提升 |
+```mermaid
+timeline
+    title MoE 技术发展史
+    1991 : Jacobs & Hinton
+         : Adaptive Mixtures of Local Experts
+         : 提出 MoE 基本概念
+    2017 : Shazeer et al.
+         : Sparsely-Gated MoE
+         : 首次将 MoE 应用于 LSTM
+    2020 : GShard - Google
+         : 600B 参数 MoE
+         : 分布式训练突破
+    2021 : Switch Transformer
+         : 简化为 Top-1 路由
+         : 1.6T 参数模型
+    2022 : ST-MoE
+         : Router z-loss
+         : 训练稳定性提升
+    2023 : Mixtral 8x7B
+         : 开源 MoE 标杆
+         : 匹配 GPT-3.5 性能
+    2024 : DeepSeek-V2 & V3
+         : 无辅助损失负载均衡
+         : Fine-grained Experts
+    2025 : LatentMoE
+         : 潜空间路由
+         : 进一步效率提升
+```
 
 ### 2.2 关键里程碑论文
 
@@ -90,19 +121,42 @@ MoE:       输入 → 路由器 → 选中的专家子集 → 输出
 
 ### 3.1 整体架构
 
-MoE 通常替换 Transformer 中的 FFN 层。架构对比：
+MoE 通常替换 Transformer 中的 FFN 层：
 
-**标准 Transformer Block：**
-```
-Input → Multi-Head Attention → Add & Norm → FFN → Add & Norm → Output
+```mermaid
+flowchart TB
+    subgraph Standard["标准 Transformer Block"]
+        A[Input] --> B[Multi-Head Attention]
+        B --> C[Add & Norm]
+        C --> D[FFN]
+        D --> E[Add & Norm]
+        E --> F[Output]
+    end
 ```
 
-**MoE Transformer Block：**
+```mermaid
+flowchart TB
+    subgraph MoE["MoE Transformer Block"]
+        A2[Input] --> B2[Multi-Head Attention]
+        B2 --> C2[Add & Norm]
+        C2 --> G[Router]
+        G --> H1[Expert 1]
+        G --> H2[Expert 2]
+        G --> H3[...]
+        G --> HN[Expert N]
+        H1 --> I[Weighted Sum]
+        H2 --> I
+        H3 --> I
+        HN --> I
+        I --> E2[Add & Norm]
+        E2 --> F2[Output]
+    end
+    
+    style G fill:#ff9999
+    style H1 fill:#99ccff
+    style H2 fill:#99ccff
+    style HN fill:#99ccff
 ```
-Input → Multi-Head Attention → Add & Norm → [Router → Expert₁...Expertₙ → Weighted Sum] → Add & Norm → Output
-```
-
-核心区别：将单一的 FFN 替换为 **Router + 多个 Expert** 的组合。
 
 ### 3.2 核心组件
 
@@ -110,31 +164,31 @@ Input → Multi-Head Attention → Add & Norm → [Router → Expert₁...Expert
 
 每个专家通常是一个标准的 FFN：
 
-**公式**：Expert_i(x) = W₂⁽ⁱ⁾ · GELU(W₁⁽ⁱ⁾ · x)
+$$\text{Expert}_i(x) = W_2^{(i)} \cdot \text{GELU}(W_1^{(i)} \cdot x)$$
 
 其中：
-- W₁⁽ⁱ⁾ ∈ ℝ^(d_model × d_ff)：上投影矩阵
-- W₂⁽ⁱ⁾ ∈ ℝ^(d_ff × d_model)：下投影矩阵
-- d_ff 通常为 4 × d_model
+- $W_1^{(i)} \in \mathbb{R}^{d_{model} \times d_{ff}}$：上投影矩阵
+- $W_2^{(i)} \in \mathbb{R}^{d_{ff} \times d_{model}}$：下投影矩阵
+- $d_{ff}$ 通常为 $4 \times d_{model}$
 
 #### 3.2.2 路由器/门控网络（Router/Gating Network）
 
 路由器决定每个 token 应该被哪些专家处理：
 
-**公式**：G(x) = softmax(x · W_g)
+$$G(x) = \text{softmax}(x \cdot W_g)$$
 
-其中 W_g ∈ ℝ^(d_model × N)，N 是专家数量。
+其中 $W_g \in \mathbb{R}^{d_{model} \times N}$，$N$ 是专家数量。
 
 #### 3.2.3 MoE 层输出
 
-**公式**：MoE(x) = Σ_{i ∈ TopK} G(x)_i · Expert_i(x)
+$$\text{MoE}(x) = \sum_{i \in \text{TopK}} G(x)_i \cdot \text{Expert}_i(x)$$
 
 ### 3.3 参数量与计算量分析
 
 | 指标 | Dense FFN | MoE Layer |
 |------|-----------|-----------|
-| **总参数量** | 2 × d_model × d_ff | N × 2 × d_model × d_ff |
-| **激活参数量** | 2 × d_model × d_ff | K × 2 × d_model × d_ff |
+| **总参数量** | $2 \times d_{model} \times d_{ff}$ | $N \times 2 \times d_{model} \times d_{ff}$ |
+| **激活参数量** | $2 \times d_{model} \times d_{ff}$ | $K \times 2 \times d_{model} \times d_{ff}$ |
 | **参数放大倍数** | 1x | N/K x |
 
 **示例 - Mixtral 8x7B**：
@@ -148,14 +202,24 @@ Input → Multi-Head Attention → Add & Norm → [Router → Expert₁...Expert
 
 ### 4.1 路由策略分类
 
-| 类型 | 子类型 | 描述 |
-|------|--------|------|
-| **Token Choice** | Top-1 | 每个 token 选择 1 个专家 |
-| | Top-K | 每个 token 选择 K 个专家 |
-| | Soft Routing | 软分配，所有专家都参与 |
-| **Expert Choice** | Fixed Capacity | 每个专家选择固定数量的 token |
-| | Dynamic Capacity | 动态调整专家容量 |
-| **Hybrid** | - | 结合两种策略 |
+```mermaid
+flowchart LR
+    A[路由策略] --> B[Token Choice]
+    A --> C[Expert Choice]
+    A --> D[Hybrid]
+    
+    B --> B1[Top-1]
+    B --> B2[Top-K]
+    B --> B3[Soft Routing]
+    
+    C --> C1[Fixed Capacity]
+    C --> C2[Dynamic Capacity]
+    
+    style A fill:#ffcc99
+    style B fill:#99ccff
+    style C fill:#99ff99
+    style D fill:#ff99cc
+```
 
 ### 4.2 Token Choice Routing（主流方法）
 
@@ -221,9 +285,9 @@ def expert_choice_routing(x, W_g, capacity_factor=1.0):
 
 为了鼓励探索和负载均衡，通常在路由分数中添加噪声：
 
-**公式**：logits_noisy = logits + ε · Softplus(x · W_noise)
+$$\text{logits}_{\text{noisy}} = \text{logits} + \epsilon \cdot \text{Softplus}(x \cdot W_{\text{noise}})$$
 
-其中 ε ~ N(0, 1)。
+其中 $\epsilon \sim \mathcal{N}(0, 1)$。
 
 ---
 
@@ -233,30 +297,34 @@ def expert_choice_routing(x, W_g, capacity_factor=1.0):
 
 没有负载均衡机制，MoE 会出现 **专家坍塌（Expert Collapse）** 问题：
 
-```
-专家坍塌演化过程：
-初始状态 → 部分专家表现更好 → 路由器更倾向选择这些专家 
-         → 好专家获得更多训练数据 → 好专家更好，差专家更差 
-         → 最终只有少数专家被使用 ❌
+```mermaid
+flowchart LR
+    A[初始状态] --> B[部分专家表现更好]
+    B --> C[路由器更倾向选择这些专家]
+    C --> D[好专家获得更多训练数据]
+    D --> E[好专家更好 差专家更差]
+    E --> F[最终只有少数专家被使用]
+    
+    style F fill:#ff6666
 ```
 
 ### 5.2 辅助负载均衡损失
 
 #### 5.2.1 标准负载均衡损失（GShard/Switch Transformer）
 
-**公式**：L_balance = α · N · Σᵢ (fᵢ · Pᵢ)
+$$\mathcal{L}_{\text{balance}} = \alpha \cdot N \cdot \sum_{i=1}^{N} f_i \cdot P_i$$
 
 其中：
-- fᵢ：专家 i 处理的 token 比例
-- Pᵢ：专家 i 的平均路由概率
-- α：平衡系数（通常 0.01）
-- N：专家数量
+- $f_i$：专家 $i$ 处理的 token 比例
+- $P_i$：专家 $i$ 的平均路由概率
+- $\alpha$：平衡系数（通常 0.01）
+- $N$：专家数量
 
 **直觉**：惩罚"既被选中多，又有高概率"的专家。
 
 #### 5.2.2 Router z-loss（ST-MoE）
 
-**公式**：L_z = (1/B) · Σ_b [log(Σᵢ exp(zᵢ⁽ᵇ⁾))]²
+$$\mathcal{L}_z = \frac{1}{B} \sum_{b=1}^{B} \left( \log \sum_{i=1}^{N} e^{z_i^{(b)}} \right)^2$$
 
 **作用**：防止路由 logits 过大导致的数值不稳定。
 
@@ -311,12 +379,16 @@ class LossFreeBalancing:
 
 ### 6.2 Switch Transformer
 
-Google 提出的里程碑式模型。
+Google 提出的里程碑式模型：
 
-**核心特点**：
-- 简化路由：Top-1（每个 token 只选 1 个专家）
-- 容量因子：控制每个专家处理的 token 数量
-- 专家并行：不同专家分布在不同设备
+```mermaid
+flowchart TB
+    subgraph Switch["Switch Transformer 特点"]
+        A[简化路由 Top-1] --> B[每个 token 只选 1 个专家]
+        C[容量因子] --> D[控制专家处理的 token 数]
+        E[专家并行] --> F[不同专家分布在不同设备]
+    end
+```
 
 **核心创新**：
 - 证明 Top-1 路由足够有效
@@ -348,16 +420,17 @@ Mistral AI 开源的高质量 MoE 模型。
 
 ### 6.4 DeepSeek-V3
 
-目前最先进的开源 MoE 模型之一。
+目前最先进的开源 MoE 模型之一：
 
-**核心创新**：
-
-| 技术 | 描述 |
-|------|------|
-| MLA 注意力 | 低秩 KV 压缩，减少 KV Cache |
-| DeepSeekMoE | 细粒度专家 + 共享专家 |
-| 无损负载均衡 | Auxiliary-Loss-Free |
-| MTP 预测 | 多 token 预测训练 |
+```mermaid
+flowchart LR
+    subgraph DeepSeek["DeepSeek-V3 创新"]
+        A[MLA 注意力] --> A1[低秩 KV 压缩]
+        B[DeepSeekMoE] --> B1[细粒度专家 + 共享专家]
+        C[无损负载均衡] --> C1[无辅助损失]
+        D[MTP 预测] --> D1[多 token 预测训练]
+    end
+```
 
 **训练细节**：
 - 训练数据：14.8T tokens
@@ -370,14 +443,17 @@ Mistral AI 开源的高质量 MoE 模型。
 
 ### 7.1 分布式训练策略
 
-| 并行策略 | 缩写 | 描述 |
-|----------|------|------|
-| 数据并行 | DP | 复制模型，每个设备处理不同数据 |
-| 张量并行 | TP | 切分层内，同一层分布在多设备 |
-| 流水线并行 | PP | 切分层间，不同层分布在不同设备 |
-| **专家并行** | **EP** | **切分专家，不同专家分布在不同设备** |
-
-专家并行（EP）是 MoE 特有的并行策略，需要 All-to-All 通信。
+```mermaid
+flowchart TB
+    subgraph Parallel["并行策略组合"]
+        DP[数据并行 DP] --> DP_desc[每个设备处理不同数据]
+        TP[张量并行 TP] --> TP_desc[同一层分布在多设备]
+        PP[流水线并行 PP] --> PP_desc[不同层分布在不同设备]
+        EP[专家并行 EP] --> EP_desc[不同专家分布在不同设备]
+    end
+    
+    style EP fill:#ffcc99
+```
 
 ### 7.2 专家并行（Expert Parallelism）
 
@@ -481,11 +557,14 @@ class ExpertOffloadingMoE:
 
 ### 8.3 推测解码（Speculative Decoding for MoE）
 
-```
-推测解码流程：
-小模型快速生成 → 候选 token 序列 → 大 MoE 模型验证 
-              → 验证通过？→ 是：接受 token
-                         → 否：从拒绝点重新生成
+```mermaid
+flowchart LR
+    A[小模型快速生成] --> B[候选 token 序列]
+    B --> C[大 MoE 模型验证]
+    C --> D{验证通过?}
+    D -->|是| E[接受 token]
+    D -->|否| F[从拒绝点重新生成]
+    F --> A
 ```
 
 ### 8.4 量化技术
@@ -530,13 +609,21 @@ class ExpertOffloadingMoE:
 
 ### 9.3 性能-成本权衡
 
-| 模型 | 类型 | 参数量 | 相对训练成本 | 相对性能 |
-|------|------|--------|--------------|----------|
-| Dense-7B | Dense | 7B | 1x | ★★☆☆☆ |
-| Dense-70B | Dense | 70B | 10x | ★★★☆☆ |
-| MoE-47B (Mixtral) | MoE | 47B (激活 13B) | 3x | ★★★☆☆ |
-| Dense-405B (Llama-3) | Dense | 405B | 50x | ★★★★☆ |
-| MoE-671B (DeepSeek-V3) | MoE | 671B (激活 37B) | 10x | ★★★★★ |
+```mermaid
+quadrantChart
+    title 性能 vs 训练成本
+    x-axis 低成本 --> 高成本
+    y-axis 低性能 --> 高性能
+    quadrant-1 高性价比区
+    quadrant-2 性能导向区
+    quadrant-3 待优化区
+    quadrant-4 成本敏感区
+    Dense-7B: [0.15, 0.25]
+    Dense-70B: [0.45, 0.55]
+    MoE-47B Mixtral: [0.25, 0.58]
+    Dense-405B: [0.85, 0.78]
+    MoE-671B DeepSeek-V3: [0.35, 0.92]
+```
 
 **结论**：MoE 在性能/成本比上具有显著优势。
 
@@ -607,8 +694,6 @@ class MoELayer(nn.Module):
         
         # 获取路由决策
         gates, indices, logits = self.router(x)
-        # gates: [batch, seq, top_k]
-        # indices: [batch, seq, top_k]
         
         # 初始化输出
         output = torch.zeros_like(x)
@@ -616,24 +701,19 @@ class MoELayer(nn.Module):
         # 对每个专家计算
         for i, expert in enumerate(self.experts):
             # 找到选择了当前专家的位置
-            expert_mask = (indices == i).any(dim=-1)  # [batch, seq]
+            expert_mask = (indices == i).any(dim=-1)
             
             if expert_mask.any():
-                # 获取对应的输入
-                expert_input = x[expert_mask]  # [num_tokens, d_model]
-                
-                # 专家计算
+                expert_input = x[expert_mask]
                 expert_output = expert(expert_input)
                 
                 # 获取门控权重
-                expert_indices = indices[expert_mask]  # [num_tokens, top_k]
-                expert_gates = gates[expert_mask]  # [num_tokens, top_k]
+                expert_indices = indices[expert_mask]
+                expert_gates = gates[expert_mask]
                 
-                # 找到当前专家在 top_k 中的位置并获取权重
                 position_in_topk = (expert_indices == i).float()
                 weight = (expert_gates * position_in_topk).sum(dim=-1, keepdim=True)
                 
-                # 加权累加到输出
                 output[expert_mask] += weight * expert_output
         
         # 计算负载均衡损失
@@ -646,84 +726,21 @@ class MoELayer(nn.Module):
         batch_size, seq_len, _ = gates.shape
         num_tokens = batch_size * seq_len
         
-        # 计算每个专家被选中的比例 f_i
         indices_flat = indices.view(-1, self.top_k)
         expert_counts = torch.zeros(self.num_experts, device=indices.device)
         for i in range(self.num_experts):
             expert_counts[i] = (indices_flat == i).float().sum()
         f = expert_counts / num_tokens
         
-        # 计算每个专家的平均路由概率 P_i
-        router_probs = F.softmax(logits, dim=-1)  # [batch, seq, num_experts]
+        router_probs = F.softmax(logits, dim=-1)
         P = router_probs.mean(dim=[0, 1])
         
-        # 负载均衡损失
         aux_loss = self.num_experts * (f * P).sum()
         
         return aux_loss
 ```
 
-### 10.2 高效 MoE 实现（使用 einsum）
-
-```python
-class EfficientMoELayer(nn.Module):
-    """更高效的 MoE 实现，减少循环"""
-    def __init__(self, d_model, d_ff, num_experts, top_k=2):
-        super().__init__()
-        self.num_experts = num_experts
-        self.top_k = top_k
-        self.d_model = d_model
-        self.d_ff = d_ff
-        
-        # 合并所有专家的权重
-        self.w1 = nn.Parameter(torch.randn(num_experts, d_model, d_ff) * 0.02)
-        self.w2 = nn.Parameter(torch.randn(num_experts, d_ff, d_model) * 0.02)
-        
-        # 路由器
-        self.gate = nn.Linear(d_model, num_experts, bias=False)
-    
-    def forward(self, x):
-        """
-        x: [batch, seq, d_model]
-        """
-        B, S, D = x.shape
-        
-        # 路由
-        logits = self.gate(x)  # [B, S, E]
-        topk_gates, topk_indices = torch.topk(
-            F.softmax(logits, dim=-1), self.top_k, dim=-1
-        )  # [B, S, K]
-        
-        # 展平处理
-        x_flat = x.view(-1, D)  # [B*S, D]
-        topk_indices_flat = topk_indices.view(-1, self.top_k)  # [B*S, K]
-        topk_gates_flat = topk_gates.view(-1, self.top_k)  # [B*S, K]
-        
-        # 为每个 token 的每个选中专家计算
-        # 使用 gather 获取对应专家的权重
-        outputs = []
-        for k in range(self.top_k):
-            expert_idx = topk_indices_flat[:, k]  # [B*S]
-            gate_weight = topk_gates_flat[:, k:k+1]  # [B*S, 1]
-            
-            # 获取对应专家的权重
-            w1_selected = self.w1[expert_idx]  # [B*S, D, D_ff]
-            w2_selected = self.w2[expert_idx]  # [B*S, D_ff, D]
-            
-            # 计算专家输出
-            hidden = torch.bmm(x_flat.unsqueeze(1), w1_selected).squeeze(1)  # [B*S, D_ff]
-            hidden = F.gelu(hidden)
-            expert_out = torch.bmm(hidden.unsqueeze(1), w2_selected).squeeze(1)  # [B*S, D]
-            
-            outputs.append(gate_weight * expert_out)
-        
-        # 合并输出
-        output = sum(outputs).view(B, S, D)
-        
-        return output
-```
-
-### 10.3 DeepSeek 风格的无损负载均衡
+### 10.2 DeepSeek 风格的无损负载均衡
 
 ```python
 class LossFreeRouter(nn.Module):
@@ -735,23 +752,13 @@ class LossFreeRouter(nn.Module):
         self.bias_update_rate = bias_update_rate
         
         self.gate = nn.Linear(d_model, num_experts, bias=False)
-        
-        # 可学习的专家偏置（但不通过梯度更新）
         self.register_buffer('expert_biases', torch.zeros(num_experts))
-        
-        # 用于追踪专家负载的 EMA
         self.register_buffer('load_ema', torch.ones(num_experts) / num_experts)
     
     def forward(self, x, training=True):
-        """
-        x: [batch, seq, d_model]
-        """
-        logits = self.gate(x)  # [B, S, E]
-        
-        # 添加偏置（推理时也使用）
+        logits = self.gate(x)
         biased_logits = logits + self.expert_biases
         
-        # Top-K 选择
         topk_values, topk_indices = torch.topk(biased_logits, self.top_k, dim=-1)
         topk_gates = F.softmax(topk_values, dim=-1)
         
@@ -762,8 +769,6 @@ class LossFreeRouter(nn.Module):
     
     @torch.no_grad()
     def _update_biases(self, indices):
-        """更新专家偏置以实现负载均衡"""
-        # 统计每个专家被选中的次数
         flat_indices = indices.view(-1)
         num_tokens = flat_indices.numel()
         
@@ -771,55 +776,32 @@ class LossFreeRouter(nn.Module):
         for i in range(self.num_experts):
             expert_counts[i] = (flat_indices == i).float().sum()
         
-        # 计算当前负载
         current_load = expert_counts / num_tokens
-        
-        # EMA 更新负载统计
         self.load_ema = 0.99 * self.load_ema + 0.01 * current_load
         
-        # 计算目标负载（均匀分布）
         target_load = 1.0 / self.num_experts
-        
-        # 更新偏置：负载高于平均的专家降低偏置，低于平均的提高
         load_diff = self.load_ema - target_load
         self.expert_biases -= self.bias_update_rate * load_diff
 ```
 
-### 10.4 完整的 MoE Transformer 块
+### 10.3 完整的 MoE Transformer
 
 ```python
 class MoETransformerBlock(nn.Module):
     """包含 MoE 的完整 Transformer 块"""
-    def __init__(
-        self,
-        d_model,
-        n_heads,
-        d_ff,
-        num_experts,
-        top_k=2,
-        dropout=0.1,
-        use_loss_free_balancing=True
-    ):
+    def __init__(self, d_model, n_heads, d_ff, num_experts, top_k=2, dropout=0.1):
         super().__init__()
         
-        # 注意力层
         self.attention = nn.MultiheadAttention(
             d_model, n_heads, dropout=dropout, batch_first=True
         )
         self.attn_norm = nn.LayerNorm(d_model)
         self.attn_dropout = nn.Dropout(dropout)
         
-        # MoE 层
         self.moe = MoELayer(d_model, d_ff, num_experts, top_k, dropout)
         self.moe_norm = nn.LayerNorm(d_model)
-        
-        self.use_loss_free_balancing = use_loss_free_balancing
     
     def forward(self, x, mask=None):
-        """
-        x: [batch, seq, d_model]
-        mask: attention mask
-        """
         # Pre-norm attention
         normed = self.attn_norm(x)
         attn_out, _ = self.attention(normed, normed, normed, attn_mask=mask)
@@ -835,65 +817,40 @@ class MoETransformerBlock(nn.Module):
 
 class MoETransformer(nn.Module):
     """完整的 MoE Transformer 模型"""
-    def __init__(
-        self,
-        vocab_size,
-        d_model=512,
-        n_heads=8,
-        n_layers=6,
-        d_ff=2048,
-        num_experts=8,
-        top_k=2,
-        max_seq_len=2048,
-        dropout=0.1,
-        moe_freq=2  # 每隔几层使用 MoE
-    ):
+    def __init__(self, vocab_size, d_model=512, n_heads=8, n_layers=6,
+                 d_ff=2048, num_experts=8, top_k=2, max_seq_len=2048,
+                 dropout=0.1, moe_freq=2):
         super().__init__()
         
         self.d_model = d_model
         self.moe_freq = moe_freq
         
-        # Embeddings
         self.token_emb = nn.Embedding(vocab_size, d_model)
         self.pos_emb = nn.Embedding(max_seq_len, d_model)
         self.dropout = nn.Dropout(dropout)
         
-        # Transformer 层
         self.layers = nn.ModuleList()
         for i in range(n_layers):
             if (i + 1) % moe_freq == 0:
-                # MoE 层
                 self.layers.append(
-                    MoETransformerBlock(
-                        d_model, n_heads, d_ff, num_experts, top_k, dropout
-                    )
+                    MoETransformerBlock(d_model, n_heads, d_ff, num_experts, top_k, dropout)
                 )
             else:
-                # 普通 Dense 层
                 self.layers.append(
-                    nn.TransformerEncoderLayer(
-                        d_model, n_heads, d_ff, dropout, batch_first=True
-                    )
+                    nn.TransformerEncoderLayer(d_model, n_heads, d_ff, dropout, batch_first=True)
                 )
         
         self.final_norm = nn.LayerNorm(d_model)
         self.lm_head = nn.Linear(d_model, vocab_size, bias=False)
-        
-        # 权重绑定
         self.lm_head.weight = self.token_emb.weight
     
     def forward(self, input_ids, attention_mask=None):
-        """
-        input_ids: [batch, seq]
-        """
         B, S = input_ids.shape
         
-        # Embeddings
         positions = torch.arange(S, device=input_ids.device).unsqueeze(0)
         x = self.token_emb(input_ids) + self.pos_emb(positions)
         x = self.dropout(x)
         
-        # Transformer 层
         total_aux_loss = 0.0
         for layer in self.layers:
             if isinstance(layer, MoETransformerBlock):
@@ -902,14 +859,15 @@ class MoETransformer(nn.Module):
             else:
                 x = layer(x)
         
-        # 输出
         x = self.final_norm(x)
         logits = self.lm_head(x)
         
         return logits, total_aux_loss
+```
 
+### 10.4 使用示例
 
-# 使用示例
+```python
 if __name__ == "__main__":
     model = MoETransformer(
         vocab_size=32000,
@@ -919,76 +877,18 @@ if __name__ == "__main__":
         d_ff=2048,
         num_experts=8,
         top_k=2,
-        moe_freq=2  # 每 2 层一个 MoE
+        moe_freq=2
     )
     
-    # 模拟输入
     batch_size, seq_len = 4, 128
     input_ids = torch.randint(0, 32000, (batch_size, seq_len))
     
-    # 前向传播
     logits, aux_loss = model(input_ids)
     print(f"Output shape: {logits.shape}")  # [4, 128, 32000]
     print(f"Auxiliary loss: {aux_loss.item():.4f}")
     
-    # 计算参数量
     total_params = sum(p.numel() for p in model.parameters())
     print(f"Total parameters: {total_params / 1e6:.2f}M")
-```
-
-### 10.5 分布式 MoE 训练示例
-
-```python
-import torch.distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-
-def setup_distributed():
-    """初始化分布式训练"""
-    dist.init_process_group(backend='nccl')
-    local_rank = int(os.environ['LOCAL_RANK'])
-    torch.cuda.set_device(local_rank)
-    return local_rank
-
-def train_moe_distributed():
-    """分布式 MoE 训练示例"""
-    local_rank = setup_distributed()
-    world_size = dist.get_world_size()
-    
-    # 创建模型
-    model = MoETransformer(
-        vocab_size=32000,
-        num_experts=8 * world_size,  # 总专家数 = 每 GPU 专家数 × GPU 数
-        top_k=2
-    ).cuda(local_rank)
-    
-    # 使用 DDP 包装
-    model = DDP(model, device_ids=[local_rank])
-    
-    # 优化器
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
-    
-    # 训练循环
-    for epoch in range(num_epochs):
-        for batch in dataloader:
-            input_ids = batch['input_ids'].cuda(local_rank)
-            labels = batch['labels'].cuda(local_rank)
-            
-            # 前向传播
-            logits, aux_loss = model(input_ids)
-            
-            # 计算损失
-            ce_loss = F.cross_entropy(
-                logits.view(-1, logits.size(-1)),
-                labels.view(-1)
-            )
-            
-            # 总损失 = 交叉熵 + 辅助损失
-            loss = ce_loss + 0.01 * aux_loss
-            
-            # 反向传播
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
 ```
 
 ---
@@ -996,6 +896,19 @@ def train_moe_distributed():
 ## 11. 未来发展方向
 
 ### 11.1 架构创新
+
+```mermaid
+flowchart TB
+    A[MoE 架构创新] --> B[LatentMoE]
+    A --> C[Soft MoE]
+    A --> D[Hierarchical MoE]
+    A --> E[Mixture of Depths]
+    
+    B --> B1[低维潜空间路由]
+    C --> C1[全可微 无token dropping]
+    D --> D1[多层级专家组织]
+    E --> E1[动态选择处理层数]
+```
 
 | 方向 | 描述 | 代表工作 |
 |------|------|----------|
@@ -1006,12 +919,18 @@ def train_moe_distributed():
 
 ### 11.2 效率优化
 
-| 方向 | 技术路线 |
-|------|----------|
-| **硬件协同设计** | 专用 MoE 加速器、NVSwitch 优化 |
-| **稀疏计算优化** | 结构化稀疏、Triton 内核 |
-| **通信优化** | 通信-计算重叠、压缩通信 |
-| **内存优化** | 参数共享、动态卸载 |
+```mermaid
+flowchart TB
+    A[效率优化方向] --> B[硬件协同设计]
+    A --> C[稀疏计算优化]
+    A --> D[通信优化]
+    A --> E[内存优化]
+    
+    B --> B1[专用 MoE 加速器]
+    C --> C1[结构化稀疏]
+    D --> D1[通信-计算重叠]
+    E --> E1[参数共享]
+```
 
 ### 11.3 应用拓展
 
@@ -1028,7 +947,7 @@ def train_moe_distributed():
 
 | # | 论文 | 作者 | 年份 | 链接 |
 |---|------|------|------|------|
-| 1 | Adaptive Mixtures of Local Experts | Jacobs, Jordan, Nowlan, Hinton | 1991 | [Neural Computation](https://www.cs.toronto.edu/~hinton/absps/jjnh91.pdf) |
+| 1 | Adaptive Mixtures of Local Experts | Jacobs, Jordan, Nowlan, Hinton | 1991 | [PDF](https://www.cs.toronto.edu/~hinton/absps/jjnh91.pdf) |
 | 2 | Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer | Shazeer et al. | 2017 | [arXiv:1701.06538](https://arxiv.org/abs/1701.06538) |
 | 3 | GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding | Lepikhin et al. | 2020 | [arXiv:2006.16668](https://arxiv.org/abs/2006.16668) |
 | 4 | Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity | Fedus, Zoph, Shazeer | 2021 | [arXiv:2101.03961](https://arxiv.org/abs/2101.03961) |

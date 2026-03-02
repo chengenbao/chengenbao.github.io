@@ -30,7 +30,49 @@
       });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true, theme:'neutral', fontSize:14, securityLevel:'loose'});</script>
+    <script>
+      // Initialize Mermaid
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'neutral',
+        fontSize: 14,
+        securityLevel: 'loose',
+        flowchart: { 
+          useMaxWidth: true, 
+          htmlLabels: true,
+          curve: 'basis'
+        }
+      });
+      
+      // Convert ```mermaid code blocks to mermaid divs
+      document.addEventListener('DOMContentLoaded', function() {
+        // Find all code blocks with language-mermaid class
+        document.querySelectorAll('pre code.language-mermaid, pre > code.language-mermaid').forEach(function(codeBlock) {
+          var pre = codeBlock.parentElement;
+          var mermaidCode = codeBlock.textContent;
+          
+          // Create a new div for mermaid
+          var mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+          
+          // Replace pre with mermaid div
+          pre.parentNode.replaceChild(mermaidDiv, pre);
+        });
+        
+        // Also handle pre tags that directly contain mermaid code (no code wrapper)
+        document.querySelectorAll('pre.language-mermaid').forEach(function(pre) {
+          var mermaidCode = pre.textContent;
+          var mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+          pre.parentNode.replaceChild(mermaidDiv, pre);
+        });
+        
+        // Now render all mermaid diagrams
+        mermaid.run();
+      });
+    </script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <style>
