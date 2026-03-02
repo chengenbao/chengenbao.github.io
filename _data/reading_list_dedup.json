@@ -13,20 +13,20 @@
       "https://huggingface.co/blog/custom-cuda-kernels-agent-skills"
     ],
     "2026-03-01": [
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://huggingface.co/blog/moe-transformers",
+      "https://huggingface.co/blog/ggml-joins-hf",
+      "https://huggingface.co/blog/transformersjs-v4",
       "https://research.google/blog/teaching-ai-to-read-a-map/",
       "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
       "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/"
     ],
     "2026-03-02": [
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://huggingface.co/blog/moe-transformers",
+      "https://huggingface.co/blog/ggml-joins-hf",
+      "https://huggingface.co/blog/transformersjs-v4",
       "https://research.google/blog/teaching-ai-to-read-a-map/",
       "https://research.google/blog/sequential-attention-making-ai-models-leaner-and-faster-without-sacrificing-accuracy/",
-      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
-      "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
-      "https://www.microsoft.com/en-us/research/blog/from-glass-to-gigabytes-microsoft-project-silica/"
+      "https://www.microsoft.com/en-us/research/blog/rethinking-imitation-learning-with-predictive-inverse-dynamics-models/",
+      "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
+      "https://www.microsoft.com/en-us/research/blog/project-silicas-advances-in-glass-storage-technology/"
     ]
   },
   "finance": {
