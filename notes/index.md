@@ -7,6 +7,17 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/latentmoe/">
+      <div class="note-icon">🧠</div>
+      <div class="note-body">
+        <h2>LatentMoE：低维潜空间专家路由架构</h2>
+        <p>从 Dense → 标准 MoE → LatentMoE 的演进脉络，讲清 All-to-All 通信瓶颈及低维潜空间如何同时压缩开销并指数扩展专家多样性。</p>
+        <span class="tag">MoE</span>
+        <span class="tag">LLM架构</span>
+        <span class="tag">NVIDIA</span>
+        <span class="tag">分布式推理</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/pytorch/">
       <div class="note-icon">⚙️</div>
       <div class="note-body">
