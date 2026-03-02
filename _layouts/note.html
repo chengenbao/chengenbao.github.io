@@ -217,6 +217,47 @@
         margin-bottom: 0.25rem;
         line-height: 1.8;
       }
+
+      /* ===== Tables ===== */
+      .note-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.2rem 0 1.5rem;
+        font-size: 0.9rem;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      }
+      .note-body thead tr {
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        color: #fff;
+      }
+      .note-body th {
+        padding: 0.65rem 1rem;
+        font-weight: 600;
+        text-align: left;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
+      }
+      .note-body td {
+        padding: 0.55rem 1rem;
+        border-bottom: 1px solid #e9ecef;
+        vertical-align: middle;
+        line-height: 1.6;
+      }
+      .note-body tbody tr:last-child td {
+        border-bottom: none;
+      }
+      .note-body tbody tr:nth-child(even) {
+        background: #f8f9fa;
+      }
+      .note-body tbody tr:hover td {
+        background: #e8f4ff;
+        transition: background 0.15s;
+      }
+      .note-body td strong {
+        color: #0056b3;
+      }
       /* ===== Complexity table ===== */
       .note-body ul li strong { color: #007bff; }
       /* ===== Section headers (h2) ===== */
