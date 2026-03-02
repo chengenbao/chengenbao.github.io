@@ -611,19 +611,21 @@ flowchart LR
 
 ```mermaid
 quadrantChart
-    title 性能 vs 训练成本
-    x-axis 低成本 --> 高成本
-    y-axis 低性能 --> 高性能
-    quadrant-1 高性价比区
-    quadrant-2 性能导向区
-    quadrant-3 待优化区
-    quadrant-4 成本敏感区
+    title Performance vs Training Cost
+    x-axis Low Cost --> High Cost
+    y-axis Low Performance --> High Performance
+    quadrant-1 High ROI
+    quadrant-2 Performance Focus
+    quadrant-3 Needs Optimization
+    quadrant-4 Cost Sensitive
     Dense-7B: [0.15, 0.25]
     Dense-70B: [0.45, 0.55]
-    MoE-47B Mixtral: [0.25, 0.58]
+    Mixtral-47B: [0.25, 0.58]
     Dense-405B: [0.85, 0.78]
-    MoE-671B DeepSeek-V3: [0.35, 0.92]
+    DeepSeek-V3: [0.35, 0.92]
 ```
+
+> **图表说明**：横轴为训练成本（低→高），纵轴为性能（低→高）。MoE 模型（Mixtral、DeepSeek-V3）位于左上角高性价比区域。
 
 **结论**：MoE 在性能/成本比上具有显著优势。
 
