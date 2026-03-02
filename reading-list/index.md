@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-02-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-02</time>
+    </div>
+    <h2>切割线定理（六年级） / 不等式整数最值（初一）</h2>
+    <p>圆外点切割线长的幂定理证明与应用；配因式分解求两变量正整数方程全解</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#切割线定理 #整数方程 #因式分解</span>
+    </div>
+  </div>
+</a>
 
     <a class="rl-card tech" href="/reading-list/2026-03-02-tech/">
       <div class="rl-accent"></div>
