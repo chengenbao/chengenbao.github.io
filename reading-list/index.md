@@ -26,10 +26,10 @@ permalink: /reading-list/
       <time>2026-03-03</time>
     </div>
     <h2>整除性构造（初二） / 韦达定理对称式（初三）</h2>
-    <p>整除性构造将 n²+3n+5 按 (n+1) 表达求余数；韦达定理化对称式解方程</p>
+    <p>带余除法降次求整除条件；韦达定理化对称多项式求参数</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#圆的幂 #切割线定理 #配方法 #二次函数</span>
+      <span class="rl-tags">#整除性构造 #同余 #韦达定理 #对称多项式</span>
     </div>
   </div>
 </a>
