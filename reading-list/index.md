@@ -25,8 +25,8 @@ permalink: /reading-list/
       <span class="rl-badge math">🧮 奥数题</span>
       <time>2026-03-03</time>
     </div>
-    <h2>切割线定理（初二） / 二次函数最值（初三）</h2>
-    <p>圆的幂定理 PA²=PB·PC 及配方法求二次函数最值</p>
+    <h2>整除性构造（初二） / 韦达定理对称式（初三）</h2>
+    <p>整除性构造将 n²+3n+5 按 (n+1) 表达求余数；韦达定理化对称式解方程</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
       <span class="rl-tags">#圆的幂 #切割线定理 #配方法 #二次函数</span>
