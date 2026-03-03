@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" style="background:#fff;font-family:serif;">
+  <!-- 白色背景 -->
+  <rect width="420" height="360" fill="#fff"/>
+  <!-- 圆 -->
+  <circle cx="210.0" cy="160.0" r="90.0" fill="none" stroke="#2255aa" stroke-width="2"/>
+  <!-- 圆心 O -->
+  <circle cx="210.0" cy="160.0" r="3" fill="#2255aa"/>
+  <text x="216.0" y="152.0" font-size="14" fill="#2255aa">O</text>
+
+  <!-- 割线 PBC（延伸到圆外） -->
+  <line x1="40.0" y1="220.0" x2="315.9" y2="130.4" stroke="#555" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 割线圆内段高亮 -->
+  <line x1="125.9" y1="192.1" x2="296.9" y2="136.5" stroke="#e05" stroke-width="2.5"/>
+
+  <!-- 切线 PA（高亮） -->
+  <line x1="40.0" y1="220.0" x2="141.7" y2="101.4" stroke="#e05" stroke-width="2.5"/>
+  <!-- OA 半径（虚线） -->
+  <line x1="210.0" y1="160.0" x2="141.7" y2="101.4" stroke="#888" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <!-- OB 半径（虚线） -->
+  <line x1="210.0" y1="160.0" x2="125.9" y2="192.1" stroke="#888" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- 直角标记（A处） -->
+  <rect x="133.7" y="93.4" width="8" height="8" fill="none" stroke="#888" stroke-width="1.2" transform="rotate(40.6,141.7,101.4)"/>
+
+  <!-- 点标注 -->
+  <circle cx="40.0" cy="220.0" r="3.5" fill="#333"/>
+  <text x="24.0" y="225.0" font-size="15" font-weight="bold" fill="#333">P</text>
+
+  <circle cx="141.7" cy="101.4" r="3.5" fill="#e05"/>
+  <text x="147.7" y="95.4" font-size="15" font-weight="bold" fill="#e05">A</text>
+
+  <circle cx="125.9" cy="192.1" r="3.5" fill="#e05"/>
+  <text x="109.9" y="197.1" font-size="15" font-weight="bold" fill="#e05">B</text>
+
+  <circle cx="296.9" cy="136.5" r="3.5" fill="#e05"/>
+  <text x="302.9" y="141.5" font-size="15" font-weight="bold" fill="#e05">C</text>
+
+  <!-- 公式标注 -->
+  <text x="110" y="318" font-size="13.5" fill="#c00" font-style="italic">PA² = PB · PC</text>
+  <text x="50" y="340" font-size="12" fill="#555">（PA 为切线，PBC 为割线）</text>
+
+  <!-- 标题 -->
+  <text x="210" y="24" font-size="14" font-weight="bold" fill="#2255aa" text-anchor="middle">圆的切割线定理（幂的定理）</text>
+</svg>
