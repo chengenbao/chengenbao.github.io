@@ -27,6 +27,14 @@
       "https://www.microsoft.com/en-us/research/blog/rethinking-imitation-learning-with-predictive-inverse-dynamics-models/",
       "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
       "https://www.microsoft.com/en-us/research/blog/project-silicas-advances-in-glass-storage-technology/"
+    ],
+    "2026-03-03": [
+      "https://research.google/blog/scheduling-in-a-changing-world-maximizing-throughput-with-time-varying-capacity/",
+      "https://research.google/blog/beyond-one-on-one-authoring-simulating-and-testing-dynamic-human-ai-group-conversations/",
+      "https://research.google/blog/how-ai-trained-on-birds-is-surfacing-underwater-mysteries/",
+      "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+      "https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/"
     ]
   },
   "finance": {
@@ -55,7 +63,13 @@
       "https://www.imf.org/en/Publications/GFSR",
       "https://www.imf.org/en/publications/weo",
       "https://www.bis.org/publ/work1246.htm"
+    ],
+    "2026-03-03": [
+      "https://www.imf.org/en/Publications/WEO/Issues/2026/01/17/world-economic-outlook-update-january-2026",
+      "https://www.bis.org/publ/work1247.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-policy-uncertainty-and-the-us-economy-2026.html",
+      "https://www.bis.org/publ/qtrpdf/r_qt2506.htm"
     ]
   },
-  "updated": "2026-03-02"
+  "updated": "2026-03-03"
 }
