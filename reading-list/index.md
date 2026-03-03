@@ -3,6 +3,13 @@ layout: default
 title: "Reading List"
 permalink: /reading-list/
 ---
+### [2026-03-03 Reading List](/reading-list/2026-03-03/)
+🤖 **6 Tech** · 💰 **4 Finance**  
+Agent scaling science · Multimodal RL · Cross-domain transfer learning · IMF WEO Update · BIS private credit · Trade policy uncertainty  
+[iWiki Tech](https://iwiki.woa.com/p/4018372784) · [iWiki Finance](https://iwiki.woa.com/p/4018372790)
+
+---
+
 
 <div class="rl-page">
   <div class="rl-hero">
