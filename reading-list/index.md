@@ -3,12 +3,6 @@ layout: default
 title: "Reading List"
 permalink: /reading-list/
 ---
-### [2026-03-03 Reading List](/reading-list/2026-03-03/)
-🤖 **6 Tech** · 💰 **4 Finance**  
-Agent scaling science · Multimodal RL · Cross-domain transfer learning · IMF WEO Update · BIS private credit · Trade policy uncertainty  
-[iWiki Tech](https://iwiki.woa.com/p/4018372784) · [iWiki Finance](https://iwiki.woa.com/p/4018372790)
-
----
 
 
 <div class="rl-page">
@@ -24,6 +18,39 @@ Agent scaling science · Multimodal RL · Cross-domain transfer learning · IMF 
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-03-tech/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-03</time>
+    </div>
+    <h2>Agent 规模化科学 / 多模态 RL / 跨域迁移学习</h2>
+    <p>Google Agent 规模化评估框架；Microsoft 多模态 RL Agentic Verifier；AWS Nova Forge 数据混合策略</p>
+    <div class="rl-meta">
+      <span class="rl-source">research.google · microsoft.com · aws.amazon.com</span>
+      <span class="rl-tags">#Agent #强化学习 #迁移学习</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-03-03-finance/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-03</time>
+    </div>
+    <h2>贸易政策不确定性 / IMF 全球展望下调 / BIS 货币政策传导</h2>
+    <p>美联储：关税不确定性抑制企业投资；IMF 下调 2026 全球增速至 3.1%；BIS：私人信贷扩张延长货币政策传导时滞</p>
+    <div class="rl-meta">
+      <span class="rl-source">federalreserve.gov · imf.org · bis.org</span>
+      <span class="rl-tags">#贸易政策 #IMF #BIS #宏观经济</span>
+    </div>
+  </div>
+</a>
+
+
 <a class="rl-card math" href="/reading-list/2026-03-02-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
