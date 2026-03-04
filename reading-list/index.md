@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-04-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-04</time>
+    </div>
+    <h2>等积变换与面积割补（四年级） / 容斥原理多集合（六年级）</h2>
+    <p>平行四边形中面积之比的等积变换，以及三科成绩的容斥原理分层计数</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#等积变换 #面积割补 #容斥原理 #多集合计数</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-04-tech/">
   <div class="rl-accent"></div>
   <div class="rl-body">
