@@ -179,20 +179,26 @@ $$K = c_{KV} \cdot W_{UK}, \quad V = c_{KV} \cdot W_{UV}$$
 原始计算：
 $$Q = X \cdot W_Q, \quad K = c_{KV} \cdot W_{UK}$$
 
-优化后：
-$$Q' = X \cdot (W_Q \cdot W_{UK})$$
+注意力分数计算需要 $QK^T$：
+$$QK^T = (X \cdot W_Q)(c_{KV} \cdot W_{UK})^T = X \cdot W_Q \cdot W_{UK}^T \cdot c_{KV}^T$$
 
-预计算合并矩阵，避免显式计算 $K$。
+优化后，预计算合并矩阵：
+$$W_Q' = W_Q \cdot W_{UK}^T$$
+
+这样 $QK^T = X \cdot W_Q' \cdot c_{KV}^T$，直接用压缩向量 $c_{KV}$ 计算，无需显式重建 $K$。
 
 **Value 投影吸收**：
 
 原始计算：
-$$O = \text{Concat}(\text{heads}) \cdot W_O, \quad V = c_{KV} \cdot W_{UV}$$
+$$O = \text{Attention}(Q, K, V) \cdot W_O, \quad V = c_{KV} \cdot W_{UV}$$
 
-优化后：
-$$O = \text{Concat}(\text{heads}) \cdot (W_{UV} \cdot W_O)$$
+注意力输出为 $A \cdot V = A \cdot c_{KV} \cdot W_{UV}$，最终输出：
+$$(A \cdot c_{KV} \cdot W_{UV}) \cdot W_O = A \cdot c_{KV} \cdot (W_{UV} \cdot W_O)$$
 
-**效果**：推理时只需存储 $c_{KV}$，无需显式计算 K 和 V。
+优化后，预计算合并矩阵：
+$$W_O' = W_{UV} \cdot W_O$$
+
+**效果**：推理时只需存储 $c_{KV}$，通过合并后的矩阵直接计算，无需显式重建 K 和 V。
 
 ### 3.3 Query 压缩
 
