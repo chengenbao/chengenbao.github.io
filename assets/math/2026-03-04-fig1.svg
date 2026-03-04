@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <!-- 白色背景 -->
+  <rect width="420" height="360" fill="white"/>
+  
+  <!-- 标题 -->
+  <text x="210" y="28" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#333">平行四边形中的等积变换</text>
+  
+  <!-- 定义点坐标
+       A(60, 280), B(160, 160), C(360, 160), D(260, 280)
+       平行四边形 ABCD
+       E 在 BC 上，BE:EC=2:1，E=(160+2/3*(360-160), 160) = (293, 160)
+       F = AE ∩ BD
+  -->
+  
+  <!-- 坐标 -->
+  <!-- A=(60,280), B=(160,160), C=(360,160), D=(260,280) -->
+  <!-- E在BC上 BE:EC=2:1 => E=B+2/3*(C-B)=(160+133,160)=(293,160) -->
+  <!-- BD: B(160,160)->D(260,280)，参数t: (160+100t, 160+120t) -->
+  <!-- AE: A(60,280)->E(293,160)，参数s: (60+233s, 280-120s) -->
+  <!-- 联立: 160+100t=60+233s, 160+120t=280-120s -->
+  <!-- 从第2式: 120t+120s=120 => t+s=1 => s=1-t -->
+  <!-- 代入第1式: 160+100t=60+233(1-t) => 160+100t=60+233-233t => 333t=133 => t=133/333=7/17.57... -->
+  <!-- t=133/333 -->
+  <!-- F = (160+100*133/333, 160+120*133/333) = (160+39.94, 160+47.93) = (199.94, 207.93) -->
+  
+  <!-- 平行四边形边 -->
+  <polygon points="60,280 160,160 360,160 260,280" 
+           fill="#f0f4ff" stroke="#4466aa" stroke-width="2"/>
+  
+  <!-- 对角线 BD -->
+  <line x1="160" y1="160" x2="260" y2="280" stroke="#aa4444" stroke-width="1.5" stroke-dasharray="6,3"/>
+  
+  <!-- AE线 -->
+  <line x1="60" y1="280" x2="293" y2="160" stroke="#44aa44" stroke-width="1.5" stroke-dasharray="6,3"/>
+  
+  <!-- 标注 F 交点 (约 199.94, 207.93) -->
+  <circle cx="200" cy="208" r="3.5" fill="#cc3300"/>
+  
+  <!-- 顶点圆点 -->
+  <circle cx="60" cy="280" r="4" fill="#4466aa"/>
+  <circle cx="160" cy="160" r="4" fill="#4466aa"/>
+  <circle cx="360" cy="160" r="4" fill="#4466aa"/>
+  <circle cx="260" cy="280" r="4" fill="#4466aa"/>
+  <!-- E 点 -->
+  <circle cx="293" cy="160" r="4" fill="#228844"/>
+  
+  <!-- 顶点标签 -->
+  <text x="42" y="296" font-family="serif" font-size="16" font-weight="bold" fill="#333">A</text>
+  <text x="148" y="150" font-family="serif" font-size="16" font-weight="bold" fill="#333">B</text>
+  <text x="364" y="150" font-family="serif" font-size="16" font-weight="bold" fill="#333">C</text>
+  <text x="263" y="298" font-family="serif" font-size="16" font-weight="bold" fill="#333">D</text>
+  <text x="291" y="150" font-family="serif" font-size="16" font-weight="bold" fill="#228844">E</text>
+  <text x="204" y="204" font-family="serif" font-size="15" font-weight="bold" fill="#cc3300">F</text>
+  
+  <!-- BE:EC 标注 -->
+  <text x="200" y="150" text-anchor="middle" font-family="serif" font-size="12" fill="#555">BE:EC = 2:1</text>
+  
+  <!-- 刻度标记 BE 和 EC -->
+  <!-- BE 中点 (226,160), EC 中点 (326,160) -->
+  <line x1="207" y1="155" x2="207" y2="165" stroke="#228844" stroke-width="1.5"/>
+  <line x1="212" y1="155" x2="212" y2="165" stroke="#228844" stroke-width="1.5"/>
+  <line x1="320" y1="155" x2="320" y2="165" stroke="#228844" stroke-width="1.5"/>
+  
+  <!-- 着色三角形 ABF -->
+  <polygon points="60,280 160,160 200,208" fill="rgba(255,200,100,0.35)" stroke="none"/>
+  <!-- 着色三角形 ADF -->
+  <polygon points="60,280 260,280 200,208" fill="rgba(100,180,255,0.35)" stroke="none"/>
+  
+  <!-- 图例 -->
+  <rect x="20" y="310" width="14" height="10" fill="rgba(255,200,100,0.7)"/>
+  <text x="38" y="320" font-family="serif" font-size="12" fill="#555">△ABF</text>
+  <rect x="90" y="310" width="14" height="10" fill="rgba(100,180,255,0.7)"/>
+  <text x="108" y="320" font-family="serif" font-size="12" fill="#555">△ADF</text>
+  
+  <!-- 说明文字 -->
+  <text x="210" y="340" text-anchor="middle" font-family="serif" font-size="12" fill="#777">求 S△ABF : S△ADF</text>
+</svg>
