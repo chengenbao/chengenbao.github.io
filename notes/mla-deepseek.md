@@ -17,11 +17,7 @@ tags: [MLA, DeepSeek, Attention, LLM架构, KV Cache]
 
 Transformer 架构的核心是注意力机制，通过 Query、Key、Value 三个向量计算：
 
-**数学公式**：
-
-```
-Attention(Q, K, V) = softmax(QK^T / √d_k) × V
-```
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 
 其中：
 - **Query (Q)**：当前正在处理的 token 表示
@@ -52,10 +48,10 @@ flowchart LR
 ```
 
 **MHA 特点**：
-- 将 `d_model` 维度拆分为 `h` 个头
-- 每个头的维度：`d_k = d_v = d_model / h`
-- 每个头独立学习 `W_Q`, `W_K`, `W_V` 投影矩阵
-- 输出拼接后通过 `W_O` 变换
+- 将 $d_{model}$ 维度拆分为 $h$ 个头
+- 每个头的维度：$d_k = d_v = d_{model} / h$
+- 每个头独立学习 $W_Q$, $W_K$, $W_V$ 投影矩阵
+- 输出拼接后通过 $W_O$ 变换
 
 ### 1.3 推理瓶颈：KV Cache
 
@@ -63,9 +59,7 @@ flowchart LR
 
 **KV Cache 内存开销**：
 
-```
-Memory = 2 × n_heads × d_head × seq_length × batch_size × dtype_size
-```
+$$\text{Memory} = 2 \times n_{heads} \times d_{head} \times L \times B \times \text{dtype\_size}$$
 
 | 模型 | 参数 | 序列长度 | KV Cache 大小 |
 |------|------|----------|---------------|
@@ -98,7 +92,7 @@ flowchart TB
 
 | 优点 | 缺点 |
 |------|------|
-| KV Cache 减少 h 倍 | 表达能力下降 |
+| KV Cache 减少 $h$ 倍 | 表达能力下降 |
 | 推理速度提升 | 长程依赖建模能力弱 |
 | - | 微调不稳定 |
 
@@ -126,10 +120,10 @@ flowchart TB
 
 | 方法 | KV Cache 大小 | 性能 | 代表模型 |
 |------|--------------|------|----------|
-| MHA | `2 × h × d × L` | ★★★★★ | GPT-3 |
-| MQA | `2 × d × L` | ★★★☆☆ | PaLM |
-| GQA | `2 × G × d × L` | ★★★★☆ | Llama 3 |
-| **MLA** | `2 × d_c × L` | ★★★★★+ | DeepSeek |
+| MHA | $2 \times h \times d \times L$ | ★★★★★ | GPT-3 |
+| MQA | $2 \times d \times L$ | ★★★☆☆ | PaLM |
+| GQA | $2 \times G \times d \times L$ | ★★★★☆ | Llama 3 |
+| **MLA** | $2 \times d_c \times L$ | ★★★★★+ | DeepSeek |
 
 ---
 
@@ -160,51 +154,52 @@ flowchart LR
 
 **数学表示**：
 
-```
-# 压缩（训练和推理时）
-c_KV = X × W_DKV        # W_DKV: [d_model, d_c], d_c << d_model
+**压缩（训练和推理时）**：
+$$c_{KV} = X \cdot W_{DKV}$$
 
-# 重建（推理时）
-K = c_KV × W_UK         # W_UK: [d_c, n_heads × d_head]
-V = c_KV × W_UV         # W_UV: [d_c, n_heads × d_head]
-```
+其中 $W_{DKV} \in \mathbb{R}^{d_{model} \times d_c}$，且 $d_c \ll d_{model}$
 
-**压缩比**：
+**重建（推理时）**：
+$$K = c_{KV} \cdot W_{UK}, \quad V = c_{KV} \cdot W_{UV}$$
 
-```
-标准 MHA:  2 × n_heads × d_head = 2 × 64 × 128 = 16384
-MLA:       d_c = 512 (示例)
-压缩比:    16384 / 512 = 32x (减少 96.9%)
-```
+**压缩比计算**：
+
+| 项目 | 公式 | 示例值 |
+|------|------|--------|
+| 标准 MHA | $2 \times n_{heads} \times d_{head}$ | $2 \times 64 \times 128 = 16384$ |
+| MLA | $d_c$ | $512$ |
+| **压缩比** | - | $16384 / 512 = 32\times$ (减少 96.9%) |
 
 ### 3.2 矩阵吸收优化
 
 为避免推理时显式计算大型 K/V 矩阵，MLA 将投影矩阵合并：
 
-#### Key 投影吸收
+**Key 投影吸收**：
 
-```
-原始: Q = X × W_Q,  K = c_KV × W_UK
-优化: Q' = X × (W_Q × W_UK)   # 预计算合并矩阵
-```
+原始计算：
+$$Q = X \cdot W_Q, \quad K = c_{KV} \cdot W_{UK}$$
 
-#### Value 投影吸收
+优化后：
+$$Q' = X \cdot (W_Q \cdot W_{UK})$$
 
-```
-原始: O = Concat(heads) × W_O,  V = c_KV × W_UV  
-优化: O = Concat(heads) × (W_UV × W_O)  # 预计算合并矩阵
-```
+预计算合并矩阵，避免显式计算 $K$。
 
-**效果**：推理时只需存储 `c_KV`，无需显式计算 K 和 V。
+**Value 投影吸收**：
+
+原始计算：
+$$O = \text{Concat}(\text{heads}) \cdot W_O, \quad V = c_{KV} \cdot W_{UV}$$
+
+优化后：
+$$O = \text{Concat}(\text{heads}) \cdot (W_{UV} \cdot W_O)$$
+
+**效果**：推理时只需存储 $c_{KV}$，无需显式计算 K 和 V。
 
 ### 3.3 Query 压缩
 
 类似地，Query 也可压缩以减少**训练时**的激活内存：
 
-```
-c_Q = X × W_DQ          # 压缩
-Q = c_Q × W_UQ          # 重建
-```
+$$c_Q = X \cdot W_{DQ}$$
+$$Q = c_Q \cdot W_{UQ}$$
 
 > **注意**：Query 压缩不影响推理 KV Cache，因为 Query 是动态计算并丢弃的。
 
@@ -216,30 +211,28 @@ Q = c_Q × W_UQ          # 重建
 
 Rotary Position Embedding 通过旋转 Q/K 向量编码位置：
 
-```
-q'_m = R_m × q_m
-k'_n = R_n × k_n
-```
+$$q'_m = R_m \cdot q_m$$
+$$k'_n = R_n \cdot k_n$$
 
-其中 `R_m` 是基于位置 `m` 的旋转矩阵。
+其中 $R_m$ 是基于位置 $m$ 的旋转矩阵。
 
 ### 4.2 为什么 RoPE 与基础 MLA 不兼容？
 
 **问题 1：重计算成本**
 
 若在重建后应用 RoPE：
-```
-K = c_KV × W_UK → K' = RoPE(K)
-```
+
+$$K = c_{KV} \cdot W_{UK} \rightarrow K' = \text{RoPE}(K)$$
+
 则每生成一个新 token，都需要解压并旋转所有历史 Key，破坏效率。
 
 **问题 2：矩阵合并失败**
 
 矩阵乘法不可交换：
-```
-W_Q × W_UK × RoPE ≠ W_Q × RoPE × W_UK
-```
-无法将 `W_UK` 合并到 `W_Q` 中。
+
+$$W_Q \cdot W_{UK} \cdot \text{RoPE} \neq W_Q \cdot \text{RoPE} \cdot W_{UK}$$
+
+无法将 $W_{UK}$ 合并到 $W_Q$ 中。
 
 ### 4.3 解决方案：解耦旋转位置编码
 
@@ -265,18 +258,16 @@ flowchart TB
 
 | 类型 | 用途 | 存储方式 |
 |------|------|----------|
-| **Content (K_C, Q_C)** | 语义内容注意力 | 压缩存储 |
-| **RoPE (K_R, Q_R)** | 位置信息 | 小尺寸直接存储 |
+| **Content** ($K_C$, $Q_C$) | 语义内容注意力 | 压缩存储 |
+| **RoPE** ($K_R$, $Q_R$) | 位置信息 | 小尺寸直接存储 |
 
 **注意力分数计算**：
 
-```
-Score = softmax((Q_C × K_C^T + Q_R × K_R^T) / √d)
-```
+$$\text{Score} = \text{softmax}\left(\frac{Q_C K_C^T + Q_R K_R^T}{\sqrt{d}}\right)$$
 
 **KV Cache 组成**：
-- `c_KV`：压缩的内容向量（小）
-- `K_R`：RoPE Key（小）
+- $c_{KV}$：压缩的内容向量（小）
+- $K_R$：RoPE Key（小）
 - 总大小仍远小于标准 MHA
 
 ---
