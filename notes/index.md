@@ -7,6 +7,17 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/mla-deepseek/">
+      <div class="note-icon">⚡</div>
+      <div class="note-body">
+        <h2>Multi-Head Latent Attention (MLA): DeepSeek 高效推理的秘密</h2>
+        <p>深入解析 DeepSeek V2/V3 的核心创新：通过低秩 KV 压缩将缓存减少 93%，同时超越标准 MHA 性能。含完整 PyTorch 实现。</p>
+        <span class="tag">MLA</span>
+        <span class="tag">DeepSeek</span>
+        <span class="tag">Attention</span>
+        <span class="tag">KV Cache</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/moe-survey/">
       <div class="note-icon">📚</div>
       <div class="note-body">
