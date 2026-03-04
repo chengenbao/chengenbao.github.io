@@ -18,6 +18,38 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-04-tech/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-04</time>
+    </div>
+    <h2>多模态感知 / 医疗AI临床试验 / Agent框架</h2>
+    <p>Google 地图理解 VLM、全美首个医疗AI随机对照试验、微软 CORPGEN Agent、低资源语音识别 Paza、媒体溯源技术与 Amazon Nova 虚拟试穿。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Google Research · Microsoft Research · AWS</span>
+      <span class="rl-tags">#医疗AI #Agent #NLP #多模态</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-03-04-finance/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-04</time>
+    </div>
+    <h2>AI基建贸易效应 / 美债利率 / 气候金融稳定</h2>
+    <p>Fed 量化 AI 基础设施热潮对全球贸易的溢出、远期国债利率创1980s新高的驱动因素拆解，以及 BIS 气候明斯基时刻与地缘贸易碎片化研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes · BIS Working Papers</span>
+      <span class="rl-tags">#宏观 #气候金融 #国际贸易 #地缘政治</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-03-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
