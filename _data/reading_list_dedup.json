@@ -35,6 +35,14 @@
       "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
       "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
       "https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/"
+    ],
+    "2026-03-04": [
+      "https://research.google/blog/teaching-ai-to-read-a-map/",
+      "https://research.google/blog/collaborating-on-a-nationwide-randomized-study-of-ai-in-real-world-virtual-care/",
+      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
+      "https://www.microsoft.com/en-us/research/blog/paza-introducing-automatic-speech-recognition-benchmarks-and-models-for-low-resource-languages/",
+      "https://www.microsoft.com/en-us/research/blog/media-authenticity-methods-in-practice-capabilities-limitations-and-directions/",
+      "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/"
     ]
   },
   "finance": {
@@ -69,7 +77,13 @@
       "https://www.bis.org/publ/work1247.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/trade-policy-uncertainty-and-the-us-economy-2026.html",
       "https://www.bis.org/publ/qtrpdf/r_qt2506.htm"
+    ],
+    "2026-03-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
+      "https://www.bis.org/publ/work1248.htm",
+      "https://www.bis.org/publ/work1249.htm"
     ]
   },
-  "updated": "2026-03-03"
+  "updated": "2026-03-04"
 }
