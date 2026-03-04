@@ -59,7 +59,7 @@ flowchart LR
 
 **KV Cache 内存开销**：
 
-$$\text{Memory} = 2 \times n_{heads} \times d_{head} \times L \times B \times \text{dtype\_size}$$
+$$\text{Memory} = 2 \times n_{heads} \times d_{head} \times L \times B \times \text{dtype_size}$$
 
 | 模型 | 参数 | 序列长度 | KV Cache 大小 |
 |------|------|----------|---------------|
