@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-05-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-05</time>
+    </div>
+    <h2>错位排列计数（五年级） / 格点多边形面积（初一）</h2>
+    <p>错位排列的容斥推导与递推公式；Pick 定理将格点计数化为面积计算</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#错位排列 #Pick定理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
