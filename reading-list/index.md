@@ -18,6 +18,28 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+  <div class="rl-card rl-card--tech">
+    <div class="rl-card__meta">
+      <span class="rl-card__date">2026-03-05</span>
+      <span class="rl-card__tag rl-card__tag--tech">Tech</span>
+    </div>
+    <h3 class="rl-card__title">
+      <a href="/reading-list/2026-03-05-tech-daily/">技术速递 2026-03-05</a>
+    </h3>
+    <p class="rl-card__summary">推理加速（Saguaro SSD 2x→5x）· KV Cache 量化 · LLM 激活引导安全 · 贝叶斯推理训练 · Phi-4 多模态经验</p>
+    <a class="rl-card__iwiki" href="https://iwiki.woa.com/p/4018503088" target="_blank">📄 iWiki</a>
+  </div>
+  <div class="rl-card rl-card--finance">
+    <div class="rl-card__meta">
+      <span class="rl-card__date">2026-03-05</span>
+      <span class="rl-card__tag rl-card__tag--finance">Finance</span>
+    </div>
+    <h3 class="rl-card__title">
+      <a href="/reading-list/2026-03-05-finance-daily/">财经精选 2026-03-05</a>
+    </h3>
+    <p class="rl-card__summary">FOMC 窗口驱动70%全球长端利率下行 · 数据富集并购反垄断 · 制造房屋贷款市场失灵 · SupTech 道义劝说机制</p>
+    <a class="rl-card__iwiki" href="https://iwiki.woa.com/p/4018503089" target="_blank">📄 iWiki</a>
+  </div>
 <a class="rl-card math" href="/reading-list/2026-03-04-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
