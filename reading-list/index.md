@@ -18,28 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
-  <div class="rl-card rl-card--tech">
-    <div class="rl-card__meta">
-      <span class="rl-card__date">2026-03-05</span>
-      <span class="rl-card__tag rl-card__tag--tech">Tech</span>
+<a class="rl-card tech" href="/reading-list/2026-03-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-05</time>
     </div>
-    <h3 class="rl-card__title">
-      <a href="/reading-list/2026-03-05-tech-daily/">技术速递 2026-03-05</a>
-    </h3>
-    <p class="rl-card__summary">推理加速（Saguaro SSD 2x→5x）· KV Cache 量化 · LLM 激活引导安全 · 贝叶斯推理训练 · Phi-4 多模态经验</p>
-    <a class="rl-card__iwiki" href="https://iwiki.woa.com/p/4018503088" target="_blank">📄 iWiki</a>
-  </div>
-  <div class="rl-card rl-card--finance">
-    <div class="rl-card__meta">
-      <span class="rl-card__date">2026-03-05</span>
-      <span class="rl-card__tag rl-card__tag--finance">Finance</span>
+    <h2>投机解码并行化 / KV Cache量化 / Bayesian推理训练</h2>
+    <p>Saguaro SSD投机解码5x加速；KV Cache量化省显存；LLM贝叶斯推理训练经验</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · HuggingFace · Google · Microsoft</span>
+      <span class="rl-tags">#投机解码 #KVCache #推理加速 #RLHF</span>
     </div>
-    <h3 class="rl-card__title">
-      <a href="/reading-list/2026-03-05-finance-daily/">财经精选 2026-03-05</a>
-    </h3>
-    <p class="rl-card__summary">FOMC 窗口驱动70%全球长端利率下行 · 数据富集并购反垄断 · 制造房屋贷款市场失灵 · SupTech 道义劝说机制</p>
-    <a class="rl-card__iwiki" href="https://iwiki.woa.com/p/4018503089" target="_blank">📄 iWiki</a>
   </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-05</time>
+    </div>
+    <h2>FOMC窗口与长端利率 / 数据并购反垄断 / SupTech监管机制</h2>
+    <p>FOMC驱动70%全球长端利率下行；数据富集并购竞争影响；SupTech道义劝说实证</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS · Fed</span>
+      <span class="rl-tags">#利率 #反垄断 #SupTech #宏观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-04-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
