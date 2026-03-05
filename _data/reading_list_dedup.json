@@ -43,6 +43,14 @@
       "https://www.microsoft.com/en-us/research/blog/paza-introducing-automatic-speech-recognition-benchmarks-and-models-for-low-resource-languages/",
       "https://www.microsoft.com/en-us/research/blog/media-authenticity-methods-in-practice-capabilities-limitations-and-directions/",
       "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/"
+    ],
+    "2026-03-05": [
+      "https://arxiv.org/abs/2603.03251",
+      "https://huggingface.co/blog/kv-cache-quantization",
+      "https://arxiv.org/abs/2603.03206",
+      "https://arxiv.org/abs/2603.02913",
+      "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+      "https://research.google/blog/teaching-llms-to-reason-like-bayesians/"
     ]
   },
   "finance": {
@@ -83,6 +91,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
       "https://www.bis.org/publ/work1248.htm",
       "https://www.bis.org/publ/work1249.htm"
+    ],
+    "2026-03-05": [
+      "https://www.bis.org/publ/work1252.htm",
+      "https://www.bis.org/publ/work1251.htm",
+      "https://www.bis.org/publ/work1255.htm",
+      "https://www.bis.org/publ/work1256.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
     ]
   },
   "updated": "2026-03-04"
