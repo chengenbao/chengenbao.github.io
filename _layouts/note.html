@@ -326,6 +326,27 @@
         .note-layout { padding: 0 0.9rem; }
         .note-body pre { font-size: 0.82rem !important; padding: 0.75rem 0.9rem !important; }
       }
+
+      /* ===== Inline Images ===== */
+      .note-body img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 1.5rem auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+        border: 1px solid #e9ecef;
+      }
+      /* 图片下方的斜体说明文字（kramdown 渲染为 <em> 包裹的 <p>）*/
+      .note-body p > em:only-child {
+        display: block;
+        text-align: center;
+        color: #6c757d;
+        font-size: 0.82rem;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+        font-style: italic;
+      }
     </style>
     <script>
       // Build TOC from headings
