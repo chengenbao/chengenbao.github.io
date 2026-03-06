@@ -7,6 +7,18 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/llm-parallel-training/">
+      <div class="note-icon">⚙️</div>
+      <div class="note-body">
+        <h2>大模型训练并行技术全景：DP / TP / PP / SP / ZeRO</h2>
+        <p>系统梳理五类并行策略：数据并行、张量并行、流水线并行、序列并行与 ZeRO 显存优化。含切分原理、通信分析、3D 并行架构及框架对比。</p>
+        <span class="tag">分布式训练</span>
+        <span class="tag">张量并行</span>
+        <span class="tag">流水线并行</span>
+        <span class="tag">ZeRO</span>
+        <span class="tag">Megatron</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/mla-deepseek/">
       <div class="note-icon">⚡</div>
       <div class="note-body">
