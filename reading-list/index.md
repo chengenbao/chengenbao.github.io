@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-06-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-06</time>
+    </div>
+    <h2>四点共圆与平行线构造（初二） / 柯西-施瓦茨不等式应用（初三）</h2>
+    <p>双圆传角证 EF∥BC；用 Titu 引理求分式和最小值 1/2</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#四点共圆 #圆幂综合 #柯西-施瓦茨 #代数放缩</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-06-tech/">
   <div class="rl-accent"></div>
   <div class="rl-body">
