@@ -18,6 +18,28 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-06-tech/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-06</time>
+    </div>
+    <h2>量化压缩 × 对抗安全 × 推理检索 × MoE 架构</h2>
+    <p>CAT 量化变换 · DMAST 多模态对抗训练 · AgentIR-4B 推理检索 · HuggingFace MoE 深度解析</p>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-06-finance/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-06</time>
+    </div>
+    <h2>关税传导 × 长端利率谜题 × 银行压力测试 × AI 贸易效应</h2>
+    <p>美联储 FEDS Notes 精选 · 关税渐进传导实证 · 稳定币历史镜鉴</p>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-05-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
