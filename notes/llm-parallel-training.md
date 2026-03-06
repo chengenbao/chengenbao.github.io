@@ -244,6 +244,334 @@ ds_config = {
 
 实际工程中，**Megatron-DeepSpeed 3D 并行**（TP+PP+DP+ZeRO-1）是训练 100B+ 模型的主流方案。
 
+
+---
+
+## 附录：参考实现
+
+### A. 数据并行（PyTorch DDP）
+
+```python
+# 标准 DDP 最简实现
+import torch
+import torch.distributed as dist
+import torch.nn as nn
+from torch.nn.parallel import DistributedDataParallel as DDP
+
+def setup(rank, world_size):
+    dist.init_process_group("nccl", rank=rank, world_size=world_size)
+    torch.cuda.set_device(rank)
+
+def cleanup():
+    dist.destroy_process_group()
+
+def train(rank, world_size):
+    setup(rank, world_size)
+
+    model = nn.Transformer(d_model=512, nhead=8).to(rank)
+    # DDP 包装：自动在反向传播后 All-Reduce 梯度
+    ddp_model = DDP(model, device_ids=[rank])
+
+    optimizer = torch.optim.Adam(ddp_model.parameters(), lr=1e-4)
+
+    # DistributedSampler 保证每卡看到不同数据
+    from torch.utils.data.distributed import DistributedSampler
+    sampler = DistributedSampler(dataset, num_replicas=world_size, rank=rank)
+    loader = DataLoader(dataset, batch_size=32, sampler=sampler)
+
+    for batch in loader:
+        loss = ddp_model(batch)
+        loss.backward()   # 自动触发 All-Reduce
+        optimizer.step()
+        optimizer.zero_grad()
+
+    cleanup()
+
+# 启动：torchrun --nproc_per_node=8 train.py
+```
+
+---
+
+### B. 张量并行（列切分 Linear）
+
+```python
+import torch
+import torch.distributed as dist
+import torch.nn as nn
+import torch.nn.functional as F
+
+class ColumnParallelLinear(nn.Module):
+    """
+    将 Linear(in_features, out_features) 按列切分到 tp_world_size 张卡。
+    每卡持有 out_features // tp_world_size 列。
+    
+    前向：本地 matmul（无通信）
+    反向：All-Reduce 输入梯度（1次）
+    """
+    def __init__(self, in_features: int, out_features: int):
+        super().__init__()
+        self.tp_rank = dist.get_rank()
+        self.tp_world = dist.get_world_size()
+        
+        assert out_features % self.tp_world == 0
+        self.local_out = out_features // self.tp_world
+        
+        # 每卡只存一列分片
+        self.weight = nn.Parameter(torch.empty(self.local_out, in_features))
+        self.bias   = nn.Parameter(torch.zeros(self.local_out))
+        nn.init.xavier_uniform_(self.weight)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        # x: [B, T, in_features]，本地计算
+        return F.linear(x, self.weight, self.bias)
+        # 输出: [B, T, local_out]，各卡持有不同列分片
+
+class RowParallelLinear(nn.Module):
+    """
+    将 Linear(in_features, out_features) 按行切分。
+    每卡持有 in_features // tp_world_size 行，
+    前向后需 All-Reduce 聚合各卡的部分和。
+    """
+    def __init__(self, in_features: int, out_features: int):
+        super().__init__()
+        self.tp_rank = dist.get_rank()
+        self.tp_world = dist.get_world_size()
+        
+        assert in_features % self.tp_world == 0
+        self.local_in = in_features // self.tp_world
+        
+        self.weight = nn.Parameter(torch.empty(out_features, self.local_in))
+        # bias 只在 rank 0 上加（避免重复累加）
+        self.bias = nn.Parameter(torch.zeros(out_features)) if self.tp_rank == 0 else None
+        nn.init.xavier_uniform_(self.weight)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        # x: [B, T, local_in]（上游 ColumnParallelLinear 的输出分片）
+        out = F.linear(x, self.weight)  # [B, T, out_features]（部分和）
+        dist.all_reduce(out, op=dist.ReduceOp.SUM)  # 聚合各卡部分和
+        if self.bias is not None:
+            out = out + self.bias
+        return out
+
+# 使用示例（Megatron 风格 MLP）
+class TensorParallelMLP(nn.Module):
+    def __init__(self, hidden: int, ffn: int):
+        super().__init__()
+        self.fc1 = ColumnParallelLinear(hidden, ffn)   # 按列切：无通信
+        self.fc2 = RowParallelLinear(ffn, hidden)       # 按行切：前向后 All-Reduce
+
+    def forward(self, x):
+        return self.fc2(F.gelu(self.fc1(x)))
+```
+
+---
+
+### C. 流水线并行（GPipe 风格 micro-batch）
+
+```python
+import torch
+import torch.distributed as dist
+from typing import List
+
+class PipelineStage(torch.nn.Module):
+    """单个流水线阶段，持有模型的若干层"""
+    def __init__(self, layers: List[torch.nn.Module]):
+        super().__init__()
+        self.layers = torch.nn.ModuleList(layers)
+
+    def forward(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
+def gpipe_forward(stages: List[PipelineStage], micro_batches: List[torch.Tensor],
+                  rank: int, world_size: int):
+    """
+    GPipe 前向：先让所有 micro-batch 流过所有阶段（存激活），再统一反向。
+    bubble ratio = (p-1) / (m + p - 1)，其中 p=阶段数，m=micro-batch数
+    """
+    activations = []
+    
+    for mb in micro_batches:
+        if rank == 0:
+            x = stages[rank](mb)
+        else:
+            # 从上游接收激活
+            shape = torch.zeros(1, dtype=torch.long)
+            dist.recv(shape, src=rank - 1)
+            x = torch.zeros(*shape.tolist())
+            dist.recv(x, src=rank - 1)
+            x = stages[rank](x)
+        
+        if rank < world_size - 1:
+            # 发送激活给下游（先发 shape）
+            shape = torch.tensor(list(x.shape), dtype=torch.long)
+            dist.send(shape, dst=rank + 1)
+            dist.send(x.detach(), dst=rank + 1)
+        
+        activations.append(x)
+    
+    return activations
+
+# 实践推荐：直接用 torch.distributed.pipeline.sync.Pipe
+from torch.distributed.pipeline.sync import Pipe
+
+model = torch.nn.Sequential(
+    torch.nn.Linear(512, 1024),  # stage 0
+    torch.nn.ReLU(),
+    torch.nn.Linear(1024, 512),  # stage 1（自动分配到下一个 rank）
+)
+# 按 chunks 切分 micro-batch，balance 指定每阶段层数
+pipe_model = Pipe(model, chunks=8)  # 8 个 micro-batch，减少 bubble
+```
+
+---
+
+### D. ZeRO-3 最简演示（手动 All-Gather / Reduce-Scatter）
+
+```python
+import torch
+import torch.distributed as dist
+
+def zero3_forward_hook(module, input):
+    """ZeRO-3 前向 hook：在使用前 All-Gather 完整参数"""
+    for param in module.parameters(recurse=False):
+        if hasattr(param, '_z3_shard'):
+            # 从所有 rank 聚合完整参数
+            full_param = torch.zeros(
+                param._z3_full_shape, device=param.device, dtype=param.dtype
+            )
+            dist.all_gather_into_tensor(full_param, param.data)
+            param._full_data = full_param  # 临时存整个参数，计算后丢弃
+
+def zero3_backward_hook(module, grad_input, grad_output):
+    """ZeRO-3 反向 hook：计算后 Reduce-Scatter 梯度，丢弃完整参数"""
+    for param in module.parameters(recurse=False):
+        if hasattr(param, '_z3_shard') and param.grad is not None:
+            # Reduce-Scatter：每个 rank 只保留自己负责的梯度分片
+            grad_shard = torch.zeros_like(param.data)
+            dist.reduce_scatter_tensor(grad_shard, param.grad)
+            param.grad = grad_shard
+            # 丢弃临时聚合的完整参数，释放显存
+            if hasattr(param, '_full_data'):
+                del param._full_data
+
+# 实践：直接用 DeepSpeed ZeRO-3 / PyTorch FSDP
+# FSDP 是 PyTorch 官方的 ZeRO-3 等价实现，更易用
+
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+from torch.distributed.fsdp import MixedPrecision
+import torch
+
+model = MyLargeModel()
+fsdp_model = FSDP(
+    model,
+    mixed_precision=MixedPrecision(
+        param_dtype=torch.bfloat16,
+        reduce_dtype=torch.float32,
+    ),
+    # auto_wrap_policy 按 Transformer 层粒度切分
+    auto_wrap_policy=transformer_auto_wrap_policy,
+)
+```
+
+---
+
+### E. DeepSpeed 完整训练脚本骨架
+
+```python
+import deepspeed
+import torch
+import torch.nn as nn
+
+class MyModel(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layers = nn.ModuleList([
+            nn.TransformerEncoderLayer(d_model=4096, nhead=32, dim_feedforward=16384)
+            for _ in range(32)
+        ])
+
+    def forward(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
+# DeepSpeed 配置（ZeRO-2 + 混合精度）
+ds_config = {
+    "train_batch_size": 256,
+    "train_micro_batch_size_per_gpu": 4,
+    "gradient_accumulation_steps": 8,
+    "fp16": {"enabled": True, "loss_scale": 0, "initial_scale_power": 16},
+    "zero_optimization": {
+        "stage": 2,                        # ZeRO-2：切 grad + optimizer states
+        "allgather_partitions": True,
+        "reduce_scatter": True,
+        "overlap_comm": True,              # 通信与计算 overlap
+        "contiguous_gradients": True,
+    },
+    "optimizer": {
+        "type": "AdamW",
+        "params": {"lr": 1e-4, "betas": [0.9, 0.95], "weight_decay": 0.1}
+    },
+    "scheduler": {
+        "type": "WarmupDecayLR",
+        "params": {"warmup_min_lr": 0, "warmup_max_lr": 1e-4, "warmup_num_steps": 2000}
+    },
+}
+
+model = MyModel()
+model_engine, optimizer, _, scheduler = deepspeed.initialize(
+    model=model,
+    config=ds_config,
+)
+
+for batch in dataloader:
+    inputs, labels = batch
+    outputs = model_engine(inputs)
+    loss = criterion(outputs, labels)
+    
+    model_engine.backward(loss)   # DeepSpeed 接管反向传播
+    model_engine.step()           # 更新参数 + 处理 ZeRO 通信
+
+# 保存检查点（ZeRO-3 需合并分片）
+model_engine.save_checkpoint("./checkpoints")
+
+# ZeRO-3 Zero-to-FP32 转换（推理用）
+# deepspeed --num_gpus 1 zero_to_fp32.py ./checkpoints ./model_fp32.pt
+```
+
+---
+
+### F. 组合配置：Megatron-DeepSpeed 3D 并行
+
+```bash
+# 启动命令示例：128卡，TP=8，PP=4，DP=4，ZeRO-1
+torchrun     --nproc_per_node 8     --nnodes 16     --node_rank ${NODE_RANK}     --master_addr ${MASTER_ADDR}     pretrain_gpt.py     --tensor-model-parallel-size 8     --pipeline-model-parallel-size 4     --num-layers 96     --hidden-size 12288     --num-attention-heads 96     --seq-length 2048     --global-batch-size 1536     --micro-batch-size 3     --train-iters 500000     --lr 1e-4     --min-lr 1e-5     --lr-warmup-iters 2000     --fp16     --use-flash-attn     --recompute-activations  # 激活重计算，以时间换显存
+```
+
+```python
+# Megatron 核心并行组初始化逻辑（简化版）
+def initialize_model_parallel(
+    tensor_model_parallel_size: int = 1,
+    pipeline_model_parallel_size: int = 1,
+):
+    world_size = torch.distributed.get_world_size()
+    data_parallel_size = world_size // (tensor_model_parallel_size * pipeline_model_parallel_size)
+
+    # TP 组：同机 NVLink 内，连续 rank
+    # 例：world=8, TP=4 → 组 [0,1,2,3], [4,5,6,7]
+    for i in range(pipeline_model_parallel_size * data_parallel_size):
+        ranks = range(i * tensor_model_parallel_size, (i+1) * tensor_model_parallel_size)
+        group = torch.distributed.new_group(ranks)
+
+    # PP 组：步长 TP 的等差序列
+    # 例：world=8, TP=2, PP=2 → 组 [0,2], [1,3], [4,6], [5,7]
+    for i in range(tensor_model_parallel_size * data_parallel_size):
+        ranks = range(i, world_size, tensor_model_parallel_size)
+        group = torch.distributed.new_group(ranks)
+```
+
 ---
 
 ## 参考资料
