@@ -5,7 +5,7 @@ date: 2026-03-07
 categories: [散文, 创作]
 ---
 
-![村口老皂角树](/assets/posts/bainianhangcun/tree.svg)
+![村口老皂角树](/assets/posts/bainianhangcun/tree.png)
 
 我回到陈家洼，是在祖父死后第七年。
 
