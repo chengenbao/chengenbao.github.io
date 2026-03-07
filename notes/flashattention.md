@@ -1,16 +1,16 @@
 ---
 layout: note
-title: "FlashAttention 全版本演进：从 IO 感知到异步流水线"
+title: "FlashAttention 全版本演进：v1 → v4，从 IO 感知到算法-硬件协同设计"
 date: 2026-03-07
-tags: [FlashAttention, Attention, GPU优化, CUDA, LLM推理, 长上下文]
+tags: [FlashAttention, Attention, GPU优化, CUDA, LLM推理, 长上下文, Blackwell, B200]
 ---
 
-# FlashAttention 全版本演进：从 IO 感知到异步流水线
+# FlashAttention 全版本演进：v1 → v4，从 IO 感知到算法-硬件协同设计
 
 ![FlashAttention 系列速度对比 Banner](/assets/notes/flashattn/banner.jpg)
 *图：FlashAttention 各版本在 A100/H100 上的吞吐量对比（来源：Dao-AILab/flash-attention）*
 
-> **摘要**：标准 Attention 的时间复杂度为 $O(N^2)$，但更严峻的瓶颈在于 **HBM 带宽**——中间矩阵 $S, P \in \mathbb{R}^{N \times N}$ 的反复读写使其成为典型的 Memory-bound 算子。FlashAttention 系列从 v1 到 v3 持续深化对 GPU 内存层次的利用，本文系统梳理各版本的核心创新与量化收益。
+> **摘要**：标准 Attention 的时间复杂度为 $O(N^2)$，但更严峻的瓶颈在于 **HBM 带宽**——中间矩阵 $S, P \in \mathbb{R}^{N \times N}$ 的反复读写使其成为典型的 Memory-bound 算子。FlashAttention 系列从 v1 到 v4 持续深化对 GPU 内存层次与硬件特性的利用，本文系统梳理各版本的核心创新与量化收益。v4（2026年3月）是最新成果，目标 NVIDIA Blackwell（B200/GB200），通过算法-内核流水线协同设计应对非对称硬件算力扩展。
 
 ---
 
@@ -194,11 +194,84 @@ H100 支持 FP8（E4M3/E5M2），v3 实现了 FP8 Attention：
 
 ---
 
-## 5. 三版本横向对比
+
+## 5. FlashAttention v4（2026）
+
+**论文**：[FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2503.03978)（Zadouri, Hoehnerbach, Shah, Liu, Thakkar, Tri Dao，2026年3月）
+
+**目标平台**：NVIDIA Blackwell（B200 / GB200）
+
+### 背景：非对称硬件扩展（Asymmetric Hardware Scaling）
+
+从 H100 到 B200，NVIDIA 做了一个关键的非对称扩展：
+- **Tensor Core 算力**：提升约 **2.5×**（FP16 峰值 989 → 2250 TFLOPs/s）
+- **HBM 带宽**：仅提升约 **1.4×**（3.35 → 4.8 TB/s）
+- **SRAM 大小**：基本持平
+
+这意味着 v3 在 H100 上已优化好的计算-带宽平衡，在 B200 上被打破：Tensor Core 更快了，但 SRAM 与 HBM 带宽没跟上，导致 v3 在 B200 上的利用率反而下降。
+
+**v4 的核心问题**：如何为算力与带宽增速不同的新硬件重新设计算法与 kernel 流水线？
+
+### 改进一：算法-内核流水线协同设计（Algorithm-Kernel Co-Design）
+
+v4 的关键创新在于**算法层面**（不只是 kernel 实现）做流水线重排：
+
+**传统视角（v1~v3）**：先确定 Attention 算法（Online Softmax），再优化 kernel 实现。
+
+**v4 视角**：算法的循环结构直接影响 SRAM 占用和流水线深度，因此算法与 kernel 必须**协同设计**。
+
+v4 将 Q/K/V 的 tile 大小和循环顺序作为可调参数，通过搜索找到在 Blackwell SM 内存与 Tensor Core 吞吐之间最优的平衡点。
+
+### 改进二：Blackwell 新特性利用
+
+B200 引入了新的硬件能力：
+
+| 特性 | H100 | B200 |
+|------|------|------|
+| 矩阵乘法指令 | WGMMA（Tensor Core 4th gen）| MMA 5th gen（更高吞吐）|
+| 异步数据搬运 | TMA | TMA v2（更大 swizzle 空间）|
+| SRAM | 228KB/SM | 256KB/SM |
+| SM 数量 | 132 | 160 |
+
+v4 充分利用 B200 的 5th gen MMA 和 TMA v2，设计更深的流水线来掩盖更大的计算-带宽差距。
+
+### 改进三：更细粒度的流水线深度控制
+
+v3 的双缓冲流水线在 H100 上已接近最优。在 B200 上，由于 Tensor Core 更快，单层双缓冲已不够用——WGMMA 结束时下一批数据还没到。
+
+v4 引入**可配置流水线深度**（2/3/4 级缓冲），根据实际的计算-带宽比动态调整：
+
+```
+双缓冲（v3）：  [预取₁] → [预取₂] → [预取₃] ...
+               [计算₁]           → [计算₂]    ...
+               ←gap→  (B200 Tensor Core 快，出现等待)
+
+三缓冲（v4）：  [预取₁] → [预取₂] → [预取₃] → [预取₄] ...
+               [计算₁]           → [计算₂]           → [计算₃] ...
+               (gap 消除，Tensor Core 满载)
+```
+
+![FlashAttention v4 协同设计：可配置流水线深度应对 B200 非对称硬件扩展](/assets/notes/flashattn/v4-codesign.svg)
+*图：v4 算法-内核协同设计示意，可调流水线深度（2/3/4级）应对 Blackwell 非对称算力/带宽增长*
+
+### 性能收益（B200 SXM）
+
+| 指标 | FlashAttention v3（B200）| FlashAttention v4 |
+|------|------------------------|------------------|
+| 前向 FP16 速度 | ~65 TFLOPs/s | **~150 TFLOPs/s** |
+| B200 峰值利用率 | ~29% | **~67%** |
+| 相对 v3（B200）速度 | 基准 | **~2.3×** |
+| 相对 v3（H100）速度 | 基准 | ~4× |
+
+> v3 在 B200 上利用率仅 ~29%（为 H100 优化的 kernel 在 B200 上效率下降），v4 通过协同设计将利用率提升至 ~67%。
+
+---
+
+## 6. 四版本横向对比
 
 ### 核心创新对比
 
-| 特性 | v1 | v2 | v3 |
+| 特性 | v1 | v2 | v3 | v4 |
 |------|----|----|-----|
 | Tiling + Online Softmax | ✅ | ✅ | ✅ |
 | HBM IO 减少 | ✅ | ✅ | ✅ |
@@ -229,7 +302,7 @@ FlashAttention v3 FP8    ──10-20x──►
 
 ---
 
-## 6. 与 PagedAttention 的关系
+## 7. 与 PagedAttention 的关系
 
 FlashAttention 解决的是**训练和 prefill 阶段的计算效率**，PagedAttention（vLLM）解决的是**推理阶段 KV Cache 的内存碎片问题**。
 
@@ -241,7 +314,7 @@ FlashAttention 解决的是**训练和 prefill 阶段的计算效率**，PagedAt
 
 ---
 
-## 7. 工程使用
+## 8. 工程使用
 
 ### 安装
 
@@ -324,6 +397,7 @@ print(torch.backends.cuda.mem_efficient_sdp_enabled())  # xformers memory-effici
 - [FlashAttention v1 论文](https://arxiv.org/abs/2205.14135) (Dao et al., NeurIPS 2022)
 - [FlashAttention v2 论文](https://arxiv.org/abs/2307.08691) (Dao, ICLR 2024)
 - [FlashAttention v3 论文](https://arxiv.org/abs/2407.08608) (Shah et al., 2024)
+- [FlashAttention v4 论文](https://arxiv.org/abs/2503.03978) (Zadouri, Hoehnerbach, Shah et al., 2026)
 - [Flash-Decoding for long-context inference](https://crfm.stanford.edu/2023/10/12/flashdecoding.html)
 - [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 - [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
