@@ -18,6 +18,26 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<div class="rl-card rl-tech">
+  <div class="rl-card-date">2026-03-07</div>
+  <div class="rl-card-title">📰 技术速递</div>
+  <div class="rl-card-desc">LLM 高效训练 · KV Cache 优化 · 几何感知量化 · 动态并行服务<br>POET-X / GAQ / FLYING SERVING / InfoFlow KV</div>
+  <div class="rl-card-links">
+    <a href="/reading-list/2026-03-07-tech-daily/">GitHub Pages</a> ·
+    <a href="https://iwiki.woa.com/p/4018546300">iWiki</a>
+  </div>
+</div>
+
+<div class="rl-card rl-finance">
+  <div class="rl-card-date">2026-03-07</div>
+  <div class="rl-card-title">💰 财经精选</div>
+  <div class="rl-card-desc">货币-宏审政策协调 · 家庭债务数据质量 · 支付架构形式化 · 气候物理风险供应链传导<br>BIS WP 1257-1260</div>
+  <div class="rl-card-links">
+    <a href="/reading-list/2026-03-07-finance-daily/">GitHub Pages</a> ·
+    <a href="https://iwiki.woa.com/p/4018546301">iWiki</a>
+  </div>
+</div>
+
 <a class="rl-card math" href="/reading-list/2026-03-06-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
