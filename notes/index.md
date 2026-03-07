@@ -7,6 +7,18 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/flashattention/">
+      <div class="note-icon">⚡</div>
+      <div class="note-body">
+        <h2>FlashAttention 全版本演进：从 IO 感知到异步流水线</h2>
+        <p>系统梳理 FlashAttention v1/v2/v3 的核心创新：Tiling+Online Softmax、序列维度并行化、H100 异步流水线与 FP8 支持，含原理图、性能对比与完整代码示例。</p>
+        <span class="tag">FlashAttention</span>
+        <span class="tag">GPU优化</span>
+        <span class="tag">CUDA</span>
+        <span class="tag">长上下文</span>
+        <span class="tag">H100</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/llm-parallel-training/">
       <div class="note-icon">⚙️</div>
       <div class="note-body">
