@@ -28,3 +28,6 @@ defaults:
       type: reading_list
     values:
       layout: default
+
+plugins:
+  - jekyll-paginate
