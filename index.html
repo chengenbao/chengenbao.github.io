@@ -2,18 +2,35 @@
 layout: default
 title: Blog
 ---
-<div class="home">
-  <div class="posts-list">
+<div class="blog-home">
+  <div class="blog-hero">
+    <h1>Blog <span class="accent">·</span> 随笔</h1>
+    <p>技术思考、文学创作与日常记录</p>
+  </div>
+
+  <div class="blog-list">
     {% for post in paginator.posts %}
-    <article class="post-item">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
-        {% if post.categories %}
-          {% for cat in post.categories %}<span class="tag">{{ cat }}</span>{% endfor %}
+    <article class="blog-card">
+      <a class="blog-card-inner" href="{{ post.url }}">
+        {% if post.thumbnail %}
+        <div class="blog-card-thumb">
+          <img src="{{ post.thumbnail }}" alt="{{ post.title }}" loading="lazy">
+        </div>
         {% endif %}
-      </div>
-      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <time>{{ post.date | date: "%Y年%m月%d日" }}</time>
+            {% if post.categories %}
+              {% for cat in post.categories %}
+                <span class="blog-tag">{{ cat }}</span>
+              {% endfor %}
+            {% endif %}
+          </div>
+          <h2 class="blog-card-title">{{ post.title }}</h2>
+          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+          <span class="blog-card-more">阅读全文 →</span>
+        </div>
+      </a>
     </article>
     {% endfor %}
   </div>
@@ -21,11 +38,11 @@ title: Blog
   {% if paginator.total_pages > 1 %}
   <nav class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="btn">&larr; Newer</a>
+      <a href="{{ paginator.previous_page_path }}" class="btn">&larr; 较新</a>
     {% endif %}
     <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="btn">Older &rarr;</a>
+      <a href="{{ paginator.next_page_path }}" class="btn">较旧 &rarr;</a>
     {% endif %}
   </nav>
   {% endif %}
