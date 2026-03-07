@@ -53,7 +53,7 @@ thumbnail: /assets/posts/bainianhangcun/tree-thumb.jpg
 
 ---
 
-![灵堂白幡·积善之家](/assets/posts/bainianhangcun/lingtang.png)
+![灵堂白幡·积善之家](/assets/posts/bainianhangcun/lingtang.jpg)
 
 我离开陈家洼很多年，原以为自己已经脱了这层皮。及至祖父死，回村奔丧，才知道有些东西像潮气，早已从砖缝里钻进你的骨头。灵堂搭在堂屋，白幡垂着，风一吹，便擦过那块"积善之家"的匾。祖父躺在棺里，脸色黄得像一张陈年账纸，皱纹密密麻麻，仿佛这一生的利息都长在了脸上。村里来吊丧的人很多，哭的少，看热闹的多。他们喝着白水，嗑着瓜子，像看一出排好了座次的旧戏。
 
