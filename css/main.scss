@@ -419,10 +419,15 @@ body {
   min-height: 130px;
 }
 
+.blog-card {
+  max-height: 120px;
+}
+
 .blog-card-thumb {
-  flex: 0 0 200px;
-  width: 200px;
-  height: 150px;
+  flex: 0 0 160px;
+  width: 160px;
+  min-height: 120px;
+  max-height: 120px;
   overflow: hidden;
   background: #f1f5f9;
   position: relative;
@@ -431,7 +436,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   display: block;
   margin: 0;
   border-radius: 0;
@@ -488,7 +493,7 @@ body {
   line-height: 1.65;
   margin: 0;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
