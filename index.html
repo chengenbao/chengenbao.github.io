@@ -9,7 +9,7 @@ title: Blog
   </div>
 
   <div class="blog-list">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
     <article class="blog-card">
       <a class="blog-card-inner" href="{{ post.url }}">
         {% if post.thumbnail %}
@@ -34,16 +34,4 @@ title: Blog
     </article>
     {% endfor %}
   </div>
-
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="btn">&larr; 较新</a>
-    {% endif %}
-    <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="btn">较旧 &rarr;</a>
-    {% endif %}
-  </nav>
-  {% endif %}
 </div>
