@@ -18,25 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
-<div class="rl-card rl-tech">
-  <div class="rl-card-date">2026-03-07</div>
-  <div class="rl-card-title">📰 技术速递</div>
-  <div class="rl-card-desc">LLM 高效训练 · KV Cache 优化 · 几何感知量化 · 动态并行服务<br>POET-X / GAQ / FLYING SERVING / InfoFlow KV</div>
-  <div class="rl-card-links">
-    <a href="/reading-list/2026-03-07-tech-daily/">GitHub Pages</a> ·
-    <a href="https://iwiki.woa.com/p/4018546300">iWiki</a>
+<a class="rl-card tech" href="/reading-list/2026-03-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-07</time>
+    </div>
+    <h2>LLM高效训练 / KV Cache优化 / 几何感知量化 / 动态并行服务</h2>
+    <p>POET-X正交等价训练框架；GAQ W4A8量化2.39x加速；FLYING SERVING动态DP/TP切换；InfoFlow KV长上下文优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG/cs.CL</span>
+      <span class="rl-tags">#量化 #KVCache #推理加速 #分布式训练</span>
+    </div>
   </div>
-</div>
-
-<div class="rl-card rl-finance">
-  <div class="rl-card-date">2026-03-07</div>
-  <div class="rl-card-title">💰 财经精选</div>
-  <div class="rl-card-desc">货币-宏审政策协调 · 家庭债务数据质量 · 支付架构形式化 · 气候物理风险供应链传导<br>BIS WP 1257-1260</div>
-  <div class="rl-card-links">
-    <a href="/reading-list/2026-03-07-finance-daily/">GitHub Pages</a> ·
-    <a href="https://iwiki.woa.com/p/4018546301">iWiki</a>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-07</time>
+    </div>
+    <h2>双紧缩信贷收缩 / 家庭债务数据质量 / 支付系统形式化 / 气候供应链风险</h2>
+    <p>欧元区双紧缩致信贷额外收缩1.3-1.8pp；BIS统一支付架构形式化模型；气候干旱拖低GDP约1pp</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS Working Papers 1257-1260</span>
+      <span class="rl-tags">#货币政策 #支付系统 #气候风险 #宏观</span>
+    </div>
   </div>
-</div>
+</a>
 
 <a class="rl-card math" href="/reading-list/2026-03-06-math/">
   <div class="rl-accent"></div>
