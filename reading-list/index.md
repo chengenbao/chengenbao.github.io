@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-07-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-07</time>
+    </div>
+    <h2>蝴蝶定理（初二） / 特征根法求递推数列通项（初三）</h2>
+    <p>蝴蝶定理的射影对合证明 + 常系数线性递推特征根法与不等式综合</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#蝴蝶定理 #特征根法</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
