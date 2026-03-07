@@ -21,6 +21,21 @@ layout: default
     {{ content }}
   </div>
 
+  <script>
+    // Mark images as loaded for fade-in transition
+    document.querySelectorAll('.post-content img').forEach(function(img) {
+      if (img.complete) {
+        img.classList.add('loaded');
+      } else {
+        img.addEventListener('load', function() { img.classList.add('loaded'); });
+      }
+      // Enable native lazy loading
+      if (!img.hasAttribute('loading')) {
+        img.setAttribute('loading', 'lazy');
+      }
+    });
+  </script>
+
   <div class="post-nav">
     {% if page.previous %}
       <a class="prev" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>

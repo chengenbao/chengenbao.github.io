@@ -3,10 +3,10 @@ layout: post
 title: "百年荒村"
 date: 2026-03-07
 categories: [散文, 创作]
-thumbnail: /assets/posts/bainianhangcun/tree.png
+thumbnail: /assets/posts/bainianhangcun/tree-thumb.jpg
 ---
 
-![村口老皂角树](/assets/posts/bainianhangcun/tree.png)
+![村口老皂角树](/assets/posts/bainianhangcun/tree.jpg)
 
 我回到陈家洼，是在祖父死后第七年。
 
@@ -67,7 +67,7 @@ thumbnail: /assets/posts/bainianhangcun/tree.png
 
 ---
 
-![东墙·月光·未生的子孙](/assets/posts/bainianhangcun/ghost.png)
+![东墙·月光·未生的子孙](/assets/posts/bainianhangcun/ghost.jpg)
 
 天快亮时，东方发了一线白。我忽然看见东墙根下，密密麻麻站着一排孩子，男的女的，高的矮的，都瘦，脸白，眼大，穿着不合身的旧衣裳，一声不响地望着我。我手里的灯一抖，火苗缩成一点。再定睛看时，那地方只有墙皮剥落，露出一片潮黑。
 
