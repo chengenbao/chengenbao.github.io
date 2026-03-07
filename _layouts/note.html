@@ -13,7 +13,7 @@
           <h1 class="note-title">{{ page.title }}</h1>
 
           <!-- AdSense: 笔记顶部广告 -->
-          <div style="margin:24px 0;text-align:center;overflow:hidden;min-height:50px">
+          <div class="ad-container">
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-6403387008742839"
@@ -26,7 +26,7 @@
           {{ content }}
 
           <!-- AdSense: 笔记底部广告 -->
-          <div style="margin:24px 0;text-align:center;overflow:hidden;min-height:50px">
+          <div class="ad-container">
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-6403387008742839"
@@ -449,6 +449,20 @@
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6403387008742839" crossorigin="anonymous"></script>
+  <script>
+    // Hide ad containers when AdSense fails to load or fill
+    setTimeout(function() {
+      document.querySelectorAll('.ad-container').forEach(function(el) {
+        var ins = el.querySelector('ins.adsbygoogle');
+        if (!ins || ins.getAttribute('data-ad-status') === 'unfilled' ||
+            ins.innerHTML.trim() === '' || ins.offsetHeight === 0) {
+          el.style.display = 'none';
+        } else {
+          el.style.margin = '24px 0';
+        }
+      });
+    }, 3000);
+  </script>
   </body>
 </html>
 
