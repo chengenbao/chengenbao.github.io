@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+<rect width="420" height="360" fill="white"/>
+<circle cx="205" cy="185" r="140" fill="none" stroke="#3366aa" stroke-width="2.2"/>
+<line x1="73.4" y1="137.1" x2="336.6" y2="137.1" stroke="#3366aa" stroke-width="2.2" />
+<line x1="124.7" y1="299.7" x2="247.3" y2="51.5" stroke="#22884d" stroke-width="2" />
+<line x1="241.2" y1="320.2" x2="187.0" y2="46.2" stroke="#cc5500" stroke-width="2" />
+<line x1="124.7" y1="299.7" x2="241.2" y2="320.2" stroke="#7722aa" stroke-width="1.5" stroke-dasharray="5 3"/>
+<line x1="247.3" y1="51.5" x2="187.0" y2="46.2" stroke="#aa2222" stroke-width="1.5" stroke-dasharray="5 3"/>
+<line x1="199.0" y1="137.1" x2="211.0" y2="137.1" stroke="#e44" stroke-width="2"/>
+<circle cx="73.4" cy="137.1" r="4" fill="#3366aa"/>
+<circle cx="336.6" cy="137.1" r="4" fill="#3366aa"/>
+<circle cx="124.7" cy="299.7" r="4" fill="#22884d"/>
+<circle cx="247.3" cy="51.5" r="4" fill="#22884d"/>
+<circle cx="241.2" cy="320.2" r="4" fill="#cc5500"/>
+<circle cx="187.0" cy="46.2" r="4" fill="#cc5500"/>
+<circle cx="205.0" cy="137.1" r="5" fill="#e44"/>
+<text x="51.4" y="141.1" font-size="14" font-family="serif" fill="#222" font-style="italic">A</text>
+<text x="346.6" y="141.1" font-size="14" font-family="serif" fill="#222" font-style="italic">B</text>
+<text x="104.7" y="303.7" font-size="14" font-family="serif" fill="#222" font-style="italic">C</text>
+<text x="255.3" y="45.5" font-size="14" font-family="serif" fill="#222" font-style="italic">D</text>
+<text x="245.2" y="334.2" font-size="14" font-family="serif" fill="#222" font-style="italic">E</text>
+<text x="195.0" y="40.2" font-size="14" font-family="serif" fill="#222" font-style="italic">F</text>
+<text x="213.0" y="129.1" font-size="14" font-family="serif" fill="#e44" font-style="italic">M</text>
+<text x="210" y="22" font-size="13" font-family="sans-serif" fill="#444" text-anchor="middle">蝴蝶定理示意图</text>
+<text x="210" y="346" font-size="11" font-family="sans-serif" fill="#666" text-anchor="middle">M 为弦 AB 中点，弦 CD、EF 均过 M</text>
+</svg>
