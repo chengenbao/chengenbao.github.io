@@ -1,0 +1,58 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8cfc0"/>
+      <stop offset="100%" stop-color="#b8ae9a"/>
+    </linearGradient>
+    <linearGradient id="floorgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b7355"/>
+      <stop offset="100%" stop-color="#6b5335"/>
+    </linearGradient>
+  </defs>
+  <!-- 墙 -->
+  <rect width="800" height="350" fill="url(#wallgrad)"/>
+  <!-- 地面 -->
+  <rect x="0" y="350" width="800" height="100" fill="url(#floorgrad)"/>
+  <!-- 门框 -->
+  <rect x="120" y="60" width="6" height="290" fill="#2c1f0e"/>
+  <rect x="674" y="60" width="6" height="290" fill="#2c1f0e"/>
+  <rect x="120" y="60" width="560" height="8" fill="#2c1f0e"/>
+  <!-- 匾额 -->
+  <rect x="270" y="70" width="260" height="55" fill="#8b6914" rx="3"/>
+  <rect x="275" y="75" width="250" height="45" fill="#a07820" rx="2"/>
+  <text x="400" y="106" text-anchor="middle" font-family="'STKaiti','KaiTi',serif" font-size="26" fill="#f5e8b0" letter-spacing="8">積善之家</text>
+  <!-- 白幡 -->
+  <g opacity="0.92">
+    <!-- 左白幡 -->
+    <rect x="165" y="65" width="4" height="260" fill="#888"/>
+    <rect x="169" y="70" width="55" height="200" fill="white" stroke="#ccc" stroke-width="0.5"/>
+    <text x="196" y="120" text-anchor="middle" font-family="'STKaiti','KaiTi',serif" font-size="14" fill="#333" letter-spacing="4" writing-mode="tb">奠</text>
+    <!-- 右白幡 -->
+    <rect x="631" y="65" width="4" height="260" fill="#888"/>
+    <rect x="576" y="70" width="55" height="200" fill="white" stroke="#ccc" stroke-width="0.5"/>
+    <text x="604" y="120" text-anchor="middle" font-family="'STKaiti','KaiTi',serif" font-size="14" fill="#333" letter-spacing="4" writing-mode="tb">奠</text>
+    <!-- 中间长幡 -->
+    <rect x="396" y="65" width="4" height="270" fill="#888"/>
+    <rect x="350" y="70" width="96" height="240" fill="white" stroke="#ddd" stroke-width="0.5"/>
+    <text x="398" y="130" text-anchor="middle" font-family="'STKaiti','KaiTi',serif" font-size="13" fill="#222" letter-spacing="6" writing-mode="tb">陳公諱○○之靈位</text>
+  </g>
+  <!-- 蜡烛 -->
+  <rect x="310" y="315" width="12" height="40" fill="#f5f0e0" rx="2"/>
+  <ellipse cx="316" cy="312" rx="5" ry="8" fill="#f5a623" opacity="0.8"/>
+  <rect x="478" y="315" width="12" height="40" fill="#f5f0e0" rx="2"/>
+  <ellipse cx="484" cy="312" rx="5" ry="8" fill="#f5a623" opacity="0.8"/>
+  <!-- 香炉 -->
+  <ellipse cx="400" cy="325" rx="35" ry="12" fill="#8b6914"/>
+  <rect x="375" y="310" width="50" height="18" fill="#8b6914" rx="3"/>
+  <ellipse cx="400" cy="310" rx="25" ry="7" fill="#7a5c10"/>
+  <!-- 香烟 -->
+  <path d="M390 308 Q388 295 391 280 Q393 265 390 252" stroke="#ccc" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M400 308 Q402 293 399 278 Q397 263 401 248" stroke="#ccc" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M410 308 Q412 294 409 279 Q407 264 411 250" stroke="#ccc" stroke-width="1" fill="none" opacity="0.6"/>
+  <!-- 棺材（简略） -->
+  <path d="M180 355 L200 320 L600 320 L620 355 Z" fill="#2c1f0e" stroke="#1a1008" stroke-width="1"/>
+  <path d="M180 355 L620 355 L620 410 L180 410 Z" fill="#3d2a18" stroke="#1a1008" stroke-width="1"/>
+  <!-- 纸钱灰 -->
+  <ellipse cx="250" cy="355" rx="30" ry="5" fill="#888" opacity="0.4"/>
+  <ellipse cx="550" cy="355" rx="25" ry="4" fill="#888" opacity="0.4"/>
+</svg>
