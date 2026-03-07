@@ -4,7 +4,7 @@ title: Blog
 ---
 <div class="blog-home">
   <div class="blog-hero">
-    <h1>Blog <span class="accent">·</span> 随笔</h1>
+    <h1>Blog <span class="accent">&#183;</span> 随笔</h1>
     <p>技术思考、文学创作与日常记录</p>
   </div>
 
@@ -27,7 +27,7 @@ title: Blog
             {% endif %}
           </div>
           <h2 class="blog-card-title">{{ post.title }}</h2>
-          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
+          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 80 }}</p>
           <span class="blog-card-more">阅读全文 →</span>
         </div>
       </a>
