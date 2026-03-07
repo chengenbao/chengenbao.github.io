@@ -7,6 +7,9 @@ tags: [FlashAttention, Attention, GPU优化, CUDA, LLM推理, 长上下文]
 
 # FlashAttention 全版本演进：从 IO 感知到异步流水线
 
+![FlashAttention 系列速度对比 Banner](/assets/notes/flashattn/banner.jpg)
+*图：FlashAttention 各版本在 A100/H100 上的吞吐量对比（来源：Dao-AILab/flash-attention）*
+
 > **摘要**：标准 Attention 的时间复杂度为 $O(N^2)$，但更严峻的瓶颈在于 **HBM 带宽**——中间矩阵 $S, P \in \mathbb{R}^{N \times N}$ 的反复读写使其成为典型的 Memory-bound 算子。FlashAttention 系列从 v1 到 v3 持续深化对 GPU 内存层次的利用，本文系统梳理各版本的核心创新与量化收益。
 
 ---
