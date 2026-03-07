@@ -3,6 +3,7 @@ layout: post
 title: "百年荒村"
 date: 2026-03-07
 categories: [散文, 创作]
+thumbnail: /assets/posts/bainianhangcun/tree.png
 ---
 
 ![村口老皂角树](/assets/posts/bainianhangcun/tree.png)
