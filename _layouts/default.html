@@ -9,19 +9,5 @@
       </div>
     </main>
     {% include footer.html %}
-    <script>
-      // Hide ad containers when AdSense fails to load or fill
-      setTimeout(function() {
-        document.querySelectorAll('.ad-container').forEach(function(el) {
-          var ins = el.querySelector('ins.adsbygoogle');
-          if (!ins || ins.getAttribute('data-ad-status') === 'unfilled' ||
-              ins.innerHTML.trim() === '' || ins.offsetHeight === 0) {
-            el.style.display = 'none';
-          } else {
-            el.style.margin = '24px 0';
-          }
-        });
-      }, 3000);
-    </script>
   </body>
 </html>
