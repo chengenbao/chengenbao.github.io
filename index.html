@@ -27,7 +27,7 @@ title: Blog
             {% endif %}
           </div>
           <h2 class="blog-card-title">{{ post.title }}</h2>
-          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
           <span class="blog-card-more">阅读全文 →</span>
         </div>
       </a>
