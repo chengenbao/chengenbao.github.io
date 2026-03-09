@@ -18,36 +18,6 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
-<a class="rl-card tech" href="/reading-list/2026-03-08-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-03-08</time>
-    </div>
-    <h2>内存分层重组 / Token Pools / 内核ML / vmcacheⁿ / 机密计算Mica</h2>
-    <p>OBASE地址空间重组提升热页利用率2-4×；Token Pools多租户推理容量控制；ML库引入Linux内核；vmcacheⁿ分层缓冲池4×TPC-C吞吐；Arm CCA机密计算工作流</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv cs.OS/cs.LG/cs.DC</span>
-      <span class="rl-tags">#内存系统 #LLM推理 #Linux内核 #机密计算</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card finance" href="/reading-list/2026-03-08-finance-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge finance">💰 财经精选</span>
-      <time>2026-03-08</time>
-    </div>
-    <h2>加密跨境流动 / 汇率NICER估值 / 私人信贷担保化 / 关税价格传导</h2>
-    <p>BIS：184国加密流动引力框架，资管限制失效；NICER汇率指数揭示估值效应；私人信贷担保化趋势与实物抵押品渠道；关税渐进式推高零售价格</p>
-    <div class="rl-meta">
-      <span class="rl-source">BIS Working Papers 1265-1267 · Fed FEDS Notes</span>
-      <span class="rl-tags">#加密资产 #汇率 #私人信贷 #关税通胀</span>
-    </div>
-  </div>
-</a>
 <a class="rl-card tech" href="/reading-list/2026-03-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -78,18 +48,33 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card math" href="/reading-list/2026-03-07-math/">
+<a class="rl-card tech" href="/reading-list/2026-03-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
-      <span class="rl-badge math">🧮 奥数题</span>
-      <time>2026-03-07</time>
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-08</time>
     </div>
-    <h2>蝴蝶定理（初二） / 特征根法求递推数列通项（初三）</h2>
-    <p>蝴蝶定理的射影对合证明 + 常系数线性递推特征根法与不等式综合</p>
+    <h2>内存分层重组 / Token Pools / 内核ML / vmcacheⁿ / 机密计算Mica</h2>
+    <p>OBASE地址空间重组提升热页利用率2-4×；Token Pools多租户推理容量控制；ML库引入Linux内核；vmcacheⁿ分层缓冲池4×TPC-C吞吐；Arm CCA机密计算工作流</p>
     <div class="rl-meta">
-      <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#蝴蝶定理 #特征根法</span>
+      <span class="rl-source">arXiv cs.OS/cs.LG/cs.DC</span>
+      <span class="rl-tags">#内存系统 #LLM推理 #Linux内核 #机密计算</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-08</time>
+    </div>
+    <h2>加密跨境流动 / 汇率NICER估值 / 私人信贷担保化 / 关税价格传导</h2>
+    <p>BIS：184国加密流动引力框架，资管限制失效；NICER汇率指数揭示估值效应；私人信贷担保化趋势与实物抵押品渠道；关税渐进式推高零售价格</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS Working Papers 1265-1267 · Fed FEDS Notes</span>
+      <span class="rl-tags">#加密资产 #汇率 #私人信贷 #关税通胀</span>
     </div>
   </div>
 </a>
@@ -123,19 +108,18 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
-<a class="rl-card math" href="/reading-list/2026-03-06-math/">
+<a class="rl-card math" href="/reading-list/2026-03-07-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
       <span class="rl-badge math">🧮 奥数题</span>
-      <time>2026-03-06</time>
+      <time>2026-03-07</time>
     </div>
-    <h2>四点共圆与平行线构造（初二） / 柯西-施瓦茨不等式应用（初三）</h2>
-    <p>双圆传角证 EF∥BC；用 Titu 引理求分式和最小值 1/2</p>
+    <h2>蝴蝶定理（初二） / 特征根法求递推数列通项（初三）</h2>
+    <p>蝴蝶定理的射影对合证明 + 常系数线性递推特征根法与不等式综合</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#四点共圆 #圆幂综合 #柯西-施瓦茨 #代数放缩</span>
+      <span class="rl-tags">#蝴蝶定理 #特征根法</span>
     </div>
   </div>
 </a>
@@ -161,18 +145,18 @@ permalink: /reading-list/
     <p>美联储 FEDS Notes 精选 · 关税渐进传导实证 · 稳定币历史镜鉴</p>
   </div>
 </a>
-<a class="rl-card math" href="/reading-list/2026-03-05-math/">
+<a class="rl-card math" href="/reading-list/2026-03-06-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
       <span class="rl-badge math">🧮 奥数题</span>
-      <time>2026-03-05</time>
+      <time>2026-03-06</time>
     </div>
-    <h2>错位排列计数（五年级） / 格点多边形面积（初一）</h2>
-    <p>错位排列的容斥推导与递推公式；Pick 定理将格点计数化为面积计算</p>
+    <h2>四点共圆与平行线构造（初二） / 柯西-施瓦茨不等式应用（初三）</h2>
+    <p>双圆传角证 EF∥BC；用 Titu 引理求分式和最小值 1/2</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#错位排列 #Pick定理</span>
+      <span class="rl-tags">#四点共圆 #圆幂综合 #柯西-施瓦茨 #代数放缩</span>
     </div>
   </div>
 </a>
@@ -206,18 +190,18 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card math" href="/reading-list/2026-03-04-math/">
+<a class="rl-card math" href="/reading-list/2026-03-05-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
       <span class="rl-badge math">🧮 奥数题</span>
-      <time>2026-03-04</time>
+      <time>2026-03-05</time>
     </div>
-    <h2>等积变换与面积割补（四年级） / 容斥原理多集合（六年级）</h2>
-    <p>平行四边形中面积之比的等积变换，以及三科成绩的容斥原理分层计数</p>
+    <h2>错位排列计数（五年级） / 格点多边形面积（初一）</h2>
+    <p>错位排列的容斥推导与递推公式；Pick 定理将格点计数化为面积计算</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#等积变换 #面积割补 #容斥原理 #多集合计数</span>
+      <span class="rl-tags">#错位排列 #Pick定理</span>
     </div>
   </div>
 </a>
@@ -236,7 +220,6 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
 <a class="rl-card finance" href="/reading-list/2026-03-04-finance/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -252,23 +235,21 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
-<a class="rl-card math" href="/reading-list/2026-03-03-math/">
+<a class="rl-card math" href="/reading-list/2026-03-04-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
       <span class="rl-badge math">🧮 奥数题</span>
-      <time>2026-03-03</time>
+      <time>2026-03-04</time>
     </div>
-    <h2>整除性构造（初二） / 韦达定理对称式（初三）</h2>
-    <p>带余除法降次求整除条件；韦达定理化对称多项式求参数</p>
+    <h2>等积变换与面积割补（四年级） / 容斥原理多集合（六年级）</h2>
+    <p>平行四边形中面积之比的等积变换，以及三科成绩的容斥原理分层计数</p>
     <div class="rl-meta">
       <span class="rl-source">四年级～初中三年级梯度</span>
-      <span class="rl-tags">#整除性构造 #同余 #韦达定理 #对称多项式</span>
+      <span class="rl-tags">#等积变换 #面积割补 #容斥原理 #多集合计数</span>
     </div>
   </div>
 </a>
-
 <a class="rl-card tech" href="/reading-list/2026-03-03-tech/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -284,7 +265,6 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
 <a class="rl-card finance" href="/reading-list/2026-03-03-finance/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -300,8 +280,51 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
-
+<a class="rl-card math" href="/reading-list/2026-03-03-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-03</time>
+    </div>
+    <h2>整除性构造（初二） / 韦达定理对称式（初三）</h2>
+    <p>带余除法降次求整除条件；韦达定理化对称多项式求参数</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#整除性构造 #同余 #韦达定理 #对称多项式</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-03-02-tech/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge tech">📰 技术速递</span>
+          <time>2026-03-02</time>
+        </div>
+        <h2>torchforge RL 后训练 / MoE 架构深析 / MapTrace 空间推理 / CORPGEN Agent / Nova RFT</h2>
+        <p>PyTorch 512 GPU RL 后训练框架；HuggingFace MoE 完整指南；Google 地图空间推理；Microsoft 多任务 Agent 完成率提升 3.5×；AWS Nova 强化微调；Sequential Attention 剪枝；Project Silica 玻璃存储</p>
+        <div class="rl-meta">
+          <span class="rl-source">pytorch.org · huggingface.co · research.google · microsoft.com · aws.amazon.com</span>
+          <span class="rl-tags">#大模型 #MoE #Agent #强化学习 #模型剪枝</span>
+        </div>
+      </div>
+    </a>
+<a class="rl-card finance" href="/reading-list/2026-03-02-finance/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge finance">💰 财经精选</span>
+          <time>2026-03-02</time>
+        </div>
+        <h2>AI 贸易效应 / 银行融资韧性 / 美联储百年资产负债表 / IMF 全球展望 / BIS 私人信贷</h2>
+        <p>美联储：AI 基建贸易效应（同比+65%）、存款冲击压力测试、1914-2025 资产负债表图解；IMF 世界经济展望 2026-02；BIS 私人信贷与货币政策演变</p>
+        <div class="rl-meta">
+          <span class="rl-source">federalreserve.gov · imf.org · bis.org</span>
+          <span class="rl-tags">#美联储 #宏观经济 #AI贸易 #私人信贷 #IMF</span>
+        </div>
+      </div>
+    </a>
 <a class="rl-card math" href="/reading-list/2026-03-02-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -317,58 +340,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-
-    <a class="rl-card tech" href="/reading-list/2026-03-02-tech/">
-      <div class="rl-accent"></div>
-      <div class="rl-body">
-        <div class="rl-top">
-          <span class="rl-badge tech">📰 技术速递</span>
-          <time>2026-03-02</time>
-        </div>
-        <h2>torchforge RL 后训练 / MoE 架构深析 / MapTrace 空间推理 / CORPGEN Agent / Nova RFT</h2>
-        <p>PyTorch 512 GPU RL 后训练框架；HuggingFace MoE 完整指南；Google 地图空间推理；Microsoft 多任务 Agent 完成率提升 3.5×；AWS Nova 强化微调；Sequential Attention 剪枝；Project Silica 玻璃存储</p>
-        <div class="rl-meta">
-          <span class="rl-source">pytorch.org · huggingface.co · research.google · microsoft.com · aws.amazon.com</span>
-          <span class="rl-tags">#大模型 #MoE #Agent #强化学习 #模型剪枝</span>
-        </div>
-      </div>
-    </a>
-
-    <a class="rl-card finance" href="/reading-list/2026-03-02-finance/">
-      <div class="rl-accent"></div>
-      <div class="rl-body">
-        <div class="rl-top">
-          <span class="rl-badge finance">💰 财经精选</span>
-          <time>2026-03-02</time>
-        </div>
-        <h2>AI 贸易效应 / 银行融资韧性 / 美联储百年资产负债表 / IMF 全球展望 / BIS 私人信贷</h2>
-        <p>美联储：AI 基建贸易效应（同比+65%）、存款冲击压力测试、1914-2025 资产负债表图解；IMF 世界经济展望 2026-02；BIS 私人信贷与货币政策演变</p>
-        <div class="rl-meta">
-          <span class="rl-source">federalreserve.gov · imf.org · bis.org</span>
-          <span class="rl-tags">#美联储 #宏观经济 #AI贸易 #私人信贷 #IMF</span>
-        </div>
-      </div>
-    </a>
-
-
-    <a class="rl-card math" href="/reading-list/2026-03-01-math/">
-      <div class="rl-accent"></div>
-      <div class="rl-body">
-        <div class="rl-top">
-          <span class="rl-badge math">🧮 奥数题</span>
-          <time>2026-03-01</time>
-        </div>
-        <h2>二次方程的整数根（初二） / 圆的幂与切割线定理（初三）</h2>
-        <p>从分组因式分解求含参二次方程的整数根，到用圆幂定理快速求割线截距——两道经典竞赛几何与代数题。</p>
-        <div class="rl-meta">
-          <span class="rl-source">初中二年级～初中三年级</span>
-          <span class="rl-tags">#二次方程 #整数根 #圆幂定理 #切割线</span>
-        </div>
-      </div>
-    </a>
-
-
-    <a class="rl-card tech" href="/reading-list/2026-03-01-tech/">
+<a class="rl-card tech" href="/reading-list/2026-03-01-tech/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -383,8 +355,7 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
-    <a class="rl-card finance" href="/reading-list/2026-03-01-finance/">
+<a class="rl-card finance" href="/reading-list/2026-03-01-finance/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -399,24 +370,22 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
-    <a class="rl-card math" href="/reading-list/2026-02-28-math/">
+<a class="rl-card math" href="/reading-list/2026-03-01-math/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
           <span class="rl-badge math">🧮 奥数题</span>
-          <time>2026-02-28</time>
+          <time>2026-03-01</time>
         </div>
-        <h2>完全平方数求和 / 铺砖方案数与斐波那契</h2>
-        <p>完全平方数数列的规律与平方和公式；用递推思维求 2×8 棋盘铺法数，引出斐波那契数列与黄金比例</p>
+        <h2>二次方程的整数根（初二） / 圆的幂与切割线定理（初三）</h2>
+        <p>从分组因式分解求含参二次方程的整数根，到用圆幂定理快速求割线截距——两道经典竞赛几何与代数题。</p>
         <div class="rl-meta">
-          <span class="rl-source">四年级～初中梯度</span>
-          <span class="rl-tags">#完全平方数 #斐波那契 #递推</span>
+          <span class="rl-source">初中二年级～初中三年级</span>
+          <span class="rl-tags">#二次方程 #整数根 #圆幂定理 #切割线</span>
         </div>
       </div>
     </a>
-
-    <a class="rl-card tech" href="/reading-list/2026-02-28-tech/">
+<a class="rl-card tech" href="/reading-list/2026-02-28-tech/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -431,8 +400,7 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
-    <a class="rl-card finance" href="/reading-list/2026-02-28-finance/">
+<a class="rl-card finance" href="/reading-list/2026-02-28-finance/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -447,8 +415,22 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
-    <a class="rl-card tech" href="/reading-list/2026-02-27-tech/">
+<a class="rl-card math" href="/reading-list/2026-02-28-math/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge math">🧮 奥数题</span>
+          <time>2026-02-28</time>
+        </div>
+        <h2>完全平方数求和 / 铺砖方案数与斐波那契</h2>
+        <p>完全平方数数列的规律与平方和公式；用递推思维求 2×8 棋盘铺法数，引出斐波那契数列与黄金比例</p>
+        <div class="rl-meta">
+          <span class="rl-source">四年级～初中梯度</span>
+          <span class="rl-tags">#完全平方数 #斐波那契 #递推</span>
+        </div>
+      </div>
+    </a>
+<a class="rl-card tech" href="/reading-list/2026-02-27-tech/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -463,8 +445,7 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
-    <a class="rl-card finance" href="/reading-list/2026-02-27-finance/">
+<a class="rl-card finance" href="/reading-list/2026-02-27-finance/">
       <div class="rl-accent"></div>
       <div class="rl-body">
         <div class="rl-top">
@@ -479,6 +460,7 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
+
 
   </div>
 </div>
