@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-08-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-08</time>
+    </div>
+    <h2>内存分层重组 / Token Pools / 内核ML / vmcacheⁿ / 机密计算Mica</h2>
+    <p>OBASE地址空间重组提升热页利用率2-4×；Token Pools多租户推理容量控制；ML库引入Linux内核；vmcacheⁿ分层缓冲池4×TPC-C吞吐；Arm CCA机密计算工作流</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.OS/cs.LG/cs.DC</span>
+      <span class="rl-tags">#内存系统 #LLM推理 #Linux内核 #机密计算</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-08</time>
+    </div>
+    <h2>加密跨境流动 / 汇率NICER估值 / 私人信贷担保化 / 关税价格传导</h2>
+    <p>BIS：184国加密流动引力框架，资管限制失效；NICER汇率指数揭示估值效应；私人信贷担保化趋势与实物抵押品渠道；关税渐进式推高零售价格</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS Working Papers 1265-1267 · Fed FEDS Notes</span>
+      <span class="rl-tags">#加密资产 #汇率 #私人信贷 #关税通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
