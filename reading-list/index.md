@@ -78,6 +78,21 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-03-08-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-08</time>
+    </div>
+    <h2>抽屉原理（非平凡构造）（六年级） / 绝对值函数最值（初一）</h2>
+    <p>等比区间链构造抽屉，迫使11组下限；绝对值方程离散解集上的最值求解</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#抽屉原理 #绝对值函数</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
