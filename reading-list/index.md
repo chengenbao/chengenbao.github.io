@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-09</time>
+    </div>
+    <h2>Reasoning Theater / FlashAttention-4 / OPSDC推理压缩 / 推测解码词表裁剪</h2>
+    <p>CoT表演性推理激活探测；Blackwell B200 1613TFLOPs注意力内核；自蒸馏57-59% token压缩；推测解码词表裁剪16%延迟降低</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG/cs.CL</span>
+      <span class="rl-tags">#推理优化 #注意力内核 #推测解码 #LLM评测</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-09</time>
+    </div>
+    <h2>通胀百年周期 / 批发存款脆弱性 / 全球流动性风险敏感性 / 金融数据公平生成</h2>
+    <p>BIS：6-7年通胀周期百年稳定；高通胀体制预示衰退；新冠批发存款冲击持续12个月；后GFC全球流动性结构转型</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS Working Papers 1262-1264</span>
+      <span class="rl-tags">#通胀周期 #流动性风险 #银行稳定 #金融科技</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-07-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
