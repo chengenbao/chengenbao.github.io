@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-09-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-09</time>
+    </div>
+    <h2>图论·握手定理（初二） / 均值不等式·构造极值（初三）</h2>
+    <p>握手定理与度序列可实现性、AM-GM不等式综合极值构造</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#图论初步 #握手定理 #均值不等式 #AM-GM</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
