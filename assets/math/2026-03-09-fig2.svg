@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white"/>
+  <text x="210" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">均值不等式：AM ≥ GM 几何直观</text>
+  
+  <!-- Coordinate axes -->
+  <line x1="55" y1="310" x2="390" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="55" y1="310" x2="55" y2="45" stroke="#333" stroke-width="2"/>
+  <!-- Arrow heads -->
+  <polygon points="390,306 390,314 400,310" fill="#333"/>
+  <polygon points="51,45 59,45 55,35" fill="#333"/>
+  
+  <!-- Axis labels -->
+  <text x="405" y="314" font-size="13" fill="#333">x</text>
+  <text x="42" y="32" font-size="13" fill="#333">y</text>
+  <text x="55" y="325" text-anchor="middle" font-size="11" fill="#555">O</text>
+  
+  <!-- Tick marks x-axis: 0,2,4,6,8,10 mapped to pixels 55+k*28 -->
+  <!-- Scale: x in [0,10], pixel x = 55 + x*28; y=x(10-x), max at x=5,y=25; pixel y = 310 - y*9 -->
+  
+  <!-- Curve: y = x(10-x) = 10x - x^2 for x in [0,10] -->
+  <path d="M 55,310 
+    C 83,54 111,10 139,54
+    " stroke="none" fill="none"/>
+  
+  <!-- Draw parabola as polyline -->
+  <polyline points="
+    55,310
+    83,232
+    111,178
+    139,148
+    167,142
+    195,160
+    223,202
+    251,268
+    279,310
+  " fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  
+  <!-- Wait, let me recalculate. x in [0,10], pixel_x = 55 + x*22.4, y=x(10-x), pixel_y = 310 - y*8.5 -->
+  <!-- Redo as correct parabola -->
+  <!-- x=0: px=55, py=310 -->
+  <!-- x=1: px=77.4, y=9, py=233.5 -->
+  <!-- x=2: px=99.8, y=16, py=174 -->
+  <!-- x=3: px=122.2, y=21, py=131.5 -->
+  <!-- x=4: px=144.6, y=24, py=106 -->
+  <!-- x=5: px=167, y=25, py=97.5 -->
+  <!-- x=6: px=189.4, y=24, py=106 -->
+  <!-- x=7: px=211.8, y=21, py=131.5 -->
+  <!-- x=8: px=234.2, y=16, py=174 -->
+  <!-- x=9: px=256.6, y=9, py=233.5 -->
+  <!-- x=10: px=279, y=0, py=310 -->
+  
+  <!-- Draw correct parabola -->
+  <polyline points="
+    55,310
+    77,234
+    100,174
+    122,132
+    145,106
+    167,98
+    190,106
+    212,132
+    234,174
+    257,234
+    279,310
+  " fill="none" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="0"/>
+  
+  <!-- Highlight maximum point at x=5, y=25 -->
+  <circle cx="167" cy="98" r="5" fill="#e74c3c"/>
+  <line x1="167" y1="98" x2="167" y2="310" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="55" y1="98" x2="167" y2="98" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="5,4"/>
+  
+  <!-- Tick labels x-axis -->
+  <text x="55" y="325" text-anchor="middle" font-size="11" fill="#555">0</text>
+  <text x="167" y="325" text-anchor="middle" font-size="11" fill="#e74c3c">5</text>
+  <text x="279" y="325" text-anchor="middle" font-size="11" fill="#555">10</text>
+  
+  <!-- Tick labels y-axis -->
+  <text x="45" y="102" text-anchor="end" font-size="11" fill="#e74c3c">25</text>
+  
+  <!-- Annotation -->
+  <text x="175" y="82" font-size="12" fill="#c0392b">最大值 = 25</text>
+  <text x="168" y="96" font-size="11" fill="#c0392b"> ← (5, 25)</text>
+  
+  <!-- Shaded rectangle example at x=3, x+y=10 so y=7: area=21 -->
+  <rect x="122" y="132" width="23" height="178" fill="#aed6f1" fill-opacity="0.4" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="133" y="250" text-anchor="middle" font-size="10" fill="#1a5276">x=3</text>
+  
+  <!-- Formula box -->
+  <rect x="285" y="60" width="125" height="80" fill="#fef9e7" stroke="#f39c12" stroke-width="1.5" rx="6"/>
+  <text x="347" y="80" text-anchor="middle" font-size="12" font-weight="bold" fill="#b7770d">y = x(10-x)</text>
+  <text x="347" y="100" text-anchor="middle" font-size="11" fill="#7d6608">x + (10-x) = 10</text>
+  <text x="347" y="118" text-anchor="middle" font-size="11" fill="#c0392b">max y = 25</text>
+  <text x="347" y="134" text-anchor="middle" font-size="11" fill="#7d6608">当 x = 5 时</text>
+  
+  <!-- x+y=10 label -->
+  <text x="210" y="350" text-anchor="middle" font-size="12" fill="#555">两正数之和为定值时，积在两数相等时最大（AM-GM）</text>
+</svg>
