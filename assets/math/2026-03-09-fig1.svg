@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white"/>
+  <text x="210" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">图G：6个顶点的无向图（握手定理示意）</text>
+  
+  <!-- Vertices positions (hexagon layout) -->
+  <!-- V1 top, V2 top-right, V3 bottom-right, V4 bottom, V5 bottom-left, V6 top-left -->
+  <!-- Center: (210, 195), radius: 110 -->
+  
+  <!-- Edges -->
+  <!-- V1-V2, V1-V3, V1-V4, V2-V3, V2-V5, V3-V6, V4-V5, V4-V6, V5-V6 -->
+  <!-- V1=(210,85) V2=(305,140) V3=(305,250) V4=(210,305) V5=(115,250) V6=(115,140) -->
+  
+  <line x1="210" y1="85" x2="305" y2="140" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="210" y1="85" x2="305" y2="250" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="210" y1="85" x2="115" y2="250" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="305" y1="140" x2="305" y2="250" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="305" y1="140" x2="115" y2="250" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="305" y1="250" x2="115" y2="140" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="210" y1="305" x2="115" y2="250" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="210" y1="305" x2="115" y2="140" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="115" y1="250" x2="115" y2="140" stroke="#4a90d9" stroke-width="2.5"/>
+  
+  <!-- Vertices (circles) -->
+  <circle cx="210" cy="85" r="18" fill="#fff7e6" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="305" cy="140" r="18" fill="#fff7e6" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="305" cy="250" r="18" fill="#fff7e6" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="210" cy="305" r="18" fill="#eaf4fb" stroke="#2980b9" stroke-width="2.5"/>
+  <circle cx="115" cy="250" r="18" fill="#eaf4fb" stroke="#2980b9" stroke-width="2.5"/>
+  <circle cx="115" cy="140" r="18" fill="#eaf4fb" stroke="#2980b9" stroke-width="2.5"/>
+  
+  <!-- Labels -->
+  <text x="210" y="90" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#c0392b">v₁</text>
+  <text x="305" y="145" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#c0392b">v₂</text>
+  <text x="305" y="255" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#c0392b">v₃</text>
+  <text x="210" y="310" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#1a6ea0">v₄</text>
+  <text x="115" y="255" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#1a6ea0">v₅</text>
+  <text x="115" y="145" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#1a6ea0">v₆</text>
+  
+  <!-- Degree labels -->
+  <text x="210" y="58" text-anchor="middle" font-size="11" fill="#888">deg=3</text>
+  <text x="338" y="138" text-anchor="middle" font-size="11" fill="#888">deg=3</text>
+  <text x="338" y="252" text-anchor="middle" font-size="11" fill="#888">deg=3</text>
+  <text x="210" y="333" text-anchor="middle" font-size="11" fill="#888">deg=2</text>
+  <text x="80" y="252" text-anchor="middle" font-size="11" fill="#888">deg=4</text>
+  <text x="80" y="138" text-anchor="middle" font-size="11" fill="#888">deg=3</text>
+  
+  <!-- Legend -->
+  <rect x="10" y="330" width="400" height="25" fill="#f8f8f8" rx="4"/>
+  <text x="210" y="347" text-anchor="middle" font-size="11" fill="#555">橙色顶点 deg=3,3,3（奇度）；蓝色顶点 deg=2,4,3（偶度混合）</text>
+</svg>
