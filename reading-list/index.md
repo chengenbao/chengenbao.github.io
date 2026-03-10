@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-10</time>
+    </div>
+    <h2>稀疏注意力 · 序列并行 · 激活引导 · 多模态推理调度</h2>
+    <p>Ulysses序列并行突破Million-Token训练；Stem因果稀疏注意力降低预填充延迟；COLD-Steer免训练激活引导；M-CMAB多约束推理调度</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · HuggingFace · PyTorch</span>
+      <span class="rl-tags">#LLM推理 #分布式训练 #注意力机制 #RLHF</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-10</time>
+    </div>
+    <h2>关税传导 · AI贸易效应 · 稳定币与国债市场</h2>
+    <p>Fed量化2025关税通胀传导率≥30%；AI基建拉动半数贸易增量；BIS证实稳定币净流入压低短债收益率</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve · BIS</span>
+      <span class="rl-tags">#关税 #AI基建 #稳定币 #货币政策</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-09-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
