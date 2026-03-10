@@ -82,6 +82,14 @@
       "https://arxiv.org/abs/2603.02145",
       "https://arxiv.org/abs/2603.03271",
       "https://arxiv.org/abs/2603.03403"
+    ],
+    "2026-03-10": [
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://arxiv.org/abs/2603.06274",
+      "https://arxiv.org/abs/2603.06495",
+      "https://arxiv.org/abs/2603.06317",
+      "https://arxiv.org/abs/2603.06403"
     ]
   },
   "finance": {
@@ -154,6 +162,12 @@
       "https://www.bis.org/publ/work1266.htm",
       "https://www.bis.org/publ/work1267.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html"
+    ],
+    "2026-03-10": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.bis.org/publ/work1269.htm",
+      "https://www.bis.org/publ/work1270.htm"
     ]
   },
   "updated": "2026-03-04"
