@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="360" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="420" height="360" fill="white"/>
+  
+  <!-- Title -->
+  <text x="210" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">环形跑道追及示意图</text>
+  
+  <!-- Track outer circle -->
+  <circle cx="210" cy="195" r="130" fill="none" stroke="#bbb" stroke-width="18"/>
+  <!-- Track inner marking -->
+  <circle cx="210" cy="195" r="130" fill="none" stroke="#e8f4fd" stroke-width="14"/>
+  
+  <!-- Track centerline -->
+  <circle cx="210" cy="195" r="130" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6,4"/>
+  
+  <!-- Starting point marker -->
+  <circle cx="340" cy="195" r="7" fill="#e74c3c"/>
+  <text x="358" y="190" font-family="Arial, sans-serif" font-size="13" fill="#e74c3c" font-weight="bold">出发点</text>
+  
+  <!-- Arrow showing direction (clockwise arc) -->
+  <path d="M 330 155 Q 360 135 360 175" fill="none" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="362" y="155" font-family="Arial, sans-serif" font-size="11" fill="#555">同向</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arr_red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#e74c3c"/>
+    </marker>
+    <marker id="arr_blue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#2980b9"/>
+    </marker>
+    <marker id="arr_green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#27ae60"/>
+    </marker>
+  </defs>
+  
+  <!-- 甲 position (fastest, ahead at some t) - at ~72deg from start -->
+  <circle cx="250" cy="71" r="10" fill="#e74c3c"/>
+  <text x="256" y="58" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">甲</text>
+  <text x="255" y="72" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">10m/s</text>
+  
+  <!-- 乙 position - slightly behind甲 -->
+  <circle cx="156" cy="76" r="10" fill="#2980b9"/>
+  <text x="130" y="64" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2980b9">乙</text>
+  <text x="128" y="78" font-family="Arial, sans-serif" font-size="11" fill="#2980b9">6m/s</text>
+  
+  <!-- 丙 position - furthest behind -->
+  <circle cx="100" cy="150" r="10" fill="#27ae60"/>
+  <text x="68" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">丙</text>
+  <text x="66" y="154" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">4m/s</text>
+  
+  <!-- Labels for lcm info -->
+  <rect x="60" y="285" width="300" height="58" rx="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1.5"/>
+  <text x="210" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">甲追乙周期：600÷4 = <tspan font-weight="bold">150秒</tspan></text>
+  <text x="210" y="323" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">甲追丙周期：600÷6 = <tspan font-weight="bold">100秒</tspan></text>
+  <text x="210" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#c0392b" font-weight="bold">lcm(150, 100) = 300 秒</text>
+  
+  <!-- Track length label -->
+  <text x="210" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888">周长 600 m</text>
+</svg>
