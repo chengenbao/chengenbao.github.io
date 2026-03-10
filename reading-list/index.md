@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-10-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-10</time>
+    </div>
+    <h2>互质与最大公因数进阶（四年级） / 环形多人追及（六年级）</h2>
+    <p>从 gcd 结构分析完全平方条件；用追及周期的 lcm 求三人同时重合时刻</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#互质 #最大公因数进阶 #环形追及 #多人追及</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
