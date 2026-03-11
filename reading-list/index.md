@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-11</time>
+    </div>
+    <h2>注意力优化·推理调度·SmolLM3·Agent记忆·RLHF多目标·模型安全</h2>
+    <p>Hadamard 变换高效 Transformer、CODA 自适应推理、SmolLM3 完整训练配方、MSR Agent 记忆架构、多目标 RLHF 与隐写术安全攻击</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · HuggingFace · MSR</span>
+      <span class="rl-tags">#注意力优化 #推理加速 #预训练 #模型安全</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-11</time>
+    </div>
+    <h2>BIS货币政策分配效应·金融状况指数·FX衍生品·气候信用风险·ECB公报</h2>
+    <p>货币政策紧缩加剧工资不平等、FCI 非线性宏观效应、FX 对冲与 CIP 偏差、物理气候风险入模、欧元区双速复苏</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS · ECB</span>
+      <span class="rl-tags">#货币政策 #宏观金融 #气候风险 #国际金融</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-10-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
