@@ -19,6 +19,18 @@ permalink: /notes/
         <span class="tag">ICML 2022</span>
       </div>
     </a>
+    <a class="note-card" href="/notes/deepep/">
+      <div class="note-icon">⚡</div>
+      <div class="note-body">
+        <h2>DeepEP：DeepSeek 开源的 MoE 专家并行通信库深度解析</h2>
+        <p>全球首个 MoE 专用通信库：双内核架构（高吞吐+低延迟）、FP8 原生支持、NVLink/RDMA 非对称带宽转发、Hook 零 SM 占用机制，含性能实测与代码示例。</p>
+        <span class="tag">DeepEP</span>
+        <span class="tag">MoE</span>
+        <span class="tag">专家并行</span>
+        <span class="tag">NVLink</span>
+        <span class="tag">RDMA</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/flashattention/">
       <div class="note-icon">⚡</div>
       <div class="note-body">
