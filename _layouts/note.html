@@ -331,12 +331,17 @@
       /* ===== Inline Images ===== */
       .note-body img {
         display: block;
-        max-width: 100%;
+        max-width: 70%;
         height: auto;
         margin: 1.5rem auto;
         border-radius: 8px;
         box-shadow: 0 2px 12px rgba(0,0,0,0.12);
         border: 1px solid #e9ecef;
+      }
+      @media (max-width: 900px) {
+        .note-body img {
+          max-width: 90%;
+        }
       }
       /* 图片下方的斜体说明文字（kramdown 渲染为 <em> 包裹的 <p>）*/
       .note-body p > em:only-child {
