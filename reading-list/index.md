@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-11-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-11</time>
+    </div>
+    <h2>非相邻选取计数（五年级） / 完全平方数构造（初一）</h2>
+    <p>隔板变换bijection巧解不相邻组合计数；夹逼法+整除枚举求完全平方数</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#非相邻元素排列 #完全平方数构造</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
