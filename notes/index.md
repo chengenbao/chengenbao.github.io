@@ -54,16 +54,16 @@ permalink: /notes/
         <span class="tag">稀疏模型</span>
       </div>
     </a>
-    <a class="note-card" href="/notes/deepep/">
+    <a class="note-card" href="/notes/deepspeed-moe/">
       <div class="note-icon">🚀</div>
       <div class="note-body">
-        <h2>DeepEP：DeepSeek 开源的 MoE 专家并行通信库深度解析</h2>
-        <p>首个 MoE 专家并行通信库，双内核架构（高吞吐+低延迟）、FP8 原生支持、NVLink/RDMA 混合传输、Hook 零 SM 占用机制，含性能实测与代码示例。</p>
-        <span class="tag">DeepEP</span>
+        <h2>DeepSpeed-MoE：端到端 MoE 训练与推理加速方案（ICML 2022）</h2>
+        <p>微软提出的 MoE 端到端解决方案：PR-MoE 金字塔残差架构降低模型规模 3.7 倍，分层 All-to-All 通信优化实现推理延迟降低 7.3 倍，训练成本节省 5 倍。</p>
+        <span class="tag">DeepSpeed</span>
         <span class="tag">MoE</span>
-        <span class="tag">专家并行</span>
-        <span class="tag">NVLink</span>
-        <span class="tag">RDMA</span>
+        <span class="tag">PR-MoE</span>
+        <span class="tag">推理优化</span>
+        <span class="tag">ICML 2022</span>
       </div>
     </a>
     <a class="note-card" href="/notes/latentmoe/">
