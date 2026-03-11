@@ -7,6 +7,18 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/deepspeed-moe/">
+      <div class="note-icon">🚀</div>
+      <div class="note-body">
+        <h2>DeepSpeed-MoE：端到端 MoE 训练与推理加速方案（ICML 2022）</h2>
+        <p>微软提出的 MoE 端到端解决方案：PR-MoE 金字塔残差架构降低模型规模 3.7 倍，分层 All-to-All 通信优化实现推理延迟降低 7.3 倍，训练成本节省 5 倍。</p>
+        <span class="tag">DeepSpeed</span>
+        <span class="tag">MoE</span>
+        <span class="tag">PR-MoE</span>
+        <span class="tag">推理优化</span>
+        <span class="tag">ICML 2022</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/flashattention/">
       <div class="note-icon">⚡</div>
       <div class="note-body">
@@ -52,18 +64,6 @@ permalink: /notes/
         <span class="tag">DeepSeek</span>
         <span class="tag">Mixtral</span>
         <span class="tag">稀疏模型</span>
-      </div>
-    </a>
-    <a class="note-card" href="/notes/deepspeed-moe/">
-      <div class="note-icon">🚀</div>
-      <div class="note-body">
-        <h2>DeepSpeed-MoE：端到端 MoE 训练与推理加速方案（ICML 2022）</h2>
-        <p>微软提出的 MoE 端到端解决方案：PR-MoE 金字塔残差架构降低模型规模 3.7 倍，分层 All-to-All 通信优化实现推理延迟降低 7.3 倍，训练成本节省 5 倍。</p>
-        <span class="tag">DeepSpeed</span>
-        <span class="tag">MoE</span>
-        <span class="tag">PR-MoE</span>
-        <span class="tag">推理优化</span>
-        <span class="tag">ICML 2022</span>
       </div>
     </a>
     <a class="note-card" href="/notes/latentmoe/">
