@@ -1,12 +1,14 @@
 ---
-layout: reading
+layout: note
 title: "DeepEP：DeepSeek 开源的 MoE 专家并行通信库深度解析"
-category: tech
-tags: [DeepSeek, DeepEP, MoE, 专家并行, 分布式训练, GPU通信, NVLink, RDMA, FP8, 开源]
-date: 2026-03-07
+permalink: /notes/deepep/
 ---
 
-<!-- 关键词: DeepEP, Expert Parallelism, MoE, all-to-all, NVLink, RDMA, FP8, 低延迟内核, 高吞吐内核 -->
+# DeepEP：DeepSeek 开源的 MoE 专家并行通信库深度解析
+
+> 更新：2026-03  
+> 作者：chengenbao  
+> 关键词：DeepEP, Expert Parallelism, MoE, all-to-all, NVLink, RDMA, FP8
 
 ## 一、DeepEP 是什么
 
