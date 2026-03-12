@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-12-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-12</time>
+    </div>
+    <h2>LLM推理加速与训练算法前沿</h2>
+    <p>Leech格VQ极致压缩、LookaheadKV缓存剔除、Transformer MLP二值路由、RLTT轨迹奖励训练、异步RLHF系统工程</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · HuggingFace</span>
+      <span class="rl-tags">#LLM #量化 #KV-Cache #RLHF #MoE</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-12</time>
+    </div>
+    <h2>货币政策分配效应与全球债务风险</h2>
+    <p>BIS货币政策收入不平等HANK模型、FX衍生品全球金融周期、IMF债务清算时刻、气候风险农业宏观</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS · IMF</span>
+      <span class="rl-tags">#货币政策 #债务 #气候风险 #FX</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-11-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
