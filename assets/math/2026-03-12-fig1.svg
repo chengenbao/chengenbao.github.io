@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="210" y="28" font-family="Arial,sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#333">极端原理：棋盘选点问题</text>
+  
+  <!-- 5x5 棋盘 -->
+  <rect x="95" y="50" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="145" y="50" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="195" y="50" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="245" y="50" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="295" y="50" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="95" y="100" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="145" y="100" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="195" y="100" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="245" y="100" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="295" y="100" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="95" y="150" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="145" y="150" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="195" y="150" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="245" y="150" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="295" y="150" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="95" y="200" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="145" y="200" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="195" y="200" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="245" y="200" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="295" y="200" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="95" y="250" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="145" y="250" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="195" y="250" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <rect x="245" y="250" width="50" height="50" fill="#d0d0d0" stroke="#999" stroke-width="1"/>
+  <rect x="295" y="250" width="50" height="50" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+  <text x="120" y="42" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">A</text>
+  <text x="170" y="42" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">B</text>
+  <text x="220" y="42" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">C</text>
+  <text x="270" y="42" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">D</text>
+  <text x="320" y="42" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">E</text>
+  <text x="80" y="80" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">1</text>
+  <text x="80" y="130" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">2</text>
+  <text x="80" y="180" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">3</text>
+  <text x="80" y="230" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">4</text>
+  <text x="80" y="280" font-family="Arial" font-size="13" text-anchor="middle" fill="#555">5</text>
+  <circle cx="120" cy="75" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="220" cy="75" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="320" cy="75" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="170" cy="125" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="270" cy="125" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="120" cy="175" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="220" cy="175" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="320" cy="175" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="170" cy="225" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="270" cy="225" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="120" cy="275" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="220" cy="275" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="320" cy="275" r="12" fill="#e74c3c" fill-opacity="0.85" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="120" y1="75" x2="320" y2="275" stroke="#2980b9" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="232" y="175" font-family="Arial" font-size="11" fill="#2980b9">最远点对</text>
+  <text x="210" y="320" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#555">红点：满足条件的13个选点（5×5棋盘）</text>
+  <text x="210" y="340" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#555">极端原理：先考察距离最远的点对</text>
+</svg>
