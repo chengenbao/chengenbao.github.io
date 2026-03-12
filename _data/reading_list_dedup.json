@@ -1,189 +1,52 @@
 {
-  "tech": {
-    "2026-02-27": [
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://pytorch.org/blog/efficient-moe-pre-training-at-scale-with-torchtitan/",
-      "https://huggingface.co/blog/moe-transformers",
-      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills"
-    ],
-    "2026-02-28": [
-      "https://huggingface.co/blog/unsloth-jobs",
-      "https://huggingface.co/blog/openenv-turing",
-      "https://huggingface.co/blog/community-evals",
-      "https://huggingface.co/blog/nvidia/cosmos-on-jetson"
-    ],
-    "2026-03-01": [
-      "https://huggingface.co/blog/ggml-joins-hf",
-      "https://huggingface.co/blog/transformersjs-v4",
-      "https://research.google/blog/teaching-ai-to-read-a-map/",
-      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
-      "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/"
-    ],
-    "2026-03-02": [
-      "https://huggingface.co/blog/ibm-research/itbenchandmast",
-      "https://huggingface.co/blog/gradio-html-one-shot-apps",
-      "https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
-      "https://research.google/blog/sequential-attention-making-ai-models-leaner-and-faster-without-sacrificing-accuracy/",
-      "https://www.microsoft.com/en-us/research/blog/rethinking-imitation-learning-with-predictive-inverse-dynamics-models/",
-      "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
-      "https://www.microsoft.com/en-us/research/blog/project-silicas-advances-in-glass-storage-technology/"
-    ],
-    "2026-03-03": [
-      "https://research.google/blog/scheduling-in-a-changing-world-maximizing-throughput-with-time-varying-capacity/",
-      "https://research.google/blog/beyond-one-on-one-authoring-simulating-and-testing-dynamic-human-ai-group-conversations/",
-      "https://research.google/blog/how-ai-trained-on-birds-is-surfacing-underwater-mysteries/",
-      "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
-      "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
-      "https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/"
-    ],
-    "2026-03-04": [
-      "https://research.google/blog/teaching-ai-to-read-a-map/",
-      "https://research.google/blog/collaborating-on-a-nationwide-randomized-study-of-ai-in-real-world-virtual-care/",
-      "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
-      "https://www.microsoft.com/en-us/research/blog/paza-introducing-automatic-speech-recognition-benchmarks-and-models-for-low-resource-languages/",
-      "https://www.microsoft.com/en-us/research/blog/media-authenticity-methods-in-practice-capabilities-limitations-and-directions/",
-      "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/"
-    ],
-    "2026-03-05": [
-      "https://arxiv.org/abs/2603.03251",
-      "https://huggingface.co/blog/kv-cache-quantization",
-      "https://arxiv.org/abs/2603.03206",
-      "https://arxiv.org/abs/2603.02913",
-      "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
-      "https://research.google/blog/teaching-llms-to-reason-like-bayesians/"
-    ],
-    "2026-03-06": [
-      "https://arxiv.org/abs/2603.04359",
-      "https://arxiv.org/abs/2603.04308",
-      "https://arxiv.org/abs/2603.04364",
-      "https://arxiv.org/abs/2603.04378",
-      "https://huggingface.co/blog/moe-transformers",
-      "https://arxiv.org/abs/2603.04384",
-      "https://arxiv.org/abs/2603.04162"
-    ],
-    "2026-03-07": [
-      "https://arxiv.org/abs/2603.05500",
-      "https://arxiv.org/abs/2603.05494",
-      "https://arxiv.org/abs/2603.05343",
-      "https://arxiv.org/abs/2503.18712",
-      "https://arxiv.org/abs/2503.18823"
-    ],
-    "2026-03-09": [
-      "https://arxiv.org/abs/2603.05488",
-      "https://arxiv.org/abs/2603.05451",
-      "https://arxiv.org/abs/2603.05433",
-      "https://arxiv.org/abs/2603.05210",
-      "https://arxiv.org/abs/2603.05399",
-      "https://arxiv.org/abs/2603.05471"
-    ],
-    "2026-03-08": [
-      "https://arxiv.org/abs/2603.00378",
-      "https://arxiv.org/abs/2603.00356",
-      "https://arxiv.org/abs/2603.02145",
-      "https://arxiv.org/abs/2603.03271",
-      "https://arxiv.org/abs/2603.03403"
-    ],
-    "2026-03-10": [
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://arxiv.org/abs/2603.06274",
-      "https://arxiv.org/abs/2603.06495",
-      "https://arxiv.org/abs/2603.06317",
-      "https://arxiv.org/abs/2603.06403"
-    ],
-    "2026-03-11": [
-      "https://arxiv.org/abs/2603.08343",
-      "https://arxiv.org/abs/2603.08659",
-      "https://huggingface.co/blog/smollm3",
-      "https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/",
-      "https://arxiv.org/abs/2603.08518",
-      "https://arxiv.org/abs/2603.08104"
-    ]
-  },
-  "finance": {
-    "2026-02-27": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
-    ],
-    "2026-02-28": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/downside-and-upside-economic-uncertainty-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260202.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
-    ],
-    "2026-03-01": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/lessons-from-brexit-on-the-effects-of-trade-disintegration-20260116.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/bankers-banks-and-their-role-in-the-federal-funds-market-20260130.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/more-credit-more-debt-new-evidence-on-automated-credit-decisions-20260116.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/model-perspectives-on-supply-and-demand-factors-behind-a-soft-labor-market-20260130.html",
-      "https://www.bis.org/publ/qtrpdf/r_qt2503.htm"
-    ],
-    "2026-03-02": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-recession-risks-with-state-level-data-20260107.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-central-bank-balance-sheet-trilemma-20260114.html",
-      "https://www.imf.org/en/Publications/GFSR",
-      "https://www.imf.org/en/publications/weo",
-      "https://www.bis.org/publ/work1246.htm"
-    ],
-    "2026-03-03": [
-      "https://www.imf.org/en/Publications/WEO/Issues/2026/01/17/world-economic-outlook-update-january-2026",
-      "https://www.bis.org/publ/work1247.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-policy-uncertainty-and-the-us-economy-2026.html",
-      "https://www.bis.org/publ/qtrpdf/r_qt2506.htm"
-    ],
-    "2026-03-04": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.bis.org/publ/work1248.htm",
-      "https://www.bis.org/publ/work1249.htm"
-    ],
-    "2026-03-05": [
-      "https://www.bis.org/publ/work1252.htm",
-      "https://www.bis.org/publ/work1251.htm",
-      "https://www.bis.org/publ/work1255.htm",
-      "https://www.bis.org/publ/work1256.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
-    ],
-    "2026-03-06": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
-    ],
-    "2026-03-07": [
-      "https://www.bis.org/publ/work1257.htm",
-      "https://www.bis.org/publ/work1258.htm",
-      "https://www.bis.org/publ/work1259.htm",
-      "https://www.bis.org/publ/work1260.htm"
-    ],
-    "2026-03-09": [
-      "https://www.bis.org/publ/work1264.htm",
-      "https://www.bis.org/publ/work1263.htm",
-      "https://www.bis.org/publ/work1262.htm",
-      "https://arxiv.org/abs/2603.05327"
-    ],
-    "2026-03-08": [
-      "https://www.bis.org/publ/work1265.htm",
-      "https://www.bis.org/publ/work1266.htm",
-      "https://www.bis.org/publ/work1267.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html"
-    ],
-    "2026-03-10": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.bis.org/publ/work1269.htm",
-      "https://www.bis.org/publ/work1270.htm"
-    ],
-    "2026-03-11": [
-      "https://www.bis.org/publ/work1271.htm",
-      "https://www.bis.org/publ/work1272.htm",
-      "https://www.bis.org/publ/work1273.htm",
-      "https://www.bis.org/publ/work1274.htm",
-      "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202601.en.html"
-    ]
-  },
-  "updated": "2026-03-04"
+  "urls": [
+    "https://arxiv.org/abs/2603.11021",
+    "https://arxiv.org/abs/2603.10899",
+    "https://arxiv.org/abs/2603.10985",
+    "https://arxiv.org/abs/2602.10520",
+    "https://huggingface.co/blog/async-rl-training-landscape",
+    "https://www.bis.org/publ/work1271.htm",
+    "https://www.bis.org/publ/work1273.htm",
+    "https://www.imf.org/en/Publications/fandd/issues/2026/03",
+    "https://www.bis.org/publ/work1278.htm"
+  ],
+  "entries": [
+    {
+      "url": "https://arxiv.org/abs/2603.11021",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.10899",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.10985",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.10520",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://huggingface.co/blog/async-rl-training-landscape",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://www.bis.org/publ/work1271.htm",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://www.bis.org/publ/work1273.htm",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://www.imf.org/en/Publications/fandd/issues/2026/03",
+      "date": "2026-03-12"
+    },
+    {
+      "url": "https://www.bis.org/publ/work1278.htm",
+      "date": "2026-03-12"
+    }
+  ],
+  "last_updated": "2026-03-12"
 }
