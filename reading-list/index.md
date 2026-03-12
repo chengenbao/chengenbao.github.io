@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-12-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-12</time>
+    </div>
+    <h2>旋转构造法（初二） / 牛顿恒等式幂和递推（初三）</h2>
+    <p>正方形中旋转90°三线共点，∠BPQ=45°；利用Newton恒等式递推证明幂和等式</p>
+    <div class="rl-meta">
+      <span class="rl-source">四年级～初中三年级梯度</span>
+      <span class="rl-tags">#旋转变换 #牛顿恒等式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
