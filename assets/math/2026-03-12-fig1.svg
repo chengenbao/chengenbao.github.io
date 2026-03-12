@@ -1,73 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" style="background:white;font-family:serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" style="background:white;font-family:'Times New Roman',serif;">
   <defs>
-    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#777"/>
     </marker>
   </defs>
 
   <!-- 正方形 ABCD -->
-  <polygon points="245.3,121.0 392.0,121.0 392.0,282.9 245.3,282.9"
-    fill="#f0f4ff" stroke="#3355aa" stroke-width="2"/>
+  <polygon points="253.2,130.0 388.7,130.0 388.7,290.0 253.2,290.0"
+    fill="#eef2ff" stroke="#3366cc" stroke-width="2.5"/>
 
-  <!-- 三角形 ABP（填色） -->
-  <polygon points="245.3,121.0 392.0,121.0 318.7,282.9"
-    fill="#cce0ff" fill-opacity="0.6" stroke="#2266cc" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- △ABP 蓝色填色（无描边） -->
+  <polygon points="253.2,130.0 388.7,130.0 334.5,290.0"
+    fill="#c5daff" fill-opacity="0.65"/>
 
-  <!-- 三角形 ADQ（填色） -->
-  <polygon points="245.3,121.0 245.3,282.9 98.7,201.9"
-    fill="#ffe0cc" fill-opacity="0.6" stroke="#cc6622" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- △ADQ 橙色填色（无描边） -->
+  <polygon points="253.2,130.0 253.2,290.0 117.7,226.0"
+    fill="#ffd0b5" fill-opacity="0.65"/>
 
-  <!-- BP 延长线到交点 M -->
-  <line x1="392.0" y1="121.0"
-        x2="304.0" y2="315.2"
-        stroke="#2266cc" stroke-width="2"/>
+  <!-- △ABP 边框（蓝虚线，正方形外的边） -->
+  <line x1="253.2" y1="130.0" x2="334.5" y2="290.0" stroke="#2255bb" stroke-width="1.6" stroke-dasharray="5,3"/>
+  <line x1="388.7" y1="130.0" x2="334.5" y2="290.0" stroke="#2255bb" stroke-width="1.6" stroke-dasharray="5,3"/>
 
-  <!-- DQ 延长线到交点 M -->
-  <line x1="245.3" y1="282.9"
-        x2="304.0" y2="315.2"
-        stroke="#cc6622" stroke-width="2"/>
+  <!-- △ADQ 边框（橙虚线） -->
+  <line x1="253.2" y1="130.0" x2="117.7" y2="226.0" stroke="#cc5500" stroke-width="1.6" stroke-dasharray="5,3"/>
+  <line x1="253.2" y1="290.0" x2="117.7" y2="226.0" stroke="#cc5500" stroke-width="1.6" stroke-dasharray="5,3"/>
 
-  <!-- 直角符号 -->
-  <polyline points="300.1 323.9 292.2 319.6 296.1 310.9"
-    fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- BP 实线（加粗蓝）-->
+  <line x1="388.7" y1="130.0" x2="334.5" y2="290.0"
+    stroke="#1144cc" stroke-width="3"/>
+  <!-- BP 延长到 M 虚线 -->
+  <line x1="334.5" y1="290.0" x2="323.3" y2="323.1"
+    stroke="#1144cc" stroke-width="1.5" stroke-dasharray="5,4" stroke-opacity="0.7"/>
 
-  <!-- AP 连线（旋转轴参考） -->
-  <line x1="245.3" y1="121.0"
-        x2="318.7" y2="282.9"
-        stroke="#888" stroke-width="1.2" stroke-dasharray="4,4"/>
-  <!-- AQ 连线 -->
-  <line x1="245.3" y1="121.0"
-        x2="98.7" y2="201.9"
-        stroke="#888" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <!-- DQ 实线（加粗橙）-->
+  <line x1="253.2" y1="290.0" x2="117.7" y2="226.0"
+    stroke="#cc4400" stroke-width="3"/>
+  <!-- DQ 延长到 M 虚线（从 Q 反向延长到 M，但 M 在 D 延长方向，即从 D 反向延长超过 Q 的反方向…）-->
+  <!-- M 在 DQ 的 D 端延长方向 -->
+  <line x1="253.2" y1="290.0" x2="323.3" y2="323.1"
+    stroke="#cc4400" stroke-width="1.5" stroke-dasharray="5,4" stroke-opacity="0.7"/>
 
-  <!-- 旋转弧（从 AP 到 AQ 方向） -->
-  <!-- 从 P 方向到 Q 方向，弧半径取 AP/3 -->
+  <!-- 直角符号（放大）-->
+  <polyline points="319.3,335.0 329.3,339.7 333.4,327.9"
+    fill="none" stroke="#222" stroke-width="2.2"/>
 
-  <!-- 各点标注 -->
-  <circle cx="245.3" cy="121.0" r="4" fill="#3355aa"/>
-  <circle cx="392.0" cy="121.0" r="4" fill="#3355aa"/>
-  <circle cx="392.0" cy="282.9" r="4" fill="#3355aa"/>
-  <circle cx="245.3" cy="282.9" r="4" fill="#3355aa"/>
-  <circle cx="318.7" cy="282.9" r="4" fill="#2266cc"/>
-  <circle cx="98.7" cy="201.9" r="4" fill="#cc6622"/>
-  <circle cx="304.0" cy="315.2" r="3" fill="#555"/>
+  <!-- BP 等长刻度线 -->
+  <line x1="357.2" y1="203.6" x2="368.5" y2="209.0" stroke="#1144cc" stroke-width="2.2"/><line x1="354.7" y1="211.0" x2="366.0" y2="216.4" stroke="#1144cc" stroke-width="2.2"/>
 
-  <!-- 标签 -->
-  <text x="227.3" y="113.0" font-size="18" fill="#3355aa" font-style="italic">A</text>
-  <text x="398.0" y="113.0" font-size="18" fill="#3355aa" font-style="italic">B</text>
-  <text x="398.0" y="300.9" font-size="18" fill="#3355aa" font-style="italic">C</text>
-  <text x="227.3" y="300.9" font-size="18" fill="#3355aa" font-style="italic">D</text>
-  <text x="324.7" y="300.9" font-size="18" fill="#2266cc" font-style="italic">P</text>
-  <text x="76.7" y="207.9" font-size="18" fill="#cc6622" font-style="italic">Q</text>
-  <text x="310.0" y="331.2" font-size="15" fill="#555" font-style="italic">M</text>
+  <!-- DQ 等长刻度线 -->
+  <line x1="190.9" y1="252.8" x2="186.4" y2="266.2" stroke="#cc4400" stroke-width="2.2"/><line x1="184.6" y1="249.8" x2="180.1" y2="263.2" stroke="#cc4400" stroke-width="2.2"/>
 
-  <!-- BP = DQ 标注 -->
-  <text x="363.3" y="201.9"
-    font-size="13" fill="#2266cc">BP</text>
-  <text x="144.0" y="238.4"
-    font-size="13" fill="#cc6622">DQ</text>
+  <!-- 旋转弧 + 90°标注 -->
+  <path d="M 279.2 181.2 A 50.6 50.6 0 0 0 209.9 160.7"
+    fill="none" stroke="#666" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="219" y="175" font-size="13" fill="#555" font-style="italic">90°</text>
 
-  <!-- 旋转标注 -->
-  <text x="220" y="50" font-size="13" fill="#555" text-anchor="middle">△ABP ——顺时针90°——→ △ADQ</text>
-  <text x="220" y="68" font-size="13" fill="#555" text-anchor="middle">BP ⊥ DQ，BP = DQ</text>
+  <!-- 顶点圆点 -->
+  <circle cx="253.2" cy="130.0" r="4.5" fill="#3366cc"/>
+  <circle cx="388.7" cy="130.0" r="4.5" fill="#3366cc"/>
+  <circle cx="388.7" cy="290.0" r="4.5" fill="#3366cc"/>
+  <circle cx="253.2" cy="290.0" r="4.5" fill="#3366cc"/>
+  <circle cx="334.5" cy="290.0" r="4.5" fill="#1144cc"/>
+  <circle cx="117.7" cy="226.0" r="4.5" fill="#cc4400"/>
+  <circle cx="323.3" cy="323.1" r="3.5" fill="#555"/>
+
+  <!-- 顶点标签 -->
+  <text x="231" y="121" font-size="20" fill="#1a3a99" font-style="italic" font-weight="bold">A</text>
+  <text x="396" y="121" font-size="20" fill="#1a3a99" font-style="italic" font-weight="bold">B</text>
+  <text x="396" y="311" font-size="20" fill="#1a3a99" font-style="italic" font-weight="bold">C</text>
+  <text x="231" y="311" font-size="20" fill="#1a3a99" font-style="italic" font-weight="bold">D</text>
+  <text x="342" y="311" font-size="20" fill="#1144cc" font-style="italic" font-weight="bold">P</text>
+  <text x="92" y="233" font-size="20" fill="#cc4400" font-style="italic" font-weight="bold">Q</text>
+  <text x="329" y="341" font-size="14" fill="#555" font-style="italic">M</text>
+
+  <!-- 图例 -->
+  <rect x="8" y="8" width="218" height="60" rx="5" fill="white" fill-opacity="0.9" stroke="#bbb" stroke-width="1"/>
+  <rect x="14" y="16" width="14" height="12" fill="#c5daff" stroke="#2255bb" stroke-width="1"/>
+  <text x="32" y="26" font-size="12" fill="#1144cc">△ABP（原始三角形）</text>
+  <rect x="14" y="33" width="14" height="12" fill="#ffd0b5" stroke="#cc5500" stroke-width="1"/>
+  <text x="32" y="43" font-size="12" fill="#cc4400">△ADQ（旋转 90° 后）</text>
+  <text x="14" y="60" font-size="12" fill="#333">BP ⊥ DQ，|BP| = |DQ|</text>
 </svg>
