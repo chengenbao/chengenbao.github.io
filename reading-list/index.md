@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-13-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-13</time>
+    </div>
+    <h2>字母循环填表规律（四年级）/ 青蛙比例问题（五年级）</h2>
+    <p>模运算计数找规律 + 比例方程联立求解</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题（2023 / 2024）</span>
+      <span class="rl-tags">#余数 #规律 #比例 #方程</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
