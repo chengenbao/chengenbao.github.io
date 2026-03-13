@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-13</time>
+    </div>
+    <h2>MoE推理加速·SAM优化器·序列并行·RL框架</h2>
+    <p>精选6篇前沿论文与博客：MoE推测激活推理、SAM优化器改进、LLM可解释性、百万Token序列并行训练</p>
+    <div class="rl-meta">
+      <span class="rl-source">ArXiv · HuggingFace</span>
+      <span class="rl-tags">#MoE #分布式训练 #RL #可解释性</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-13</time>
+    </div>
+    <h2>关税通胀传导·CPI符合预期·301条款·标普破位</h2>
+    <p>美联储实证关税价格传导、2月CPI +2.4%、对华301条款调查、标普500跌破关键支撑</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed · CNBC · MarketWatch</span>
+      <span class="rl-tags">#通胀 #贸易战 #美股 #宏观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-12-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
