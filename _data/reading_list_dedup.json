@@ -1,52 +1,20 @@
 {
-  "urls": [
-    "https://arxiv.org/abs/2603.11021",
-    "https://arxiv.org/abs/2603.10899",
-    "https://arxiv.org/abs/2603.10985",
-    "https://arxiv.org/abs/2602.10520",
-    "https://huggingface.co/blog/async-rl-training-landscape",
-    "https://www.bis.org/publ/work1271.htm",
-    "https://www.bis.org/publ/work1273.htm",
-    "https://www.imf.org/en/Publications/fandd/issues/2026/03",
-    "https://www.bis.org/publ/work1278.htm"
-  ],
-  "entries": [
-    {
-      "url": "https://arxiv.org/abs/2603.11021",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.10899",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.10985",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2602.10520",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://huggingface.co/blog/async-rl-training-landscape",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://www.bis.org/publ/work1271.htm",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://www.bis.org/publ/work1273.htm",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://www.imf.org/en/Publications/fandd/issues/2026/03",
-      "date": "2026-03-12"
-    },
-    {
-      "url": "https://www.bis.org/publ/work1278.htm",
-      "date": "2026-03-12"
-    }
-  ],
-  "last_updated": "2026-03-12"
+  "tech": {
+    "2026-03-13": [
+      "https://arxiv.org/abs/2603.09983",
+      "https://arxiv.org/abs/2603.10048",
+      "https://arxiv.org/abs/2603.09988",
+      "https://arxiv.org/abs/2603.09985",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/async-rl-training-landscape"
+    ]
+  },
+  "finance": {
+    "2026-03-13": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
+      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
+      "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
+    ]
+  }
 }
