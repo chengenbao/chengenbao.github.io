@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-14-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-14</time>
+    </div>
+    <h2>相邻座位概率（六年级）/ 两山交点高度（初一）</h2>
+    <p>互补计数求概率、等腰直角三角形面积叠加——两道 2024 AMC 8 竞赛压轴真题</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#概率 #几何 #互补计数</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
