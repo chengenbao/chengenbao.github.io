@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-14</time>
+    </div>
+    <h2>LLM微调、Post-Training遗忘与RL采样计算优化</h2>
+    <p>精选 arXiv 深度技术论文：LLM 微调新范式、Post-Training 遗忘量化与 RL 采样计算优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM #Fine-Tuning #RL #Post-Training</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-14</time>
+    </div>
+    <h2>通胀数据方法论调整、中东石油冲击与贸易关税博弈</h2>
+    <p>CPI 方法论调整引发通胀重估，中东冲突波及全球能源供应，贸易关税博弈持续升温</p>
+    <div class="rl-meta">
+      <span class="rl-source">NYT Economy</span>
+      <span class="rl-tags">#通胀 #石油 #贸易 #关税</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-13-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
