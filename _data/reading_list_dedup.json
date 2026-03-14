@@ -7,6 +7,14 @@
       "https://arxiv.org/abs/2603.09985",
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/async-rl-training-landscape"
+    ],
+    "2026-03-14": [
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12163",
+      "https://arxiv.org/abs/2603.12151",
+      "https://arxiv.org/abs/2603.12249",
+      "https://arxiv.org/abs/2603.12226",
+      "https://arxiv.org/abs/2603.12206"
     ]
   },
   "finance": {
@@ -15,6 +23,13 @@
       "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
       "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
       "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
+    ],
+    "2026-03-14": [
+      "https://www.nytimes.com/2026/03/13/business/economy/inflation-cpi-pce-methodology.html",
+      "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
+      "https://www.nytimes.com/2026/03/13/business/economy/iran-war-global-supply-chain.html",
+      "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html",
+      "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
     ]
   }
 }
