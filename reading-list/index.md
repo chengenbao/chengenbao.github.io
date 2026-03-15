@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-15</time>
+    </div>
+    <h2>大模型推理加速、序列并行与 MoE 架构前沿</h2>
+    <p>IndexCache 跨层索引复用、Ulysses 序列并行训练百万 Token、16 个开源 RL 框架 GPU 利用率实战</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · HuggingFace Blog</span>
+      <span class="rl-tags">#推理加速 #MoE #序列并行 #RLHF</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-15</time>
+    </div>
+    <h2>滞胀压力、301 贸易战与能源冲击</h2>
+    <p>美 Q4 GDP 下修至 0.7%、油价破百，特朗普对华 301 调查峰会前布局，美油企坐享 630 亿美元意外之财</p>
+    <div class="rl-meta">
+      <span class="rl-source">CNBC · Financial Times</span>
+      <span class="rl-tags">#滞胀 #贸易战 #能源 #宏观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-14-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
