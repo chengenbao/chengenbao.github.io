@@ -15,6 +15,14 @@
       "https://arxiv.org/abs/2603.12249",
       "https://arxiv.org/abs/2603.12226",
       "https://arxiv.org/abs/2603.12206"
+    ],
+    "2026-03-15": [
+      "https://arxiv.org/abs/2603.12201",
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12246",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/async-rl-training-landscape",
+      "https://huggingface.co/blog/moe-transformers"
     ]
   },
   "finance": {
@@ -30,6 +38,12 @@
       "https://www.nytimes.com/2026/03/13/business/economy/iran-war-global-supply-chain.html",
       "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html",
       "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
+    ],
+    "2026-03-15": [
+      "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
+      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
+      "https://www.ft.com/content/37d49e35-8d0e-4ea6-9db8-74183101f204",
+      "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html"
     ]
   }
 }
