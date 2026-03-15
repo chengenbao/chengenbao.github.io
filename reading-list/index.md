@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-15-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-15</time>
+    </div>
+    <h2>变换的交换性（初二） / 完全平方数的极值（初三）</h2>
+    <p>探索坐标变换的可交换性规律，以及利用平方差因数分解求最大整数</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10 真题</span>
+      <span class="rl-tags">#坐标变换 #完全平方数 #数论</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
