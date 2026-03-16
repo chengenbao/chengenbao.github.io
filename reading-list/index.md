@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-16-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-16</time>
+    </div>
+    <h2>青蛙跳睡莲（四年级）/ 数字分组等和（六年级）</h2>
+    <p>同余与丢番图方程求最少跳跃次数；枚举剪枝求集合三等分方案数</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 2023 真题</span>
+      <span class="rl-tags">#同余 #组合计数</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
