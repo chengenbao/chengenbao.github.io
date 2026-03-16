@@ -23,6 +23,14 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/async-rl-training-landscape",
       "https://huggingface.co/blog/moe-transformers"
+    ],
+    "2026-03-16": [
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12163",
+      "https://arxiv.org/abs/2603.12206",
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://arxiv.org/abs/2603.12244"
     ]
   },
   "finance": {
@@ -44,6 +52,12 @@
       "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
       "https://www.ft.com/content/37d49e35-8d0e-4ea6-9db8-74183101f204",
       "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html"
+    ],
+    "2026-03-16": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
     ]
   }
 }
