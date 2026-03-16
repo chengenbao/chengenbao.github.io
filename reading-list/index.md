@@ -18,6 +18,38 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-16</time>
+    </div>
+    <h2>训练算法革新与大规模 RL 后训练基础设施</h2>
+    <p>EBFT 无 reward model on-policy 训练、torchforge+Weaver 大规模 RL、Ulysses 百万 Token 序列并行、SSM 安全防御</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · PyTorch Blog · HuggingFace</span>
+      <span class="rl-tags">#训练算法 #分布式训练 #RLHF #Mamba</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-03-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-16</time>
+    </div>
+    <h2>关税通胀、银行韧性与 AI 基建全球贸易效应</h2>
+    <p>联储实证关税零售价格渐进传导、银行存款冲击压力测试、AI 资本开支重塑全球贸易、远期美债期限溢价回归</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve FEDS Notes</span>
+      <span class="rl-tags">#关税 #通胀 #银行 #AI基建 #美债</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-15-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
