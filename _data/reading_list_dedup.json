@@ -31,6 +31,13 @@
       "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
       "https://huggingface.co/blog/ulysses-sp",
       "https://arxiv.org/abs/2603.12244"
+    ],
+    "2026-03-17": [
+      "https://arxiv.org/abs/2603.12272",
+      "https://arxiv.org/abs/2603.12646",
+      "https://arxiv.org/abs/2603.12298",
+      "https://arxiv.org/abs/2603.12577",
+      "https://arxiv.org/abs/2603.12324"
     ]
   },
   "finance": {
@@ -58,6 +65,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
+    ],
+    "2026-03-17": [
+      "https://www.cnbc.com/2026/03/16/bessent-says-treasury-is-not-intervening-in-oil-commodities-markets-and-has-no-authority-to-do-so.html",
+      "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
     ]
   }
 }
