@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-17</time>
+    </div>
+    <h2>LLM推理加速三路进击：ActTail、vLLM路由、激活引导</h2>
+    <p>激活稀疏化 98× 提速 · MoE+LoRA 专家系统 · RL 热力学理论</p>
+    <div class="rl-meta">
+      <span class="rl-source">ArXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM推理 #vLLM #MoE #PEFT</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-17</time>
+    </div>
+    <h2>油市地缘冲击、中美峰会博弈与联储百年资产负债表</h2>
+    <p>财政部不干预油市 · 北京峰会可能推迟 · 供应链信贷风险 · QT历史锚点</p>
+    <div class="rl-meta">
+      <span class="rl-source">CNBC · Federal Reserve FEDS Notes</span>
+      <span class="rl-tags">#伊朗战争 #中美关系 #美联储 #供应链</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-16-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
