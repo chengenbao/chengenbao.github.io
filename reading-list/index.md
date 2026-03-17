@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-17-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-17</time>
+    </div>
+    <h2>折纸正八面体（五年级）/ 等差数列求值（初一）</h2>
+    <p>空间折叠想象：展开图折正八面体找对应面；等差数列约束：联立三个区间求首项与公差</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#空间想象 #等差数列</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
