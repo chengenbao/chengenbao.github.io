@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-18-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-18</time>
+    </div>
+    <h2>条件概率方程（初二） / 圆幂定理求线段（初三）</h2>
+    <p>三局两胜赛制中的概率方程求解；两矩形四点共圆，用圆幂定理求线段长</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10A / AIME 真题</span>
+      <span class="rl-tags">#概率 #圆幂定理 #几何</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-18-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
