@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-18-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-18</time>
+    </div>
+    <h2>Transformer 内部机制解析 × MXFP8 训练加速</h2>
+    <p>旋转动态抑制错误答案 · REDEREF 无训练多智能体 · FlashAttention-4 峰值性能</p>
+    <div class="rl-meta">
+      <span class="rl-source">ArXiv cs.CL / cs.LG · PyTorch Blog</span>
+      <span class="rl-tags">#Transformer #MoE #FlashAttention #MultiAgent</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-18</time>
+    </div>
+    <h2>油价破百 × 美联储分歧 × 伊朗 Kharg 岛博弈</h2>
+    <p>能源冲击加剧滞胀风险 · 降息窗口收窄 · 中美贸易委员会机制浮现</p>
+    <div class="rl-meta">
+      <span class="rl-source">New York Times</span>
+      <span class="rl-tags">#油价 #美联储 #伊朗 #中美贸易 #预测市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-17-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
