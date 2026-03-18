@@ -38,6 +38,15 @@
       "https://arxiv.org/abs/2603.12298",
       "https://arxiv.org/abs/2603.12577",
       "https://arxiv.org/abs/2603.12324"
+    ],
+    "2026-03-18": [
+      "https://arxiv.org/abs/2603.13259",
+      "https://arxiv.org/abs/2603.13256",
+      "https://arxiv.org/abs/2603.13249",
+      "https://arxiv.org/abs/2603.13235",
+      "https://arxiv.org/abs/2603.13258",
+      "https://pytorch.org/blog/mxfp8-training-moes/",
+      "https://pytorch.org/blog/flexattention-flashattention-4/"
     ]
   },
   "finance": {
@@ -71,6 +80,13 @@
       "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
+    ],
+    "2026-03-18": [
+      "https://www.nytimes.com/2026/03/17/us/politics/kharg-island-iran-trump-risks.html",
+      "https://www.nytimes.com/2026/03/17/business/economy/iran-war-rate-cuts.html",
+      "https://www.nytimes.com/2026/03/17/business/economy/oil-100-barrel-supply.html",
+      "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
+      "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
     ]
   }
 }
