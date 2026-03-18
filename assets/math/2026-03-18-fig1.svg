@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white"/>
+  
+  <!-- Scale: 1 unit = 1.8px, shift origin to (30, 270) -->
+  <!-- Coordinates based on the problem: 
+       ABCD: A=(0,0), B=(107,0), C=(107,16), D=(0,16)
+       EFGH: E=(3,16), F=(187,16), G=(187,33), H=(3,33)
+       Using scale factor 2.0, x-offset=10, y-offset=270 (y-axis flipped)
+  -->
+
+  <!-- Scale: multiply x by 2.0, y by 2.0 (flipped), offset (20, 280) -->
+  <!-- A=(20,280), B=(234,280), C=(234,248), D=(20,248) -->
+  <!-- E=(26,248), F=(394,248), G=(394,214), H=(26,214) -->
+
+  <!-- Rectangle ABCD (bottom rectangle) -->
+  <rect x="20" y="248" width="214" height="32" fill="#E8F4FD" stroke="#2980B9" stroke-width="2"/>
+  
+  <!-- Rectangle EFGH (top rectangle) -->
+  <rect x="26" y="214" width="368" height="34" fill="#EAF9EA" stroke="#27AE60" stroke-width="2"/>
+  
+  <!-- Circle through A, D, H, G -->
+  <!-- Circle through A=(20,280), D=(20,248), H=(26,214), G=(394,214) -->
+  <!-- Center and radius computed geometrically - approximate for visual -->
+  <circle cx="207" cy="247" r="145" fill="none" stroke="#E74C3C" stroke-width="1.5" stroke-dasharray="6,4"/>
+  
+  <!-- Labels for vertices -->
+  <!-- A -->
+  <circle cx="20" cy="280" r="3" fill="#2980B9"/>
+  <text x="8" y="296" font-size="14" font-family="serif" font-style="italic" fill="#2980B9">A</text>
+  
+  <!-- B -->
+  <circle cx="234" cy="280" r="3" fill="#2980B9"/>
+  <text x="237" y="296" font-size="14" font-family="serif" font-style="italic" fill="#2980B9">B</text>
+  
+  <!-- C -->
+  <circle cx="234" cy="248" r="3" fill="#2980B9"/>
+  <text x="237" y="246" font-size="14" font-family="serif" font-style="italic" fill="#2980B9">C</text>
+  
+  <!-- D -->
+  <circle cx="20" cy="248" r="3" fill="#2980B9"/>
+  <text x="4" y="246" font-size="14" font-family="serif" font-style="italic" fill="#2980B9">D</text>
+  
+  <!-- E -->
+  <circle cx="26" cy="248" r="3" fill="#27AE60"/>
+  <text x="18" y="264" font-size="14" font-family="serif" font-style="italic" fill="#27AE60">E</text>
+  
+  <!-- F -->
+  <circle cx="394" cy="248" r="3" fill="#27AE60"/>
+  <text x="397" y="264" font-size="14" font-family="serif" font-style="italic" fill="#27AE60">F</text>
+  
+  <!-- G -->
+  <circle cx="394" cy="214" r="3" fill="#27AE60"/>
+  <text x="397" y="220" font-size="14" font-family="serif" font-style="italic" fill="#27AE60">G</text>
+  
+  <!-- H -->
+  <circle cx="26" cy="214" r="3" fill="#27AE60"/>
+  <text x="4" y="220" font-size="14" font-family="serif" font-style="italic" fill="#27AE60">H</text>
+  
+  <!-- Dimension labels -->
+  <!-- AB = 107 -->
+  <line x1="20" y1="300" x2="234" y2="300" stroke="#666" stroke-width="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="120" y="318" font-size="12" text-anchor="middle" fill="#666">AB = 107</text>
+  
+  <!-- BC = 16 -->
+  <line x1="250" y1="248" x2="250" y2="280" stroke="#666" stroke-width="1"/>
+  <text x="262" y="268" font-size="12" text-anchor="start" fill="#666">BC = 16</text>
+  
+  <!-- EF = 184 (span from x=26 to x=394) -->
+  <text x="200" y="244" font-size="11" text-anchor="middle" fill="#27AE60">EF = 184</text>
+  
+  <!-- FG = 17 -->
+  <text x="400" y="234" font-size="11" fill="#27AE60">FG = 17</text>
+  
+  <!-- CE = ? label -->
+  <text x="230" y="253" font-size="12" fill="#E74C3C" font-weight="bold">CE = ?</text>
+  
+  <!-- Collinear line D,E,C,F -->
+  <line x1="15" y1="248" x2="400" y2="248" stroke="#9B59B6" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="210" y="30" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">2024 AIME I Problem 5</text>
+  <text x="210" y="52" font-size="11" text-anchor="middle" fill="#666">D, E, C, F collinear · A, D, H, G concyclic</text>
+  
+  <!-- P point (extended) -->
+  <circle cx="20" cy="214" r="3" fill="#9B59B6"/>
+  <text x="4" y="212" font-size="13" font-family="serif" font-style="italic" fill="#9B59B6">P</text>
+  <line x1="20" y1="248" x2="20" y2="210" stroke="#9B59B6" stroke-width="1.5" stroke-dasharray="5,3"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
