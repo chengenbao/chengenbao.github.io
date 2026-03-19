@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-19</time>
+    </div>
+    <h2>LLM量化训练·注意力加速·GPU内核优化</h2>
+    <p>MXFP8 MoE训练1.3x加速、BATQuant MXFP4量化、FlexAttention+FA4整合、KernelAgent多智能体内核优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">ArXiv · PyTorch Blog</span>
+      <span class="rl-tags">#量化 #FlashAttention #MoE #CUDA</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-19</time>
+    </div>
+    <h2>关税传导·银行韧性·美联储独立性·AI贸易效应</h2>
+    <p>关税滞后传导通胀、银行流动性压力测试、鲍威尔留任表态、AI基建重塑全球贸易</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed Notes · MarketWatch</span>
+      <span class="rl-tags">#通胀 #美联储 #金融稳定 #AI贸易</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-18-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
