@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-19-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-19</time>
+    </div>
+    <h2>等边三角形面积比（四年级） / 3×3方格菱形概率（五年级）</h2>
+    <p>探索相似三角形面积比定理，以及独立事件的乘法与加法概率原理</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#相似三角形 #面积比 #概率</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
