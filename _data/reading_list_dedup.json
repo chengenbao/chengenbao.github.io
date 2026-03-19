@@ -47,6 +47,14 @@
       "https://arxiv.org/abs/2603.13258",
       "https://pytorch.org/blog/mxfp8-training-moes/",
       "https://pytorch.org/blog/flexattention-flashattention-4/"
+    ],
+    "2026-03-19": [
+      "https://arxiv.org/abs/2603.16731",
+      "https://arxiv.org/abs/2603.16590",
+      "https://pytorch.org/blog/mxfp8-training-for-moes-1-3x-training-speedup-vs-bf16-for-llama4-scout-on-gb200-cluster-using-torchao-and-torchtitan/",
+      "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
+      "https://arxiv.org/abs/2603.16127",
+      "https://pytorch.org/blog/kernelagent-hardware-guided-gpu-kernel-optimization-via-multi-agent-orchestration/"
     ]
   },
   "finance": {
@@ -87,6 +95,12 @@
       "https://www.nytimes.com/2026/03/17/business/economy/oil-100-barrel-supply.html",
       "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
       "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
+    ],
+    "2026-03-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
+      "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
     ]
   }
 }
