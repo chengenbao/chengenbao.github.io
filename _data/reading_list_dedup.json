@@ -55,6 +55,15 @@
       "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
       "https://arxiv.org/abs/2603.16127",
       "https://pytorch.org/blog/kernelagent-hardware-guided-gpu-kernel-optimization-via-multi-agent-orchestration/"
+    ],
+    "2026-03-20": [
+      "https://arxiv.org/abs/2603.17970",
+      "https://arxiv.org/abs/2603.17946",
+      "https://arxiv.org/abs/2603.17891",
+      "https://arxiv.org/abs/2603.17945",
+      "https://arxiv.org/abs/2603.17942",
+      "https://arxiv.org/abs/2603.17884",
+      "https://arxiv.org/abs/2603.17872"
     ]
   },
   "finance": {
@@ -101,6 +110,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
       "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
+    ],
+    "2026-03-20": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/downside-and-upside-economic-uncertainty-20260212.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html",
+      "https://www.cnbc.com/2026/03/19/traders-rate-cut.html",
+      "https://www.cnbc.com/2026/03/12/gig-workers-gas-prices-aaa-iran.html"
     ]
   }
 }
