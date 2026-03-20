@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-20</time>
+    </div>
+    <h2>优化器革新 × 推理加速 × 多Token预测</h2>
+    <p>MUD优化器加速训练 · CARE分解加速MLA推理 · RAMP端侧量化 · 嵌入空间多Token预测 · ShapleyLaw多语言缩放</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG · cs.CL</span>
+      <span class="rl-tags">#优化器 #推理优化 #量化 #ScalingLaws</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-20</time>
+    </div>
+    <h2>美联储鹰派 × 关税通胀 × 稳定币监管</h2>
+    <p>降息预期急剧收窄 · 关税推动油价至21月高位 · 联储从历史银行券视角审视稳定币风险</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve · CNBC</span>
+      <span class="rl-tags">#美联储 #通胀 #稳定币 #关税</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-19-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
