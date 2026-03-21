@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-21-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-21</time>
+    </div>
+    <h2>蜘蛛网随机游走（初二） / 超阶乘质因子分解（初三）</h2>
+    <p>概率·随机游走·五角星图论 / Legendre公式·超阶乘数论</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#概率 #图论 #数论 #阶乘</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
