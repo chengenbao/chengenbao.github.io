@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-21</time>
+    </div>
+    <h2>推理加速 × 后训练优化 × MoE 架构</h2>
+    <p>SpecForge 推测解码框架、Nemotron-Cascade 2 MoE 蒸馏、TARo Token 级测试时对齐等 6 篇前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arxiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#推理加速 #MoE #PostTraining</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-21</time>
+    </div>
+    <h2>中东能源冲击 × 关税通胀传导 × AI 经济周期</h2>
+    <p>伊朗战争推动油价破历史高点、欧洲滞胀风险飙升、中国出口结构双重性与 AI 经济史启示</p>
+    <div class="rl-meta">
+      <span class="rl-source">CNBC / EconoFact</span>
+      <span class="rl-tags">#油价 #通胀 #滞胀 #AI经济学</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-20-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
