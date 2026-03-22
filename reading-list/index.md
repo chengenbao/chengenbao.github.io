@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-22-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-22</time>
+    </div>
+    <h2>等间距数列求和（四年级） / 追及问题（六年级）</h2>
+    <p>等差数列代数解法 × 行程追及方程建模，来自 2026 AMC 8 真题</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#等差数列 #追及问题</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-21-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
