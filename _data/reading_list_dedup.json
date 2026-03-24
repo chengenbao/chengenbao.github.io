@@ -88,6 +88,14 @@
       "https://huggingface.co/blog/moe-transformers",
       "https://arxiv.org/abs/2603.20172",
       "https://arxiv.org/abs/2603.19532"
+    ],
+    "2026-03-23": [
+      "https://arxiv.org/abs/2603.20155",
+      "https://arxiv.org/abs/2603.19532",
+      "https://arxiv.org/abs/2603.20172",
+      "https://huggingface.co/blog/async-rl-training-landscape",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/moe-transformers"
     ]
   },
   "finance": {
@@ -158,6 +166,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
+    ],
+    "2026-03-23": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
     ]
   }
 }
