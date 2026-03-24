@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+  <a class="rl-card tech" href="/reading-list/2026-03-23-tech-daily/">
+    <div class="rl-accent"></div>
+    <div class="rl-body">
+      <div class="rl-top">
+        <span class="rl-badge tech">📰 技术速递</span>
+        <time>2026-03-23</time>
+      </div>
+      <h2>RLHF/MoE/序列并行/LLM幻觉与CoT评估</h2>
+      <p>EvidenceRL消除LLM幻觉、16个RL训练库对比、百万Token序列并行训练、MoE深度解析</p>
+      <div class="rl-meta">
+        <span class="rl-source">arXiv + HuggingFace Blog</span>
+        <span class="rl-tags">#RLHF #MoE #序列并行</span>
+      </div>
+    </div>
+  </a>
+  <a class="rl-card finance" href="/reading-list/2026-03-23-finance-daily/">
+    <div class="rl-accent"></div>
+    <div class="rl-body">
+      <div class="rl-top">
+        <span class="rl-badge finance">💰 财经精选</span>
+        <time>2026-03-23</time>
+      </div>
+      <h2>中国贸易顺差创历史新高与关税通胀传导</h2>
+      <p>中国2025年贸易顺差达1.2万亿美元、关税慢爬式价格传导、AI基础设施重塑全球贸易</p>
+      <div class="rl-meta">
+        <span class="rl-source">美联储 FEDS Notes</span>
+        <span class="rl-tags">#贸易政策 #美联储 #AI经济</span>
+      </div>
+    </div>
+  </a>
 <a class="rl-card tech" href="/reading-list/2026-03-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
