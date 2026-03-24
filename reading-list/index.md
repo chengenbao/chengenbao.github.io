@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-22</time>
+    </div>
+    <h2>异步 RL 训练 × 序列并行 × MoE 架构全解</h2>
+    <p>HuggingFace: 16 个 RL 库对比、百万 token 上下文训练；arXiv: CoT 忠实度测量方法论、EvidenceRL</p>
+    <div class="rl-meta">
+      <span class="rl-source">Hugging Face Blog × arXiv</span>
+      <span class="rl-tags">#RL训练 #序列并行 #MoE</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-22</time>
+    </div>
+    <h2>中国贸易顺差创纪录 × AI 基建贸易效应 × 银行抗压</h2>
+    <p>中国 2025 年贸易顺差 $1.2 万亿超 GDP 6%；AI 基建热潮驱动半导体贸易；美联储银行压力测试</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve FEDS Notes</span>
+      <span class="rl-tags">#贸易 #AI经济 #银行</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
