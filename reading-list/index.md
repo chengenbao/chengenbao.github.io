@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-24</time>
+    </div>
+    <h2>LLM 推理评估与能力边界</h2>
+    <p>7 篇前沿论文：对话推理、CoT 忠实度、语义 Token 聚类、视觉 Token 剪枝</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM #推理评估 #arXiv</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-24</time>
+    </div>
+    <h2>中国市场动态与全球宏观</h2>
+    <p>中国能源政策、A 股反弹信号、美股期货走势</p>
+    <div class="rl-meta">
+      <span class="rl-source">Bloomberg Markets</span>
+      <span class="rl-tags">#宏观 #中国市场 #美股</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-22-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
