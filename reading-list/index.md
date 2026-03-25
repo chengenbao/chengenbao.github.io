@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-25</time>
+    </div>
+    <h2>KV Cache 优化全景 & LLM 推理效率前沿</h2>
+    <p>KV Cache 量化压缩与分块复用、RLHF 快慢奖励建模、自适应推理加速，6篇 arXiv 前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#KVCache #LLM推理 #RLHF #训练算法</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-25</time>
+    </div>
+    <h2>货币政策机制 · 金融条件指数 · 气候经济学</h2>
+    <p>央行准备金需求、FCI目标制政策效果、碳预算公平分配、宏观不确定性与人力资本，4篇 NBER 最新工作论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">NBER Working Papers</span>
+      <span class="rl-tags">#货币政策 #金融条件 #气候经济学 #宏观</span>
+    </div>
+  </div>
+</a>
   <a class="rl-card tech" href="/reading-list/2026-03-23-tech-daily/">
     <div class="rl-accent"></div>
     <div class="rl-body">
