@@ -96,6 +96,14 @@
       "https://huggingface.co/blog/async-rl-training-landscape",
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/moe-transformers"
+    ],
+    "2026-03-25": [
+      "https://arxiv.org/abs/2603.20397",
+      "https://arxiv.org/abs/2603.20218",
+      "https://arxiv.org/abs/2603.20212",
+      "https://arxiv.org/abs/2603.20492",
+      "https://arxiv.org/abs/2603.20219",
+      "https://arxiv.org/abs/2603.20224"
     ]
   },
   "finance": {
@@ -173,6 +181,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
+    ],
+    "2026-03-25": [
+      "https://www.nber.org/papers/w33762",
+      "https://www.nber.org/papers/w33759",
+      "https://www.nber.org/papers/w33767",
+      "https://www.nber.org/papers/w33760"
     ]
   }
 }
