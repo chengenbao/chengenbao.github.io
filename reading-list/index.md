@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-26</time>
+    </div>
+    <h2>注意力稀疏扩展 · LLM量化 · RLVR分布 · CoT可信度</h2>
+    <p>6篇arXiv深度论文：特征稀疏注意力、DAQ量化压缩、RLVR token分布、CoT忠实性研究与混合SSM架构</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#注意力机制 #LLM训练 #量化 #RLHF</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-26</time>
+    </div>
+    <h2>全球金融风险 · 关税博弈 · AI量化监管 · 美元化浪潮</h2>
+    <p>4篇美联储IFDP研究：利率波动与增长脆弱性、欧盟关税报复效应、LLM量化去监管研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed IFDP</span>
+      <span class="rl-tags">#宏观经济 #贸易政策 #美联储 #AI+金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
