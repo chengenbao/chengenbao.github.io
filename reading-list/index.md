@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-26-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-26</time>
+    </div>
+    <h2>幻方填数（六年级）/ 字符串相邻交换（初一）</h2>
+    <p>幻方约束中求最小值；字符串反转的最少相邻交换次数与逆序数</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 / AMC 10 真题</span>
+      <span class="rl-tags">#幻方 #逆序数 #排列组合</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
