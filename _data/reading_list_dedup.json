@@ -104,6 +104,14 @@
       "https://arxiv.org/abs/2603.20492",
       "https://arxiv.org/abs/2603.20219",
       "https://arxiv.org/abs/2603.20224"
+    ],
+    "2026-03-26": [
+      "https://arxiv.org/abs/2603.22300",
+      "https://arxiv.org/abs/2603.22324",
+      "https://arxiv.org/abs/2603.22446",
+      "https://arxiv.org/abs/2603.22754",
+      "https://arxiv.org/abs/2603.22582",
+      "https://arxiv.org/abs/2603.22473"
     ]
   },
   "finance": {
@@ -187,6 +195,12 @@
       "https://www.nber.org/papers/w33759",
       "https://www.nber.org/papers/w33767",
       "https://www.nber.org/papers/w33760"
+    ],
+    "2026-03-26": [
+      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm",
+      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
+      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
+      "https://www.federalreserve.gov/econres/ifdp/dollarization-waves-new-evidence-from-a-comprehensive-international-bond-database.htm"
     ]
   }
 }
