@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-27-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-27</time>
+    </div>
+    <h2>阶乘乘积完全平方（初二）/ 多项式正负区间（初三）</h2>
+    <p>数论：让阶乘连乘成为完全平方；多项式：分析奇偶次幂的符号区间</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10B 真题</span>
+      <span class="rl-tags">#数论 #阶乘 #完全平方 #多项式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
