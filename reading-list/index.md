@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-27</time>
+    </div>
+    <h2>LLM 推理效率全栈：稀疏注意力·NPU 算子·量化压缩</h2>
+    <p>MSA 稀疏注意力、AscendOptimizer NPU 算子代理、APreQEL 混合精度量化、推理能耗悖论、RAG 实时验证与激活引导六篇精选。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM推理 #量化压缩 #注意力机制 #NPU</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-27</time>
+    </div>
+    <h2>AI 算力能源约束 · 纳指调整 · 新兴市场轮动</h2>
+    <p>BigTech 核能供给硬约束、纳指跌入调整区间、新兴市场资金轮动与散户情绪疲劳四维度分析。</p>
+    <div class="rl-meta">
+      <span class="rl-source">MarketWatch / CNBC</span>
+      <span class="rl-tags">#宏观经济 #AI基础设施 #市场调整 #行为金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-26-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
