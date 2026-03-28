@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-28</time>
+    </div>
+    <h2>RLHF/RLVR 训练优化 · 参数知识注入 · LLM 机制可解释性</h2>
+    <p>在线 rollout 剪枝加速 RLVR、合成混合训练超越 RAG、推理时安全性提升数学准确率，以及 Grokking 前的潜在算法结构</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#RLHF #LLM训练 #推理加速 #可解释性</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-28</time>
+    </div>
+    <h2>AI × 美联储政策 · 劳动力市场 · 金融稳定 · QT 缩表指南</h2>
+    <p>美联储 AI 落地路径、AI 对程序员就业的微观实证、QT 操作机制全解析、Cook 金融稳定最新研判</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed Speeches & Working Papers</span>
+      <span class="rl-tags">#美联储 #AI就业 #货币政策 #金融稳定</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-27-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
