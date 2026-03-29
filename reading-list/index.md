@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-29-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-29</time>
+    </div>
+    <h2>行程速度（五年级） / 数列乘法递推（初一）</h2>
+    <p>行程绕路速度调整 + 乘法递推数列与质因数分解</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#行程速度 #数列 #递推 #质因数分解</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-03-29-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
