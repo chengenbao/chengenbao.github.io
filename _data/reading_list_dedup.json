@@ -128,6 +128,15 @@
       "https://arxiv.org/abs/2603.23577",
       "https://arxiv.org/abs/2603.23550",
       "https://arxiv.org/abs/2603.23784"
+    ],
+    "2026-03-29": [
+      "https://pytorch.org/blog/torchspec-speculative-decoding-training-at-scale/",
+      "https://pytorch.org/blog/enabling-up-to-41-faster-pre-training-mxfp8-and-deepep-for-deepseek-v3-on-b200/",
+      "https://pytorch.org/blog/generalized-dot-product-attention-tackling-real-world-challenges-in-gpu-training/",
+      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
+      "https://huggingface.co/blog/ggml-joins-hf",
+      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+      "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
     ]
   },
   "finance": {
@@ -230,6 +239,12 @@
       "https://www.federalreserve.gov/econres/feds/a-users-guide-to-reducing-the-federal-reserves-balance-sheet.htm",
       "https://www.federalreserve.gov/newsevents/speech/cook20250327a.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20250328.htm"
+    ],
+    "2026-03-29": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260101.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260101.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm"
     ]
   }
 }
