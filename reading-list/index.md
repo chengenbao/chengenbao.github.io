@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-29-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-29</time>
+    </div>
+    <h2>推理加速与分布式训练前沿</h2>
+    <p>TorchSpec 投机解码、MXFP8 加速预训练 41%、广义注意力框架、NCCL 调试新工具</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / HuggingFace Blog</span>
+      <span class="rl-tags">#LLM #推理加速 #分布式训练 #CUDA</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-29</time>
+    </div>
+    <h2>美联储货币政策与数字资产监管</h2>
+    <p>FOMC 3月声明、QT 缩表分解、AI 对招聘行为影响、代币化证券资本规则</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Fed Press Releases</span>
+      <span class="rl-tags">#美联储 #货币政策 #FOMC #代币化证券</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
