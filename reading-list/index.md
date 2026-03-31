@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-03-31-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-03-31</time>
+    </div>
+    <h2>注意力机制优化 · 推理加速 · 二阶优化器</h2>
+    <p>Switch Attention 动态混合注意力、DRiffusion 并行推理、MAGNET BitNet训练、K-FAC二阶优化器等6篇前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#Attention #推理加速 #优化器 #KVCache</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-03-31-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-03-31</time>
+    </div>
+    <h2>美联储缩表路线图 · AI对劳动力市场的影响</h2>
+    <p>Fed FEDS 2026系列：QT政策选项、程序员就业冲击实证、房贷市场排队模型、LLM标注验证框架</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve FEDS 2026</span>
+      <span class="rl-tags">#货币政策 #AI经济学 #劳动市场 #量化紧缩</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-03-29-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
