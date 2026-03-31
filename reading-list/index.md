@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-03-31-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-03-31</time>
+    </div>
+    <h2>平均数的加减技巧（四/五年级） / 辛普森悖论与篮球统计（四/五年级）</h2>
+    <p>巧用求和消去中间量；辛普森悖论：每半场都领先，总体却相同</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 2022 真题</span>
+      <span class="rl-tags">#平均数 #辛普森悖论 #统计推理</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-03-31-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
