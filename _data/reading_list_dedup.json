@@ -1,77 +1,53 @@
 {
   "tech": {
-    "2026-03-13": [
-      "https://arxiv.org/abs/2603.09983",
-      "https://arxiv.org/abs/2603.10048",
-      "https://arxiv.org/abs/2603.09988",
-      "https://arxiv.org/abs/2603.09985",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/async-rl-training-landscape"
+    "2026-03-31": [
+      "https://arxiv.org/abs/2603.26380",
+      "https://arxiv.org/abs/2603.25872",
+      "https://arxiv.org/abs/2603.25813",
+      "https://arxiv.org/abs/2603.25976",
+      "https://arxiv.org/abs/2603.25926",
+      "https://arxiv.org/abs/2603.26034"
     ],
-    "2026-03-14": [
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12163",
-      "https://arxiv.org/abs/2603.12151",
-      "https://arxiv.org/abs/2603.12249",
-      "https://arxiv.org/abs/2603.12226",
-      "https://arxiv.org/abs/2603.12206"
+    "2026-03-29": [
+      "https://pytorch.org/blog/torchspec-speculative-decoding-training-at-scale/",
+      "https://pytorch.org/blog/enabling-up-to-41-faster-pre-training-mxfp8-and-deepep-for-deepseek-v3-on-b200/",
+      "https://pytorch.org/blog/generalized-dot-product-attention-tackling-real-world-challenges-in-gpu-training/",
+      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
+      "https://huggingface.co/blog/ggml-joins-hf",
+      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+      "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
     ],
-    "2026-03-15": [
-      "https://arxiv.org/abs/2603.12201",
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12246",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/async-rl-training-landscape",
-      "https://huggingface.co/blog/moe-transformers"
+    "2026-03-28": [
+      "https://arxiv.org/abs/2603.24840",
+      "https://arxiv.org/abs/2603.23562",
+      "https://arxiv.org/abs/2603.25201",
+      "https://arxiv.org/abs/2603.23577",
+      "https://arxiv.org/abs/2603.23550",
+      "https://arxiv.org/abs/2603.23784"
     ],
-    "2026-03-16": [
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12163",
-      "https://arxiv.org/abs/2603.12206",
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://arxiv.org/abs/2603.12244"
+    "2026-03-27": [
+      "https://arxiv.org/abs/2603.23516",
+      "https://arxiv.org/abs/2603.23566",
+      "https://arxiv.org/abs/2603.23575",
+      "https://arxiv.org/abs/2603.23528",
+      "https://arxiv.org/abs/2603.23508",
+      "https://arxiv.org/abs/2603.23629"
     ],
-    "2026-03-17": [
-      "https://arxiv.org/abs/2603.12272",
-      "https://arxiv.org/abs/2603.12646",
-      "https://arxiv.org/abs/2603.12298",
-      "https://arxiv.org/abs/2603.12577",
-      "https://arxiv.org/abs/2603.12324"
+    "2026-03-26": [
+      "https://arxiv.org/abs/2603.22300",
+      "https://arxiv.org/abs/2603.22324",
+      "https://arxiv.org/abs/2603.22446",
+      "https://arxiv.org/abs/2603.22754",
+      "https://arxiv.org/abs/2603.22582",
+      "https://arxiv.org/abs/2603.22473"
     ],
-    "2026-03-18": [
-      "https://arxiv.org/abs/2603.13259",
-      "https://arxiv.org/abs/2603.13256",
-      "https://arxiv.org/abs/2603.13249",
-      "https://arxiv.org/abs/2603.13235",
-      "https://arxiv.org/abs/2603.13258",
-      "https://pytorch.org/blog/mxfp8-training-moes/",
-      "https://pytorch.org/blog/flexattention-flashattention-4/"
-    ],
-    "2026-03-19": [
-      "https://arxiv.org/abs/2603.16731",
-      "https://arxiv.org/abs/2603.16590",
-      "https://pytorch.org/blog/mxfp8-training-for-moes-1-3x-training-speedup-vs-bf16-for-llama4-scout-on-gb200-cluster-using-torchao-and-torchtitan/",
-      "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
-      "https://arxiv.org/abs/2603.16127",
-      "https://pytorch.org/blog/kernelagent-hardware-guided-gpu-kernel-optimization-via-multi-agent-orchestration/"
-    ],
-    "2026-03-20": [
-      "https://arxiv.org/abs/2603.17970",
-      "https://arxiv.org/abs/2603.17946",
-      "https://arxiv.org/abs/2603.17891",
-      "https://arxiv.org/abs/2603.17945",
-      "https://arxiv.org/abs/2603.17942",
-      "https://arxiv.org/abs/2603.17884",
-      "https://arxiv.org/abs/2603.17872"
-    ],
-    "2026-03-21": [
-      "https://arxiv.org/abs/2603.18037",
-      "https://arxiv.org/abs/2603.18567",
-      "https://arxiv.org/abs/2603.18773",
-      "https://arxiv.org/abs/2603.19220",
-      "https://arxiv.org/abs/2603.18411",
-      "https://arxiv.org/abs/2603.19149"
+    "2026-03-25": [
+      "https://arxiv.org/abs/2603.20397",
+      "https://arxiv.org/abs/2603.20218",
+      "https://arxiv.org/abs/2603.20212",
+      "https://arxiv.org/abs/2603.20492",
+      "https://arxiv.org/abs/2603.20219",
+      "https://arxiv.org/abs/2603.20224"
     ],
     "2026-03-24": [
       "https://arxiv.org/abs/2603.20133v1",
@@ -82,13 +58,6 @@
       "https://arxiv.org/abs/2603.21111v1",
       "https://arxiv.org/abs/2603.21105v1"
     ],
-    "2026-03-22": [
-      "https://huggingface.co/blog/async-rl-training-landscape",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/moe-transformers",
-      "https://arxiv.org/abs/2603.20172",
-      "https://arxiv.org/abs/2603.19532"
-    ],
     "2026-03-23": [
       "https://arxiv.org/abs/2603.20155",
       "https://arxiv.org/abs/2603.19532",
@@ -97,141 +66,99 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/moe-transformers"
     ],
-    "2026-03-25": [
-      "https://arxiv.org/abs/2603.20397",
-      "https://arxiv.org/abs/2603.20218",
-      "https://arxiv.org/abs/2603.20212",
-      "https://arxiv.org/abs/2603.20492",
-      "https://arxiv.org/abs/2603.20219",
-      "https://arxiv.org/abs/2603.20224"
+    "2026-03-22": [
+      "https://huggingface.co/blog/async-rl-training-landscape",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://arxiv.org/abs/2603.20172",
+      "https://arxiv.org/abs/2603.19532"
     ],
-    "2026-03-26": [
-      "https://arxiv.org/abs/2603.22300",
-      "https://arxiv.org/abs/2603.22324",
-      "https://arxiv.org/abs/2603.22446",
-      "https://arxiv.org/abs/2603.22754",
-      "https://arxiv.org/abs/2603.22582",
-      "https://arxiv.org/abs/2603.22473"
+    "2026-03-21": [
+      "https://arxiv.org/abs/2603.18037",
+      "https://arxiv.org/abs/2603.18567",
+      "https://arxiv.org/abs/2603.18773",
+      "https://arxiv.org/abs/2603.19220",
+      "https://arxiv.org/abs/2603.18411",
+      "https://arxiv.org/abs/2603.19149"
     ],
-    "2026-03-27": [
-      "https://arxiv.org/abs/2603.23516",
-      "https://arxiv.org/abs/2603.23566",
-      "https://arxiv.org/abs/2603.23575",
-      "https://arxiv.org/abs/2603.23528",
-      "https://arxiv.org/abs/2603.23508",
-      "https://arxiv.org/abs/2603.23629"
+    "2026-03-20": [
+      "https://arxiv.org/abs/2603.17970",
+      "https://arxiv.org/abs/2603.17946",
+      "https://arxiv.org/abs/2603.17891",
+      "https://arxiv.org/abs/2603.17945",
+      "https://arxiv.org/abs/2603.17942",
+      "https://arxiv.org/abs/2603.17884",
+      "https://arxiv.org/abs/2603.17872"
     ],
-    "2026-03-28": [
-      "https://arxiv.org/abs/2603.24840",
-      "https://arxiv.org/abs/2603.23562",
-      "https://arxiv.org/abs/2603.25201",
-      "https://arxiv.org/abs/2603.23577",
-      "https://arxiv.org/abs/2603.23550",
-      "https://arxiv.org/abs/2603.23784"
+    "2026-03-19": [
+      "https://arxiv.org/abs/2603.16731",
+      "https://arxiv.org/abs/2603.16590",
+      "https://pytorch.org/blog/mxfp8-training-for-moes-1-3x-training-speedup-vs-bf16-for-llama4-scout-on-gb200-cluster-using-torchao-and-torchtitan/",
+      "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
+      "https://arxiv.org/abs/2603.16127",
+      "https://pytorch.org/blog/kernelagent-hardware-guided-gpu-kernel-optimization-via-multi-agent-orchestration/"
     ],
-    "2026-03-29": [
-      "https://pytorch.org/blog/torchspec-speculative-decoding-training-at-scale/",
-      "https://pytorch.org/blog/enabling-up-to-41-faster-pre-training-mxfp8-and-deepep-for-deepseek-v3-on-b200/",
-      "https://pytorch.org/blog/generalized-dot-product-attention-tackling-real-world-challenges-in-gpu-training/",
-      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
-      "https://huggingface.co/blog/ggml-joins-hf",
-      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
-      "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
+    "2026-03-18": [
+      "https://arxiv.org/abs/2603.13259",
+      "https://arxiv.org/abs/2603.13256",
+      "https://arxiv.org/abs/2603.13249",
+      "https://arxiv.org/abs/2603.13235",
+      "https://arxiv.org/abs/2603.13258",
+      "https://pytorch.org/blog/mxfp8-training-moes/",
+      "https://pytorch.org/blog/flexattention-flashattention-4/"
+    ],
+    "2026-03-17": [
+      "https://arxiv.org/abs/2603.12272",
+      "https://arxiv.org/abs/2603.12646",
+      "https://arxiv.org/abs/2603.12298",
+      "https://arxiv.org/abs/2603.12577",
+      "https://arxiv.org/abs/2603.12324"
+    ],
+    "2026-03-16": [
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12163",
+      "https://arxiv.org/abs/2603.12206",
+      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://arxiv.org/abs/2603.12244"
+    ],
+    "2026-03-15": [
+      "https://arxiv.org/abs/2603.12201",
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12246",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/async-rl-training-landscape",
+      "https://huggingface.co/blog/moe-transformers"
+    ],
+    "2026-03-14": [
+      "https://arxiv.org/abs/2603.12248",
+      "https://arxiv.org/abs/2603.12163",
+      "https://arxiv.org/abs/2603.12151",
+      "https://arxiv.org/abs/2603.12249",
+      "https://arxiv.org/abs/2603.12226",
+      "https://arxiv.org/abs/2603.12206"
+    ],
+    "2026-03-13": [
+      "https://arxiv.org/abs/2603.09983",
+      "https://arxiv.org/abs/2603.10048",
+      "https://arxiv.org/abs/2603.09988",
+      "https://arxiv.org/abs/2603.09985",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/async-rl-training-landscape"
     ]
   },
   "finance": {
-    "2026-03-13": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
-      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
-      "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
+    "2026-03-31": [
+      "https://www.federalreserve.gov/econres/feds/a-users-guide-to-reducing-the-federal-reserves-balance-sheet.htm",
+      "https://www.federalreserve.gov/econres/feds/ai-and-coder-employment-compiling-the-evidence.htm",
+      "https://www.federalreserve.gov/econres/feds/queuing-service-time-and-price-dynamics-in-residential-mortgage-lending.htm",
+      "https://www.federalreserve.gov/econres/feds/validating-large-language-model-annotations.htm"
     ],
-    "2026-03-14": [
-      "https://www.nytimes.com/2026/03/13/business/economy/inflation-cpi-pce-methodology.html",
-      "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
-      "https://www.nytimes.com/2026/03/13/business/economy/iran-war-global-supply-chain.html",
-      "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html",
-      "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
-    ],
-    "2026-03-15": [
-      "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
-      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
-      "https://www.ft.com/content/37d49e35-8d0e-4ea6-9db8-74183101f204",
-      "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html"
-    ],
-    "2026-03-16": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
-    ],
-    "2026-03-17": [
-      "https://www.cnbc.com/2026/03/16/bessent-says-treasury-is-not-intervening-in-oil-commodities-markets-and-has-no-authority-to-do-so.html",
-      "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
-    ],
-    "2026-03-18": [
-      "https://www.nytimes.com/2026/03/17/us/politics/kharg-island-iran-trump-risks.html",
-      "https://www.nytimes.com/2026/03/17/business/economy/iran-war-rate-cuts.html",
-      "https://www.nytimes.com/2026/03/17/business/economy/oil-100-barrel-supply.html",
-      "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
-      "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
-    ],
-    "2026-03-19": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
-    ],
-    "2026-03-20": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/downside-and-upside-economic-uncertainty-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html",
-      "https://www.cnbc.com/2026/03/19/traders-rate-cut.html",
-      "https://www.cnbc.com/2026/03/12/gig-workers-gas-prices-aaa-iran.html"
-    ],
-    "2026-03-21": [
-      "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
-      "https://www.cnbc.com/2026/03/20/goldman-sachs-oil-price-iran-war.html",
-      "https://www.cnbc.com/2026/03/18/iran-war-stagflation-europe-recession-oil-price-.html",
-      "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
-      "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history"
-    ],
-    "2026-03-24": [
-      "https://www.bloomberg.com/news/articles/2026-03-23/sinopec-to-ensure-china-s-fuel-supply-and-cut-chemicals-losses",
-      "https://www.bloomberg.com/news/articles/2026-03-24/chinese-equities-flash-rebound-signs-following-steep-decline",
-      "https://www.bloomberg.com/news/articles/2026-03-23/stock-market-today-dow-s-p-live-updates"
-    ],
-    "2026-03-22": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
-    ],
-    "2026-03-23": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
-    ],
-    "2026-03-25": [
-      "https://www.nber.org/papers/w33762",
-      "https://www.nber.org/papers/w33759",
-      "https://www.nber.org/papers/w33767",
-      "https://www.nber.org/papers/w33760"
-    ],
-    "2026-03-26": [
-      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm",
-      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
-      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
-      "https://www.federalreserve.gov/econres/ifdp/dollarization-waves-new-evidence-from-a-comprehensive-international-bond-database.htm"
-    ],
-    "2026-03-27": [
-      "https://www.marketwatch.com/story/americas-nuclear-renaissance-has-every-ingredient-but-the-most-important-one-2026-03-26",
-      "https://www.marketwatch.com/story/nasdaq-falls-into-correction-territory-trump-pauses-plans-to-attack-iranian-energy-infrastructure-2026-03-26",
-      "https://www.cnbc.com/2026/03/26/this-emerging-market-is-sizzling-while-u-s-stocks-falter-charts-show.html",
-      "https://www.cnbc.com/2026/03/26/trump-volatility-fatigue-retail-traders-arent-buying-the-dips-like-they-used-to.html"
+    "2026-03-29": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260101.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260101.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm"
     ],
     "2026-03-28": [
       "https://www.federalreserve.gov/newsevents/speech/waller20250327a.htm",
@@ -240,11 +167,98 @@
       "https://www.federalreserve.gov/newsevents/speech/cook20250327a.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20250328.htm"
     ],
-    "2026-03-29": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260101.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260101.htm",
-      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
-      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm"
+    "2026-03-27": [
+      "https://www.marketwatch.com/story/americas-nuclear-renaissance-has-every-ingredient-but-the-most-important-one-2026-03-26",
+      "https://www.marketwatch.com/story/nasdaq-falls-into-correction-territory-trump-pauses-plans-to-attack-iranian-energy-infrastructure-2026-03-26",
+      "https://www.cnbc.com/2026/03/26/this-emerging-market-is-sizzling-while-u-s-stocks-falter-charts-show.html",
+      "https://www.cnbc.com/2026/03/26/trump-volatility-fatigue-retail-traders-arent-buying-the-dips-like-they-used-to.html"
+    ],
+    "2026-03-26": [
+      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm",
+      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
+      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
+      "https://www.federalreserve.gov/econres/ifdp/dollarization-waves-new-evidence-from-a-comprehensive-international-bond-database.htm"
+    ],
+    "2026-03-25": [
+      "https://www.nber.org/papers/w33762",
+      "https://www.nber.org/papers/w33759",
+      "https://www.nber.org/papers/w33767",
+      "https://www.nber.org/papers/w33760"
+    ],
+    "2026-03-24": [
+      "https://www.bloomberg.com/news/articles/2026-03-23/sinopec-to-ensure-china-s-fuel-supply-and-cut-chemicals-losses",
+      "https://www.bloomberg.com/news/articles/2026-03-24/chinese-equities-flash-rebound-signs-following-steep-decline",
+      "https://www.bloomberg.com/news/articles/2026-03-23/stock-market-today-dow-s-p-live-updates"
+    ],
+    "2026-03-23": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
+    ],
+    "2026-03-22": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
+    ],
+    "2026-03-21": [
+      "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
+      "https://www.cnbc.com/2026/03/20/goldman-sachs-oil-price-iran-war.html",
+      "https://www.cnbc.com/2026/03/18/iran-war-stagflation-europe-recession-oil-price-.html",
+      "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
+      "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history"
+    ],
+    "2026-03-20": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/downside-and-upside-economic-uncertainty-20260212.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html",
+      "https://www.cnbc.com/2026/03/19/traders-rate-cut.html",
+      "https://www.cnbc.com/2026/03/12/gig-workers-gas-prices-aaa-iran.html"
+    ],
+    "2026-03-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
+      "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
+    ],
+    "2026-03-18": [
+      "https://www.nytimes.com/2026/03/17/us/politics/kharg-island-iran-trump-risks.html",
+      "https://www.nytimes.com/2026/03/17/business/economy/iran-war-rate-cuts.html",
+      "https://www.nytimes.com/2026/03/17/business/economy/oil-100-barrel-supply.html",
+      "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
+      "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
+    ],
+    "2026-03-17": [
+      "https://www.cnbc.com/2026/03/16/bessent-says-treasury-is-not-intervening-in-oil-commodities-markets-and-has-no-authority-to-do-so.html",
+      "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
+    ],
+    "2026-03-16": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
+    ],
+    "2026-03-15": [
+      "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
+      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
+      "https://www.ft.com/content/37d49e35-8d0e-4ea6-9db8-74183101f204",
+      "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html"
+    ],
+    "2026-03-14": [
+      "https://www.nytimes.com/2026/03/13/business/economy/inflation-cpi-pce-methodology.html",
+      "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
+      "https://www.nytimes.com/2026/03/13/business/economy/iran-war-global-supply-chain.html",
+      "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html",
+      "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
+    ],
+    "2026-03-13": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
+      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
+      "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
     ]
   }
 }
