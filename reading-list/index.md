@@ -18,6 +18,38 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-01</time>
+    </div>
+    <h2>LLM训练效率 · 推理加速 · Diffusion LM</h2>
+    <p>吞吐量优化与Pipeline调度、批量路由框架、两阶段优化器理论、LogicDiff/GeoBlock并行解码、免训练知识蒸馏TED</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM训练 #推理加速 #DiffusionLM #优化器</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-04-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-01</time>
+    </div>
+    <h2>油价冲击 · 美股估值 · 财政前景</h2>
+    <p>油价冲击的滞胀风险、标普P/E历史高位压力、总统经济报告财政前瞻、美国主权CDS利差信号</p>
+    <div class="rl-meta">
+      <span class="rl-source">Econbrowser</span>
+      <span class="rl-tags">#石油冲击 #P/E #CDS #宏观政策</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-03-31-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
