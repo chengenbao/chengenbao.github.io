@@ -145,6 +145,14 @@
       "https://arxiv.org/abs/2603.09985",
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/async-rl-training-landscape"
+    ],
+    "2026-04-01": [
+      "https://arxiv.org/abs/2603.26823",
+      "https://arxiv.org/abs/2603.26796",
+      "https://arxiv.org/abs/2603.26954",
+      "https://arxiv.org/abs/2603.26771",
+      "https://arxiv.org/abs/2603.26675",
+      "https://arxiv.org/abs/2603.26778"
     ]
   },
   "finance": {
@@ -259,6 +267,12 @@
       "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
       "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
       "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
+    ],
+    "2026-04-01": [
+      "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
+      "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
+      "https://econbrowser.com/archives/2026/03/federal-budget-economic-report-of-the-president-2026-coming-out-april-3",
+      "https://econbrowser.com/archives/2026/03/five-year-us-treasury-cds"
     ]
   }
 }
