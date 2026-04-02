@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+
+<a class="rl-card tech" href="/reading-list/2026-04-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-02</time>
+    </div>
+    <h2>LLM 压缩 · GPU 内核优化 · Transformer 长程依赖分析</h2>
+    <p>OneComp 一行代码统一压缩框架，Beta-Scheduling 动量调度，GPU Kernel DSL 提升 Agent 效率</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG</span>
+      <span class="rl-tags">#LLM压缩 #GPU优化 #训练优化 #二阶优化</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-02</time>
+    </div>
+    <h2>关税冲击下全球央行政策分化 · SNB 降息 · Fed 暗示9月行动</h2>
+    <p>特朗普对等关税落地，SNB 率先降息至 0.25%，鲍威尔暗示9月降息，全球滞胀压力上行</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed IFDP / MarketWatch</span>
+      <span class="rl-tags">#央行政策 #关税 #美联储 #SNB #宏观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
