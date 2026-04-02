@@ -153,6 +153,14 @@
       "https://arxiv.org/abs/2603.26771",
       "https://arxiv.org/abs/2603.26675",
       "https://arxiv.org/abs/2603.26778"
+    ],
+    "2026-04-02": [
+      "https://arxiv.org/abs/2603.28845",
+      "https://arxiv.org/abs/2603.28921",
+      "https://arxiv.org/abs/2603.28943",
+      "https://arxiv.org/abs/2603.29010",
+      "https://arxiv.org/abs/2603.29069",
+      "https://arxiv.org/abs/2603.29108"
     ]
   },
   "finance": {
@@ -273,6 +281,13 @@
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
       "https://econbrowser.com/archives/2026/03/federal-budget-economic-report-of-the-president-2026-coming-out-april-3",
       "https://econbrowser.com/archives/2026/03/five-year-us-treasury-cds"
+    ],
+    "2026-04-02": [
+      "https://www.marketwatch.com/story/swiss-national-bank-cuts-interest-rates-by-a-half-point-to-0-5%",
+      "https://www.marketwatch.com/story/powells-labor-market-rate-cut",
+      "https://www.marketwatch.com/story/bank-of-england-decision-on-thursday",
+      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation.htm",
+      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth.htm"
     ]
   }
 }
