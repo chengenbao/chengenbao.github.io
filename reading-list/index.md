@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-04-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-04</time>
+    </div>
+    <h2>同心圆扇形面积（五年级） / 立方体等边三角形（初一）</h2>
+    <p>扇形面积等积方程求角度；坐标法发现正方体内接等边三角形</p>
+    <div class="rl-meta">
+      <span class="rl-source">2024 AMC 8 真题</span>
+      <span class="rl-tags">#圆与扇形 #空间几何</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-04-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
