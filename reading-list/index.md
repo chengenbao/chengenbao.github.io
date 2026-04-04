@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-04</time>
+    </div>
+    <h2>Test-Time Scaling · GPU Kernel 生成 · 扩散模型加速</h2>
+    <p>LLM 推理扩展使过训练变得算力最优；CuTeGen 用 LLM Agent 自动生成高性能 CUDA Kernel；ZEUS 二阶预测器大幅压缩扩散步数</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#推理优化 #后训练 #扩散模型</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-04</time>
+    </div>
+    <h2>Fed 监测 AI 经济渗透 · 稳定币跨境支付 · 能源地缘政治</h2>
+    <p>美联储新报告追踪全经济 AI 采用率；FEDS Note 评估稳定币对跨境支付的冲击；伊朗局势推高能源市场波动</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Bloomberg</span>
+      <span class="rl-tags">#宏观 #稳定币 #能源</span>
+    </div>
+  </div>
+</a>
 
 <a class="rl-card tech" href="/reading-list/2026-04-02-tech-daily/">
   <div class="rl-accent"></div>
