@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white"/>
+  <!-- Title -->
+  <text x="210" y="24" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold" fill="#333">同心圆问题示意图（2024 AMC 8 #18）</text>
+  
+  <!-- Center point O -->
+  <circle cx="210" cy="190" r="3" fill="#333"/>
+  <text x="215" y="196" font-size="13" font-family="Arial" fill="#333">O</text>
+  
+  <!-- Circle r=1 (scaled ×40 = 40px) - inner white -->
+  <circle cx="210" cy="190" r="40" fill="white" stroke="#666" stroke-width="1.5"/>
+  
+  <!-- Annular region r=1 to r=2: shaded gray -->
+  <circle cx="210" cy="190" r="80" fill="#aaa" stroke="#666" stroke-width="1.5"/>
+  <circle cx="210" cy="190" r="40" fill="white" stroke="none"/>
+  
+  <!-- Outer circle r=3 (120px), sector BOC shaded -->
+  <circle cx="210" cy="190" r="120" fill="none" stroke="#666" stroke-width="1.5"/>
+  
+  <!-- Sector BOC (angle=108°), from -54° to +54° (top) -->
+  <!-- 108° sector shaded between r=2 and r=3 -->
+  <!-- B at angle -54°+270° = 216° from east = top-left -->
+  <!-- Using 108°: from 90°-54°=36° to 90°+54°=144° measured from east (standard) -->
+  <!-- B at 36° = (cos36,sin36), C at 144°=(cos144,sin144) -->
+  <!-- cos36=0.809, sin36=0.588; cos144=-0.809, sin144=0.588 -->
+  <!-- sector path: large arc from B(r=3) to C(r=3), back via inner arc r=2 -->
+  <path d="M 307.1 120.4 A 120 120 0 0 0 112.9 120.4 L 145.3 143.0 A 80 80 0 0 1 274.7 143.0 Z" fill="#888" stroke="none"/>
+  <!-- Redraw inner white circle to cover -->
+  <circle cx="210" cy="190" r="40" fill="white" stroke="#666" stroke-width="1.5"/>
+  <!-- Middle circle boundary -->
+  <circle cx="210" cy="190" r="80" fill="none" stroke="#666" stroke-width="1.5"/>
+  
+  <!-- Labels B and C -->
+  <circle cx="307.1" cy="120.4" r="3" fill="#d44"/>
+  <text x="313" y="118" font-size="13" font-family="Arial" fill="#d44" font-weight="bold">B</text>
+  <circle cx="112.9" cy="120.4" r="3" fill="#d44"/>
+  <text x="96" y="118" font-size="13" font-family="Arial" fill="#d44" font-weight="bold">C</text>
+  
+  <!-- Angle arc and label -->
+  <path d="M 230 190 A 20 20 0 0 0 210 170" fill="none" stroke="#d44" stroke-width="1.5"/>
+  <text x="228" y="175" font-size="12" font-family="Arial" fill="#d44">∠BOC</text>
+  
+  <!-- Radii labels -->
+  <text x="213" y="157" font-size="12" font-family="Arial" fill="#555">r=1</text>
+  <text x="213" y="118" font-size="12" font-family="Arial" fill="#555">r=2</text>
+  <text x="213" y="78"  font-size="12" font-family="Arial" fill="#555">r=3</text>
+  
+  <!-- Shaded annotation -->
+  <text x="210" y="330" text-anchor="middle" font-size="12" font-family="Arial" fill="#555">灰色区域 = 环形（r=1到2）+ 扇形（r=2到3）</text>
+  <text x="210" y="348" text-anchor="middle" font-size="12" font-family="Arial" fill="#555">当两块面积相等时，∠BOC = 108°</text>
+</svg>
