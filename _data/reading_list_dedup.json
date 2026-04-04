@@ -161,6 +161,14 @@
       "https://arxiv.org/abs/2603.29010",
       "https://arxiv.org/abs/2603.29069",
       "https://arxiv.org/abs/2603.29108"
+    ],
+    "2026-04-04": [
+      "https://arxiv.org/abs/2604.01411",
+      "https://arxiv.org/abs/2604.01489",
+      "https://arxiv.org/abs/2604.01499",
+      "https://arxiv.org/abs/2604.01552",
+      "https://arxiv.org/abs/2604.00004",
+      "https://arxiv.org/abs/2604.01597"
     ]
   },
   "finance": {
@@ -288,6 +296,12 @@
       "https://www.marketwatch.com/story/bank-of-england-decision-on-thursday",
       "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation.htm",
       "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth.htm"
+    ],
+    "2026-04-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260401.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-20260402.htm",
+      "https://www.bloomberg.com/news/articles/2026-04-03/turkey-weighs-raising-energy-prices-as-iran-war-rattles-markets"
     ]
   }
 }
