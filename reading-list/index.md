@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-05-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-05</time>
+    </div>
+    <h2>平面变换的交换律（初二） / 三局两胜的概率（初三）</h2>
+    <p>平面仿射变换交换性判断；三局两胜制中带主客场优势的概率计算</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10A 2024 真题</span>
+      <span class="rl-tags">#变换几何 #概率</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
