@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-05</time>
+    </div>
+    <h2>RL推理扩展 · RLHF奖励建模 · LLM机理分析</h2>
+    <p>6篇arXiv论文：推理token预算扩展、自适应停止、置信度机理与扩散模型遗忘</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.CL</span>
+      <span class="rl-tags">#RL #RLHF #推理优化</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-05</time>
+    </div>
+    <h2>关税新秩序 · 伊朗战争通胀冲击 · ECB鹰派转向</h2>
+    <p>特朗普关税一周年、战后首份美国通胀数据、ECB排除降息、主权财富基金悖论</p>
+    <div class="rl-meta">
+      <span class="rl-source">The Economist · Bloomberg</span>
+      <span class="rl-tags">#宏观 #央行政策 #地缘政治</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-04-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
