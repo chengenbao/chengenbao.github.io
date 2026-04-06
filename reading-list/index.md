@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-06-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-06</time>
+    </div>
+    <h2>Mamba架构、分布式系统与RAG优化前沿</h2>
+    <p>SSM/Mamba 详解、学习型算法、100Gbps 单机 IDS、虚拟共识 Delos、Proxy-Pointer RAG</p>
+    <div class="rl-meta">
+      <span class="rl-source">The Gradient · Morning Paper · TDS</span>
+      <span class="rl-tags">#SSM #分布式 #RAG</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-06</time>
+    </div>
+    <h2>债市拔河、市场认知失调与中国2030科技战略</h2>
+    <p>通胀衰退双重压力下的债券市场、系统性误定价警报、美元-美债特权去耦合趋势</p>
+    <div class="rl-meta">
+      <span class="rl-source">The Economist · Fed IFDP</span>
+      <span class="rl-tags">#债市 #宏观 #中国经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-05-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
