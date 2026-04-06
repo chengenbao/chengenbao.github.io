@@ -177,6 +177,15 @@
       "https://arxiv.org/abs/2604.01457",
       "https://arxiv.org/abs/2604.01312",
       "https://arxiv.org/abs/2604.01514"
+    ],
+    "2026-04-06": [
+      "https://thegradient.pub/mamba-explained/",
+      "https://thegradient.pub/shape-symmetries-and-structure/",
+      "https://thegradient.pub/do-text-embeddings-perfectly-encode-text/",
+      "https://blog.acolyer.org/2019/11/01/achieving-100gbps-intrusion-prevention/",
+      "https://blog.acolyer.org/2020/12/21/delos/",
+      "https://blog.acolyer.org/2020/01/22/the-case-for-learned-sorting/",
+      "https://towardsdatascience.com/proxy-pointer-rag/"
     ]
   },
   "finance": {
@@ -316,6 +325,12 @@
       "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
       "https://www.bloomberg.com/news/articles/2026-04-04/sleijpen-says-ecb-discussion-will-be-rate-hike-or-hold-podcast",
       "https://www.economist.com/finance-and-economics/2026/04/01/can-a-country-get-too-rich"
+    ],
+    "2026-04-06": [
+      "https://www.economist.com/finance-and-economics/2026/04/03/inflation-or-recession-the-tug-of-war-in-bond-markets",
+      "https://www.economist.com/finance-and-economics/2026/04/02/markets-are-gripped-by-an-alarming-cognitive-dissonance",
+      "https://www.economist.com/finance-and-economics/2026/04/01/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
+      "https://www.federalreserve.gov/econres/ifdp/2026-decoupling-dollar-treasury-privilege.htm"
     ]
   }
 }
