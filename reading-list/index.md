@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-06-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-06</time>
+    </div>
+    <h2>青蛙比例变化（四/五年级） / 网格线段计数（四/五年级）</h2>
+    <p>比例方程与一次方程求解；GCD 最大公因数在格点线段计数中的应用</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 2024 真题</span>
+      <span class="rl-tags">#比例方程 #GCD最大公因数</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
