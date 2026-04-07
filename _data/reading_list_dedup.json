@@ -186,6 +186,14 @@
       "https://blog.acolyer.org/2020/12/21/delos/",
       "https://blog.acolyer.org/2020/01/22/the-case-for-learned-sorting/",
       "https://towardsdatascience.com/proxy-pointer-rag/"
+    ],
+    "2026-04-07": [
+      "https://arxiv.org/abs/2604.02338",
+      "https://arxiv.org/abs/2604.02341",
+      "https://arxiv.org/abs/2604.02450",
+      "https://arxiv.org/abs/2604.02344",
+      "https://arxiv.org/abs/2604.02621",
+      "https://arxiv.org/abs/2604.02340"
     ]
   },
   "finance": {
@@ -331,6 +339,12 @@
       "https://www.economist.com/finance-and-economics/2026/04/02/markets-are-gripped-by-an-alarming-cognitive-dissonance",
       "https://www.economist.com/finance-and-economics/2026/04/01/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
       "https://www.federalreserve.gov/econres/ifdp/2026-decoupling-dollar-treasury-privilege.htm"
+    ],
+    "2026-04-07": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-us-economy-20250228.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20250228.htm",
+      "https://www.nber.org/papers/w35022#fromrss",
+      "https://www.nber.org/papers/w35023#fromrss"
     ]
   }
 }
