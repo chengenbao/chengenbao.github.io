@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-07</time>
+    </div>
+    <h2>MoE-PEFT、过程奖励推理与 WebGPU LLM 性能剖析</h2>
+    <p>6 篇 arXiv 精选：轻量 MoE 多任务、PRM 推理优化、Web 端 LLM 调度</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM #MoE #Inference #RL</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-07</time>
+    </div>
+    <h2>AI 经济渗透率监测、劳动力增长放缓与中美 AI 专利格局</h2>
+    <p>Fed Reserve FEDS Notes + NBER 工作论文：宏观与科技政策交叉视角</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed Reserve / NBER</span>
+      <span class="rl-tags">#AI经济 #宏观 #贸易政策</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-06-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
