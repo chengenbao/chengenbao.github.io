@@ -194,6 +194,14 @@
       "https://arxiv.org/abs/2604.02344",
       "https://arxiv.org/abs/2604.02621",
       "https://arxiv.org/abs/2604.02340"
+    ],
+    "2026-04-08": [
+      "https://arxiv.org/abs/2604.03258",
+      "https://arxiv.org/abs/2604.03270",
+      "https://arxiv.org/abs/2604.03260",
+      "https://arxiv.org/abs/2604.03263",
+      "https://arxiv.org/abs/2604.02459",
+      "https://arxiv.org/abs/2604.03253"
     ]
   },
   "finance": {
@@ -345,6 +353,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20250228.htm",
       "https://www.nber.org/papers/w35022#fromrss",
       "https://www.nber.org/papers/w35023#fromrss"
+    ],
+    "2026-04-08": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html"
     ]
   }
 }
