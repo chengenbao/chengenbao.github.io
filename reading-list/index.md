@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-08-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-08</time>
+    </div>
+    <h2>LLM压缩、KV Cache注入与注意力机制优化</h2>
+    <p>6篇arXiv精选：SoLA低秩压缩、Knowledge Packs零token知识注入、Focus稀疏注意力等前沿进展</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM #KV-Cache #注意力机制 #量化压缩</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-08</time>
+    </div>
+    <h2>AI采用率监测、劳动力放缓与稳定币货币政策</h2>
+    <p>美联储FEDS Notes精选：量化美国AI渗透率、劳动力市场拐点、稳定币Genius Act影响分析</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#美联储 #AI经济 #稳定币 #通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
