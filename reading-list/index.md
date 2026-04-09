@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-09</time>
+    </div>
+    <h2>LLM训练/推理优化与架构探索</h2>
+    <p>MegaTrain单卡训练100B+模型、多草稿投机解码、MoE专家分工分析</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#大模型 #推理优化 #MoE #混合架构</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-09</time>
+    </div>
+    <h2>量化金融方法、因果推断与贸易政策实证</h2>
+    <p>股票网络模块化分析、因果森林基准测评、琼斯法案成本评估</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv q-fin / econ · Econofact</span>
+      <span class="rl-tags">#量化金融 #因果推断 #贸易政策</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
