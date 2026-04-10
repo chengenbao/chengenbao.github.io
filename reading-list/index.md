@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-10</time>
+    </div>
+    <h2>GRPO训练极限、分布式LoRA、推理退化与SGD鞍点动力学</h2>
+    <p>6篇arXiv精选：RLHF扩展边界、通信感知MoE-LoRA、Agentic RL推理退化机制研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#GRPO #LoRA #MoE #推理优化 #SGD</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-10</time>
+    </div>
+    <h2>巨灾风险分散化、政策学习数据策略与环境税收政策评估</h2>
+    <p>4篇精选：巨灾再保险精算极限、IV计量方法论、塑料税政策效果实证研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#风险管理 #计量经济学 #环境政策 #因果推断</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
