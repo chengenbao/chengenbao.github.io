@@ -217,6 +217,15 @@
       "https://arxiv.org/abs/2604.06427",
       "https://arxiv.org/abs/2604.06485",
       "https://arxiv.org/abs/2604.06366"
+    ],
+    "2026-04-11": [
+      "https://arxiv.org/abs/2604.07808",
+      "https://arxiv.org/abs/2604.07472",
+      "https://arxiv.org/abs/2604.07815",
+      "https://arxiv.org/abs/2604.07622",
+      "https://arxiv.org/abs/2604.07766",
+      "https://arxiv.org/abs/2604.07402",
+      "https://arxiv.org/abs/2604.07380"
     ]
   },
   "finance": {
@@ -386,6 +395,12 @@
       "https://arxiv.org/abs/2604.06244",
       "https://arxiv.org/abs/2604.06238",
       "https://arxiv.org/abs/2604.06132"
+    ],
+    "2026-04-11": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-us-trade-policy-20260407.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20260404.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260403.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260401.htm"
     ]
   }
 }
