@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-11-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-11</time>
+    </div>
+    <h2>整数方程与平方差（初二） / 循环操作与模运算（初三）</h2>
+    <p>平方差因式分解求整数有序对；迭代操作找循环节用模运算快速定位</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10A 2024 真题</span>
+      <span class="rl-tags">#平方差 #模运算 #数列规律</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
