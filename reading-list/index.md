@@ -18,6 +18,36 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-11</time>
+    </div>
+    <h2>LLM推理加速 · 内存高效微调 · 推测解码 · GQA架构分析</h2>
+    <p>GRASS梯度自适应层采样微调、异构GPU混合规模推理、AsyncTLS稀疏注意力、DIVERSED推测解码等7篇前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM推理 #内存优化 #推测解码 #GQA</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-11</time>
+    </div>
+    <h2>关税冲击实时监测 · 稳定币金融稳定 · AI经济采用</h2>
+    <p>美联储研究：关税公告与执行差距、实时价格传导监测、2025稳定币金融稳定报告、AI在美国经济采用追踪</p>
+    <div class="rl-meta">
+      <span class="rl-source">美联储 FEDS Notes</span>
+      <span class="rl-tags">#关税政策 #稳定币 #AI经济学 #通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
