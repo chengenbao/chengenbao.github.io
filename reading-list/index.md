@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-15</time>
+    </div>
+    <h2>RoPE优化·Muon²·SEPTQ量化·KV Cache压缩</h2>
+    <p>7篇前沿论文：位置编码高效实现、新优化器、LLM量化、推理效率与微调理论深度解析</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#推理加速 #量化压缩 #优化器</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-15</time>
+    </div>
+    <h2>3月通胀·GDP预测分歧·美元霸权·大宗商品</h2>
+    <p>5篇宏观分析：CPI高频追踪、机构预测对比、SEACEN美元化、贸易摩擦与商品价格</p>
+    <div class="rl-meta">
+      <span class="rl-source">EconBrowser · WSJ Markets</span>
+      <span class="rl-tags">#通胀 #宏观经济 #大宗商品</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-11-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
