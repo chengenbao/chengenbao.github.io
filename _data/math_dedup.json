@@ -1,17 +1,5 @@
 {
   "sources": {
-    "2026-03-13": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_16",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_21"
-    ],
-    "2026-03-14": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_25",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_24"
-    ],
-    "2026-03-15": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_13",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_15"
-    ],
     "2026-03-16": [
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_18",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_21"
@@ -59,6 +47,10 @@
     "2026-04-11": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_11",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_10"
+    ],
+    "2026-04-15": [
+      "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_16",
+      "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_22"
     ]
   }
 }
