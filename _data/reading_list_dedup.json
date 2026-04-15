@@ -122,30 +122,6 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://arxiv.org/abs/2603.12244"
     ],
-    "2026-03-15": [
-      "https://arxiv.org/abs/2603.12201",
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12246",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/async-rl-training-landscape",
-      "https://huggingface.co/blog/moe-transformers"
-    ],
-    "2026-03-14": [
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12163",
-      "https://arxiv.org/abs/2603.12151",
-      "https://arxiv.org/abs/2603.12249",
-      "https://arxiv.org/abs/2603.12226",
-      "https://arxiv.org/abs/2603.12206"
-    ],
-    "2026-03-13": [
-      "https://arxiv.org/abs/2603.09983",
-      "https://arxiv.org/abs/2603.10048",
-      "https://arxiv.org/abs/2603.09988",
-      "https://arxiv.org/abs/2603.09985",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/async-rl-training-landscape"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -226,6 +202,15 @@
       "https://arxiv.org/abs/2604.07766",
       "https://arxiv.org/abs/2604.07402",
       "https://arxiv.org/abs/2604.07380"
+    ],
+    "2026-04-15": [
+      "https://arxiv.org/abs/2604.09742",
+      "https://arxiv.org/abs/2604.09967",
+      "https://arxiv.org/abs/2604.10091",
+      "https://arxiv.org/abs/2604.10235",
+      "https://arxiv.org/abs/2604.10072",
+      "https://arxiv.org/abs/2604.10079",
+      "https://arxiv.org/abs/2604.09560"
     ]
   },
   "finance": {
@@ -322,25 +307,6 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
     ],
-    "2026-03-15": [
-      "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
-      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
-      "https://www.ft.com/content/37d49e35-8d0e-4ea6-9db8-74183101f204",
-      "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html"
-    ],
-    "2026-03-14": [
-      "https://www.nytimes.com/2026/03/13/business/economy/inflation-cpi-pce-methodology.html",
-      "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
-      "https://www.nytimes.com/2026/03/13/business/economy/iran-war-global-supply-chain.html",
-      "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html",
-      "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
-    ],
-    "2026-03-13": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
-      "https://www.cnbc.com/2026/03/12/section-301-trade-probe-china-trump-xi-beijing-summit.html",
-      "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -401,6 +367,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20260404.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260403.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260401.htm"
+    ],
+    "2026-04-15": [
+      "https://econbrowser.com/archives/2026/04/instantaneous-inflation-in-march",
+      "https://econbrowser.com/archives/2026/04/the-troika-economic-forecast-under-vought-miran-bessent",
+      "https://econbrowser.com/archives/2026/04/u-s-dollar-dominance-in-trade-invoicing-and-cross-border-investments-in-seacen-economies",
+      "https://econbrowser.com/archives/2026/04/gdp-projections-one-of-these-is-not-like-the-others",
+      "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat"
     ]
   }
 }
