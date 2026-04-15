@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-15-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-15</time>
+    </div>
+    <h2>偶数整除（四年级） / 中位数最小值（六年级）</h2>
+    <p>四位偶数整除4的比例；将1-25分五组，求中位数的中位数最小值</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#整除性 #中位数 #组合计数</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
