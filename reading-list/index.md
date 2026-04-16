@@ -18,6 +18,37 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-16</time>
+    </div>
+    <h2>SFT层级分析、LoRA高阶扩展与推测解码加速</h2>
+    <p>精选 6 篇 arXiv 论文：SFT层级机制、PolyLoRA、MTP训练目标、分布式Pipeline并行、RLHF自蒸馏、推测解码</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#LLM #RLHF #推理加速 #分布式训练</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-16</time>
+    </div>
+    <h2>FOMC预测、R*劳动份额、国债流动性与职场AI</h2>
+    <p>FOMC经济预测解读、均衡利率与劳动收入份额关联、国债市场流动性跟踪、职场Gen AI价值分析</p>
+    <div class="rl-meta">
+      <span class="rl-source">FRED Blog / NY Fed Liberty Street</span>
+      <span class="rl-tags">#美联储 #货币政策 #国债市场 #生成式AI</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-15-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
