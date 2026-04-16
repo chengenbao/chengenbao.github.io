@@ -114,14 +114,6 @@
       "https://arxiv.org/abs/2603.12577",
       "https://arxiv.org/abs/2603.12324"
     ],
-    "2026-03-16": [
-      "https://arxiv.org/abs/2603.12248",
-      "https://arxiv.org/abs/2603.12163",
-      "https://arxiv.org/abs/2603.12206",
-      "https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://arxiv.org/abs/2603.12244"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -211,6 +203,14 @@
       "https://arxiv.org/abs/2604.10072",
       "https://arxiv.org/abs/2604.10079",
       "https://arxiv.org/abs/2604.09560"
+    ],
+    "2026-04-16": [
+      "https://arxiv.org/abs/2604.11838",
+      "https://arxiv.org/abs/2604.11841",
+      "https://arxiv.org/abs/2604.11912",
+      "https://arxiv.org/abs/2604.11947",
+      "https://arxiv.org/abs/2604.12002",
+      "https://arxiv.org/abs/2604.12247"
     ]
   },
   "finance": {
@@ -301,12 +301,6 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
     ],
-    "2026-03-16": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -374,6 +368,12 @@
       "https://econbrowser.com/archives/2026/04/u-s-dollar-dominance-in-trade-invoicing-and-cross-border-investments-in-seacen-economies",
       "https://econbrowser.com/archives/2026/04/gdp-projections-one-of-these-is-not-like-the-others",
       "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat"
+    ],
+    "2026-04-16": [
+      "https://fredblog.stlouisfed.org/2026/04/fomc-summary-of-economic-projections-march-2026/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/04/the-r-labor-share-nexus/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/04/treasury-market-liquidity-since-april-2025/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/04/use-of-gen-ai-in-the-workplace-and-the-value-of-access-to-training/"
     ]
   }
 }
