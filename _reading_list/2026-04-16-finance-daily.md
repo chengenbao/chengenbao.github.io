@@ -1,33 +1,47 @@
 ---
 layout: reading
-title: "财经精选 2026-04-16：FOMC预测、R*劳动份额、国债流动性与职场AI"
-category: finance
-tags: [Finance, 美联储, 货币政策, 国债市场, 生成式AI]
+title: "💰 2026-04-16 财经精选"
 date: 2026-04-16
+category: finance
+tags: [macro, quant, risk, forecasting]
 ---
 
-本期精选 4 篇来自 FRED Blog 与 NY Fed Liberty Street 的财经研究，覆盖 2026 年 FOMC 经济预测解读、均衡利率与劳动份额关联、国债市场流动性跟踪，以及职场生成式 AI 使用与培训价值。
+## 💰 2026-04-16 财经精选
 
-## [FOMC Summary of Economic Projections, March 2026](https://fredblog.stlouisfed.org/2026/04/fomc-summary-of-economic-projections-march-2026/)
+> 每日精选宏观经济、金融市场、量化研究前沿论文，来源：arXiv econ / q-fin
 
-**来源：** FRED Blog · **标签：** 美联储 / FOMC / 货币政策 / 利率
+---
 
-解读美联储 2026 年 3 月 FOMC 会议经济预测摘要（SEP）：GDP 增速预期、通胀路径与利率点阵图，分析当前货币政策立场。
+### 1. Benign Overfitting in Economic Forecasting via Noise Regularization
 
-## [The R*–Labor Share Nexus](https://libertystreeteconomics.newyorkfed.org/2026/04/the-r-labor-share-nexus/)
+**来源**：arXiv econ.EM | **链接**：[https://arxiv.org/abs/2312.05593](https://arxiv.org/abs/2312.05593)
 
-**来源：** NY Fed Liberty Street · **标签：** R* / 均衡利率 / 劳动收入份额 / 宏观经济
+研究经济预测中的「良性过拟合」现象：通过噪声正则化，过参数化模型在经济时序预测上反而优于欠拟合模型。论文建立了理论框架解释这一反直觉现象，并在 GDP、通胀等宏观指标预测任务上验证，为机器学习方法在经济学中的应用提供理论依据。
 
-纽约联储研究：均衡实际利率 R* 与劳动收入份额之间的内在关联，分析结构性变化如何影响中性利率长期走势及货币政策框架。
+---
 
-## [Treasury Market Liquidity Since April 2025](https://libertystreeteconomics.newyorkfed.org/2026/04/treasury-market-liquidity-since-april-2025/)
+### 2. Sandpile Economics: Theory, Identification, and Evidence
 
-**来源：** NY Fed Liberty Street · **标签：** 国债市场 / 流动性 / 金融稳定 / 关税
+**来源**：arXiv econ.EM | **链接**：[https://arxiv.org/abs/2604.13890](https://arxiv.org/abs/2604.13890)
 
-系统回顾 2025 年 4 月以来美国国债市场流动性变化，评估关税冲击与地缘政治风险背景下的国债市场压力传导机制。
+借鉴物理学自组织临界性（SOC）中的沙堆模型，构建经济系统级联失效的理论框架。论文提出可识别的计量方法用于检测经济网络中的临界状态，并以金融危机传导为案例进行实证，对系统性风险预警具有重要意义。
 
-## [Use of Gen AI in the Workplace and the Value of Access to Training](https://libertystreeteconomics.newyorkfed.org/2026/04/use-of-gen-ai-in-the-workplace-and-the-value-of-access-to-training/)
+---
 
-**来源：** NY Fed Liberty Street · **标签：** 生成式AI / 劳动力市场 / AI培训 / 生产率
+### 3. Which Voices Move Markets? Speaker Identity and the Cross-Section of Post-Earnings Returns
 
-纽约联储调查：企业生成式 AI 使用率持续上升，接受过 AI 培训的员工生产率提升显著，培训机会不均等或扩大劳动力市场分化。
+**来源**：arXiv q-fin | **链接**：[https://arxiv.org/abs/2604.13260](https://arxiv.org/abs/2604.13260)
+
+研究财报电话会议中发言人身份对市场反应的影响。通过 NLP 技术识别 CEO/CFO 等不同角色的发言，发现发言人身份独立于内容本身对超额收益截面差异有显著预测力。为市场微观结构和投资者行为研究提供新维度。
+
+---
+
+### 4. Interpretable Systematic Risk around the Clock
+
+**来源**：arXiv q-fin | **链接**：[https://arxiv.org/abs/2604.13458](https://arxiv.org/abs/2604.13458)
+
+提出一种可解释的日内系统性风险度量框架，刻画不同交易时段（开盘/午盘/收盘）系统风险的动态特征。通过因子分解方法，将日内高频数据的系统性风险归因到可解释的宏观驱动因素，对日内量化策略和风险管理具有实践价值。
+
+---
+
+*生成时间：2026-04-16 | 数据来源：arXiv RSS*
