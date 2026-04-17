@@ -18,6 +18,16 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+    <a class="rl-card tech" href="/reading-list/2026-04-17-tech-daily/">
+      <span class="rl-date">2026-04-17</span>
+      <span class="rl-label">📰 技术速递</span>
+      <span class="rl-title">KV Packet 无重计算 KV Cache · MOONSHOT 多目标剪枝 · RLHF 梯度对消</span>
+    </a>
+    <a class="rl-card finance" href="/reading-list/2026-04-17-finance-daily/">
+      <span class="rl-date">2026-04-17</span>
+      <span class="rl-label">💰 财经精选</span>
+      <span class="rl-title">生产函数加成率 · 随机电力拍卖 · 财富税中性 · AI 与媒体经济</span>
+    </a>
 <a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
   <div class="rl-card-date">2026-04-16</div>
   <div class="rl-card-title">📰 每日技术速递</div>
