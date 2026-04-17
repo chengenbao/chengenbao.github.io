@@ -29,16 +29,6 @@ permalink: /reading-list/
       <span class="rl-title">生产函数加成率 · 随机电力拍卖 · 财富税中性 · AI 与媒体经济</span>
     </a>
 <a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
-  <div class="rl-card-date">2026-04-16</div>
-  <div class="rl-card-title">📰 每日技术速递</div>
-  <div class="rl-card-desc">KV缓存优化 · 多目标剪枝 · Prompt压缩 · CoT解耦 · 隐式奖励 · 边缘AI微调</div>
-</a>
-<a class="rl-card finance" href="/reading-list/2026-04-16-finance-daily/">
-  <div class="rl-card-date">2026-04-16</div>
-  <div class="rl-card-title">💰 财经精选</div>
-  <div class="rl-card-desc">良性过拟合预测 · 沙堆经济学 · 财报发言人效应 · 日内系统风险</div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
