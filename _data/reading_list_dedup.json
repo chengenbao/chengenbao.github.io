@@ -107,13 +107,6 @@
       "https://pytorch.org/blog/mxfp8-training-moes/",
       "https://pytorch.org/blog/flexattention-flashattention-4/"
     ],
-    "2026-03-17": [
-      "https://arxiv.org/abs/2603.12272",
-      "https://arxiv.org/abs/2603.12646",
-      "https://arxiv.org/abs/2603.12298",
-      "https://arxiv.org/abs/2603.12577",
-      "https://arxiv.org/abs/2603.12324"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -211,6 +204,15 @@
       "https://arxiv.org/abs/2604.13065",
       "https://arxiv.org/abs/2604.13197",
       "https://arxiv.org/abs/2604.13359"
+    ],
+    "2026-04-17": [
+      "https://arxiv.org/abs/2604.13226",
+      "https://arxiv.org/abs/2604.13287",
+      "https://arxiv.org/abs/2604.13088",
+      "https://arxiv.org/abs/2604.13082",
+      "https://arxiv.org/abs/2604.13349",
+      "https://arxiv.org/abs/2604.13359",
+      "https://arxiv.org/abs/2604.13081"
     ]
   },
   "finance": {
@@ -295,12 +297,6 @@
       "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
       "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
     ],
-    "2026-03-17": [
-      "https://www.cnbc.com/2026/03/16/bessent-says-treasury-is-not-intervening-in-oil-commodities-markets-and-has-no-authority-to-do-so.html",
-      "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -374,6 +370,12 @@
       "https://arxiv.org/abs/2604.13890",
       "https://arxiv.org/abs/2604.13260",
       "https://arxiv.org/abs/2604.13458"
+    ],
+    "2026-04-17": [
+      "https://arxiv.org/abs/2604.13224",
+      "https://arxiv.org/abs/2604.13603",
+      "https://arxiv.org/abs/2603.05264",
+      "https://arxiv.org/abs/2512.24968"
     ]
   }
 }
