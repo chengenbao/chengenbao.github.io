@@ -1,45 +1,63 @@
 ---
 layout: reading
-title: "技术速递 2026-04-16：SFT层级分析、LoRA高阶扩展与推测解码加速"
-category: tech
-tags: [Tech, arXiv, LLM, 推理加速, 分布式训练, RLHF]
+title: "📰 2026-04-16 每日技术速递"
 date: 2026-04-16
+category: tech
+tags: [LLM, inference, quantization, pruning, edge-ai]
 ---
 
-本期精选 6 篇 arXiv 最新论文，聚焦大模型 SFT 分析、参数高效微调改进、多 Token 训练目标、低带宽分布式训练、RLHF 自蒸馏以及推测解码加速方向。
+## 📰 2026-04-16 每日技术速递
 
-## [A Layer-wise Analysis of Supervised Fine-Tuning](https://arxiv.org/abs/2604.11838)
+> 每日精选 AI 系统 / 大模型 / 推理优化前沿论文，来源：arXiv cs.LG / cs.CL
 
-**来源：** arXiv cs.LG · **标签：** SFT / Fine-Tuning / LoRA / LLM对齐
+---
 
-深入分析 SFT 各层行为：前层冻结有助减少过拟合，后层更新是对齐效果的关键所在。揭示了 LoRA 等参数高效方法在 SFT 中的机制。
+### 1. KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs
 
-## [Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions](https://arxiv.org/abs/2604.11841)
+**来源**：arXiv cs.LG | **链接**：[https://arxiv.org/abs/2604.13226](https://arxiv.org/abs/2604.13226)
 
-**来源：** arXiv cs.LG · **标签：** LoRA / PEFT / 参数高效微调 / LLM
+提出 KV Packet 方案，通过构建上下文无关的 KV 缓存块，彻底消除 LLM 推理中的 KV 重计算开销。核心思路是将 Prompt 切分为可独立缓存的数据包，每个 Packet 的 KV 值仅依赖自身内容而非全局上下文，从而实现跨请求的高效复用，显著降低首包时延（TTFT）和推理计算量。
 
-PolyLoRA：通过多项式展开引入高阶交互，在同等参数量下显著提升 LoRA 的表达能力，GLUE/MMLU 多项基准超越标准 LoRA。
+---
 
-## [How Transformers Learn to Plan via Multi-Token Prediction](https://arxiv.org/abs/2604.11912)
+### 2. MOONSHOT: A Framework for Multi-Objective Pruning of Vision and Large Language Models
 
-**来源：** arXiv cs.LG · **标签：** Multi-Token Prediction / 训练目标 / Transformer / 推理规划
+**来源**：arXiv cs.LG | **链接**：[https://arxiv.org/abs/2604.13287](https://arxiv.org/abs/2604.13287)
 
-多 token 预测训练目标（MTP）使模型隐式学会前瞻规划能力，优于 NTP。分析了 MTP 在解码树搜索中的优势以及对 CoT 推理的增益。
+MOONSHOT 是一个统一的多目标剪枝框架，同时优化模型精度、延迟和内存占用三个维度。通过 Pareto 前沿搜索自动找到剪枝比例与性能的最优权衡，支持视觉模型（ViT 系列）和大语言模型，在 ImageNet 及多个 NLP Benchmark 上取得 SOTA 的压缩-精度曲线。
 
-## [ResBM: Residual Bottleneck Models for Low-Bandwidth Pipeline Parallelism](https://arxiv.org/abs/2604.11947)
+---
 
-**来源：** arXiv cs.LG · **标签：** 分布式训练 / Pipeline并行 / 通信优化 / LLM训练
+### 3. Lossless Prompt Compression via Dictionary-Encoding and In-Context Learning
 
-提出 ResBM 架构，专为低带宽网络下的去中心化 pipeline 并行训练设计，大幅减少跨节点通信量，支持大规模分布式 LLM 训练。
+**来源**：arXiv cs.CL | **链接**：[https://arxiv.org/abs/2604.13066](https://arxiv.org/abs/2604.13066)
 
-## [Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision](https://arxiv.org/abs/2604.12002)
+提出基于字典编码的无损 Prompt 压缩方法，利用 LLM 自身的 In-Context Learning 能力在推理侧实时解压。与有损压缩方法不同，该方案不改变语义，适用于需要精确复现原始指令的生产场景，压缩率可达 3-5×，兼容主流闭源 API。
 
-**来源：** arXiv cs.CL · **标签：** RLHF / Self-Distillation / 奖励模型 / 强化学习
+---
 
-SD-Zero：将稀疏二元奖励通过自蒸馏转化为稠密监督信号，在可验证的 RLHF 场景中填补 PPO 与 DPO 之间的空白，大幅提升数学推理性能。
+### 4. Correct Chains, Wrong Answers: Dissociating Reasoning from Output in LLM Logic
 
-## [SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration](https://arxiv.org/abs/2604.12247)
+**来源**：arXiv cs.CL | **链接**：[https://arxiv.org/abs/2604.13065](https://arxiv.org/abs/2604.13065)
 
-**来源：** arXiv cs.CL · **标签：** 推测解码 / 推理加速 / Speculative Decoding / LLM推理
+系统研究大模型 Chain-of-Thought 推理链与最终答案的解耦现象：即便中间推理步骤完全正确，模型仍可能输出错误答案，反之亦然。论文深入分析了这一"推理-输出解耦"的机制，对 RLHF 奖励设计及推理验证器的研发有重要参考意义。
 
-SpecBound：无需独立草稿模型的自推测解码方案，通过逐层置信度校准自适应确定推测深度，在多类模型上实现 1.5–2.2x 推理加速。
+---
+
+### 5. Unleashing Implicit Rewards: Prefix-Value Learning for Distribution-Level Optimization
+
+**来源**：arXiv cs.CL | **链接**：[https://arxiv.org/abs/2604.13197](https://arxiv.org/abs/2604.13197)
+
+提出 Prefix-Value Learning 方法，通过从语言模型中提取隐式奖励信号来进行分布级优化，无需显式奖励模型。该方法将奖励信号嵌入前缀序列的值函数中，在对齐任务上超越传统 PPO/DPO 方案，并有效缓解奖励模型偏差问题。
+
+---
+
+### 6. BioTrain: Sub-MB, Sub-50mW On-Device Fine-Tuning for Edge-AI on Biosignals
+
+**来源**：arXiv cs.LG | **链接**：[https://arxiv.org/abs/2604.13359](https://arxiv.org/abs/2604.13359)
+
+面向边缘 AI 场景的超轻量级在设备微调框架，模型更新内存占用不超过 1MB，功耗低于 50mW。针对生物信号（ECG/EEG）的持续学习需求，通过梯度稀疏化和定点训练实现极低资源消耗，为可穿戴设备上的个性化模型更新提供可行路径。
+
+---
+
+*生成时间：2026-04-16 | 数据来源：arXiv RSS*
