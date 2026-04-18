@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-18</time>
+    </div>
+    <h2>AI金融、能源转型、反垄断政策与 DeFi 风险</h2>
+    <p>5篇精选：LLM预测市场基准、德克萨斯电力转型、并购剥离补救、印度女性就业与液态再质押风险</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv q-fin / econ.GN</span>
+      <span class="rl-tags">#AI金融 #能源市场 #反垄断 #DeFi</span>
+    </div>
+  </div>
+</a>
     <a class="rl-card tech" href="/reading-list/2026-04-17-tech-daily/">
       <span class="rl-date">2026-04-17</span>
       <span class="rl-label">📰 技术速递</span>
