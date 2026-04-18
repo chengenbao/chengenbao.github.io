@@ -290,13 +290,6 @@
       "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
     ],
-    "2026-03-18": [
-      "https://www.nytimes.com/2026/03/17/us/politics/kharg-island-iran-trump-risks.html",
-      "https://www.nytimes.com/2026/03/17/business/economy/iran-war-rate-cuts.html",
-      "https://www.nytimes.com/2026/03/17/business/economy/oil-100-barrel-supply.html",
-      "https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html",
-      "https://www.nytimes.com/2026/03/17/us/politics/trump-china-trade-board.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -376,6 +369,13 @@
       "https://arxiv.org/abs/2604.13603",
       "https://arxiv.org/abs/2603.05264",
       "https://arxiv.org/abs/2512.24968"
+    ],
+    "2026-04-18": [
+      "https://arxiv.org/abs/2604.14199",
+      "https://arxiv.org/abs/2604.14257",
+      "https://arxiv.org/abs/2604.15045",
+      "https://arxiv.org/abs/2604.14758",
+      "https://arxiv.org/abs/2604.03274"
     ]
   }
 }
