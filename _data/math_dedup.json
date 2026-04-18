@@ -1,17 +1,5 @@
 {
   "sources": {
-    "2026-03-16": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_18",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_21"
-    ],
-    "2026-03-17": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_17",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_25"
-    ],
-    "2026-03-18": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_17",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_5"
-    ],
     "2026-03-19": [
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_19",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_23"
@@ -51,6 +39,10 @@
     "2026-04-15": [
       "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_16",
       "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_22"
+    ],
+    "2026-04-18": [
+      "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem19",
+      "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem22"
     ]
   }
 }
