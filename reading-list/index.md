@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-18-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-18</time>
+    </div>
+    <h2>整数中位数与极差（四年级）/ 网格牙签计数（五年级）</h2>
+    <p>从数据统计到代数建模：学会用极差约束逆向推理，建立网格牙签数的通用公式</p>
+    <div class="rl-meta">
+      <span class="rl-source">2024 Gauss Grade 7 真题</span>
+      <span class="rl-tags">#中位数 #极差 #计数 #规律</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-18-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
