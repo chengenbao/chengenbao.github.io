@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-03-19": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_19",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_23"
-    ],
     "2026-03-20": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_17"
@@ -43,6 +39,10 @@
     "2026-04-18": [
       "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem19",
       "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem22"
+    ],
+    "2026-04-19": [
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_21",
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22"
     ]
   }
 }
