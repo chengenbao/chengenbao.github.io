@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-19</time>
+    </div>
+    <h2>关税冲击·工资预期·稳定币·印度崛起</h2>
+    <p>5篇美联储FEDS Notes：追踪关税对消费价格的实时冲击，解读工资增长预期的阶层分化，评估稳定币的金融稳定风险，以及印度在全球供应链重组中的战略地位</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税 #稳定币 #印度 #宏观经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-18-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
