@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-19-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-19</time>
+    </div>
+    <h2>比例与方程（六年级） / 几何估算与圆（初一）</h2>
+    <p>比例方程解青蛙变色问题；圆周长估算卷筒胶带展开长度</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#比例 #方程 #圆的周长 #估算</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card finance" href="/reading-list/2026-04-19-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
