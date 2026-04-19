@@ -284,12 +284,6 @@
       "https://www.cnbc.com/2026/03/19/traders-rate-cut.html",
       "https://www.cnbc.com/2026/03/12/gig-workers-gas-prices-aaa-iran.html"
     ],
-    "2026-03-19": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.marketwatch.com/story/powell-fed-chair-statement-independence",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260303.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -376,6 +370,13 @@
       "https://arxiv.org/abs/2604.15045",
       "https://arxiv.org/abs/2604.14758",
       "https://arxiv.org/abs/2604.03274"
+    ],
+    "2026-04-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/wage-and-income-growth-expectations-before-during-and-after-the-pandemic-period-20260413.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/india-and-the-global-economy-20260408.html"
     ]
   }
 }
