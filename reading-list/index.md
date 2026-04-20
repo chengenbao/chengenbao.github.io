@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-20</time>
+    </div>
+    <h2>LLM强化学习 · 推理优化 · 微调自动化 · Agent架构</h2>
+    <p>精选 6 篇 HF Daily Papers：LongAct 长上下文 RL、RLVR 预训练空间探索、推理时计算优化、TREX 微调自动化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace Papers</span>
+      <span class="rl-tags">#LLM #RL #Agent #推理优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-19-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
