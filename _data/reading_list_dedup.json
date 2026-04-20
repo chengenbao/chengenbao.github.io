@@ -81,32 +81,6 @@
       "https://arxiv.org/abs/2603.18411",
       "https://arxiv.org/abs/2603.19149"
     ],
-    "2026-03-20": [
-      "https://arxiv.org/abs/2603.17970",
-      "https://arxiv.org/abs/2603.17946",
-      "https://arxiv.org/abs/2603.17891",
-      "https://arxiv.org/abs/2603.17945",
-      "https://arxiv.org/abs/2603.17942",
-      "https://arxiv.org/abs/2603.17884",
-      "https://arxiv.org/abs/2603.17872"
-    ],
-    "2026-03-19": [
-      "https://arxiv.org/abs/2603.16731",
-      "https://arxiv.org/abs/2603.16590",
-      "https://pytorch.org/blog/mxfp8-training-for-moes-1-3x-training-speedup-vs-bf16-for-llama4-scout-on-gb200-cluster-using-torchao-and-torchtitan/",
-      "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
-      "https://arxiv.org/abs/2603.16127",
-      "https://pytorch.org/blog/kernelagent-hardware-guided-gpu-kernel-optimization-via-multi-agent-orchestration/"
-    ],
-    "2026-03-18": [
-      "https://arxiv.org/abs/2603.13259",
-      "https://arxiv.org/abs/2603.13256",
-      "https://arxiv.org/abs/2603.13249",
-      "https://arxiv.org/abs/2603.13235",
-      "https://arxiv.org/abs/2603.13258",
-      "https://pytorch.org/blog/mxfp8-training-moes/",
-      "https://pytorch.org/blog/flexattention-flashattention-4/"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -213,6 +187,14 @@
       "https://arxiv.org/abs/2604.13349",
       "https://arxiv.org/abs/2604.13359",
       "https://arxiv.org/abs/2604.13081"
+    ],
+    "2026-04-20": [
+      "https://arxiv.org/abs/2604.14922",
+      "https://arxiv.org/abs/2604.14142",
+      "https://arxiv.org/abs/2603.27844",
+      "https://arxiv.org/abs/2604.14116",
+      "https://arxiv.org/abs/2604.11045",
+      "https://arxiv.org/abs/2604.08510"
     ]
   },
   "finance": {
