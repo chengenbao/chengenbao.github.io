@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-20</time>
+    </div>
+    <h2>地缘风险、能源震荡与英欧再接近</h2>
+    <p>伊朗战争冲击英国银行业；英国寻求与欧盟达成钢铁与EV协议；特朗普能源部长承认油价难回3美元。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Guardian Business</span>
+      <span class="rl-tags">#地缘政治 #能源 #英欧贸易</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
