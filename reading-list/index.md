@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-21</time>
+    </div>
+    <h2>贸易卫星数据 · 算法共谋 · 时间偏好 · 过剩产能</h2>
+    <p>宏观贸易监测新范式与数字经济治理前沿</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#国际贸易 #算法经济 #能源政策</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
