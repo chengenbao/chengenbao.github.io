@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-21</time>
+    </div>
+    <h2>KV Cache压缩·FP16精度·LoRA·DPO·Qwen3.5-Omni</h2>
+    <p>6篇 arXiv 深度技术论文：推理优化、参数高效微调、对齐算法、知识蒸馏与多模态架构前沿进展</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#KVCache #LoRA #DPO #Qwen #蒸馏</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-20-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
