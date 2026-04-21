@@ -252,13 +252,6 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
     ],
-    "2026-03-21": [
-      "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
-      "https://www.cnbc.com/2026/03/20/goldman-sachs-oil-price-iran-war.html",
-      "https://www.cnbc.com/2026/03/18/iran-war-stagflation-europe-recession-oil-price-.html",
-      "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
-      "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -359,6 +352,12 @@
       "https://www.theguardian.com/us-news/2026/apr/19/trump-energy-secretary-chris-wright-gas-prices",
       "https://www.theguardian.com/business/2026/apr/20/abf-outcome-primark-spin-off-plan",
       "https://www.theguardian.com/business/2026/apr/19/carmakers-uk-loan-scandal-payouts"
+    ],
+    "2026-04-21": [
+      "https://arxiv.org/abs/2604.15444",
+      "https://arxiv.org/abs/2604.15825",
+      "https://arxiv.org/abs/2604.15349",
+      "https://arxiv.org/abs/2511.22839"
     ]
   }
 }
