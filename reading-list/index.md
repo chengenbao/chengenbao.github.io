@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-21-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-21</time>
+    </div>
+    <h2>字母排列计数（四年级） / 辛普森悖论投篮比例（六年级）</h2>
+    <p>排列计数中的奇偶位置技巧，以及辛普森悖论与分式不等式的综合应用</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 2022 真题</span>
+      <span class="rl-tags">#排列组合 #比例不等式 #辛普森悖论</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-21-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
