@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-22</time>
+    </div>
+    <h2>LLM 推理加速 / Test-Time Scaling / 训练优化</h2>
+    <p>投机解码实证 · SMC 奖励引导解码 · SCATR · 数据混合综述 · S-GRPO · BASIS 显存优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#推理加速 #RLHF #预训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-21-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
