@@ -7,6 +7,30 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/llm-training/">
+      <div class="note-icon">🧠</div>
+      <div class="note-body">
+        <h2>大模型训练技术全景：预训练 · 微调 · 对齐 · 推理扩展</h2>
+        <p>从 Pre-training 数据工程、架构演进、3D 并行策略，到 SFT / RLHF / DPO / GRPO 对齐训练，再到 Test-Time Scaling（o1 / DeepSeek-R1 范式）的完整技术脉络。</p>
+        <span class="tag">预训练</span>
+        <span class="tag">SFT</span>
+        <span class="tag">RLHF</span>
+        <span class="tag">GRPO</span>
+        <span class="tag">Test-Time Scaling</span>
+      </div>
+    </a>
+    <a class="note-card" href="/notes/llm-inference/">
+      <div class="note-icon">⚡</div>
+      <div class="note-body">
+        <h2>大模型推理优化全景：KV Cache · 量化 · 投机解码 · 服务系统</h2>
+        <p>系统梳理 LLM 推理优化全栈：KV Cache 管理（PagedAttention）、FP8/AWQ 量化、投机解码（Eagle/Medusa）、Prefill-Decode 分离架构，以及 vLLM / SGLang / TensorRT-LLM 框架对比。</p>
+        <span class="tag">KV Cache</span>
+        <span class="tag">量化</span>
+        <span class="tag">投机解码</span>
+        <span class="tag">vLLM</span>
+        <span class="tag">PD分离</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/deepspeed-moe/">
       <div class="note-icon">🚀</div>
       <div class="note-body">
