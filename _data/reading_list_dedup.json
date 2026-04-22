@@ -66,13 +66,6 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/moe-transformers"
     ],
-    "2026-03-22": [
-      "https://huggingface.co/blog/async-rl-training-landscape",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/moe-transformers",
-      "https://arxiv.org/abs/2603.20172",
-      "https://arxiv.org/abs/2603.19532"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -195,6 +188,14 @@
       "https://arxiv.org/abs/2604.15602",
       "https://arxiv.org/abs/2604.15701",
       "https://arxiv.org/abs/2604.15804"
+    ],
+    "2026-04-22": [
+      "https://arxiv.org/abs/2604.16368",
+      "https://arxiv.org/abs/2604.16453",
+      "https://arxiv.org/abs/2604.16535",
+      "https://arxiv.org/abs/2604.16380",
+      "https://arxiv.org/abs/2604.16557",
+      "https://arxiv.org/abs/2604.16324"
     ]
   },
   "finance": {
