@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-22-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-22</time>
+    </div>
+    <h2>数列平均值巧算（五年级） / 矩形中点求面积（初一）</h2>
+    <p>用和差法消去中间项求平均；中点四边形定理+向量叉积求矩形面积</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 2022 真题</span>
+      <span class="rl-tags">#平均数 #坐标几何 #面积</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-22-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
