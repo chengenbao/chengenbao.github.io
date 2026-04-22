@@ -248,11 +248,6 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
     ],
-    "2026-03-22": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -359,6 +354,13 @@
       "https://arxiv.org/abs/2604.15825",
       "https://arxiv.org/abs/2604.15349",
       "https://arxiv.org/abs/2511.22839"
+    ],
+    "2026-04-22": [
+      "https://arxiv.org/abs/2604.17167",
+      "https://arxiv.org/abs/2604.18373",
+      "https://arxiv.org/abs/2604.18330",
+      "https://arxiv.org/abs/2604.17946",
+      "https://arxiv.org/abs/2604.17166"
     ]
   }
 }
