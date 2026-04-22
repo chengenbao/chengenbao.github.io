@@ -43,6 +43,18 @@ permalink: /notes/
         <span class="tag">ICML 2022</span>
       </div>
     </a>
+    <a class="note-card" href="/notes/mooncake/">
+      <div class="note-icon">🌙</div>
+      <div class="note-body">
+        <h2>Mooncake：以 KVCache 为中心的 LLM 分离式推理架构</h2>
+        <p>月之暗面 Kimi 生产推理平台深度解析：KVCache-centric PD 分离、分层存储池（HBM/DRAM/SSD）、过载早期拒绝，以及最新 PrfaaS 跨数据中心 Prefill 架构。含两篇 arXiv 论文核心内容。</p>
+        <span class="tag">Mooncake</span>
+        <span class="tag">PD 分离</span>
+        <span class="tag">KVCache</span>
+        <span class="tag">推理服务</span>
+        <span class="tag">Transfer Engine</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/nvshmem-sparse-embedding/">
       <div class="note-icon">🔗</div>
       <div class="note-body">
