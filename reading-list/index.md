@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-22</time>
+    </div>
+    <h2>稳定币风险、AI交易泡沫与全球贸易新格局</h2>
+    <p>5篇前沿：稳定币金融技术风险、AI市场泡沫行为、西巴尔干股市整合、粮食供应链脆弱性、高维资产定价稀疏策略</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#稳定币 #AI交易 #国际金融 #资产定价</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
