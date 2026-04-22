@@ -19,6 +19,18 @@ permalink: /notes/
         <span class="tag">ICML 2022</span>
       </div>
     </a>
+    <a class="note-card" href="/notes/nvshmem-sparse-embedding/">
+      <div class="note-icon">🔗</div>
+      <div class="note-body">
+        <h2>NVSHMEM 统一地址空间与 Sparse Embedding 技术解析</h2>
+        <p>NVSHMEM PGAS 模型核心机制、GPU-initiated one-sided 通信原语，以及用统一地址空间实现大规模 Sparse Embedding 分布式 Lookup 的完整方案：coalescing、热点副本、IBGDA 与落地路径。</p>
+        <span class="tag">NVSHMEM</span>
+        <span class="tag">Sparse Embedding</span>
+        <span class="tag">PGAS</span>
+        <span class="tag">RDMA</span>
+        <span class="tag">推荐系统</span>
+      </div>
+    </a>
     <a class="note-card" href="/notes/deepep/">
       <div class="note-icon">⚡</div>
       <div class="note-body">
