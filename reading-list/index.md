@@ -202,16 +202,36 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-    <a class="rl-card tech" href="/reading-list/2026-04-17-tech-daily/">
-      <span class="rl-date">2026-04-17</span>
-      <span class="rl-label">📰 技术速递</span>
-      <span class="rl-title">KV Packet 无重计算 KV Cache · MOONSHOT 多目标剪枝 · RLHF 梯度对消</span>
-    </a>
-    <a class="rl-card finance" href="/reading-list/2026-04-17-finance-daily/">
-      <span class="rl-date">2026-04-17</span>
-      <span class="rl-label">💰 财经精选</span>
-      <span class="rl-title">生产函数加成率 · 随机电力拍卖 · 财富税中性 · AI 与媒体经济</span>
-    </a>
+<a class="rl-card tech" href="/reading-list/2026-04-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-17</time>
+    </div>
+    <h2>KV Packet 无重计算 KV Cache · MOONSHOT 多目标剪枝 · RLHF 梯度对消</h2>
+    <p>KV Packet 跨请求无重计算复用、多目标剪枝框架 MOONSHOT、RLHF token 梯度对消机制分析等 7 篇前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#KVCache #LLM推理 #剪枝压缩 #RLHF #边缘AI</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card finance" href="/reading-list/2026-04-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-17</time>
+    </div>
+    <h2>生产函数加成率 · 随机电力拍卖 · 财富税中性 · AI 与媒体经济</h2>
+    <p>加成率测量综述、可再生能源电力拍卖机制、比例财富税中性定理、生成式 AI 对新闻出版商的双重冲击</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#市场结构 #能源市场 #财政政策 #AI媒体经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
