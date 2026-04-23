@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-23</time>
+    </div>
+    <h2>贸易格局·资本监管·市场结构</h2>
+    <p>美联储研究笔记精选：中国贸易顺差与产业政策、银行资本风险敏感性、ETF市场化浪潮、货币基金与商业票据联动</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#国际贸易 #银行监管 #ETF #货币市场</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
