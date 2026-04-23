@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-23-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-23</time>
+    </div>
+    <h2>分组配对计数（初二） / 坐标变换交换律（初三）</h2>
+    <p>无序分组公式与组合计数；坐标变换的可交换性代数验证</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10A 2024 真题</span>
+      <span class="rl-tags">#组合计数 #坐标变换</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-23-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
