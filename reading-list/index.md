@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-23-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-23</time>
+    </div>
+    <h2>MoE推理加速 · 早退优化 · 知识蒸馏 · 扩散LLM · SAE安全</h2>
+    <p>6篇arXiv前沿论文：MoE在Apple NPU推理、二维早退加速、蒸馏陷阱守卫、掩码扩散精炼、SAE鲁棒性与KG硬件检索。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#MoE #推理加速 #知识蒸馏 #扩散模型 #LLM安全</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-22-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
