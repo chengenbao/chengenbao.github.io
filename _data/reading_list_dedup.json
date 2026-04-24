@@ -235,11 +235,6 @@
       "https://www.nber.org/papers/w33767",
       "https://www.nber.org/papers/w33760"
     ],
-    "2026-03-24": [
-      "https://www.bloomberg.com/news/articles/2026-03-23/sinopec-to-ensure-china-s-fuel-supply-and-cut-chemicals-losses",
-      "https://www.bloomberg.com/news/articles/2026-03-24/chinese-equities-flash-rebound-signs-following-steep-decline",
-      "https://www.bloomberg.com/news/articles/2026-03-23/stock-market-today-dow-s-p-live-updates"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -359,6 +354,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/Outlining-and-measuring-the-benefits-of-risk-sensitivity-in-bank-capital-requirements-20250328.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/implications-of-growth-in-etfs-evidence-from-mutual-fund-to-etf-conversions-20251119.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/does-mutual-fund-fragility-impact-primary-market-pricing-evidence-from-commercial-paper-20250212.html"
+    ],
+    "2026-04-24": [
+      "https://arxiv.org/abs/2604.19833",
+      "https://arxiv.org/abs/2604.20652",
+      "https://arxiv.org/abs/2604.02875",
+      "https://arxiv.org/abs/2604.20050",
+      "https://arxiv.org/abs/2604.19956"
     ]
   }
 }
