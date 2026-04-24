@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-24</time>
+    </div>
+    <h2>LLM 推理加速与训练效率全景</h2>
+    <p>KV Cache 分层压缩、MoE Upcycling、投机解码落地、Test-Time Compute 预算调度、PTQ 失效分析、混合策略蒸馏</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.CL / cs.LG</span>
+      <span class="rl-tags">#KVCache #MoE #推理加速 #量化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-23-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
