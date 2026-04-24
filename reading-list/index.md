@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-24-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-24</time>
+    </div>
+    <h2>蚱蜢跳莲叶（四年级） / 列表插值极差翻倍（五年级）</h2>
+    <p>用同余分析求最少跳步数；统计三约束下最大化两数之和</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题（2023）</span>
+      <span class="rl-tags">#贪心算法 #同余 #统计 #极差中位数</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-24-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
