@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-25-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-25</time>
+    </div>
+    <h2>正方体等边三角形（六年级/初一） / 等腰直角三角形面积（六年级/初一）</h2>
+    <p>正方体中构造等边三角形；等腰直角三角形面积与重叠区域计算。</p>
+    <div class="rl-meta">
+      <span class="rl-source">2024 AMC 8 Problem 20 & 24 真题</span>
+      <span class="rl-tags">#空间几何 #等腰直角三角形</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card finance" href="/reading-list/2026-04-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
