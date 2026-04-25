@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-25</time>
+    </div>
+    <h2>AI经济学·市场定价·金融科技前沿</h2>
+    <p>arXiv 经济学前沿：寡头定价传导、LLM意识形态偏见、p(doom)经济学、代理型AI金融应用、劳动力市场歧视</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#AI经济学 #金融科技 #宏观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
