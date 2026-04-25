@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-25</time>
+    </div>
+    <h2>超网络弹性推理 · 语义缓存 · 扩散模型量化 · 推理早停 · 长期记忆</h2>
+    <p>6 篇 arXiv 前沿论文：Super Apriel 多速推理架构、连续语义 KV Cache、扩散 LLM 量化鲁棒性、TRACES 自适应早停、EngramaBench 长期记忆评测</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / cs.CL</span>
+      <span class="rl-tags">#大模型 #推理加速 #量化 #记忆</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-24-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
