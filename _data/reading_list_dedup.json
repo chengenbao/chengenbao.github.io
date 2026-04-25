@@ -229,12 +229,6 @@
       "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
       "https://www.federalreserve.gov/econres/ifdp/dollarization-waves-new-evidence-from-a-comprehensive-international-bond-database.htm"
     ],
-    "2026-03-25": [
-      "https://www.nber.org/papers/w33762",
-      "https://www.nber.org/papers/w33759",
-      "https://www.nber.org/papers/w33767",
-      "https://www.nber.org/papers/w33760"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -361,6 +355,13 @@
       "https://arxiv.org/abs/2604.02875",
       "https://arxiv.org/abs/2604.20050",
       "https://arxiv.org/abs/2604.19956"
+    ],
+    "2026-04-25": [
+      "https://arxiv.org/abs/2604.21423",
+      "https://arxiv.org/abs/2604.21334",
+      "https://arxiv.org/abs/2503.07341",
+      "https://arxiv.org/abs/2604.21672",
+      "https://arxiv.org/abs/2412.00615"
     ]
   }
 }
