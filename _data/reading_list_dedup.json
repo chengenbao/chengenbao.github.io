@@ -223,12 +223,6 @@
       "https://www.cnbc.com/2026/03/26/this-emerging-market-is-sizzling-while-u-s-stocks-falter-charts-show.html",
       "https://www.cnbc.com/2026/03/26/trump-volatility-fatigue-retail-traders-arent-buying-the-dips-like-they-used-to.html"
     ],
-    "2026-03-26": [
-      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm",
-      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
-      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
-      "https://www.federalreserve.gov/econres/ifdp/dollarization-waves-new-evidence-from-a-comprehensive-international-bond-database.htm"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -362,6 +356,12 @@
       "https://arxiv.org/abs/2503.07341",
       "https://arxiv.org/abs/2604.21672",
       "https://arxiv.org/abs/2412.00615"
+    ],
+    "2026-04-26": [
+      "https://arxiv.org/abs/2604.21734",
+      "https://arxiv.org/abs/2604.21569",
+      "https://arxiv.org/abs/2604.18605",
+      "https://arxiv.org/abs/2604.21433"
     ]
   }
 }
