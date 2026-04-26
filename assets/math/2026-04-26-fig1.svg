@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" fill="white"/>
+  
+  <!-- 坐标系设置：原点 C 在右下角 (340, 310), A 在左下 (60, 310), B 在右上 -->
+  
+  <!-- 三个正方形：DKHG(边长4单位), ELJH(边长6单位), FMCJ(边长9单位) -->
+  <!-- 以像素为单位，1单位=20px -->
+  
+  <!-- 映射：C=(340,310), A=(60,310), AC方向向左 -->
+  <!-- 正方形从 C 向左排列在 AC 上 -->
+  
+  <!-- 实际坐标（单位=20px）：
+    C = (340, 310)
+    J = (340-9*20, 310) = (160, 310) — 即 FJ 底边
+    H = (160-6*20, 310) = (40, 310)  — 即 ELJH 底边  
+    G = (40-4*20, 310) ... 太靠左了
+    
+    调整: 1单位=15px
+    C=(350,310), J=C-9*15=(215,310), H=J-6*15=(125,310), G=H-4*15=(65,310), A=(65,310)
+    实际上 A 不一定在 G，让我重新设置
+    
+    设 G=A=(60,310), H=G+4*15=(120,310), J=H+6*15=(210,310), C=J+9*15=(345,310)
+    
+    对应正方形（向上）：
+    DKHG: G=(60,310), H=(120,310), K=(120,310-60)=(120,250), D=(60,250)
+    ELJH: H=(120,310), J=(210,310), L=(210,310-90)=(210,220), E=(120,220)
+    FMCJ: J=(210,310), C=(345,310), M=(345,310-135)=(345,175), F=(210,175)
+    
+    D,E,F 在 AB 上。A=(60,310), B 在三角形顶点
+    三角形 ABC 直角在 C: A=(60,310), C=(345,310), B=(345, 310-?)
+    B 高度由斜边 AB 决定。D=(60,250), E=(120,220), F=(210,175) 需要共线
+    
+    检查 D,E,F 共线：
+    D=(60,250), E=(120,220), F=(210,175)
+    斜率 DE = (220-250)/(120-60) = -30/60 = -0.5
+    斜率 EF = (175-220)/(210-120) = -45/90 = -0.5 ✓ 共线！
+    
+    B = 直线 DE 延伸到 x=345: y = 250 + (345-60)*(-0.5) = 250 - 142.5 = 107.5 ≈ 108
+    B=(345, 108)
+  -->
+  
+  <!-- 背景填充 -->
+  <rect width="420" height="360" fill="#f8f9fa"/>
+  
+  <!-- 正方形 DKHG（边长4，面积16）淡蓝色 -->
+  <rect x="60" y="250" width="60" height="60" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- 正方形 ELJH（边长6，面积36）淡绿色 -->
+  <rect x="120" y="220" width="90" height="90" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  
+  <!-- 正方形 FMCJ（边长9，面积?）淡橙色 -->
+  <rect x="210" y="175" width="135" height="135" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- 三角形 ABC 轮廓 -->
+  <polygon points="60,310 345,310 345,108" fill="none" stroke="#1e293b" stroke-width="2.5"/>
+  
+  <!-- 底边 AC -->
+  <line x1="60" y1="310" x2="345" y2="310" stroke="#1e293b" stroke-width="2.5"/>
+  
+  <!-- 斜线 AB（与正方形顶点重合） -->
+  <line x1="60" y1="310" x2="345" y2="108" stroke="#1e293b" stroke-width="2.5"/>
+  
+  <!-- BC（右侧垂直边） -->
+  <line x1="345" y1="310" x2="345" y2="108" stroke="#1e293b" stroke-width="2.5"/>
+  
+  <!-- 直角标记 at C -->
+  <rect x="330" y="295" width="15" height="15" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  
+  <!-- 标注点 -->
+  <!-- A -->
+  <circle cx="60" cy="310" r="3" fill="#1e293b"/>
+  <text x="48" y="328" font-family="serif" font-size="14" font-style="italic">A</text>
+  
+  <!-- G -->
+  <circle cx="60" cy="310" r="3" fill="#3b82f6"/>
+  <text x="62" y="328" font-family="serif" font-size="12" font-style="italic" fill="#3b82f6">G</text>
+  
+  <!-- H -->
+  <circle cx="120" cy="310" r="3" fill="#1e293b"/>
+  <text x="115" y="328" font-family="serif" font-size="12" font-style="italic">H</text>
+  
+  <!-- J -->
+  <circle cx="210" cy="310" r="3" fill="#1e293b"/>
+  <text x="205" y="328" font-family="serif" font-size="12" font-style="italic">J</text>
+  
+  <!-- C -->
+  <circle cx="345" cy="310" r="3" fill="#1e293b"/>
+  <text x="350" y="318" font-family="serif" font-size="14" font-style="italic">C</text>
+  
+  <!-- B -->
+  <circle cx="345" cy="108" r="3" fill="#1e293b"/>
+  <text x="350" y="112" font-family="serif" font-size="14" font-style="italic">B</text>
+  
+  <!-- D -->
+  <circle cx="60" cy="250" r="3" fill="#3b82f6"/>
+  <text x="42" y="254" font-family="serif" font-size="12" font-style="italic" fill="#3b82f6">D</text>
+  
+  <!-- K -->
+  <circle cx="120" cy="250" r="3" fill="#3b82f6"/>
+  <text x="122" y="248" font-family="serif" font-size="12" font-style="italic" fill="#3b82f6">K</text>
+  
+  <!-- E -->
+  <circle cx="120" cy="220" r="3" fill="#22c55e"/>
+  <text x="105" y="220" font-family="serif" font-size="12" font-style="italic" fill="#22c55e">E</text>
+  
+  <!-- L -->
+  <circle cx="210" cy="220" r="3" fill="#22c55e"/>
+  <text x="212" y="218" font-family="serif" font-size="12" font-style="italic" fill="#22c55e">L</text>
+  
+  <!-- F -->
+  <circle cx="210" cy="175" r="3" fill="#f97316"/>
+  <text x="196" y="173" font-family="serif" font-size="12" font-style="italic" fill="#f97316">F</text>
+  
+  <!-- M -->
+  <circle cx="345" cy="175" r="3" fill="#f97316"/>
+  <text x="350" y="178" font-family="serif" font-size="12" font-style="italic" fill="#f97316">M</text>
+  
+  <!-- 正方形面积标注 -->
+  <text x="75" y="285" font-family="sans-serif" font-size="11" fill="#1d4ed8" text-anchor="middle">S=16</text>
+  <text x="165" y="268" font-family="sans-serif" font-size="11" fill="#15803d" text-anchor="middle">S=36</text>
+  <text x="277" y="252" font-family="sans-serif" font-size="11" fill="#c2410c" text-anchor="middle">S=?</text>
+  
+  <!-- 边长标注 -->
+  <text x="90" y="323" font-family="sans-serif" font-size="10" fill="#1d4ed8" text-anchor="middle">4</text>
+  <text x="165" y="323" font-family="sans-serif" font-size="10" fill="#15803d" text-anchor="middle">6</text>
+  <text x="277" y="323" font-family="sans-serif" font-size="10" fill="#c2410c" text-anchor="middle">9</text>
+  
+  <!-- 标题 -->
+  <text x="210" y="35" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">2024 Cayley Problem 19 — 三个正方形</text>
+</svg>
