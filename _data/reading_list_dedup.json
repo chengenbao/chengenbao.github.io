@@ -33,14 +33,6 @@
       "https://arxiv.org/abs/2603.23508",
       "https://arxiv.org/abs/2603.23629"
     ],
-    "2026-03-26": [
-      "https://arxiv.org/abs/2603.22300",
-      "https://arxiv.org/abs/2603.22324",
-      "https://arxiv.org/abs/2603.22446",
-      "https://arxiv.org/abs/2603.22754",
-      "https://arxiv.org/abs/2603.22582",
-      "https://arxiv.org/abs/2603.22473"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -195,6 +187,14 @@
       "https://arxiv.org/abs/2604.21057",
       "https://arxiv.org/abs/2604.21229",
       "https://arxiv.org/abs/2604.20098"
+    ],
+    "2026-04-26": [
+      "https://pytorch.org/blog/optimizing-effective-training-time-for-metas-internal-recommendation-models/",
+      "https://pytorch.org/blog/faster-diffusion-on-blackwell-mxfp8-and-nvfp4/",
+      "https://pytorch.org/blog/sota-normalization-performance-with-torch-compile/",
+      "https://pytorch.org/blog/gemms-torchinductor-cutedsl-backend/",
+      "https://huggingface.co/blog/deepseekv4",
+      "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/"
     ]
   },
   "finance": {
