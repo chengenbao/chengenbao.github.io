@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-26</time>
+    </div>
+    <h2>操作风险·生物多样性金融·澳洲房价·LLM 价格发现</h2>
+    <p>宏观风险 HMM 建模、绿色金融知识图谱、利率与房价脱钩机制、冻结 LLM 的股价预测力</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv q-fin / econ</span>
+      <span class="rl-tags">#宏观风险 #操作风险 #压力测试 #隐马尔可夫</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
