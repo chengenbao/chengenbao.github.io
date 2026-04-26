@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-26</time>
+    </div>
+    <h2>分布式训练 · 低精度推理 · JIT 编译 · MoE 架构</h2>
+    <p>Meta EFT 优化 · Blackwell MXFP8/NVFP4 · torch.compile · CuteDSL GEMM · DeepSeek-V4 MLA · SGLang</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / HuggingFace / LMSYS</span>
+      <span class="rl-tags">#PyTorch #DeepSeek #CUDA #LLM</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-25-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
