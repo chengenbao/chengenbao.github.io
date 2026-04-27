@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-27</time>
+    </div>
+    <h2>AI招聘影响 · 关税通胀传导 · 银行韧性评估</h2>
+    <p>美联储 FEDS Notes 4 篇精选：AI 重构就业结构、关税 6-9 月滞后传导通胀、银行信贷标准冲击预警与融资韧性压力测试。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税 #AI #银行韧性</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
