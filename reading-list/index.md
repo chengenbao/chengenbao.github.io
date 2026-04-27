@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-27</time>
+    </div>
+    <h2>训练提速 x 量化推理 x 分布式系统</h2>
+    <p>PyTorch 2.11 发布、Monarch 超算 API、MoE 训练加速 41%……本周训练与量化技术齐发力。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">训练优化 | 量化 | 分布式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-26-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
