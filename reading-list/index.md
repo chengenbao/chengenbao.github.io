@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-04-27-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-27</time>
+    </div>
+    <h2>数字谜FLYFLY（四年级） / 9×9方格整除性（六年级）</h2>
+    <p>数字谜：用1001因式分解简化六位重复数；整除性：鸽巢原理最优化安排3的倍数</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 8 真题</span>
+      <span class="rl-tags">#数字谜 #整除性 #鸽巢原理</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card finance" href="/reading-list/2026-04-27-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
