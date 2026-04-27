@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-03-27": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_15",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_12"
-    ],
     "2026-03-29": [
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_15",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_22"
@@ -55,6 +51,10 @@
     "2026-04-26": [
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CayleyContest.pdf#Problem_16",
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CayleyContest.pdf#Problem_19"
+    ],
+    "2026-04-27": [
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_15",
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_16"
     ]
   }
 }
