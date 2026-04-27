@@ -218,12 +218,6 @@
       "https://www.federalreserve.gov/newsevents/speech/cook20250327a.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20250328.htm"
     ],
-    "2026-03-27": [
-      "https://www.marketwatch.com/story/americas-nuclear-renaissance-has-every-ingredient-but-the-most-important-one-2026-03-26",
-      "https://www.marketwatch.com/story/nasdaq-falls-into-correction-territory-trump-pauses-plans-to-attack-iranian-energy-infrastructure-2026-03-26",
-      "https://www.cnbc.com/2026/03/26/this-emerging-market-is-sizzling-while-u-s-stocks-falter-charts-show.html",
-      "https://www.cnbc.com/2026/03/26/trump-volatility-fatigue-retail-traders-arent-buying-the-dips-like-they-used-to.html"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -363,6 +357,12 @@
       "https://arxiv.org/abs/2604.21569",
       "https://arxiv.org/abs/2604.18605",
       "https://arxiv.org/abs/2604.21433"
+    ],
+    "2026-04-27": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
     ]
   }
 }
