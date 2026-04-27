@@ -25,14 +25,6 @@
       "https://arxiv.org/abs/2603.23550",
       "https://arxiv.org/abs/2603.23784"
     ],
-    "2026-03-27": [
-      "https://arxiv.org/abs/2603.23516",
-      "https://arxiv.org/abs/2603.23566",
-      "https://arxiv.org/abs/2603.23575",
-      "https://arxiv.org/abs/2603.23528",
-      "https://arxiv.org/abs/2603.23508",
-      "https://arxiv.org/abs/2603.23629"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -195,6 +187,15 @@
       "https://pytorch.org/blog/gemms-torchinductor-cutedsl-backend/",
       "https://huggingface.co/blog/deepseekv4",
       "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/"
+    ],
+    "2026-04-27": [
+      "https://pytorch.org/blog/optimizing-effective-training-time-for-metas-internal-recommendation-ranking-workloads/",
+      "https://pytorch.org/blog/faster-diffusion-on-blackwell-mxfp8-and-nvfp4-with-diffusers-and-torchao/",
+      "https://pytorch.org/blog/monarch-an-api-to-your-supercomputer/",
+      "https://pytorch.org/blog/enabling-up-to-41-faster-pre-training-mxfp8-and-deepep-for-deepseek-v3-on-b200-with-torchtitan/",
+      "https://pytorch.org/blog/pytorch-2-11-release-blog/",
+      "https://huggingface.co/blog/trl-v1",
+      "https://huggingface.co/blog/safetensors-joins-pytorch-foundation"
     ]
   },
   "finance": {
