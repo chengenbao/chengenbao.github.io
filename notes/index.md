@@ -7,6 +7,20 @@ permalink: /notes/
   <h1 class="page-title">Notes</h1>
   <p class="page-desc">学习笔记 · 技术整理</p>
   <div class="notes-list">
+    <a class="note-card" href="/notes/gpu-perf-analysis/">
+      <div class="note-icon">🔬</div>
+      <div class="note-body">
+        <h2>GPU 性能分析基础：Register Spill · Occupancy · Latency-Bound 诊断</h2>
+        <p>以 NVIDIA H20（Hopper）为例，系统梳理 CUDA kernel 调优所需的核心概念：寄存器溢出检测、占用率分析、Warp Lockstep 识别，以及 Memory / Compute / Latency-bound 三类瓶颈的诊断与优化路径。</p>
+        <span class="tag">GPU</span>
+        <span class="tag">CUDA</span>
+        <span class="tag">性能分析</span>
+        <span class="tag">Occupancy</span>
+        <span class="tag">Nsight</span>
+        <span class="tag">H20</span>
+      </div>
+    </a>
+
     <a class="note-card" href="/notes/llm-training/">
       <div class="note-icon">🧠</div>
       <div class="note-body">
