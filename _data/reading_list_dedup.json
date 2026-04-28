@@ -17,14 +17,6 @@
       "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
       "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
     ],
-    "2026-03-28": [
-      "https://arxiv.org/abs/2603.24840",
-      "https://arxiv.org/abs/2603.23562",
-      "https://arxiv.org/abs/2603.25201",
-      "https://arxiv.org/abs/2603.23577",
-      "https://arxiv.org/abs/2603.23550",
-      "https://arxiv.org/abs/2603.23784"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -196,6 +188,15 @@
       "https://pytorch.org/blog/pytorch-2-11-release-blog/",
       "https://huggingface.co/blog/trl-v1",
       "https://huggingface.co/blog/safetensors-joins-pytorch-foundation"
+    ],
+    "2026-04-28": [
+      "https://arxiv.org/abs/2604.22312",
+      "https://arxiv.org/abs/2604.22032",
+      "https://arxiv.org/abs/2604.22050",
+      "https://arxiv.org/abs/2604.22271",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/async-rl-training-landscape",
+      "https://arxiv.org/abs/2604.22297"
     ]
   },
   "finance": {
