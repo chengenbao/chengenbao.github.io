@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-28</time>
+    </div>
+    <h2>行为金融、收入不平等与数字资产监管</h2>
+    <p>LLM 行为参数校准 · 德国收入差距因果分析 · 加密资产监管损失权衡 · 满意均衡理论</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM / econ.TH</span>
+      <span class="rl-tags">#行为经济学 #数字资产 #收入不平等</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
