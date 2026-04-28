@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-28</time>
+    </div>
+    <h2>LLM 推理加速 · 分布式训练 · 编译器优化前沿</h2>
+    <p>Blackwell Top-K 加速、ML 算子合约、RL 训练库横评，7 篇硬核论文速递</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">#LLM #推理加速 #编译器 #分布式训练 #GPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-27-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
