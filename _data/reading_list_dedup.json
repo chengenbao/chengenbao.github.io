@@ -212,13 +212,6 @@
       "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
       "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm"
     ],
-    "2026-03-28": [
-      "https://www.federalreserve.gov/newsevents/speech/waller20250327a.htm",
-      "https://www.federalreserve.gov/econres/feds/ai-and-coder-employment-compiling-the-evidence.htm",
-      "https://www.federalreserve.gov/econres/feds/a-users-guide-to-reducing-the-federal-reserves-balance-sheet.htm",
-      "https://www.federalreserve.gov/newsevents/speech/cook20250327a.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20250328.htm"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -364,6 +357,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
+    ],
+    "2026-04-28": [
+      "https://arxiv.org/abs/2602.01022",
+      "https://arxiv.org/abs/2508.04371",
+      "https://arxiv.org/abs/2603.28470",
+      "https://arxiv.org/abs/2603.04328",
+      "https://arxiv.org/abs/2409.00832"
     ]
   }
 }
