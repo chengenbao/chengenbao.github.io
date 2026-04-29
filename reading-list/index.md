@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-29-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-29</time>
+    </div>
+    <h2>GPU编译器新语言 · MoE推理扩展 · MXFP8预训练加速</h2>
+    <p>本期聚焦：CUDA Tile 评测、混合 JIT-CUDA Graph 推理优化、MoE 多节点扩展、DeepSeek B200 预训练提速 41%、TorchInductor CuteDSL GEMM 生成。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">#GPU #推理加速 #MoE #编译器 #MXFP8</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-04-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
