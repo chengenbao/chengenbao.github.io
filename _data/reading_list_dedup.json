@@ -8,15 +8,6 @@
       "https://arxiv.org/abs/2603.25926",
       "https://arxiv.org/abs/2603.26034"
     ],
-    "2026-03-29": [
-      "https://pytorch.org/blog/torchspec-speculative-decoding-training-at-scale/",
-      "https://pytorch.org/blog/enabling-up-to-41-faster-pre-training-mxfp8-and-deepep-for-deepseek-v3-on-b200/",
-      "https://pytorch.org/blog/generalized-dot-product-attention-tackling-real-world-challenges-in-gpu-training/",
-      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
-      "https://huggingface.co/blog/ggml-joins-hf",
-      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
-      "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -197,6 +188,15 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/async-rl-training-landscape",
       "https://arxiv.org/abs/2604.22297"
+    ],
+    "2026-04-29": [
+      "https://arxiv.org/abs/2604.23466",
+      "https://arxiv.org/abs/2604.23467",
+      "https://arxiv.org/abs/2604.23150",
+      "https://pytorch.org/?p=59974",
+      "https://pytorch.org/?p=61766",
+      "https://pytorch.org/?p=63618",
+      "https://arxiv.org/abs/2604.22782"
     ]
   },
   "finance": {
