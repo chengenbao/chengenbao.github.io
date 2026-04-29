@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-29</time>
+    </div>
+    <h2>AI贸易效应 | 美联储资产负债表 | 利率上升 | 货币理论</h2>
+    <p>Fed FEDS Notes + arXiv econ 精选：AI基础设施对全球贸易的重塑，联储百年扩表史，远期利率攀升成因，货币相变理论</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv</span>
+      <span class="rl-tags">#财经 #货币政策 #AI #宏观</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-04-29-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
