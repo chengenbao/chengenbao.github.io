@@ -206,12 +206,6 @@
       "https://www.federalreserve.gov/econres/feds/queuing-service-time-and-price-dynamics-in-residential-mortgage-lending.htm",
       "https://www.federalreserve.gov/econres/feds/validating-large-language-model-annotations.htm"
     ],
-    "2026-03-29": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260101.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260101.htm",
-      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
-      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -364,6 +358,13 @@
       "https://arxiv.org/abs/2603.28470",
       "https://arxiv.org/abs/2603.04328",
       "https://arxiv.org/abs/2409.00832"
+    ],
+    "2026-04-29": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
+      "https://arxiv.org/abs/2604.24035",
+      "https://arxiv.org/abs/2604.22895"
     ]
   }
 }
