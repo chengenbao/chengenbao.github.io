@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-04-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-30</time>
+    </div>
+    <h2>泡沫识别、利率理论与风险模型</h2>
+    <p>覆盖投机泡沫检测、财产溢价利率论、出生不平等与LFRRA效用函数四篇前沿研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv q-fin / econ.GN</span>
+      <span class="rl-tags">#量化金融 #宏观经济 #风险管理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-04-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
