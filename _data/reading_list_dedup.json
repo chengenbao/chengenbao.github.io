@@ -197,6 +197,15 @@
       "https://pytorch.org/?p=61766",
       "https://pytorch.org/?p=63618",
       "https://arxiv.org/abs/2604.22782"
+    ],
+    "2026-04-30": [
+      "https://arxiv.org/abs/2604.24820",
+      "https://arxiv.org/abs/2604.25317",
+      "https://arxiv.org/abs/2604.25183",
+      "https://arxiv.org/abs/2604.25326",
+      "https://pytorch.org/blog/introducing-autosp/",
+      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
+      "https://arxiv.org/abs/2604.25011"
     ]
   },
   "finance": {
