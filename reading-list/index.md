@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-04-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-30</time>
+    </div>
+    <h2>LLM推理加速与分布式训练新进展</h2>
+    <p>涵盖存内计算加速、1.58-bit量化硬件、移动端推测解码、序列并行训练及RL后训练机制研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 推理加速 · 分布式训练 · 量化 · 硬件</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-29</time></div><h2>部分涂色的正方体 / 埃及分数与贪心算法</h2><p>初二：立体正方体涂色推理；初三：古埃及分数与贪心算法</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">#初二 #初三 #空间几何 #数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-29-finance-daily/">
   <div class="rl-accent"></div>
