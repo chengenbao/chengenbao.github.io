@@ -209,12 +209,6 @@
     ]
   },
   "finance": {
-    "2026-03-31": [
-      "https://www.federalreserve.gov/econres/feds/a-users-guide-to-reducing-the-federal-reserves-balance-sheet.htm",
-      "https://www.federalreserve.gov/econres/feds/ai-and-coder-employment-compiling-the-evidence.htm",
-      "https://www.federalreserve.gov/econres/feds/queuing-service-time-and-price-dynamics-in-residential-mortgage-lending.htm",
-      "https://www.federalreserve.gov/econres/feds/validating-large-language-model-annotations.htm"
-    ],
     "2026-04-01": [
       "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
       "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
@@ -380,6 +374,13 @@
       "https://arxiv.org/abs/2604.24489",
       "https://arxiv.org/abs/2604.25522",
       "https://arxiv.org/abs/2509.09865"
+    ],
+    "2026-05-01": [
+      "https://arxiv.org/abs/2604.26546",
+      "https://arxiv.org/abs/2604.26220",
+      "https://arxiv.org/abs/2411.11186",
+      "https://arxiv.org/abs/2602.21843",
+      "https://arxiv.org/abs/2604.26811"
     ]
   }
 }
