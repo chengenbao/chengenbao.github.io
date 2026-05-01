@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-03-31": [
-      "https://arxiv.org/abs/2603.26380",
-      "https://arxiv.org/abs/2603.25872",
-      "https://arxiv.org/abs/2603.25813",
-      "https://arxiv.org/abs/2603.25976",
-      "https://arxiv.org/abs/2603.25926",
-      "https://arxiv.org/abs/2603.26034"
-    ],
     "2026-04-01": [
       "https://arxiv.org/abs/2603.26823",
       "https://arxiv.org/abs/2603.26796",
@@ -206,6 +198,14 @@
       "https://pytorch.org/blog/introducing-autosp/",
       "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
       "https://arxiv.org/abs/2604.25011"
+    ],
+    "2026-05-01": [
+      "http://arxiv.org/abs/2604.26779v1",
+      "http://arxiv.org/abs/2604.26951v1",
+      "http://arxiv.org/abs/2604.26881v1",
+      "http://arxiv.org/abs/2604.26841v1",
+      "http://arxiv.org/abs/2604.26866v1",
+      "http://arxiv.org/abs/2604.26898v1"
     ]
   },
   "finance": {
