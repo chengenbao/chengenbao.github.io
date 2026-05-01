@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-01</time></div><h2>不礼貌的问题 / 未完成的幻方</h2><p>数字颠倒的完全平方数谜题 + 四阶幻方补全</p><div class="rl-meta"><span class="rl-source">NRICH 真题</span><span class="rl-tags">#数论 #幻方 #六年级 #初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-01-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
