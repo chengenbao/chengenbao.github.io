@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-01</time>
+    </div>
+    <h2>金融传染、AI代理市场与情绪网络</h2>
+    <p>跨境金融传染识别归因、AI代理市场角色一致性、政治经济分歧溢出、AI经济对齐问题、情绪溢出网络比较</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#金融传染 #AI代理 #行为金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
