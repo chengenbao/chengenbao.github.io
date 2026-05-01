@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-01</time>
+    </div>
+    <h2>扩散LLM蒸馏 · MoE Serverless推理 · RL后训练加速</h2>
+    <p>聚焦大模型训练效率与推理系统优化，涵盖扩散语言模型、MoE部署、RL后训练加速、模型可解释性四大主题</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">#LLM #MoE #扩散模型 #RL后训练 #推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-04-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-30</time></div><h2>骑车约会 / 涂色立方体</h2><p>速度与时间计算 + 三维空间几何推理</p><div class="rl-meta"><span class="rl-source">NRICH Cambridge 竞赛真题</span><span class="rl-tags">🚴 速度 · 🧊 几何 · 🧠 空间思维</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-30-finance-daily/">
   <div class="rl-accent"></div>
