@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-02</time>
+    </div>
+    <h2>气候金融风险 · 宏观数据库 · 预测市场信号 · 海事供应链韧性</h2>
+    <p>arXiv 经济学最新研究：气候驱动农业价格波动、韩国宏观数据库 KRED、预测市场 SCI 指数、能源效率投资模型</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / arXiv econ</span>
+      <span class="rl-tags">#气候金融 #宏观经济 #预测市场 #供应链</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
