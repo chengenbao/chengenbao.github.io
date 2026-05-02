@@ -209,12 +209,6 @@
     ]
   },
   "finance": {
-    "2026-04-01": [
-      "https://econbrowser.com/archives/2026/03/guest-contribution-oil-shocks-raise-recession-odds-and-inflation-risks",
-      "https://econbrowser.com/archives/2026/03/sp-500-forward-p-e-ratios",
-      "https://econbrowser.com/archives/2026/03/federal-budget-economic-report-of-the-president-2026-coming-out-april-3",
-      "https://econbrowser.com/archives/2026/03/five-year-us-treasury-cds"
-    ],
     "2026-04-02": [
       "https://www.marketwatch.com/story/swiss-national-bank-cuts-interest-rates-by-a-half-point-to-0-5%",
       "https://www.marketwatch.com/story/powells-labor-market-rate-cut",
@@ -381,6 +375,13 @@
       "https://arxiv.org/abs/2411.11186",
       "https://arxiv.org/abs/2602.21843",
       "https://arxiv.org/abs/2604.26811"
+    ],
+    "2026-05-02": [
+      "https://arxiv.org/abs/2503.24324",
+      "https://arxiv.org/abs/2509.16115",
+      "https://arxiv.org/abs/2604.27041",
+      "https://arxiv.org/abs/2604.28052",
+      "https://arxiv.org/abs/2604.18767"
     ]
   }
 }
