@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-02</time>
+    </div>
+    <h2>LLM推理加速 · KV Cache优化 · GPU编译器 · 量化加速器</h2>
+    <p>本期聚焦大模型推理服务架构解耦、超长上下文训练、KV Cache多级内存管理及三值量化加速器前沿进展。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM / 推理加速 / 量化 / 编译器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-01</time></div><h2>不礼貌的问题 / 未完成的幻方</h2><p>数字颠倒的完全平方数谜题 + 四阶幻方补全</p><div class="rl-meta"><span class="rl-source">NRICH 真题</span><span class="rl-tags">#数论 #幻方 #六年级 #初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-01-finance-daily/">
   <div class="rl-accent"></div>
