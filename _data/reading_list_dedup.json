@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-01": [
-      "https://arxiv.org/abs/2603.26823",
-      "https://arxiv.org/abs/2603.26796",
-      "https://arxiv.org/abs/2603.26954",
-      "https://arxiv.org/abs/2603.26771",
-      "https://arxiv.org/abs/2603.26675",
-      "https://arxiv.org/abs/2603.26778"
-    ],
     "2026-04-02": [
       "https://arxiv.org/abs/2603.28845",
       "https://arxiv.org/abs/2603.28921",
@@ -206,6 +198,14 @@
       "http://arxiv.org/abs/2604.26841v1",
       "http://arxiv.org/abs/2604.26866v1",
       "http://arxiv.org/abs/2604.26898v1"
+    ],
+    "2026-05-02": [
+      "https://pytorch.org/blog/lightseek-smg/",
+      "https://arxiv.org/abs/2604.27089",
+      "https://arxiv.org/abs/2604.26968",
+      "https://arxiv.org/abs/2604.27396",
+      "https://arxiv.org/abs/2604.27486",
+      "https://arxiv.org/abs/2604.27201"
     ]
   },
   "finance": {
