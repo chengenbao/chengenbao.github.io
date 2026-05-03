@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-03-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-03</time>
+    </div>
+    <h2>LLM 推理解耦 · 序列并行训练 · Eval 算力新挑战</h2>
+    <p>从 CPU/GPU 解耦推理服务到自动序列并行训练，本期聚焦 LLM 系统工程与理论前沿。</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / HuggingFace / JMLR</span>
+      <span class="rl-tags">LLM推理 · 分布式训练 · Transformer理论 · 多模态</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-02</time></div><h2>节拍中的数学规律 / 长方体的表面积之谜</h2><p>初二·模运算节拍预测 + 初三·表面积不定方程</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">数论 · 几何 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-02-finance-daily/">
   <div class="rl-accent"></div>
