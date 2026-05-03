@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-03</time></div><h2>幂次个位数的规律 / 阶梯图形的周长</h2><p>2的幂次个位周期规律 · 阶梯组合图形周长计算</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">#四年级 #六年级 #AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-03-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
