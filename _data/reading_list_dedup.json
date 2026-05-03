@@ -210,13 +210,6 @@
     ]
   },
   "finance": {
-    "2026-04-02": [
-      "https://www.marketwatch.com/story/swiss-national-bank-cuts-interest-rates-by-a-half-point-to-0-5%",
-      "https://www.marketwatch.com/story/powells-labor-market-rate-cut",
-      "https://www.marketwatch.com/story/bank-of-england-decision-on-thursday",
-      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation.htm",
-      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth.htm"
-    ],
     "2026-04-04": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260401.htm",
@@ -383,6 +376,13 @@
       "https://arxiv.org/abs/2604.27041",
       "https://arxiv.org/abs/2604.28052",
       "https://arxiv.org/abs/2604.18767"
+    ],
+    "2026-05-03": [
+      "https://fredblog.stlouisfed.org/2026/04/how-markets-have-responded-to-military-action-against-iran/",
+      "https://fredblog.stlouisfed.org/2026/04/whats-happening-with-interest-rates-on-bank-accounts/",
+      "https://fredblog.stlouisfed.org/2026/04/from-net-oil-importer-to-net-oil-exporter/",
+      "https://fredblog.stlouisfed.org/2026/04/real-gdp-growth-by-state-annual-2025/",
+      "https://fredblog.stlouisfed.org/2026/04/early-signals-about-retail-sales/"
     ]
   }
 }
