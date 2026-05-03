@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-03</time>
+    </div>
+    <h2>美联储数据视角：地缘政治、利率与美国宏观经济</h2>
+    <p>5篇 FRED Blog 实证分析，覆盖伊朗冲突影响、利率传导、能源转型与区域 GDP 分化</p>
+    <div class="rl-meta">
+      <span class="rl-source">St. Louis Fed / FRED Blog</span>
+      <span class="rl-tags">#利率 #原油 #宏观经济 #美联储</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
