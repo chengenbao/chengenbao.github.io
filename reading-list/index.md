@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-04</time>
+    </div>
+    <h2>K形经济·消费信心·GDP·国债流动性·中国电动车</h2>
+    <p>从消费分化到宏观指标，从国债市场到中国电动车出口，五维视角读懂当下全球经济格局</p>
+    <div class="rl-meta">
+      <span class="rl-source">NY Fed / Econbrowser</span>
+      <span class="rl-tags">#宏观经济 #消费分化 #国债</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-05-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-03</time></div><h2>幂次个位数的规律 / 阶梯图形的周长</h2><p>2的幂次个位周期规律 · 阶梯组合图形周长计算</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">#四年级 #六年级 #AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-03-finance-daily/">
   <div class="rl-accent"></div>
