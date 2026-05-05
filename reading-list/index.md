@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-05</time>
+    </div>
+    <h2>主权风险·加密信任·AI货币·波动率·智能交易</h2>
+    <p>5篇精选：新兴市场主权风险缓释、CEX/DEX信任机制、AI时代货币框架、B-S隐含波动率解析解、LLM多智能体交易系统</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#宏观 #加密 #量化 #AI交易</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
