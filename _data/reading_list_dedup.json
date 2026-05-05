@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-04": [
-      "https://arxiv.org/abs/2604.01411",
-      "https://arxiv.org/abs/2604.01489",
-      "https://arxiv.org/abs/2604.01499",
-      "https://arxiv.org/abs/2604.01552",
-      "https://arxiv.org/abs/2604.00004",
-      "https://arxiv.org/abs/2604.01597"
-    ],
     "2026-04-05": [
       "https://arxiv.org/abs/2604.01302",
       "https://arxiv.org/abs/2604.01348",
@@ -207,6 +199,15 @@
       "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
       "http://jmlr.org/papers/v27/25-1214.html",
       "http://jmlr.org/papers/v27/25-0549.html"
+    ],
+    "2026-05-05": [
+      "https://arxiv.org/abs/2605.00011",
+      "https://arxiv.org/abs/2605.00064",
+      "https://arxiv.org/abs/2605.00199",
+      "https://arxiv.org/abs/2605.00226",
+      "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "https://huggingface.co/blog/deepseekv4"
     ]
   },
   "finance": {
