@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-05</time>
+    </div>
+    <h2>联邦学习调度 · LLM 推理机制 · 小模型归因 · 超长上下文</h2>
+    <p>覆盖联邦学习资源调度、LLM 策略推理缺陷剖析、可信表格推理及百万级上下文 Agent 等前沿方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">分布式训练 · LLM · 推理效率 · Agent</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-04-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-04</time></div><h2>二进制记分牌 / 游泳圈漂流</h2><p>加拿大 BCC 竞赛真题：二进制记分与序列计数</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">五年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-04-finance-daily/">
   <div class="rl-accent"></div>
