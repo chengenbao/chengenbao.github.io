@@ -211,12 +211,6 @@
     ]
   },
   "finance": {
-    "2026-04-04": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260401.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-20260402.htm",
-      "https://www.bloomberg.com/news/articles/2026-04-03/turkey-weighs-raising-energy-prices-as-iran-war-rattles-markets"
-    ],
     "2026-04-05": [
       "https://www.economist.com/finance-and-economics/2026/04/01/liberation-day-has-reshaped-trade-but-not-as-donald-trump-hoped",
       "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
@@ -391,6 +385,13 @@
       "https://econbrowser.com/archives/2026/05/gdp-personal-income-and-other-business-cycle-indicators-as-of-may-day",
       "https://libertystreeteconomics.newyorkfed.org/2026/04/treasury-market-liquidity-since-april-2025/",
       "https://libertystreeteconomics.newyorkfed.org/2026/03/chinas-electric-trade/"
+    ],
+    "2026-05-05": [
+      "https://arxiv.org/abs/2603.22956",
+      "https://arxiv.org/abs/2404.17227",
+      "https://arxiv.org/abs/2605.00340",
+      "https://arxiv.org/abs/2604.24480",
+      "https://arxiv.org/abs/2510.15949"
     ]
   }
 }
