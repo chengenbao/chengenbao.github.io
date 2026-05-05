@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-04-04": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_18",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_20"
-    ],
     "2026-04-11": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_11",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_10"
@@ -75,6 +71,10 @@
     "2026-05-04": [
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest7_8.pdf",
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest7_8.pdf"
+    ],
+    "2026-05-05": [
+      "https://nrich.maths.org/5022",
+      "https://nrich.maths.org/6228"
     ]
   }
 }
