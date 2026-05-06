@@ -212,12 +212,6 @@
     ]
   },
   "finance": {
-    "2026-04-05": [
-      "https://www.economist.com/finance-and-economics/2026/04/01/liberation-day-has-reshaped-trade-but-not-as-donald-trump-hoped",
-      "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
-      "https://www.bloomberg.com/news/articles/2026-04-04/sleijpen-says-ecb-discussion-will-be-rate-hike-or-hold-podcast",
-      "https://www.economist.com/finance-and-economics/2026/04/01/can-a-country-get-too-rich"
-    ],
     "2026-04-06": [
       "https://www.economist.com/finance-and-economics/2026/04/03/inflation-or-recession-the-tug-of-war-in-bond-markets",
       "https://www.economist.com/finance-and-economics/2026/04/02/markets-are-gripped-by-an-alarming-cognitive-dissonance",
@@ -393,6 +387,13 @@
       "https://arxiv.org/abs/2605.00340",
       "https://arxiv.org/abs/2604.24480",
       "https://arxiv.org/abs/2510.15949"
+    ],
+    "2026-05-06": [
+      "https://arxiv.org/abs/2507.12848",
+      "https://arxiv.org/abs/2605.01268",
+      "https://arxiv.org/abs/2605.02598",
+      "https://arxiv.org/abs/2605.00841",
+      "https://arxiv.org/abs/2603.16893"
     ]
   }
 }
