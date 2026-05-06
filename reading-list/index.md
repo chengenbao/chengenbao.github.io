@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-06-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-06</time>
+    </div>
+    <h2>LLM 推理加速 · GPU 内核优化 · 分布式训练 · 边缘部署</h2>
+    <p>从 GPU warp 级 CUDA 内核到 NPU-PIM 混合架构，聚焦 2026 年大模型推理与系统优化前沿。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · GPU · Speculative Decoding · NCCL · Edge AI</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-05</time></div><h2>机器人转向角度 / 矩形剪拼正方形</h2><p>等差数列与模运算：机器人转向几步后朝正东？面积守恒：16×9矩形拼正方形的周长。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-05-finance-daily/">
   <div class="rl-accent"></div>
