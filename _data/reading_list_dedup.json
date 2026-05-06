@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-05": [
-      "https://arxiv.org/abs/2604.01302",
-      "https://arxiv.org/abs/2604.01348",
-      "https://arxiv.org/abs/2604.01413",
-      "https://arxiv.org/abs/2604.01457",
-      "https://arxiv.org/abs/2604.01312",
-      "https://arxiv.org/abs/2604.01514"
-    ],
     "2026-04-06": [
       "https://thegradient.pub/mamba-explained/",
       "https://thegradient.pub/shape-symmetries-and-structure/",
@@ -208,6 +200,15 @@
       "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
       "https://huggingface.co/blog/ibm-granite/granite-4-1",
       "https://huggingface.co/blog/deepseekv4"
+    ],
+    "2026-05-06": [
+      "https://arxiv.org/abs/2605.00837",
+      "https://arxiv.org/abs/2605.01058",
+      "https://arxiv.org/abs/2605.01106",
+      "https://arxiv.org/abs/2605.01188",
+      "https://arxiv.org/abs/2603.11438",
+      "https://pytorch.org/blog/in-kernel-broadcast-optimization-co-designing-kernels-for-recsys-inference/",
+      "https://arxiv.org/abs/2511.06838"
     ]
   },
   "finance": {
