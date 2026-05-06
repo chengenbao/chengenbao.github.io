@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-06</time>
+    </div>
+    <h2>市场势力、远程工作与AI就业冲击</h2>
+    <p>5篇精选：企业间市场结构、远程办公与职业流动、AI对就业暴露度、中小企业ESG评估、能源市场监管</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv Economics</span>
+      <span class="rl-tags">#宏观经济 #AI就业 #ESG #能源</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
