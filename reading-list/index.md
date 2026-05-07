@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-07</time>
+    </div>
+    <h2>消费 K 型分化、美中贸易演变与银行风险</h2>
+    <p>同一油价冲击下高低收入分化 / 美中贸易供应链重组 / K 型经济成因 / 银行偿付能力研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">NY Fed Liberty Street Economics</span>
+      <span class="rl-tags">#消费分化 #美中贸易 #银行风险</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-05-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-06</time></div><h2>湖中鱼的数量估算 / 等间距三数</h2><p>比例抽样估计鱼数 / 等差数列方程求解</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-06-finance-daily/">
   <div class="rl-accent"></div>
