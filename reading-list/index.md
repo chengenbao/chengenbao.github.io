@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-07</time></div><h2>L型骨牌铺砖 / 遗产分配问题</h2><p>六年级：L型三格骨牌的归纳推理铺砖证明；初一：代数方程建模解决分配变化问题</p><div class="rl-meta"><span class="rl-source">NRICH 真题</span><span class="rl-tags">归纳推理 · 方程</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-07-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
