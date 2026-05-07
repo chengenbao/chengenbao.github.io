@@ -212,12 +212,6 @@
     ]
   },
   "finance": {
-    "2026-04-06": [
-      "https://www.economist.com/finance-and-economics/2026/04/03/inflation-or-recession-the-tug-of-war-in-bond-markets",
-      "https://www.economist.com/finance-and-economics/2026/04/02/markets-are-gripped-by-an-alarming-cognitive-dissonance",
-      "https://www.economist.com/finance-and-economics/2026/04/01/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
-      "https://www.federalreserve.gov/econres/ifdp/2026-decoupling-dollar-treasury-privilege.htm"
-    ],
     "2026-04-07": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-us-economy-20250228.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20250228.htm",
@@ -394,6 +388,12 @@
       "https://arxiv.org/abs/2605.02598",
       "https://arxiv.org/abs/2605.00841",
       "https://arxiv.org/abs/2603.16893"
+    ],
+    "2026-05-07": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/05/same-shock-different-roads-a-k-shaped-pattern-at-the-pump/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/05/in-what-ways-has-u-s-trade-with-china-changed/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/05/explaining-the-k-shaped-economy-whats-behind-the-divide/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/04/bank-failures-the-roles-of-solvency-and-liquidity/"
     ]
   }
 }
