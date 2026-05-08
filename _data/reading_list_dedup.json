@@ -1,22 +1,5 @@
 {
   "tech": {
-    "2026-04-06": [
-      "https://thegradient.pub/mamba-explained/",
-      "https://thegradient.pub/shape-symmetries-and-structure/",
-      "https://thegradient.pub/do-text-embeddings-perfectly-encode-text/",
-      "https://blog.acolyer.org/2019/11/01/achieving-100gbps-intrusion-prevention/",
-      "https://blog.acolyer.org/2020/12/21/delos/",
-      "https://blog.acolyer.org/2020/01/22/the-case-for-learned-sorting/",
-      "https://towardsdatascience.com/proxy-pointer-rag/"
-    ],
-    "2026-04-07": [
-      "https://arxiv.org/abs/2604.02338",
-      "https://arxiv.org/abs/2604.02341",
-      "https://arxiv.org/abs/2604.02450",
-      "https://arxiv.org/abs/2604.02344",
-      "https://arxiv.org/abs/2604.02621",
-      "https://arxiv.org/abs/2604.02340"
-    ],
     "2026-04-08": [
       "https://arxiv.org/abs/2604.03258",
       "https://arxiv.org/abs/2604.03270",
@@ -209,6 +192,14 @@
       "https://arxiv.org/abs/2603.11438",
       "https://pytorch.org/blog/in-kernel-broadcast-optimization-co-designing-kernels-for-recsys-inference/",
       "https://arxiv.org/abs/2511.06838"
+    ],
+    "2026-05-08": [
+      "https://arxiv.org/abs/2605.04084",
+      "https://arxiv.org/abs/2604.14552",
+      "https://arxiv.org/abs/2605.04213",
+      "https://arxiv.org/abs/2605.05170",
+      "https://arxiv.org/abs/2605.04062",
+      "https://arxiv.org/abs/2605.04075"
     ]
   },
   "finance": {
