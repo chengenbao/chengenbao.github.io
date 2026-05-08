@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-08</time>
+    </div>
+    <h2>稳定币监管、信贷风险与经济不确定性</h2>
+    <p>美联储5篇研究笔记：稳定币与银行历史类比、CRE信贷监测、劳动力市场供需、跨境资本统计、经济不确定性框架</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#稳定币 #信贷 #宏观经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
