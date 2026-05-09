@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-09</time></div><h2>记分板上的二进制 / 游泳圈的漂流计数</h2><p>二进制记分与漂流计数：从竞赛真题中学数学思维</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">四年级 · 六年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-09-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
