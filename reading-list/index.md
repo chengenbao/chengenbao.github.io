@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-09</time>
+    </div>
+    <h2>MoE 架构创新 · LLM 微调与蒸馏 · RL 推理训练 · 扩散模型加速</h2>
+    <p>MoE架构创新、优化器一致性微调、RL长程推理、扩散蒸馏加速等7篇前沿论文精选</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · 蒸馏 · RL推理 · 扩散加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-08</time></div><h2>字母密码 / 数列与整除</h2><p>密码字母对应的数字（初二） / 探索含零数列中81的倍数规律（初三）</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-08-finance-daily/">
   <div class="rl-accent"></div>
