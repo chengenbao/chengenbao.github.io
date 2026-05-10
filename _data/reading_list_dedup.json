@@ -206,12 +206,6 @@
     ]
   },
   "finance": {
-    "2026-04-09": [
-      "https://arxiv.org/abs/2508.04970",
-      "https://arxiv.org/abs/2604.04961",
-      "https://arxiv.org/abs/2604.06123",
-      "https://econofact.org/the-jones-act-and-the-cost-of-shipping-between-u-s-ports-updated"
-    ],
     "2026-04-10": [
       "https://arxiv.org/abs/2604.06278",
       "https://arxiv.org/abs/2604.06244",
@@ -390,6 +384,13 @@
       "https://arxiv.org/abs/2605.05211",
       "https://arxiv.org/abs/2605.05814",
       "https://arxiv.org/abs/2605.06405"
+    ],
+    "2026-05-10": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html"
     ]
   }
 }
