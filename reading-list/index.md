@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-10</time>
+    </div>
+    <h2>vLLM 推理生态 · MoE 预训练 · 多模态 Embedding · 模型安全</h2>
+    <p>本期聚焦大模型推理基础设施（vLLM）、MoE 预训练、多模态嵌入训练与 AI 模型安全分发。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">vLLM · MoE · Embedding · Safetensors</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-09</time></div><h2>记分板上的二进制 / 游泳圈的漂流计数</h2><p>二进制记分与漂流计数：从竞赛真题中学数学思维</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">四年级 · 六年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-09-finance-daily/">
   <div class="rl-accent"></div>
