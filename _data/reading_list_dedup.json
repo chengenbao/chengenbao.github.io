@@ -1,12 +1,5 @@
 {
   "tech": {
-    "2026-04-09": [
-      "https://arxiv.org/abs/2604.05091",
-      "https://arxiv.org/abs/2604.05417",
-      "https://arxiv.org/abs/2604.03388",
-      "https://arxiv.org/abs/2604.05267",
-      "https://arxiv.org/abs/2604.03444"
-    ],
     "2026-04-10": [
       "https://arxiv.org/abs/2604.06298",
       "https://arxiv.org/abs/2604.06291",
@@ -201,6 +194,15 @@
       "http://arxiv.org/abs/2605.06597v1",
       "https://arxiv.org/abs/2605.06376",
       "https://arxiv.org/abs/2605.06416"
+    ],
+    "2026-05-10": [
+      "https://pytorch.org/blog/ibm-research-uses-vllm-at-the-heart-of-its-rits-platform/",
+      "https://huggingface.co/blog/allenai/emo",
+      "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "https://pytorch.org/blog/pytorch-foundation-announces-safetensors-as-newest-contributed-project-to-secure-ai-model-execution/"
     ]
   },
   "finance": {
