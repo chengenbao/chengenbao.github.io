@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-10</time>
+    </div>
+    <h2>美联储研究：贸易融资、租房信贷、次级汽车、货币基金、商业地产</h2>
+    <p>5篇美联储 FEDS Notes 最新研究，覆盖国际贸易金融、住房租赁市场、消费信贷风险、货币市场基金稳定性及商业房地产信贷五大维度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#贸易融资 #信贷 #货币市场 #商业地产</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
