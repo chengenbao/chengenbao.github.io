@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-11</time>
+    </div>
+    <h2>货币市场、AI经济、劳动力与GDP、稳定币支付、后疫情通胀</h2>
+    <p>美联储FEDS Notes精选：共同基金流动性N-PORT框架、美国AI采用率全景、劳动力增长趋零对潜在GDP的冲击、《Genius法案》后稳定币跨境支付影响、后疫情通胀机制结构性变化</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#货币市场 #AI经济 #稳定币 #通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
