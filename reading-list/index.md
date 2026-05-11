@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-11</time></div><h2>多边形对角线之谜 / 宽屏电视的秘密</h2><p>多边形对角线数量与宽屏比例计算</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">多边形 · 方程 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-11-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
