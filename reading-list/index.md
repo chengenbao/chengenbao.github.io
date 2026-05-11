@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-11</time>
+    </div>
+    <h2>MoE架构创新、LLM全参微调优化、强化学习推理</h2>
+    <p>今日精选6篇前沿研究：MoE专家池共享、微调遗忘问题、涌现模块化预训练、RLVR正样本优化、智能体轨迹抽象与长程推理表达力分析。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.LG / arXiv cs.CL</span>
+      <span class="rl-tags">MoE · RLVR · LLM · 微调 · 推理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-10</time></div><h2>正整数有序对计数 / 自行车赛路程问题</h2><p>数论与代数双题：正整数方程计数 + 自行车赛路程</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">AMC 竞赛真题 · 数论 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-10-finance-daily/">
   <div class="rl-accent"></div>
