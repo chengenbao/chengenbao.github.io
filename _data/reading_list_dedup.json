@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-10": [
-      "https://arxiv.org/abs/2604.06298",
-      "https://arxiv.org/abs/2604.06291",
-      "https://arxiv.org/abs/2604.06268",
-      "https://arxiv.org/abs/2604.06427",
-      "https://arxiv.org/abs/2604.06485",
-      "https://arxiv.org/abs/2604.06366"
-    ],
     "2026-04-11": [
       "https://arxiv.org/abs/2604.07808",
       "https://arxiv.org/abs/2604.07472",
@@ -203,6 +195,14 @@
       "https://huggingface.co/blog/ServiceNow-AI/eva",
       "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
       "https://pytorch.org/blog/pytorch-foundation-announces-safetensors-as-newest-contributed-project-to-secure-ai-model-execution/"
+    ],
+    "2026-05-11": [
+      "https://arxiv.org/abs/2605.06665v1",
+      "https://arxiv.org/abs/2605.06654v1",
+      "https://arxiv.org/abs/2605.06663v1",
+      "https://arxiv.org/abs/2605.06650v1",
+      "https://arxiv.org/abs/2605.06642v1",
+      "https://arxiv.org/abs/2605.06638v1"
     ]
   },
   "finance": {
