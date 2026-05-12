@@ -206,12 +206,6 @@
     ]
   },
   "finance": {
-    "2026-04-11": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-us-trade-policy-20260407.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20260404.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260403.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260401.htm"
-    ],
     "2026-04-15": [
       "https://econbrowser.com/archives/2026/04/instantaneous-inflation-in-march",
       "https://econbrowser.com/archives/2026/04/the-troika-economic-forecast-under-vought-miran-bessent",
@@ -392,6 +386,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html"
+    ],
+    "2026-05-12": [
+      "https://arxiv.org/abs/2110.13814",
+      "https://arxiv.org/abs/2212.07384",
+      "https://arxiv.org/abs/2511.06545",
+      "https://arxiv.org/abs/2601.18991"
     ]
   }
 }
