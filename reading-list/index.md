@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-12</time></div><h2>一笔画星星 / 数字插加号凑99</h2><p>一笔画五角星与六角星探究（欧拉定理）；数字1-9插加号凑出99</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">NRICH · 图论 · 枚举</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-12-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
