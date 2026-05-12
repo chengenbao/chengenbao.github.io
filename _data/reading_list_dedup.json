@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-04-11": [
-      "https://arxiv.org/abs/2604.07808",
-      "https://arxiv.org/abs/2604.07472",
-      "https://arxiv.org/abs/2604.07815",
-      "https://arxiv.org/abs/2604.07622",
-      "https://arxiv.org/abs/2604.07766",
-      "https://arxiv.org/abs/2604.07402",
-      "https://arxiv.org/abs/2604.07380"
-    ],
     "2026-04-15": [
       "https://arxiv.org/abs/2604.09742",
       "https://arxiv.org/abs/2604.09967",
@@ -203,6 +194,15 @@
       "https://arxiv.org/abs/2605.06650v1",
       "https://arxiv.org/abs/2605.06642v1",
       "https://arxiv.org/abs/2605.06638v1"
+    ],
+    "2026-05-12": [
+      "https://arxiv.org/abs/2605.06675",
+      "https://arxiv.org/abs/2605.06676",
+      "https://arxiv.org/abs/2605.06683",
+      "https://arxiv.org/abs/2605.06733",
+      "https://arxiv.org/abs/2605.06878",
+      "https://arxiv.org/abs/2605.07245",
+      "https://arxiv.org/abs/2605.06680"
     ]
   },
   "finance": {
