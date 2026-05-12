@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-12</time>
+    </div>
+    <h2>数字平台、医药估值与加密金融</h2>
+    <p>聚焦广告拍卖机制、新药估值、AI创业范式及稳定币市场动态</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#数字经济 #加密金融 #AI创业</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
