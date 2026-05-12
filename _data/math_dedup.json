@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-04-11": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_11",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_10"
-    ],
     "2026-04-15": [
       "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_16",
       "https://ivyleaguecenter.org/wp-content/uploads/2025/11/2026-amc-8-problems-and-answers.pdf#Problem_22"
@@ -99,6 +95,10 @@
     "2026-05-11": [
       "https://nrich.maths.org/2903",
       "https://nrich.maths.org/4877"
+    ],
+    "2026-05-12": [
+      "https://nrich.maths.org/1097",
+      "https://nrich.maths.org/2007"
     ]
   }
 }
