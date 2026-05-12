@@ -1914,6 +1914,7 @@ ncu-ui hotKernel_profile.ncu-rep
 ## 附录：关键数字速查表
 
 ### Ampere sm_86（RTX 3090 / A5000）
+
 | 参数 | 值 |
 |------|-----|
 | SMs | 82 |
@@ -1932,6 +1933,7 @@ ncu-ui hotKernel_profile.ncu-rep
 | FP16 Peak（TC）| 142 TFLOPS |
 
 ### A100 SXM4 80GB
+
 | 参数 | 值 |
 |------|-----|
 | SMs | 108 |
@@ -1947,6 +1949,7 @@ ncu-ui hotKernel_profile.ncu-rep
 | INT8 Peak（TC）| 624 TOPS |
 
 ### H100 SXM5 80GB
+
 | 参数 | 值 |
 |------|-----|
 | SMs | 132 |
@@ -1961,6 +1964,7 @@ ncu-ui hotKernel_profile.ncu-rep
 | TMA（新特性）| Tensor Memory Accelerator，专用异步 memcpy 引擎 |
 
 ### 常见内存延迟（参考值）
+
 | 内存层次 | 延迟（cycles）| 带宽（per SM）|
 |----------|--------------|--------------|
 | Register | 0 | ~16 TB/s |
