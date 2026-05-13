@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-13</time>
+    </div>
+    <h2>LLM推理加速 · KV Cache优化 · GPU编译器 · 边缘AI硬件</h2>
+    <p>今日精选7篇深度技术文章，聚焦KV Cache量化、扩散LLM推理、GPU编译器与边缘AI硬件加速。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · KV Cache · GPU编译器 · 边缘AI</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-12</time></div><h2>一笔画星星 / 数字插加号凑99</h2><p>一笔画五角星与六角星探究（欧拉定理）；数字1-9插加号凑出99</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">NRICH · 图论 · 枚举</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-12-finance-daily/">
   <div class="rl-accent"></div>
