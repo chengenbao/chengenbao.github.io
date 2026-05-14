@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-14</time></div><h2>KANGAROO 字母减法 / 连续子集和的整除性</h2><p>字母减法 KAN-GAR=OO 最大化 KAN；连续子集和的整除性证明（鸽巢原理）</p><div class="rl-meta"><span class="rl-source">NRICH Cambridge</span><span class="rl-tags">#初二 #初三 #NRICH #字母算术 #鸽巢原理</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-14-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
