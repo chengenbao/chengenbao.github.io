@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-14</time>
+    </div>
+    <h2>MoE推理加速 · 扩散LLM并行 · 量化优化 · PyTorch 2.12</h2>
+    <p>今日精选7篇前沿技术文章，覆盖MoE训练/推理加速、扩散语言模型并行、块浮点量化、芯片互联及LLM多轮服务优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · 量化 · 分布式训练 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-13</time></div><h2>钱包谜题：笔与铅笔 / 珠子颜色的规律</h2><p>从方程思维到组合规律，六年级代数入门 + 初一逻辑推理</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">六年级 · 初一 · 方程 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-13-finance-daily/">
   <div class="rl-accent"></div>
