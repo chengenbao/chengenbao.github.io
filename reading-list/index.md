@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-14</time>
+    </div>
+    <h2>市场信息定价 · 云经济 · 金砖汇率 · 高频波动率</h2>
+    <p>arXiv 经济学前沿：信息定价悖论、云技术赋能中小企业、金砖汇率长记忆预测、高频跳跃波动率估计</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#信息不对称 #数字经济 #新兴市场 #计量金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
