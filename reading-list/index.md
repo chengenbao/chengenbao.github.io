@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-15</time></div><h2>电梯配送逻辑 / 游泳圈排队计数</h2><p>逻辑推理 × 枚举模拟，BCC 真题精选</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · BCC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-15-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
