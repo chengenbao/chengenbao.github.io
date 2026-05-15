@@ -221,6 +221,13 @@
       "https://arxiv.org/abs/2603.26438",
       "https://arxiv.org/abs/2605.11317",
       "https://pytorch.org/blog/pytorch-2-12-release-blog/"
+    ],
+    "2026-05-15": [
+      "https://arxiv.org/abs/2605.12652",
+      "https://arxiv.org/abs/2605.11167",
+      "https://huggingface.co/blog/continuous_async",
+      "https://arxiv.org/abs/2605.12959",
+      "https://arxiv.org/abs/2605.13210"
     ]
   },
   "finance": {
