@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-15</time>
+    </div>
+    <h2>多维透视：生育补贴、绿色福利指数、公采反腐与电力市场</h2>
+    <p>从家庭政策到能源定价，4篇前沿经济学研究精选</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv Economics & Econometrics</span>
+      <span class="rl-tags">#宏观经济 #政策评估 #能源市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
