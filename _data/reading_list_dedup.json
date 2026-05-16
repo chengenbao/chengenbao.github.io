@@ -230,13 +230,6 @@
     ]
   },
   "finance": {
-    "2026-04-15": [
-      "https://econbrowser.com/archives/2026/04/instantaneous-inflation-in-march",
-      "https://econbrowser.com/archives/2026/04/the-troika-economic-forecast-under-vought-miran-bessent",
-      "https://econbrowser.com/archives/2026/04/u-s-dollar-dominance-in-trade-invoicing-and-cross-border-investments-in-seacen-economies",
-      "https://econbrowser.com/archives/2026/04/gdp-projections-one-of-these-is-not-like-the-others",
-      "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat"
-    ],
     "2026-04-16": [
       "https://arxiv.org/abs/2312.05593",
       "https://arxiv.org/abs/2604.13890",
@@ -435,6 +428,13 @@
       "https://arxiv.org/abs/2602.21971",
       "https://arxiv.org/abs/2605.12547",
       "https://arxiv.org/abs/2605.13320"
+    ],
+    "2026-05-16": [
+      "https://arxiv.org/abs/2605.14575",
+      "https://arxiv.org/abs/2605.15092",
+      "https://arxiv.org/abs/2605.14493",
+      "https://arxiv.org/abs/2605.14019",
+      "https://arxiv.org/abs/2605.13866"
     ]
   }
 }
