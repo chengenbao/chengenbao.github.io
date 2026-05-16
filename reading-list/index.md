@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-16</time></div><h2>摩托车追及变速 / 往返平均速度陷阱</h2><p>行程追及与平均速度：两道让人容易犯错的经典竞赛题</p><div class="rl-meta"><span class="rl-source">竞赛真题</span><span class="rl-tags">行程问题 · 追及 · 平均速度</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-16-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
