@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-04-15": [
-      "https://arxiv.org/abs/2604.09742",
-      "https://arxiv.org/abs/2604.09967",
-      "https://arxiv.org/abs/2604.10091",
-      "https://arxiv.org/abs/2604.10235",
-      "https://arxiv.org/abs/2604.10072",
-      "https://arxiv.org/abs/2604.10079",
-      "https://arxiv.org/abs/2604.09560"
-    ],
     "2026-04-16": [
       "https://arxiv.org/abs/2604.13226",
       "https://arxiv.org/abs/2604.13287",
@@ -228,6 +219,14 @@
       "https://huggingface.co/blog/continuous_async",
       "https://arxiv.org/abs/2605.12959",
       "https://arxiv.org/abs/2605.13210"
+    ],
+    "2026-05-16": [
+      "https://arxiv.org/abs/2605.14005",
+      "https://arxiv.org/abs/2605.14929",
+      "https://arxiv.org/abs/2605.15026",
+      "https://pytorch.org/blog/efficient-edge-ai-on-arm-cpus-and-npus/",
+      "https://arxiv.org/abs/2605.14037",
+      "https://arxiv.org/abs/2605.08913"
     ]
   },
   "finance": {
