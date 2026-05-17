@@ -230,12 +230,6 @@
     ]
   },
   "finance": {
-    "2026-04-16": [
-      "https://arxiv.org/abs/2312.05593",
-      "https://arxiv.org/abs/2604.13890",
-      "https://arxiv.org/abs/2604.13260",
-      "https://arxiv.org/abs/2604.13458"
-    ],
     "2026-04-17": [
       "https://arxiv.org/abs/2604.13224",
       "https://arxiv.org/abs/2604.13603",
@@ -435,6 +429,13 @@
       "https://arxiv.org/abs/2605.14493",
       "https://arxiv.org/abs/2605.14019",
       "https://arxiv.org/abs/2605.13866"
+    ],
+    "2026-05-17": [
+      "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
+      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
+      "https://www.federalreserve.gov/econres/ifdp/risk-in-a-data-rich-model.htm",
+      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
+      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm"
     ]
   }
 }
