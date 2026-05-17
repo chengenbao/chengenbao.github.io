@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-17</time>
+    </div>
+    <h2>贸易政策·宏观风险·去监管化·全球金融</h2>
+    <p>Fed IFDP 5篇：关税搜寻摩擦、欧盟报复效果、数据模型风险分析、去监管化量化、利率波动与新兴市场增长</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed IFDP</span>
+      <span class="rl-tags">#关税 #宏观风险 #去监管化 #全球金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
