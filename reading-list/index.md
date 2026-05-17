@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-17</time></div><h2>直线平移探索 / 方位角计算</h2><p>初二探究直线平移与方程变化规律；初三用坐标法和三角函数求解方位角。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛题库</span><span class="rl-tags">初二 · 初三 · 一次函数 · 三角函数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-17-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
