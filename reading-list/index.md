@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-18</time></div><h2>时钟错乱也准时 / 爆米花的体积秘密</h2><p>手表快慢+逻辑推理 vs 几何体积缩放</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 五年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-18-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
