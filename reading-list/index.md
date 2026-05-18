@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-18</time>
+    </div>
+    <h2>债券新纪元·美联储政策·中美农贸·股债双杀·稀土博弈</h2>
+    <p>覆盖债市高利率转型、美联储宽松争议、中美农产品交易突破、地缘油价冲击及稀土供应链重组五大热点。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Bloomberg Markets</span>
+      <span class="rl-tags">#债券市场 #美联储 #中美贸易 #地缘政治</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-17</time></div><h2>直线平移探索 / 方位角计算</h2><p>初二探究直线平移与方程变化规律；初三用坐标法和三角函数求解方位角。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛题库</span><span class="rl-tags">初二 · 初三 · 一次函数 · 三角函数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-17-finance-daily/">
   <div class="rl-accent"></div>
