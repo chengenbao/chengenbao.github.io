@@ -230,12 +230,6 @@
     ]
   },
   "finance": {
-    "2026-04-17": [
-      "https://arxiv.org/abs/2604.13224",
-      "https://arxiv.org/abs/2604.13603",
-      "https://arxiv.org/abs/2603.05264",
-      "https://arxiv.org/abs/2512.24968"
-    ],
     "2026-04-18": [
       "https://arxiv.org/abs/2604.14199",
       "https://arxiv.org/abs/2604.14257",
@@ -436,6 +430,13 @@
       "https://www.federalreserve.gov/econres/ifdp/risk-in-a-data-rich-model.htm",
       "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
       "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm"
+    ],
+    "2026-05-18": [
+      "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
+      "https://www.bloomberg.com/news/articles/2026-05-18/yardeni-urges-fed-to-drop-easing-bias-or-lose-control-of-rates",
+      "https://www.bloomberg.com/news/articles/2026-05-18/grains-jump-after-us-says-china-to-buy-billions-in-farm-goods",
+      "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
+      "https://www.bloomberg.com/news/articles/2026-05-17/australia-orders-chinese-investors-to-sell-stakes-in-mining-firm"
     ]
   }
 }
