@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-19</time>
+    </div>
+    <h2>大模型量化对齐、注意力优化、扩散LLM加速、存内计算</h2>
+    <p>精选7篇：量化破坏对齐、GQLA注意力压缩、PSD推测解码、GQA-μP超参迁移、PRM可靠性、SRAM存算引擎、vLLM aarch64优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · 存内计算 · RLHF · aarch64</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-18</time></div><h2>时钟错乱也准时 / 爆米花的体积秘密</h2><p>手表快慢+逻辑推理 vs 几何体积缩放</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 五年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-18-finance-daily/">
   <div class="rl-accent"></div>
