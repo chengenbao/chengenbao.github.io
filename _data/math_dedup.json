@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-04-18": [
-      "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem19",
-      "https://www.cemc.uwaterloo.ca/contests/gauss.html#2024-gauss-grade7-problem22"
-    ],
     "2026-04-19": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_21",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22"
@@ -119,6 +115,10 @@
     "2026-05-18": [
       "https://nrich.maths.org/630",
       "https://nrich.maths.org/96"
+    ],
+    "2026-05-19": [
+      "https://live.poshenloh.com/past-contests/amc8/2019/3",
+      "https://live.poshenloh.com/past-contests/amc8/2019/15"
     ]
   }
 }
