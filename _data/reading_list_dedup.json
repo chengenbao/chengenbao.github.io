@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-04-17": [
-      "https://arxiv.org/abs/2604.13226",
-      "https://arxiv.org/abs/2604.13287",
-      "https://arxiv.org/abs/2604.13088",
-      "https://arxiv.org/abs/2604.13082",
-      "https://arxiv.org/abs/2604.13349",
-      "https://arxiv.org/abs/2604.13359",
-      "https://arxiv.org/abs/2604.13081"
-    ],
     "2026-04-20": [
       "https://arxiv.org/abs/2604.14922",
       "https://arxiv.org/abs/2604.14142",
@@ -227,6 +218,15 @@
       "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
       "https://huggingface.co/blog/waypoint-1-5",
       "https://huggingface.co/blog/transformers-to-mlx"
+    ],
+    "2026-05-19": [
+      "https://arxiv.org/abs/2605.15208",
+      "https://arxiv.org/abs/2605.15250",
+      "https://arxiv.org/abs/2605.15609",
+      "https://arxiv.org/abs/2605.15290",
+      "https://arxiv.org/abs/2605.15529",
+      "https://arxiv.org/abs/2605.16161",
+      "https://pytorch.org/blog/vllm-and-pytorch-work-together-to-improve-the-developer-experience-on-aarch64/"
     ]
   },
   "finance": {
