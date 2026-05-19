@@ -230,13 +230,6 @@
     ]
   },
   "finance": {
-    "2026-04-18": [
-      "https://arxiv.org/abs/2604.14199",
-      "https://arxiv.org/abs/2604.14257",
-      "https://arxiv.org/abs/2604.15045",
-      "https://arxiv.org/abs/2604.14758",
-      "https://arxiv.org/abs/2604.03274"
-    ],
     "2026-04-19": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/wage-and-income-growth-expectations-before-during-and-after-the-pandemic-period-20260413.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
@@ -437,6 +430,13 @@
       "https://www.bloomberg.com/news/articles/2026-05-18/grains-jump-after-us-says-china-to-buy-billions-in-farm-goods",
       "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
       "https://www.bloomberg.com/news/articles/2026-05-17/australia-orders-chinese-investors-to-sell-stakes-in-mining-firm"
+    ],
+    "2026-05-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html"
     ]
   }
 }
