@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-19</time>
+    </div>
+    <h2>贸易金融·住房信贷·基金流动性·货币市场</h2>
+    <p>美联储FEDS Notes最新研究：贸易融资、次级汽车贷款、共同基金流动性、货币市场基金投资者结构</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#贸易融资 #货币市场 #金融稳定 #消费信贷</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
