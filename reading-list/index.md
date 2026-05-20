@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-20</time>
+    </div>
+    <h2>战争贸易・AI洗绿・自动化・数字就业・通胀</h2>
+    <p>5篇前沿研究覆盖国际贸易地缘政治、公司金融ESG、全球自动化、数字经济就业与宏观通胀</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#国际贸易 #AI洗绿 #自动化 #数字经济 #通货膨胀</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-05-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-19</time></div><h2>分数大小比较 / 概率与集合应用</h2><p>分数大小比较 vs 概率集合应用，来自 2019 AMC 8 竞赛真题</p><div class="rl-meta"><span class="rl-source">AMC 8 竞赛真题</span><span class="rl-tags">AMC 8 · 竞赛数学 · 六年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-19-finance-daily/">
   <div class="rl-accent"></div>
