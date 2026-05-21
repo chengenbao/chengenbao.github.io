@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-21</time>
+    </div>
+    <h2>AI经济转型、金融风险与代际流动前沿研究</h2>
+    <p>AI智能体经济影响 · 保险可保性边界 · 新兴市场汇款 · 代际流动估计 · 计量新方法</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / econ.EM</span>
+      <span class="rl-tags">#AI经济 #宏观 #金融稳定</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
