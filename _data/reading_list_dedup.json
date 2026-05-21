@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-20": [
-      "https://arxiv.org/abs/2604.14922",
-      "https://arxiv.org/abs/2604.14142",
-      "https://arxiv.org/abs/2603.27844",
-      "https://arxiv.org/abs/2604.14116",
-      "https://arxiv.org/abs/2604.11045",
-      "https://arxiv.org/abs/2604.08510"
-    ],
     "2026-04-21": [
       "https://arxiv.org/abs/2604.15356",
       "https://arxiv.org/abs/2604.15409",
@@ -227,6 +219,17 @@
       "https://arxiv.org/abs/2605.15529",
       "https://arxiv.org/abs/2605.16161",
       "https://pytorch.org/blog/vllm-and-pytorch-work-together-to-improve-the-developer-experience-on-aarch64/"
+    ],
+    "2026-05-21": [
+      "https://arxiv.org/abs/2605.18795",
+      "https://arxiv.org/abs/2605.18800",
+      "https://arxiv.org/abs/2605.18810",
+      "https://arxiv.org/abs/2605.18815",
+      "https://arxiv.org/abs/2605.18822",
+      "https://arxiv.org/abs/2605.19481",
+      "https://arxiv.org/abs/2605.19893",
+      "https://arxiv.org/abs/2508.06526",
+      "https://pytorch.org/blog/running-pytorch-models-on-apple-silicon-gpus-with-the-executorch-mlx-delegate/"
     ]
   },
   "finance": {
