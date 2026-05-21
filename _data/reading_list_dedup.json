@@ -233,13 +233,6 @@
     ]
   },
   "finance": {
-    "2026-04-20": [
-      "https://www.theguardian.com/business/2026/apr/19/bank-bosses-meeting-rachel-reeves-impact-iran-war-uk-economy",
-      "https://www.theguardian.com/politics/2026/apr/19/uk-seeks-eu-deals-on-steel-and-evs-in-push-for-closer-economic-ties",
-      "https://www.theguardian.com/us-news/2026/apr/19/trump-energy-secretary-chris-wright-gas-prices",
-      "https://www.theguardian.com/business/2026/apr/20/abf-outcome-primark-spin-off-plan",
-      "https://www.theguardian.com/business/2026/apr/19/carmakers-uk-loan-scandal-payouts"
-    ],
     "2026-04-21": [
       "https://arxiv.org/abs/2604.15444",
       "https://arxiv.org/abs/2604.15825",
@@ -440,6 +433,13 @@
       "https://arxiv.org/abs/2605.17086",
       "https://arxiv.org/abs/2506.23230",
       "https://arxiv.org/abs/2605.16862"
+    ],
+    "2026-05-21": [
+      "https://arxiv.org/abs/2605.18935",
+      "https://arxiv.org/abs/2605.18784",
+      "https://arxiv.org/abs/2605.19401",
+      "https://arxiv.org/abs/2605.19154",
+      "https://arxiv.org/abs/2605.20012"
     ]
   }
 }
