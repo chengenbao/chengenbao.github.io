@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-21</time>
+    </div>
+    <h2>MoE微调 · 量化推理 · 投机解码 · 弹性训练 · KV缓存 · 边缘推理</h2>
+    <p>覆盖 MoE LoRA 微调、量化优化、投机解码加速、弹性分布式训练、KV Cache 管理及 Apple Silicon 边缘推理 9 篇前沿论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 量化 · 投机解码 · MoE · 弹性训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-05-20-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
