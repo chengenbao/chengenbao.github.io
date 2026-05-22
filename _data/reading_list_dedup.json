@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-21": [
-      "https://arxiv.org/abs/2604.15356",
-      "https://arxiv.org/abs/2604.15409",
-      "https://arxiv.org/abs/2604.15351",
-      "https://arxiv.org/abs/2604.15602",
-      "https://arxiv.org/abs/2604.15701",
-      "https://arxiv.org/abs/2604.15804"
-    ],
     "2026-04-22": [
       "https://arxiv.org/abs/2604.16368",
       "https://arxiv.org/abs/2604.16453",
@@ -230,6 +222,14 @@
       "https://arxiv.org/abs/2605.19893",
       "https://arxiv.org/abs/2508.06526",
       "https://pytorch.org/blog/running-pytorch-models-on-apple-silicon-gpus-with-the-executorch-mlx-delegate/"
+    ],
+    "2026-05-22": [
+      "https://arxiv.org/abs/2605.20315",
+      "https://arxiv.org/abs/2605.20199",
+      "https://arxiv.org/abs/2605.20247",
+      "https://arxiv.org/abs/2605.20370",
+      "https://arxiv.org/abs/2605.20906",
+      "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation"
     ]
   },
   "finance": {
