@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-22</time>
+    </div>
+    <h2>LLM量化推理 · 流匹配语言模型 · MoE持续学习 · CXL内存 · 安全容器 · 视频生成LoRA</h2>
+    <p>今日精选6篇：从量化推理加速到CXL内存管理，覆盖大模型训练、OS系统、容器安全、视频生成前沿</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 量化 · MoE · CXL · 容器安全 · LoRA</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-05-21-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
