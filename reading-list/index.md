@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-22</time>
+    </div>
+    <h2>AI经济冲击 · 房市转型 · 金融历史</h2>
+    <p>AI 推理通胀、模型崩溃经济学、美国房市季节性转变与日本财阀史</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#AI经济学 #货币政策 #房地产市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
