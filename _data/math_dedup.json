@@ -1,17 +1,5 @@
 {
   "sources": {
-    "2026-04-19": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_21",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22"
-    ],
-    "2026-04-20": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_21",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_23"
-    ],
-    "2026-04-21": [
-      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_14",
-      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_21"
-    ],
     "2026-04-22": [
       "https://ivyleaguecenter.org/wp-content/uploads/2022/01/2022-amc-8-problems-and-answers.pdf#problem-16",
       "https://ivyleaguecenter.org/wp-content/uploads/2022/01/2022-amc-8-problems-and-answers.pdf#problem-18"
@@ -119,6 +107,10 @@
     "2026-05-19": [
       "https://live.poshenloh.com/past-contests/amc8/2019/3",
       "https://live.poshenloh.com/past-contests/amc8/2019/15"
+    ],
+    "2026-05-22": [
+      "https://www.51test.net/show/10413661.html",
+      "https://www.51test.net/show/10945353.html"
     ]
   }
 }
