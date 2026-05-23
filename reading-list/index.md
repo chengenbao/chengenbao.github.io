@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-23-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-23</time>
+    </div>
+    <h2>RAG加速·沙箱C/R·多模态推理·扩散Token压缩·IXT训练框架</h2>
+    <p>聚焦LLM系统基础设施与多模态推理前沿：硬件近数据处理、毫秒级沙箱状态管理、视频扩散加速</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 推理加速 · 多模态 · 系统架构</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-22-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-22</time></div><h2>甲乙两车行程 / 三管注水工程</h2><p>五年级行程追及 + 初一工程问题，来自无忧考网竞赛真题，含详细解析</p><div class="rl-meta"><span class="rl-source">无忧考网竞赛真题</span><span class="rl-tags">五年级 · 初一 · 行程 · 工程</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-22-finance-daily/">
   <div class="rl-accent"></div>
