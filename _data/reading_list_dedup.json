@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-22": [
-      "https://arxiv.org/abs/2604.16368",
-      "https://arxiv.org/abs/2604.16453",
-      "https://arxiv.org/abs/2604.16535",
-      "https://arxiv.org/abs/2604.16380",
-      "https://arxiv.org/abs/2604.16557",
-      "https://arxiv.org/abs/2604.16324"
-    ],
     "2026-04-23": [
       "https://arxiv.org/abs/2604.18788",
       "https://arxiv.org/abs/2604.18592",
@@ -230,6 +222,15 @@
       "https://arxiv.org/abs/2605.20370",
       "https://arxiv.org/abs/2605.20906",
       "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation"
+    ],
+    "2026-05-23": [
+      "https://arxiv.org/abs/2605.21952",
+      "https://arxiv.org/abs/2605.22015",
+      "https://arxiv.org/abs/2605.22781",
+      "https://arxiv.org/abs/2605.20291",
+      "https://arxiv.org/abs/2605.22012",
+      "https://arxiv.org/abs/2605.22072",
+      "https://arxiv.org/abs/2605.20285"
     ]
   },
   "finance": {
