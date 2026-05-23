@@ -234,13 +234,6 @@
     ]
   },
   "finance": {
-    "2026-04-22": [
-      "https://arxiv.org/abs/2604.17167",
-      "https://arxiv.org/abs/2604.18373",
-      "https://arxiv.org/abs/2604.18330",
-      "https://arxiv.org/abs/2604.17946",
-      "https://arxiv.org/abs/2604.17166"
-    ],
     "2026-04-23": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/Outlining-and-measuring-the-benefits-of-risk-sensitivity-in-bank-capital-requirements-20250328.html",
@@ -441,6 +434,13 @@
       "https://arxiv.org/abs/2605.20281",
       "https://arxiv.org/abs/2605.21358",
       "https://arxiv.org/abs/2605.21009"
+    ],
+    "2026-05-23": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/wage-and-income-growth-expectations-before-during-and-after-the-pandemic-period-20260413.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html"
     ]
   }
 }
