@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-23</time></div><h2>幂运算与数字位数 / 骰子概率与运行总和</h2><p>AMC 10A 2023 精选：幂运算位数 + 概率期望</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-23-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
