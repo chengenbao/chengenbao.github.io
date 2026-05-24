@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-24</time>
+    </div>
+    <h2>LLM 扩散推理 · 异步批处理 · 重排序 · 多语言嵌入 · 文档解析 · Agent 评测</h2>
+    <p>涵盖扩散语言模型推理加速、LLM 连续批处理异步优化、SOTA 重排序模型、多语言嵌入、OCR 文档解析与 Agent 系统评测框架六大前沿方向。</p>
+    <div class="rl-meta">
+      <span class="rl-source">HuggingFace / NVIDIA / IBM</span>
+      <span class="rl-tags">LLM · 推理加速 · RAG · 多语言 · Agent</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-23</time></div><h2>幂运算与数字位数 / 骰子概率与运行总和</h2><p>AMC 10A 2023 精选：幂运算位数 + 概率期望</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-23-finance-daily/">
   <div class="rl-accent"></div>
