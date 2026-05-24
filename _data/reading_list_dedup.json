@@ -234,12 +234,6 @@
     ]
   },
   "finance": {
-    "2026-04-23": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/Outlining-and-measuring-the-benefits-of-risk-sensitivity-in-bank-capital-requirements-20250328.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/implications-of-growth-in-etfs-evidence-from-mutual-fund-to-etf-conversions-20251119.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/does-mutual-fund-fragility-impact-primary-market-pricing-evidence-from-commercial-paper-20250212.html"
-    ],
     "2026-04-24": [
       "https://arxiv.org/abs/2604.19833",
       "https://arxiv.org/abs/2604.20652",
@@ -441,6 +435,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/wage-and-income-growth-expectations-before-during-and-after-the-pandemic-period-20260413.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html"
+    ],
+    "2026-05-24": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/india-and-the-global-economy-20260408.html",
+      "https://www.federalreserve.gov/econres/ifdp/the-effects-of-the-war-on-ukraine-on-global-corporate-investment.htm",
+      "https://www.bis.org/publ/work1262.htm"
     ]
   }
 }
