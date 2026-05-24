@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-24</time>
+    </div>
+    <h2>贸易政策·稳定币·印度崛起·地缘政治·全球流动性</h2>
+    <p>Fed 关税落差分析、2025年稳定币金融稳定报告、印度全球经济角色、乌克兰战争冲击企业投资、BIS全球流动性研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Fed IFDP / BIS</span>
+      <span class="rl-tags">#贸易政策 #稳定币 #全球流动性</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
