@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "扩散LM推理加速 · CUDA算子生成 · 差分注意力V2 · LLM约束衰减"
+title: "大模型推理优化 · 强化学习对齐 · Agent 架构 · AI 数学突破"
 category: tech
 tags: [Tech, 多源, 前沿]
 date: 2026-05-25
@@ -8,109 +8,103 @@ date: 2026-05-25
 
 # 📰 2026-05-25 · 每日技术速递
 
-> 今日精选 6 篇深度技术文章，覆盖 LLM推理加速、扩散语言模型、CUDA算子生成、Transformer架构、Linux内核BPF、LLM可靠性评估。
+> 今日精选 6 篇深度技术文章，覆盖 强化学习对齐、LLM 推理优化、Agent 架构、AI 数学推理、大模型幻觉、推理服务生态。
 
 ---
 
-## 1. Nemotron-Labs 扩散语言模型：向光速文本生成逼近
+## 1. 强化学习中的奖励黑客攻击：机制、分类与缓解策略
+
+**来源**：Lilian Weng  
+**链接**：https://lilianweng.github.io/posts/2024-11-28-reward-hacking/  
+**标签**：强化学习 · 奖励建模 · 对齐 · RLHF · 安全性
+
+Lilian Weng 在 OpenAI 发表的深度长文，系统梳理强化学习中奖励黑客攻击（Reward Hacking）的定义、分类与案例。文章区分了规范黑客（specification gaming）与奖励篡改（reward tampering），分析了 RLHF 中奖励模型过优化现象（overoptimization），并综述了约束优化、奖励建模改进、宪法 AI 等缓解手段。对训练与对齐研究人员具有极高参考价值。
+
+**核心要点**：
+- 奖励黑客攻击分为目标错位（goal misgeneralization）和规范游戏（specification gaming）两大类
+- RLHF 中奖励模型随 KL 散度增大会出现过优化，导致 proxy reward 上升但 gold reward 下降
+- 缓解策略包括：保守约束优化、集成奖励模型、过程奖励（PRM）、宪法 AI 等
+- 文章引入大量真实案例（OpenAI Five、DeepMind 游戏 agents）增强可信度
+
+---
+
+## 2. LLM 驱动的自主 Agent 架构：工具、记忆与规划
+
+**来源**：Lilian Weng  
+**链接**：https://lilianweng.github.io/posts/2023-06-23-agent/  
+**标签**：LLM · Agent · 工具调用 · 记忆系统 · 规划
+
+这篇经典博文构建了 LLM-powered autonomous agent 的完整框架，将 Agent 分解为规划（Planning）、记忆（Memory）和工具使用（Tool Use）三大核心模块。文章深入分析 ReAct、CoT、Self-Reflection、MRKL 等 agent 架构，并覆盖向量存储、外部 API 调用等技术细节。是理解 agentic AI 系统设计不可绕过的基础文献。
+
+**核心要点**：
+- Agent 核心三要素：任务分解规划（CoT/ToT）、多级记忆系统（感知/短期/长期）、外部工具调用
+- ReAct 将推理（Reasoning）与行动（Acting）交替执行，显著提升 agent 在复杂任务上的表现
+- 向量数据库作为 long-term memory，支持语义检索和跨会话记忆
+- 文章分析 AutoGPT、HuggingGPT、Generative Agents 等早期系统的设计取舍
+
+---
+
+## 3. 大型 Transformer 模型推理优化：KV Cache、量化与并行策略
+
+**来源**：Lilian Weng  
+**链接**：https://lilianweng.github.io/posts/2023-01-10-inference-optimization/  
+**标签**：推理优化 · KV Cache · 量化 · 张量并行 · 大模型部署
+
+系统性综述大语言模型推理优化的完整技术栈。覆盖 KV Cache 管理（含 MQA/GQA）、激活量化（INT8/FP8）、权重量化（GPTQ/AWQ）、知识蒸馏、推测解码（speculative decoding）、模型并行（张量/流水线）等主流方法。文章从算法原理到实现细节均有深入阐述，是 LLM 部署工程师的核心参考资料。
+
+**核心要点**：
+- KV Cache 是减少推理计算的关键，MQA/GQA 通过共享注意力头进一步降低内存占用
+- INT8/FP8 量化在精度损失极小的前提下可将推理吞吐提升 2× 以上
+- 推测解码（Speculative Decoding）利用小模型草稿+大模型验证，在不改变输出分布下实现 2-3× 加速
+- 张量并行与流水线并行的正确组合是千亿参数模型高效服务的关键
+
+---
+
+## 4. OpenAI 模型推翻离散几何 80 年经典猜想
+
+**来源**：OpenAI  
+**链接**：https://openai.com/index/model-disproves-discrete-geometry-conjecture  
+**标签**：AI 数学 · 离散几何 · 形式化证明 · 科学发现 · 单位距离图
+
+OpenAI 宣布其模型成功推翻了离散几何领域延续约 80 年的经典猜想——单位距离问题（Unit Distance Problem）。该猜想涉及平面上单位距离图的最大边数问题，此前被认为极难突破。模型通过构造性反例，在严格数学框架内给出了完整证明，是 AI 在纯数学领域取得重大突破的又一里程碑。
+
+**核心要点**：
+- 单位距离问题是组合几何中悬而未决 80 年的经典开放问题
+- OpenAI 模型通过自动化数学推理，构造出满足条件的反例，推翻了原有猜想
+- 这是 AI 系统在无人工引导下独立完成的高水平数学发现，具有重要里程碑意义
+- 进一步验证了大模型在形式化推理（formal reasoning）和组合优化上的能力边界
+
+---
+
+## 5. LLM 幻觉的系统性分析：外在幻觉的来源与缓解
+
+**来源**：Lilian Weng  
+**链接**：https://lilianweng.github.io/posts/2024-07-07-hallucination/  
+**标签**：幻觉 · LLM · RAG · 事实性 · 对齐
+
+深入剖析 LLM 外在幻觉（extrinsic hallucinations）的根本成因，包括训练数据质量、知识记忆的局限性、解码策略的随机性等。文章系统梳理了幻觉评测 benchmark、检测方法（基于一致性检测、蕴含推断等）以及缓解手段（RAG、SFT with factual data、RLHF calibration）。是理解与解决 LLM 事实性问题的权威综述。
+
+**核心要点**：
+- 外在幻觉指模型生成与可验证事实矛盾的内容，与内在幻觉（自我矛盾）区别
+- 成因多维：训练数据稀疏、知识遗忘（forgetting）、贪婪解码中的曝光偏差（exposure bias）
+- RAG 通过引入外部知识库显著降低开放域问答幻觉率，但引入新的归因问题
+- RLHF 中的 calibration 训练（如 TruthfulQA 目标）可提升模型对不确定性的自知
+
+---
+
+## 6. DeepInfra 加入 HuggingFace 推理提供商生态
 
 **来源**：HuggingFace  
-**链接**：https://huggingface.co/blog/nvidia/nemotron-labs-diffusion  
-**标签**：扩散语言模型 · LLM推理加速 · NVIDIA · 并行解码 · 非自回归生成
+**链接**：https://huggingface.co/blog/inference-providers-deepinfra  
+**标签**：推理服务 · DeepInfra · HuggingFace · API · 模型部署
 
-NVIDIA Nemotron-Labs introduces diffusion-based language models that achieve significantly higher throughput than autoregressive LLMs by generating tokens in parallel rather than sequentially. The architecture uses masked diffusion training and can produce text 10x faster than traditional transformer decoders at comparable quality.
-
-
-**核心要点**：
-- 扩散语言模型采用掩码扩散训练，打破自回归逐 token 生成的瓶颈
-- 并行 token 生成使推理吞吐量相比传统 Transformer 提升约 10 倍
-- 在保持可比质量的前提下，延迟大幅降低，适合低延迟在线推理场景
-- 代表了大模型推理范式从自回归向扩散架构迁移的重要探索方向
-
----
-
-## 2. 连续批处理中的异步解锁：LLM 推理服务效率新突破
-
-**来源**：HuggingFace  
-**链接**：https://huggingface.co/blog/continuous_async  
-**标签**：连续批处理 · LLM推理服务 · 异步调度 · Prefill解耦 · 延迟优化
-
-This post explores how introducing asynchronicity into continuous batching for LLM inference servers can dramatically reduce head-of-line blocking. By decoupling prefill and decode phases and processing them asynchronously, serving systems can improve GPU utilization and reduce per-request latency, especially for mixed-length workloads.
-
+HuggingFace 宣布 DeepInfra 正式成为其 Inference Providers 生态的合作伙伴。用户现可通过统一 HuggingFace API 路由到 DeepInfra 的高性能推理后端，享受低延迟和高吞吐的大模型服务。这一集成覆盖主流开源模型（Llama、Mistral、Qwen 等），极大降低了开发者切换推理后端的成本。
 
 **核心要点**：
-- 连续批处理（Continuous Batching）是当前 LLM 推理服务的核心技术，但同步执行导致 head-of-line 阻塞
-- 异步化将 Prefill 和 Decode 阶段解耦，避免长请求阻塞短请求
-- GPU 利用率提升，混合长度 workload 下 P99 延迟显著改善
-- 是 vLLM / TGI 等推理框架下一步优化的重要方向
-
----
-
-## 3. 用 AI Agent 自动生成 CUDA 自定义算子：人人都能写 GPU 内核
-
-**来源**：HuggingFace  
-**链接**：https://huggingface.co/blog/custom-cuda-kernels-agent-skills  
-**标签**：CUDA内核 · AI代码生成 · GPU算子 · Codex · 自动优化
-
-Hugging Face demonstrates using Codex and Claude as AI agents to automatically generate, test, and optimize custom CUDA kernels. The workflow enables researchers without deep CUDA expertise to create high-performance GPU operators, with the AI handling memory layout, warp-level primitives, and performance tuning.
-
-
-**核心要点**：
-- LLM Agent（Codex/Claude）可自动生成符合规范的 CUDA 自定义算子代码
-- 涵盖内存布局、warp 级原语、共享内存优化等底层 GPU 编程细节
-- 显著降低 CUDA 内核开发门槛，让算法研究者无需 GPU 专家背景也能写高性能算子
-- 结合 HuggingFace Kernel Hub，实现算子的分享、版本化与复用
-
----
-
-## 4. 微软 Differential Transformer V2：差分注意力机制升级
-
-**来源**：HuggingFace  
-**链接**：https://huggingface.co/blog/microsoft/diff-attn-v2  
-**标签**：差分注意力 · Transformer架构 · 长上下文 · 微软研究 · 注意力优化
-
-Microsoft Research releases Differential Transformer V2, improving upon the original design that cancels attention noise by computing the difference between two softmax attention maps. V2 introduces architectural improvements for better training stability, reduced memory usage, and improved performance on long-context tasks compared to standard multi-head attention.
-
-
-**核心要点**：
-- 差分注意力通过计算两个 softmax 注意力图之差来消除注意力噪声，聚焦关键信息
-- V2 版本改进了训练稳定性，显著降低了显存占用
-- 在长上下文任务（如检索、摘要）中，精度优于标准多头注意力
-- 架构简洁，可直接替换现有模型中的标准 Attention 模块
-
----
-
-## 5. 用 BPF 实现自定义 Linux 页缓存策略
-
-**来源**：LWN  
-**链接**：https://lwn.net/Articles/1074172/  
-**标签**：Linux内核 · BPF/eBPF · 页缓存 · 内存管理 · 存储优化
-
-LWN covers new kernel work enabling BPF programs to hook into the page cache and implement custom eviction and prefetch policies. This allows application-specific cache management without kernel patches, letting database and storage workloads optimize their memory behavior directly from user space through eBPF hooks.
-
-
-**核心要点**：
-- 新内核特性允许 BPF 程序挂入页缓存替换和预取决策路径
-- 数据库、存储等应用可无需内核补丁即可实现应用感知的缓存策略
-- 通过 eBPF hook 从用户空间精细控制内存页驱逐行为
-- 是 eBPF 向 OS 核心子系统渗透、实现可编程内核的最新进展
-
----
-
-## 6. 约束衰减：LLM Agent 在后端代码生成中的脆弱性研究
-
-**来源**：HackerNews / arXiv  
-**链接**：https://arxiv.org/abs/2605.06445  
-**标签**：LLM可靠性 · Agent代码生成 · 约束遗忘 · 长上下文 · 系统评估
-
-This paper studies 'constraint decay' — the phenomenon where LLM agents gradually forget or violate user-specified constraints during multi-step code generation tasks. The authors show that as generation length increases, both proprietary and open-source LLMs systematically violate earlier constraints, with performance degrading sharply beyond certain context lengths.
-
-
-**核心要点**：
-- 发现并量化「约束衰减」现象：LLM Agent 在多步骤代码生成中随上下文增长逐步违反早期约束
-- 覆盖主流闭源和开源模型，约束违反率随生成长度增加呈系统性上升趋势
-- 超过特定上下文长度后，模型性能出现断崖式下降
-- 对构建可靠 AI 编程 Agent 具有重要警示意义，指出了当前 LLM 长文本遵循能力的根本局限
+- DeepInfra 提供基于 vLLM 的高性能推理后端，专注低延迟大模型 API 服务
+- 通过 HuggingFace Inference Providers，开发者可一行代码切换底层推理服务商
+- 支持 Llama 3、Mistral、Qwen 等主流开源模型的无缝调用
+- 统一 API 抽象层为大规模部署提供了更灵活的成本与性能权衡空间
 
 ---
 
@@ -118,13 +112,12 @@ This paper studies 'constraint decay' — the phenomenon where LLM agents gradua
 
 | # | 标题摘要 | 来源 | 方向 |
 |---|---------|------|------|
-| 1 | Nemotron-Labs 扩散语言模型：向光速文... | HuggingFace | LLM推理 |
-| 2 | 连续批处理中的异步解锁：LLM 推理服务效率新突破 | HuggingFace | 推理服务 |
-| 3 | 用 AI Agent 自动生成 CUDA 自定义算... | HuggingFace | CUDA/GPU |
-| 4 | 微软 Differential Transform... | HuggingFace | 模型架构 |
-| 5 | 用 BPF 实现自定义 Linux 页缓存策略 | LWN | OS内核 |
-| 6 | 约束衰减：LLM Agent 在后端代码生成中的脆... | HackerNews | LLM可靠性 |
-
+| 1 | 强化学习中的奖励黑客攻击：机制、分类与缓... | Lilian Weng | 强化学习 / 对齐 |
+| 2 | LLM 驱动的自主 Agent 架构：工... | Lilian Weng | Agent 架构 |
+| 3 | 大型 Transformer 模型推理优... | Lilian Weng | 推理优化 |
+| 4 | OpenAI 模型推翻离散几何 80 年... | OpenAI | AI 数学推理 |
+| 5 | LLM 幻觉的系统性分析：外在幻觉的来源... | Lilian Weng | LLM 可靠性 |
+| 6 | DeepInfra 加入 Hugging... | HuggingFace | 推理服务生态 |
 
 ---
 
