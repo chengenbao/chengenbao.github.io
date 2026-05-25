@@ -225,12 +225,12 @@
       "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
     ],
     "2026-05-25": [
-      "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "https://huggingface.co/blog/continuous_async",
-      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
-      "https://huggingface.co/blog/microsoft/diff-attn-v2",
-      "https://lwn.net/Articles/1074172/",
-      "https://arxiv.org/abs/2605.06445"
+      "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+      "https://simonwillison.net/2026/May/21/datasette-agent/#atom-entries",
+      "https://openai.com/index/building-codex-windows-sandbox",
+      "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "https://lilianweng.github.io/posts/2022-09-08-ntk/",
+      "https://lilianweng.github.io/posts/2024-07-07-hallucination/"
     ]
   },
   "finance": {
