@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-25</time>
+    </div>
+    <h2>扩散LM推理加速 · CUDA算子生成 · 差分注意力V2 · LLM约束衰减</h2>
+    <p>今日聚焦 LLM 推理提速、GPU 算子生成、内核 BPF 与 LLM Agent 可靠性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">HuggingFace / LWN / arXiv</span>
+      <span class="rl-tags">推理 · CUDA · Transformer · BPF · Agent</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-24</time></div><h2>分数与图形——正方形等分 / 填运算符凑数100</h2><p>等分正方形理解分数 + 填运算符凑出100，双题挑战！</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥数学题库</span><span class="rl-tags">四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-24-finance-daily/">
   <div class="rl-accent"></div>
