@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-24": [
-      "https://arxiv.org/abs/2604.19769",
-      "https://arxiv.org/abs/2604.19835",
-      "https://arxiv.org/abs/2604.19767",
-      "https://arxiv.org/abs/2604.19780",
-      "https://arxiv.org/abs/2604.19884",
-      "https://arxiv.org/abs/2604.20244"
-    ],
     "2026-04-25": [
       "https://arxiv.org/abs/2604.19877",
       "https://arxiv.org/abs/2604.20021",
@@ -231,6 +223,14 @@
       "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
       "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
       "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
+    ],
+    "2026-05-25": [
+      "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "https://huggingface.co/blog/continuous_async",
+      "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+      "https://huggingface.co/blog/microsoft/diff-attn-v2",
+      "https://lwn.net/Articles/1074172/",
+      "https://arxiv.org/abs/2605.06445"
     ]
   },
   "finance": {
