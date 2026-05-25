@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-25</time>
+    </div>
+    <h2>沃什时代美联储政策转向、美欧货币政策分歧与油价地缘博弈</h2>
+    <p>沃什接任美联储主席引发加息预期，欧央行或上调通胀预测，伊朗停战协议推动油价回落</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve / Bloomberg Economics / MarketWatch</span>
+      <span class="rl-tags">#宏观 #货币政策 #油价 #地缘</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
