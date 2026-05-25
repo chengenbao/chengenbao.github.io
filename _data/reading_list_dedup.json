@@ -234,13 +234,6 @@
     ]
   },
   "finance": {
-    "2026-04-24": [
-      "https://arxiv.org/abs/2604.19833",
-      "https://arxiv.org/abs/2604.20652",
-      "https://arxiv.org/abs/2604.02875",
-      "https://arxiv.org/abs/2604.20050",
-      "https://arxiv.org/abs/2604.19956"
-    ],
     "2026-04-25": [
       "https://arxiv.org/abs/2604.21423",
       "https://arxiv.org/abs/2604.21334",
@@ -442,6 +435,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/india-and-the-global-economy-20260408.html",
       "https://www.federalreserve.gov/econres/ifdp/the-effects-of-the-war-on-ukraine-on-global-corporate-investment.htm",
       "https://www.bis.org/publ/work1262.htm"
+    ],
+    "2026-05-25": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+      "https://www.bloomberg.com/news/articles/2026-05-24/treasury-market-ushers-in-warsh-era-with-bets-on-2026-rate-hike",
+      "https://www.bloomberg.com/news/articles/2026-05-24/ecb-likely-to-revise-its-inflation-outlook-in-june-lagarde-says",
+      "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopens-oil-price-debate"
     ]
   }
 }
