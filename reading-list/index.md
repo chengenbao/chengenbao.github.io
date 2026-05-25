@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-25</time>
+    </div>
+    <h2>大模型推理优化 · 强化学习对齐 · Agent 架构 · AI 数学突破</h2>
+    <p>精选 6 篇技术深文：RL 奖励黑客、LLM 推理优化、自主 Agent、AI 推翻数学猜想、幻觉分析、推理服务生态。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Lilian Weng / OpenAI / HuggingFace</span>
+      <span class="rl-tags">RL · 推理优化 · Agent · AI数学 · 幻觉</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-05-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
