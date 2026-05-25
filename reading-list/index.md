@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-25</time></div><h2>混乱的时钟（逻辑推理） / 神奇的12345（循环数位和）</h2><p>时钟数字逻辑推理 + 2025位重复数字的数位求和</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥竞赛题库</span><span class="rl-tags">六年级 &nbsp;·&nbsp; 初一</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
