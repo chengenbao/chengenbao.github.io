@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-26</time></div><h2>等差数列求各位数字和 / 等腰三角形等面积分割</h2><p>等差数列整数约束求数字和 · 等腰三角形等面积平行分割</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">#初二 #初三 #AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-26-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
