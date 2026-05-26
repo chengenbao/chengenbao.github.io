@@ -234,13 +234,6 @@
     ]
   },
   "finance": {
-    "2026-04-25": [
-      "https://arxiv.org/abs/2604.21423",
-      "https://arxiv.org/abs/2604.21334",
-      "https://arxiv.org/abs/2503.07341",
-      "https://arxiv.org/abs/2604.21672",
-      "https://arxiv.org/abs/2412.00615"
-    ],
     "2026-04-26": [
       "https://arxiv.org/abs/2604.21734",
       "https://arxiv.org/abs/2604.21569",
@@ -442,6 +435,13 @@
       "https://www.bloomberg.com/news/articles/2026-05-24/treasury-market-ushers-in-warsh-era-with-bets-on-2026-rate-hike",
       "https://www.bloomberg.com/news/articles/2026-05-24/ecb-likely-to-revise-its-inflation-outlook-in-june-lagarde-says",
       "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopens-oil-price-debate"
+    ],
+    "2026-05-26": [
+      "https://arxiv.org/abs/2605.23159",
+      "https://arxiv.org/abs/2605.23400",
+      "https://arxiv.org/abs/2410.22443",
+      "https://arxiv.org/abs/2605.22994",
+      "https://arxiv.org/abs/2605.23703"
     ]
   }
 }
