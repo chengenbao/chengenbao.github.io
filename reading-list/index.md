@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-26</time>
+    </div>
+    <h2>KV Cache 优化 · 全秩 PEFT · 多智能体潜空间通信 · 扩散模型量化 · DNN加速器 · PIM编译器</h2>
+    <p>覆盖大模型推理加速、参数高效微调、硬件加速架构与存内计算编译六大前沿方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · cs.LG · cs.AR</span>
+      <span class="rl-tags">LLM · 推理加速 · PEFT · 量化 · 编译器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-25</time></div><h2>混乱的时钟（逻辑推理） / 神奇的12345（循环数位和）</h2><p>时钟数字逻辑推理 + 2025位重复数字的数位求和</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥竞赛题库</span><span class="rl-tags">六年级 &nbsp;·&nbsp; 初一</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
   <div class="rl-accent"></div>
