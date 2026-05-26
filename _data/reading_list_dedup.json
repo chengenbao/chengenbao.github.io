@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-25": [
-      "https://arxiv.org/abs/2604.19877",
-      "https://arxiv.org/abs/2604.20021",
-      "https://arxiv.org/abs/2604.20079",
-      "https://arxiv.org/abs/2604.21057",
-      "https://arxiv.org/abs/2604.21229",
-      "https://arxiv.org/abs/2604.20098"
-    ],
     "2026-04-26": [
       "https://pytorch.org/blog/optimizing-effective-training-time-for-metas-internal-recommendation-models/",
       "https://pytorch.org/blog/faster-diffusion-on-blackwell-mxfp8-and-nvfp4/",
@@ -231,6 +223,14 @@
       "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "https://lilianweng.github.io/posts/2022-09-08-ntk/",
       "https://lilianweng.github.io/posts/2024-07-07-hallucination/"
+    ],
+    "2026-05-26": [
+      "https://arxiv.org/abs/2605.22884",
+      "https://arxiv.org/abs/2605.22869",
+      "https://arxiv.org/abs/2605.22863",
+      "https://arxiv.org/abs/2605.23226",
+      "https://arxiv.org/abs/2605.23833",
+      "https://arxiv.org/abs/2511.15503"
     ]
   },
   "finance": {
