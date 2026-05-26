@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-04-25": [
-      "https://live.poshenloh.com/zh/past-contests/amc8/2024#problem-20",
-      "https://live.poshenloh.com/zh/past-contests/amc8/2024#problem-24"
-    ],
     "2026-04-26": [
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CayleyContest.pdf#Problem_16",
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CayleyContest.pdf#Problem_19"
@@ -111,6 +107,10 @@
     "2026-05-25": [
       "https://nrich.maths.org/2127",
       "https://nrich.maths.org/2344"
+    ],
+    "2026-05-26": [
+      "https://live.poshenloh.com/zh/past-contests/amc8/2023#problem-25",
+      "https://live.poshenloh.com/zh/past-contests/amc8/2023#problem-24"
     ]
   }
 }
