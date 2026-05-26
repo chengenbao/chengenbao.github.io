@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-26</time>
+    </div>
+    <h2>AI重塑劳动力、绿色融资、比特币溢价与ESG动态</h2>
+    <p>5篇精选：生成式AI冲击就业市场、可再生能源去风险融资、比特币P2P溢价与宏观信号、企业碳排放ESG动态、大规模消费者需求建模</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / arXiv econ.EM</span>
+      <span class="rl-tags">#AI #绿色金融 #加密货币 #ESG #消费经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
