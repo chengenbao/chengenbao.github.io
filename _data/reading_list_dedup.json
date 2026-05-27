@@ -234,12 +234,6 @@
     ]
   },
   "finance": {
-    "2026-04-26": [
-      "https://arxiv.org/abs/2604.21734",
-      "https://arxiv.org/abs/2604.21569",
-      "https://arxiv.org/abs/2604.18605",
-      "https://arxiv.org/abs/2604.21433"
-    ],
     "2026-04-27": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
@@ -442,6 +436,13 @@
       "https://arxiv.org/abs/2410.22443",
       "https://arxiv.org/abs/2605.22994",
       "https://arxiv.org/abs/2605.23703"
+    ],
+    "2026-05-27": [
+      "https://arxiv.org/abs/2605.25555",
+      "https://arxiv.org/abs/2605.24356",
+      "https://arxiv.org/abs/2605.25505",
+      "https://arxiv.org/abs/2604.00582",
+      "https://arxiv.org/abs/2605.25438"
     ]
   }
 }
