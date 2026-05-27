@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-27</time>
+    </div>
+    <h2>Transformer验证框架 · 神经算子精化 · 隐私机制理论 · 高效微调 · 抗噪蒸馏 · 序列并行训练</h2>
+    <p>今日精选6篇深度技术文章，覆盖大模型可解释性形式化验证、科学计算谱偏差、隐状态隐私理论、指令微调数据效率、音频LLM鲁棒性及长上下文分布式训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace Blog</span>
+      <span class="rl-tags">Transformer · 分布式训练 · 大模型</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-26</time></div><h2>等差数列求各位数字和 / 等腰三角形等面积分割</h2><p>等差数列整数约束求数字和 · 等腰三角形等面积平行分割</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">#初二 #初三 #AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-26-finance-daily/">
   <div class="rl-accent"></div>
