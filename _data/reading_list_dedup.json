@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-04-26": [
-      "https://pytorch.org/blog/optimizing-effective-training-time-for-metas-internal-recommendation-models/",
-      "https://pytorch.org/blog/faster-diffusion-on-blackwell-mxfp8-and-nvfp4/",
-      "https://pytorch.org/blog/sota-normalization-performance-with-torch-compile/",
-      "https://pytorch.org/blog/gemms-torchinductor-cutedsl-backend/",
-      "https://huggingface.co/blog/deepseekv4",
-      "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/"
-    ],
     "2026-04-27": [
       "https://pytorch.org/blog/optimizing-effective-training-time-for-metas-internal-recommendation-ranking-workloads/",
       "https://pytorch.org/blog/faster-diffusion-on-blackwell-mxfp8-and-nvfp4-with-diffusers-and-torchao/",
@@ -231,6 +223,14 @@
       "https://arxiv.org/abs/2605.23226",
       "https://arxiv.org/abs/2605.23833",
       "https://arxiv.org/abs/2511.15503"
+    ],
+    "2026-05-27": [
+      "https://arxiv.org/abs/2605.24033",
+      "https://arxiv.org/abs/2605.24041",
+      "https://arxiv.org/abs/2605.24042",
+      "https://arxiv.org/abs/2605.23969",
+      "https://arxiv.org/abs/2605.23954",
+      "https://huggingface.co/blog/ulysses-sp"
     ]
   },
   "finance": {
