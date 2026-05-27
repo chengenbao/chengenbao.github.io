@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-27</time>
+    </div>
+    <h2>能源格局·大宗商品·AI劳动经济·绿色政策</h2>
+    <p>意大利能源所有权网络、电动汽车关键矿物供应链时间错配、AI加剧北京技能溢价分化、绿色补贴的公平效应</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv Economics</span>
+      <span class="rl-tags">#能源 #大宗商品 #AI经济学 #绿色政策</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
