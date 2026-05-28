@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-28</time>
+    </div>
+    <h2>保险风险 · 劳动市场 · 绿色金融 · 行为经济</h2>
+    <p>社会通胀量化、招聘薪酬透明度、城市能源韧性框架、LLM与人类策略行为比较</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#保险 #劳动市场 #绿色金融 #行为经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
