@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-05-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-28</time></div><h2>六位数的因数 / 跳兔上楼梯</h2><p>六位对称数必定有一个奇特因数；小兔6步归原地的路径数</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">五年级 · 初一 · AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
