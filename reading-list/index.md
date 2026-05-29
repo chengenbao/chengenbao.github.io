@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-29</time>
+    </div>
+    <h2>关税通胀、中国贸易、供应链信贷与银行韧性</h2>
+    <p>精选4篇美联储FEDS Notes，覆盖2025年关税价格传导、中国产业政策与贸易主导、供应链风险与银行信贷、存款冲击下银行流动性韧性评估。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税 #中国贸易 #金融稳定</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-05-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-28</time></div><h2>六位数的因数 / 跳兔上楼梯</h2><p>六位对称数必定有一个奇特因数；小兔6步归原地的路径数</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">五年级 · 初一 · AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-28-finance-daily/">
   <div class="rl-accent"></div>
