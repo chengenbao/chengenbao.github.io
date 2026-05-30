@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-30</time>
+    </div>
+    <h2>中国出口冲击·美联储历史·AI经济学</h2>
+    <p>Fed研究中国冲击2.0；美联储60-70年代政策沟通历史；AI重构经济路径；利率锁定效应与移民劳动力；责任险社会通胀量化</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ</span>
+      <span class="rl-tags">#宏观 #贸易 #货币政策 #AI经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-05-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
