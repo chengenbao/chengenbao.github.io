@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-30</time>
+    </div>
+    <h2>LLM推理引擎 · MoE显存优化 · RL vs SFT遗忘机理 · LoRA特征几何 · 上下文蒸馏 · 硬件感知NAS</h2>
+    <p>覆盖大模型推理系统、MoE部署、微调机理与硬件感知架构搜索6篇前沿研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / cs.LG / cs.AR</span>
+      <span class="rl-tags">大模型推理 · MoE · LoRA · 硬件优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-29</time></div><h2>机器人路径问题 / L形三连块拼接</h2><p>初二：等差数列与角度模运算；初三：数学归纳法与递归构造</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · NRICH · 几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-29-finance-daily/">
   <div class="rl-accent"></div>
