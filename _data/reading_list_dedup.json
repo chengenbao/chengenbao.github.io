@@ -224,13 +224,6 @@
     ]
   },
   "finance": {
-    "2026-04-29": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://arxiv.org/abs/2604.24035",
-      "https://arxiv.org/abs/2604.22895"
-    ],
     "2026-04-30": [
       "https://arxiv.org/abs/2604.25826",
       "https://arxiv.org/abs/2604.24489",
@@ -432,6 +425,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html"
+    ],
+    "2026-05-30": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
+      "https://arxiv.org/abs/2605.29207",
+      "https://arxiv.org/abs/2605.28904",
+      "https://arxiv.org/abs/2605.27265"
     ]
   }
 }
