@@ -1,23 +1,5 @@
 {
   "tech": {
-    "2026-04-28": [
-      "https://arxiv.org/abs/2604.22312",
-      "https://arxiv.org/abs/2604.22032",
-      "https://arxiv.org/abs/2604.22050",
-      "https://arxiv.org/abs/2604.22271",
-      "https://huggingface.co/blog/ulysses-sp",
-      "https://huggingface.co/blog/async-rl-training-landscape",
-      "https://arxiv.org/abs/2604.22297"
-    ],
-    "2026-04-29": [
-      "https://arxiv.org/abs/2604.23466",
-      "https://arxiv.org/abs/2604.23467",
-      "https://arxiv.org/abs/2604.23150",
-      "https://pytorch.org/?p=59974",
-      "https://pytorch.org/?p=61766",
-      "https://pytorch.org/?p=63618",
-      "https://arxiv.org/abs/2604.22782"
-    ],
     "2026-04-30": [
       "https://arxiv.org/abs/2604.24820",
       "https://arxiv.org/abs/2604.25317",
@@ -231,6 +213,14 @@
       "https://arxiv.org/abs/2605.26189",
       "https://pytorch.org/blog/up-to-580tps-new-speed-record-of-qwen3-5-397b-a17b-on-gpu-for-agentic-workloads-with-tokenspeed/",
       "https://arxiv.org/abs/2605.26132"
+    ],
+    "2026-05-30": [
+      "https://arxiv.org/abs/2605.29639",
+      "https://arxiv.org/abs/2605.29135",
+      "https://arxiv.org/abs/2605.28860",
+      "https://arxiv.org/abs/2605.28896",
+      "https://arxiv.org/abs/2605.28889",
+      "https://arxiv.org/abs/2605.30019"
     ]
   },
   "finance": {
