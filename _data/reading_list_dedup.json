@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-04-30": [
-      "https://arxiv.org/abs/2604.24820",
-      "https://arxiv.org/abs/2604.25317",
-      "https://arxiv.org/abs/2604.25183",
-      "https://arxiv.org/abs/2604.25326",
-      "https://pytorch.org/blog/introducing-autosp/",
-      "https://pytorch.org/blog/flight-recorder-a-new-lens-for-understanding-nccl-watchdog-timeouts/",
-      "https://arxiv.org/abs/2604.25011"
-    ],
     "2026-05-01": [
       "http://arxiv.org/abs/2604.26779v1",
       "http://arxiv.org/abs/2604.26951v1",
@@ -221,6 +212,14 @@
       "https://arxiv.org/abs/2605.28896",
       "https://arxiv.org/abs/2605.28889",
       "https://arxiv.org/abs/2605.30019"
+    ],
+    "2026-05-31": [
+      "https://huggingface.co/blog/torch-profiler",
+      "https://huggingface.co/blog/delta-weight-sync",
+      "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "https://huggingface.co/blog/agent-glossary",
+      "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "https://pytorch.org/blog/pytorch-docathon-2026-results/"
     ]
   },
   "finance": {
