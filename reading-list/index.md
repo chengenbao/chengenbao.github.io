@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-05-31-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-05-31</time>
+    </div>
+    <h2>衰退风险 · 通胀比较 · 中美缓和 · 页岩气红利</h2>
+    <p>加拿大 GDP 转负衰退预警；美国八维度通胀比较；中美军事沟通改善；页岩气为消费者节省数千亿</p>
+    <div class="rl-meta">
+      <span class="rl-source">Econbrowser / FT / Marginal Revolution</span>
+      <span class="rl-tags">#宏观 #通胀 #地缘政治 #能源</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-05-31-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
