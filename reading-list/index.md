@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-05-31-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-05-31</time>
+    </div>
+    <h2>PyTorch Profiler + RL Delta Sync + LLM企业IT基准 · 6篇</h2>
+    <p>今日精选：PyTorch profiling实战、RL万亿参数增量同步、LLM企业IT基准、Agent术语梳理、专业化vs规模化</p>
+    <div class="rl-meta">
+      <span class="rl-source">HuggingFace / PyTorch</span>
+      <span class="rl-tags">PyTorch · RL · LLM · Agent · 性能优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-30</time></div><h2>运算顺序 / 年龄推算</h2><p>2023 & 2022 AMC 8 竞赛真题，四年级运算顺序、五年级年龄推算</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-30-finance-daily/">
   <div class="rl-accent"></div>
