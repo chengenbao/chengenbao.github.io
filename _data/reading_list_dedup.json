@@ -223,12 +223,6 @@
     ]
   },
   "finance": {
-    "2026-04-30": [
-      "https://arxiv.org/abs/2604.25826",
-      "https://arxiv.org/abs/2604.24489",
-      "https://arxiv.org/abs/2604.25522",
-      "https://arxiv.org/abs/2509.09865"
-    ],
     "2026-05-01": [
       "https://arxiv.org/abs/2604.26546",
       "https://arxiv.org/abs/2604.26220",
@@ -431,6 +425,12 @@
       "https://arxiv.org/abs/2605.29207",
       "https://arxiv.org/abs/2605.28904",
       "https://arxiv.org/abs/2605.27265"
+    ],
+    "2026-05-31": [
+      "https://econbrowser.com/archives/2026/05/canada-imminnent-recession",
+      "https://econbrowser.com/archives/2026/05/eight-measures-of-the-us-price-level",
+      "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
+      "https://marginalrevolution.com/marginalrevolution/2026/05/how-much-has-shale-gas-saved-u-s-consumers"
     ]
   }
 }
