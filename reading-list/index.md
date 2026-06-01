@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-01</time>
+    </div>
+    <h2>AI经济冲击·美债利率·贸易脱钩·衰退风险</h2>
+    <p>美联储 FEDS Notes 五维度精选：AI 就业冲击、基建贸易重塑、远期利率成因、Brexit 脱钩代价与州级衰退预警</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve FEDS Notes</span>
+      <span class="rl-tags">#AI经济学 #全球贸易 #美债 #宏观预警</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
