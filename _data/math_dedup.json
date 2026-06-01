@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-01": [
-      "https://nrich.maths.org/588",
-      "https://nrich.maths.org/2207"
-    ],
     "2026-05-02": [
       "https://nrich.maths.org/5483",
       "https://nrich.maths.org/2383"
@@ -115,6 +111,10 @@
     "2026-05-31": [
       "https://wiki.randommath.com/amc8/2024#9",
       "https://wiki.randommath.com/amc8/2019#15"
+    ],
+    "2026-06-01": [
+      "https://live.poshenloh.com/past-contests/amc10/2021A#problem-13",
+      "https://live.poshenloh.com/past-contests/amc10/2021A#problem-19"
     ]
   }
 }
