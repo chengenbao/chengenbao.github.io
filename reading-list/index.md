@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-01</time>
+    </div>
+    <h2>PyTorch 编译器深度解析 · MoE 推理加速 · LLM 潜在推理突破</h2>
+    <p>聚焦 PyTorch 编译器内核融合、Blackwell GPU 稀疏注意力、LLM 工作记忆解锁与 MoE 本地执行路径等前沿技术</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · GPU/CUDA · 推理加速 · 编译器 · MoE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-05-31-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-31</time></div><h2>Maria的弹珠 / 海滩人群</h2><p>比例推理求总数 · 容斥原理与概率</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">六年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-31-finance-daily/">
   <div class="rl-accent"></div>
