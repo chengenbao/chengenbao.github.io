@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-02</time>
+    </div>
+    <h2>LLM 推理优化 · FP4量化 · GEMM性能 · 自主数据工程</h2>
+    <p>今日聚焦推理内存墙、FP4混合精度量化、GEMM性能粗糙性、以及自主Agent数据工程等前沿方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 量化 · GPU · 分布式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-01</time></div><h2>四面体体积 / 绝对値曲线面积</h2><p>空间几何四面体体积 + 绝对値方程围成面积，AMC 10A 经典难题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC10 · 几何 · 解析几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-01-finance-daily/">
   <div class="rl-accent"></div>
