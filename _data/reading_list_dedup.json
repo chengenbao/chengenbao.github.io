@@ -225,13 +225,6 @@
     ]
   },
   "finance": {
-    "2026-05-02": [
-      "https://arxiv.org/abs/2503.24324",
-      "https://arxiv.org/abs/2509.16115",
-      "https://arxiv.org/abs/2604.27041",
-      "https://arxiv.org/abs/2604.28052",
-      "https://arxiv.org/abs/2604.18767"
-    ],
     "2026-05-03": [
       "https://fredblog.stlouisfed.org/2026/04/how-markets-have-responded-to-military-action-against-iran/",
       "https://fredblog.stlouisfed.org/2026/04/whats-happening-with-interest-rates-on-bank-accounts/",
@@ -433,6 +426,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/lessons-from-brexit-on-the-effects-of-trade-disintegration-20260116.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-recession-risks-with-state-level-data-20260107.html"
+    ],
+    "2026-06-02": [
+      "https://arxiv.org/abs/2605.30435",
+      "https://arxiv.org/abs/2605.30672",
+      "https://arxiv.org/abs/2601.14150",
+      "https://arxiv.org/abs/2509.13323",
+      "https://arxiv.org/abs/2602.07486"
     ]
   }
 }
