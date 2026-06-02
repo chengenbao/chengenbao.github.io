@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-02</time>
+    </div>
+    <h2>全球科学与创新 · 金融市场流动性 · 贸易关系重构</h2>
+    <p>5篇经济学前沿：美国创新的全球知识供应链、基金赎回与风险定价、危机中的贸易伙伴重构、AI行为科学、子女惩罚效应</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#宏观经济 #金融市场 #国际贸易 #AI经济学</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
