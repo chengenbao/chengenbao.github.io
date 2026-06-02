@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-02": [
-      "https://nrich.maths.org/5483",
-      "https://nrich.maths.org/2383"
-    ],
     "2026-05-03": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_1",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_3"
@@ -115,6 +111,10 @@
     "2026-06-01": [
       "https://live.poshenloh.com/past-contests/amc10/2021A#problem-13",
       "https://live.poshenloh.com/past-contests/amc10/2021A#problem-19"
+    ],
+    "2026-06-02": [
+      "https://nrich.maths.org/6290",
+      "https://nrich.maths.org/6267"
     ]
   }
 }
