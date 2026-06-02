@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-02</time></div><h2>Venn 图分类 / 均值中位数众数</h2><p>Venn 图集合分类 · 平均数中位数众数综合枚举</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-02-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
