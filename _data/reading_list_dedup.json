@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-02": [
-      "https://pytorch.org/blog/lightseek-smg/",
-      "https://arxiv.org/abs/2604.27089",
-      "https://arxiv.org/abs/2604.26968",
-      "https://arxiv.org/abs/2604.27396",
-      "https://arxiv.org/abs/2604.27486",
-      "https://arxiv.org/abs/2604.27201"
-    ],
     "2026-05-03": [
       "https://pytorch.org/blog/lightseek-smg/",
       "https://pytorch.org/blog/introducing-autosp/",
@@ -221,6 +213,15 @@
       "http://arxiv.org/abs/2605.30343v1",
       "http://arxiv.org/abs/2605.30337v1",
       "http://arxiv.org/abs/2605.29135v1"
+    ],
+    "2026-06-02": [
+      "https://arxiv.org/abs/2605.30571",
+      "https://arxiv.org/abs/2605.31035",
+      "https://arxiv.org/abs/2605.31004",
+      "https://arxiv.org/abs/2605.29752",
+      "https://arxiv.org/abs/2605.30376",
+      "https://arxiv.org/abs/2605.30407",
+      "https://pytorch.org/blog/how-linkedin-uses-pytorch-to-solve-extreme-scale-optimization-problems/"
     ]
   },
   "finance": {
