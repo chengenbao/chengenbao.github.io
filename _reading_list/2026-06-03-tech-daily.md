@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "MoE量化 · 推测解码加速 · 亚精度推理 · GPU TLB优化 · 内核自动调优"
+title: "2026-06-03 每日技术速递 · cs.CL / cs.LG / cs.AR"
 category: tech
 tags: [Tech, 多源, 前沿]
 date: 2026-06-03
@@ -8,127 +8,123 @@ date: 2026-06-03
 
 # 📰 2026-06-03 · 每日技术速递
 
-> 今日精选 7 篇深度技术文章，覆盖 大模型量化、推测解码加速、亚精度推理、GPU微架构优化、OS内核自动调优。
+> 今日精选 7 篇深度技术文章，覆盖 cs.CL / cs.LG / cs.AR 等方向。
 
 ---
 
-## 1. BitsMoE：频谱能量引导的 MoE 大模型高效量化位宽分配
+## 1. OpenEye: A Scalable Open-Source Hardware Accelerator for DNNs
 
-**来源**：arXiv cs.LG  
-**链接**：https://arxiv.org/abs/2606.00079  
-**标签**：MoE量化  · 大模型压缩  · 位宽分配  · 推理加速
+**来源**：cs.AR  
+**链接**：https://arxiv.org/abs/2606.01450  
+**标签**：推理加速 · 高效推理
 
-Mixture-of-Experts (MoE) large language models reduce per-token computation but pose new challenges for quantization due to expert heterogeneity. This paper proposes BitsMoE, a method that uses spectral energy analysis to guide per-expert bit allocation, achieving higher compression with lower accuracy loss compared to uniform quantization schemes.
+arXiv:2606.01450v1 Announce Type: new Abstract: The increasing computational complexity of deep neural network inference poses significant challenges for efficient hardware acceleration on embedded platforms, particularly with respect to resource consumption and scalability. This work presents OpenEye, a scalable and sparsity-aware FPGA-based hardware accelerator designed to efficiently execute co
 
 **核心要点**：
-- 利用频谱能量分析评估各专家层的重要性，实现非均匀位宽分配
-- 针对 MoE 架构专家异构性设计量化策略，突破均匀量化的精度瓶颈
-- 在保持模型精度的同时显著压缩模型体积，降低推理显存占用
+- 01450v1 Announce Type: new Abstract: The increasing computational complexity of deep neural network inference poses sign
+- This work presents OpenEye, a scalable and sparsity-aware FPGA-based hardware accelerator designed to efficiently execut
+- OpenEye is based on a highly parameterizable architecture composed of clusters of processing elements interconnected by
 
 ---
+## 2. CSRP: Chain-of-Thought Reasoning for Chinese Text Correction via Reinforcement Learning with Efficiency-Aware Rewards
 
-## 2. BudgetDraft：接受率感知的多视角训练稀疏 KV 推测解码
+**来源**：cs.CL  
+**链接**：https://arxiv.org/abs/2606.00020  
+**标签**：微调 · 模型训练 · 推理能力 · LLM
 
-**来源**：arXiv cs.LG  
-**链接**：https://arxiv.org/abs/2606.00144  
-**标签**：推测解码  · KV Cache  · 推理加速  · 自回归解码
-
-Speculative decoding speeds up autoregressive decoding by using a draft model to propose tokens. BudgetDraft introduces acceptance-aware training that jointly optimizes the draft model with sparse KV cache usage, reducing memory bandwidth and improving token acceptance rates across diverse decoding budgets.
+arXiv:2606.00020v1 Announce Type: new Abstract: Large Language Model (LLM) based Chinese Grammatical Error Correction (CGEC) systems face two critical challenges: general-purpose models lack specialized linguistic priors for subtle grammatical distinctions, and Supervised Fine-Tuning (SFT) with Maximum Likelihood Estimation fails to optimize for precision-focused metrics, leading to systematic ove
 
 **核心要点**：
-- 提出接受率感知训练目标，使 draft 模型在不同预算约束下均保持高接受率
-- 结合稀疏 KV cache 机制，同时压缩显存占用和降低内存带宽瓶颈
-- 多视角训练策略提升 draft 模型泛化能力，在多种下游任务上加速比显著提升
+- 00020v1 Announce Type: new Abstract: Large Language Model (LLM) based Chinese Grammatical Error Correction (CGEC) system
+- We propose CSRP, a three-stage framework that progressively builds correction capability through Continual Pre-training 
+- 9M balanced samples to internalize domain knowledge, Ch
 
 ---
+## 3. DLLM-JEPA: Joint Embedding Predictive Architectures for Masked Diffusion Language Models
 
-## 3. SENSE：基于语义嵌入导航与软门控评估的检索式推测解码
+**来源**：cs.CL  
+**链接**：https://arxiv.org/abs/2606.00091  
+**标签**：Attention · LLM · Embedding
 
-**来源**：arXiv cs.CL  
-**链接**：https://arxiv.org/abs/2606.00021  
-**标签**：推测解码  · 语义检索  · LLM推理  · token加速
-
-Speculative Decoding accelerates LLM inference by retrieving draft tokens from a datastore. SENSE proposes semantic embedding navigation to efficiently locate high-quality draft candidates, combined with a soft-gated evaluation mechanism that dynamically adjusts acceptance thresholds based on context similarity.
+arXiv:2606.00091v1 Announce Type: new Abstract: Joint Embedding Predictive Architectures (JEPAs) have reshaped self-supervised representation learning in vision. The recent LLM-JEPA ported JEPA to autoregressive language models but inherited two steep costs from the causal-attention substrate: it demands explicit multi-view data (e.g., text-code pairs), and it requires two gradient-carrying forwar
 
 **核心要点**：
-- 用语义嵌入替代精确匹配进行 draft token 检索，大幅扩展候选空间质量
-- 软门控评估机制依据上下文相似度动态调整接受阈值，平衡速度与精度
-- 无需训练额外 draft 模型，直接利用现有文本语料库实现免训练推理加速
+- 00091v1 Announce Type: new Abstract: Joint Embedding Predictive Architectures (JEPAs) have reshaped self-supervised repr
+- The recent LLM-JEPA ported JEPA to autoregressive language models but inherited two steep costs from the causal-attentio
+- , text-code pairs), and it requires two gradient-carrying forward passes per step
 
 ---
+## 4. RAFT: Data Refinement and Adaptive Distillation for Domain Fine-Tuning with Alleviated Forgetting
 
-## 4. ART：基于注意力运行时提前终止的高效大模型解码
+**来源**：cs.LG  
+**链接**：https://arxiv.org/abs/2606.00147  
+**标签**：知识蒸馏 · 微调 · 模型训练 · 推理能力
 
-**来源**：arXiv cs.CL  
-**链接**：https://arxiv.org/abs/2606.00024  
-**标签**：注意力机制  · 长上下文  · 计算优化  · 早退出
-
-Long-context decoding in LLMs is severely constrained by quadratic attention complexity. ART proposes a run-time termination mechanism that monitors attention score distributions during forward passes and early-exits computation when confident predictions are achievable, reducing FLOPs for long-context generation without accuracy degradation.
+arXiv:2606.00147v1 Announce Type: new Abstract: Domain-specific supervised fine-tuning (SFT) often improves in-domain performance at the cost of degrading a model's general capabilities. We view this degradation through two practical gaps in domain SFT: a supervision-compatibility gap, where domain targets differ in style and reasoning format from the original model's natural responses, and a traj
 
 **核心要点**：
-- 运行时动态监测注意力分布熵值，在预测置信度充分时提前终止注意力计算
-- 无需模型重训练，作为即插即用模块集成到现有 Transformer 推理框架
-- 长上下文场景下 FLOPs 减少显著，对生成质量影响在可接受范围内
+- 00147v1 Announce Type: new Abstract: Domain-specific supervised fine-tuning (SFT) often improves in-domain performance a
+- We view this degradation through two practical gaps in domain SFT: a supervision-compatibility gap, where domain targets
+- This process fails to preserve the model's orig
 
 ---
+## 5. Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval
 
-## 5. SPARQLe：面向量化 LLM 推理的亚精度激活表示
+**来源**：cs.CL  
+**链接**：https://arxiv.org/abs/2606.00014  
+**标签**：推理加速 · LLM · RAG
 
-**来源**：arXiv cs.AR  
-**链接**：https://arxiv.org/abs/2606.00365  
-**标签**：量化推理  · 激活压缩  · 硬件加速  · INT4以下精度
-
-The rapid growth in LLM sizes results in high memory and compute demands. SPARQLe introduces sub-precision activation representation that leverages hardware-friendly data formats below INT8, reducing memory footprint and enabling faster matrix multiplications on modern accelerators while preserving inference accuracy.
+arXiv:2606.00014v1 Announce Type: new Abstract: Although studies have demonstrated that Large Language Models (LLMs) can perform well on Out-of-Distribution (OOD) tasks, their advantage tends to diminish as the distribution shift becomes more severe. Consequently, researchers aim to retrieve distributionally similar and informative demonstrations from the available source domain to boost the infer
 
 **核心要点**：
-- 提出亚精度激活表示方案，支持低于 INT8 的硬件友好数据格式
-- 针对矩阵乘法热点进行精度格式优化，在现代加速器上实现更高吞吐
-- 激活量化与权重量化协同设计，在极低比特率下维持可接受推理精度
+- 00014v1 Announce Type: new Abstract: Although studies have demonstrated that Large Language Models (LLMs) can perform we
+- Consequently, researchers aim to retrieve distributionally similar and informative demonstrations from the available sou
+- However, in practical scenarios where the target domain is inaccessible, evaluating the unknown distribution is challeng
 
 ---
+## 6. AEyeDE: An Attention-Based Attribution Framework for AI-Generated Text Detection
 
-## 6. Regular-Dead on Arrival：GPU 中死亡 TLB 条目缺失的分析与防护
+**来源**：cs.CL  
+**链接**：https://arxiv.org/abs/2606.00016  
+**标签**：Attention · Transformer · RAG
 
-**来源**：arXiv cs.AR  
-**链接**：https://arxiv.org/abs/2606.00486  
-**标签**：GPU架构  · TLB优化  · 内存管理  · 微架构
-
-GPU workloads with large memory footprints frequently suffer from redundant TLB misses caused by dead TLB entries—entries loaded but never reused before eviction. This paper characterizes this phenomenon across GPU applications and proposes microarchitectural mechanisms to predict and skip dead-entry loads, reducing TLB miss overhead.
+arXiv:2606.00016v1 Announce Type: new Abstract: Detecting AI-generated text is becoming increasingly challenging as modern language models approach human-level fluency and can evade detectors that rely on surface statistics or likelihood-based signals. We propose \textsc{AEyeDE}, an attribution-driven approach to human-AI authorship detection that leverages model attention as a discriminative sign
 
 **核心要点**：
-- 首次系统量化 GPU 工作负载中死亡 TLB 条目的比例及其对性能的影响
-- 提出预测机制识别不会被重用的 TLB 条目，在加载前主动跳过或替换
-- 适用于大内存占用的 LLM/AI 训练推理工作负载，减少地址转换延迟
+- 00016v1 Announce Type: new Abstract: Detecting AI-generated text is becoming increasingly challenging as modern language
+- We propose \textsc{AEyeDE}, an attribution-driven approach to human-AI authorship detection that leverages model attenti
+- Specifically, we extract attention-based attribution matrices for both human- and AI-generated text using a \emph{proxy}
 
 ---
+## 7. Model-Based Quality Assessment for Massively Multilingual Parallel Data
 
-## 7. TuneAgent：基于强化学习的智能 Linux 内核参数调优
+**来源**：cs.CL  
+**链接**：https://arxiv.org/abs/2606.00285  
+**标签**：并行训练 · Benchmark · Embedding
 
-**来源**：arXiv cs.OS  
-**链接**：https://arxiv.org/abs/2508.12551  
-**标签**：Linux内核  · 强化学习  · 系统调优  · 自动化运维
-
-Linux kernel tuning is essential for optimizing operating system performance but requires deep expertise. TuneAgent applies reinforcement learning with an agent framework to automate kernel parameter exploration, learning optimal configurations for different workloads without human intervention.
+arXiv:2606.00285v1 Announce Type: new Abstract: Large-scale multilingual bitext often contains two distinct problems: non-parallel sentence pairs and low-quality translations. We decompose model-based assessment for such data into two independent components: parallelism assessment with multilingual embeddings and reference-free quality estimation (QE). For parallelism, we benchmark four embedding 
 
 **核心要点**：
-- 构建 RL Agent 框架自动探索内核参数空间，无需专家知识即可找到最优配置
-- 采用在线学习策略适应不同工作负载特征，调优结果可迁移到相似应用场景
-- 在数据库、Web 服务、AI 推理等典型工作负载上验证，性能提升显著
+- 00285v1 Announce Type: new Abstract: Large-scale multilingual bitext often contains two distinct problems: non-parallel 
+- We decompose model-based assessment for such data into two independent components: parallelism assessment with multiling
+- For parallelism, we benchmark four embedding models on FLORES-200 and BOUQuET retrieval tasks, covering 6,654 source--ta
 
 ---
+
 
 ## 📊 今日速览
 
 | # | 标题摘要 | 来源 | 方向 |
 |---|---------|------|------|
-| 1 | BitsMoE：频谱能量引导的 MoE 大模型高效量化位... | arXiv cs.LG | 大模型量化 |
-| 2 | BudgetDraft：接受率感知的多视角训练稀疏 KV... | arXiv cs.LG | 推理加速 |
-| 3 | SENSE：基于语义嵌入导航与软门控评估的检索式推测解码 | arXiv cs.CL | 推理加速 |
-| 4 | ART：基于注意力运行时提前终止的高效大模型解码 | arXiv cs.CL | 推理加速 |
-| 5 | SPARQLe：面向量化 LLM 推理的亚精度激活表示 | arXiv cs.AR | 量化推理 / 硬件加速 |
-| 6 | Regular-Dead on Arrival：GPU ... | arXiv cs.AR | GPU架构优化 |
-| 7 | TuneAgent：基于强化学习的智能 Linux 内核... | arXiv cs.OS | OS内核 / 自动调优 |
+| 1 | OpenEye: A Scalable Open-Sourc... | cs.AR | 推理加速 |
+| 2 | CSRP: Chain-of-Thought Reasoni... | cs.CL | 大模型研究 |
+| 3 | DLLM-JEPA: Joint Embedding Pre... | cs.CL | 大模型研究 |
+| 4 | RAFT: Data Refinement and Adap... | cs.LG | 大模型研究 |
+| 5 | Toward Robust In-Context Learn... | cs.CL | 推理加速 |
+| 6 | AEyeDE: An Attention-Based Att... | cs.CL | 大模型研究 |
+| 7 | Model-Based Quality Assessment... | cs.CL | 大模型研究 |
 
 ---
 
 *自动生成 · 2026-06-03 · jeffinchen daily tech reading list*
+
