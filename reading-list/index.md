@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-03</time>
+    </div>
+    <h2>地缘政治冲击银行业・衰退预测新范式・AI算力碳中和之辩</h2>
+    <p>美联储研究地缘风险对银行股冲击，跨国衰退识别工具创新，实时企业数据高频预测，AI算力扩张与碳中和的真相</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ</span>
+      <span class="rl-tags">#货币政策 #宏观经济 #AI能源</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
