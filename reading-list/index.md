@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-03-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-03</time>
+    </div>
+    <h2>2026-06-03 每日技术速递 · cs.CL / cs.LG / cs.AR</h2>
+    <p>今日精选 7 篇，覆盖 cs.CL / cs.LG / cs.AR</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">cs.CL · cs.LG · cs.AR</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-03</time></div><h2>安迪的弹珠 / 贾尼娜猜想</h2><p>分数逆推法求弹珠总数；用代数恒等式证明连续三整数乘积加中间数恒等于中间数的立方</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥竞赛题</span><span class="rl-tags">五年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-03-finance-daily/">
   <div class="rl-accent"></div>
