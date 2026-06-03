@@ -225,13 +225,6 @@
     ]
   },
   "finance": {
-    "2026-05-03": [
-      "https://fredblog.stlouisfed.org/2026/04/how-markets-have-responded-to-military-action-against-iran/",
-      "https://fredblog.stlouisfed.org/2026/04/whats-happening-with-interest-rates-on-bank-accounts/",
-      "https://fredblog.stlouisfed.org/2026/04/from-net-oil-importer-to-net-oil-exporter/",
-      "https://fredblog.stlouisfed.org/2026/04/real-gdp-growth-by-state-annual-2025/",
-      "https://fredblog.stlouisfed.org/2026/04/early-signals-about-retail-sales/"
-    ],
     "2026-05-04": [
       "https://libertystreeteconomics.newyorkfed.org/2026/05/tracking-the-k-shaped-economy-whos-driving-spending/",
       "https://econbrowser.com/archives/2026/05/consumer-confidence-in-april",
@@ -433,6 +426,13 @@
       "https://arxiv.org/abs/2601.14150",
       "https://arxiv.org/abs/2509.13323",
       "https://arxiv.org/abs/2602.07486"
+    ],
+    "2026-06-03": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://arxiv.org/abs/2606.00948",
+      "https://arxiv.org/abs/2606.00989",
+      "https://arxiv.org/abs/2606.01307",
+      "https://arxiv.org/abs/2606.00811"
     ]
   }
 }
