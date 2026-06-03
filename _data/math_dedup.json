@@ -1,13 +1,5 @@
 {
   "sources": {
-    "2026-05-03": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_1",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_3"
-    ],
-    "2026-05-04": [
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest7_8.pdf",
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest7_8.pdf"
-    ],
     "2026-05-05": [
       "https://nrich.maths.org/5022",
       "https://nrich.maths.org/6228"
@@ -24,14 +16,6 @@
       "https://nrich.maths.org/6253",
       "https://nrich.maths.org/5765"
     ],
-    "2026-05-09": [
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2026/2025BCCContest5_6.html#Scoreboard",
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2026/2025BCCContest7_8.html#Inner_Tubes"
-    ],
-    "2026-05-10": [
-      "https://en.amcclub.org.cn/wp-content/uploads/2026/02/2022-AMC8.pdf#p14",
-      "https://en.amcclub.org.cn/wp-content/uploads/2026/02/2023-AMC8.pdf#p8"
-    ],
     "2026-05-11": [
       "https://nrich.maths.org/2903",
       "https://nrich.maths.org/4877"
@@ -47,14 +31,6 @@
     "2026-05-14": [
       "https://nrich.maths.org/6756",
       "https://nrich.maths.org/752"
-    ],
-    "2026-05-15": [
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2026/2025BCCContest5_6.html",
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2026/2025BCCContest7_8.html"
-    ],
-    "2026-05-16": [
-      "https://www.51test.net/show/10413661.html",
-      "https://www.51test.net/show/10413661.html#p2"
     ],
     "2026-05-17": [
       "https://nrich.maths.org/1396",
@@ -73,8 +49,8 @@
       "https://www.51test.net/show/10945353.html"
     ],
     "2026-05-23": [
-      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a-problems-and-answers.pdf#p5",
-      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a-problems-and-answers.pdf#p7"
+      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p5",
+      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p7"
     ],
     "2026-05-24": [
       "https://nrich.maths.org/2124",
@@ -115,6 +91,10 @@
     "2026-06-02": [
       "https://nrich.maths.org/6290",
       "https://nrich.maths.org/6267"
+    ],
+    "2026-06-03": [
+      "https://nrich.maths.org/2421",
+      "https://nrich.maths.org/584"
     ]
   }
 }
