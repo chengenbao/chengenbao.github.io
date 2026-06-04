@@ -234,13 +234,6 @@
     ]
   },
   "finance": {
-    "2026-05-04": [
-      "https://libertystreeteconomics.newyorkfed.org/2026/05/tracking-the-k-shaped-economy-whos-driving-spending/",
-      "https://econbrowser.com/archives/2026/05/consumer-confidence-in-april",
-      "https://econbrowser.com/archives/2026/05/gdp-personal-income-and-other-business-cycle-indicators-as-of-may-day",
-      "https://libertystreeteconomics.newyorkfed.org/2026/04/treasury-market-liquidity-since-april-2025/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/03/chinas-electric-trade/"
-    ],
     "2026-05-05": [
       "https://arxiv.org/abs/2603.22956",
       "https://arxiv.org/abs/2404.17227",
@@ -442,6 +435,12 @@
       "https://arxiv.org/abs/2606.00989",
       "https://arxiv.org/abs/2606.01307",
       "https://arxiv.org/abs/2606.00811"
+    ],
+    "2026-06-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://arxiv.org/abs/2510.12049",
+      "https://arxiv.org/abs/2606.03030"
     ]
   }
 }
