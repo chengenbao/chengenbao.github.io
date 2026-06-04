@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-04</time>
+    </div>
+    <h2>LLM Agent OS · 推理加速 · 扩散 LLM · 量化幻觉检测 · KV Cache 优化 · MX 格式</h2>
+    <p>本期精选 7 篇：Agent 运行时架构、潜空间自适应推理、扩散 LLM 加速、LoRA 知识复用、量化幻觉解码、KV Cache 分段管理与微缩放量化格式。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 推理加速 · 量化 · KV Cache</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
