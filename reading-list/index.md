@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-04</time>
+    </div>
+    <h2>中国出口冲击2.0 · 地缘政治风险 · AI生产力</h2>
+    <p>Fed FEDS Notes 与 arXiv 精选：中国出口新浪潮、银行股地缘政治敞口、AI赋能销售实证、LLM市场设计实验</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #地缘政治 #AI经济 #市场设计</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-04-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
