@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-05</time>
+    </div>
+    <h2>Transformer QKV 优化 · ML 浮点标准 · LLM 对齐新范式 · 分布式训练通信优化</h2>
+    <p>今日聚焦 Transformer 架构优化、ML 数值格式标准、LLM 自蒸馏对齐、DMA 通信重叠与 GPU 原生存储。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Transformer · LLM · 分布式训练 · GPU · 优化器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-04-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-04</time></div><h2>正方形外的等边三角形 / 神奇的倍数</h2><p>今日两题：几何角度与代数恒等式，初二初三适用</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · 几何 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-04-finance-daily/">
   <div class="rl-accent"></div>
