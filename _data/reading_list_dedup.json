@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-05-05": [
-      "https://arxiv.org/abs/2605.00011",
-      "https://arxiv.org/abs/2605.00064",
-      "https://arxiv.org/abs/2605.00199",
-      "https://arxiv.org/abs/2605.00226",
-      "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-      "https://huggingface.co/blog/ibm-granite/granite-4-1",
-      "https://huggingface.co/blog/deepseekv4"
-    ],
     "2026-05-06": [
       "https://arxiv.org/abs/2605.00837",
       "https://arxiv.org/abs/2605.01058",
@@ -231,6 +222,14 @@
       "https://arxiv.org/abs/2606.02628",
       "https://arxiv.org/abs/2606.02964",
       "https://arxiv.org/abs/2605.24391"
+    ],
+    "2026-06-05": [
+      "https://arxiv.org/abs/2606.04032",
+      "https://arxiv.org/abs/2606.04028",
+      "https://arxiv.org/abs/2606.04036",
+      "https://arxiv.org/abs/2512.10236",
+      "https://arxiv.org/abs/2606.04908",
+      "https://pytorch.org/blog/using-muon-optimizer-with-deepspeed/"
     ]
   },
   "finance": {
