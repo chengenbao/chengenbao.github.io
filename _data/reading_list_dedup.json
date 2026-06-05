@@ -233,13 +233,6 @@
     ]
   },
   "finance": {
-    "2026-05-05": [
-      "https://arxiv.org/abs/2603.22956",
-      "https://arxiv.org/abs/2404.17227",
-      "https://arxiv.org/abs/2605.00340",
-      "https://arxiv.org/abs/2604.24480",
-      "https://arxiv.org/abs/2510.15949"
-    ],
     "2026-05-06": [
       "https://arxiv.org/abs/2507.12848",
       "https://arxiv.org/abs/2605.01268",
@@ -440,6 +433,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
       "https://arxiv.org/abs/2510.12049",
       "https://arxiv.org/abs/2606.03030"
+    ],
+    "2026-06-05": [
+      "https://arxiv.org/abs/2606.04113",
+      "https://arxiv.org/abs/2606.04576",
+      "https://arxiv.org/abs/2606.00587",
+      "https://arxiv.org/abs/2606.02503",
+      "https://arxiv.org/abs/2601.02369"
     ]
   }
 }
