@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-05</time>
+    </div>
+    <h2>金融网络传染、VaR风险建模、比特币电力经济与数字支付监管</h2>
+    <p>从谱理论、量化风控到能源加密与监管经济，五维视角审视当代金融生态</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / econ.GN</span>
+      <span class="rl-tags">#金融网络 #风险管理 #加密货币 #劳动经济 #金融科技</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
