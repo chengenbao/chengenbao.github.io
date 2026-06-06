@@ -18,6 +18,8 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-06-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-06</time></div><h2>BNPL消费信贷 · 美墨供应链 · 中国出口冲击2.0</h2><p>Fed FEDS Notes精选：先买后付产品全景、关税绕道警示、地缘政治与银行股、稳定币监管启示</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes</span><span class="rl-tags">#贸易政策 #金融科技 #数字金融</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-06-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-05</time></div><h2>魔法温室的植物 / 猜袋中弹珠</h2><p>倍增规律逆向推算 + 概率抽样决策策略</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">NRICH · 四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-05-finance-daily/">
   <div class="rl-accent"></div>
