@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-06</time></div><h2>十乘十的神奇大树 / 平移直线的规律</h2><p>探索10的幂次运算与直线平移变换的代数规律</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">六年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-06-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
