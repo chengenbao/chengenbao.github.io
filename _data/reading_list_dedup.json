@@ -233,13 +233,6 @@
     ]
   },
   "finance": {
-    "2026-05-06": [
-      "https://arxiv.org/abs/2507.12848",
-      "https://arxiv.org/abs/2605.01268",
-      "https://arxiv.org/abs/2605.02598",
-      "https://arxiv.org/abs/2605.00841",
-      "https://arxiv.org/abs/2603.16893"
-    ],
     "2026-05-07": [
       "https://libertystreeteconomics.newyorkfed.org/2026/05/same-shock-different-roads-a-k-shaped-pattern-at-the-pump/",
       "https://libertystreeteconomics.newyorkfed.org/2026/05/in-what-ways-has-u-s-trade-with-china-changed/",
@@ -440,6 +433,13 @@
       "https://arxiv.org/abs/2606.00587",
       "https://arxiv.org/abs/2606.02503",
       "https://arxiv.org/abs/2601.02369"
+    ],
+    "2026-06-06": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html"
     ]
   }
 }
