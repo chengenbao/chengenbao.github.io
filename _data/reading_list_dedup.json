@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-05-06": [
-      "https://arxiv.org/abs/2605.00837",
-      "https://arxiv.org/abs/2605.01058",
-      "https://arxiv.org/abs/2605.01106",
-      "https://arxiv.org/abs/2605.01188",
-      "https://arxiv.org/abs/2603.11438",
-      "https://pytorch.org/blog/in-kernel-broadcast-optimization-co-designing-kernels-for-recsys-inference/",
-      "https://arxiv.org/abs/2511.06838"
-    ],
     "2026-05-08": [
       "https://arxiv.org/abs/2605.04084",
       "https://arxiv.org/abs/2604.14552",
@@ -230,6 +221,14 @@
       "https://arxiv.org/abs/2512.10236",
       "https://arxiv.org/abs/2606.04908",
       "https://pytorch.org/blog/using-muon-optimizer-with-deepspeed/"
+    ],
+    "2026-06-06": [
+      "https://arxiv.org/abs/2606.02964v1",
+      "https://arxiv.org/abs/2606.05495v1",
+      "https://arxiv.org/abs/2606.04581v1",
+      "https://arxiv.org/abs/2606.03014v1",
+      "https://arxiv.org/abs/2606.06473v1",
+      "https://arxiv.org/abs/2606.06467v1"
     ]
   },
   "finance": {
