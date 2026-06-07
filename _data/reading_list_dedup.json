@@ -232,12 +232,6 @@
     ]
   },
   "finance": {
-    "2026-05-07": [
-      "https://libertystreeteconomics.newyorkfed.org/2026/05/same-shock-different-roads-a-k-shaped-pattern-at-the-pump/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/05/in-what-ways-has-u-s-trade-with-china-changed/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/05/explaining-the-k-shaped-economy-whats-behind-the-divide/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/04/bank-failures-the-roles-of-solvency-and-liquidity/"
-    ],
     "2026-05-08": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html",
@@ -439,6 +433,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html"
+    ],
+    "2026-06-07": [
+      "https://www.economist.com/finance-and-economics/2026/06/05/how-hot-is-americas-labour-market",
+      "https://www.economist.com/finance-and-economics/2026/05/27/kevin-warshs-troublesome-inflation-in-tray",
+      "https://www.economist.com/finance-and-economics/2026/06/02/want-to-know-the-future-dont-trust-the-stockmarket",
+      "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-spacex-anthropic-and-openai",
+      "https://www.economist.com/finance-and-economics/2026/05/28/without-fanfare-china-is-making-rural-migrants-lives-easier"
     ]
   }
 }
