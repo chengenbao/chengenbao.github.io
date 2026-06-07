@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-07</time>
+    </div>
+    <h2>美联储政策博弈·资本市场扩容·新兴经济体转型</h2>
+    <p>美国劳动市场温热、Warsh新主席的通胀困局、股市预测力质疑、科技独角兽IPO压力测试与中国户籍改革</p>
+    <div class="rl-meta">
+      <span class="rl-source">The Economist</span>
+      <span class="rl-tags">#宏观 #美联储 #资本市场 #中国经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-06-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-06</time></div><h2>十乘十的神奇大树 / 平移直线的规律</h2><p>探索10的幂次运算与直线平移变换的代数规律</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">六年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-06-06-tech-daily/">
   <div class="rl-accent"></div>
