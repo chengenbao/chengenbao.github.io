@@ -1,22 +1,5 @@
 {
   "tech": {
-    "2026-05-08": [
-      "https://arxiv.org/abs/2605.04084",
-      "https://arxiv.org/abs/2604.14552",
-      "https://arxiv.org/abs/2605.04213",
-      "https://arxiv.org/abs/2605.05170",
-      "https://arxiv.org/abs/2605.04062",
-      "https://arxiv.org/abs/2605.04075"
-    ],
-    "2026-05-09": [
-      "http://arxiv.org/abs/2605.06665v1",
-      "http://arxiv.org/abs/2605.06654v1",
-      "http://arxiv.org/abs/2605.06663v1",
-      "http://arxiv.org/abs/2605.06638v1",
-      "http://arxiv.org/abs/2605.06597v1",
-      "https://arxiv.org/abs/2605.06376",
-      "https://arxiv.org/abs/2605.06416"
-    ],
     "2026-05-10": [
       "https://pytorch.org/blog/ibm-research-uses-vllm-at-the-heart-of-its-rits-platform/",
       "https://huggingface.co/blog/allenai/emo",
@@ -229,6 +212,14 @@
       "https://arxiv.org/abs/2606.03014v1",
       "https://arxiv.org/abs/2606.06473v1",
       "https://arxiv.org/abs/2606.06467v1"
+    ],
+    "2026-06-09": [
+      "https://arxiv.org/abs/2606.06510",
+      "https://arxiv.org/abs/2606.06527",
+      "https://arxiv.org/abs/2606.06574",
+      "https://arxiv.org/abs/2606.06697",
+      "https://arxiv.org/abs/2606.06745",
+      "https://arxiv.org/abs/2606.06564"
     ]
   },
   "finance": {
