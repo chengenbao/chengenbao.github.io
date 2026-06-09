@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-09</time>
+    </div>
+    <h2>FP8量化突破 · LLM动态推理 · GPU系统软件 · Transformer架构优化</h2>
+    <p>本期聚焦：FP8彻底替代FP64的可行性、LLM按需深度思考机制、GPU OS安全隔离，以及训练深层Transformer的残差路由新方法。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · GPU · Transformer</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-08</time></div><h2>三个正方形能叠出多少个？ / 布朗家有几个孩子？</h2><p>几何重叠计数 + 逻辑方程推理，四年级与六年级各一题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛数学题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-08-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-08</time></div><h2>美联储加息预期重燃，股债风险溢价消失</h2><p>高盛撤回降息预测、全球就业通胀强化加息押注、ERP归零、韩元汇率干预、咖啡价格新高</p><div class="rl-meta"><span class="rl-source">Bloomberg / WSJ</span><span class="rl-tags">#货币政策 #资产配置 #新兴市场</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-07</time></div><h2>末位数字之谜 / 纸币组合计数</h2><p>2023 AMC 10B 精选：数论末位数字 + 组合整数方程</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC</span></div></div></a>
