@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-09</time>
+    </div>
+    <h2>货币政策·消费信贷·供应链·AI经济·地缘风险</h2>
+    <p>Fed MSR压力测试 · BNPL监管全景 · 墨西哥供应链 · AI重塑知识工作 · 地缘风险量化</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ</span>
+      <span class="rl-tags">#货币政策 #消费信贷 #供应链 #AI经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
