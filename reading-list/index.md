@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-10</time>
+    </div>
+    <h2>区块链代币化·氢能经济·脱欧贸易·非洲土地</h2>
+    <p>涵盖 RWA 区块链代币化框架、绿色氢能供应链韧性规划、脱欧贸易空间经济分析及非洲土地收购政治经济学四大财经议题。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#区块链 #能源经济 #国际贸易 #发展经济学</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
