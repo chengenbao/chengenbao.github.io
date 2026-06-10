@@ -222,13 +222,6 @@
     ]
   },
   "finance": {
-    "2026-05-10": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html"
-    ],
     "2026-05-11": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
@@ -430,6 +423,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
       "https://arxiv.org/abs/2606.07489",
       "https://arxiv.org/abs/2606.07049"
+    ],
+    "2026-06-10": [
+      "https://arxiv.org/abs/2606.08534",
+      "https://arxiv.org/abs/2606.09190",
+      "https://arxiv.org/abs/2606.09472",
+      "https://arxiv.org/abs/2606.09642"
     ]
   }
 }
