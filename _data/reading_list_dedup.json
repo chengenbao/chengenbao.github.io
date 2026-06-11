@@ -222,13 +222,6 @@
     ]
   },
   "finance": {
-    "2026-05-11": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html"
-    ],
     "2026-05-12": [
       "https://arxiv.org/abs/2110.13814",
       "https://arxiv.org/abs/2212.07384",
@@ -429,6 +422,13 @@
       "https://arxiv.org/abs/2606.09190",
       "https://arxiv.org/abs/2606.09472",
       "https://arxiv.org/abs/2606.09642"
+    ],
+    "2026-06-11": [
+      "https://fredblog.stlouisfed.org/2026/06/understanding-the-various-us-debt-to-gdp-ratios/",
+      "https://fredblog.stlouisfed.org/2026/06/why-exclude-food-and-energy-from-inflation-measures/",
+      "https://fredblog.stlouisfed.org/2026/06/rising-capital-expenditures-and-declining-cash-holdings-during-the-ai-boom/",
+      "https://fredblog.stlouisfed.org/2026/06/velocity-of-money-the-invisible-pulse-of-the-economy/",
+      "https://arxiv.org/abs/2606.11047"
     ]
   }
 }
