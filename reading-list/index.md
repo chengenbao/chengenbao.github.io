@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-11</time>
+    </div>
+    <h2>债务、通胀、AI资本与货币流通</h2>
+    <p>美国债务/GDP比率解读 · 核心PCE通胀逻辑 · AI热潮资本支出 · 货币流通速度美印比较</p>
+    <div class="rl-meta">
+      <span class="rl-source">St. Louis Fed / arXiv econ.EM</span>
+      <span class="rl-tags">#宏观经济 #货币政策 #AI经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
