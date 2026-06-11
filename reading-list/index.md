@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-11</time>
+    </div>
+    <h2>LLM 对齐机制 · KV Cache 量化 · 时序基础模型 · RTL 代码生成 · 边缘推理加</h2>
+    <p>从对齐算法机制分析到 KV Cache 量化崩溃，从通用时序分词器到 RTL 自动生成，今日精选 6 篇前沿研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">大模型 · 量化 · 对齐 · 硬件加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-10</time></div><h2>整数列表的范围 / 数列乘积问题</h2><p>2023 AMC 8 真题：统计量约束与乘法递推数列</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 初三</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-10-finance-daily/">
   <div class="rl-accent"></div>
