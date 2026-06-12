@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-12": [
-      "https://nrich.maths.org/1097",
-      "https://nrich.maths.org/2007"
-    ],
     "2026-05-13": [
       "https://nrich.maths.org/1117",
       "https://nrich.maths.org/2016"
@@ -107,6 +103,10 @@
     "2026-06-11": [
       "github:mlian031/mathcontests/AMC/2016/10A/1",
       "github:mlian031/mathcontests/AMC/2017/10A/1"
+    ],
+    "2026-06-12": [
+      "https://wiki.randommath.com/amc8/2019/problem-12",
+      "https://wiki.randommath.com/amc8/2019/problem-15"
     ]
   }
 }
