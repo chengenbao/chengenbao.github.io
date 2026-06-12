@@ -222,12 +222,6 @@
     ]
   },
   "finance": {
-    "2026-05-12": [
-      "https://arxiv.org/abs/2110.13814",
-      "https://arxiv.org/abs/2212.07384",
-      "https://arxiv.org/abs/2511.06545",
-      "https://arxiv.org/abs/2601.18991"
-    ],
     "2026-05-13": [
       "https://arxiv.org/abs/2605.08788",
       "https://arxiv.org/abs/2605.10291",
@@ -429,6 +423,13 @@
       "https://fredblog.stlouisfed.org/2026/06/rising-capital-expenditures-and-declining-cash-holdings-during-the-ai-boom/",
       "https://fredblog.stlouisfed.org/2026/06/velocity-of-money-the-invisible-pulse-of-the-economy/",
       "https://arxiv.org/abs/2606.11047"
+    ],
+    "2026-06-12": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
+      "https://arxiv.org/abs/2606.11566"
     ]
   }
 }
