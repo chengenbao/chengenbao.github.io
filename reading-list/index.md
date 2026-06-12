@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-12</time></div><h2>通胀机制·稳定币·劳动力供给·信贷传导</h2><p>后疫情通胀结构变化 · 支付稳定币与货币政策 · 美国劳动力供给与潜在GDP · 美巴信贷传导跨国比较</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes · arXiv econ</span><span class="rl-tags">#通胀 #稳定币 #劳动力市场 #信贷传导</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-11</time></div><h2>阶乘的规律 / 层层展开的计算</h2><p>阶乘提取公因子 / 嵌套运算从内到外展开，两道 AMC 10A 经典题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">阶乘 · 嵌套运算 · 四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-11-finance-daily/">
   <div class="rl-accent"></div>
