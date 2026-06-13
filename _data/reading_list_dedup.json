@@ -1,23 +1,5 @@
 {
   "tech": {
-    "2026-05-12": [
-      "https://arxiv.org/abs/2605.06675",
-      "https://arxiv.org/abs/2605.06676",
-      "https://arxiv.org/abs/2605.06683",
-      "https://arxiv.org/abs/2605.06733",
-      "https://arxiv.org/abs/2605.06878",
-      "https://arxiv.org/abs/2605.07245",
-      "https://arxiv.org/abs/2605.06680"
-    ],
-    "2026-05-13": [
-      "https://arxiv.org/abs/2605.08114",
-      "https://arxiv.org/abs/2605.08134",
-      "https://arxiv.org/abs/2605.08504",
-      "https://arxiv.org/abs/2605.08615",
-      "https://arxiv.org/abs/2605.09375",
-      "https://arxiv.org/abs/2605.09735",
-      "https://arxiv.org/abs/2605.10905"
-    ],
     "2026-05-14": [
       "https://arxiv.org/abs/2605.11277",
       "https://arxiv.org/abs/2605.11005",
@@ -219,6 +201,15 @@
       "https://arxiv.org/abs/2606.09867",
       "https://arxiv.org/abs/2606.09946",
       "https://arxiv.org/abs/2602.22352"
+    ],
+    "2026-06-13": [
+      "https://arxiv.org/abs/2606.13328",
+      "https://arxiv.org/abs/2512.00053",
+      "https://arxiv.org/abs/2606.12765",
+      "https://arxiv.org/abs/2606.11262",
+      "https://arxiv.org/abs/2606.11275",
+      "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
+      "https://huggingface.co/blog/torch-mlp-fusion"
     ]
   },
   "finance": {
