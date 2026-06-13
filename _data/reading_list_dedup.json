@@ -213,13 +213,6 @@
     ]
   },
   "finance": {
-    "2026-05-13": [
-      "https://arxiv.org/abs/2605.08788",
-      "https://arxiv.org/abs/2605.10291",
-      "https://arxiv.org/abs/2605.08782",
-      "https://arxiv.org/abs/2605.09145",
-      "https://arxiv.org/abs/2605.09740"
-    ],
     "2026-05-14": [
       "https://arxiv.org/abs/2605.11180",
       "https://arxiv.org/abs/2409.17035",
@@ -421,6 +414,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
       "https://arxiv.org/abs/2606.11566"
+    ],
+    "2026-06-13": [
+      "https://arxiv.org/abs/2606.12460",
+      "https://arxiv.org/abs/2606.12788",
+      "https://arxiv.org/abs/2606.12612",
+      "https://arxiv.org/abs/2606.13431"
     ]
   }
 }
