@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-13</time>
+    </div>
+    <h2>INT8量化 · 张量核心 · Metal GPU逆向 · LoRA适配器 · RoPE改进 · vLLM推理</h2>
+    <p>7篇精选：INT8硬件范式挑战、开源Tensor Core、Apple M4 GPU逆向、LoRA干扰分析、RoVE位置编码、Helion vLLM移植、MLP融合优化</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 张量核心 · 推理加速 · LoRA · RoPE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-12</time></div><h2>通胀机制·稳定币·劳动力供给·信贷传导</h2><p>后疫情通胀结构变化 · 支付稳定币与货币政策 · 美国劳动力供给与潜在GDP · 美巴信贷传导跨国比较</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes · arXiv econ</span><span class="rl-tags">#通胀 #稳定币 #劳动力市场 #信贷传导</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-11</time></div><h2>阶乘的规律 / 层层展开的计算</h2><p>阶乘提取公因子 / 嵌套运算从内到外展开，两道 AMC 10A 经典题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">阶乘 · 嵌套运算 · 四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-11-finance-daily/">
