@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-13</time></div><h2>掷骰子乘积概率 / 末四位数字的数论</h2><p>初二：两骰子乘积最可能是几？初三：2013×n末四位为2025，n最小值的数字和</p><div class="rl-meta"><span class="rl-source">CEMC Gauss 竞赛真题</span><span class="rl-tags">#概率 #数论 #CEMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-13-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
