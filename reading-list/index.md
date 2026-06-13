@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-13</time>
+    </div>
+    <h2>主权债务·碳关税·量化策略·航运韧性</h2>
+    <p>拉美主权风险雪崩效应、欧盟CBAM数据困境、HRP组合优化解析、航运绕道韧性评估</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#主权债务 #碳关税 #量化金融 #供应链</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
