@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-13": [
-      "https://nrich.maths.org/1117",
-      "https://nrich.maths.org/2016"
-    ],
     "2026-05-14": [
       "https://nrich.maths.org/6756",
       "https://nrich.maths.org/752"
@@ -107,6 +103,9 @@
     "2026-06-12": [
       "https://wiki.randommath.com/amc8/2019/problem-12",
       "https://wiki.randommath.com/amc8/2019/problem-15"
+    ],
+    "2026-06-13": [
+      "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2025Gauss8Contest.html"
     ]
   }
 }
