@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-14</time>
+    </div>
+    <h2>关税冲击 · 数字货币 · 影子银行 · 通胀预期 · 金融自由化</h2>
+    <p>美联储最新研究：2025关税压缩家庭消费、CBDC潜藏挤兑风险、影子银行威胁金融稳定</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Working Papers</span>
+      <span class="rl-tags">#关税 #CBDC #影子银行 #通胀预期</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
