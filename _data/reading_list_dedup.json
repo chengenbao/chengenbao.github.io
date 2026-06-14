@@ -213,12 +213,6 @@
     ]
   },
   "finance": {
-    "2026-05-14": [
-      "https://arxiv.org/abs/2605.11180",
-      "https://arxiv.org/abs/2409.17035",
-      "https://arxiv.org/abs/2509.06697",
-      "https://arxiv.org/abs/2510.14285"
-    ],
     "2026-05-15": [
       "https://arxiv.org/abs/2605.13679",
       "https://arxiv.org/abs/2602.21971",
@@ -420,6 +414,13 @@
       "https://arxiv.org/abs/2606.12788",
       "https://arxiv.org/abs/2606.12612",
       "https://arxiv.org/abs/2606.13431"
+    ],
+    "2026-06-14": [
+      "https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm",
+      "https://www.federalreserve.gov/econres/feds/the-fragility-of-perfectly-safe-digital-money.htm",
+      "https://www.federalreserve.gov/econres/feds/bank-regulation-and-the-rise-of-nonbank-intermediation.htm",
+      "https://www.federalreserve.gov/econres/feds/the-role-of-inflation-perceptions-in-consumer-inflation-expectations-evidence-from-the-euro-area.htm",
+      "https://www.federalreserve.gov/econres/feds/financial-liberalizations-booms-and-crashes.htm"
     ]
   }
 }
