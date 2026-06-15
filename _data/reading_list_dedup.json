@@ -1,12 +1,5 @@
 {
   "tech": {
-    "2026-05-15": [
-      "https://arxiv.org/abs/2605.12652",
-      "https://arxiv.org/abs/2605.11167",
-      "https://huggingface.co/blog/continuous_async",
-      "https://arxiv.org/abs/2605.12959",
-      "https://arxiv.org/abs/2605.13210"
-    ],
     "2026-05-16": [
       "https://arxiv.org/abs/2605.14005",
       "https://arxiv.org/abs/2605.14929",
@@ -210,6 +203,15 @@
       "https://huggingface.co/blog/openenv-agentic-rl",
       "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
       "https://huggingface.co/blog/JetBrains/mellum2-launch"
+    ],
+    "2026-06-15": [
+      "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
+      "https://pytorch.org/blog/using-muon-optimizer-with-deepspeed/",
+      "https://pytorch.org/blog/why-is-pytorch-compile-so-fast-kernel-fusion/",
+      "https://pytorch.org/blog/how-linkedin-uses-pytorch-to-solve-extreme-scale-optimization-problems/",
+      "https://arxiv.org/abs/2606.13328v1",
+      "https://arxiv.org/abs/2606.13560v1",
+      "https://arxiv.org/abs/2606.14528v1"
     ]
   },
   "finance": {
