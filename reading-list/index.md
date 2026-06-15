@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-15</time>
+    </div>
+    <h2>推理加速 · 编译器优化 · 分布式训练 · 低比特硬件 · 全双工语音</h2>
+    <p>vLLM Helion 推理内核、PyTorch Compile 内核融合原理、Muon+DeepSpeed 训练加速、INT8无训练推理框架等7篇深度技术文章</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / arXiv</span>
+      <span class="rl-tags">推理加速 · 编译器 · 分布式训练 · 量化 · SNN</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-14</time></div><h2>对角线追踪 / 直角三角形计数</h2><p>五边形对角线一笔画 · 图中直角三角形计数，考察欧拉路径与分类讨论</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥真题</span><span class="rl-tags">#四年级 #六年级 #NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-14-finance-daily/">
   <div class="rl-accent"></div>
