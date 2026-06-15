@@ -215,12 +215,6 @@
     ]
   },
   "finance": {
-    "2026-05-15": [
-      "https://arxiv.org/abs/2605.13679",
-      "https://arxiv.org/abs/2602.21971",
-      "https://arxiv.org/abs/2605.12547",
-      "https://arxiv.org/abs/2605.13320"
-    ],
     "2026-05-16": [
       "https://arxiv.org/abs/2605.14575",
       "https://arxiv.org/abs/2605.15092",
@@ -423,6 +417,12 @@
       "https://www.federalreserve.gov/econres/feds/bank-regulation-and-the-rise-of-nonbank-intermediation.htm",
       "https://www.federalreserve.gov/econres/feds/the-role-of-inflation-perceptions-in-consumer-inflation-expectations-evidence-from-the-euro-area.htm",
       "https://www.federalreserve.gov/econres/feds/financial-liberalizations-booms-and-crashes.htm"
+    ],
+    "2026-06-15": [
+      "https://www.federalreserve.gov/econres/feds/settlement-speed-and-financial-stability.htm",
+      "https://www.federalreserve.gov/econres/feds/household-consumption-does-not-respond-directly-to-interest-rates.htm",
+      "https://www.federalreserve.gov/econres/feds/double-inertia-taylor-rules-and-monetary-policy-gradualism.htm",
+      "https://www.federalreserve.gov/econres/feds/skill-and-efficiency-in-the-us-mutual-fund-industry.htm"
     ]
   }
 }
