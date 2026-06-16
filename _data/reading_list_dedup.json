@@ -215,13 +215,6 @@
     ]
   },
   "finance": {
-    "2026-05-16": [
-      "https://arxiv.org/abs/2605.14575",
-      "https://arxiv.org/abs/2605.15092",
-      "https://arxiv.org/abs/2605.14493",
-      "https://arxiv.org/abs/2605.14019",
-      "https://arxiv.org/abs/2605.13866"
-    ],
     "2026-05-17": [
       "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
       "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
@@ -423,6 +416,13 @@
       "https://www.federalreserve.gov/econres/feds/household-consumption-does-not-respond-directly-to-interest-rates.htm",
       "https://www.federalreserve.gov/econres/feds/double-inertia-taylor-rules-and-monetary-policy-gradualism.htm",
       "https://www.federalreserve.gov/econres/feds/skill-and-efficiency-in-the-us-mutual-fund-industry.htm"
+    ],
+    "2026-06-16": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://arxiv.org/abs/2606.14331",
+      "https://arxiv.org/abs/2509.06697"
     ]
   }
 }
