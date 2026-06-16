@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-16</time>
+    </div>
+    <h2>BNPL监管·供应链重组·地缘政治与银行股·财富不平等新视角</h2>
+    <p>美联储深度研究 × arXiv经济学前沿，覆盖消费金融、贸易政策、金融稳定与可持续经济</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv Econ</span>
+      <span class="rl-tags">#宏观 #BNPL #供应链 #地缘政治</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
