@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-16": [
-      "https://arxiv.org/abs/2605.14005",
-      "https://arxiv.org/abs/2605.14929",
-      "https://arxiv.org/abs/2605.15026",
-      "https://pytorch.org/blog/efficient-edge-ai-on-arm-cpus-and-npus/",
-      "https://arxiv.org/abs/2605.14037",
-      "https://arxiv.org/abs/2605.08913"
-    ],
     "2026-05-17": [
       "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
@@ -212,6 +204,14 @@
       "https://arxiv.org/abs/2606.13328v1",
       "https://arxiv.org/abs/2606.13560v1",
       "https://arxiv.org/abs/2606.14528v1"
+    ],
+    "2026-06-16": [
+      "https://arxiv.org/abs/2606.13740",
+      "https://arxiv.org/abs/2606.13873",
+      "https://arxiv.org/abs/2606.13940",
+      "https://arxiv.org/abs/2606.14243",
+      "https://arxiv.org/abs/2606.11716",
+      "https://arxiv.org/abs/2606.13808"
     ]
   },
   "finance": {
