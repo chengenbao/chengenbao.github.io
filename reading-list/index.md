@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-16</time>
+    </div>
+    <h2>LLM推理优化 · 模型加速 · 系统级AI研究（2026-06-16）</h2>
+    <p>精选 6 篇最新技术论文，覆盖 cs.AR / cs.LG / cs.CL</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM GPU INFERENCE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-15</time></div><h2>质因数分解 / 冰淇淋与圣代</h2><p>385的质因数之和 + 冰淇淋资源分配最优策略</p><div class="rl-meta"><span class="rl-source">CEMC Gauss 竞赛真题</span><span class="rl-tags">五年级 · 初一 · CEMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-15-finance-daily/">
   <div class="rl-accent"></div>
