@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-17</time>
+    </div>
+    <h2>MoE架构突破 · KV缓存压缩 · TPU五代演进</h2>
+    <p>从 Nemotron 550B MoE 到 Google TPU 五代超算，今日精选 7 篇覆盖大模型架构、推理加速与硬件系统的前沿研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · KV Cache · TPU · 推理优化 · 模型压缩</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-16</time></div><h2>完全平方数的个位数 / 相似矩形与面积</h2><p>完全平方数与相似矩形，数论几何双剑合璧</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-16-finance-daily/">
   <div class="rl-accent"></div>
