@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-17</time>
+    </div>
+    <h2>AI经济学·科技地缘政治·绿色转型</h2>
+    <p>AI自动化重塑劳动力市场、中美科技竞争反向效应、信息博弈论与能源临界点</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.TH</span>
+      <span class="rl-tags">#AI经济学 #地缘政治 #绿色转型</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
