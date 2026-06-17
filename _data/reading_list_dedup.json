@@ -216,13 +216,6 @@
     ]
   },
   "finance": {
-    "2026-05-17": [
-      "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
-      "https://www.federalreserve.gov/econres/ifdp/the-design-and-effect-of-tariff-retaliation-evidence-from-the-european-union.htm",
-      "https://www.federalreserve.gov/econres/ifdp/risk-in-a-data-rich-model.htm",
-      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects-a-large-language-model-approach.htm",
-      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity-dynamics.htm"
-    ],
     "2026-05-18": [
       "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
       "https://www.bloomberg.com/news/articles/2026-05-18/yardeni-urges-fed-to-drop-easing-bias-or-lose-control-of-rates",
@@ -424,6 +417,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
       "https://arxiv.org/abs/2606.14331",
       "https://arxiv.org/abs/2509.06697"
+    ],
+    "2026-06-17": [
+      "https://arxiv.org/abs/2606.15960",
+      "https://arxiv.org/abs/2606.15999",
+      "https://arxiv.org/abs/2606.15936",
+      "https://arxiv.org/abs/2606.16469",
+      "https://arxiv.org/abs/2606.15757"
     ]
   }
 }
