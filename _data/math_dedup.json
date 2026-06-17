@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-17": [
-      "https://nrich.maths.org/1396",
-      "https://nrich.maths.org/6263"
-    ],
     "2026-05-18": [
       "https://nrich.maths.org/630",
       "https://nrich.maths.org/96"
@@ -114,6 +110,10 @@
     "2026-06-16": [
       "https://wiki.randommath.com/amc10/2024/part-a/problem-15",
       "https://wiki.randommath.com/amc10/2024/part-a/problem-16"
+    ],
+    "2026-06-17": [
+      "https://math.stackexchange.com/questions/379927/if-it-took-10-minutes-to-saw-a-board-into-2-pieces-how-long-will-it-take-to-saw",
+      "https://math.stackexchange.com/questions/2776158/is-the-blue-area-greater-than-the-red-area"
     ]
   }
 }
