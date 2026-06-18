@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-18</time>
+    </div>
+    <h2>关税与供应链 · 地缘政治与银行 · 先买后付监管 · 气候监管博弈 · 财富热力学</h2>
+    <p>关税与供应链重塑 · 银行地缘风险 · BNPL先买后付 · 气候监管博弈 · 财富热力学</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ</span>
+      <span class="rl-tags">#宏观 #金融市场 #消费金融 #监管 #财富分配</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-18-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
