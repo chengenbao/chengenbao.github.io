@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-18</time></div><h2>鸡兔同笼变形 / 字母加法密码</h2><p>鸡兔同笼经典变形：农场里有8个头22只脚，方程与枚举双解法。初一密码算术：SEND+MORE=MONEY，逻辑推理进位分析。</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥数学竞赛</span><span class="rl-tags">六年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-18-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
