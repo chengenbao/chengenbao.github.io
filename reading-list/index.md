@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-18-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-18</time>
+    </div>
+    <h2>MoE量化、推理加速与边缘部署：大模型效率前沿六篇</h2>
+    <p>覆盖MoE混合精度量化、AI加速器评测、边缘实时推理、Transformer算子加速、解耦推理调度与LLM蒸馏六大方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · 分布式 · 边缘部署 · 蒸馏</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-17</time></div><h2>锯木板的陷阱 / 旋转正方形的蓝红面积</h2><p>锯木板需要几刀？旋转正方形面积不变的奥秘</p><div class="rl-meta"><span class="rl-source">Math StackExchange</span><span class="rl-tags">四年级 · 五年级 · 算术 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-17-finance-daily/">
   <div class="rl-accent"></div>
