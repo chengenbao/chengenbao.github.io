@@ -224,13 +224,6 @@
     ]
   },
   "finance": {
-    "2026-05-18": [
-      "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
-      "https://www.bloomberg.com/news/articles/2026-05-18/yardeni-urges-fed-to-drop-easing-bias-or-lose-control-of-rates",
-      "https://www.bloomberg.com/news/articles/2026-05-18/grains-jump-after-us-says-china-to-buy-billions-in-farm-goods",
-      "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
-      "https://www.bloomberg.com/news/articles/2026-05-17/australia-orders-chinese-investors-to-sell-stakes-in-mining-firm"
-    ],
     "2026-05-19": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html",
@@ -432,6 +425,13 @@
       "https://arxiv.org/abs/2606.15936",
       "https://arxiv.org/abs/2606.16469",
       "https://arxiv.org/abs/2606.15757"
+    ],
+    "2026-06-18": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "https://arxiv.org/abs/2606.17290",
+      "https://arxiv.org/abs/2606.17965"
     ]
   }
 }
