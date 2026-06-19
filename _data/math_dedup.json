@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-19": [
-      "https://live.poshenloh.com/past-contests/amc8/2019/3",
-      "https://live.poshenloh.com/past-contests/amc8/2019/15"
-    ],
     "2026-05-22": [
       "https://www.51test.net/show/10413661.html",
       "https://www.51test.net/show/10945353.html"
@@ -114,6 +110,10 @@
     "2026-06-18": [
       "https://nrich.maths.org/924",
       "https://nrich.maths.org/1023"
+    ],
+    "2026-06-19": [
+      "https://arxiv.org/abs/2606.19473",
+      "https://arxiv.org/abs/2606.19500"
     ]
   }
 }
