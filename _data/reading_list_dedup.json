@@ -223,13 +223,6 @@
     ]
   },
   "finance": {
-    "2026-05-19": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html"
-    ],
     "2026-05-20": [
       "https://arxiv.org/abs/2605.16334",
       "https://arxiv.org/abs/2605.16808",
@@ -431,6 +424,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
       "https://arxiv.org/abs/2606.17290",
       "https://arxiv.org/abs/2606.17965"
+    ],
+    "2026-06-19": [
+      "https://arxiv.org/abs/2606.18994",
+      "https://arxiv.org/abs/2606.18288",
+      "https://arxiv.org/abs/2606.18684",
+      "https://arxiv.org/abs/2606.19000"
     ]
   }
 }
