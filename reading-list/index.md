@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-06-19</time>
     </div>
+    <h2>代码LLM训练优化 · SFT数据精炼 · SAE安全 · OS仿真 · 硬件内存安全 · PEFT微调</h2>
+    <p>6篇精选：CODEBLOCK块级代码监督、DRIFT数据归因、SAE安全漏洞、LiveStack全栈仿真、CHERI-D内存安全、LoRA对比研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">LLM · SFT · 可解释性 · 体系结构 · PEFT</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-06-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-19</time>
+    </div>
     <h2>LLM 推理加速 · 高效注意力 · MoE 压缩 · GPU Kernel 优化</h2>
     <p>今日 6 篇：JetFlow 投机解码、高斯混合注意力、MoE 剪枝、LLM Kernel 调优、KV Cache 双维度、GPU 内存安全</p>
     <div class="rl-meta">
