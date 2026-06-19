@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-05-19": [
-      "https://arxiv.org/abs/2605.15208",
-      "https://arxiv.org/abs/2605.15250",
-      "https://arxiv.org/abs/2605.15609",
-      "https://arxiv.org/abs/2605.15290",
-      "https://arxiv.org/abs/2605.15529",
-      "https://arxiv.org/abs/2605.16161",
-      "https://pytorch.org/blog/vllm-and-pytorch-work-together-to-improve-the-developer-experience-on-aarch64/"
-    ],
     "2026-05-21": [
       "https://arxiv.org/abs/2605.18795",
       "https://arxiv.org/abs/2605.18800",
@@ -221,6 +212,14 @@
       "https://arxiv.org/abs/2606.17781",
       "https://arxiv.org/abs/2606.17081",
       "https://arxiv.org/abs/2606.17199"
+    ],
+    "2026-06-19": [
+      "https://arxiv.org/abs/2606.18394",
+      "https://arxiv.org/abs/2606.18283",
+      "https://arxiv.org/abs/2606.18304",
+      "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
+      "https://arxiv.org/abs/2606.18587",
+      "https://arxiv.org/abs/2606.18400"
     ]
   },
   "finance": {
