@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-19</time></div><h2>图论探秘：树分解与顶点割 / 组合趣题：多重集排列中的循环</h2><p>从图论树分解到多重集排列，探索竞赛数学核心思想</p><div class="rl-meta"><span class="rl-source">arXiv 数学竞赛真题</span><span class="rl-tags">AMC · 初中数学 · 图论 · 组合数学</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-19-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
