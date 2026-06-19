@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-19</time>
+    </div>
+    <h2>气候政策能源转型·资本知识理论·企业出口模式·中性利率追踪</h2>
+    <p>宏观气候政策建模、AI时代资本理论重构、贸易微观结构分析与货币政策利率跟踪</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#气候政策 #能源转型 #国际贸易 #出口模式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
