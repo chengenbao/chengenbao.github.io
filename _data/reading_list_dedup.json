@@ -231,13 +231,6 @@
     ]
   },
   "finance": {
-    "2026-05-20": [
-      "https://arxiv.org/abs/2605.16334",
-      "https://arxiv.org/abs/2605.16808",
-      "https://arxiv.org/abs/2605.17086",
-      "https://arxiv.org/abs/2506.23230",
-      "https://arxiv.org/abs/2605.16862"
-    ],
     "2026-05-21": [
       "https://arxiv.org/abs/2605.18935",
       "https://arxiv.org/abs/2605.18784",
@@ -438,6 +431,12 @@
       "https://arxiv.org/abs/2606.18288",
       "https://arxiv.org/abs/2606.18684",
       "https://arxiv.org/abs/2606.19000"
+    ],
+    "2026-06-20": [
+      "https://arxiv.org/abs/2606.19794",
+      "https://arxiv.org/abs/2606.19777",
+      "https://arxiv.org/abs/2606.20041",
+      "https://arxiv.org/abs/2606.19972"
     ]
   }
 }
