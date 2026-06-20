@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-20</time>
+    </div>
+    <h2>AI经济影响与ESG投资新趋势</h2>
+    <p>聚焦AI对宏观经济生产率的深层影响、数据中心能源成本外溢、AI经济学分析框架及ESG投资情绪传导</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#AI经济 #能源 #ESG #计量模型</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
