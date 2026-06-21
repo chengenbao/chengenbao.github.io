@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-21</time>
+    </div>
+    <h2>债务利率因果效应 · 美联储沟通艺术 · 贸易融资 · 货币市场基金</h2>
+    <p>美联储研究：财政债务扩张对利率正向影响，FOMC沟通策略，银行贸易融资格局，货币市场基金流动性风险</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS / FEDS Notes</span>
+      <span class="rl-tags">#财政债务 #央行沟通 #贸易融资 #货币市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
