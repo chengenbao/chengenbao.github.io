@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-21</time>
+    </div>
+    <h2>LLM 评估偏差传播 · GPU 安全防护 · 集群仿真 · 强化学习优化 · 边缘AI加速</h2>
+    <p>今日精选：LLM 多智能体偏差传播、GPU 内存混淆防御模型窃取、OS 集群全栈仿真、DAE 强化学习算法、边缘 AI 推理能效优化等 7 篇前沿论文。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / cs.LG / cs.OS / cs.AR / cs.CL</span>
+      <span class="rl-tags">LLM · GPU安全 · 强化学习 · 边缘AI · 连续学习</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-20</time></div><h2>骑行时间问题 / 旋转追及问题</h2><p>速度路程逆推 × 圆周追及——两道来自英国 NRICH 的经典题目</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-20-finance-daily/">
   <div class="rl-accent"></div>
