@@ -1,16 +1,5 @@
 {
   "tech": {
-    "2026-05-21": [
-      "https://arxiv.org/abs/2605.18795",
-      "https://arxiv.org/abs/2605.18800",
-      "https://arxiv.org/abs/2605.18810",
-      "https://arxiv.org/abs/2605.18815",
-      "https://arxiv.org/abs/2605.18822",
-      "https://arxiv.org/abs/2605.19481",
-      "https://arxiv.org/abs/2605.19893",
-      "https://arxiv.org/abs/2508.06526",
-      "https://pytorch.org/blog/running-pytorch-models-on-apple-silicon-gpus-with-the-executorch-mlx-delegate/"
-    ],
     "2026-05-22": [
       "https://arxiv.org/abs/2605.20315",
       "https://arxiv.org/abs/2605.20199",
@@ -228,6 +217,15 @@
       "https://arxiv.org/abs/2606.19348",
       "https://arxiv.org/abs/2305.04122",
       "https://arxiv.org/abs/2606.19364"
+    ],
+    "2026-06-21": [
+      "https://arxiv.org/abs/2606.20493",
+      "https://arxiv.org/abs/2606.18400",
+      "https://arxiv.org/abs/2606.18958",
+      "https://arxiv.org/abs/2606.20411",
+      "https://arxiv.org/abs/2606.20431",
+      "https://arxiv.org/abs/2606.19913",
+      "https://arxiv.org/abs/2606.19857"
     ]
   },
   "finance": {
