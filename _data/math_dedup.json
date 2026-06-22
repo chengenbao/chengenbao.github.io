@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-22": [
-      "https://www.51test.net/show/10413661.html",
-      "https://www.51test.net/show/10945353.html"
-    ],
     "2026-05-23": [
       "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p5",
       "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p7"
@@ -122,6 +118,10 @@
     "2026-06-21": [
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2024BCCContest5_6.html#boat-parking",
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2024BCCContest7_8.html#spices"
+    ],
+    "2026-06-22": [
+      "https://wiki.randommath.com/en/amc10/2022/part-b/problem-19",
+      "https://wiki.randommath.com/en/amc10/2024/part-a/problem-17"
     ]
   }
 }
