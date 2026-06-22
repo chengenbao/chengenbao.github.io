@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-22</time>
+    </div>
+    <h2>LLM引导Kernel调优降速6.7X · GLM-5.2百万上下文 · DPO超越对话</h2>
+    <p>PyTorch Helion 自动调优速度提升 6.7X，GLM-5.2 实现 1M 上下文长任务推理，DPO 从聊天扩展到结构化任务</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / HuggingFace</span>
+      <span class="rl-tags">自动调优 · 长上下文 · DPO · Agent评测 · CLI设计</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-21-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-21</time></div><h2>停船位逻辑推理 / 天平砝码编码</h2><p>五年级：枚举法统计停船位方案；初一：天平编码与平衡三进制。</p><div class="rl-meta"><span class="rl-source">CEMC BCC 竞赛真题</span><span class="rl-tags">五年级 · 初一 · CEMC BCC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-21-finance-daily/">
   <div class="rl-accent"></div>
