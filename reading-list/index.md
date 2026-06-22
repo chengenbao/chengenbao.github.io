@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-22</time>
+    </div>
+    <h2>AI经济分析·数据中心能源·货币政策不确定性</h2>
+    <p>涵盖联储流动性监测、AI经济学智能体、数据中心电价影响、能源转型宏观模型与货币政策尾部风险五大前沿议题</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#共同基金 #能源经济 #货币政策</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
