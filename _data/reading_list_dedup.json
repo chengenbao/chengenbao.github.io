@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-22": [
-      "https://arxiv.org/abs/2605.20315",
-      "https://arxiv.org/abs/2605.20199",
-      "https://arxiv.org/abs/2605.20247",
-      "https://arxiv.org/abs/2605.20370",
-      "https://arxiv.org/abs/2605.20906",
-      "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation"
-    ],
     "2026-05-23": [
       "https://arxiv.org/abs/2605.21952",
       "https://arxiv.org/abs/2605.22015",
@@ -226,6 +218,14 @@
       "https://arxiv.org/abs/2606.20431",
       "https://arxiv.org/abs/2606.19913",
       "https://arxiv.org/abs/2606.19857"
+    ],
+    "2026-06-22": [
+      "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
+      "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "https://huggingface.co/blog/is-it-agentic-enough",
+      "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "https://huggingface.co/blog/hf-cli-for-agents",
+      "https://huggingface.co/blog/Hcompany/holo31"
     ]
   },
   "finance": {
