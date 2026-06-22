@@ -229,12 +229,6 @@
     ]
   },
   "finance": {
-    "2026-05-22": [
-      "https://arxiv.org/abs/2605.20279",
-      "https://arxiv.org/abs/2605.20281",
-      "https://arxiv.org/abs/2605.21358",
-      "https://arxiv.org/abs/2605.21009"
-    ],
     "2026-05-23": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html",
@@ -434,6 +428,13 @@
       "https://www.federalreserve.gov/econres/feds/the-feds-fine-tune-coarse-statements-and-predictive-pressers.htm",
       "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html"
+    ],
+    "2026-06-22": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
+      "https://arxiv.org/abs/2606.20041v1",
+      "https://arxiv.org/abs/2606.19777v1",
+      "https://arxiv.org/abs/2606.18994v1",
+      "https://arxiv.org/abs/2606.16708v1"
     ]
   }
 }
