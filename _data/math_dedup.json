@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-23": [
-      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p5",
-      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a.pdf#p7"
-    ],
     "2026-05-24": [
       "https://nrich.maths.org/2124",
       "https://nrich.maths.org/1013"
@@ -122,6 +118,10 @@
     "2026-06-22": [
       "https://wiki.randommath.com/en/amc10/2022/part-b/problem-19",
       "https://wiki.randommath.com/en/amc10/2024/part-a/problem-17"
+    ],
+    "2026-06-23": [
+      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf",
+      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf"
     ]
   }
 }
