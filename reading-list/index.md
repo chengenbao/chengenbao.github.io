@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-23</time>
+    </div>
+    <h2>人机时代人才资本重构、欧洲能源市场解析、出口中间商角色再评、生物多样性与ESG投资</h2>
+    <p>涵盖AI经济学、能源市场、国际贸易与ESG四大维度的前沿研究精选</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / arXiv econ.EM</span>
+      <span class="rl-tags">#AI经济 #能源 #国际贸易 #ESG</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-22-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-22</time></div><h2>元胞自动机生存规则 / 最优主客场胜率</h2><p>5×5网格变换的合法初始配置数，以及三局两胜制中的最优客场胜率</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · 组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-22-finance-daily/">
   <div class="rl-accent"></div>
