@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-23</time></div><h2>电梯送箱 / 最省钱的旅程</h2><p>逻辑推理与最优路径——来自加拿大 BCC 2025 竞赛</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">BCC竞赛 · 逻辑推理 · 图论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-23-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
