@@ -229,13 +229,6 @@
     ]
   },
   "finance": {
-    "2026-05-23": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/wage-and-income-growth-expectations-before-during-and-after-the-pandemic-period-20260413.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html"
-    ],
     "2026-05-24": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
@@ -435,6 +428,12 @@
       "https://arxiv.org/abs/2606.19777v1",
       "https://arxiv.org/abs/2606.18994v1",
       "https://arxiv.org/abs/2606.16708v1"
+    ],
+    "2026-06-23": [
+      "https://arxiv.org/abs/2606.19846v1",
+      "https://arxiv.org/abs/2606.19118v1",
+      "https://arxiv.org/abs/2606.18719v1",
+      "https://arxiv.org/abs/2606.19972v1"
     ]
   }
 }
