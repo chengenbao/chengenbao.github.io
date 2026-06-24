@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-24</time>
+    </div>
+    <h2>LLM 架构创新 · 模型压缩 · 训练优化 · 长上下文推理 · 多智能体系统</h2>
+    <p>今日精选 6 篇前沿论文，涵盖 Tapered 模型结构、SVD 压缩、AdamW 重尾噪声理论、长上下文位置编码、多智能体 Prompt 优化与 Transformer 能耗建模。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型 · 模型压缩 · 推理优化 · 长上下文 · 多智能体</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-23</time></div><h2>电梯送箱 / 最省钱的旅程</h2><p>逻辑推理与最优路径——来自加拿大 BCC 2025 竞赛</p><div class="rl-meta"><span class="rl-source">BCC 竞赛真题</span><span class="rl-tags">BCC竞赛 · 逻辑推理 · 图论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-23-finance-daily/">
   <div class="rl-accent"></div>
