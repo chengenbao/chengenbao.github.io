@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-24": [
-      "https://nrich.maths.org/2124",
-      "https://nrich.maths.org/1013"
-    ],
     "2026-05-25": [
       "https://nrich.maths.org/2127",
       "https://nrich.maths.org/2344"
@@ -122,6 +118,10 @@
     "2026-06-23": [
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf",
       "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf"
+    ],
+    "2026-06-24": [
+      "https://nrich.maths.org/1099",
+      "https://nrich.maths.org/874"
     ]
   }
 }
