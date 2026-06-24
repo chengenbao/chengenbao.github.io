@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-24</time>
+    </div>
+    <h2>美联储货币政策 × 对冲基金国债敞口 × 英国债市透明化 × 伊朗地缘政治</h2>
+    <p>Fed点阵图争议·对冲基金4万亿美债敞口·英国债市统一信息带·伊朗股市重估，共5篇深度分析</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / FT Alphaville</span>
+      <span class="rl-tags">#美联储 #对冲基金 #固定收益 #地缘政治</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
