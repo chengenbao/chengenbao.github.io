@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-25": [
-      "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
-      "https://simonwillison.net/2026/May/21/datasette-agent/#atom-entries",
-      "https://openai.com/index/building-codex-windows-sandbox",
-      "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "https://lilianweng.github.io/posts/2022-09-08-ntk/",
-      "https://lilianweng.github.io/posts/2024-07-07-hallucination/"
-    ],
     "2026-05-26": [
       "https://arxiv.org/abs/2605.22884",
       "https://arxiv.org/abs/2605.22869",
@@ -217,6 +209,15 @@
       "https://arxiv.org/abs/2606.23687v1",
       "https://arxiv.org/abs/2606.23664v1",
       "https://arxiv.org/abs/2606.23546v1"
+    ],
+    "2026-06-25": [
+      "https://arxiv.org/abs/2606.23739",
+      "https://arxiv.org/abs/2606.21428",
+      "https://arxiv.org/abs/2606.23969",
+      "https://arxiv.org/abs/2606.24506",
+      "https://arxiv.org/abs/2606.23698",
+      "https://pytorch.org/blog/serving-deepseek-v4-on-gb300-with-sglang-5x-higher-throughput-at-the-same-interactivity-since-day-0/",
+      "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
     ]
   },
   "finance": {
