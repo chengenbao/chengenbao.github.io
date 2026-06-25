@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-25</time>
+    </div>
+    <h2>MoE架构优化 · GPU机密计算 · LLM服务加速 · FP8计算 · 微调提速</h2>
+    <p>今日精选 7 篇：MoE 自动搜索、边缘推理实测、Blackwell 机密计算瓶颈、CrossPool KV-Cache 解聚合、FP8 FFT 加速、DeepSeek-V4 5x 吞吐、NeMo 微调提速</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · LLM推理 · GPU · FP8 · 分布式训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-24</time></div><h2>硬币中的分数 / 2的幂次余数</h2><p>分数方程推理 + 2的幂次余数周期规律</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">六年级 · 初一 · 分数 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-24-finance-daily/">
   <div class="rl-accent"></div>
