@@ -221,13 +221,6 @@
     ]
   },
   "finance": {
-    "2026-05-25": [
-      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-      "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-      "https://www.bloomberg.com/news/articles/2026-05-24/treasury-market-ushers-in-warsh-era-with-bets-on-2026-rate-hike",
-      "https://www.bloomberg.com/news/articles/2026-05-24/ecb-likely-to-revise-its-inflation-outlook-in-june-lagarde-says",
-      "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopens-oil-price-debate"
-    ],
     "2026-05-26": [
       "https://arxiv.org/abs/2605.23159",
       "https://arxiv.org/abs/2605.23400",
@@ -426,6 +419,12 @@
       "https://www.ft.com/content/8d6ab8b6-e4ce-4103-9f99-6cb2cb63a3fe",
       "https://www.ft.com/content/f4647c58-6fb9-46ee-9b81-d02c31c2c95b",
       "https://www.ft.com/content/ef857abe-d24c-449d-85c8-cf4d8cf9f968"
+    ],
+    "2026-06-25": [
+      "https://arxiv.org/abs/2606.24616",
+      "https://arxiv.org/abs/2606.23922",
+      "https://arxiv.org/abs/2606.23032",
+      "https://arxiv.org/abs/2510.19271"
     ]
   }
 }
