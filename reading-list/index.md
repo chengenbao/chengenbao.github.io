@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-25</time></div><h2>逻辑推理问题 / 配对计数问题</h2><p>万圣节糖果逻辑谜题 + 整数配对计数，AMC 10A 2022 真题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · 逻辑推理 · 组合计数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
