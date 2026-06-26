@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-26</time>
+    </div>
+    <h2>LLM推理加速 · 缓存架构 · 端侧部署 · Agent系统安全 · 持续学习 · 混合架构</h2>
+    <p>今日精选涵盖投机解码、GB级缓存推理、多硬件内核、端侧能耗调度、Agent OS安全及混合架构分析</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 系统架构 · 模型演进</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-25</time></div><h2>逻辑推理问题 / 配对计数问题</h2><p>万圣节糖果逻辑谜题 + 整数配对计数，AMC 10A 2022 真题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · 逻辑推理 · 组合计数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-25-finance-daily/">
   <div class="rl-accent"></div>
