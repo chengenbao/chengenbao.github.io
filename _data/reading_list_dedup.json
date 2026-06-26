@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-26": [
-      "https://arxiv.org/abs/2605.22884",
-      "https://arxiv.org/abs/2605.22869",
-      "https://arxiv.org/abs/2605.22863",
-      "https://arxiv.org/abs/2605.23226",
-      "https://arxiv.org/abs/2605.23833",
-      "https://arxiv.org/abs/2511.15503"
-    ],
     "2026-05-27": [
       "https://arxiv.org/abs/2605.24033",
       "https://arxiv.org/abs/2605.24041",
@@ -218,6 +210,15 @@
       "https://arxiv.org/abs/2606.23698",
       "https://pytorch.org/blog/serving-deepseek-v4-on-gb300-with-sglang-5x-higher-throughput-at-the-same-interactivity-since-day-0/",
       "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
+    ],
+    "2026-06-26": [
+      "https://arxiv.org/abs/2606.24957",
+      "https://arxiv.org/abs/2606.25353",
+      "https://pytorch.org/blog/lightseek-tokenspeed-kernel/",
+      "https://arxiv.org/abs/2606.23001",
+      "https://arxiv.org/abs/2606.25189",
+      "https://arxiv.org/abs/2606.24901",
+      "https://huggingface.co/blog/allenai/hybrid-token-prediction"
     ]
   },
   "finance": {
