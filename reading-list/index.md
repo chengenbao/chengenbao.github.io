@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-26</time>
+    </div>
+    <h2>碳市场政策·货币史·行为金融·数字资产</h2>
+    <p>碳抵消一般均衡效应、拉丁货币联盟历史证据、疫情期行为泡沫、加密货币高频网络结构</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#碳市场 #货币史 #行为金融 #加密货币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
