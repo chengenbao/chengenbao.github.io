@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-26</time></div><h2>行星时钟问题 / 三腿和七腿星际计数</h2><p>探索 Plex 星球的时间计算，以及 Vuv 星球上 3腿/7腿外星生物的腿数谜题。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-26-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
