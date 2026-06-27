@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-27</time>
+    </div>
+    <h2>科技脱钩、AI经济、核聚变与经济复杂度</h2>
+    <p>中国创新自主性增强、代理型AI经济冲击、核聚变能源成本路径、次国家经济复杂度测度与合成控制法改进</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / arXiv econ.EM</span>
+      <span class="rl-tags">#科技脱钩 #AI经济学 #能源转型</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
