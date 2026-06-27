@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-27</time></div><h2>三人年龄之谜 / 七整数之和为百</h2><p>推理年龄乘积与和的唯一解，以及证明七个不同正整数中必有三数之和不低于50</p><div class="rl-meta"><span class="rl-source">Cut The Knot 经典题</span><span class="rl-tags">五年级 &amp; 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-27-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
