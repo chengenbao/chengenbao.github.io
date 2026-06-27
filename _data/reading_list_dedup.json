@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-27": [
-      "https://arxiv.org/abs/2605.24033",
-      "https://arxiv.org/abs/2605.24041",
-      "https://arxiv.org/abs/2605.24042",
-      "https://arxiv.org/abs/2605.23969",
-      "https://arxiv.org/abs/2605.23954",
-      "https://huggingface.co/blog/ulysses-sp"
-    ],
     "2026-05-28": [
       "https://pytorch.org/blog/tlx-block-attention-a-warp-specialized-blackwell-kernel-for-fixed-block-sparse-self-attention/",
       "https://pytorch.org/blog/why-is-pytorch-compile-so-fast-kernel-fusion/",
@@ -219,6 +211,14 @@
       "https://arxiv.org/abs/2606.25189",
       "https://arxiv.org/abs/2606.24901",
       "https://huggingface.co/blog/allenai/hybrid-token-prediction"
+    ],
+    "2026-06-27": [
+      "https://arxiv.org/abs/2606.26105",
+      "https://arxiv.org/abs/2606.26120",
+      "https://arxiv.org/abs/2606.26290",
+      "https://arxiv.org/abs/2606.19791",
+      "https://arxiv.org/abs/2606.19856",
+      "https://huggingface.co/blog/vllm-jobs"
     ]
   },
   "finance": {
