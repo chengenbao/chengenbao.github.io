@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-27</time>
+    </div>
+    <h2>LLM 推理优化 · 稀疏计算加速 · 高效微调</h2>
+    <p>精选 6 篇前沿技术：涵盖长程推理 KV 复用、扩散 LLM 加速、SSM PEFT、稀疏 GEMM、GNN 硬件协同设计与 vLLM 一键部署。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · GPU加速 · 稀疏计算 · PEFT</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-26</time></div><h2>行星时钟问题 / 三腿和七腿星际计数</h2><p>探索 Plex 星球的时间计算，以及 Vuv 星球上 3腿/7腿外星生物的腿数谜题。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-26-finance-daily/">
   <div class="rl-accent"></div>
