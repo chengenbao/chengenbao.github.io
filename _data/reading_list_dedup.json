@@ -222,12 +222,6 @@
     ]
   },
   "finance": {
-    "2026-05-28": [
-      "https://arxiv.org/abs/2605.27265",
-      "https://arxiv.org/abs/2407.13204",
-      "https://arxiv.org/abs/2605.23162",
-      "https://arxiv.org/abs/2605.26437"
-    ],
     "2026-05-29": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
@@ -425,6 +419,12 @@
       "https://arxiv.org/abs/2506.18274",
       "https://arxiv.org/abs/2506.18133",
       "https://arxiv.org/abs/2507.00307"
+    ],
+    "2026-06-28": [
+      "https://www.nber.org/papers/w35356",
+      "https://www.nber.org/papers/w35361",
+      "https://www.nber.org/papers/w35359",
+      "https://www.nber.org/papers/w35345"
     ]
   }
 }
