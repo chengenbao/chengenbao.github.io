@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-06-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-28</time></div><h2>座位排列问题 / 游泳圈数之谜</h2><p>等候室座位枚举 · 游泳分数整除：五年级+初一 NRICH 竞赛真题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">五年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
