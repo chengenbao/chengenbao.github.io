@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-28</time>
+    </div>
+    <h2>碳市场摩擦 · 跨国企业溢价 · 交通与城镇化 · 神经金融</h2>
+    <p>4篇NBER工作论文：碳交易摩擦建模、跨国企业风险溢价溯源、基础设施对城镇化影响综述、脑电波与金融交易决策</p>
+    <div class="rl-meta">
+      <span class="rl-source">NBER Working Papers</span>
+      <span class="rl-tags">#碳市场 #跨国企业 #城镇化 #神经金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-06-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
