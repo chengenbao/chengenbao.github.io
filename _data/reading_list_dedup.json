@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-05-28": [
-      "https://pytorch.org/blog/tlx-block-attention-a-warp-specialized-blackwell-kernel-for-fixed-block-sparse-self-attention/",
-      "https://pytorch.org/blog/why-is-pytorch-compile-so-fast-kernel-fusion/",
-      "https://arxiv.org/abs/2605.26175",
-      "https://arxiv.org/abs/2605.26558",
-      "https://arxiv.org/abs/2605.26189",
-      "https://pytorch.org/blog/up-to-580tps-new-speed-record-of-qwen3-5-397b-a17b-on-gpu-for-agentic-workloads-with-tokenspeed/",
-      "https://arxiv.org/abs/2605.26132"
-    ],
     "2026-05-30": [
       "https://arxiv.org/abs/2605.29639",
       "https://arxiv.org/abs/2605.29135",
@@ -219,6 +210,15 @@
       "https://arxiv.org/abs/2606.19791",
       "https://arxiv.org/abs/2606.19856",
       "https://huggingface.co/blog/vllm-jobs"
+    ],
+    "2026-06-28": [
+      "https://arxiv.org/abs/2606.27369v1",
+      "https://arxiv.org/abs/2606.27359v1",
+      "https://arxiv.org/abs/2606.27326v1",
+      "https://arxiv.org/abs/2606.27321v1",
+      "https://arxiv.org/abs/2606.27288v1",
+      "https://arxiv.org/abs/2606.27242v1",
+      "https://arxiv.org/abs/2606.27229v1"
     ]
   },
   "finance": {
