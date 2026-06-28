@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-28</time>
+    </div>
+    <h2>大模型强化学习训练、解码分析、幻觉预防、可解释性与推理加速前沿</h2>
+    <p>7篇精选：RiVER无监督RL训练、解码概率分析、世界模型幻觉、SAE稀疏正则化、MoE共同失败上界、Fisher对齐、CARVE线性注意力加速</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">RL · 解码 · 幻觉 · 可解释性 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-27</time></div><h2>三人年龄之谜 / 七整数之和为百</h2><p>推理年龄乘积与和的唯一解，以及证明七个不同正整数中必有三数之和不低于50</p><div class="rl-meta"><span class="rl-source">Cut The Knot 经典题</span><span class="rl-tags">五年级 &amp; 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-27-finance-daily/">
   <div class="rl-accent"></div>
