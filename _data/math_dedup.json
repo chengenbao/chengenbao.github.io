@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-29": [
-      "https://nrich.maths.org/5022",
-      "https://nrich.maths.org/7026"
-    ],
     "2026-05-30": [
       "https://wiki.randommath.com/amc8/2023#1",
       "https://wiki.randommath.com/amc8/2022#5"
@@ -122,6 +118,10 @@
     "2026-06-28": [
       "https://nrich.maths.org/1004",
       "https://nrich.maths.org/1001"
+    ],
+    "2026-06-29": [
+      "https://nrich.maths.org/2190",
+      "https://nrich.maths.org/2017"
     ]
   }
 }
