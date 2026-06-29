@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-29</time>
+    </div>
+    <h2>FDI新动态·短缺测量·劳动力市场·稳定币金融稳定</h2>
+    <p>美联储FEDS Notes五篇最新研究：AI驱动外商直接投资变化、新闻数据测量全球经济短缺、人口增长与劳动力市场脆弱性、跨境证券数据统一框架及2025年稳定币三大结构性风险</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#FDI #劳动力市场 #稳定币 #供应链</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-28</time></div><h2>座位排列问题 / 游泳圈数之谜</h2><p>等候室座位枚举 · 游泳分数整除：五年级+初一 NRICH 竞赛真题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">五年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-28-finance-daily/">
   <div class="rl-accent"></div>
