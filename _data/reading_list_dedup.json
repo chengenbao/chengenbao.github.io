@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-30": [
-      "https://arxiv.org/abs/2605.29639",
-      "https://arxiv.org/abs/2605.29135",
-      "https://arxiv.org/abs/2605.28860",
-      "https://arxiv.org/abs/2605.28896",
-      "https://arxiv.org/abs/2605.28889",
-      "https://arxiv.org/abs/2605.30019"
-    ],
     "2026-05-31": [
       "https://huggingface.co/blog/torch-profiler",
       "https://huggingface.co/blog/delta-weight-sync",
@@ -219,6 +211,15 @@
       "https://arxiv.org/abs/2606.27288v1",
       "https://arxiv.org/abs/2606.27242v1",
       "https://arxiv.org/abs/2606.27229v1"
+    ],
+    "2026-06-30": [
+      "https://arxiv.org/abs/2606.27550",
+      "https://arxiv.org/abs/2606.27791",
+      "https://arxiv.org/abs/2606.27785",
+      "https://arxiv.org/abs/2606.27906",
+      "https://arxiv.org/abs/2606.27884",
+      "https://arxiv.org/abs/2606.27449",
+      "https://arxiv.org/abs/2606.27578"
     ]
   },
   "finance": {
