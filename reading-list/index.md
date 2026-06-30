@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-06-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-06-30</time>
+    </div>
+    <h2>LLM 推理加速 · 注意力优化 · 混合精度 · Transformer 架构创新 · RLHF 对齐</h2>
+    <p>今日精选：多 Token 推理加速、滑动窗口免训练适配、混合精度 DNN 优化、Prism Transformer 架构与 RLHF 奖励校准</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · 架构优化 · 量化压缩 · RLHF</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-06-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-29</time></div><h2>对称旗语 / 猜数字魔法</h2><p>旗语中的对称字母 + 代数猜数字魔术的数学原理</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥题库</span><span class="rl-tags">四年级 · 五年级 · 对称 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-29-finance-daily/">
   <div class="rl-accent"></div>
