@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-06-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-06-30</time>
+    </div>
+    <h2>算法经济·新能源·AI劳动·绿色转型</h2>
+    <p>5篇前沿论文：RealPage算法房东反垄断、中国电动车扩散、AI重塑劳动市场、绿色转型大宗商品需求冲击、可审计AI实证框架</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / arXiv econ.EM</span>
+      <span class="rl-tags">#算法定价 #能源转型 #AI经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-06-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
