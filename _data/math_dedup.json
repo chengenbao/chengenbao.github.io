@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-05-31": [
-      "https://wiki.randommath.com/amc8/2024#9",
-      "https://wiki.randommath.com/amc8/2019#15"
-    ],
     "2026-06-01": [
       "https://live.poshenloh.com/past-contests/amc10/2021A#problem-13",
       "https://live.poshenloh.com/past-contests/amc10/2021A#problem-19"
@@ -122,6 +118,10 @@
     "2026-06-30": [
       "https://www.aoshu.com/e/20250619/68540688ae167.shtml",
       "https://www.aoshu.com/e/20250619/68540641d5c04.shtml"
+    ],
+    "2026-07-01": [
+      "mimo:amc_003",
+      "mimo:aime_001"
     ]
   }
 }
