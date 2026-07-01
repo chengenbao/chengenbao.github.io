@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-01</time>
+    </div>
+    <h2>银行信贷传导、反垄断市场监管、AI宏观预测模型与宏观预期形态</h2>
+    <p>聚焦信贷渠道传导机制、卡特尔反垄断研究、AI宏观预测新工具及预期分布分析四大维度</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / econ.EM</span>
+      <span class="rl-tags">#银行信贷 #反垄断 #AI预测 #宏观预期</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
