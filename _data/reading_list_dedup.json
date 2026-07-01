@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-05-31": [
-      "https://huggingface.co/blog/torch-profiler",
-      "https://huggingface.co/blog/delta-weight-sync",
-      "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "https://huggingface.co/blog/agent-glossary",
-      "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "https://pytorch.org/blog/pytorch-docathon-2026-results/"
-    ],
     "2026-06-01": [
       "https://pytorch.org/blog/why-is-pytorch-compile-so-fast-kernel-fusion/",
       "https://pytorch.org/?p=103256",
@@ -220,6 +212,14 @@
       "https://arxiv.org/abs/2606.27884",
       "https://arxiv.org/abs/2606.27449",
       "https://arxiv.org/abs/2606.27578"
+    ],
+    "2026-07-01": [
+      "https://arxiv.org/abs/2606.29986",
+      "https://arxiv.org/abs/2606.28565",
+      "https://arxiv.org/abs/2511.15503",
+      "https://arxiv.org/abs/2605.28208",
+      "https://arxiv.org/abs/2606.30382",
+      "https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/"
     ]
   },
   "finance": {
