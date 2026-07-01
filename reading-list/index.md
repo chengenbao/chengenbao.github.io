@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-07-01</time>
     </div>
+    <h2>大模型推理优化与系统加速前沿</h2>
+    <p>覆盖KV缓存压缩、脉冲神经网络芯片、稀疏注意力机制、OS内核调优、对齐安全与测试时扩展极限</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · 稀疏注意力 · 硬件加速 · OS内核 · 对齐安全</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-07-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-01</time>
+    </div>
     <h2>LLM 推理系统 · 存内计算 · FPGA 量化 · RL Post-Training</h2>
     <p>今日精选：异构内存 LLM 推理、内核级仿真器、PIM 编译器、铁电存算一体、FPGA 量化剪枝、Miles RL 训练框架</p>
     <div class="rl-meta">
