@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-01</time></div><h2>四位数字严格递增计数 / 整数方程因数分解</h2><p>组合计数双射法 + Simon凑因式，两道 AMC/AIME 真题精讲</p><div class="rl-meta"><span class="rl-source">AMC/AIME 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC · AIME</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-01-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
