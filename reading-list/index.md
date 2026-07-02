@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+    <a class="rl-card finance" href="/reading-list/2026-07-02-finance-daily/">
+      <div class="rl-accent"></div>
+      <div class="rl-body">
+        <div class="rl-top">
+          <span class="rl-badge finance">💰 财经精选</span>
+          <time>2026-07-02</time>
+        </div>
+        <h2>贸易战冲击 · AI 与劳动力 · ESG 社会报表 · 平台经济 · DeFi 风控</h2>
+        <p>覆盖宏观贸易政策冲击、AI 重塑劳动力市场、ESG 财务化新框架、双边平台计量及 DeFi 系统性风险五大维度</p>
+        <div class="rl-meta">
+          <span class="rl-source">arXiv econ.GN / econ.EM</span>
+          <span class="rl-tags">#贸易战 #AI #ESG #DeFi #平台经济</span>
+        </div>
+      </div>
+    </a>
+    
 <a class="rl-card tech" href="/reading-list/2026-07-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
