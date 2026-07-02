@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-01": [
-      "https://live.poshenloh.com/past-contests/amc10/2021A#problem-13",
-      "https://live.poshenloh.com/past-contests/amc10/2021A#problem-19"
-    ],
     "2026-06-02": [
       "https://nrich.maths.org/6290",
       "https://nrich.maths.org/6267"
@@ -122,6 +118,10 @@
     "2026-07-01": [
       "mimo:amc_003",
       "mimo:aime_001"
+    ],
+    "2026-07-02": [
+      "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr4_2022.pdf",
+      "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr6_2022.pdf"
     ]
   }
 }
