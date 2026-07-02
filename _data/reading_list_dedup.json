@@ -224,13 +224,6 @@
     ]
   },
   "finance": {
-    "2026-06-01": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/lessons-from-brexit-on-the-effects-of-trade-disintegration-20260116.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-recession-risks-with-state-level-data-20260107.html"
-    ],
     "2026-06-02": [
       "https://arxiv.org/abs/2605.30435",
       "https://arxiv.org/abs/2605.30672",
@@ -428,6 +421,13 @@
       "https://arxiv.org/abs/2606.30470",
       "https://arxiv.org/abs/2606.28670",
       "https://arxiv.org/abs/2606.30040"
+    ],
+    "2026-07-02": [
+      "https://arxiv.org/abs/2606.30685",
+      "https://arxiv.org/abs/2606.21880",
+      "https://arxiv.org/abs/2606.31188",
+      "https://arxiv.org/abs/2606.30999",
+      "https://arxiv.org/abs/2602.03981"
     ]
   }
 }
