@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-02</time>
+    </div>
+    <h2>大模型 KV Cache / GRPO 训练 / 隐私 AI / 脉冲神经网络 · 2026-07-02</h2>
+    <p>今日精选：SeKV 长上下文 KV 压缩、Predictable GRPO 训练动态建模、EnclaveX 隐私推理、SpikON 脉冲加速器、Miles RL 后训练框架等 7 篇前沿技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · GRPO · TEE · SNN · PyTorch</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-01</time></div><h2>四位数字严格递增计数 / 整数方程因数分解</h2><p>组合计数双射法 + Simon凑因式，两道 AMC/AIME 真题精讲</p><div class="rl-meta"><span class="rl-source">AMC/AIME 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC · AIME</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-01-finance-daily/">
   <div class="rl-accent"></div>
