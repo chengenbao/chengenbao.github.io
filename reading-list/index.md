@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-02</time></div><h2>冰淇淋口味的容斥计数 / 三个连续整数之和</h2><p>容斥原理 + 连续整数，今日双题趣味挑战！</p><div class="rl-meta"><span class="rl-source">Spirit of Math 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · 容斥原理 · 连续整数</span></div></div></a>
     <a class="rl-card finance" href="/reading-list/2026-07-02-finance-daily/">
       <div class="rl-accent"></div>
       <div class="rl-body">
