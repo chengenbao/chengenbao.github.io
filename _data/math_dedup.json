@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-02": [
-      "https://nrich.maths.org/6290",
-      "https://nrich.maths.org/6267"
-    ],
     "2026-06-03": [
       "https://nrich.maths.org/6267",
       "https://nrich.maths.org/9395"
@@ -122,6 +118,10 @@
     "2026-07-02": [
       "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr4_2022.pdf",
       "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr6_2022.pdf"
+    ],
+    "2026-07-03": [
+      "https://nrich.maths.org/96",
+      "https://nrich.maths.org/249"
     ]
   }
 }
