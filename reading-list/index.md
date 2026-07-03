@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-03</time>
+    </div>
+    <h2>美联储加息溢出、AI经济学、劳动力市场与气候转型</h2>
+    <p>本期精选4篇前沿研究：Fed新兴市场韧性分析、AI不平等政策评估、薪酬认知实验，以及气候变化驱动印度结构转型的微观证据。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / arXiv econ</span>
+      <span class="rl-tags">#宏观 #AI经济学 #劳动经济学 #气候经济学</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-02</time></div><h2>冰淇淋口味的容斥计数 / 三个连续整数之和</h2><p>容斥原理 + 连续整数，今日双题趣味挑战！</p><div class="rl-meta"><span class="rl-source">Spirit of Math 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · 容斥原理 · 连续整数</span></div></div></a>
     <a class="rl-card finance" href="/reading-list/2026-07-02-finance-daily/">
       <div class="rl-accent"></div>
