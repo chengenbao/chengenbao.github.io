@@ -224,13 +224,6 @@
     ]
   },
   "finance": {
-    "2026-06-02": [
-      "https://arxiv.org/abs/2605.30435",
-      "https://arxiv.org/abs/2605.30672",
-      "https://arxiv.org/abs/2601.14150",
-      "https://arxiv.org/abs/2509.13323",
-      "https://arxiv.org/abs/2602.07486"
-    ],
     "2026-06-03": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
       "https://arxiv.org/abs/2606.00948",
@@ -428,6 +421,12 @@
       "https://arxiv.org/abs/2606.31188",
       "https://arxiv.org/abs/2606.30999",
       "https://arxiv.org/abs/2602.03981"
+    ],
+    "2026-07-03": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
+      "https://arxiv.org/abs/2607.01101",
+      "https://arxiv.org/abs/2606.02503",
+      "https://arxiv.org/abs/2607.00279"
     ]
   }
 }
