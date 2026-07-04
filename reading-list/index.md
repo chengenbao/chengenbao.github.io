@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-04</time>
+    </div>
+    <h2>KV Cache 压缩 · 量化推理 · 硬件加速 · 深度学习理论</h2>
+    <p>LLM 推理加速全栈覆盖：KV Cache 压缩理论与实践、NPU/ASIC 量化内核、3D 堆叠架构，附深度学习理论新作。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · 量化 · 推理加速 · 硬件架构</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-03</time></div><h2>爆米花翻倍之谜 / 末尾9009的完全平方数</h2><p>体积三维缩放与完全平方数末位分析——NRICH剑桥竞赛真题</p><div class="rl-meta"><span class="rl-source">NRICH 剑桥竞赛题</span><span class="rl-tags">五年级 · 初一 · 体积 · 模运算</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-03-finance-daily/">
   <div class="rl-accent"></div>
