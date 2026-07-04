@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-04</time>
+    </div>
+    <h2>关税传导·中国增长·AI普及·供应链金融·通胀测量</h2>
+    <p>联储 FEDS Notes 精选：关税零售传导实证、中国GDP核实、美国AI普及监测、供应链信贷风险、PCE通胀测量异常</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税 #通胀 #中国经济 #AI #金融稳定</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-04-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
