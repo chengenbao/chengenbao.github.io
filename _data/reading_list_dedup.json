@@ -215,13 +215,6 @@
     ]
   },
   "finance": {
-    "2026-06-03": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
-      "https://arxiv.org/abs/2606.00948",
-      "https://arxiv.org/abs/2606.00989",
-      "https://arxiv.org/abs/2606.01307",
-      "https://arxiv.org/abs/2606.00811"
-    ],
     "2026-06-04": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
@@ -418,6 +411,13 @@
       "https://arxiv.org/abs/2607.01101",
       "https://arxiv.org/abs/2606.02503",
       "https://arxiv.org/abs/2607.00279"
+    ],
+    "2026-07-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/is-china-really-growing-at-5-percent-20250606.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html"
     ]
   }
 }
