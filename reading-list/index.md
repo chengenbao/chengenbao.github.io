@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-05</time></div><h2>樱桃蛋糕分重量 / 均值中位众数大探秘</h2><p>烘焙中的比例方程 & 三种平均数的联合约束</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 五年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-05-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
