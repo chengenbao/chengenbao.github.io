@@ -214,12 +214,6 @@
     ]
   },
   "finance": {
-    "2026-06-04": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
-      "https://arxiv.org/abs/2510.12049",
-      "https://arxiv.org/abs/2606.03030"
-    ],
     "2026-06-05": [
       "https://arxiv.org/abs/2606.04113",
       "https://arxiv.org/abs/2606.04576",
@@ -417,6 +411,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html"
+    ],
+    "2026-07-05": [
+      "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
+      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity.htm",
+      "https://www.federalreserve.gov/econres/ifdp/fiscal-policy-portfolio-frictions-and-international-transmission.htm",
+      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects.htm",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s.htm"
     ]
   }
 }
