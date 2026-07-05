@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-04": [
-      "https://nrich.maths.org/6265",
-      "https://nrich.maths.org/6260"
-    ],
     "2026-06-05": [
       "https://nrich.maths.org/4926",
       "https://nrich.maths.org/6016"
@@ -122,6 +118,10 @@
     "2026-07-04": [
       "https://nrich.maths.org/problems/tilted-squares",
       "https://nrich.maths.org/problems/painted-cube"
+    ],
+    "2026-07-05": [
+      "https://nrich.maths.org/2015",
+      "https://nrich.maths.org/6267"
     ]
   }
 }
