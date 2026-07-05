@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-05</time>
+    </div>
+    <h2>关税摩擦、全球金融风险与财政政策传导</h2>
+    <p>美联储最新研究：关税的搜寻摩擦效应、全球金融风险对生产率的抑制、财政政策的国际溢出，以及AI量化去监管的经济效应。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed IFDP / FEDS Notes</span>
+      <span class="rl-tags">#贸易政策 #全球金融 #财政政策 #去监管</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
