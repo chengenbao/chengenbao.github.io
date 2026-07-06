@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-06</time></div><h2>三角棋盘蚱蜢问题 / 三壶均分水</h2><p>染色法证明空格下界 · 归纳法解三壶均分</p><div class="rl-meta"><span class="rl-source">Cut-The-Knot 竞赛题库</span><span class="rl-tags">六年级 · 初一 · 染色法 · 归纳</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-06-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
