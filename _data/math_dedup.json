@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-05": [
-      "https://nrich.maths.org/4926",
-      "https://nrich.maths.org/6016"
-    ],
     "2026-06-06": [
       "https://nrich.maths.org/2006",
       "https://nrich.maths.org/6539"
@@ -122,6 +118,10 @@
     "2026-07-05": [
       "https://nrich.maths.org/2015",
       "https://nrich.maths.org/6267"
+    ],
+    "2026-07-06": [
+      "https://www.cut-the-knot.org/arithmetic/Grasshoppers.shtml",
+      "https://www.cut-the-knot.org/arithmetic/ThreeJugsEvenly.shtml"
     ]
   }
 }
