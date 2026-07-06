@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-05": [
-      "https://arxiv.org/abs/2606.04032",
-      "https://arxiv.org/abs/2606.04028",
-      "https://arxiv.org/abs/2606.04036",
-      "https://arxiv.org/abs/2512.10236",
-      "https://arxiv.org/abs/2606.04908",
-      "https://pytorch.org/blog/using-muon-optimizer-with-deepspeed/"
-    ],
     "2026-06-06": [
       "https://arxiv.org/abs/2606.02964v1",
       "https://arxiv.org/abs/2606.05495v1",
@@ -211,6 +203,14 @@
       "http://arxiv.org/abs/2607.02460v1",
       "http://arxiv.org/abs/2607.02502v1",
       "http://arxiv.org/abs/2607.02512v1"
+    ],
+    "2026-07-06": [
+      "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "https://huggingface.co/blog/allenai/discoformer",
+      "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "https://huggingface.co/blog/cross-origin-storage",
+      "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "https://pytorch.org/blog/understanding-pytorchs-test-infrastructure/"
     ]
   },
   "finance": {
