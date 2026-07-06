@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-06-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-06</time>
+    </div>
+    <h2>LLM 推理芯片 · 统一生成模型 · 浏览器端AI · 模型轻量化</h2>
+    <p>覆盖 OpenAI 定制推理芯片、统一生成模型架构、边缘推理与模型量化等前沿方向，共 6 篇深度技术文章</p>
+    <div class="rl-meta">
+      <span class="rl-source">OpenAI / HuggingFace / PyTorch</span>
+      <span class="rl-tags">LLM推理 · 生成模型 · 边缘AI · 模型压缩</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-05</time></div><h2>樱桃蛋糕分重量 / 均值中位众数大探秘</h2><p>烘焙中的比例方程 & 三种平均数的联合约束</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 五年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-05-finance-daily/">
   <div class="rl-accent"></div>
