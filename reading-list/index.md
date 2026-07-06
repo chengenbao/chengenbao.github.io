@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-06</time>
+    </div>
+    <h2>新兴市场韧性 · FDI动态 · 私人信贷风险 · 美国EV困境</h2>
+    <p>从美联储加息影响、FDI重构，到私人信贷监管与EV产业政策，覆盖当前全球经济核心议题。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Econofact</span>
+      <span class="rl-tags">#宏观 #国际 #金融稳定 #产业政策</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
