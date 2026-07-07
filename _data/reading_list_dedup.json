@@ -214,13 +214,6 @@
     ]
   },
   "finance": {
-    "2026-06-06": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html"
-    ],
     "2026-06-07": [
       "https://www.economist.com/finance-and-economics/2026/06/05/how-hot-is-americas-labour-market",
       "https://www.economist.com/finance-and-economics/2026/05/27/kevin-warshs-troublesome-inflation-in-tray",
@@ -417,6 +410,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
       "https://econofact.org/how-safe-are-private-credit-funds",
       "https://econofact.org/how-the-u-s-fell-behind-in-adopting-the-electric-car"
+    ],
+    "2026-07-07": [
+      "https://arxiv.org/abs/2507.03082",
+      "https://arxiv.org/abs/2507.03567",
+      "https://arxiv.org/abs/2507.03419",
+      "https://arxiv.org/abs/2507.03721",
+      "https://arxiv.org/abs/2507.02891"
     ]
   }
 }
