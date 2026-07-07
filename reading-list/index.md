@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">技术速递</span>
+      <time>2026-07-07</time>
+    </div>
+    <h2>LLM 可解释性 · WASM 推理 · Ising 硬件 · Rust 验证 · KVM 逃逸 · 拼接式 OS</h2>
+    <p>覆盖大模型机制、端侧推理、专用硬件、形式化验证、虚拟化安全与系统软件前沿研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">HN / arXiv / Anthropic</span>
+      <span class="rl-tags">大模型 · 端侧推理 · 形式化验证 · KVM安全 · 系统软件</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-06</time></div><h2>三角棋盘蚱蜢问题 / 三壶均分水</h2><p>染色法证明空格下界 · 归纳法解三壶均分</p><div class="rl-meta"><span class="rl-source">Cut-The-Knot 竞赛题库</span><span class="rl-tags">六年级 · 初一 · 染色法 · 归纳</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-06-finance-daily/">
   <div class="rl-accent"></div>
