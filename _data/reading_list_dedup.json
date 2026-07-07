@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-06": [
-      "https://arxiv.org/abs/2606.02964v1",
-      "https://arxiv.org/abs/2606.05495v1",
-      "https://arxiv.org/abs/2606.04581v1",
-      "https://arxiv.org/abs/2606.03014v1",
-      "https://arxiv.org/abs/2606.06473v1",
-      "https://arxiv.org/abs/2606.06467v1"
-    ],
     "2026-06-09": [
       "https://arxiv.org/abs/2606.06510",
       "https://arxiv.org/abs/2606.06527",
@@ -211,6 +203,14 @@
       "https://huggingface.co/blog/cross-origin-storage",
       "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "https://pytorch.org/blog/understanding-pytorchs-test-infrastructure/"
+    ],
+    "2026-07-07": [
+      "https://www.anthropic.com/research/global-workspace",
+      "https://ternlight-demo.vercel.app/",
+      "https://arxiv.org/abs/2607.02112",
+      "https://arxiv.org/abs/2607.01504",
+      "https://github.com/V4bel/Januscape",
+      "https://wiki.xxiivv.com/site/m_pc.html"
     ]
   },
   "finance": {
