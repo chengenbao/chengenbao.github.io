@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-08-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-08</time>
+    </div>
+    <h2>FPGA推理加速 · 存内计算 · 分布式训练 · 量化推理 · 内存扩展 · AI原生OS</h2>
+    <p>覆盖硬件加速器、GPU内存扩展、PyTorch ROCm、FlashAttention量化与AI原生操作系统6个前沿方向。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · 分布式训练 · 硬件系统</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-07</time></div><h2>等腰三角形缩减 / 近似三角形覆盖</h2><p>相似三角形推导 SR = 4cm；坐标几何构造覆盖三角形</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">相似三角形 · 坐标几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-07-finance-daily/">
   <div class="rl-accent"></div>
