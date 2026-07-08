@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-07": [
-      "https://www.thethinkacademy.com/blog/2023-amc-10b-real-questions-and-analysis/#problem-8",
-      "https://www.thethinkacademy.com/blog/2023-amc-10b-real-questions-and-analysis/#problem-11"
-    ],
     "2026-06-08": [
       "https://nrich.maths.org/143",
       "https://nrich.maths.org/2003"
@@ -122,6 +118,10 @@
     "2026-07-07": [
       "https://nrich.maths.org/6793",
       "https://nrich.maths.org/6896"
+    ],
+    "2026-07-08": [
+      "https://nrich.maths.org/2196",
+      "https://nrich.maths.org/2842"
     ]
   }
 }
