@@ -222,13 +222,6 @@
     ]
   },
   "finance": {
-    "2026-06-07": [
-      "https://www.economist.com/finance-and-economics/2026/06/05/how-hot-is-americas-labour-market",
-      "https://www.economist.com/finance-and-economics/2026/05/27/kevin-warshs-troublesome-inflation-in-tray",
-      "https://www.economist.com/finance-and-economics/2026/06/02/want-to-know-the-future-dont-trust-the-stockmarket",
-      "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-spacex-anthropic-and-openai",
-      "https://www.economist.com/finance-and-economics/2026/05/28/without-fanfare-china-is-making-rural-migrants-lives-easier"
-    ],
     "2026-06-08": [
       "https://www.bloomberg.com/news/articles/goldman-sachs-no-longer-expects-fed-rate-cut",
       "https://www.bloomberg.com/news/articles/charting-the-global-economy",
@@ -425,6 +418,13 @@
       "https://arxiv.org/abs/2507.03419",
       "https://arxiv.org/abs/2507.03721",
       "https://arxiv.org/abs/2507.02891"
+    ],
+    "2026-07-08": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/do-major-technology-advancements-lead-to-overinvestment-20260706.html",
+      "https://arxiv.org/abs/2607.02892",
+      "https://arxiv.org/abs/2607.04345",
+      "https://arxiv.org/abs/2607.02791",
+      "https://arxiv.org/abs/2607.03144"
     ]
   }
 }
