@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-08</time>
+    </div>
+    <h2>AI投资泡沫、自动化冲击与算法定价</h2>
+    <p>涵盖科技过度投资风险、自动化财政冲击、算法定价博弈、房地产监管与AI宏观建模5篇精选</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#宏观 #算法定价 #自动化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
