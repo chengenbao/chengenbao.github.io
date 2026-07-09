@@ -222,13 +222,6 @@
     ]
   },
   "finance": {
-    "2026-06-08": [
-      "https://www.bloomberg.com/news/articles/goldman-sachs-no-longer-expects-fed-rate-cut",
-      "https://www.bloomberg.com/news/articles/charting-the-global-economy",
-      "https://www.wsj.com/articles/the-extra-reward-for-owning-stocks-over-bonds-has-disappeared",
-      "https://www.bloomberg.com/news/articles/korea-unveils-measures-to-stem-won-slide",
-      "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat"
-    ],
     "2026-06-09": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/mortgage-servicing-right-valuations-under-stress-20260604.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
@@ -425,6 +418,13 @@
       "https://arxiv.org/abs/2607.04345",
       "https://arxiv.org/abs/2607.02791",
       "https://arxiv.org/abs/2607.03144"
+    ],
+    "2026-07-09": [
+      "https://arxiv.org/abs/2607.06316",
+      "https://arxiv.org/abs/2604.25826",
+      "https://arxiv.org/abs/2607.06121",
+      "https://arxiv.org/abs/2607.05882",
+      "https://arxiv.org/abs/2607.05878"
     ]
   }
 }
