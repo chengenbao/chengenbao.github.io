@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-10</time>
+    </div>
+    <h2>大模型推理优化 · 联合路由 · SSD 记忆 · 边缘压缩 · 推测解码</h2>
+    <p>精选 6 篇聚焦 LLM 推理效率、KV-Cache、MoE 路由与边缘部署的前沿研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 推理 · MoE · 边缘AI</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-09</time></div><h2>葡萄分享 / 整数序列求和</h2><p>分数基础运算 + 数列周期求和，来源 CEMC Gauss 2023 竞赛真题</p><div class="rl-meta"><span class="rl-source">CEMC Gauss 竞赛真题</span><span class="rl-tags">五年级 · 初一 · CEMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-09-finance-daily/">
   <div class="rl-accent"></div>
