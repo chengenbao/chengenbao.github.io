@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-10</time>
+    </div>
+    <h2>宏观·AI产业·CBDC·数字消费</h2>
+    <p>MPC流动性梯度、AI产业重构2026-2030、AI搜索经济契约颠覆、数字优惠券财政政策、数字欧元CBDC设计</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观经济 #CBDC #数字经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
