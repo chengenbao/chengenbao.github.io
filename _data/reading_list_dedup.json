@@ -223,12 +223,6 @@
     ]
   },
   "finance": {
-    "2026-06-10": [
-      "https://arxiv.org/abs/2606.08534",
-      "https://arxiv.org/abs/2606.09190",
-      "https://arxiv.org/abs/2606.09472",
-      "https://arxiv.org/abs/2606.09642"
-    ],
     "2026-06-11": [
       "https://fredblog.stlouisfed.org/2026/06/understanding-the-various-us-debt-to-gdp-ratios/",
       "https://fredblog.stlouisfed.org/2026/06/why-exclude-food-and-energy-from-inflation-measures/",
@@ -426,6 +420,12 @@
       "https://arxiv.org/abs/2607.07652",
       "https://arxiv.org/abs/2507.01365",
       "https://arxiv.org/abs/2601.18644"
+    ],
+    "2026-07-11": [
+      "https://arxiv.org/abs/2607.07864",
+      "https://arxiv.org/abs/2607.08759",
+      "https://arxiv.org/abs/2607.07849",
+      "https://arxiv.org/abs/2607.08610"
     ]
   }
 }
