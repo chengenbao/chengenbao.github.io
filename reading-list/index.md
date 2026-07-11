@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-11</time>
+    </div>
+    <h2>通胀涌现·消费大数据·中小企业政策·自动化共享经济</h2>
+    <p>arXiv 经济学最新研究：货币政策新视角、3.5亿信用卡消费数据集、政府扶持中小企业实证、AV 重塑平台经济</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观经济 #大数据 #产业政策 #平台经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
