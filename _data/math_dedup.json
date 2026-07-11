@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-10": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_20",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_22"
-    ],
     "2026-06-11": [
       "github:mlian031/mathcontests/AMC/2016/10A/1",
       "github:mlian031/mathcontests/AMC/2017/10A/1"
@@ -69,7 +65,7 @@
     ],
     "2026-06-27": [
       "https://www.cut-the-knot.org/arithmetic/OldAgeConundrum.shtml",
-      "https://www.cut-the-knot.org/m/Arithmetic/SevenNumbersSumUpTo100.shtml"
+      "https://www.cut-the-knot.org/arithmetic/SevenNumbersSumUpTo100.shtml"
     ],
     "2026-06-28": [
       "https://nrich.maths.org/1004",
@@ -122,6 +118,10 @@
     "2026-07-10": [
       "https://nrich.maths.org/5765",
       "https://nrich.maths.org/2086"
+    ],
+    "2026-07-11": [
+      "https://nrich.maths.org/problems/shape-times-shape",
+      "https://nrich.maths.org/problems/marbles"
     ]
   }
 }
