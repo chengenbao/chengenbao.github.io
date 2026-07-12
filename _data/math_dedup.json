@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-11": [
-      "github:mlian031/mathcontests/AMC/2016/10A/1",
-      "github:mlian031/mathcontests/AMC/2017/10A/1"
-    ],
     "2026-06-12": [
       "https://wiki.randommath.com/amc8/2019/problem-12",
       "https://wiki.randommath.com/amc8/2019/problem-15"
@@ -122,6 +118,10 @@
     "2026-07-11": [
       "https://nrich.maths.org/problems/shape-times-shape",
       "https://nrich.maths.org/problems/marbles"
+    ],
+    "2026-07-12": [
+      "https://paper.luoboedu.com/articles/amc/amc-2022-amc8.html#problem-2",
+      "https://paper.luoboedu.com/articles/amc/amc-2019-amc8.html#problem-2"
     ]
   }
 }
