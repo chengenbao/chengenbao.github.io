@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-11": [
-      "https://arxiv.org/abs/2606.09861",
-      "https://arxiv.org/abs/2606.09864",
-      "https://arxiv.org/abs/2606.09850",
-      "https://arxiv.org/abs/2606.09867",
-      "https://arxiv.org/abs/2606.09946",
-      "https://arxiv.org/abs/2602.22352"
-    ],
     "2026-06-13": [
       "https://arxiv.org/abs/2606.13328",
       "https://arxiv.org/abs/2512.00053",
@@ -220,6 +212,14 @@
       "https://arxiv.org/abs/2607.08407",
       "https://arxiv.org/abs/2607.08427",
       "https://arxiv.org/abs/2607.08010"
+    ],
+    "2026-07-12": [
+      "https://pytorch.org/blog/towards-free-normalization-fusing-normalization-into-gemm-and-attention-kernels/",
+      "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "https://huggingface.co/blog/torch-attention-profile",
+      "https://huggingface.co/blog/revamped-kernels",
+      "https://arxiv.org/abs/2607.07820",
+      "https://arxiv.org/abs/2607.07976"
     ]
   },
   "finance": {
