@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-12</time>
+    </div>
+    <h2>贸易政策·产业竞争·金融稳定·AI经济</h2>
+    <p>美联储研究：关税落差分析、中国产业政策、美债长端利率、银行韧性与AI贸易效应</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税政策 #美债利率 #AI经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
