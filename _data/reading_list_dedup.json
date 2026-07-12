@@ -223,13 +223,6 @@
     ]
   },
   "finance": {
-    "2026-06-11": [
-      "https://fredblog.stlouisfed.org/2026/06/understanding-the-various-us-debt-to-gdp-ratios/",
-      "https://fredblog.stlouisfed.org/2026/06/why-exclude-food-and-energy-from-inflation-measures/",
-      "https://fredblog.stlouisfed.org/2026/06/rising-capital-expenditures-and-declining-cash-holdings-during-the-ai-boom/",
-      "https://fredblog.stlouisfed.org/2026/06/velocity-of-money-the-invisible-pulse-of-the-economy/",
-      "https://arxiv.org/abs/2606.11047"
-    ],
     "2026-06-12": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html",
@@ -426,6 +419,13 @@
       "https://arxiv.org/abs/2607.08759",
       "https://arxiv.org/abs/2607.07849",
       "https://arxiv.org/abs/2607.08610"
+    ],
+    "2026-07-12": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html"
     ]
   }
 }
