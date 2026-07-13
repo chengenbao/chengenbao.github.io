@@ -232,13 +232,6 @@
     ]
   },
   "finance": {
-    "2026-06-12": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-high-credit-growth-the-link-between-local-deposits-and-cre-lending-20260501.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
-      "https://arxiv.org/abs/2606.11566"
-    ],
     "2026-06-13": [
       "https://arxiv.org/abs/2606.12460",
       "https://arxiv.org/abs/2606.12788",
@@ -435,6 +428,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html"
+    ],
+    "2026-07-13": [
+      "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
+      "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history",
+      "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
+      "https://econofact.org/how-tighter-curbs-on-immigration-impact-the-u-s-economy",
+      "https://econofact.org/the-wealth-tax-debate"
     ]
   }
 }
