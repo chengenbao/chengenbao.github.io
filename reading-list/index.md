@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-13</time>
+    </div>
+    <h2>推测解码加速 · MoE剪枝 · 量化压缩 · PyTorch 2.13</h2>
+    <p>推测解码双连发、MoE专家剪枝、极低比特量化、PyTorch 2.13 FlexAttention 全面更新</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推测解码 · 量化 · MoE · PyTorch</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-12</time></div><h2>自定义运算求值 / 三矩形拼接求面积</h2><p>2022 AMC 8 P2 初一代数 · 2019 AMC 8 P2 六年级几何</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">六年级 · 初一 · AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-12-finance-daily/">
   <div class="rl-accent"></div>
