@@ -220,6 +220,15 @@
       "https://huggingface.co/blog/revamped-kernels",
       "https://arxiv.org/abs/2607.07820",
       "https://arxiv.org/abs/2607.07976"
+    ],
+    "2026-07-13": [
+      "http://arxiv.org/abs/2607.08642v1",
+      "http://arxiv.org/abs/2607.08601v1",
+      "http://arxiv.org/abs/2607.08399v1",
+      "http://arxiv.org/abs/2607.08754v1",
+      "http://arxiv.org/abs/2607.08690v1",
+      "http://arxiv.org/abs/2607.08643v1",
+      "https://pytorch.org/blog/pytorch-2-13-release-blog/"
     ]
   },
   "finance": {
