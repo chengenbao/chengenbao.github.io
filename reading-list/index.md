@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-13</time>
+    </div>
+    <h2>关税冲击、AI经济史、中国出口、移民政策与财富税</h2>
+    <p>5篇Econofact精选：从关税如何传导至零售价格，到AI热潮的经济史启示，涵盖贸易、宏观与财政多维视角。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Econofact</span>
+      <span class="rl-tags">#关税 #AI经济 #中国贸易 #移民 #财富税</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
