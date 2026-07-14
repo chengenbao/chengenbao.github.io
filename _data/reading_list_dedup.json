@@ -231,12 +231,6 @@
     ]
   },
   "finance": {
-    "2026-06-13": [
-      "https://arxiv.org/abs/2606.12460",
-      "https://arxiv.org/abs/2606.12788",
-      "https://arxiv.org/abs/2606.12612",
-      "https://arxiv.org/abs/2606.13431"
-    ],
     "2026-06-14": [
       "https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm",
       "https://www.federalreserve.gov/econres/feds/the-fragility-of-perfectly-safe-digital-money.htm",
@@ -434,6 +428,12 @@
       "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
       "https://econofact.org/how-tighter-curbs-on-immigration-impact-the-u-s-economy",
       "https://econofact.org/the-wealth-tax-debate"
+    ],
+    "2026-07-14": [
+      "https://arxiv.org/abs/2607.08920",
+      "https://arxiv.org/abs/2607.09589",
+      "https://arxiv.org/abs/2410.21019",
+      "https://arxiv.org/abs/2603.16006"
     ]
   }
 }
