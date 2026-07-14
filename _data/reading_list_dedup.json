@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-06-13": [
-      "https://arxiv.org/abs/2606.13328",
-      "https://arxiv.org/abs/2512.00053",
-      "https://arxiv.org/abs/2606.12765",
-      "https://arxiv.org/abs/2606.11262",
-      "https://arxiv.org/abs/2606.11275",
-      "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
-      "https://huggingface.co/blog/torch-mlp-fusion"
-    ],
     "2026-06-14": [
       "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
       "https://huggingface.co/blog/deepseekv4",
@@ -229,6 +220,14 @@
       "http://arxiv.org/abs/2607.08690v1",
       "http://arxiv.org/abs/2607.08643v1",
       "https://pytorch.org/blog/pytorch-2-13-release-blog/"
+    ],
+    "2026-07-14": [
+      "https://arxiv.org/abs/2607.08779",
+      "https://arxiv.org/abs/2607.08780",
+      "https://arxiv.org/abs/2607.08782",
+      "https://arxiv.org/abs/2607.08930",
+      "https://arxiv.org/abs/2607.08991",
+      "https://arxiv.org/abs/2607.08993"
     ]
   },
   "finance": {
