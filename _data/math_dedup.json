@@ -1,8 +1,5 @@
 {
   "sources": {
-    "2026-06-13": [
-      "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2025Gauss8Contest.html"
-    ],
     "2026-06-14": [
       "https://nrich.maths.org/925",
       "https://nrich.maths.org/4950"
@@ -122,6 +119,10 @@
     "2026-07-13": [
       "https://paper.luoboedu.com/articles/amc/amc-2024-amc10a.html",
       "https://paper.luoboedu.com/articles/amc/amc-2023-amc10b.html"
+    ],
+    "2026-07-14": [
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_1",
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_11"
     ]
   }
 }
