@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-14</time>
+    </div>
+    <h2>AI浪潮、能源转型、非洲崛起与财富税</h2>
+    <p>4篇精选：标普500 AI采纳研究、煤炭地区公正转型、非洲贸易网络实证、财富税中性框架</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv Economics</span>
+      <span class="rl-tags">#AI经济学 #能源转型 #非洲经济 #财富税</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
