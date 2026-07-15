@@ -221,13 +221,12 @@
       "https://arxiv.org/abs/2607.08993"
     ],
     "2026-07-15": [
-      "https://arxiv.org/abs/2607.10186",
-      "https://arxiv.org/abs/2607.10942",
-      "https://arxiv.org/abs/2607.11746",
-      "https://arxiv.org/abs/2607.09999",
-      "https://arxiv.org/abs/2607.10386",
-      "https://arxiv.org/abs/2607.09693",
-      "https://arxiv.org/abs/2607.09842"
+      "https://arxiv.org/abs/2607.09683",
+      "https://arxiv.org/abs/2607.09686",
+      "https://arxiv.org/abs/2607.09800",
+      "https://arxiv.org/abs/2601.07600",
+      "https://arxiv.org/abs/2607.10944",
+      "https://huggingface.co/blog/torch-mlp-fusion"
     ]
   },
   "finance": {
