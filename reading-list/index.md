@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-15</time>
+    </div>
+    <h2>LLM 推理加速与架构优化的前沿进展</h2>
+    <p>精选 7 篇覆盖推理加速、量化、蒸馏检测、编译器与边缘部署的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 量化 · 编译器 · 边缘部署 · 架构优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-07-15-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
