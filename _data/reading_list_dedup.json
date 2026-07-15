@@ -230,13 +230,6 @@
     ]
   },
   "finance": {
-    "2026-06-14": [
-      "https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm",
-      "https://www.federalreserve.gov/econres/feds/the-fragility-of-perfectly-safe-digital-money.htm",
-      "https://www.federalreserve.gov/econres/feds/bank-regulation-and-the-rise-of-nonbank-intermediation.htm",
-      "https://www.federalreserve.gov/econres/feds/the-role-of-inflation-perceptions-in-consumer-inflation-expectations-evidence-from-the-euro-area.htm",
-      "https://www.federalreserve.gov/econres/feds/financial-liberalizations-booms-and-crashes.htm"
-    ],
     "2026-06-15": [
       "https://www.federalreserve.gov/econres/feds/settlement-speed-and-financial-stability.htm",
       "https://www.federalreserve.gov/econres/feds/household-consumption-does-not-respond-directly-to-interest-rates.htm",
@@ -433,6 +426,12 @@
       "https://arxiv.org/abs/2607.09589",
       "https://arxiv.org/abs/2410.21019",
       "https://arxiv.org/abs/2603.16006"
+    ],
+    "2026-07-15": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/technology-shocks-the-ai-boom-and-the-us-current-account-20260714.htm",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "https://arxiv.org/abs/2607.09951",
+      "https://arxiv.org/abs/2607.09990"
     ]
   }
 }
