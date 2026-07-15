@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-07-15</time>
     </div>
+    <h2>KV-Cache压缩 · MoE本地推理 · 低精度训练 · GPU隔离 · NPU编程 · CUDA优化</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖 LLM 推理优化、量化训练、GPU/NPU 系统与 CUDA 性能调优。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型 · 量化 · GPU · NPU · CUDA</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-15</time>
+    </div>
     <h2>LLM 推理加速 x 量化失效 x 结构化推理 x 硬件感知优化</h2>
     <p>覆盖 Flash 存储推理、量化隐性失效、无训练推理增强、边缘 ViT 调度等 7 个前沿方向</p>
     <div class="rl-meta">
