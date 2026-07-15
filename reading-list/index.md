@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-15</time></div><h2>网格路径的转向计数 / 彩票条件概率</h2><p>组合：8×8 网格恰好转向 4 次的路径数；概率：已知中奖求中大奖的条件概率。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
