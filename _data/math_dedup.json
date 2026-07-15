@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-14": [
-      "https://nrich.maths.org/925",
-      "https://nrich.maths.org/4950"
-    ],
     "2026-06-15": [
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024Gauss7Contest.html#p26",
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024Gauss8Contest.html#p26"
@@ -123,6 +119,10 @@
     "2026-07-14": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_19",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_4"
+    ],
+    "2026-07-15": [
+      "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_6",
+      "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_4"
     ]
   }
 }
