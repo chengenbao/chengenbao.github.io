@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-15</time>
+    </div>
+    <h2>LLM 推理加速 x 量化失效 x 结构化推理 x 硬件感知优化</h2>
+    <p>覆盖 Flash 存储推理、量化隐性失效、无训练推理增强、边缘 ViT 调度等 7 个前沿方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · cs.AR · cs.LG · cs.CL</span>
+      <span class="rl-tags">LLM推理 · 量化 · 硬件优化 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-14</time></div><h2>圆内接四边形短对角线 / 阶乘整除性</h2><p>AMC 10/12 竞赛真题：几何练圆内接四边形对角线，数论练阶乘整除性。</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">奥数题·AMC10·AMC12·几何·数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-14-finance-daily/">
   <div class="rl-accent"></div>
