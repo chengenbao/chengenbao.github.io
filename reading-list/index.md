@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-15</time>
+    </div>
+    <h2>AI浪潮、货币政策与全球贸易新格局</h2>
+    <p>Fed FEDS Notes / FOMC 纪要 / 海上贸易风险 / 政治权力与国际贸易</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FOMC / arXiv econ</span>
+      <span class="rl-tags">#宏观 #货币政策 #国际贸易</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
