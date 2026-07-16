@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-06-15": [
-      "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
-      "https://pytorch.org/blog/using-muon-optimizer-with-deepspeed/",
-      "https://pytorch.org/blog/why-is-pytorch-compile-so-fast-kernel-fusion/",
-      "https://pytorch.org/blog/how-linkedin-uses-pytorch-to-solve-extreme-scale-optimization-problems/",
-      "https://arxiv.org/abs/2606.13328v1",
-      "https://arxiv.org/abs/2606.13560v1",
-      "https://arxiv.org/abs/2606.14528v1"
-    ],
     "2026-06-16": [
       "https://arxiv.org/abs/2606.13740",
       "https://arxiv.org/abs/2606.13873",
@@ -228,6 +219,15 @@
       "https://arxiv.org/abs/2604.13523",
       "https://arxiv.org/abs/2607.10942",
       "https://arxiv.org/abs/2607.09694"
+    ],
+    "2026-07-16": [
+      "https://arxiv.org/abs/2607.11976",
+      "https://arxiv.org/abs/2607.12606",
+      "https://arxiv.org/abs/2607.11933",
+      "https://arxiv.org/abs/2607.12505",
+      "https://arxiv.org/abs/2607.12215",
+      "https://arxiv.org/abs/2607.12839",
+      "https://arxiv.org/abs/2607.11940"
     ]
   },
   "finance": {
