@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-15": [
-      "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024Gauss7Contest.html#p26",
-      "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024Gauss8Contest.html#p26"
-    ],
     "2026-06-16": [
       "https://wiki.randommath.com/amc10/2024/part-a/problem-15",
       "https://wiki.randommath.com/amc10/2024/part-a/problem-16"
@@ -123,6 +119,10 @@
     "2026-07-15": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_6",
       "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_4"
+    ],
+    "2026-07-16": [
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_8",
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_10"
     ]
   }
 }
