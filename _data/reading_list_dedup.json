@@ -231,12 +231,6 @@
     ]
   },
   "finance": {
-    "2026-06-15": [
-      "https://www.federalreserve.gov/econres/feds/settlement-speed-and-financial-stability.htm",
-      "https://www.federalreserve.gov/econres/feds/household-consumption-does-not-respond-directly-to-interest-rates.htm",
-      "https://www.federalreserve.gov/econres/feds/double-inertia-taylor-rules-and-monetary-policy-gradualism.htm",
-      "https://www.federalreserve.gov/econres/feds/skill-and-efficiency-in-the-us-mutual-fund-industry.htm"
-    ],
     "2026-06-16": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
@@ -433,6 +427,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/india-and-the-global-economy-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/mortgage-servicing-right-valuations-under-stress-20260604.html"
+    ],
+    "2026-07-16": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/technology-shocks-the-ai-boomandthe-u-s-current-account-20260714.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html"
     ]
   }
 }
