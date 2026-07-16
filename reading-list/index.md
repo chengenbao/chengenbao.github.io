@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-16</time>
+    </div>
+    <h2>AI 投资潮、中国出口新浪潮与稳定币的宏观脉动</h2>
+    <p>美联储 FEDS Notes 精选：AI 与经常账户、中国出口、稳定币、银行股与地缘风险、关税传导。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #稳定币 #关税</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
