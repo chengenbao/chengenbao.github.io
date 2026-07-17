@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-17</time></div><h2>函数方程不可能值 / 旋转正方形求角</h2><p>AMC 12B 函数方程 f(a+b)+f(a−b)=2f(a)f(b) 与 AMC 10B 旋转正方形求 ∠EAB。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-17-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
