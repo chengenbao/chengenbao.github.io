@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-17</time>
+    </div>
+    <h2>AI 投资热潮的宏观代价、货币格局与金融稳定</h2>
+    <p>精选 4 篇美联储 FEDS Notes 研究：AI 投资对经常账户与投资周期的影响、美元国际角色与对冲基金美债敞口。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #金融稳定</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
