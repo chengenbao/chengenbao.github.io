@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-16": [
-      "https://arxiv.org/abs/2606.13740",
-      "https://arxiv.org/abs/2606.13873",
-      "https://arxiv.org/abs/2606.13940",
-      "https://arxiv.org/abs/2606.14243",
-      "https://arxiv.org/abs/2606.11716",
-      "https://arxiv.org/abs/2606.13808"
-    ],
     "2026-06-17": [
       "https://arxiv.org/abs/2606.15007",
       "https://arxiv.org/abs/2606.15079",
@@ -228,6 +220,15 @@
       "https://arxiv.org/abs/2607.12215",
       "https://arxiv.org/abs/2607.12839",
       "https://arxiv.org/abs/2607.11940"
+    ],
+    "2026-07-17": [
+      "https://arxiv.org/abs/2607.13095",
+      "https://arxiv.org/abs/2607.13124",
+      "https://arxiv.org/abs/2607.13246",
+      "https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/",
+      "https://arxiv.org/abs/2607.13068",
+      "https://arxiv.org/abs/2607.13649",
+      "https://arxiv.org/abs/2605.15026"
     ]
   },
   "finance": {
