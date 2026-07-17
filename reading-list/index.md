@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-17</time>
+    </div>
+    <h2>LLM推理优化·芯片架构·编译器与训练</h2>
+    <p>今日 7 篇精选覆盖 LLM 推理加速、结构化剪枝恢复、Muon 优化器、Triton 插件、解码芯片经济学、存算一体与 OS 调优。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · LLM · GPU · 编译器 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-16</time></div><h2>无穷根式乘积 / 1-14 配对组合</h2><p>2022 AMC 12A 真实真题：指数无穷乘积 + 构造性配对计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #组合 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-16-finance-daily/">
   <div class="rl-accent"></div>
