@@ -232,13 +232,6 @@
     ]
   },
   "finance": {
-    "2026-06-17": [
-      "https://arxiv.org/abs/2606.15960",
-      "https://arxiv.org/abs/2606.15999",
-      "https://arxiv.org/abs/2606.15936",
-      "https://arxiv.org/abs/2606.16469",
-      "https://arxiv.org/abs/2606.15757"
-    ],
     "2026-06-18": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
@@ -434,6 +427,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/technology-shocks-the-ai-boomandthe-u-s-current-account-20260714.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/do-major-technology-advancements-lead-to-overinvestment-20260706.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/decomposing-hedge-funds-u-s-treasury-exposures-20260622.html"
+    ],
+    "2026-07-18": [
+      "https://arxiv.org/abs/2607.14446",
+      "https://arxiv.org/abs/2607.14585",
+      "https://arxiv.org/abs/2607.14418",
+      "https://arxiv.org/abs/2509.26523",
+      "https://arxiv.org/abs/2509.07987"
     ]
   }
 }
