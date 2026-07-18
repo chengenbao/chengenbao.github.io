@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-18</time></div><h2>除数平方立方计数 / 等腰三角与圆内接四边形</h2><p>AMC 10A 2019 两道真题：数论因数计数 + 几何圆内接四边形角度。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论·几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-18-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
