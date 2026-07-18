@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-18</time>
+    </div>
+    <h2>绿色补贴、AI监管与平台经济的微观洞察</h2>
+    <p>本期覆盖绿色产业补贴、AI 监管、搜索广告机制、平台收入分化与量化交易五大议题。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #平台经济 #量化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-18-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
