@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-18": [
-      "https://nrich.maths.org/924",
-      "https://nrich.maths.org/1023"
-    ],
     "2026-06-19": [
       "https://arxiv.org/abs/2606.19473",
       "https://arxiv.org/abs/2606.19500"
@@ -123,6 +119,9 @@
     "2026-07-18": [
       "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
       "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_13"
+    ],
+    "2026-07-19": [
+      "https://amc-trainer.vercel.app/data/problems/amc12a/2024.json"
     ]
   }
 }
