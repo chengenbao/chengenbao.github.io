@@ -232,13 +232,6 @@
     ]
   },
   "finance": {
-    "2026-06-18": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
-      "https://arxiv.org/abs/2606.17290",
-      "https://arxiv.org/abs/2606.17965"
-    ],
     "2026-06-19": [
       "https://arxiv.org/abs/2606.18994",
       "https://arxiv.org/abs/2606.18288",
@@ -434,6 +427,12 @@
       "https://arxiv.org/abs/2607.14418",
       "https://arxiv.org/abs/2509.26523",
       "https://arxiv.org/abs/2509.07987"
+    ],
+    "2026-07-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html"
     ]
   }
 }
