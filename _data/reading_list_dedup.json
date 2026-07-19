@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-18": [
-      "https://arxiv.org/abs/2606.17118",
-      "https://arxiv.org/abs/2606.17104",
-      "https://arxiv.org/abs/2606.17249",
-      "https://arxiv.org/abs/2606.17781",
-      "https://arxiv.org/abs/2606.17081",
-      "https://arxiv.org/abs/2606.17199"
-    ],
     "2026-06-19": [
       "https://arxiv.org/abs/2606.18286",
       "https://arxiv.org/abs/2606.18307",
@@ -229,6 +221,14 @@
       "https://arxiv.org/abs/2607.14171",
       "https://arxiv.org/abs/2607.14789",
       "https://arxiv.org/abs/2607.14119"
+    ],
+    "2026-07-19": [
+      "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "https://arxiv.org/abs/2607.14272",
+      "https://arxiv.org/abs/2607.14271",
+      "https://arxiv.org/abs/2607.14233",
+      "https://arxiv.org/abs/2607.14192",
+      "https://huggingface.co/blog/ibm-research/scarfbench"
     ]
   },
   "finance": {
