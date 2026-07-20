@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#444"/>
+    </marker>
+  </defs>
+  <!-- Regular tetrahedron ABCD -->
+  <!-- Top vertex D -->
+  <circle cx="180" cy="60" r="5" fill="#c0392b"/>
+  <text x="192" y="58" font-family="serif" font-size="18" fill="#c0392b">D</text>
+  <!-- Base triangle A(60,250) B(300,250) C(180,290) -->
+  <circle cx="70" cy="250" r="5" fill="#2c3e50"/>
+  <text x="48" y="272" font-family="serif" font-size="18" fill="#2c3e50">A</text>
+  <circle cx="290" cy="250" r="5" fill="#2c3e50"/>
+  <text x="300" y="272" font-family="serif" font-size="18" fill="#2c3e50">B</text>
+  <circle cx="180" cy="290" r="5" fill="#2c3e50"/>
+  <text x="188" y="312" font-family="serif" font-size="18" fill="#2c3e50">C</text>
+  <!-- Midpoint M of AB -->
+  <circle cx="180" cy="250" r="4.5" fill="#27ae60"/>
+  <text x="186" y="244" font-family="serif" font-size="18" fill="#27ae60">M</text>
+  <!-- Edges of base -->
+  <line x1="70" y1="250" x2="290" y2="250" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="70" y1="250" x2="180" y2="290" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="290" y1="250" x2="180" y2="290" stroke="#7f8c8d" stroke-width="2"/>
+  <!-- Edges from D -->
+  <line x1="180" y1="60" x2="70" y2="250" stroke="#c0392b" stroke-width="2"/>
+  <line x1="180" y1="60" x2="290" y2="250" stroke="#c0392b" stroke-width="2"/>
+  <line x1="180" y1="60" x2="180" y2="290" stroke="#c0392b" stroke-width="2"/>
+  <!-- Segment CM and DM (angle CMD) -->
+  <line x1="180" y1="250" x2="180" y2="290" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="180" y1="60" x2="180" y2="250" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,4"/>
+  <!-- Angle arc at M -->
+  <path d="M 150 250 A 30 30 0 0 1 180 220" fill="none" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="120" y="222" font-family="serif" font-size="15" fill="#27ae60">∠CMD</text>
+</svg>
