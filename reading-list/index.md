@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-20</time></div><h2>正四面体中的余弦值 / 循环小数的数位谜题</h2><p>几何（正四面体角）与数论（循环小数+同余）两道 AMC 真题精讲</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-20-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
