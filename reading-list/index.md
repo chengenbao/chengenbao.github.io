@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-20</time>
+    </div>
+    <h2>端侧推理、世界模型与分布式微调的前沿实践</h2>
+    <p>今日 6 篇精选覆盖 NeMo 大规模微调、LeRobot 世界模型、SkyPilot 零出口存储、Agent 架构、领域专精 OCR 与 ExecuTorch 端侧优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型微调 · 机器人 · 云存储 · Agent</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-19</time></div><h2>12枚令牌的分配概率 / 三次方程根的乘积式求值</h2><p>12枚令牌随机分配的概率 + 三次方程根的乘积式求值，两道 AMC 12 真题带你练手。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-19-finance-daily/">
   <div class="rl-accent"></div>
