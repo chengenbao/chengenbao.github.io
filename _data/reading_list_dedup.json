@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-19": [
-      "https://arxiv.org/abs/2606.18286",
-      "https://arxiv.org/abs/2606.18307",
-      "https://arxiv.org/abs/2606.18322",
-      "https://arxiv.org/abs/2606.18958",
-      "https://arxiv.org/abs/2606.19055",
-      "https://huggingface.co/blog/peft-beyond-lora"
-    ],
     "2026-06-20": [
       "https://arxiv.org/abs/2606.19365",
       "https://arxiv.org/abs/2606.19346",
@@ -229,6 +221,14 @@
       "https://arxiv.org/abs/2607.14233",
       "https://arxiv.org/abs/2607.14192",
       "https://huggingface.co/blog/ibm-research/scarfbench"
+    ],
+    "2026-07-20": [
+      "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "https://huggingface.co/blog/lerobot-release-v060",
+      "https://huggingface.co/blog/skypilot-hf-storage",
+      "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/"
     ]
   },
   "finance": {
