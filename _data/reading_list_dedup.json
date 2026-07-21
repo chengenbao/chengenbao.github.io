@@ -233,12 +233,6 @@
     ]
   },
   "finance": {
-    "2026-06-20": [
-      "https://arxiv.org/abs/2606.19794",
-      "https://arxiv.org/abs/2606.19777",
-      "https://arxiv.org/abs/2606.20041",
-      "https://arxiv.org/abs/2606.19972"
-    ],
     "2026-06-21": [
       "https://www.federalreserve.gov/econres/feds/the-causal-effect-of-debt-on-interest-rates.htm",
       "https://www.federalreserve.gov/econres/feds/the-feds-fine-tune-coarse-statements-and-predictive-pressers.htm",
@@ -435,6 +429,12 @@
       "https://www.brookings.edu/articles/tracking-federal-expenditures-in-real-time/",
       "https://www.brookings.edu/articles/toward-a-u-s-africa-critical-minerals-investment-strategy-tools-priorities-and-tradeoffs/",
       "https://www.brookings.edu/articles/tracking-trade-amid-uncertain-and-changing-tariff-policies/"
+    ],
+    "2026-07-21": [
+      "https://arxiv.org/abs/2607.15363",
+      "https://arxiv.org/abs/2607.15385",
+      "https://arxiv.org/abs/2607.15381",
+      "https://arxiv.org/abs/2508.03708"
     ]
   }
 }
