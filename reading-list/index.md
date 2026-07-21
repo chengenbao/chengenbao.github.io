@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-21</time>
+    </div>
+    <h2>家庭金融、货币政策传导与 AI 劳动力冲击</h2>
+    <p>4 篇精选：流动性资产与消费、算法中介下的货币政策国际传导、AI 与二元劳动力市场、税改优化框架。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #货币政策 #AI #财税</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
