@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-20": [
-      "https://nrich.maths.org/1010",
-      "https://nrich.maths.org/4954"
-    ],
     "2026-06-21": [
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2024BCCContest5_6.html#boat-parking",
       "https://cemc.uwaterloo.ca/sites/default/files/documents/2025/2024BCCContest7_8.html#spices"
@@ -122,6 +118,10 @@
     "2026-07-20": [
       "https://wiki.randommath.com/amc12/2022/part-a/problem-12",
       "https://wiki.randommath.com/amc10/2022/part-a/problem-17"
+    ],
+    "2026-07-21": [
+      "https://amc-trainer.vercel.app/data/problems/amc10b/2015.json",
+      "https://amc-trainer.vercel.app/data/problems/amc10a/2023.json"
     ]
   }
 }
