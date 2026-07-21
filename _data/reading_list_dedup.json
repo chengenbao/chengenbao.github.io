@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-20": [
-      "https://arxiv.org/abs/2606.19365",
-      "https://arxiv.org/abs/2606.19346",
-      "https://arxiv.org/abs/2606.19350",
-      "https://arxiv.org/abs/2606.19348",
-      "https://arxiv.org/abs/2305.04122",
-      "https://arxiv.org/abs/2606.19364"
-    ],
     "2026-06-21": [
       "https://arxiv.org/abs/2606.20493",
       "https://arxiv.org/abs/2606.18400",
@@ -229,6 +221,15 @@
       "https://huggingface.co/blog/allenai/shippy-tech-blog",
       "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/"
+    ],
+    "2026-07-21": [
+      "https://arxiv.org/abs/2607.15498",
+      "https://arxiv.org/abs/2607.15655",
+      "https://arxiv.org/abs/2607.15736",
+      "https://arxiv.org/abs/2607.15865",
+      "https://arxiv.org/abs/2607.15456",
+      "https://arxiv.org/abs/2605.29752",
+      "https://arxiv.org/abs/2607.15569"
     ]
   },
   "finance": {
