@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "LLM 推理压缩与加速、MLIR 编译器、GEMM 性能与 CXL 共享内存"
+title: "长上下文推理、端侧 LLM、MoE 与 RL 训练前沿"
 category: tech
 tags: [Tech, 多源, 前沿]
 date: 2026-07-21
@@ -8,126 +8,126 @@ date: 2026-07-21
 
 # 📰 2026-07-21 · 每日技术速递
 
-> 今日精选 7 篇深度技术文章，覆盖 KV 缓存压缩、扩散模型解码加速、推理蒸馏、MLIR 编译器、GEMM 性能分析与 CXL 分布式共享内存。
+> 今日精选 7 篇深度技术文章，覆盖 长上下文稀疏注意力、端侧/边缘 LLM 推理、分布式 MoE、结构化剪枝、KV Cache 复用、GPU Kernel 生成与百万级 token RL 训练。
 
 ---
 
-## 1. VarRate：免训练的可变速率 KV 缓存压缩
-
-**来源**：arXiv cs.CL
-**链接**：https://arxiv.org/abs/2607.15498
-**标签**：KV Cache · 长上下文推理 · 低秩压缩 · 免训练 · 内存优化
-
-KV 缓存是长上下文 LLM 推理的主要显存瓶颈。现有免训练方案各有结构性缺陷：token 选择法（SnapKV、Ada-KV）一旦误删重要 token 准确率会暴跌 11–15 点，而均匀低秩编码则对所有 token 一视同仁浪费预算。VarRate 提出按 query 显著性给每个 token 分配可变低秩预算、保留非零秩但不丢弃任何 token 的思路——这种按秩分配而非按删除的思路是两类失败的共同解药。在 LongBench 16 个任务上，匹配 20% 预算时 VarRate 在 Llama-3.1-8B 与 Qwen2.5-7B 上仅距无损模型 0.8 点，且预填充开销约为 KVzip 的八分之一。
-
-**核心要点**：
-- 指出 token 选择法误删与均匀低秩编码浪费两类失效可统一归结为「应分配秩而非删除 token」
-- 按 query 显著性为每个 token 动态分配可变低秩预算，全程免训练
-- 匹配 20% 缓存预算下接近无损，预填充开销仅为专用方法 KVzip 的约 1/8
-
----
-
-## 2. AdaLook：扩散语言模型的自适应多步前瞻解码
-
-**来源**：arXiv cs.CL
-**链接**：https://arxiv.org/abs/2607.15655
-**标签**：扩散语言模型 · 推理加速 · 前瞻解码 · 并行生成 · 解码轨迹
-
-掩码扩散语言模型（DLM）通过迭代细化被遮掩 token 实现并行文本生成，是自回归解码的有力替代。近期前瞻式解码在提交 token 更新前探索未来解码状态以改善精度—效率权衡，但主流方法依赖浅层单步前瞻，对长程解码轨迹次优；而朴素加深前瞻又会引入多余计算且无法适配异构的中间状态。AdaLook 提出自适应前瞻框架：依据候选分数方差动态决定是否继续 rollout，并在需要额外探索的中间状态启用分支扩展，从而既避免无谓的深 rollout，又能在信息丰富的中间态重新触发前瞻。多个基准与模型上，AdaLook 取得了优于现有单步前瞻解码的精度—步数权衡。
-
-**核心要点**：
-- 揭示单步前瞻对长程轨迹次优、朴素深前瞻计算浪费的缺陷
-- 以候选分数方差驱动自适应 rollout 深度与分支扩展
-- 在 DLM 上获得更优的精度—解码步数权衡
-
----
-
-## 3. BIRD：基于自推理蒸馏的紧凑推理模型训练
-
-**来源**：arXiv cs.CL
-**链接**：https://arxiv.org/abs/2607.15736
-**标签**：推理蒸馏 · 自蒸馏 · Chain-of-Thought · 推理压缩 · Qwen3
-
-大型推理模型常以冗长 CoT 求解，但大量算力耗散在冗余推导与重复自验上。现有 on-policy 自蒸馏仅对采样到的前缀施加监督，从冗长基模型起步时 KL 损失落在噪声、冗余甚至已跑偏的上下文上，形成初始化瓶颈。BIRD（Bootstrapped Iterative Self-Reasoning Distillation）提出两阶段方法：先以简洁指令采样正确答案轨迹并做轻量 prompt-switch SFT，把「指令诱导的简洁」转成默认推理行为；再以此 warm 模型做 on-policy 反向 KL 蒸馏。在 Qwen3-8B 上，MATH-500 准确率从 86.2% 提升到 92.0%，平均回复长度从 3099 降至 1115 token。
-
-**核心要点**：
-- 指出 on-policy 自蒸馏的初始化瓶颈：监督落在噪声/冗余前缀上
-- 两阶段：先简洁指令采样+prompt-switch SFT 做预热，再 on-policy 反向 KL 蒸馏
-- Qwen3-8B 上精度提升且回复长度压缩至约 1/3
-
----
-
-## 4. 基于 MLIR 的大模型编译方法（TPU-MLIR）
-
-**来源**：arXiv cs.CL
-**链接**：https://arxiv.org/abs/2607.15865
-**标签**：MLIR · 编译器 · TPU · 推理调度 · 量化部署
-
-LLM 已是 AI 加速器上的核心负载，但在专用硬件上部署仍面临两大挑战：如何将训练好的模型导入编译器友好的中间表示，以及在有限片上内存下高效调度自回归推理循环。本文提出基于 MLIR 的大模型编译方法，用 TopOp 与 TpuOp 两个方言表达：TopOp 作为与源框架和目标芯片均无关的高层图方言承载模型语义，TpuOp 作为目标硬件方言承载量化、层分组、内存布局等芯片相关决策；模型先表示为 TopOp，再逐层 lowering 到 TpuOp 并生成可部署二进制。每个 Transformer 层被静态拆分为 prefill、prefill_kv、decode 三阶段以适配提示并行与逐 token 生成的差异。该方法已在 TPU-MLIR 中实现，支持 Qwen、Llama、InternVL、MiniCPM-V 等及 GPTQ/AWQ/AutoRound 多种量化形式。
-
-**核心要点**：
-- 双方言设计：TopOp 表达语义、TpuOp 承载芯片相关决策，逐层 lowering
-- Transformer 层拆为 prefill/prefill_kv/decode 三阶段适配不同计算特征
-- 已落地 TPU-MLIR，支持多系列生成模型与多种量化部署形态
-
----
-
-## 5. LLA：循环 Transformer 的跨循环 KV 压缩
+## 1. FlashMemory-DeepSeek-V4：基于前瞻稀疏注意力的超长上下文显存优化
 
 **来源**：arXiv cs.LG
-**链接**：https://arxiv.org/abs/2607.15456
-**标签**：KV 压缩 · 循环 Transformer · 后训练编解码 · 低秩 · 长上下文
+**链接**：https://arxiv.org/abs/2606.09079
+**标签**：长上下文推理 · 稀疏注意力 · KV Cache · 显存优化 · DeepSeek-V4
 
-循环权重共享 Transformer 通过复用同一 block 缩减参数量，但解码时仍为每个递归步保存独立 K/V 缓存。本文发现该 loop-indexed 缓存高度结构化：固定 token、层与头时，K/V 向量在循环维度上呈短低秩轨迹，而头与层轴则平坦得多。据此提出 Looped Latent Attention（LLA）——一种后训练缓存编解码器，只存储紧凑的 K/V 潜变量，仅在 attention 读取时重建循环特定的 K/V 向量。默认 per-head 编解码压缩递归，LLA-2D 进一步把头也折叠进单一潜变量以进入极限压缩区间。在匹配缓存预算下，per-head LLA 优于 head-axis MLA、跨层共享、KV 量化与最终循环复用。单张 H200 上，潜变量存储路径将 Ouro-1.4B 在 4k 上下文的批容量从 32 提升到 768 条序列（21.3x 压缩）。
+针对超长上下文解码时全量 KV Cache 驻留显存导致的严重瓶颈，本文提出 Lookahead Sparse Attention (LSA) 推理范式：用一个基于 DeepSeek-V4 架构的 Neural Memory Indexer 主动预测未来上下文需求，仅把查询关键的 KV 分块保留在 GPU 显存中。关键在于采用 backbone-free decoupled training —— 将 indexer 形式化为标准双编码器，使用常规检索训练框架独立训练，无需加载主干模型权重，大幅降低训练成本。
 
 **核心要点**：
-- 揭示循环 KV 缓存的低秩结构：循环维轨迹短、头/层轴平坦
-- 后训练潜变量编解码，仅在使用时重建 K/V，缓存缩减精确无损
-- 单卡 H200 上 4k 上下文批容量提升 21.3 倍
+- LSA 主动预测并只保留查询关键的 KV 分块，显著降低超长上下文解码的 GPU 显存占用
+- Neural Memory Indexer 以双编码器形式解耦训练，不依赖主干模型加载，训练成本低
+- 面向百万级 token 推理场景，缓解长上下文服务中的显存墙问题
 
 ---
 
-## 6. 从 Roofline 到 Ruggedness：GEMM 性能曲面分解与平滑
+## 2. SelectInfer：面向端侧 LLM 的神经元级选择性加载与计算
 
-**来源**：arXiv cs.AR
-**链接**：https://arxiv.org/abs/2605.29752
-**标签**：GEMM · GPU 性能 · 性能分析 · Kernel 优化 · Roofline
+**来源**：arXiv cs.LG
+**链接**：https://arxiv.org/abs/2607.18081
+**标签**：端侧推理 · 模型压缩 · 神经元选择 · 边缘设备 · LLM 部署
 
-相邻仅差 128 元素步长的 GEMM 问题吞吐可相差 30%——这种普遍存在的「性能崎岖度」被 roofline 分析与峰值 FLOPs 直觉完全忽略，却主导一切非峰值负载。本文提出性能崎岖度分析，作为 roofline 的补充框架：不以标量上界概括 GPU，而是把整个多维性能曲面作为研究对象，将其纹理分解为可归因于具体机制的成分，并区分软件可消除与硬件绑定损失。在 Intel Battlemage（Arc B580）BF16 NN GEMM 上以 32768 组 (M,N,K) 配置扫描实例化，提出 roughness 指标（平均逐步吞吐变化），并通过两阶段栈（best-of-six 动态 tile 选择 + 动态规划 padding/splitting 优化器）将 roughness 削减 70%、均值吞吐提升 30%。最终仅凭 datasheet 整数从第一性原理推导最优可达曲面，给出 Kernel Optimality Levels 评级。
+LLM 在资源受限的边缘设备上部署时面临巨大的算力与显存压力。现有压缩方法多依赖粗粒度剪枝或量化，易损失精度或需要重训练。SelectInfer 提出神经元级优化框架：通过离线 LLM profiler 识别任务相关与通用神经元，在推理时仅选择性加载并计算必要神经元，在保持精度的同时大幅削减端侧开销。
 
 **核心要点**：
-- 定义 GEMM 性能崎岖度，揭示 roofline 无法捕捉的离散硬件导致的吞吐波动
-- 两阶段栈（动态 tile 选择 + DP padding/splitting）削减 roughness 70%、提升均值吞吐 30%
-- 仅凭 datasheet 从第一性原理推导最优曲面，给出 Kernel 最优性评级
+- 神经元级细粒度优化，区别于粗粒度剪枝/量化，精度损失更小
+- 离线 profiler 区分任务特定神经元与通用神经元，指导运行时选择性加载
+- 无需重训练/微调即可在边缘设备实现高效 LLM 推理
 
 ---
 
-## 7. xDSM：基于弹性 CXL 的分布式共享内存扩展多线程应用
+## 3. OrderMoE：专家相似度驱动的分布式边端 MoE 推理
 
-**来源**：arXiv cs.OS
-**链接**：https://arxiv.org/abs/2607.15569
-**标签**：CXL · 分布式共享内存 · 操作系统 · 弹性页 · 近线性扩展
+**来源**：arXiv cs.LG
+**链接**：https://arxiv.org/abs/2607.17154
+**标签**：MoE · 分布式推理 · 边缘计算 · 通信开销 · 专家分配
 
-CXL 为分布式共享内存（DSM）提供了有前景的硬件基底，但跨多节点无缝扩展多线程应用仍是难题：现有方案需手动改代码共享非堆数据、采用刚性数据放置策略、并在亚微秒页错误环境下承受高昂处理开销。xDSM 提出构建于 CXL 之上的全空间、弹性 DSM 系统，可透明扩展未修改的多线程应用。其 OS-runtime 协同设计建立全局协调地址空间以无缝共享所有内存段；用动态、延迟驱动策略替代静态放置以在本地 DRAM 与 CXL 间主动平衡数据；并以空间局部性感知的弹性机制动态合并/拆分页来摊销页错误成本。15 种系统配置评估下，xDSM 较纯 CXL 基线快 1.5x–2.2x、较前沿混合 DSM 快 1.1x–2.2x，且近乎线性可扩展。
+MoE 模型虽能以适中算力扩展 LLM，但在带宽受限的边缘基础设施上部署推理仍具挑战。现有分布式 MoE 服务依赖精确专家放置、缓存、复制或通信调度，却忽略了专家间的功能相似性。OrderMoE 提出相似度感知的专家分配与分布式部署框架，利用专家功能相似性减少跨服务器 token 传输，在推理延迟、通信开销与服务器负载间取得平衡。
 
 **核心要点**：
-- OS-runtime 协同建立全局地址空间，透明共享所有内存段免改代码
-- 延迟驱动的动态数据放置替代静态策略，弹性页合并/拆分摊销页错误开销
-- 较 CXL 基线快 1.5–2.2x，近乎线性可扩展
+- 首次利用专家功能相似性降低跨服务器 token 传输量
+- 相似度感知的专家分配框架，兼顾延迟、通信与负载均衡
+- 面向带宽受限的边缘场景优化 MoE 分布式推理
 
 ---
 
+## 4. NIRVANA：面向 LLM 压缩的硬件感知结构化剪枝新范式
+
+**来源**：arXiv cs.LG
+**链接**：https://arxiv.org/abs/2509.14230
+**标签**：结构化剪枝 · LLM 压缩 · NTK 显著性 · 硬件感知 · 免重训练
+
+结构化剪枝是加速 LLM 推理的有效路径，但现有方法常有明显性能下降且需大量重训练恢复能力。NIRVANA 提出硬件感知结构化剪枝框架，通过受 Neural Tangent Kernel (NTK) 启发的一阶函数空间显著性评估结构重要性，保护模型关键训练动态，同时避免结构性坍塌，在保留零样本性能与下游微调优化景观的前提下实现高效压缩。
+
+**核心要点**：
+- 以 NTK 启发的一阶函数空间显著性替代传统基于损失的启发式，保护训练动态
+- 硬件感知设计，剪枝后结构可直接加速真实推理
+- 保留零样本性能与下游微调能力，降低重训练需求
+
+---
+
+## 5. C²KV：面向高效 LLM 推理的压缩且可组合的 KV Cache 复用
+
+**来源**：arXiv cs.CL
+**链接**：https://arxiv.org/abs/2607.17715
+**标签**：KV Cache · 缓存复用 · 长上下文 · RAG · 推理加速
+
+长上下文推理是 RAG 与多文档推理的核心。现有 KV Cache 复用方法聚焦计算节省，却忽略了存储与访问大 KV Cache 的成本瓶颈；而朴素地将压缩与非前缀 KV 复用结合常导致严重精度退化。C²KV 提出统一框架，联合优化 KV 提取与推理，实现非前缀 KV 复用场景下的压缩与可组合复用，在降本同时守住精度。
+
+**核心要点**：
+- 同时优化 KV 提取与推理，统一非前缀 KV 复用的压缩与复用
+- 解决压缩与非前缀复用直接叠加导致的精度退化问题
+- 针对长上下文 LLM 服务中的 KV 存储/访问瓶颈，适用 RAG 场景
+
+---
+
+## 6. Harness Engineering：面向 LLM 驱动 GPU Kernel 生成的工程化系统
+
+**来源**：arXiv cs.LG
+**链接**：https://arxiv.org/abs/2607.17979
+**标签**：GPU Kernel · 代码生成 · 编译验证 · Blackwell B200 · MLSys
+
+LLM 可辅助生成 GPU kernel，但实效取决于生成代码能否被可靠约束、验证、剖分与筛选。本文提出以 harness 为中心的系统，用于 MLSys 2026 FlashInfer AI Kernel 生成竞赛（NVIDIA Blackwell B200）。系统将评估 harness 与基于剖分的优化控制器解耦：harness 强制编译、正确性、官方对齐计时与产物归档；控制器将剖分与工作负载证据转化为有界的候选生成决策，人写 skill 固化算子约束与流程。
+
+**核心要点**：
+- 评估 harness 与优化控制器解耦，分别负责约束验证与候选决策
+- harness 强制编译/正确性/官方对齐计时/产物归档，保证可靠性
+- 面向 Blackwell B200 的 kernel 生成竞赛实践，强调工程化可复现
+
+---
+
+## 7. LongStraw：固定 GPU 预算下突破 2M Token 的长上下文 RL 训练
+
+**来源**：arXiv cs.LG
+**链接**：https://arxiv.org/abs/2607.14952
+**标签**：强化学习 · GRPO · 长上下文训练 · 显存优化 · Agent 训练
+
+百万级 token 推理与 RL 后训练（多在 256K token 以下）之间存在巨大鸿沟，而 AI agent 的长轨迹会累积海量观测与决策。GRPO 需对同历史的多条响应打分并反向传播，使注意力与长生命周期反向状态成为主要显存壁垒。LongStraw 提出目标与架构感知的系统：常驻状态仅保留后续 token 所需的模型原生 prompt 状态而非完整计算图，借助响应重放恢复状态并对 old/reference 分支进行无图打分，在固定 GPU 预算下实现百万级 token 的 RL 后训练。
+
+**核心要点**：
+- 常驻状态只保留模型原生 prompt 状态，不保留完整计算图，突破显存壁垒
+- 响应重放恢复状态并对 old/reference 分支做无图打分，大幅降显存
+- 将 RL 后训练上下文从 256K 扩展到 2M+ token，支撑长轨迹 agent 训练
+
+---
 
 ## 📊 今日速览
 
 | # | 标题摘要 | 来源 | 方向 |
 |---|---------|------|------|
-| 1 | VarRate：免训练的可变速率 KV 缓存压缩 | arXiv cs.CL | KV压缩 |
-| 2 | AdaLook：扩散语言模型的自适应多步前瞻解码 | arXiv cs.CL | 推理加速 |
-| 3 | BIRD：基于自推理蒸馏的紧凑推理模型训练 | arXiv cs.CL | 推理蒸馏 |
-| 4 | 基于 MLIR 的大模型编译方法（TPU-MLIR） | arXiv cs.CL | 编译器 |
-| 5 | LLA：循环 Transformer 的跨循环 KV 压缩 | arXiv cs.LG | KV压缩 |
-| 6 | 从 Roofline 到 Ruggedness：GEMM 性能曲面分解与平滑 | arXiv cs.AR | GPU性能 |
-| 7 | xDSM：基于弹性 CXL 的分布式共享内存扩展多线程应用 | arXiv cs.OS | OS/内存 |
+| 1 | FlashMemory-DeepSeek-V4 | arXiv cs.LG | 长上下文/显存 |
+| 2 | SelectInfer | arXiv cs.LG | 端侧推理 |
+| 3 | OrderMoE | arXiv cs.LG | 分布式MoE |
+| 4 | NIRVANA | arXiv cs.LG | 结构化剪枝 |
+| 5 | C²KV | arXiv cs.CL | KV Cache |
+| 6 | Harness Engineering | arXiv cs.LG | GPU Kernel |
+| 7 | LongStraw | arXiv cs.LG | 长上下文RL |
 
 *自动生成 · 2026-07-21 · jeffinchen daily tech reading list*
+
