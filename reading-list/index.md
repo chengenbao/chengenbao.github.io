@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-22</time>
+    </div>
+    <h2>宏观定价、住房行为与量化投资</h2>
+    <p>精选 5 篇经济研究：PoS 网络宏观定价、移民住房行为、纳斯达克组合优化、能源电价与预测市场价格发现。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #量化 #住房 #能源</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
