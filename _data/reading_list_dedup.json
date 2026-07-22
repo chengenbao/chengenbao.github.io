@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-06-21": [
-      "https://arxiv.org/abs/2606.20493",
-      "https://arxiv.org/abs/2606.18400",
-      "https://arxiv.org/abs/2606.18958",
-      "https://arxiv.org/abs/2606.20411",
-      "https://arxiv.org/abs/2606.20431",
-      "https://arxiv.org/abs/2606.19913",
-      "https://arxiv.org/abs/2606.19857"
-    ],
     "2026-06-22": [
       "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
       "https://huggingface.co/blog/zai-org/glm-52-blog",
@@ -230,6 +221,15 @@
       "https://arxiv.org/abs/2607.17715",
       "https://arxiv.org/abs/2607.17979",
       "https://arxiv.org/abs/2607.14952"
+    ],
+    "2026-07-22": [
+      "https://arxiv.org/abs/2607.16241",
+      "https://arxiv.org/abs/2607.16673",
+      "https://arxiv.org/abs/2607.16237",
+      "https://arxiv.org/abs/2607.16784",
+      "https://arxiv.org/abs/2607.17074",
+      "https://arxiv.org/abs/2607.17299",
+      "https://arxiv.org/abs/2607.16473"
     ]
   },
   "finance": {
