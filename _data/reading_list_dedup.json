@@ -233,12 +233,6 @@
     ]
   },
   "finance": {
-    "2026-06-21": [
-      "https://www.federalreserve.gov/econres/feds/the-causal-effect-of-debt-on-interest-rates.htm",
-      "https://www.federalreserve.gov/econres/feds/the-feds-fine-tune-coarse-statements-and-predictive-pressers.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html"
-    ],
     "2026-06-22": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
       "https://arxiv.org/abs/2606.20041v1",
@@ -435,6 +429,13 @@
       "https://arxiv.org/abs/2607.15385",
       "https://arxiv.org/abs/2607.15381",
       "https://arxiv.org/abs/2508.03708"
+    ],
+    "2026-07-22": [
+      "https://arxiv.org/abs/2607.16622",
+      "https://arxiv.org/abs/2607.17633",
+      "https://arxiv.org/abs/2607.16194",
+      "https://arxiv.org/abs/2607.17640",
+      "https://arxiv.org/abs/2603.03152"
     ]
   }
 }
