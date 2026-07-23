@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-23</time>
+    </div>
+    <h2>AI 浪潮、全球贸易重构与可持续经济</h2>
+    <p>精选 5 篇美联储与 arXiv 财经研究，覆盖宏观、贸易与可持续经济。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#宏观 #贸易 #AI #可持续</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
