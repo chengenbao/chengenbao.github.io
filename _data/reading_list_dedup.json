@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-06-22": [
-      "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
-      "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "https://huggingface.co/blog/is-it-agentic-enough",
-      "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "https://huggingface.co/blog/hf-cli-for-agents",
-      "https://huggingface.co/blog/Hcompany/holo31"
-    ],
     "2026-06-24": [
       "https://arxiv.org/abs/2606.23670v1",
       "https://arxiv.org/abs/2606.23568v1",
@@ -230,6 +222,15 @@
       "https://arxiv.org/abs/2607.17074",
       "https://arxiv.org/abs/2607.17299",
       "https://arxiv.org/abs/2607.16473"
+    ],
+    "2026-07-23": [
+      "https://arxiv.org/abs/2607.18280",
+      "https://arxiv.org/abs/2607.19248",
+      "https://arxiv.org/abs/2607.18533",
+      "https://arxiv.org/abs/2607.18097",
+      "https://arxiv.org/abs/2607.18413",
+      "https://arxiv.org/abs/2607.18532",
+      "https://arxiv.org/abs/2607.18765"
     ]
   },
   "finance": {
