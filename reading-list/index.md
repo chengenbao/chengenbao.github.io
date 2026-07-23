@@ -18,7 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
-<a class="rl-card math" href="/reading-list/2026-07-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-23</time></div><h2>五个连续整数的平均数变换 / 三直线围成三角形的面积</h2><p>从连续整数的平均数递推，到三直线交点求三角形面积——代数与解析几何各一道 AMC 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-07-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-23</time></div><h2>初中数学联赛真题：共轭根式 / 平方数串数位 / 质数数论</h2><p>2024 全国初中数学联赛三道真题（含完整解答）：代数共轭诡计、平方数串第 2024 位、二试数论压轴 a=251,b=7。</p><div class="rl-meta"><span class="rl-source">2024 全国初中数学联赛</span><span class="rl-tags">代数 · 数论 · 数位</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-23-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
