@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-23": [
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf",
-      "https://www.cemc.uwaterloo.ca/sites/default/files/documents/2025/2025BCCContest5_6.pdf"
-    ],
     "2026-06-24": [
       "https://nrich.maths.org/1099",
       "https://nrich.maths.org/874"
@@ -122,6 +118,10 @@
     "2026-07-23": [
       "https://raw.githubusercontent.com/mlian031/mathcontests/master/AMC/2014/12A/9/latex.txt",
       "https://raw.githubusercontent.com/mlian031/mathcontests/master/AMC/2019/10A/7/latex.txt"
+    ],
+    "2026-07-24": [
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_4",
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12A_Problems/Problem_24"
     ]
   }
 }
