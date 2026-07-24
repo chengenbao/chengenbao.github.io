@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-24</time>
+    </div>
+    <h2>每日技术速递：编译器 / 量化推理 / GPU 架构 / 硬件加速器 / PEFT / 内核安全</h2>
+    <p>Helion 跨硬件 Kernel、Nunchaku 4-bit 扩散推理、Apple M5 LLM 加速、GPU NUMA 剖析等 7 篇深度前沿。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Hugging Face Blog · PyTorch Blog · arXiv cs.AR · arXiv cs.LG · arXiv cs.OS</span>
+      <span class="rl-tags">编译器 · 量化 · GPU · 加速器 · 内核</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-23</time></div><h2>初中数学联赛真题：共轭根式 / 平方数串数位 / 质数数论</h2><p>2024 全国初中数学联赛三道真题（含完整解答）：代数共轭诡计、平方数串第 2024 位、二试数论压轴 a=251,b=7。</p><div class="rl-meta"><span class="rl-source">2024 全国初中数学联赛</span><span class="rl-tags">代数 · 数论 · 数位</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-23-finance-daily/">
   <div class="rl-accent"></div>
