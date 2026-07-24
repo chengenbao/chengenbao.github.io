@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-07-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-24</time></div><h2>LCM 与 GCD 反推整数 / 子集链计数与取模</h2><p>一道 LCM/GCD 反推数字之和的数论题，一道子集链计数的组合题，均取自 AMC 12A 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC12 · 数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-24-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
