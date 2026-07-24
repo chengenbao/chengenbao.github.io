@@ -231,6 +231,15 @@
       "https://arxiv.org/abs/2607.18413",
       "https://arxiv.org/abs/2607.18532",
       "https://arxiv.org/abs/2607.18765"
+    ],
+    "2026-07-24": [
+      "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
+      "https://huggingface.co/blog/nunchaku-diffusers",
+      "https://arxiv.org/abs/2607.19438",
+      "https://arxiv.org/abs/2607.19922",
+      "https://arxiv.org/abs/2607.19431",
+      "https://arxiv.org/abs/2607.19391",
+      "https://arxiv.org/abs/2607.17518"
     ]
   },
   "finance": {
