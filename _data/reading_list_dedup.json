@@ -244,13 +244,6 @@
     ]
   },
   "finance": {
-    "2026-06-24": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/decomposing-hedge-funds-u-s-treasury-exposures-20260622.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/retail-sweep-behavior-since-the-elimination-of-reserve-requirements-20260622.html",
-      "https://www.ft.com/content/8d6ab8b6-e4ce-4103-9f99-6cb2cb63a3fe",
-      "https://www.ft.com/content/f4647c58-6fb9-46ee-9b81-d02c31c2c95b",
-      "https://www.ft.com/content/ef857abe-d24c-449d-85c8-cf4d8cf9f968"
-    ],
     "2026-06-25": [
       "https://arxiv.org/abs/2606.24616",
       "https://arxiv.org/abs/2606.23922",
@@ -448,6 +441,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-geopolitical-risk-exposure-across-industries-a-firm-centered-approach-20250829.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/decoding-the-productivity-puzzle-a-new-perspective-on-the-relationship-between-remote-work-and-prod-20250825.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20250509.html"
+    ],
+    "2026-07-25": [
+      "https://www.bis.org/publ/work1367.htm",
+      "https://www.bis.org/publ/work1370.htm",
+      "https://www.bis.org/publ/work1371.htm",
+      "https://www.nber.org/papers/w35472",
+      "https://www.nber.org/papers/w35479"
     ]
   }
 }
