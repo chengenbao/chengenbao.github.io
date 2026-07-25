@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-24": [
-      "https://nrich.maths.org/1099",
-      "https://nrich.maths.org/874"
-    ],
     "2026-06-25": [
       "https://wiki.randommath.com/amc10/2022/part-a/problem-12",
       "https://wiki.randommath.com/amc10/2022/part-a/problem-14"
@@ -122,6 +118,10 @@
     "2026-07-24": [
       "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_4",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12A_Problems/Problem_24"
+    ],
+    "2026-07-25": [
+      "https://wiki.randommath.com/amc10/2024/part-a/problem-17",
+      "https://wiki.randommath.com/amc10/2022/part-a/problem-16"
     ]
   }
 }
