@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-25</time>
+    </div>
+    <h2>KV Cache 压缩、MoE 路由规律与 RLVR 推理边界诊断</h2>
+    <p>7 篇精选：KV Cache 压缩编码、模型压缩瓶颈突破、MoE 路由的 Huffman 编码法则、RLVR pass@k 反转诊断、Muon 优化器 Grokking 机制、RISC-V 端侧 FP16 训练、AI Agent 跑通 RTL-to-GDS 全流程评测。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · MoE · RLVR · 量化压缩 · RISC-V · EDA</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-24</time></div><h2>LCM 与 GCD 反推整数 / 子集链计数与取模</h2><p>一道 LCM/GCD 反推数字之和的数论题，一道子集链计数的组合题，均取自 AMC 12A 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC12 · 数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-24-finance-daily/">
   <div class="rl-accent"></div>
