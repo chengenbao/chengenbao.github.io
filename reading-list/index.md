@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-25</time>
+    </div>
+    <h2>AI 投资热潮、稳定币与货币控制、汇率传导</h2>
+    <p>5 篇：AI 投资竞赛的金融稳定风险、稳定币美元化镜鉴、汇率传导新证据、联邦研发经济效应、企业退出与金融摩擦。</p>
+    <div class="rl-meta">
+      <span class="rl-source">BIS / NBER</span>
+      <span class="rl-tags">#宏观 #货币政策 #AI投资</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
