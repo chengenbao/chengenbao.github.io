@@ -242,12 +242,6 @@
     ]
   },
   "finance": {
-    "2026-06-25": [
-      "https://arxiv.org/abs/2606.24616",
-      "https://arxiv.org/abs/2606.23922",
-      "https://arxiv.org/abs/2606.23032",
-      "https://arxiv.org/abs/2510.19271"
-    ],
     "2026-06-26": [
       "https://arxiv.org/abs/2606.25909",
       "https://arxiv.org/abs/2510.25487",
@@ -446,6 +440,13 @@
       "https://www.bis.org/publ/work1371.htm",
       "https://www.nber.org/papers/w35472",
       "https://www.nber.org/papers/w35479"
+    ],
+    "2026-07-26": [
+      "http://arxiv.org/abs/2607.12205v1",
+      "http://arxiv.org/abs/2607.09514v1",
+      "http://arxiv.org/abs/2607.20068v1",
+      "http://arxiv.org/abs/2607.21048v1",
+      "http://arxiv.org/abs/2607.03868v1"
     ]
   }
 }
