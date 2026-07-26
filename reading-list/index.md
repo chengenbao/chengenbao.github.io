@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-26</time>
+    </div>
+    <h2>宏观周期、加密监管与系统性风险</h2>
+    <p>美国房地产信贷周期、欧盟稳定币监管、供应链系统性风险与欧洲能源独立。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / BIS / WSJ / FT</span>
+      <span class="rl-tags">#宏观 #财经</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
