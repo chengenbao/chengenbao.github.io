@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-26</time>
+    </div>
+    <h2>Inkling 1T开源多模态MoE、物理AI仿真、机器人数据采集与图像模型数据管线</h2>
+    <p>今日聚焦大模型架构、量化推理、机器人学习数据与生成式模型训练管线的一线工程实践。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · 量化 · 机器人 · 仿真 · 数据管线</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-25</time></div><h2>季后赛胜率与二次方程 / 多项式根与长方体体积</h2><p>用条件概率建立二次方程求主客场胜率；用韦达定理巧算增维长方体体积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-25-finance-daily/">
   <div class="rl-accent"></div>
