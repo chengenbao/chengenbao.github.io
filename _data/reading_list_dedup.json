@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-06-25": [
-      "https://arxiv.org/abs/2606.23739",
-      "https://arxiv.org/abs/2606.21428",
-      "https://arxiv.org/abs/2606.23969",
-      "https://arxiv.org/abs/2606.24506",
-      "https://arxiv.org/abs/2606.23698",
-      "https://pytorch.org/blog/serving-deepseek-v4-on-gb300-with-sglang-5x-higher-throughput-at-the-same-interactivity-since-day-0/",
-      "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
-    ],
     "2026-06-26": [
       "https://arxiv.org/abs/2606.24957",
       "https://arxiv.org/abs/2606.25353",
@@ -241,6 +232,13 @@
       "https://arxiv.org/abs/2607.20512",
       "https://arxiv.org/abs/2607.21130",
       "https://arxiv.org/abs/2607.17528"
+    ],
+    "2026-07-26": [
+      "https://huggingface.co/blog/thinkingmachines-inkling",
+      "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "https://huggingface.co/blog/grabette",
+      "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "https://huggingface.co/blog/real-world-voiceeq"
     ]
   },
   "finance": {
