@@ -242,12 +242,6 @@
     ]
   },
   "finance": {
-    "2026-06-26": [
-      "https://arxiv.org/abs/2606.25909",
-      "https://arxiv.org/abs/2510.25487",
-      "https://arxiv.org/abs/2606.22599",
-      "https://arxiv.org/abs/2606.25466"
-    ],
     "2026-06-27": [
       "https://arxiv.org/abs/2506.18277",
       "https://arxiv.org/abs/2506.17821",
@@ -447,6 +441,12 @@
       "http://arxiv.org/abs/2607.20068v1",
       "http://arxiv.org/abs/2607.21048v1",
       "http://arxiv.org/abs/2607.03868v1"
+    ],
+    "2026-07-27": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/retail-sweep-behavior-since-the-elimination-of-reserve-requirements-20260622.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html"
     ]
   }
 }
