@@ -18,6 +18,23 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+
+<a class="rl-card finance" href="/reading-list/2026-07-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-27</time>
+    </div>
+    <h2>货币政策操作、BNPL 全景、供应链重构与稳定币跨境支付</h2>
+    <p>4 篇 Fed FEDS Notes：零售扫款行为、先买后付产品全景、墨西哥供应链角色、稳定币与跨境支付。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #消费金融 #供应链 #稳定币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
