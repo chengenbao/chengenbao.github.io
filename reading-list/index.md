@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-28</time>
+    </div>
+    <h2>PyTorch原生智能体RL训练框架、原生多模态预训练、稀疏注意力路由与MoE微调</h2>
+    <p>6篇精选：Molt训练框架、原生多模态Scaling、因果证据监督稀疏注意力、MoE²-LoRA、J空间推理链、AI-Native系统定义。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM训练 · 稀疏注意力 · MoE · 多模态 · 系统架构</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-27</time></div><h2>整数配对计数 / 骰子先偶后奇的概率</h2><p>1~14 配对使大数≥2倍小数的方案数，与掷骰子时三个偶数全部先于奇数出现的概率。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 
 <a class="rl-card finance" href="/reading-list/2026-07-27-finance-daily/">
