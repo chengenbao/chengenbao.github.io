@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-06-27": [
-      "https://www.cut-the-knot.org/arithmetic/OldAgeConundrum.shtml",
-      "https://www.cut-the-knot.org/arithmetic/SevenNumbersSumUpTo100.shtml"
-    ],
     "2026-06-28": [
       "https://nrich.maths.org/1004",
       "https://nrich.maths.org/1001"
@@ -124,6 +120,12 @@
       "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_18",
       "https://amc-trainer.vercel.app/data/problems/amc10a/2022.json#p14",
       "https://amc-trainer.vercel.app/data/problems/amc10b/2021.json#p18"
+    ],
+    "2026-07-28": [
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_16",
+      "https://amc-trainer.vercel.app/data/problems/amc12b/2022.json#p16",
+      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_9",
+      "https://amc-trainer.vercel.app/data/problems/amc10a/2024.json#p9"
     ]
   }
 }
