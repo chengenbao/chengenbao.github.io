@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-28</time>
+    </div>
+    <h2>关税传导、银行挤兑史鉴与欧洲银行业联盟</h2>
+    <p>纽约联储关税通胀观察、3000次银行挤兑历史研究、新兴市场韧性、债务偿付与财政可持续性、欧洲银行业碎片化五篇精选。</p>
+    <div class="rl-meta">
+      <span class="rl-source">NY Fed / VoxEU-CEPR</span>
+      <span class="rl-tags">#宏观 #银行 #财政</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
