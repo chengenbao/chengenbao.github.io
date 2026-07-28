@@ -242,13 +242,6 @@
     ]
   },
   "finance": {
-    "2026-06-27": [
-      "https://arxiv.org/abs/2506.18277",
-      "https://arxiv.org/abs/2506.17821",
-      "https://arxiv.org/abs/2506.18274",
-      "https://arxiv.org/abs/2506.18133",
-      "https://arxiv.org/abs/2507.00307"
-    ],
     "2026-06-28": [
       "https://www.nber.org/papers/w35356",
       "https://www.nber.org/papers/w35361",
@@ -447,6 +440,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html"
+    ],
+    "2026-07-28": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/06/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle/",
+      "https://cepr.org/voxeu/columns/debt-service-and-fiscal-sustainability",
+      "https://cepr.org/voxeu/columns/why-europes-banks-stay-home-regulatory-fragmentation-and-cost-incomplete-banking"
     ]
   }
 }
