@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-29</time>
+    </div>
+    <h2>不平等测度、碳市场与养老金改革</h2>
+    <p>5 篇研究：基尼系数测度、EUA 碳价预测、墨西哥养老金普惠化、TANK 工资缓冲与逆向市场设计。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#不平等 #碳市场 #养老金</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-28</time></div><h2>对数方程组的最值 / 平均分组计数</h2><p>连取两次对数化出韦达结构求 log₂y 最大值；6+6 学生平分三队的经典去重计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-28-finance-daily/">
   <div class="rl-accent"></div>
