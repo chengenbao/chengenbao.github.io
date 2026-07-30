@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-07-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-07-30</time>
+    </div>
+    <h2>LLM 推理加速专题：异构调度、MoE 内核、稀疏注意力与剪枝，兼看 FHE GPU 架构与系统代码形式化验证</h2>
+    <p>7 篇深度技术文章：异构平台 LLM 推理算子调度、MoE 分布感知内核派发、长上下文稀疏注意力、向量处理器稀疏张量计算、因果剪枝、FHE GPU 微架构、LLM 驱动的 TLA+ 形式化验证。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · MoE · 稀疏注意力 · GPU架构 · 形式化验证</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-29</time></div><h2>对数方程解之积 / 角平分线与平行线</h2><p>对数换底与韦达定理巧算解之积；角平分线遇垂线的经典等腰构型。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-29-finance-daily/">
   <div class="rl-accent"></div>
