@@ -242,13 +242,6 @@
     ]
   },
   "finance": {
-    "2026-06-29": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/a-news-based-approach-to-measuring-shortages-and-their-effects-on-the-global-economy-20260626.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html"
-    ],
     "2026-06-30": [
       "https://arxiv.org/abs/2606.27525",
       "https://arxiv.org/abs/2606.27924",
@@ -448,6 +441,12 @@
       "https://arxiv.org/abs/2602.14774",
       "https://arxiv.org/abs/2605.15614",
       "https://arxiv.org/abs/2607.24389"
+    ],
+    "2026-07-30": [
+      "https://federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
+      "https://federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
+      "https://federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html",
+      "https://federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html"
     ]
   }
 }
