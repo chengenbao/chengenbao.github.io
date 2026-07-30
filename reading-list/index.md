@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-30</time>
+    </div>
+    <h2>美联储研究四篇：政策沟通史、次级车贷、MMF 流动性与贸易融资</h2>
+    <p>从大通胀时期的贴现率公告到 BHPH 次级车贷，再到货币市场基金挤兑风险与银行贸易融资数据。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#货币政策 #金融稳定 #消费信贷</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-07-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
