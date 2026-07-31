@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-06-30": [
-      "https://arxiv.org/abs/2606.27550",
-      "https://arxiv.org/abs/2606.27791",
-      "https://arxiv.org/abs/2606.27785",
-      "https://arxiv.org/abs/2606.27906",
-      "https://arxiv.org/abs/2606.27884",
-      "https://arxiv.org/abs/2606.27449",
-      "https://arxiv.org/abs/2606.27578"
-    ],
     "2026-07-01": [
       "https://arxiv.org/abs/2606.28831",
       "https://arxiv.org/abs/2606.30039",
@@ -239,6 +230,14 @@
       "https://arxiv.org/abs/2607.22720",
       "https://arxiv.org/abs/2602.22229",
       "https://arxiv.org/abs/2607.25333"
+    ],
+    "2026-07-31": [
+      "https://arxiv.org/abs/2603.01097",
+      "https://arxiv.org/abs/2607.25852",
+      "https://arxiv.org/abs/2607.26515",
+      "https://arxiv.org/abs/2607.27090",
+      "https://arxiv.org/abs/2607.19450",
+      "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/"
     ]
   },
   "finance": {
