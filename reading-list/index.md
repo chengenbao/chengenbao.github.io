@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-07-31-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-07-31</time>
+    </div>
+    <h2>宏观·国际·微观三维透视</h2>
+    <p>精选 4 篇权威来源文章，覆盖货币政策、全球资本流动与银行信贷三大维度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / BIS / WSJ / FT</span>
+      <span class="rl-tags">#宏观 #国际 #微观</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-07-31-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
