@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <!-- coordinate mapping: A(0,0)->(40,320) B(30,0)->(360,320) C(30,28)->(360,40) D(0,28)->(40,40) scale=10.6 -->
+  <!-- rectangle -->
+  <rect x="40" y="40" width="320" height="280" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- points -->
+  <circle cx="40" cy="320" r="4" fill="#333"/><text x="28" y="338" font-size="14">A</text>
+  <circle cx="360" cy="320" r="4" fill="#333"/><text x="368" y="338" font-size="14">B</text>
+  <circle cx="360" cy="40" r="4" fill="#333"/><text x="368" y="34" font-size="14">C</text>
+  <circle cx="40" cy="40" r="4" fill="#333"/><text x="22" y="34" font-size="14">D</text>
+  <!-- P on BC (x=360, y from 320 up 16*10.6=170 -> 320-170=150) -->
+  <circle cx="360" cy="150" r="4" fill="#c0392b"/><text x="372" y="154" font-size="14" fill="#c0392b">P</text>
+  <!-- Q on CD (y=40, x from 40 right 21*10.6=222.6 -> 262.6) -->
+  <circle cx="263" cy="40" r="4" fill="#2980b9"/><text x="258" y="30" font-size="14" fill="#2980b9">Q</text>
+  <!-- segments AP, PQ, QA -->
+  <line x1="40" y1="320" x2="360" y2="150" stroke="#c0392b" stroke-width="2"/>
+  <line x1="360" y1="150" x2="263" y2="40" stroke="#27ae60" stroke-width="2"/>
+  <line x1="263" y1="40" x2="40" y2="320" stroke="#2980b9" stroke-width="2"/>
+  <!-- labels -->
+  <text x="180" y="345" font-size="12">AB = 30</text>
+  <text x="8" y="185" font-size="12" transform="rotate(-90 8 185)">BC = 28</text>
+  <text x="195" y="248" font-size="12" fill="#c0392b">AP = 34</text>
+  <text x="320" y="100" font-size="12" fill="#27ae60">PQ = 15</text>
+  <text x="135" y="170" font-size="12" fill="#2980b9">QA = 35</text>
+</svg>
