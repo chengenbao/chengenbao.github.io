@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-07-01": [
-      "mimo:amc_003",
-      "mimo:aime_001"
-    ],
     "2026-07-02": [
       "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr4_2022.pdf",
       "https://spiritofmathcontest.com/wp-content/uploads/2023/06/SoMC_Gr6_2022.pdf"
@@ -126,6 +122,11 @@
     "2026-07-31": [
       "https://amc-trainer.vercel.app/data/problems/amc10a/2024.json#p17",
       "https://amc-trainer.vercel.app/data/problems/amc12a/2024.json#p13"
+    ],
+    "2026-08-01": [
+      "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a-problems-and-answers.pdf",
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_17",
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_23"
     ]
   }
 }
