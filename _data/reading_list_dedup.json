@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-01": [
-      "https://arxiv.org/abs/2606.28831",
-      "https://arxiv.org/abs/2606.30039",
-      "https://arxiv.org/abs/2606.28876",
-      "https://arxiv.org/abs/2606.28560",
-      "https://arxiv.org/abs/2512.12530",
-      "https://arxiv.org/abs/2606.28525",
-      "https://arxiv.org/abs/2606.28661"
-    ],
     "2026-07-02": [
       "https://arxiv.org/abs/2606.31145",
       "https://arxiv.org/abs/2606.26150",
@@ -238,6 +229,16 @@
       "https://arxiv.org/abs/2607.27090",
       "https://arxiv.org/abs/2607.19450",
       "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/"
+    ],
+    "2026-08-01": [
+      "https://arxiv.org/abs/2607.27694",
+      "https://arxiv.org/abs/2607.27704",
+      "https://arxiv.org/abs/2607.27269",
+      "https://arxiv.org/abs/2607.27275",
+      "https://arxiv.org/abs/2607.27273",
+      "https://arxiv.org/abs/2607.27383",
+      "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "https://huggingface.co/blog/Dharma-AI/gpu-management"
     ]
   },
   "finance": {
