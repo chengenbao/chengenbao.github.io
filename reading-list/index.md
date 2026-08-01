@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-01</time>
+    </div>
+    <h2>低比特量化、推理加速与训练效率前沿</h2>
+    <p>8 篇精选：涵盖低位宽量化、MLA 投机解码、4-bit 智能体失效、训练后数据处理、Adam 收敛理论与 GPU 利用率。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · 训练效率 · GPU利用率</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-07-31-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-31</time></div><h2>季后赛胜率概率 / 指数函数图象对称</h2><p>AMC 10/12 真题：三局两胜季后赛胜率方程 + 指数函数图象对称轴</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-31-finance-daily/">
   <div class="rl-accent"></div>
