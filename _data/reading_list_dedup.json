@@ -242,13 +242,6 @@
     ]
   },
   "finance": {
-    "2026-07-02": [
-      "https://arxiv.org/abs/2606.30685",
-      "https://arxiv.org/abs/2606.21880",
-      "https://arxiv.org/abs/2606.31188",
-      "https://arxiv.org/abs/2606.30999",
-      "https://arxiv.org/abs/2602.03981"
-    ],
     "2026-07-03": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
       "https://arxiv.org/abs/2607.01101",
@@ -446,6 +439,13 @@
       "https://arxiv.org/abs/2607.27569",
       "https://arxiv.org/abs/2607.28133",
       "https://arxiv.org/abs/2607.28378"
+    ],
+    "2026-08-02": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html"
     ]
   }
 }
