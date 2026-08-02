@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-02</time>
+    </div>
+    <h2>新兴市场、AI经济、贸易转移与美元地位</h2>
+    <p>美联储 FEDS Notes 精选 5 篇，覆盖宏观、科技经济、国际贸易、国际金融与 FDI。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #AI经济 #贸易 #美元 #FDI</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
