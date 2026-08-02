@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-02</time>
+    </div>
+    <h2>大模型量化/推理加速与异构服务架构</h2>
+    <p>精选 7 篇聚焦 LLM 量化、KV Cache、异构推理调度与 Agent 评测的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · 异构服务 · 智能体评测</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-01</time></div><h2>矩形内整数直角三角形 / 互补因子之差</h2><p>几何：矩形内三整数边三角形构造；数论：互补因数之差求 N 的数位和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-01-finance-daily/">
   <div class="rl-accent"></div>
