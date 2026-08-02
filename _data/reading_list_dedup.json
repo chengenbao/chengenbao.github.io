@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-02": [
-      "https://arxiv.org/abs/2606.31145",
-      "https://arxiv.org/abs/2606.26150",
-      "https://arxiv.org/abs/2606.30789",
-      "https://arxiv.org/abs/2606.31408",
-      "https://arxiv.org/abs/2606.30926",
-      "https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/",
-      "https://pytorch.org/blog/introducing-cross-repository-ci-relay-scalable-ci-for-pytorchs-out-of-tree-backends/"
-    ],
     "2026-07-04": [
       "https://arxiv.org/abs/2607.01237",
       "https://arxiv.org/abs/2607.01520",
@@ -239,6 +230,15 @@
       "https://arxiv.org/abs/2607.27383",
       "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
       "https://huggingface.co/blog/Dharma-AI/gpu-management"
+    ],
+    "2026-08-02": [
+      "http://arxiv.org/abs/2607.28589v1",
+      "http://arxiv.org/abs/2607.28495v1",
+      "http://arxiv.org/abs/2607.26633v1",
+      "http://arxiv.org/abs/2607.25498v1",
+      "http://arxiv.org/abs/2607.28576v1",
+      "http://arxiv.org/abs/2607.27704v1",
+      "http://arxiv.org/abs/2607.28609v1"
     ]
   },
   "finance": {
