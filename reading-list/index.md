@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-03-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-03</time>
+    </div>
+    <h2>行星尺度推理、实时世界模型与 AI 驱动安全事件复盘</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖地理空间大规模推理、手术仿真世界模型蒸馏、云端一键部署与安全事件技术复盘。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 基础设施 · 推理 · 安全</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-02</time></div><h2>3x3 四色网格染色 / 三次方程三根皆整数</h2><p>组合：3×3 四色网格染色计数（AMC 10）；概率：三次方程有三整数根的概率（AMC 12）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率 · AMC10 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-02-finance-daily/">
   <div class="rl-accent"></div>
