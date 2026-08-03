@@ -250,12 +250,6 @@
     ]
   },
   "finance": {
-    "2026-07-03": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
-      "https://arxiv.org/abs/2607.01101",
-      "https://arxiv.org/abs/2606.02503",
-      "https://arxiv.org/abs/2607.00279"
-    ],
     "2026-07-04": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/is-china-really-growing-at-5-percent-20250606.html",
@@ -454,6 +448,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html"
+    ],
+    "2026-08-03": [
+      "http://arxiv.org/abs/2607.27548v1",
+      "http://arxiv.org/abs/2607.29162v1",
+      "http://arxiv.org/abs/2607.28790v1",
+      "http://arxiv.org/abs/2607.29210v1",
+      "http://arxiv.org/abs/2607.28378v1"
     ]
   }
 }
