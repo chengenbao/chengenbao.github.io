@@ -239,6 +239,14 @@
       "http://arxiv.org/abs/2607.28576v1",
       "http://arxiv.org/abs/2607.27704v1",
       "http://arxiv.org/abs/2607.28609v1"
+    ],
+    "2026-08-03": [
+      "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "https://huggingface.co/blog/security-incident-july-2026"
     ]
   },
   "finance": {
