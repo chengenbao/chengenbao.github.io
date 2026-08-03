@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-03": [
-      "https://nrich.maths.org/96",
-      "https://nrich.maths.org/249"
-    ],
     "2026-07-04": [
       "https://nrich.maths.org/problems/tilted-squares",
       "https://nrich.maths.org/problems/painted-cube"
@@ -127,6 +123,10 @@
       "https://ivyleaguecenter.org/wp-content/uploads/2023/10/2023-amc-10a-problems-and-answers.pdf",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_17",
       "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_23"
+    ],
+    "2026-08-03": [
+      "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_17",
+      "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_11"
     ]
   }
 }
