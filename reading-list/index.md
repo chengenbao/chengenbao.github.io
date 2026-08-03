@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-03</time>
+    </div>
+    <h2>宏观惯性、资本配置与劳动力市场</h2>
+    <p>每日财经精选：宏观惯性谜题、线上资本配置地理集中、欧洲电力传输权套利、衰退期人力资本阶梯，以及危机中的本地偏向行为。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #资本市场 #劳动力市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
