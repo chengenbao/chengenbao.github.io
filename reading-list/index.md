@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-04</time>
+    </div>
+    <h2>稳定币、通胀、商业地产与跨境技术流动</h2>
+    <p>本期美联储 FEDS Notes 精选 4 篇：稳定币对银行体系的冲击、后疫情通胀比较、商业地产韧性、跨境 VC 技术溢出。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#稳定币 #通胀 #商业地产 #跨境资本</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-08-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-03</time></div><h2>多项式零点区间计数 / 随机选书重合概率</h2><p>两道 AMC 10 真题：多项式符号判定 + 组合概率实战。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数,组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-03-finance-daily/">
   <div class="rl-accent"></div>
