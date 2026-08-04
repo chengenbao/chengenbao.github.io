@@ -250,13 +250,6 @@
     ]
   },
   "finance": {
-    "2026-07-04": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/is-china-really-growing-at-5-percent-20250606.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html"
-    ],
     "2026-07-05": [
       "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
       "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity.htm",
@@ -455,6 +448,12 @@
       "http://arxiv.org/abs/2607.28790v1",
       "http://arxiv.org/abs/2607.29210v1",
       "http://arxiv.org/abs/2607.28378v1"
+    ],
+    "2026-08-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/drivers-of-post-pandemic-inflation-in-selected-advanced-economies-and-implications-for-the-outlook-20230113.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-the-resiliency-of-the-banking-industry-to-a-commercial-real-estate-price-shock-20190530.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/cross-border-venture-capital-and-reverse-technology-flows-20241231.html"
     ]
   }
 }
