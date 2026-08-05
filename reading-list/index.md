@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-05</time>
+    </div>
+    <h2>编译器、GPU内核与OS验证前沿</h2>
+    <p>7篇精选覆盖 MLIR 编译、GPU L1 共享、双稀疏 LLM 推理、文件系统模型检验与推理时 RL 对齐。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">编译器 · GPU · LLM推理 · OS验证 · 强化学习</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-04-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-04</time></div><h2>三局两胜季后赛概率 / 指数与根式等式</h2><p>今日两题：三局两胜赛制中的胜率参数求解，以及含参指数与根式等式的实数解之和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-04-finance-daily/">
   <div class="rl-accent"></div>
