@@ -242,13 +242,6 @@
     ]
   },
   "finance": {
-    "2026-07-05": [
-      "https://www.federalreserve.gov/econres/ifdp/tariffs-and-goods-market-search-frictions.htm",
-      "https://www.federalreserve.gov/econres/ifdp/volatile-rates-fragile-growth-global-financial-risk-and-productivity.htm",
-      "https://www.federalreserve.gov/econres/ifdp/fiscal-policy-portfolio-frictions-and-international-transmission.htm",
-      "https://www.federalreserve.gov/econres/ifdp/quantifying-deregulation-and-its-economic-effects.htm",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s.htm"
-    ],
     "2026-07-06": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
@@ -446,6 +439,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/drivers-of-post-pandemic-inflation-in-selected-advanced-economies-and-implications-for-the-outlook-20230113.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-the-resiliency-of-the-banking-industry-to-a-commercial-real-estate-price-shock-20190530.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/cross-border-venture-capital-and-reverse-technology-flows-20241231.html"
+    ],
+    "2026-08-05": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-sensitivity-of-regional-banks-to-macroeconomic-shocks-20260804.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
+      "https://arxiv.org/abs/2608.00328"
     ]
   }
 }
