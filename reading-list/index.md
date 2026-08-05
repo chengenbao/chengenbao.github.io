@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-05</time>
+    </div>
+    <h2>地区银行、AI 基建与新兴市场韧性</h2>
+    <p>美联储地区银行敏感性、AI 基建拉动、新兴市场紧缩周期韧性、全球煤炭贸易韧性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#宏观 #美联储 #新兴市场</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
