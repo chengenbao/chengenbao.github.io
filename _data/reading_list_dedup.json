@@ -1,22 +1,5 @@
 {
   "tech": {
-    "2026-07-04": [
-      "https://arxiv.org/abs/2607.01237",
-      "https://arxiv.org/abs/2607.01520",
-      "https://arxiv.org/abs/2606.28565",
-      "https://arxiv.org/abs/2606.11357",
-      "https://arxiv.org/abs/2607.01607",
-      "https://arxiv.org/abs/2607.01617",
-      "https://arxiv.org/abs/2607.01311"
-    ],
-    "2026-07-05": [
-      "http://arxiv.org/abs/2607.01617v1",
-      "http://arxiv.org/abs/2607.01607v1",
-      "http://arxiv.org/abs/2607.02461v1",
-      "http://arxiv.org/abs/2607.02460v1",
-      "http://arxiv.org/abs/2607.02502v1",
-      "http://arxiv.org/abs/2607.02512v1"
-    ],
     "2026-07-06": [
       "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "https://huggingface.co/blog/allenai/discoformer",
@@ -247,6 +230,15 @@
       "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "https://huggingface.co/blog/agent-intrusion-technical-timeline",
       "https://huggingface.co/blog/security-incident-july-2026"
+    ],
+    "2026-08-05": [
+      "https://arxiv.org/abs/2608.00029",
+      "https://arxiv.org/abs/2608.00412",
+      "https://arxiv.org/abs/2608.01536",
+      "https://arxiv.org/abs/2608.00894",
+      "https://arxiv.org/abs/2608.01135",
+      "https://arxiv.org/abs/2608.00259",
+      "https://arxiv.org/abs/2608.00175"
     ]
   },
   "finance": {
