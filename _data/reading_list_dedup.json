@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-06": [
-      "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "https://huggingface.co/blog/allenai/discoformer",
-      "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "https://huggingface.co/blog/cross-origin-storage",
-      "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "https://pytorch.org/blog/understanding-pytorchs-test-infrastructure/"
-    ],
     "2026-07-07": [
       "https://www.anthropic.com/research/global-workspace",
       "https://ternlight-demo.vercel.app/",
@@ -239,6 +231,14 @@
       "https://arxiv.org/abs/2608.01135",
       "https://arxiv.org/abs/2608.00259",
       "https://arxiv.org/abs/2608.00175"
+    ],
+    "2026-08-06": [
+      "https://arxiv.org/abs/2608.02691",
+      "https://arxiv.org/abs/2608.02700",
+      "https://arxiv.org/abs/2608.03867",
+      "https://arxiv.org/abs/2608.02954",
+      "https://arxiv.org/abs/2608.02703",
+      "https://arxiv.org/abs/2608.02625"
     ]
   },
   "finance": {
