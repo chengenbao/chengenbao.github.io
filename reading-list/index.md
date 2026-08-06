@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-06</time>
+    </div>
+    <h2>杠杆ETF、能源贸易韧性与劳动力市场</h2>
+    <p>4篇财经前沿：市场微观结构、国际能源贸易、性别薪资与数字治理。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #市场微观结构 #贸易</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
