@@ -242,12 +242,6 @@
     ]
   },
   "finance": {
-    "2026-07-06": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
-      "https://econofact.org/how-safe-are-private-credit-funds",
-      "https://econofact.org/how-the-u-s-fell-behind-in-adopting-the-electric-car"
-    ],
     "2026-07-07": [
       "https://arxiv.org/abs/2507.03082",
       "https://arxiv.org/abs/2507.03567",
@@ -445,6 +439,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
       "https://arxiv.org/abs/2608.00328"
+    ],
+    "2026-08-06": [
+      "https://arxiv.org/abs/2608.03703",
+      "https://arxiv.org/abs/2608.00328",
+      "https://arxiv.org/abs/2608.03153",
+      "https://arxiv.org/abs/2608.03221"
     ]
   }
 }
