@@ -243,13 +243,6 @@
     ]
   },
   "finance": {
-    "2026-07-07": [
-      "https://arxiv.org/abs/2507.03082",
-      "https://arxiv.org/abs/2507.03567",
-      "https://arxiv.org/abs/2507.03419",
-      "https://arxiv.org/abs/2507.03721",
-      "https://arxiv.org/abs/2507.02891"
-    ],
     "2026-07-08": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/do-major-technology-advancements-lead-to-overinvestment-20260706.html",
       "https://arxiv.org/abs/2607.02892",
@@ -446,6 +439,13 @@
       "https://arxiv.org/abs/2608.00328",
       "https://arxiv.org/abs/2608.03153",
       "https://arxiv.org/abs/2608.03221"
+    ],
+    "2026-08-07": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-is-geopolitical-fragmentation-reshaping-us-foreign-direct-investment-20250410.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-export-market-access-on-labor-market-power-firm-level-evidence-from-vietnam-20250331.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html"
     ]
   }
 }
