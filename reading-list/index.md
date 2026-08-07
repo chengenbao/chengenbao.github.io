@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-07</time>
+    </div>
+    <h2>美联储视角：通胀测算、地缘投资重构与全球资本流动</h2>
+    <p>5 篇美联储 FEDS Notes：通胀测算、地缘投资重构、贸易与劳动力市场、央行沟通与跨境资本流动。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #地缘经济 #资本流动</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
