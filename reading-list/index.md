@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-07</time>
+    </div>
+    <h2>LLM 量化·推理加速·MoE 训练·投机解码</h2>
+    <p>7 篇前沿论文，覆盖多精度量化、PIM-GPU 异构系统、KV Cache 压缩、MoE 内存优化与投机解码。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · MoE · 投机解码 · PIM</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-06</time></div><h2>骰子累计和概率 / 首一多项式根</h2><p>2023 AMC 10A 真题：概率分类讨论 + 代数多项式构造</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-06-finance-daily/">
   <div class="rl-accent"></div>
