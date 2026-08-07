@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-07</time></div><h2>正四面体中线夹角 / 调和数与最小公倍数的分母</h2><p>正四面体余弦角(p+q=4) 与 调和数分母比较(共8个n)。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">奥数题·AMC12·几何·数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-07-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
