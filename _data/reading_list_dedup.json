@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-07": [
-      "https://www.anthropic.com/research/global-workspace",
-      "https://ternlight-demo.vercel.app/",
-      "https://arxiv.org/abs/2607.02112",
-      "https://arxiv.org/abs/2607.01504",
-      "https://github.com/V4bel/Januscape",
-      "https://wiki.xxiivv.com/site/m_pc.html"
-    ],
     "2026-07-08": [
       "https://arxiv.org/abs/2607.03652",
       "https://arxiv.org/abs/2509.12993",
@@ -239,6 +231,15 @@
       "https://arxiv.org/abs/2608.02954",
       "https://arxiv.org/abs/2608.02703",
       "https://arxiv.org/abs/2608.02625"
+    ],
+    "2026-08-07": [
+      "https://arxiv.org/abs/2608.04048",
+      "https://arxiv.org/abs/2608.04169",
+      "https://arxiv.org/abs/2608.04074",
+      "https://arxiv.org/abs/2608.04407",
+      "https://arxiv.org/abs/2608.04962",
+      "https://arxiv.org/abs/2607.23933",
+      "https://arxiv.org/abs/2608.02087"
     ]
   },
   "finance": {
