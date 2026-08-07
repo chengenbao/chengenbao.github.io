@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-07": [
-      "https://nrich.maths.org/6793",
-      "https://nrich.maths.org/6896"
-    ],
     "2026-07-08": [
       "https://nrich.maths.org/2196",
       "https://nrich.maths.org/2842"
@@ -127,6 +123,10 @@
     "2026-08-06": [
       "https://live.poshenloh.com/past-contests/amc10/2023A/problem/7",
       "https://live.poshenloh.com/past-contests/amc10/2023A/problem/21"
+    ],
+    "2026-08-07": [
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_12",
+      "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_23"
     ]
   }
 }
