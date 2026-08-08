@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-08</time>
+    </div>
+    <h2>美联储FEDS Notes：关税通胀、劳动力市场与货币政策五篇精选</h2>
+    <p>覆盖关税价格传导、人口与劳动力市场、资产负债表演变、后疫情通胀机制与消费者真实行为。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #通胀</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
