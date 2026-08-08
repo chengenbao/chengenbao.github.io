@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-08</time></div><h2>子集的最大元素个数 / 白板上的奇数</h2><p>两道 2024 AMC 10 真实组合题：极值构造与奇偶性不变量</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-08-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
