@@ -244,13 +244,6 @@
     ]
   },
   "finance": {
-    "2026-07-08": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/do-major-technology-advancements-lead-to-overinvestment-20260706.html",
-      "https://arxiv.org/abs/2607.02892",
-      "https://arxiv.org/abs/2607.04345",
-      "https://arxiv.org/abs/2607.02791",
-      "https://arxiv.org/abs/2607.03144"
-    ],
     "2026-07-09": [
       "https://arxiv.org/abs/2607.06316",
       "https://arxiv.org/abs/2604.25826",
@@ -447,6 +440,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-export-market-access-on-labor-market-power-firm-level-evidence-from-vietnam-20250331.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html"
+    ],
+    "2026-08-08": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/tracking-consumer-sentiment-versus-how-consumers-are-doing-based-on-verified-retail-purchases-20250424.html"
     ]
   }
 }
