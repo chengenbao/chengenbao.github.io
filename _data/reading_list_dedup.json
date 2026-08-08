@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-08": [
-      "https://arxiv.org/abs/2607.03652",
-      "https://arxiv.org/abs/2509.12993",
-      "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
-      "https://arxiv.org/abs/2607.04302",
-      "https://arxiv.org/abs/2607.04031",
-      "https://arxiv.org/abs/2604.11943"
-    ],
     "2026-07-10": [
       "https://arxiv.org/abs/2607.07388",
       "https://arxiv.org/abs/2607.06601",
@@ -240,6 +232,15 @@
       "https://arxiv.org/abs/2608.04962",
       "https://arxiv.org/abs/2607.23933",
       "https://arxiv.org/abs/2608.02087"
+    ],
+    "2026-08-08": [
+      "https://arxiv.org/abs/2608.05326",
+      "https://arxiv.org/abs/2607.28699",
+      "https://arxiv.org/abs/2608.05483",
+      "https://arxiv.org/abs/2608.05303",
+      "https://arxiv.org/abs/2608.05154",
+      "https://arxiv.org/abs/2608.05152",
+      "https://arxiv.org/abs/2603.00378"
     ]
   },
   "finance": {
