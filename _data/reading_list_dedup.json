@@ -253,13 +253,6 @@
     ]
   },
   "finance": {
-    "2026-07-09": [
-      "https://arxiv.org/abs/2607.06316",
-      "https://arxiv.org/abs/2604.25826",
-      "https://arxiv.org/abs/2607.06121",
-      "https://arxiv.org/abs/2607.05882",
-      "https://arxiv.org/abs/2607.05878"
-    ],
     "2026-07-10": [
       "https://arxiv.org/abs/2607.07055",
       "https://arxiv.org/abs/2607.07207",
@@ -456,6 +449,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-illustrated-history-of-the-federal-reserves-balance-sheet-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/is-the-inflation-process-in-advanced-economies-different-after-the-pandemic-20260330.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/tracking-consumer-sentiment-versus-how-consumers-are-doing-based-on-verified-retail-purchases-20250424.html"
+    ],
+    "2026-08-09": [
+      "http://arxiv.org/abs/2608.06134v1",
+      "http://arxiv.org/abs/2608.04977v1",
+      "http://arxiv.org/abs/2608.04925v1",
+      "http://arxiv.org/abs/2608.03703v1",
+      "http://arxiv.org/abs/2608.04409v1"
     ]
   }
 }
