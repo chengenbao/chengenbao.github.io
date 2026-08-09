@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-09": [
-      "https://cemc.uwaterloo.ca/sites/default/files/documents/2023/2023Gauss7Contest.html#q1",
-      "https://cemc.uwaterloo.ca/sites/default/files/documents/2023/2023Gauss8Contest.html#q10"
-    ],
     "2026-07-10": [
       "https://nrich.maths.org/5765",
       "https://nrich.maths.org/2086"
@@ -127,6 +123,10 @@
     "2026-08-08": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_20",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_16"
+    ],
+    "2026-08-09": [
+      "https://wiki.randommath.com/amc10/2023/part-a/problem-5",
+      "https://wiki.randommath.com/amc10/2023/part-a/problem-12"
     ]
   }
 }
