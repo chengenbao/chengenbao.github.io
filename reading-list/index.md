@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-09</time>
+    </div>
+    <h2>宏观风险分担、利率传导与杠杆 ETF 套利</h2>
+    <p>本期覆盖宏观周期熨平、保险与资管产品的利率传导、杠杆 ETF 收盘套利，及贸易质量收益量化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #微观市场 #国际贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
