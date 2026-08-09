@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-09</time>
+    </div>
+    <h2>模型量化、奖励建模与智能体评估的前沿进展</h2>
+    <p>今日 7 篇技术精选：Kronecker-Hessian 量化、排序一致性生成式奖励、无监督自蒸馏、可解释 RAG、低成本智能体评估、MoE 路由理论与 PyTorch CUDA 实践。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch</span>
+      <span class="rl-tags">Tech · 量化 · RLHF · Agent · MoE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-08</time></div><h2>子集的最大元素个数 / 白板上的奇数</h2><p>两道 2024 AMC 10 真实组合题：极值构造与奇偶性不变量</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-08-finance-daily/">
   <div class="rl-accent"></div>
