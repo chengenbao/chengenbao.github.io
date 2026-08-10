@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="320" viewBox="0 0 460 320">
+  <!-- line ell -->
+  <line x1="40" y1="260" x2="420" y2="260" stroke="#333" stroke-width="2"/>
+  <text x="400" y="278" font-size="16" fill="#333">ℓ</text>
+
+  <!-- equilateral triangle: base on ell, height 24 (scaled) -->
+  <!-- base from (130,260) to (330,260); apex at (230, 140) since height ~120px -->
+  <polygon points="130,260 330,260 230,140" fill="#cfe8ff" stroke="#1565c0" stroke-width="2"/>
+  <text x="222" y="135" font-size="14" fill="#1565c0">A</text>
+  <text x="118" y="280" font-size="14" fill="#1565c0">B</text>
+  <text x="334" y="280" font-size="14" fill="#1565c0">C</text>
+  <text x="205" y="205" font-size="13" fill="#0d47a1">s</text>
+
+  <!-- circle radius 12 (scaled ~48px), tangent to ell below-right, externally tangent to triangle side AC -->
+  <!-- center D at (380, 212): distance to ell (y=260) = 48 = r*4 scale; tangent to side AC -->
+  <circle cx="380" cy="212" r="48" fill="#ffe0b2" stroke="#e65100" stroke-width="2"/>
+  <text x="376" y="208" font-size="14" fill="#e65100">D</text>
+
+  <!-- tangency point E on side AC -->
+  <circle cx="320" cy="196" r="3.5" fill="#e65100"/>
+  <text x="300" y="188" font-size="13" fill="#e65100">E</text>
+
+  <!-- radius line DE -->
+  <line x1="380" y1="212" x2="320" y2="196" stroke="#e65100" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- radius to ell: DG -->
+  <line x1="380" y1="212" x2="380" y2="260" stroke="#e65100" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="388" y="240" font-size="12" fill="#e65100">G</text>
+
+  <!-- shaded region hint -->
+  <path d="M 330 260 L 230 140 L 320 196 A 48 48 0 0 1 380 260 Z" fill="#fff3e0" opacity="0.6"/>
+
+  <text x="40" y="305" font-size="12" fill="#555">示意：等边三角形底边在 ℓ 上，圆与 ℓ 相切且与三角形腰外切</text>
+</svg>
