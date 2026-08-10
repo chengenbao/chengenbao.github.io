@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-10": [
-      "https://arxiv.org/abs/2607.07388",
-      "https://arxiv.org/abs/2607.06601",
-      "https://arxiv.org/abs/2607.06831",
-      "https://arxiv.org/abs/2607.07207",
-      "https://arxiv.org/abs/2607.06982",
-      "https://arxiv.org/abs/2607.06623"
-    ],
     "2026-07-11": [
       "https://arxiv.org/abs/2607.07740",
       "https://arxiv.org/abs/2607.07748",
@@ -250,6 +242,15 @@
       "https://arxiv.org/abs/2608.06362v1",
       "https://arxiv.org/abs/2608.06171v1",
       "https://pytorch.org/blog/pytorch-by-the-sea-the-inaugural-santa-cruz-pytorch-meetup/"
+    ],
+    "2026-08-10": [
+      "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
+      "https://huggingface.co/blog/pytorch-fsdp",
+      "https://huggingface.co/blog/packing-with-FA2",
+      "https://huggingface.co/blog/1_58_llm_extreme_quantization",
+      "https://huggingface.co/blog/embedding-quantization",
+      "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "https://huggingface.co/blog/ulysses-sp"
     ]
   },
   "finance": {
