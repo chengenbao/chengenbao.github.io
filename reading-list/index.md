@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-10</time>
+    </div>
+    <h2>大模型训练、量化与长上下文并行</h2>
+    <p>精选 7 篇深度技术文章，覆盖分布式训练、Kernel 编译、极极端量化与长上下文序列并行。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">FSDP · FlashAttention2 · 1.58bit量化 · 嵌入量化 · 序列并行</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-09</time></div><h2>幂的乘积位数 / 数字反转的可整除三位数</h2><p>2023 AMC 10A 两道中档真题：质因数分解求位数、整除约束下的三位数计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-09-finance-daily/">
   <div class="rl-accent"></div>
