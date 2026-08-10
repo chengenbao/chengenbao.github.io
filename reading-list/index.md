@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-10</time>
+    </div>
+    <h2>AI 渗透、央行三难与贸易冲击</h2>
+    <p>4 篇美联储 FEDS Notes：AI 与生产率、央行资产负债表、贸易不确定性与银行信贷、劳动力与潜在 GDP。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #央行 #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
