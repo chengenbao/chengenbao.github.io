@@ -254,13 +254,6 @@
     ]
   },
   "finance": {
-    "2026-07-10": [
-      "https://arxiv.org/abs/2607.07055",
-      "https://arxiv.org/abs/2607.07207",
-      "https://arxiv.org/abs/2607.07652",
-      "https://arxiv.org/abs/2507.01365",
-      "https://arxiv.org/abs/2601.18644"
-    ],
     "2026-07-11": [
       "https://arxiv.org/abs/2607.07864",
       "https://arxiv.org/abs/2607.08759",
@@ -457,6 +450,12 @@
       "http://arxiv.org/abs/2608.04925v1",
       "http://arxiv.org/abs/2608.03703v1",
       "http://arxiv.org/abs/2608.04409v1"
+    ],
+    "2026-08-10": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-central-bank-balance-sheet-trilemma-20260114.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html"
     ]
   }
 }
