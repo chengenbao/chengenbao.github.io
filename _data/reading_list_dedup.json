@@ -254,12 +254,6 @@
     ]
   },
   "finance": {
-    "2026-07-11": [
-      "https://arxiv.org/abs/2607.07864",
-      "https://arxiv.org/abs/2607.08759",
-      "https://arxiv.org/abs/2607.07849",
-      "https://arxiv.org/abs/2607.08610"
-    ],
     "2026-07-12": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
@@ -456,6 +450,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-central-bank-balance-sheet-trilemma-20260114.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/supply-chain-risk-and-bank-lending-amid-trade-policy-uncertainty-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html"
+    ],
+    "2026-08-11": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-sensitivity-of-regional-banks-to-macroeconomic-shocks-20260804.html",
+      "https://arxiv.org/abs/2512.14154",
+      "https://arxiv.org/abs/2608.06584",
+      "https://arxiv.org/abs/2608.07251"
     ]
   }
 }
