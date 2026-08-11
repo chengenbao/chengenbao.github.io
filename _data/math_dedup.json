@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-11": [
-      "https://nrich.maths.org/problems/shape-times-shape",
-      "https://nrich.maths.org/problems/marbles"
-    ],
     "2026-07-12": [
       "https://paper.luoboedu.com/articles/amc/amc-2022-amc8.html#problem-2",
       "https://paper.luoboedu.com/articles/amc/amc-2019-amc8.html#problem-2"
@@ -127,6 +123,10 @@
     "2026-08-10": [
       "https://wiki.randommath.com/amc10/2024/part-a/problem-1",
       "https://wiki.randommath.com/amc10/2024/part-a/problem-14"
+    ],
+    "2026-08-11": [
+      "2016 AMC 10A #4",
+      "2017 AMC 10B #17"
     ]
   }
 }
