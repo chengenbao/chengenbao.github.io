@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-11</time>
+    </div>
+    <h2>金融中介、银行风险与宏观结构</h2>
+    <p>5 篇精选：私募信贷背后的银行资金成本、区域银行宏观冲击敏感性、创新与金融结构、服务业化双路径、央行语调 NLP 框架。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#PrivateCredit #Banking #金融结构</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
