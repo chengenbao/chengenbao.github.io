@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-11</time>
+    </div>
+    <h2>量化损伤·稀疏注意力·分布式GNN·HLS编译</h2>
+    <p>7篇前沿：低位宽量化误差理论、SmartNIC全图GNN训练、无训练稀疏注意力、扩散LM线性注意力、结构化剪枝、GPU功耗建模与HLS自动翻译。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · arXiv · PyTorch · HuggingFace</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-10</time></div><h2>分配律巧算 / 等边三角形与圆相切面积</h2><p>2024 AMC 10A 真题两道：代数凑整相消 + 几何相切面积割补。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-10-finance-daily/">
   <div class="rl-accent"></div>
