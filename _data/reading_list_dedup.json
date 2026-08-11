@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-11": [
-      "https://arxiv.org/abs/2607.07740",
-      "https://arxiv.org/abs/2607.07748",
-      "https://arxiv.org/abs/2607.08015",
-      "https://arxiv.org/abs/2607.08186",
-      "https://arxiv.org/abs/2607.08407",
-      "https://arxiv.org/abs/2607.08427",
-      "https://arxiv.org/abs/2607.08010"
-    ],
     "2026-07-12": [
       "https://pytorch.org/blog/towards-free-normalization-fusing-normalization-into-gemm-and-attention-kernels/",
       "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
@@ -251,6 +242,15 @@
       "https://huggingface.co/blog/embedding-quantization",
       "https://huggingface.co/blog/train-multimodal-sentence-transformers",
       "https://huggingface.co/blog/ulysses-sp"
+    ],
+    "2026-08-11": [
+      "https://arxiv.org/abs/2608.06564",
+      "https://arxiv.org/abs/2608.06441",
+      "https://arxiv.org/abs/2608.06849",
+      "https://arxiv.org/abs/2608.06628",
+      "https://arxiv.org/abs/2608.06630",
+      "https://arxiv.org/abs/2608.06870",
+      "https://arxiv.org/abs/2608.06791"
     ]
   },
   "finance": {
