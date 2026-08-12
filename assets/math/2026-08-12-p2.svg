@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="300" viewBox="0 0 320 300">
+  <defs>
+    <style>
+      .s1{fill:none;stroke:#999;stroke-width:1.2;stroke-dasharray:4 3}
+      .s2{fill:none;stroke:#666;stroke-width:1.5}
+      .s3{fill:none;stroke:#333;stroke-width:1.5}
+      .lbl{font-family:sans-serif;font-size:12px;fill:#333}
+      .dot{fill:#c0392b}
+    </style>
+  </defs>
+  <!-- bottom square (0deg), side 6 -->
+  <rect x="80" y="150" width="120" height="120" class="s1"/>
+  <!-- middle square rotated 30 -->
+  <g transform="rotate(30 140 210)">
+    <rect x="80" y="150" width="120" height="120" class="s2"/>
+  </g>
+  <!-- top square rotated 60 -->
+  <g transform="rotate(60 140 210)">
+    <rect x="80" y="150" width="120" height="120" class="s3"/>
+  </g>
+  <circle cx="140" cy="210" r="3" class="dot"/>
+  <text x="140" y="285" text-anchor="middle" class="lbl">三张正方形纸，依次旋转 30°、60°</text>
+  <text x="140" y="30" text-anchor="middle" class="lbl">叠加形成 24 边形</text>
+</svg>
