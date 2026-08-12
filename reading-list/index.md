@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-12</time>
+    </div>
+    <h2>利率、城市劳动力、冲突矿产与AI能源</h2>
+    <p>机器学习预测收益率曲线、远程办公下的城市职场依赖、冲突矿产监管、AI数据中心能耗。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #微观 #国际</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
