@@ -255,13 +255,6 @@
     ]
   },
   "finance": {
-    "2026-07-12": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-bank-resilience-to-a-funding-shock-20260217.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html"
-    ],
     "2026-07-13": [
       "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
       "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history",
@@ -458,6 +451,12 @@
       "https://arxiv.org/abs/2512.14154",
       "https://arxiv.org/abs/2608.06584",
       "https://arxiv.org/abs/2608.07251"
+    ],
+    "2026-08-12": [
+      "https://arxiv.org/abs/2608.07536",
+      "https://arxiv.org/abs/2608.07588",
+      "https://arxiv.org/abs/2608.08690",
+      "https://arxiv.org/abs/2608.09882"
     ]
   }
 }
