@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280">
+  <defs>
+    <style>
+      .edge{stroke:#333;stroke-width:2;fill:none}
+      .shade{fill:#d9d9d9}
+      .semi{fill:#ffffff;stroke:#888;stroke-width:1.5}
+      .lbl{font-family:sans-serif;font-size:13px;fill:#333}
+    </style>
+  </defs>
+  <!-- regular hexagon centered -->
+  <polygon points="160,40 273,100 273,180 160,240 47,180 47,100" class="shade"/>
+  <!-- six semicircles (white) on each side, radius ~53 -->
+  <path d="M160,40 A53,53 0 0,0 273,100 Z" class="semi"/>
+  <path d="M273,100 A53,53 0 0,0 273,180 Z" class="semi"/>
+  <path d="M273,180 A53,53 0 0,0 160,240 Z" class="semi"/>
+  <path d="M160,240 A53,53 0 0,0 47,180 Z" class="semi"/>
+  <path d="M47,180 A53,53 0 0,0 47,100 Z" class="semi"/>
+  <path d="M47,100 A53,53 0 0,0 160,40 Z" class="semi"/>
+  <polygon points="160,40 273,100 273,180 160,240 47,180 47,100" class="edge"/>
+  <text x="160" y="32" text-anchor="middle" class="lbl">边长 = 2</text>
+  <text x="160" y="262" text-anchor="middle" class="lbl">阴影 = 六边形内 − 六半圆</text>
+</svg>
