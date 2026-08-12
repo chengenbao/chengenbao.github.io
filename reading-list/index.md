@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-12</time></div><h2>六边形内的半圆阴影面积 / 三张旋转正方形构成的多边形面积</h2><p>两道 AMC 10 真实真题：六边形半圆阴影面积 + 三正方形旋转构成多边形面积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-12-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
