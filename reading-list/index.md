@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-12-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-12</time>
+    </div>
+    <h2>MoE压缩·KV Cache·可解释训练·端侧推理</h2>
+    <p>7篇精选：MoE专家压缩与剪枝、KV Cache压缩、可解释语言模型、推理算力分配、OS内存翻译、端侧智能体。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · MoE · 推理加速 · 可解释性 · 端侧</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-11</time></div><h2>余数定义推广 / 单调正整数计数</h2><p>两道 AMC 10 真题：实数余数的 floor 定义应用，与单调数的组合计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-11-finance-daily/">
   <div class="rl-accent"></div>
