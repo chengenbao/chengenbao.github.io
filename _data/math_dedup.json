@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-12": [
-      "https://paper.luoboedu.com/articles/amc/amc-2022-amc8.html#problem-2",
-      "https://paper.luoboedu.com/articles/amc/amc-2019-amc8.html#problem-2"
-    ],
     "2026-07-13": [
       "https://paper.luoboedu.com/articles/amc/amc-2024-amc10a.html",
       "https://paper.luoboedu.com/articles/amc/amc-2023-amc10b.html"
@@ -127,6 +123,10 @@
     "2026-08-11": [
       "2016 AMC 10A #4",
       "2017 AMC 10B #17"
+    ],
+    "2026-08-12": [
+      "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_14",
+      "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_18"
     ]
   }
 }
