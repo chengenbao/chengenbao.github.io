@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-13</time>
+    </div>
+    <h2>私募信贷、关税落差、中国贸易主导与远期利率</h2>
+    <p>今日 4 篇美联储 FEDS Notes：私募信贷与杠杆贷款替代、宣示vs实际关税落差、中国贸易主导地位、远远期国债利率上行。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #信用市场 #贸易 #利率</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
