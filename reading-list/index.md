@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-13</time>
+    </div>
+    <h2>低精度格式、量化税、投机解码运行时与内核融合</h2>
+    <p>今日 6 篇聚焦 LLM 训练/推理底层：CurveFP 数据格式、多语言量化税、MemSpec 边缘投机解码、归一化内核融合、昇腾动态 MatMul 与 vLLM 原生级后端。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">低精度 · 量化 · 投机解码 · 内核融合 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-12</time></div><h2>六边形内的半圆阴影面积 / 三张旋转正方形构成的多边形面积</h2><p>两道 AMC 10 真实真题：六边形半圆阴影面积 + 三正方形旋转构成多边形面积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-12-finance-daily/">
   <div class="rl-accent"></div>
