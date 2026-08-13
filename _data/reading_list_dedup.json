@@ -254,13 +254,6 @@
     ]
   },
   "finance": {
-    "2026-07-13": [
-      "https://econofact.org/are-tariffs-raising-u-s-retail-prices",
-      "https://econofact.org/tracking-the-ai-boom-some-lessons-from-economic-history",
-      "https://econofact.org/chinas-export-dominance-a-sign-of-both-economic-strength-and-weakness",
-      "https://econofact.org/how-tighter-curbs-on-immigration-impact-the-u-s-economy",
-      "https://econofact.org/the-wealth-tax-debate"
-    ],
     "2026-07-14": [
       "https://arxiv.org/abs/2607.08920",
       "https://arxiv.org/abs/2607.09589",
@@ -456,6 +449,12 @@
       "https://arxiv.org/abs/2608.07588",
       "https://arxiv.org/abs/2608.08690",
       "https://arxiv.org/abs/2608.09882"
+    ],
+    "2026-08-13": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
     ]
   }
 }
