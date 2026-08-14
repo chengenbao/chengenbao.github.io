@@ -255,12 +255,6 @@
     ]
   },
   "finance": {
-    "2026-07-14": [
-      "https://arxiv.org/abs/2607.08920",
-      "https://arxiv.org/abs/2607.09589",
-      "https://arxiv.org/abs/2410.21019",
-      "https://arxiv.org/abs/2603.16006"
-    ],
     "2026-07-15": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
@@ -456,6 +450,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/mind-the-gap-announced-versus-implied-tariff-rates-in-recent-trade-policy-episodes-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/chinas-trade-dominance-and-the-role-of-industrial-policies-20260323.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html"
+    ],
+    "2026-08-14": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html"
     ]
   }
 }
