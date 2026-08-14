@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-14": [
-      "https://arxiv.org/abs/2607.08779",
-      "https://arxiv.org/abs/2607.08780",
-      "https://arxiv.org/abs/2607.08782",
-      "https://arxiv.org/abs/2607.08930",
-      "https://arxiv.org/abs/2607.08991",
-      "https://arxiv.org/abs/2607.08993"
-    ],
     "2026-07-15": [
       "https://arxiv.org/abs/2607.10186",
       "https://arxiv.org/abs/2607.09999",
@@ -251,6 +243,15 @@
       "https://pytorch.org/blog/towards-free-normalization-fusing-normalization-into-gemm-and-attention-kernels/",
       "https://arxiv.org/abs/2608.10803",
       "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
+    ],
+    "2026-08-14": [
+      "https://arxiv.org/abs/2608.11688",
+      "https://arxiv.org/abs/2608.11668",
+      "https://arxiv.org/abs/2605.05639",
+      "https://arxiv.org/abs/2608.12103",
+      "https://arxiv.org/abs/2608.11233",
+      "https://arxiv.org/abs/2608.11249",
+      "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/"
     ]
   },
   "finance": {
