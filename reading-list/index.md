@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-14</time>
+    </div>
+    <h2>AI 基建、私募信贷与新兴市场韧性</h2>
+    <p>5 篇美联储 FEDS Notes 精选：AI 经济影响、私募信贷风险、新兴市场紧缩周期韧性、大宗商品货币周期与越南转口贸易。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #私募信贷 #AI经济 #新兴市场</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
