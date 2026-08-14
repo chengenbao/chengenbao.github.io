@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-14</time>
+    </div>
+    <h2>MoE推理加速 · KV缓存硬件 · 内核分层 · 循环深度 · FP8训练</h2>
+    <p>精选 7 篇 arXiv/PyTorch 技术文章，覆盖 MoE 专家缓存、HBM-PIM 与高带宽闪存下的 KV 服务、OS 内核专家分层、Transformer 循环深度改造、扩散 LM 无损压缩与 AMD FP8 分布式训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · KV缓存 · 内核 · 循环深度 · FP8</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-13</time></div><h2>青蛙跳格边界概率 / 最小正整数与互素约束</h2><p>坐标几何随机游走的边界吸收概率，与 gcd 同余约束下的最小正整数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何·数论·AMC10·AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-13-finance-daily/">
   <div class="rl-accent"></div>
