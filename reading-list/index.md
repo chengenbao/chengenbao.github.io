@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-15</time>
+    </div>
+    <h2>大模型架构、推理显存与 GPU 算子前沿</h2>
+    <p>精选 7 篇聚焦高效注意力、循环记忆、编译器协同、算子验证与 KV 缓存优化的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">高效架构 · KV缓存 · GPU算子 · 编译器协同 · 边缘多模态</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-14</time></div><h2>令牌分配概率 / 子集递增序列计数</h2><p>两道 AMC 12 真题：古典概型中的令牌分配，与组合构造计数中的子集链。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合·概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-14-finance-daily/">
   <div class="rl-accent"></div>
