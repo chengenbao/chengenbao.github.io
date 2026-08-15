@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-15": [
-      "https://arxiv.org/abs/2607.10186",
-      "https://arxiv.org/abs/2607.09999",
-      "https://arxiv.org/abs/2607.09692",
-      "https://arxiv.org/abs/2607.09693",
-      "https://arxiv.org/abs/2604.13523",
-      "https://arxiv.org/abs/2607.10942",
-      "https://arxiv.org/abs/2607.09694"
-    ],
     "2026-07-16": [
       "https://arxiv.org/abs/2607.11976",
       "https://arxiv.org/abs/2607.12606",
@@ -252,6 +243,15 @@
       "https://arxiv.org/abs/2608.11233",
       "https://arxiv.org/abs/2608.11249",
       "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/"
+    ],
+    "2026-08-15": [
+      "https://arxiv.org/abs/2608.12419",
+      "https://arxiv.org/abs/2608.12435",
+      "https://arxiv.org/abs/2608.12629",
+      "https://arxiv.org/abs/2608.12700",
+      "https://arxiv.org/abs/2608.12331",
+      "https://arxiv.org/abs/2608.13263",
+      "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b"
     ]
   },
   "finance": {
