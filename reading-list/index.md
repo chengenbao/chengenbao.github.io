@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-15</time>
+    </div>
+    <h2>美联储视角：AI 贸易、银行韧性与信贷风险</h2>
+    <p>5 篇 FEDS Notes 覆盖宏观、国际、市场微观、银行稳健与信贷维度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #银行 #贸易 #信贷</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
