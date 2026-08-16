@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-16</time>
+    </div>
+    <h2>预训练语料 · 推理加速 · 机制可解释性 · 开放模型 · 可信智能体</h2>
+    <p>今日精选 6 篇 arXiv 技术文章，涵盖可控预训练语料、无损投机解码、SAE 特征解释、开放许可模型、可验证代码生成与科学智能体。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">Tech · arXiv · 前沿</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-15</time></div><h2>线性模型求登山时间 / 反转字符串的最少相邻交换</h2><p>今日两题：线性方程组建模 + 排列逆序对，均来自 AMC 10 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#奥数题 #AMC10 #代数 #组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-15-finance-daily/">
   <div class="rl-accent"></div>
