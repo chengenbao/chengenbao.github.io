@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-16": [
-      "https://arxiv.org/abs/2607.11976",
-      "https://arxiv.org/abs/2607.12606",
-      "https://arxiv.org/abs/2607.11933",
-      "https://arxiv.org/abs/2607.12505",
-      "https://arxiv.org/abs/2607.12215",
-      "https://arxiv.org/abs/2607.12839",
-      "https://arxiv.org/abs/2607.11940"
-    ],
     "2026-07-17": [
       "https://arxiv.org/abs/2607.13095",
       "https://arxiv.org/abs/2607.13124",
@@ -252,6 +243,14 @@
       "https://arxiv.org/abs/2608.12331",
       "https://arxiv.org/abs/2608.13263",
       "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b"
+    ],
+    "2026-08-16": [
+      "https://arxiv.org/abs/2608.13545",
+      "https://arxiv.org/abs/2608.13524",
+      "https://arxiv.org/abs/2608.13538",
+      "https://arxiv.org/abs/2608.13517",
+      "https://arxiv.org/abs/2608.13522",
+      "https://arxiv.org/abs/2608.13558"
     ]
   },
   "finance": {
