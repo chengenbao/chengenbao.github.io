@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-17</time>
+    </div>
+    <h2>私募信贷、银行融资与 AI 经济影响</h2>
+    <p>美联储 FEDS Notes 精选 5 篇：私募信贷与杠杆贷款、银行融资成本、区域银行韧性、新兴市场货币政策与大宗商品周期、AI 建设经济影响。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #私募信贷 #AI</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
