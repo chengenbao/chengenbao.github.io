@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-17</time>
+    </div>
+    <h2>可复现性、推理加速、知识蒸馏与多模态开源模型前沿</h2>
+    <p>今日 7 篇精选，覆盖科研智能体复现、Token 高效推理、规模化蒸馏与本地多模态模型。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型 · 推理加速 · 知识蒸馏 · 多模态</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-16</time></div><h2>拆分2024为两位数之和 / 直角三角形外接圆面积之比</h2><p>AMC 12 真题：最少几个两位数凑出2024？直角三角形外接圆面积比多少？</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-08-16-tech-daily/">
   <div class="rl-accent"></div>
