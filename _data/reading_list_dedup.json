@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-17": [
-      "https://arxiv.org/abs/2607.13095",
-      "https://arxiv.org/abs/2607.13124",
-      "https://arxiv.org/abs/2607.13246",
-      "https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/",
-      "https://arxiv.org/abs/2607.13068",
-      "https://arxiv.org/abs/2607.13649",
-      "https://arxiv.org/abs/2605.15026"
-    ],
     "2026-07-18": [
       "https://arxiv.org/abs/2607.14618",
       "https://arxiv.org/abs/2607.14107",
@@ -251,6 +242,15 @@
       "https://arxiv.org/abs/2608.13517",
       "https://arxiv.org/abs/2608.13522",
       "https://arxiv.org/abs/2608.13558"
+    ],
+    "2026-08-17": [
+      "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "https://huggingface.co/blog/muse-glimmer"
     ]
   },
   "finance": {
