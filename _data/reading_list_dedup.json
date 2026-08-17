@@ -244,13 +244,13 @@
       "https://arxiv.org/abs/2608.13558"
     ],
     "2026-08-17": [
-      "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "https://huggingface.co/blog/muse-glimmer"
+      "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/",
+      "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
+      "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/",
+      "https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/",
+      "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/",
+      "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "https://huggingface.co/blog/ulysses-sp"
     ]
   },
   "finance": {
