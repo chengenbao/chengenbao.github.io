@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "可复现性、推理加速、知识蒸馏与多模态开源模型前沿"
+title: "FP8训练·编译器·端侧推理·序列并行"
 category: tech
 tags: [Tech, 多源, 前沿]
 date: 2026-08-17
@@ -8,112 +8,112 @@ date: 2026-08-17
 
 # 📰 2026-08-17 · 每日技术速递
 
-> 今日精选 7 篇深度技术文章，覆盖 可复现性科研自动化、推理加速与 Token 效率、知识蒸馏、机器人训练流水线、低延迟语音合成、嵌入模型、多模态开源模型。
+> 今日精选 7 篇深度技术文章，覆盖 FP8分布式训练、编译器与DSL、端侧推理、推理引擎加速、序列并行等方向。
 
 ---
 
-## 1. 我们如何复现 ICML 的 2200 篇论文：关于可复现性的系统性发现
+## 1. AMD GPU 上的 FP8 训练：TorchTitan 与 TorchAO 性能优化合入上游
+
+**来源**：PyTorch
+**链接**：https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/
+**标签**：FP8训练 · AMD Instinct · TorchTitan · 分布式训练 · 量化
+
+文章介绍了 AMD 将其在 PyTorch Conference 2025 上展示的、基于 Primus-Turbo 优化库在 1000+ 张 AMD Instinct GPU 上实现近乎线性扩展的 FP8 训练能力合入 TorchTitan 上游的过程。核心是将 AMD 的 FP8 量化与优化路径直接集成到 TorchTitan 训练框架中，使开发者无需额外补丁即可在 AMD 集群上获得高性能大规模训练支持。
+
+**核心要点**：
+- 基于 Primus-Turbo 的优化在 1000+ 张 AMD Instinct GPU 上实现近线性扩展
+- FP8 训练路径与 TorchAO 量化能力已合入 TorchTitan 上游主干
+- 降低 AMD 硬件上大规模 LLM 训练的工程门槛，开箱即用
+
+---
+
+## 2. Helion 登陆 TPU：面向异构硬件的内核编写 DSL
+
+**来源**：PyTorch
+**链接**：https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/
+**标签**：Helion · TPU · 编译器 · Pallas · ML内核
+
+Helion 是 PyTorch 的高层 DSL，用于编写性能可移植的 ML 算子内核。本文介绍 PyTorch 与 Google 合作构建的 TPU 后端：Helion 内核可被编译到 Google 的 Pallas 底层，为 TPU 用户提供熟悉的 PyTorch 风格编程接口，同时保留底层性能控制能力。
+
+**核心要点**：
+- Helion DSL 新增 TPU 后端，编译目标为 Google Pallas
+- 用户可用统一 PyTorch 风格 API 编写跨 GPU/TPU 的可移植内核
+- 降低在 TPU 上手工优化算子的门槛，兼顾易用性与性能
+
+---
+
+## 3. 端侧 Agentic AI：ExecuTorch 上的 Muse Glimmer 30B 模型
+
+**来源**：PyTorch
+**链接**：https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/
+**标签**：端侧推理 · ExecuTorch · 模型蒸馏 · NVIDIA · Agent
+
+Meta 发布 Muse Glimmer——一个从 Muse Spark 蒸馏得到的 300 亿参数开放权重模型，面向端侧 Agent 工作流。文章介绍 ExecuTorch 如何为此新增端到端运行支持，使 30B 级别模型能够在 NVIDIA 等端侧硬件上高效执行 Agent 任务。
+
+**核心要点**：
+- Muse Glimmer 为 30B 参数蒸馏模型，专注端侧 Agent 场景
+- ExecuTorch 新增端到端推理支持，覆盖 NVIDIA 等硬件
+- 推动大模型从云端向端侧设备迁移，降低延迟与隐私风险
+
+---
+
+## 4. Triton 插件扩展：开箱即用的自定义编译 Pass 与方言
+
+**来源**：PyTorch
+**链接**：https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/
+**标签**：Triton · 编译器 · 插件系统 · 自定义Pass · DSL
+
+PyTorch-Triton 3.7 引入 Triton Plugin Extensions 系统，允许开发者将自定义编译 Pass、方言（含其算子）以及 DSL 扩展动态加载到上游 Triton 中。这改变了以往必须 fork Triton 才能实验新编译技术的局面，降低了编译器创新的迭代成本。
+
+**核心要点**：
+- 3.7 版本新增插件机制，支持动态加载自定义编译 Pass 与方言
+- 无需 fork Triton 即可实验新编译器特性（如 TLX）
+- 为编译器生态的模块化与社区贡献打开通道
+
+---
+
+## 5. FBTriton 基础设施：自定义 GPU 编译器的上游同步与分层验证
+
+**来源**：PyTorch
+**链接**：https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/
+**标签**：GPU编译器 · Triton · 自动化验证 · TLX · 工程实践
+
+文章揭秘 Meta 的 FBTriton 基础设施如何支撑 TLX、autoWS 等自定义 GPU 编译器创新，同时保持与上游 Triton 的同步。核心是一套 agentic ingestion 流程与分层的 L1/L2/L3 验证框架，在理想设计与现实约束之间取得平衡，确保自定义优化可安全合入主干。
+
+**核心要点**：
+- FBTriton 通过 agentic ingestion 自动同步上游 Triton 变更
+- L1/L2/L3 分层验证框架平衡创新速度与稳定性
+- 为大规模 GPU 编译器工程提供可复用的协同范式
+
+---
+
+## 6. 原生速度 vLLM Transformers 建模后端
 
 **来源**：HuggingFace
-**链接**：https://huggingface.co/blog/icml-2026-open-reproductions
-**标签**：可复现性 · ICML · 智能体 · 科研自动化
+**链接**：https://huggingface.co/blog/native-speed-vllm-transformers-backend
+**标签**：vLLM · 推理加速 · Transformers · 推理引擎 · 吞吐
 
-Hugging Face 在 7 月发起了一场 hackathon，超过 1200 名社区成员使用自己的 coding agent 尝试复现 ICML 2026 的 2200 篇论文。文章系统总结了哪些论文能被高质量复现、误报与纠错的处理流程，以及与作者沟通的经验。核心结论指向：在规模化复现中，人类角色、可复现性基础设施与 agent 协作方式决定了科研自动化的上限。
+Hugging Face 推出原生速度的 vLLM Transformers 建模后端，使 🤗 Transformers 模型能够以接近 vLLM 原生的性能运行推理。该后端桥接了 Transformers 生态的模型丰富度与 vLLM 的高吞吐推理能力，研究者可在不牺牲易用性的前提下获得生产级推理性能。
 
 **核心要点**：
-- 1200+ 社区成员用 coding agent 复现 2200 篇 ICML 论文，形成大规模可复现性数据集
-- 总结“复现良好”论文的共性，以及误报（falsification）的发现与核查机制
-- 强调人类在验证、与作者沟通中的不可替代作用，为科研自动化划出边界
+- Transformers 模型可直接以 vLLM 原生速度运行推理
+- 打通 Hugging Face 模型库与 vLLM 高性能推理引擎
+- 兼顾模型覆盖广度与生产级吞吐需求
 
 ---
 
-## 2. 想做 ACE？我们可以用更少的 Token 完成
+## 7. Ulysses 序列并行：百万 Token 上下文训练
 
-**来源**：IBM Research (HuggingFace)
-**链接**：https://huggingface.co/blog/ibm-research/altk-evolve-sldd
-**标签**：推理加速 · Token 效率 · ACE · LLM 优化
+**来源**：HuggingFace
+**链接**：https://huggingface.co/blog/ulysses-sp
+**标签**：序列并行 · 长上下文 · 分布式训练 · 注意力 · Ulysses
 
-IBM Research 提出在保持能力的前提下显著降低 ACE（Agent/Chain-of-thought Execution）类任务 token 消耗的方法。文章聚焦于推理路径与训练策略的改进，使模型在更少的计算开销下完成等价或更强的推理表现，对长链路 agent 与高并发推理部署有直接成本意义。
-
-**核心要点**：
-- 针对 ACE/长链路推理，提出削减 token 消耗的优化路径
-- 兼顾能力保持与推理成本，适用于高并发 agent 部署
-- 来自 IBM Research，偏重训练/推理协同优化的工程实践
-
----
-
-## 3. 让知识蒸馏便宜到可以大规模运行
-
-**来源**：Multiverse Computing (HuggingFace)
-**链接**：https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation
-**标签**：知识蒸馏 · 规模化训练 · 长上下文 · 模型压缩
-
-文章剖析了知识蒸馏中“恢复率（recovery）代价高昂”的根因，并通过两项系统级改动把蒸馏成本压到可大规模运行。重点包括长上下文场景下的扩展方案，以及改动在实践部署中带来的吞吐与成本收益，为小模型高效训练提供可复用范式。
+Ulysses 序列并行是一种将长序列切分到多设备上的分布式训练策略，使模型能够在百万级 Token 的超长上下文上高效训练。文章详述其通信模式与注意力计算分解方式，相比朴素数据并行显著降低了单卡显存峰值，为长文档、长代码等场景提供可扩展方案。
 
 **核心要点**：
-- 指出蒸馏“恢复率”昂贵的根本原因，并给出两项系统级修改
-- 展示如何扩展到长上下文长度场景而不失控
-- 在实践部署中显著降低蒸馏成本，提升小模型训练性价比
-
----
-
-## 4. 用 Strands Agents、LeRobot 与 Hugging Face 存储桶一站式完成录制、训练与部署
-
-**来源**：AWS (HuggingFace)
-**链接**：https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop
-**标签**：机器人 · 训练流水线 · LeRobot · 数据闭环
-
-AWS 展示了把演示数据录制、模型训练与部署统一到一个工作流中的方案：用 Strands Agents 编排，LeRobot 做机器人学习，Hugging Face Storage Buckets 作为统一数据底座。文章给出从录制演示到闭环部署的分步实现，强调数据流的无缝衔接对机器人迭代速度的提升。
-
-**核心要点**：
-- Strands Agents 负责编排，LeRobot 负责机器人学习，Buckets 做统一存储
-- 演示数据录制→训练→部署形成单一闭环，减少数据搬运摩擦
-- 提供可落地的分步教程，聚焦机器人训练流水线工程化
-
----
-
-## 5. 构建低延迟多语言语音智能体：NVIDIA Magpie TTS 的开放权重与完全部署控制
-
-**来源**：NVIDIA (HuggingFace)
-**链接**：https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents
-**标签**：TTS · 低延迟推理 · 多语言 · 开放权重
-
-NVIDIA 介绍 Magpie TTS——一个支持十二种语言、开放权重的语音合成模型，专为低延迟语音智能体设计。文章重点讨论用户实际可感知的延迟优化、单一模型覆盖多语言的架构选择，以及自托管部署带来的完全控制权，对实时语音交互系统有直接参考价值。
-
-**核心要点**：
-- Magpie TTS 单一开放权重模型覆盖 12 种语言
-- 围绕“用户可感知延迟”做推理优化，适配实时语音智能体
-- 支持自托管，提供对部署与数据的完全控制
-
----
-
-## 6. OlmoEarth Embeddings：来自 OlmoEarth Studio 的自定义嵌入导出
-
-**来源**：AllenAI (HuggingFace)
-**链接**：https://huggingface.co/blog/allenai/olmoearth-embeddings
-**标签**：嵌入模型 · 地理 AI · 相似检索 · 变化检测
-
-AllenAI 推出 OlmoEarth embeddings，允许用户在 OlmoEarth Studio 中计算并导出自定义嵌入，用于下游地理空间分析。文章列举了相似度检索（“找更多类似样本”）、少样本分割、变化检测与无监督探索等用法，展示了嵌入模型在地球观测场景的可组合性。
-
-**核心要点**：
-- 在 Studio 内计算并导出自定义嵌入，支持灵活下游分析
-- 应用涵盖相似检索、少样本分割、变化检测、无监督探索
-- 体现嵌入模型在地理空间 AI 中的可组合价值
-
----
-
-## 7. Meta 携 Muse Glimmer 回归：本地、具身智能、多模态且开源
-
-**来源**：Meta (HuggingFace)
-**链接**：https://huggingface.co/blog/muse-glimmer
-**标签**：多模态 · 开源模型 · 本地推理 · 模型架构
-
-Meta 发布 Muse Glimmer——一个本地可运行、具身智能、多模态且开源的模型。文章给出基准测试、架构（文本解码器 + 感知编码器 + Transformer）、文本/图像/视频推理方式，以及通过 Llama.cpp 做投机解码等本地推理路径，并展示多模态工具调用与目标检测能力。
-
-**核心要点**：
-- 架构采用文本解码器 + 感知编码器 + Transformer 的多模态设计
-- 支持文本/图像/视频推理与多模态工具调用、目标检测
-- 可通过 Llama.cpp 等路径本地运行，含投机解码优化
+- 序列维度切分，支持百万 Token 级超长上下文训练
+- 注意力计算按序列分片，降低单卡显存峰值
+- 相比纯数据并行，长序列训练的可扩展性显著提升
 
 ---
 
@@ -121,13 +121,13 @@ Meta 发布 Muse Glimmer——一个本地可运行、具身智能、多模态�
 
 | # | 标题摘要 | 来源 | 方向 |
 |---|---------|------|------|
-| 1 | 我们如何复现 ICML 的 2200 篇论文：关于可复现性的系统性发现 | HuggingFace | 大模型训练/科研自动化 |
-| 2 | 想做 ACE？我们可以用更少的 Token 完成 | IBM Research (HuggingFace) | 推理加速/Token 效率 |
-| 3 | 让知识蒸馏便宜到可以大规模运行 | Multiverse Computing (HuggingFace) | 知识蒸馏/模型压缩 |
-| 4 | 用 Strands Agents、LeRobot 与 Hugging Face 存储桶一站式完成录制、训练与部署 | AWS (HuggingFace) | 机器人/训练流水线 |
-| 5 | 构建低延迟多语言语音智能体：NVIDIA Magpie TTS 的开放权重与完全部署控制 | NVIDIA (HuggingFace) | 语音合成/低延迟推理 |
-| 6 | OlmoEarth Embeddings：来自 OlmoEarth Studio 的自定义嵌入导出 | AllenAI (HuggingFace) | 嵌入模型/地理 AI |
-| 7 | Meta 携 Muse Glimmer 回归：本地、具身智能、多模态且开源 | Meta (HuggingFace) | 多模态/开源模型 |
+| 1 | AMD GPU 上的 FP8 训练 | PyTorch | FP8训练 |
+| 2 | Helion 登陆 TPU | PyTorch | 编译器DSL |
+| 3 | 端侧 Agentic AI | PyTorch | 端侧推理 |
+| 4 | Triton 插件扩展 | PyTorch | 编译器 |
+| 5 | FBTriton 基础设施 | PyTorch | GPU编译工程 |
+| 6 | 原生速度 vLLM Transforme | HuggingFace | 推理加速 |
+| 7 | Ulysses 序列并行 | HuggingFace | 序列并行 |
 
 ---
 
