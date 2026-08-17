@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-08-17</time>
     </div>
+    <h2>FP8训练·编译器·端侧推理·序列并行</h2>
+    <p>7篇精选：AMD FP8训练、Helion TPU、ExecuTorch端侧、Triton插件、vLLM加速与Ulysses序列并行</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">FP8 · 编译器 · 端侧推理 · vLLM · 序列并行</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-08-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-17</time>
+    </div>
     <h2>可复现性、推理加速、知识蒸馏与多模态开源模型前沿</h2>
     <p>今日 7 篇精选，覆盖科研智能体复现、Token 高效推理、规模化蒸馏与本地多模态模型。</p>
     <div class="rl-meta">
