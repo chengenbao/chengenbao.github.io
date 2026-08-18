@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-18-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-18</time>
+    </div>
+    <h2>大模型量化一致性与近存推理架构</h2>
+    <p>7篇聚焦量化一致性、GPU内核审计、OS内存回收、确定性推理与高带宽近存推理的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">INT8 · Blackwell · OS内存 · 确定性推理 · MoE近存</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-17</time></div><h2>阶乘整除的极小值 / 发牌概率与互素约分</h2><p>数论：阶乘整除极小值；组合：多重集发牌概率与互素约分。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-17-finance-daily/">
   <div class="rl-accent"></div>
