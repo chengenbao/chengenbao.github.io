@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-18": [
-      "https://arxiv.org/abs/2607.14618",
-      "https://arxiv.org/abs/2607.14107",
-      "https://arxiv.org/abs/2607.14106",
-      "https://arxiv.org/abs/2607.14622",
-      "https://arxiv.org/abs/2607.14171",
-      "https://arxiv.org/abs/2607.14789",
-      "https://arxiv.org/abs/2607.14119"
-    ],
     "2026-07-19": [
       "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
       "https://arxiv.org/abs/2607.14272",
@@ -251,6 +242,15 @@
       "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/",
       "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "https://huggingface.co/blog/ulysses-sp"
+    ],
+    "2026-08-18": [
+      "https://arxiv.org/abs/2608.13756",
+      "https://arxiv.org/abs/2608.11693",
+      "https://arxiv.org/abs/2608.13689",
+      "https://arxiv.org/abs/2608.14376",
+      "https://arxiv.org/abs/2608.13868",
+      "https://arxiv.org/abs/2608.13962",
+      "https://arxiv.org/abs/2608.14003"
     ]
   },
   "finance": {
