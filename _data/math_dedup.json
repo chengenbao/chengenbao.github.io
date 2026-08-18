@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-18": [
-      "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
-      "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_13"
-    ],
     "2026-07-19": [
       "https://amc-trainer.vercel.app/data/problems/amc12a/2024.json"
     ],
@@ -127,6 +123,10 @@
     "2026-08-17": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_4",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_16"
+    ],
+    "2026-08-18": [
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12B_Problems/Problem_16",
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12A_Problems/Problem_22"
     ]
   }
 }
