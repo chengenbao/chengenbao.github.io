@@ -254,12 +254,6 @@
     ]
   },
   "finance": {
-    "2026-07-19": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html"
-    ],
     "2026-07-20": [
       "https://www.brookings.edu/articles/can-ai-restore-fiscal-sustainability-in-the-us/",
       "https://www.brookings.edu/articles/gao-data-reveal-the-decline-of-ordinary-appropriations-law/",
@@ -451,6 +445,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/decomposing-hedge-funds-u-s-treasury-exposures-20260622.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html"
+    ],
+    "2026-08-19": [
+      "https://arxiv.org/abs/2605.20281",
+      "https://arxiv.org/abs/2606.15999",
+      "https://arxiv.org/abs/2608.14930",
+      "https://arxiv.org/abs/2608.06134",
+      "https://arxiv.org/abs/2608.12143"
     ]
   }
 }
