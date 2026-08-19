@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-19": [
-      "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "https://arxiv.org/abs/2607.14272",
-      "https://arxiv.org/abs/2607.14271",
-      "https://arxiv.org/abs/2607.14233",
-      "https://arxiv.org/abs/2607.14192",
-      "https://huggingface.co/blog/ibm-research/scarfbench"
-    ],
     "2026-07-20": [
       "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "https://huggingface.co/blog/lerobot-release-v060",
@@ -251,6 +243,14 @@
       "https://arxiv.org/abs/2608.13868",
       "https://arxiv.org/abs/2608.13962",
       "https://arxiv.org/abs/2608.14003"
+    ],
+    "2026-08-19": [
+      "https://arxiv.org/abs/2608.15764",
+      "https://arxiv.org/abs/2608.16336",
+      "https://arxiv.org/abs/2608.14614",
+      "https://arxiv.org/abs/2604.16864",
+      "https://arxiv.org/abs/2608.15127",
+      "https://arxiv.org/abs/2608.15762"
     ]
   },
   "finance": {
