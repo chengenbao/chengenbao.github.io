@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-19</time>
+    </div>
+    <h2>H100 访存并发 · 多级SLA调度 · 退役GPU集群 · 稀疏KV · 智能体负载刻画</h2>
+    <p>精选6篇深度技术文章，覆盖 GPU 微架构、LLM 服务调度、KV 压缩、智能体负载与多租户算子调度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">GPU · LLM服务 · KV压缩 · 智能体 · 算子调度</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-18</time></div><h2>Coinland 硬币最大不可凑额 / 除数卷积函数求 f(2023)</h2><p>两道 AMC 12 真题：硬币 Frobenius 问题 + 积性函数 Dirichlet 卷积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率,代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-18-finance-daily/">
   <div class="rl-accent"></div>
