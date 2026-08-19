@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-19</time></div><h2>等边三角形随机点面积概率 / 奇偶约数之和的比值</h2><p>今日两题：几何几何概率题 + 数论约数比值的 AMC 12 真题精练。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-19-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
