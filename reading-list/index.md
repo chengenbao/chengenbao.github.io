@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-19</time>
+    </div>
+    <h2>AI 成本、地缘科技与气候治理的多维透视</h2>
+    <p>5 篇财经精选：从 AI 推理成本与通胀、美国技术封锁、神经金融行为，到数字资产拍卖与气候联盟治理。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #地缘 #行为金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
