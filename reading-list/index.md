@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-20</time>
+    </div>
+    <h2>私募信贷、银行融资与区域银行宏观风险</h2>
+    <p>精选 3 篇美联储 FEDS Notes，覆盖私募信贷与杠杆贷款、银行融资传导、区域银行宏观风险。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#私募信贷 #杠杆贷款 #区域银行 #宏观风险</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
