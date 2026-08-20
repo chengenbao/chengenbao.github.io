@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-20</time></div><h2>1–14 的整数配对 / 三局两胜季后赛概率</h2><p>组合配对计数与三局两胜概率——两道 AMC 10 真题精解</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-20-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
