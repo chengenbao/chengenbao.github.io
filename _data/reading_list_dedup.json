@@ -255,13 +255,6 @@
     ]
   },
   "finance": {
-    "2026-07-20": [
-      "https://www.brookings.edu/articles/can-ai-restore-fiscal-sustainability-in-the-us/",
-      "https://www.brookings.edu/articles/gao-data-reveal-the-decline-of-ordinary-appropriations-law/",
-      "https://www.brookings.edu/articles/tracking-federal-expenditures-in-real-time/",
-      "https://www.brookings.edu/articles/toward-a-u-s-africa-critical-minerals-investment-strategy-tools-priorities-and-tradeoffs/",
-      "https://www.brookings.edu/articles/tracking-trade-amid-uncertain-and-changing-tariff-policies/"
-    ],
     "2026-07-21": [
       "https://arxiv.org/abs/2607.15363",
       "https://arxiv.org/abs/2607.15385",
@@ -453,6 +446,11 @@
       "https://arxiv.org/abs/2608.14930",
       "https://arxiv.org/abs/2608.06134",
       "https://arxiv.org/abs/2608.12143"
+    ],
+    "2026-08-20": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-sensitivity-of-regional-banks-to-macroeconomic-shocks-20260804.html"
     ]
   }
 }
