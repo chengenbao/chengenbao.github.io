@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-20</time>
+    </div>
+    <h2>GPU带宽·MoE推理·训练加速·RLVR调度·智能体记忆</h2>
+    <p>精选 7 篇前沿技术文章，覆盖 GPU/CUDA 带宽、MoE 大模型推理、训练加速器、RLVR 调度与自改进智能体可靠性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">GPU · MoE · 训练加速 · RLVR · 智能体</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-19</time></div><h2>等边三角形随机点面积概率 / 奇偶约数之和的比值</h2><p>今日两题：几何几何概率题 + 数论约数比值的 AMC 12 真题精练。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-19-finance-daily/">
   <div class="rl-accent"></div>
