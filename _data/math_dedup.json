@@ -4,10 +4,6 @@
       "https://live.poshenloh.com/past-contests/amc10/2023A",
       "https://live.poshenloh.com/past-contests/amc12/2024B"
     ],
-    "2026-07-20": [
-      "https://wiki.randommath.com/amc12/2022/part-a/problem-12",
-      "https://wiki.randommath.com/amc10/2022/part-a/problem-17"
-    ],
     "2026-07-21": [
       "https://amc-trainer.vercel.app/data/problems/amc10b/2015.json",
       "https://amc-trainer.vercel.app/data/problems/amc10a/2023.json"
@@ -128,6 +124,10 @@
     "2026-08-19": [
       "https://github.com/songsjun/AMC12_Problems/blob/main/2024_AMC_12A_Problems/Problem_20.md",
       "https://github.com/songsjun/AMC12_Problems/blob/main/2021_AMC_12B_Problems/Problem_07.md"
+    ],
+    "2026-08-20": [
+      "https://wiki.randommath.com/amc10/2022/part-a/problem-14",
+      "https://wiki.randommath.com/amc10/2024/part-a/problem-17"
     ]
   }
 }
