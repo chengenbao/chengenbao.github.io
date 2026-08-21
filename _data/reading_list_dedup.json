@@ -255,12 +255,6 @@
     ]
   },
   "finance": {
-    "2026-07-21": [
-      "https://arxiv.org/abs/2607.15363",
-      "https://arxiv.org/abs/2607.15385",
-      "https://arxiv.org/abs/2607.15381",
-      "https://arxiv.org/abs/2508.03708"
-    ],
     "2026-07-22": [
       "https://arxiv.org/abs/2607.16622",
       "https://arxiv.org/abs/2607.17633",
@@ -451,6 +445,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-sensitivity-of-regional-banks-to-macroeconomic-shocks-20260804.html"
+    ],
+    "2026-08-21": [
+      "https://arxiv.org/abs/2604.08825",
+      "https://arxiv.org/abs/2309.14186",
+      "https://arxiv.org/abs/2608.18690",
+      "https://arxiv.org/abs/2512.10853",
+      "https://arxiv.org/abs/2608.18657"
     ]
   }
 }
