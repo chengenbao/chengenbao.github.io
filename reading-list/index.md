@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-21</time>
+    </div>
+    <h2>货币政策预期、可持续金融与欧洲气候政策</h2>
+    <p>比特币对冲央行、碳与生物多样性足迹核算、欧盟减排可达性，及劳动匹配与家庭出行的微观研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #可持续金融 #气候政策</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-08-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-20</time></div><h2>1–14 的整数配对 / 三局两胜季后赛概率</h2><p>组合配对计数与三局两胜概率——两道 AMC 10 真题精解</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-20-finance-daily/">
   <div class="rl-accent"></div>
