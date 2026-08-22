@@ -246,13 +246,6 @@
     ]
   },
   "finance": {
-    "2026-07-22": [
-      "https://arxiv.org/abs/2607.16622",
-      "https://arxiv.org/abs/2607.17633",
-      "https://arxiv.org/abs/2607.16194",
-      "https://arxiv.org/abs/2607.17640",
-      "https://arxiv.org/abs/2603.03152"
-    ],
     "2026-07-23": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/technology-shocks-the-ai-boomandthe-u-s-current-account-20260714.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
@@ -443,6 +436,13 @@
       "https://arxiv.org/abs/2608.18690",
       "https://arxiv.org/abs/2512.10853",
       "https://arxiv.org/abs/2608.18657"
+    ],
+    "2026-08-22": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/do-major-technology-advancements-lead-to-overinvestment-20260706.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/india-and-the-global-economy-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html"
     ]
   }
 }
