@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-22</time>
+    </div>
+    <h2>GPU/加速器调度、LLM 推理加速与优化器新进展</h2>
+    <p>7 篇深度技术文章：从层间调度、Chiplet DSE、GPU 张量执行到 LLM 推理加速与非对称注意力。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">GPU · 加速器 · LLM推理 · 优化器 · 流式ML</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-21-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-21</time></div><h2>均值谜题 / 符号翻转</h2><p>两道 2024 AMC 10/12 真题：代数均值方程 + 组合极值翻转</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-21-finance-daily/">
   <div class="rl-accent"></div>
