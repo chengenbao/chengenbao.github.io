@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-22</time>
+    </div>
+    <h2>流动性风险、技术投资、稳定币、印度经济与AI就业</h2>
+    <p>美联储 FEDS Notes 精选 5 篇：覆盖基金流动性转化、技术进步与过度投资、稳定币金融稳定、印度与全球经济、AI 与企业招聘。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #稳定币 #印度 #AI</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
