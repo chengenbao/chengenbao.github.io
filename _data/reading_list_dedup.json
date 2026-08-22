@@ -1,23 +1,5 @@
 {
   "tech": {
-    "2026-07-21": [
-      "https://arxiv.org/abs/2606.09079",
-      "https://arxiv.org/abs/2607.18081",
-      "https://arxiv.org/abs/2607.17154",
-      "https://arxiv.org/abs/2509.14230",
-      "https://arxiv.org/abs/2607.17715",
-      "https://arxiv.org/abs/2607.17979",
-      "https://arxiv.org/abs/2607.14952"
-    ],
-    "2026-07-22": [
-      "https://arxiv.org/abs/2607.16241",
-      "https://arxiv.org/abs/2607.16673",
-      "https://arxiv.org/abs/2607.16237",
-      "https://arxiv.org/abs/2607.16784",
-      "https://arxiv.org/abs/2607.17074",
-      "https://arxiv.org/abs/2607.17299",
-      "https://arxiv.org/abs/2607.16473"
-    ],
     "2026-07-23": [
       "https://arxiv.org/abs/2607.18280",
       "https://arxiv.org/abs/2607.19248",
@@ -252,6 +234,15 @@
       "https://arxiv.org/abs/2608.16336v1",
       "https://arxiv.org/abs/2608.18066v1",
       "https://arxiv.org/abs/2608.17911v1"
+    ],
+    "2026-08-22": [
+      "https://arxiv.org/abs/2608.19296",
+      "https://arxiv.org/abs/2608.19395",
+      "https://arxiv.org/abs/2608.19628",
+      "https://arxiv.org/abs/2608.19203",
+      "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "https://arxiv.org/abs/2608.19488",
+      "https://arxiv.org/abs/2608.19491"
     ]
   },
   "finance": {
