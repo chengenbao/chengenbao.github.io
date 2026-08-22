@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-22-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-22</time></div><h2>完全平方数代数 / 长方体对角线几何</h2><p>两道 AMC 10/12 真题：平方差分解求个位数 + 对称多项式求空间对角线。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · AMC12 · 代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-22-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
