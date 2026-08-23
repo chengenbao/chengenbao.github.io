@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-23</time>
+    </div>
+    <h2>美联储FEDS Notes精选：银行风险、稳定币与宏观预期</h2>
+    <p>本期聚焦抵押贷款服务权估值、贸易融资、稳定币冲击、居民收入预期与经济不确定性五大议题。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #银行 #稳定币</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
