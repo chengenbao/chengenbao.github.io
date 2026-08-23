@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-23": [
-      "https://arxiv.org/abs/2607.18280",
-      "https://arxiv.org/abs/2607.19248",
-      "https://arxiv.org/abs/2607.18533",
-      "https://arxiv.org/abs/2607.18097",
-      "https://arxiv.org/abs/2607.18413",
-      "https://arxiv.org/abs/2607.18532",
-      "https://arxiv.org/abs/2607.18765"
-    ],
     "2026-07-24": [
       "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
       "https://huggingface.co/blog/nunchaku-diffusers",
@@ -243,6 +234,15 @@
       "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "https://arxiv.org/abs/2608.19488",
       "https://arxiv.org/abs/2608.19491"
+    ],
+    "2026-08-23": [
+      "https://pytorch.org/blog/harnessing-ai-for-day-one-model-enablement/",
+      "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "https://huggingface.co/blog/torch-attention-profile",
+      "https://huggingface.co/blog/revamped-kernels",
+      "https://huggingface.co/blog/vllm-jobs",
+      "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
     ]
   },
   "finance": {
