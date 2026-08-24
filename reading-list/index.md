@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-24</time>
+    </div>
+    <h2>嵌入检索、推理加速与开放模型格局</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖多向量检索、自适应推理加速、ICML 复现、开放模型格局、ASR 基准度量与低延迟语音智能体。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">嵌入 · 推理加速 · 可复现性 · 开放模型 · ASR · TTS</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-23</time></div><h2>阶乘整除 2024 / 可交换的几何变换</h2><p>AMC 10/12 真题：阶乘整除性 + 几何变换交换性计数</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-23-finance-daily/">
   <div class="rl-accent"></div>
