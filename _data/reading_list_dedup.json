@@ -236,12 +236,12 @@
       "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
     ],
     "2026-08-24": [
-      "https://huggingface.co/blog/multi-vector-encoder",
-      "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "https://huggingface.co/blog/asr-benchmark-optimization",
-      "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
+      "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
+      "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/",
+      "https://huggingface.co/blog/nunchaku-diffusers",
+      "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "https://huggingface.co/blog/muse-glimmer",
+      "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
     ]
   },
   "finance": {
