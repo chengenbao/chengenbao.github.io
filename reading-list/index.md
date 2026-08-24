@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-24</time></div><h2>√x+√y=√1183 求 x+y 最小值 / 掷四枚骰子：条件概率</h2><p>AMC 10B 根式最值 + AMC 12B 掷骰条件概率</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-24-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
