@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-08-24</time>
     </div>
+    <h2>GPU 编译器、量化推理与 Agent/机器人训练流水线</h2>
+    <p>今日 6 篇聚焦 Helion/TPU 内核、FBTriton 编译器基建、4-bit 扩散量化、Agent 记忆校准、本地多模态推理与机器人数据闭环。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">编译器 · 量化 · 本地推理 · Agent · 训练流水线</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-08-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-24</time>
+    </div>
     <h2>嵌入检索、推理加速与开放模型格局</h2>
     <p>今日精选 6 篇深度技术文章，覆盖多向量检索、自适应推理加速、ICML 复现、开放模型格局、ASR 基准度量与低延迟语音智能体。</p>
     <div class="rl-meta">
