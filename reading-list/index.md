@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-24</time>
+    </div>
+    <h2>AI、银行挤兑与贸易碎片化的宏观透视</h2>
+    <p>美联储 FEDS Notes 精选 5 篇：AI 与经常账户、SVB 挤兑外溢、贸易碎片化、消费违约、ETF 增长。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #美联储 #Finance</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
