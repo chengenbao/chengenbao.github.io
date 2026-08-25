@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-25": [
-      "https://arxiv.org/abs/2607.20538",
-      "https://arxiv.org/abs/2607.20434",
-      "https://arxiv.org/abs/2607.20427",
-      "https://arxiv.org/abs/2607.20543",
-      "https://arxiv.org/abs/2607.20512",
-      "https://arxiv.org/abs/2607.21130",
-      "https://arxiv.org/abs/2607.17528"
-    ],
     "2026-07-26": [
       "https://huggingface.co/blog/thinkingmachines-inkling",
       "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
@@ -242,6 +233,15 @@
       "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "https://huggingface.co/blog/muse-glimmer",
       "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
+    ],
+    "2026-08-25": [
+      "https://arxiv.org/abs/2608.21240",
+      "https://arxiv.org/abs/2608.20427",
+      "https://arxiv.org/abs/2608.20532",
+      "https://arxiv.org/abs/2604.04750",
+      "https://arxiv.org/abs/2608.20359",
+      "https://arxiv.org/abs/2606.30949",
+      "https://huggingface.co/blog/ibm-research/altk-evolve-sldd"
     ]
   },
   "finance": {
