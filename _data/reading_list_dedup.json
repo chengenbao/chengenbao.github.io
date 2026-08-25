@@ -245,13 +245,6 @@
     ]
   },
   "finance": {
-    "2026-07-25": [
-      "https://www.bis.org/publ/work1367.htm",
-      "https://www.bis.org/publ/work1370.htm",
-      "https://www.bis.org/publ/work1371.htm",
-      "https://www.nber.org/papers/w35472",
-      "https://www.nber.org/papers/w35479"
-    ],
     "2026-07-26": [
       "http://arxiv.org/abs/2607.12205v1",
       "http://arxiv.org/abs/2607.09514v1",
@@ -442,6 +435,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-note-on-recent-dynamics-of-consumer-delinquency-rates-20251124.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/implications-of-growth-in-etfs-evidence-from-mutual-fund-to-etf-conversions-20251119.html"
+    ],
+    "2026-08-25": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/wealth-heterogeneity-and-consumer-spending-20250805.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-news-based-approach-to-measuring-shortages-and-their-effects-on-the-global-economy-20260626.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-geopolitical-risk-exposure-across-industries-a-firm-centered-approach-20250829.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/trade-compliance-at-what-cost-lessons-from-usmca-automotive-trade-20250718.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/what-happens-on-quarter-ends-in-the-repo-market-20250606.html"
     ]
   }
 }
