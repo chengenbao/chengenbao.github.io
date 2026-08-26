@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-26</time>
+    </div>
+    <h2>LLM 推理加速与 GPU/TPU 架构编译前沿</h2>
+    <p>覆盖高带宽闪存推理、异步分布式 GPU 仿真、近内存混合 LLM、并行链接器、ANE 端侧部署、FP8 训练与 Helion TPU 后端。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · GPU架构 · 编译器 · 端侧部署 · FP8训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-25</time></div><h2>矩形之字形的投影长度 / 递增数(upno)与递减数(downno)计数</h2><p>AMC 12 几何投影 + AMC 10 数论计数，附完整推导与常见错误点拨。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-08-25-tech-daily/">
 <a class="rl-card finance" href="/reading-list/2026-08-25-finance-daily/">
