@@ -1,12 +1,5 @@
 {
   "tech": {
-    "2026-07-26": [
-      "https://huggingface.co/blog/thinkingmachines-inkling",
-      "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "https://huggingface.co/blog/grabette",
-      "https://huggingface.co/blog/Photoroom/prx-part4-data",
-      "https://huggingface.co/blog/real-world-voiceeq"
-    ],
     "2026-07-27": [
       "http://arxiv.org/abs/2607.21535v1",
       "http://arxiv.org/abs/2607.21475v1",
@@ -242,6 +235,15 @@
       "https://arxiv.org/abs/2608.20359",
       "https://arxiv.org/abs/2606.30949",
       "https://huggingface.co/blog/ibm-research/altk-evolve-sldd"
+    ],
+    "2026-08-26": [
+      "https://arxiv.org/abs/2607.10186",
+      "https://arxiv.org/abs/2608.22602",
+      "https://arxiv.org/abs/2608.22613",
+      "https://arxiv.org/abs/2608.23228",
+      "https://arxiv.org/abs/2608.22110",
+      "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/",
+      "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/"
     ]
   },
   "finance": {
