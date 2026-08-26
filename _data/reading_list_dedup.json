@@ -247,13 +247,6 @@
     ]
   },
   "finance": {
-    "2026-07-26": [
-      "http://arxiv.org/abs/2607.12205v1",
-      "http://arxiv.org/abs/2607.09514v1",
-      "http://arxiv.org/abs/2607.20068v1",
-      "http://arxiv.org/abs/2607.21048v1",
-      "http://arxiv.org/abs/2607.03868v1"
-    ],
     "2026-07-27": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/retail-sweep-behavior-since-the-elimination-of-reserve-requirements-20260622.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
@@ -444,6 +437,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-geopolitical-risk-exposure-across-industries-a-firm-centered-approach-20250829.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/trade-compliance-at-what-cost-lessons-from-usmca-automotive-trade-20250718.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/what-happens-on-quarter-ends-in-the-repo-market-20250606.html"
+    ],
+    "2026-08-26": [
+      "https://arxiv.org/abs/2608.21843",
+      "https://arxiv.org/abs/2206.08401",
+      "https://arxiv.org/abs/2108.02283",
+      "https://arxiv.org/abs/2602.11379"
     ]
   }
 }
