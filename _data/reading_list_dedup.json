@@ -247,12 +247,6 @@
     ]
   },
   "finance": {
-    "2026-07-27": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/retail-sweep-behavior-since-the-elimination-of-reserve-requirements-20260622.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html"
-    ],
     "2026-07-28": [
       "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
       "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
@@ -443,6 +437,12 @@
       "https://arxiv.org/abs/2206.08401",
       "https://arxiv.org/abs/2108.02283",
       "https://arxiv.org/abs/2602.11379"
+    ],
+    "2026-08-27": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-the-feds-balance-sheet-implications-for-monetary-policy-implementation-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decade-of-u-s-cross-border-payments-efforts-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html"
     ]
   }
 }
