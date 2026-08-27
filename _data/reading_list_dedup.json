@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-27": [
-      "http://arxiv.org/abs/2607.21535v1",
-      "http://arxiv.org/abs/2607.21475v1",
-      "http://arxiv.org/abs/2607.19438v1",
-      "http://arxiv.org/abs/2607.19922v1",
-      "http://arxiv.org/abs/2607.21224v1",
-      "http://arxiv.org/abs/2607.20120v1",
-      "http://arxiv.org/abs/2607.21130v1"
-    ],
     "2026-07-28": [
       "https://arxiv.org/abs/2607.21653",
       "https://arxiv.org/abs/2607.22043",
@@ -244,6 +235,15 @@
       "https://arxiv.org/abs/2608.22110",
       "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/",
       "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/"
+    ],
+    "2026-08-27": [
+      "https://arxiv.org/abs/2608.23816",
+      "https://arxiv.org/abs/2608.23843",
+      "https://arxiv.org/abs/2608.23582",
+      "https://arxiv.org/abs/2608.23658",
+      "https://arxiv.org/abs/2608.23841",
+      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "https://huggingface.co/blog/train-multi-vector-encoder"
     ]
   },
   "finance": {
