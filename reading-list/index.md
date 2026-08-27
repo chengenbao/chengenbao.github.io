@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-27</time>
+    </div>
+    <h2>美联储政策传导、跨境支付与影子银行风险</h2>
+    <p>精选 4 篇美联储 FEDS Notes，覆盖宏观货币政策、跨境支付、基金流动性与私募信贷。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #支付 #私募信贷 #基金流动性</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
