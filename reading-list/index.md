@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-27</time>
+    </div>
+    <h2>大模型量化、KV Cache 压缩与 CPU/硬件推理协同设计</h2>
+    <p>今日精选 7 篇，覆盖量化微调、KV Cache 压缩、INT8 加速器与 CPU 推理带宽优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · KV Cache · 推理加速 · 硬件加速器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-26</time></div><h2>蜗牛赛跑的并列计数 / 青蛙跳上第10格的概率</h2><p>组合计数与递推概率两道 AMC 真题精讲。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#组合 #概率 #AMC10 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-26-finance-daily/">
   <div class="rl-accent"></div>
