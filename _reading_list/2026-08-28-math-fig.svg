@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <!-- outer square: area 3 -> side sqrt(3) ~ 1.732 -> scale 160 -->
+  <rect x="40" y="40" width="240" height="240" fill="#eaf2ff" stroke="#2b6cb0" stroke-width="3"/>
+  <!-- inner square: area 2 -> side sqrt(2) ~ 1.414 -> rotated 45, centered -->
+  <!-- half-diagonal = side_inner/sqrt(2)=1, scaled =160 -> 160 -->
+  <g>
+    <polygon points="160,40 280,160 160,280 40,160" fill="#fff4e6" stroke="#c05621" stroke-width="3"/>
+  </g>
+  <!-- one shaded right triangle (top-left corner between outer and inner) -->
+  <polygon points="40,40 160,40 40,160" fill="#fed7aa" stroke="#c05621" stroke-width="1.5" opacity="0.9"/>
+  <!-- leg labels -->
+  <text x="100" y="34" font-family="sans-serif" font-size="16" fill="#1a365d">x</text>
+  <text x="22" y="100" font-family="sans-serif" font-size="16" fill="#1a365d">√3 - x</text>
+  <!-- right angle marker in corner -->
+  <polyline points="40,60 60,60 60,40" fill="none" stroke="#1a365d" stroke-width="1.5"/>
+  <!-- vertices -->
+  <circle cx="40" cy="40" r="3" fill="#2b6cb0"/>
+  <circle cx="160" cy="40" r="3" fill="#2b6cb0"/>
+  <circle cx="40" cy="160" r="3" fill="#2b6cb0"/>
+  <!-- title -->
+  <text x="160" y="305" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#444">外正方形面积3，内正方形面积2</text>
+</svg>
