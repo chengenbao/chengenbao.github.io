@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-28</time>
+    </div>
+    <h2>MoE 加速、量化与分布式训练前沿</h2>
+    <p>7 篇精选：从 MoE 无训练推理加速、混合精度量化到晶圆级光互连，覆盖 LLM 训练与推理的关键工程问题。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · 量化 · 剪枝 · 光互连 · DiT</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-08-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
