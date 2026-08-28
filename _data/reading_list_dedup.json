@@ -247,13 +247,6 @@
     ]
   },
   "finance": {
-    "2026-07-28": [
-      "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
-      "https://libertystreeteconomics.newyorkfed.org/2026/06/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle/",
-      "https://cepr.org/voxeu/columns/debt-service-and-fiscal-sustainability",
-      "https://cepr.org/voxeu/columns/why-europes-banks-stay-home-regulatory-fragmentation-and-cost-incomplete-banking"
-    ],
     "2026-07-29": [
       "https://arxiv.org/abs/2607.24175",
       "https://arxiv.org/abs/2607.23426",
@@ -443,6 +436,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-decade-of-u-s-cross-border-payments-efforts-20260826.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html"
+    ],
+    "2026-08-28": [
+      "https://arxiv.org/abs/2608.24894",
+      "https://arxiv.org/abs/2608.25972",
+      "https://arxiv.org/abs/2608.25488",
+      "https://arxiv.org/abs/2511.07218",
+      "https://arxiv.org/abs/2607.04753"
     ]
   }
 }
