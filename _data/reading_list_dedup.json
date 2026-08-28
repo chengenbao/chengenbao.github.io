@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-28": [
-      "https://arxiv.org/abs/2607.21653",
-      "https://arxiv.org/abs/2607.22043",
-      "https://arxiv.org/abs/2607.21692",
-      "https://arxiv.org/abs/2607.21978",
-      "https://arxiv.org/abs/2607.21981",
-      "https://arxiv.org/abs/2607.21659"
-    ],
     "2026-07-30": [
       "https://arxiv.org/abs/2607.25498",
       "https://arxiv.org/abs/2607.23099",
@@ -244,6 +236,15 @@
       "https://arxiv.org/abs/2608.23841",
       "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "https://huggingface.co/blog/train-multi-vector-encoder"
+    ],
+    "2026-08-28": [
+      "https://arxiv.org/abs/2608.24938",
+      "https://arxiv.org/abs/2608.24945",
+      "https://arxiv.org/abs/2608.24949",
+      "https://arxiv.org/abs/2608.24973",
+      "https://arxiv.org/abs/2608.25062",
+      "https://arxiv.org/abs/2608.25380",
+      "https://arxiv.org/abs/2608.24637"
     ]
   },
   "finance": {
