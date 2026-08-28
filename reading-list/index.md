@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-28</time></div><h2>Ted 的指数笔误 / 正方形内接正方形</h2><p>AMC 10 真题：指数方程求解 + 正方形内接几何比，含详细解析与易错点。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">奥数 · AMC10 · 代数 · 几何</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-08-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
