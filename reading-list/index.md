@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-28</time>
+    </div>
+    <h2>天气定价、双重股权与财富不平等的多维透视</h2>
+    <p>5 篇精选：从锡兰红茶的天气定价到全球财富不平等的社会网络根源，覆盖宏观、微观与国际视角。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #微观 #国际 #公司治理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-27</time></div><h2>子集的最密填充 / 递推数列与求和放缩</h2><p>AMC 10/12 真题：组合题（子集最密填充）与代数题（递推数列求和放缩）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#奥数题 #AMC10 #AMC12 #组合 #代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-27-finance-daily/">
   <div class="rl-accent"></div>
