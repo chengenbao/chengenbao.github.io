@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-29</time>
+    </div>
+    <h2>多维财经视角：行为决策、地方福祉、劳动力市场与资产泡沫</h2>
+    <p>5 篇财经研究精选，覆盖微观行为实验、地方福祉测度、中国招聘市场信号，以及资产泡沫理论与约束型组合优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / q-fin</span>
+      <span class="rl-tags">#宏观 #资产定价 #劳动力市场 #组合优化</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-08-29-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
