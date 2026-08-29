@@ -257,13 +257,6 @@
     ]
   },
   "finance": {
-    "2026-07-29": [
-      "https://arxiv.org/abs/2607.24175",
-      "https://arxiv.org/abs/2607.23426",
-      "https://arxiv.org/abs/2602.14774",
-      "https://arxiv.org/abs/2605.15614",
-      "https://arxiv.org/abs/2607.24389"
-    ],
     "2026-07-30": [
       "https://federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
       "https://federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
@@ -453,6 +446,13 @@
       "https://arxiv.org/abs/2608.25488",
       "https://arxiv.org/abs/2511.07218",
       "https://arxiv.org/abs/2607.04753"
+    ],
+    "2026-08-29": [
+      "https://arxiv.org/abs/2608.26358",
+      "https://arxiv.org/abs/2608.26426",
+      "https://arxiv.org/abs/2608.26924",
+      "https://arxiv.org/abs/2508.03230",
+      "https://arxiv.org/abs/2608.15667"
     ]
   }
 }
