@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-29</time></div><h2>2023 AMC10B 末位数字 / 2022 AMC10A 整数配对</h2><p>两数末位之和的个位；1–14 拆成 7 对且大数至少为小数两倍的分法数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论,组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-29-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
