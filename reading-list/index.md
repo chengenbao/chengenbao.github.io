@@ -25,6 +25,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-08-29</time>
     </div>
+    <h2>AI 加速器协同设计、模型完整性保护与扩散式 LLM 推理加速</h2>
+    <p>7 篇前沿技术文章：Redwood AI 加速器、SILK 权重完整性、SNN 多播映射、ACache 扩散 LLM 缓存、采样引导、微调审计与自适应思考。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">AI硬件 · 推理加速 · 模型安全 · 编译器</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-08-29-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-29</time>
+    </div>
     <h2>LLM推理加速与底层系统：从编译器、存算一体到分布式训练与优化器</h2>
     <p>精选7篇前沿技术文章，覆盖存算一体编译器、多GPU推理瓶颈、树状投机解码、跨WAN分布式训练与二值化压缩等底层系统方向。</p>
     <div class="rl-meta">
