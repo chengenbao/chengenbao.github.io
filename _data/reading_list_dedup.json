@@ -256,12 +256,6 @@
     ]
   },
   "finance": {
-    "2026-07-30": [
-      "https://federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
-      "https://federalreserve.gov/econres/notes/feds-notes/subprime-auto-lending-trends-in-buy-here-pay-here-auto-lending-20260508.html",
-      "https://federalreserve.gov/econres/notes/feds-notes/investor-composition-of-money-market-funds-and-its-implications-for-flow-dynamics-20260508.html",
-      "https://federalreserve.gov/econres/notes/feds-notes/trade-finance-activities-of-u-s-banks-what-the-data-can-tell-us-20260508.html"
-    ],
     "2026-07-31": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/default.htm",
       "https://arxiv.org/abs/2607.26068",
@@ -452,6 +446,13 @@
       "https://arxiv.org/abs/2608.26924",
       "https://arxiv.org/abs/2508.03230",
       "https://arxiv.org/abs/2608.15667"
+    ],
+    "2026-08-30": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-the-feds-balance-sheet-implications-for-monetary-policy-implementation-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decade-of-u-s-cross-border-payments-efforts-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html"
     ]
   }
 }
