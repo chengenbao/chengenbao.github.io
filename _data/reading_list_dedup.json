@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-07-30": [
-      "https://arxiv.org/abs/2607.25498",
-      "https://arxiv.org/abs/2607.23099",
-      "https://arxiv.org/abs/2607.25291",
-      "https://arxiv.org/abs/2607.25504",
-      "https://arxiv.org/abs/2607.22720",
-      "https://arxiv.org/abs/2602.22229",
-      "https://arxiv.org/abs/2607.25333"
-    ],
     "2026-07-31": [
       "https://arxiv.org/abs/2603.01097",
       "https://arxiv.org/abs/2607.25852",
@@ -254,6 +245,14 @@
       "https://arxiv.org/abs/2608.26120",
       "https://arxiv.org/abs/2608.26462",
       "https://arxiv.org/abs/2608.26141"
+    ],
+    "2026-08-30": [
+      "https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/",
+      "https://pytorch.org/blog/core-pytorch-sessions-at-pytorch-conference-north-america-2026/",
+      "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "https://huggingface.co/blog/multi-vector-encoder",
+      "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "https://pytorch.org/blog/pytorch-ecosystem-landscape-q3-update/"
     ]
   },
   "finance": {
