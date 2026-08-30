@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-08-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-30</time></div><h2>2021 AMC12A 抽牌概率 / 2022 AMC12B 指数对数最值</h2><p>抽牌改变概率求解原牌数；指数对数对称方程组求 log₂y 最大可能值。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率,代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-30-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
