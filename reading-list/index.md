@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-08-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-08-30</time>
+    </div>
+    <h2>推理优化·编译器·大模型训练·检索架构·科研可复现性</h2>
+    <p>今日精选 6 篇：vLLM/PyTorch 底层优化、Granite 4.2 训练、迟交互检索、ICML 复现与生态更新。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · arXiv · PyTorch · HuggingFace · 推理 · 编译器 · 训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-29</time></div><h2>2023 AMC10B 末位数字 / 2022 AMC10A 整数配对</h2><p>两数末位之和的个位；1–14 拆成 7 对且大数至少为小数两倍的分法数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论,组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-29-finance-daily/">
   <div class="rl-accent"></div>
