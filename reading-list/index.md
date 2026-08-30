@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-08-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-08-30</time>
+    </div>
+    <h2>货币传导、跨境支付与私募信贷风险</h2>
+    <p>精选 5 篇美联储 FEDS Notes：回购市场与资产负债表、跨境支付十年、基金流动性风险、私募信贷与杠杆贷款。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#货币政策 #跨境支付 #私人信贷</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-08-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
