@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-07-31": [
-      "https://arxiv.org/abs/2603.01097",
-      "https://arxiv.org/abs/2607.25852",
-      "https://arxiv.org/abs/2607.26515",
-      "https://arxiv.org/abs/2607.27090",
-      "https://arxiv.org/abs/2607.19450",
-      "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/"
-    ],
     "2026-08-01": [
       "https://arxiv.org/abs/2607.27694",
       "https://arxiv.org/abs/2607.27704",
@@ -253,6 +245,14 @@
       "https://huggingface.co/blog/multi-vector-encoder",
       "https://huggingface.co/blog/icml-2026-open-reproductions",
       "https://pytorch.org/blog/pytorch-ecosystem-landscape-q3-update/"
+    ],
+    "2026-08-31": [
+      "https://huggingface.co/blog/asr-benchmark-optimization",
+      "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "https://huggingface.co/blog/gradio-workflow-guide",
+      "https://huggingface.co/blog/pwc-search",
+      "https://pytorch.org/blog/pytorch-conference-north-america-2026-keynote-speaker-sessions-announced/",
+      "https://huggingface.co/blog/state-of-open-models-summer-2026"
     ]
   },
   "finance": {
