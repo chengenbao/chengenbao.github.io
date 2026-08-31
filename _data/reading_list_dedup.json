@@ -256,12 +256,6 @@
     ]
   },
   "finance": {
-    "2026-07-31": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/default.htm",
-      "https://arxiv.org/abs/2607.26068",
-      "https://arxiv.org/abs/2607.27142",
-      "https://arxiv.org/abs/2607.26109"
-    ],
     "2026-08-01": [
       "https://arxiv.org/abs/2607.27548",
       "https://arxiv.org/abs/2607.27569",
@@ -453,6 +447,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html"
+    ],
+    "2026-08-31": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/mexico-in-u-s-supply-chains-lessons-from-2018-19-tariffs-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/more-credit-more-debt-new-evidence-on-automated-credit-decisions-20260116.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-recession-risks-with-state-level-data-20260107.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
     ]
   }
 }
