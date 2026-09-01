@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="360" viewBox="0 0 400 360">
+  <polygon points="200,30 40,330 360,330" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="22" text-anchor="middle" font-size="16">A</text>
+  <text x="28" y="350" text-anchor="middle" font-size="16">B</text>
+  <text x="372" y="350" text-anchor="middle" font-size="16">C</text>
+  <polygon points="200,30 120,180 280,180" fill="rgba(240,180,60,0.28)" stroke="#b7791f" stroke-width="1"/>
+  <line x1="200" y1="30" x2="120" y2="180" stroke="#e0533d" stroke-width="1.2" stroke-dasharray="4"/>
+  <line x1="200" y1="30" x2="280" y2="180" stroke="#2f855a" stroke-width="1.2" stroke-dasharray="4"/>
+  <circle cx="120" cy="180" r="4.5" fill="#e0533d"/>
+  <text x="104" y="172" font-size="14" fill="#e0533d">P</text>
+  <circle cx="280" cy="180" r="4.5" fill="#2f855a"/>
+  <text x="290" y="172" font-size="14" fill="#2f855a">Q</text>
+</svg>
