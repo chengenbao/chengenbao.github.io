@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-01</time>
+    </div>
+    <h2>推理加速 · 量化安全 · 硬件架构 · 扩散解码</h2>
+    <p>6 篇核心 infra 论文：循环状态量化、向量索引输出层、硬件内存墙、扩散投机解码、量化后门、性能预测</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">LLM · 推理加速 · 量化 · 硬件架构</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-08-31-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-31</time></div><h2>2024 AMC12B 旋转等边三角形求 tanθ / 2024 AMC12B 整数百次幂模125余数个数</h2><p>旋转等边三角形求 tanθ（几何）；整数100次幂除以125的余数种数（数论）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何,数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-31-finance-daily/">
   <div class="rl-accent"></div>
