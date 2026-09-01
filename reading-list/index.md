@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-01</time>
+    </div>
+    <h2>美联储视角下的缩表、就业与消费金融</h2>
+    <p>5 篇 FEDS Notes：主动缩表主导、劳动力市场供给因素、BNPL 近 1600 亿、跨境证券数据镜像、租客信用误测。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #消费金融 #跨境资本</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
