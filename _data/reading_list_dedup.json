@@ -254,12 +254,6 @@
     ]
   },
   "finance": {
-    "2026-08-01": [
-      "https://arxiv.org/abs/2607.27548",
-      "https://arxiv.org/abs/2607.27569",
-      "https://arxiv.org/abs/2607.28133",
-      "https://arxiv.org/abs/2607.28378"
-    ],
     "2026-08-02": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
@@ -452,6 +446,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/more-credit-more-debt-new-evidence-on-automated-credit-decisions-20260116.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-recession-risks-with-state-level-data-20260107.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-brief-history-of-bank-notes-in-the-united-states-and-some-lessons-for-stablecoins-20260206.html"
+    ],
+    "2026-09-01": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decomposition-of-balance-sheet-reduction-20260202.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/model-perspectives-on-supply-and-demand-factors-behind-a-soft-labor-market-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-cross-border-securities-positions-explaining-asymmetries-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html"
     ]
   }
 }
