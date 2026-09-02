@@ -18,6 +18,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-02</time></div><h2>立方差连加求和 / 有序三元组计数</h2><p>AMC 12 代数求和与组合计数真题，含完整步骤、易错点与知识背景。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #组合 #AMC10 #AMC12</span></div></div></a>
   <a class="rl-card finance" href="/reading-list/2026-09-02-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
