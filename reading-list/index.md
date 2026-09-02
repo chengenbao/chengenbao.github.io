@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+  <a class="rl-card finance" href="/reading-list/2026-09-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-02</time>
+    </div>
+    <h2>美联储研究笔记精选（货币·银行·市场·监管）</h2>
+    <p>本日精选 5 篇美联储 FEDS Notes 最新研究笔记，覆盖准备金、基金流动性、信贷预期、联邦基金市场与杠杆率监管。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #银行 #市场 #监管</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
