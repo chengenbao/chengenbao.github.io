@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-02</time>
+    </div>
+    <h2>LLM 推理加速 · KV 量化 · MoE 压缩 · 多 GPU 训练</h2>
+    <p>7 篇精选：KV Cache 量化、长上下文加速、MoE 混合精度、投机解码、存内计算编译、缩放定律与多 GPU 训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · MoE量化 · 投机解码 · 多GPU训练 · 缩放定律</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-01</time></div><h2>子集元素个数的最大值 / 随机点面积概率</h2><p>AMC 10/12 真题：带间距约束的整数子集最大规模（组合）＋ 等边三角形内随机点面积概率（概率）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#AMC10 #AMC12 #组合 #概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-01-finance-daily/">
   <div class="rl-accent"></div>
