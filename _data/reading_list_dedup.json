@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-08-02": [
-      "http://arxiv.org/abs/2607.28589v1",
-      "http://arxiv.org/abs/2607.28495v1",
-      "http://arxiv.org/abs/2607.26633v1",
-      "http://arxiv.org/abs/2607.25498v1",
-      "http://arxiv.org/abs/2607.28576v1",
-      "http://arxiv.org/abs/2607.27704v1",
-      "http://arxiv.org/abs/2607.28609v1"
-    ],
     "2026-08-03": [
       "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
@@ -251,6 +242,15 @@
       "https://arxiv.org/abs/2608.27514",
       "https://arxiv.org/abs/2608.27512",
       "https://arxiv.org/abs/2608.27794"
+    ],
+    "2026-09-02": [
+      "https://arxiv.org/abs/2608.28911",
+      "https://arxiv.org/abs/2608.30295",
+      "https://arxiv.org/abs/2608.30564",
+      "https://huggingface.co/blog/accelerate-nd-parallel",
+      "https://arxiv.org/abs/2512.23765",
+      "https://arxiv.org/abs/2511.15503",
+      "https://arxiv.org/abs/2608.28308"
     ]
   },
   "finance": {
