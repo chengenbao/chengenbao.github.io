@@ -254,13 +254,6 @@
     ]
   },
   "finance": {
-    "2026-08-02": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html"
-    ],
     "2026-08-03": [
       "http://arxiv.org/abs/2607.27548v1",
       "http://arxiv.org/abs/2607.29162v1",
@@ -453,6 +446,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-cross-border-securities-positions-explaining-asymmetries-20260213.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-renters-in-credit-data-evidence-from-linked-survey-and-administrative-data-20260508.html"
+    ],
+    "2026-09-02": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/retail-sweep-behavior-since-the-elimination-of-reserve-requirements-20260622.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-mutual-fund-liquidity-with-n-port-20260508.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/bankers-banks-and-their-role-in-the-federal-funds-market-20260130.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-empirical-relationship-between-the-tier-1-leverage-ratio-and-community-bank-failures-after-the-gfc-20251215.html"
     ]
   }
 }
