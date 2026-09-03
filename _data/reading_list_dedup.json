@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-08-03": [
-      "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "https://huggingface.co/blog/security-incident-july-2026"
-    ],
     "2026-08-05": [
       "https://arxiv.org/abs/2608.00029",
       "https://arxiv.org/abs/2608.00412",
@@ -251,6 +243,15 @@
       "https://arxiv.org/abs/2512.23765",
       "https://arxiv.org/abs/2511.15503",
       "https://arxiv.org/abs/2608.28308"
+    ],
+    "2026-09-03": [
+      "https://arxiv.org/abs/2609.01338",
+      "https://arxiv.org/abs/2609.00407",
+      "https://arxiv.org/abs/2604.10390",
+      "https://arxiv.org/abs/2609.00049",
+      "https://arxiv.org/abs/2609.00058",
+      "https://arxiv.org/abs/2609.00078",
+      "https://arxiv.org/abs/2609.00097"
     ]
   },
   "finance": {
