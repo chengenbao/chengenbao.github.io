@@ -255,13 +255,6 @@
     ]
   },
   "finance": {
-    "2026-08-03": [
-      "http://arxiv.org/abs/2607.27548v1",
-      "http://arxiv.org/abs/2607.29162v1",
-      "http://arxiv.org/abs/2607.28790v1",
-      "http://arxiv.org/abs/2607.29210v1",
-      "http://arxiv.org/abs/2607.28378v1"
-    ],
     "2026-08-04": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/drivers-of-post-pandemic-inflation-in-selected-advanced-economies-and-implications-for-the-outlook-20230113.html",
@@ -454,6 +447,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-shocks-to-banks-expectations-for-lending-standards-using-the-senior-loan-officer-opinion-survey-20260223.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/bankers-banks-and-their-role-in-the-federal-funds-market-20260130.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-empirical-relationship-between-the-tier-1-leverage-ratio-and-community-bank-failures-after-the-gfc-20251215.html"
+    ],
+    "2026-09-03": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-decade-of-u-s-cross-border-payments-efforts-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-the-feds-balance-sheet-implications-for-monetary-policy-implementation-20260826.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html"
     ]
   }
 }
