@@ -252,6 +252,15 @@
       "https://arxiv.org/abs/2609.00058",
       "https://arxiv.org/abs/2609.00078",
       "https://arxiv.org/abs/2609.00097"
+    ],
+    "2026-09-04": [
+      "https://arxiv.org/abs/2609.01821",
+      "https://arxiv.org/abs/2609.01658",
+      "https://arxiv.org/abs/2609.01679",
+      "https://arxiv.org/abs/2609.01807",
+      "https://arxiv.org/abs/2609.02052",
+      "https://pytorch.org/blog/pytorch-2-14-release-blog/",
+      "https://huggingface.co/blog/webgpu-kernels"
     ]
   },
   "finance": {
