@@ -264,12 +264,6 @@
     ]
   },
   "finance": {
-    "2026-08-04": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/drivers-of-post-pandemic-inflation-in-selected-advanced-economies-and-implications-for-the-outlook-20230113.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-the-resiliency-of-the-banking-industry-to-a-commercial-real-estate-price-shock-20190530.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/cross-border-venture-capital-and-reverse-technology-flows-20241231.html"
-    ],
     "2026-08-05": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-sensitivity-of-regional-banks-to-macroeconomic-shocks-20260804.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
@@ -463,6 +457,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html"
+    ],
+    "2026-09-04": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/which-states-are-most-exposed-to-tariff-increases-a-new-measure-based-on-the-consumption-channel-20260903.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-gold-didnt-actually-overtake-treasury-securities-as-the-worlds-favorite-reserve-asset-20260903.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/revisiting-the-forecasting-potential-of-futures-prices-20260903.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html"
     ]
   }
 }
