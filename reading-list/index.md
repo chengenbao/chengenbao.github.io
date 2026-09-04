@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-04</time>
+    </div>
+    <h2>光子互连推理加速、过程奖励RAG与测试时智能等7篇精选</h2>
+    <p>覆盖推理加速、LLM训练/RL、OS内核eBPF、WebGPU内核与PyTorch 2.14新特性</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · 过程奖励 · eBPF · WebGPU · PyTorch2.14</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-03</time></div><h2>Breadus 线性温标 / 四边形最长边</h2><p>2023 AMC 10A 真题：一次函数建模 + 四边形多边不等式</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · AMC12 · 代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-03-finance-daily/">
   <div class="rl-accent"></div>
