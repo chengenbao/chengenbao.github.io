@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-04</time>
+    </div>
+    <h2>关税冲击、储备资产与私募信贷</h2>
+    <p>4篇美联储FEDS Notes：州级关税暴露、黄金vs美债、期货预测、私募信贷结构。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#关税 #黄金 #期货 #私募信贷</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-04-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
