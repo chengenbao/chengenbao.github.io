@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-05-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-09-05</time>
+    </div>
+    <h2>两枚骰子之和的概率约束 / 三项等比数列整数项的极值</h2>
+    <p>AMC 12 真题两题：骰子和概率约束（概率）+ 等比数列整数项极值（代数）。</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10/12 竞赛真题</span>
+      <span class="rl-tags">#概率 #代数 #AMC12</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-09-05-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
