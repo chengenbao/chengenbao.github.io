@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-08-05": [
-      "https://arxiv.org/abs/2608.00029",
-      "https://arxiv.org/abs/2608.00412",
-      "https://arxiv.org/abs/2608.01536",
-      "https://arxiv.org/abs/2608.00894",
-      "https://arxiv.org/abs/2608.01135",
-      "https://arxiv.org/abs/2608.00259",
-      "https://arxiv.org/abs/2608.00175"
-    ],
     "2026-08-06": [
       "https://arxiv.org/abs/2608.02691",
       "https://arxiv.org/abs/2608.02700",
@@ -261,6 +252,15 @@
       "https://arxiv.org/abs/2609.02052",
       "https://pytorch.org/blog/pytorch-2-14-release-blog/",
       "https://huggingface.co/blog/webgpu-kernels"
+    ],
+    "2026-09-05": [
+      "https://arxiv.org/abs/2609.02959",
+      "https://arxiv.org/abs/2609.02982",
+      "https://arxiv.org/abs/2609.02986",
+      "https://arxiv.org/abs/2609.02987",
+      "https://arxiv.org/abs/2609.02988",
+      "https://arxiv.org/abs/2609.02991",
+      "https://arxiv.org/abs/2609.02993"
     ]
   },
   "finance": {
