@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "大模型训练、推理加速与系统优化前沿"
+title: "推理加速 · 后训练 · 端侧与体系结构"
 category: tech
 tags: [Tech, 多源, 前沿]
 date: 2026-09-05
@@ -8,126 +8,137 @@ date: 2026-09-05
 
 # 📰 2026-09-05 · 每日技术速递
 
-> 今日精选 7 篇深度技术文章，覆盖 大模型训练 / 推理加速 / 编译器 / GPU / 分布式系统。
+> 今日精选 7 篇深度技术文章，覆盖 推理加速（投机解码/端侧推理）、后训练（蒸馏/扩散 RL）、参数高效微调（MoE+LoRA）、操作系统与体系结构（OS 仿真/GPGPU 仿真）。
 
 ---
 
-## 1. The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors
+## 1. AdaptiveSpec：免训练、逐 token 的自适应投机解码
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02959
-**标签**：embedding
+**来源**：cs.CL / arXiv
+**链接**：https://arxiv.org/abs/2609.02897
+**标签**：投机解码 · 推理加速 · EAGLE-3 · 免训练 · LLM 推理
 
-arXiv:2609.02959v1 Announce Type: new Abstract: What does a language model predict when it has few clues? The answer lurks in its unembedding geometry: a single direction of the unembedding matrix encodes the unigram distribution of the training corpus, which serves as the Bayesian prior the model falls back on when uncertain. This structure --- which we ter
+投机解码通过草稿 token 并行验证来加速 LLM 推理，但主流的 EAGLE-3 等树注意力草拟器把“严格 token 匹配”与“固定草稿树形状”两个决策写死。AdaptiveSpec 提出一种免训练的逐步方法，直接利用解码过程中已有的内部信号同时放宽这两项约束：用逐 token 的 margin 规则（草稿 token 概率与目标分布 top-1 概率之比超过阈值即放行）替代长度相关匹配，并通过逐步树策略动态调整草稿结构。
 
 **核心要点**：
-- arXiv:2609.02959v1 Announce Type: new Abstract: What does a language model predict when it has few clues? The answer lurks in its unembeddin
-- This structure --- which we term the \emph{direction of ignorance} --- appears in all four model families examined (\texttt{Llama}, \texttt{
-- Projecting the final prediction state onto this
+- 逐步 margin 规则不依赖草稿长度或草拟器架构，通用性强
+- 树形状随解码信号动态自适应，而非固定预算分配
+- 完全免训练，可直接套用现有 EAGLE 系列草拟器
 
 ---
 
-## 2. Equation Recast for Canonical Operator Learning Across Parametric PDEs
+## 2. LeanStream：面向端侧设备的“推测-精炼”流式推理框架
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02982
-**标签**：前沿 · 技术 · 研究
+**来源**：cs.LG / arXiv
+**链接**：https://arxiv.org/abs/2609.03079
+**标签**：端侧推理 · 存储卸载 · 稀疏激活 · IO 重叠 · 移动端 LLM
 
-arXiv:2609.02982v1 Announce Type: new Abstract: Learning solution operators across broad parameter ranges can require substantial coverage of both input functions and physical parameters, particularly for purely data-driven parametric models. In addition, the resulting models may fail silently outside the training distribution. We introduce equation recast, 
+端侧 LLM 推理受限于 DRAM 容量，现有系统把权重卸载到 SSD/闪存并利用激活稀疏性，但面临根本矛盾：精确的稀疏执行决策需要最新上下文，而高效的算 IO 重叠又要求提前预测。LeanStream 用流式“推测-精炼”框架逐步细化计算、加载与缓存保留的优先级，借助 GPU 部分结果实现执行与存储 IO 的细粒度重叠，缓解冗余权重拉取与缓存膨胀。
 
 **核心要点**：
-- arXiv:2609.02982v1 Announce Type: new Abstract: Learning solution operators across broad parameter ranges can require substantial coverage o
-- In addition, the resulting models may fail silently outside the training distribution.
-- We introduce equation recast, which reformulates parametric operator learning as the learning of a single canonical operator.
+- 以部分 GPU 结果驱动优先级渐进细化，打通执行与 IO 流水线
+- 同时缓解冗余权重拉取、额外计算与缓存开销三类问题
+- 已在真实移动/嵌入式设备上实现验证
 
 ---
 
-## 3. Modern Transformers Are Implicit Hybrids: From Functional Differentiation to Principled Hybrid Architecture Design
+## 3. Routing Is Not Enough：诊断 MoE+LoRA 中的子空间争用
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02986
-**标签**：Transformer
+**来源**：cs.LG / arXiv
+**链接**：https://arxiv.org/abs/2609.03150
+**标签**：MoE · LoRA · 多域微调 · 负迁移 · 子空间争用
 
-arXiv:2609.02986v1 Announce Type: new Abstract: Hybrid architectures combining Full Attention (FA) and Linear Attention (LA) are increasingly prominent, yet their allocation remains heuristic. We seek an evidence-grounded basis in head-level functional organization learned by RoPE-based Transformers. Behavioral probes do not yield a complete taxonomy, so we 
+多域微调常将 MoE 路由与 LoRA 组合，假设 token 级路由能隔离各域更新。作者在 Python 代码 + 生物医学文本 + 数学推理上验证：即便专家路由近乎互斥，加入生物医学数据仍显著抬高代码困惑度。通过 Jaccard 路由重叠与适配器梯度余弦相似度两个诊断指标，定位到失败源于近乎正交的域梯度在同一低秩适配器子空间内相互竞争。
 
 **核心要点**：
-- arXiv:2609.02986v1 Announce Type: new Abstract: Hybrid architectures combining Full Attention (FA) and Linear Attention (LA) are increasingl
-- We seek an evidence-grounded basis in head-level functional organization learned by RoPE-based Transformers.
-- Behavioral probes do not yield a complete taxonomy, so we propose two intervention metrics: RoPE Frequency Importance Score (RFIS), measurin
+- 提出 Jaccard 路由重叠 + 梯度余弦相似度，量化专家共享与更新兼容性
+- 证明路由隔离不足以防止低秩子空间内的负迁移
+- SpawnLoRA 在 MoE 专家内动态加门控子适配器缓解争用
 
 ---
 
-## 4. Tail-Likelihood Reinforcement Learning
+## 4. LeanGRPO：消除扩散强化学习中的冗余重计算
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02987
-**标签**：前沿 · 技术 · 研究
+**来源**：cs.AR / arXiv
+**链接**：https://arxiv.org/abs/2609.03528
+**标签**：扩散模型 · GRPO · 强化学习 · 训练加速 · 显存优化
 
-arXiv:2609.02987v1 Announce Type: new Abstract: Reinforcement learning typically optimizes average reward. For generative policies, the average can hide an important distinction: two policies can achieve the same mean reward while having very different chances of producing a rare but high-reward rollout. This matters as sampling increases during training and
+扩散 RL（如 DanceGRPO、FlowGRPO）在 rollout 后需用梯度追踪重算选中时间步，但在 on-policy、rollout 与更新同后端的设定下该重算数学上冗余。LeanGRPO 通过重构数据并行布局、引入两种免重算的 trajectory-logprob 训练调度，在避免显存爆炸的同时消除冗余前向。
 
 **核心要点**：
-- arXiv:2609.02987v1 Announce Type: new Abstract: Reinforcement learning typically optimizes average reward.
-- For generative policies, the average can hide an important distinction: two policies can achieve the same mean reward while having very diff
-- This matters as sampling increases during training and inference, since its benefit depends on retaining probability mass on high-reward out
+- 指出 on-policy 扩散 RL 重算在理论上冗余
+- LeanGRPO-Retain 复用 rollout 计算图与中间激活
+- 重构数据并行布局以规避 rollout 期显存峰值
 
 ---
 
-## 5. Mesh-Native Physics-Informed Graph Surrogates for TCAD-in-the-Loop Design Space Exploration
+## 5. TGOPD：蒸馏前先验证——基于提示级教师门控的在线蒸馏
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02988
-**标签**：前沿 · 技术 · 研究
+**来源**：cs.LG / arXiv
+**链接**：https://arxiv.org/abs/2609.02998
+**标签**：知识蒸馏 · 在线蒸馏 · 后训练 · 教师门控 · 对齐
 
-arXiv:2609.02988v1 Announce Type: new Abstract: High-fidelity TCAD simulation of drift-diffusion transport remains the workhorse of emerging FinFET device design, but it is computationally expensive, especially for 3D structures where runtime escalates steeply with mesh complexity. This sharply limits multi-objective design space exploration. Existing machin
+在线策略蒸馏（OPD）用冻结教师对学生在自有 rollout 上提供密集 token 级监督，但朴素 OPD 对每个提示均匀施加监督。由于 reverse KL 是 mode-seeking，一个过度自信但错误的教师会诱发强而误导的更新。TGOPD 主张在允许密集监督前于提示级验证教师可靠性：用少量验证器打分的教师探针估计可靠性，仅当可靠性检查通过才对该提示走密集 OPD。
 
 **核心要点**：
-- arXiv:2609.02988v1 Announce Type: new Abstract: High-fidelity TCAD simulation of drift-diffusion transport remains the workhorse of emerging
-- This sharply limits multi-objective design space exploration.
-- Existing machine-learning surrogates map a fixed set of design parameters to a few scalar device metrics, discarding the underlying physics 
+- 揭示反向 KL 下“自信的错误教师”会带来误导性强更新
+- 以提示级可靠性门控替代熵/一致性等间接代理指标
+- 可靠性估计仅依赖少量验证器打分探针，开销低
 
 ---
 
-## 6. TRACE: Spatiotemporal Contact Memory Graph Network Simulator for Granular Dynamics
+## 6. Ossim：基于 OS 层的集群级全栈在线仿真
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02991
-**标签**：前沿 · 技术 · 研究
+**来源**：cs.OS / arXiv
+**链接**：https://arxiv.org/abs/2606.18958
+**标签**：操作系统 · 集群仿真 · 全栈评测 · 虚拟化 · Linux
 
-arXiv:2609.02991v1 Announce Type: new Abstract: Learned graph simulators provide an efficient alternative to high-fidelity solvers for granular dynamics. However, granular motion depends strongly on inter-granular contact history, which is difficult to preserve when particle contacts form, break, and rearrange. Existing simulators mainly store temporal infor
+集群级全栈仿真对部署前评估分布式软件栈与新型硬件至关重要，但现有方法无法同时兼顾“未改生产栈的全栈保真”与“迭代配置探索所需的仿真性能”。Ossim 基于 Linux 虚拟化栈提出 OS 级方案，由仿真导向调度、在线内存层级管理、仿真感知 IPC、分布式仿真编排四个子系统构成，在共享仿真时间下协调 live 与建模组件并控制同置宿主间干扰。
 
 **核心要点**：
-- arXiv:2609.02991v1 Announce Type: new Abstract: Learned graph simulators provide an efficient alternative to high-fidelity solvers for granu
-- However, granular motion depends strongly on inter-granular contact history, which is difficult to preserve when particle contacts form, bre
-- Existing simulators mainly store temporal information in node features or node-level memory.
+- 四大子系统协同，兼顾全栈保真与仿真吞吐
+- 在共享仿真时间下管控同置真实宿主间的干扰
+- 为仿真原生 OS 支持指明架构方向
 
 ---
 
-## 7. No-Regret Bayesian Optimization with Finite-Library Input-Warped Kernels
+## 7. Sim-FA：支持细粒度异步流水线的 GPGPU 仿真框架
 
-**来源**：cs.LG
-**链接**：https://arxiv.org/abs/2609.02993
-**标签**：前沿 · 技术 · 研究
+**来源**：cs.AR / arXiv
+**链接**：https://arxiv.org/abs/2605.00555
+**标签**：GPGPU · 周期精确仿真 · warp 专门化 · TMA · 体系结构
 
-arXiv:2609.02993v1 Announce Type: new Abstract: Gaussian-process Bayesian optimization (GP-BO) excels at black-box optimization of costly functions, e.g., hyperparameter optimization (HPO) and multi-agent system (MAS) design. Convergence-rate guarantees exist for select methods, notably GP upper confidence bound (GP-UCB), but require a fixed kernel. Critical
+现代 GPGPU 为支持 LLM 引入了 warp 专门化等新特性，实现生产者-消费者、矩阵乘-激活函数的时序重叠。现有学术仿真器未能及时纳入 TMA 等新 NVIDIA 特性，且解析模型在复杂依赖下会误估 DRAM 流量。Sim-FA 提供一套支持这些新兴范式、面向细粒度异步流水线分析的周期精确仿真框架，弥合 AI 基础设施与体系结构研究中的工具缺口。
 
 **核心要点**：
-- arXiv:2609.02993v1 Announce Type: new Abstract: Gaussian-process Bayesian optimization (GP-BO) excels at black-box optimization of costly fu
-- Convergence-rate guarantees exist for select methods, notably GP upper confidence bound (GP-UCB), but require a fixed kernel.
-- Critically, the kernel encodes how input proximity affects objective value similarity.
+- 周期精确仿真覆盖 warp 专门化与 TMA 等新型 GPU 特性
+- 解析模型忠实刻画异步流水线下的真实 DRAM 流量
+- 面向 LLM 负载的 AI 基础设施与架构研究设计
 
 ---
+
 
 ## 📊 今日速览
 
+
 | # | 标题摘要 | 来源 | 方向 |
+
 |---|---------|------|------|
-| 1 | The Geometry of Ignorance: LLMs Know Whe | cs.LG | 机器学习/大模型 |
-| 2 | Equation Recast for Canonical Operator L | cs.LG | 机器学习/大模型 |
-| 3 | Modern Transformers Are Implicit Hybrids | cs.LG | 机器学习/大模型 |
-| 4 | Tail-Likelihood Reinforcement Learning | cs.LG | 机器学习/大模型 |
-| 5 | Mesh-Native Physics-Informed Graph Surro | cs.LG | 机器学习/大模型 |
-| 6 | TRACE: Spatiotemporal Contact Memory Gra | cs.LG | 机器学习/大模型 |
-| 7 | No-Regret Bayesian Optimization with Fin | cs.LG | 机器学习/大模型 |
+
+| 1 | 免训练、逐 token 的自适应投机 | cs.CL | 推理加速 |
+
+| 2 | 面向端侧设备的“推测-精炼”流式推理 | cs.LG | 端侧推理 |
+
+| 3 | 诊断 MoE+LoRA 中的子空间争 | cs.LG | 参数高效微调 |
+
+| 4 | 消除扩散强化学习中的冗余重计算 | cs.AR | 训练加速 |
+
+| 5 | 蒸馏前先验证——基于提示级教师门控的 | cs.LG | 后训练对齐 |
+
+| 6 | 基于 OS 层的集群级全栈在线仿真 | cs.OS | OS/集群 |
+
+| 7 | 支持细粒度异步流水线的 GPGPU  | cs.AR | 体系结构 |
+
 
 *自动生成 · 2026-09-05 · jeffinchen daily tech reading list*
 
