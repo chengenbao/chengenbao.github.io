@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-05</time>
+    </div>
+    <h2>货币形态演进、关税区域暴露与储备资产格局</h2>
+    <p>5篇精选：新货币形态与货币总量、关税区域敞口、黄金vs美债、期货预测力、企业出口结构。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv</span>
+      <span class="rl-tags">#宏观 #货币政策 #国际贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
