@@ -41,8 +41,8 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-09-05</time>
     </div>
-    <h2>大模型训练、推理加速与系统优化前沿</h2>
-    <p>精选 7 篇来自 arXiv/PyTorch/HuggingFace 的深度学习与系统技术文章</p>
+    <h2>推理加速 · 后训练 · 端侧与体系结构</h2>
+    <p>7 篇前沿技术文章：投机解码、端侧流式推理、MoE+LoRA 争用、扩散 RL、在线蒸馏、OS 集群仿真与 GPGPU 仿真。</p>
     <div class="rl-meta">
       <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
       <span class="rl-tags">Tech·前沿·多源</span>
