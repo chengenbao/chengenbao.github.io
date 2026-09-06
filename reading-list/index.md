@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-06-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-06</time>
+    </div>
+    <h2>PyTorch 2.14、FP8 千卡训练、端侧与 WebGPU 推理、4-bit 量化与投机解码加速</h2>
+    <p>7 篇聚焦训练/推理/量化与 GPU 调度的深度技术文，覆盖 PyTorch 2.14、AMD FP8、Muse Glimmer、WebGPU kernels、QAH、DSpark、GPU 调度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">PyTorch · FP8 · 端侧推理 · WebGPU · 量化 · 投机解码 · GPU调度</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-05-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
