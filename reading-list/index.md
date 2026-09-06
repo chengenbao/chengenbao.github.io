@@ -18,6 +18,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-06-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-09-06</time>
+    </div>
+    <h2>直径延长与相似三角形求面积 / gcd/lcm 方程的有序正整数对</h2>
+    <p>直径延长下的相似三角形面积 + gcd/lcm 方程的有序对计数</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10/12 竞赛真题</span>
+      <span class="rl-tags">#几何 #数论 #AMC10/12</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-09-06-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
