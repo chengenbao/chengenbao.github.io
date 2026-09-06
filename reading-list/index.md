@@ -3228,6 +3228,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-05-21-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-21</time></div><h2>奥数每日两题 2026-05-21：青蛙跳格的吸收概率 / 双圆内切链的半径</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 概率, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-21-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -3258,6 +3259,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-05-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-20</time></div><h2>奥数每日两题 2026-05-20：三元对称方程组求值 / 双绝对值区域的面积</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-20-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -3891,6 +3893,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-28</time></div><h2>奥数每日两题 2026-04-28：变底对数方程 / 等差数列的幂条件</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4366,6 +4369,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-17</time></div><h2>奥数每日两题 2026-04-17：三数和的方程组 / 等边三角形与圆围成的区域</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-17-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4396,6 +4400,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-16</time></div><h2>奥数每日两题 2026-04-16：复合变换的逆向追踪 / 偶数字数奇数个</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 几何, 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-16-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4520,6 +4525,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-10</time></div><h2>奥数每日两题 2026-04-10：委员会分配计数 / 网格演化计数</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 组合, 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-10-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4551,6 +4557,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-09</time></div><h2>奥数每日两题 2026-04-09：油耗单位换算 / 参数扫描区域周长</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-09-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4582,6 +4589,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-08</time></div><h2>奥数每日两题 2026-04-08：每个整数出现 n 次的中位数 / 十一线段五边形的双根号面积</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-08-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4612,6 +4620,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-07</time></div><h2>奥数每日两题 2026-04-07：百次幂模 125 的余数个数 / 五只蜗牛的并列名次</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 数论, 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-07-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4780,6 +4789,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-02</time></div><h2>奥数每日两题 2026-04-02：蜜蜂走棱的四步概率 / 九数列表的整数均值中位数</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 概率, 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-02-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4811,6 +4821,7 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card math" href="/reading-list/2026-04-01-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-01</time></div><h2>奥数每日两题 2026-04-01：进制数 2024 被 16 整除 / 十六人委员会的 3 幂因子</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 数论, 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-01-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4934,6 +4945,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-03-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-03-28</time></div><h2>奥数每日两题 2026-03-28：三根圆管的相切半径 / 幂和的模余</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 几何, 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-03-28-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -5058,6 +5070,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-03-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-03-25</time></div><h2>奥数每日两题 2026-03-25：根式和的最小值 / 平行四边形里的面积比</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-03-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -5088,7 +5101,8 @@ permalink: /reading-list/
       </div>
     </div>
   </a>
-  <a class="rl-card finance" href="/reading-list/2026-03-23-finance-daily/">
+  <a class="rl-card math" href="/reading-list/2026-03-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-03-23</time></div><h2>奥数每日两题 2026-03-23：鞋子排列的禁忌相邻 / 方格镖靶圆环命中</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 组合, 概率</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-03-23-finance-daily/">
     <div class="rl-accent"></div>
     <div class="rl-body">
       <div class="rl-top">
@@ -5148,6 +5162,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-03-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-03-24</time></div><h2>奥数每日两题 2026-03-24：平方和反推交叉积 / 六人三队的分组计数</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 代数, 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-03-24-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
