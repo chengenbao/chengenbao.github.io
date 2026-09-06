@@ -18,6 +18,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-06</time>
+    </div>
+    <h2>宏观预期、发展经济、公司金融、能源与人口经济</h2>
+    <p>5 篇 arXiv econ.GN 最新经济论文：关税预期、全球脱贫成本、客户披露与资本配置、电池储能与电价、教育竞赛与生育率。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #能源市场 #人口经济 #公司金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
