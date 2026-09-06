@@ -316,21 +316,6 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card tech" href="/reading-list/2026-08-29-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-08-29</time>
-    </div>
-    <h2>LLM推理加速与底层系统：从编译器、存算一体到分布式训练与优化器</h2>
-    <p>精选7篇前沿技术文章，覆盖存算一体编译器、多GPU推理瓶颈、树状投机解码、跨WAN分布式训练与二值化压缩等底层系统方向。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">编译器 · 推理加速 · 分布式训练 · 模型压缩 · 优化器</span>
-    </div>
-  </div>
-</a>
 <a class="rl-card math" href="/reading-list/2026-08-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-28</time></div><h2>Ted 的指数笔误 / 正方形内接正方形</h2><p>AMC 10 真题：指数方程求解 + 正方形内接几何比，含详细解析与易错点。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">奥数 · AMC10 · 代数 · 几何</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-08-28-tech-daily/">
   <div class="rl-accent"></div>
@@ -427,7 +412,6 @@ permalink: /reading-list/
   </div>
 </a>
 <a class="rl-card math" href="/reading-list/2026-08-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-25</time></div><h2>矩形之字形的投影长度 / 递增数(upno)与递减数(downno)计数</h2><p>AMC 12 几何投影 + AMC 10 数论计数，附完整推导与常见错误点拨。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
-<a class="rl-card tech" href="/reading-list/2026-08-25-tech-daily/">
 <a class="rl-card finance" href="/reading-list/2026-08-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -443,6 +427,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card tech" href="/reading-list/2026-08-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
@@ -486,21 +471,6 @@ permalink: /reading-list/
     <div class="rl-meta">
       <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
       <span class="rl-tags">编译器 · 量化 · 本地推理 · Agent · 训练流水线</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-08-24-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-08-24</time>
-    </div>
-    <h2>嵌入检索、推理加速与开放模型格局</h2>
-    <p>今日精选 6 篇深度技术文章，覆盖多向量检索、自适应推理加速、ICML 复现、开放模型格局、ASR 基准度量与低延迟语音智能体。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">嵌入 · 推理加速 · 可复现性 · 开放模型 · ASR · TTS</span>
     </div>
   </div>
 </a>
@@ -707,21 +677,6 @@ permalink: /reading-list/
     <div class="rl-meta">
       <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
       <span class="rl-tags">FP8 · 编译器 · 端侧推理 · vLLM · 序列并行</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-08-17-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-08-17</time>
-    </div>
-    <h2>可复现性、推理加速、知识蒸馏与多模态开源模型前沿</h2>
-    <p>今日 7 篇精选，覆盖科研智能体复现、Token 高效推理、规模化蒸馏与本地多模态模型。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">大模型 · 推理加速 · 知识蒸馏 · 多模态</span>
     </div>
   </div>
 </a>
@@ -1536,21 +1491,6 @@ permalink: /reading-list/
   </div>
 </a>
 
-<a class="rl-card tech" href="/reading-list/2026-07-21-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-07-21</time>
-    </div>
-    <h2>LLM 推理压缩与加速、MLIR 编译器、GEMM 性能与 CXL 共享内存</h2>
-    <p>7 篇聚焦 KV 缓存压缩、扩散模型解码加速、推理蒸馏、MLIR 编译、GEMM 性能分析与 CXL 分布式内存。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">KV Cache · 推理加速 · MLIR · GEMM · CXL</span>
-    </div>
-  </div>
-</a>
 <a class="rl-card math" href="/reading-list/2026-07-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-20</time></div><h2>正四面体中的余弦值 / 循环小数的数位谜题</h2><p>几何（正四面体角）与数论（循环小数+同余）两道 AMC 真题精讲</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-20-finance-daily/">
   <div class="rl-accent"></div>
@@ -1736,36 +1676,6 @@ permalink: /reading-list/
     <div class="rl-meta">
       <span class="rl-source">Fed / FOMC / arXiv econ</span>
       <span class="rl-tags">#宏观 #货币政策 #国际贸易</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-07-15</time>
-    </div>
-    <h2>KV-Cache压缩 · MoE本地推理 · 低精度训练 · GPU隔离 · NPU编程 · CUDA优化</h2>
-    <p>今日精选 6 篇深度技术文章，覆盖 LLM 推理优化、量化训练、GPU/NPU 系统与 CUDA 性能调优。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">大模型 · 量化 · GPU · NPU · CUDA</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-07-15-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-07-15</time>
-    </div>
-    <h2>LLM 推理加速 x 量化失效 x 结构化推理 x 硬件感知优化</h2>
-    <p>覆盖 Flash 存储推理、量化隐性失效、无训练推理增强、边缘 ViT 调度等 7 个前沿方向</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv · cs.AR · cs.LG · cs.CL</span>
-      <span class="rl-tags">LLM推理 · 量化 · 硬件优化 · 推理加速</span>
     </div>
   </div>
 </a>
@@ -2179,21 +2089,6 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card tech" href="/reading-list/2026-07-01-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-07-01</time>
-    </div>
-    <h2>LLM 推理系统 · 存内计算 · FPGA 量化 · RL Post-Training</h2>
-    <p>今日精选：异构内存 LLM 推理、内核级仿真器、PIM 编译器、铁电存算一体、FPGA 量化剪枝、Miles RL 训练框架</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">LLM推理 · PIM编译 · 量化 · RLHF</span>
-    </div>
-  </div>
-</a>
 <a class="rl-card math" href="/reading-list/2026-06-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-30</time></div><h2>数字组合与整除性 / 工程问题三元方程组</h2><p>整除余数判断 + 工程效率联立方程，数论与代数的双重挑战</p><div class="rl-meta"><span class="rl-source">奥数网竞赛真题</span><span class="rl-tags">六年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-30-finance-daily/">
   <div class="rl-accent"></div>
@@ -2536,21 +2431,6 @@ permalink: /reading-list/
     <div class="rl-meta">
       <span class="rl-source">arXiv / HuggingFace</span>
       <span class="rl-tags">LLM · SFT · 可解释性 · 体系结构 · PEFT</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-06-19-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-06-19</time>
-    </div>
-    <h2>LLM 推理加速 · 高效注意力 · MoE 压缩 · GPU Kernel 优化</h2>
-    <p>今日 6 篇：JetFlow 投机解码、高斯混合注意力、MoE 剪枝、LLM Kernel 调优、KV Cache 双维度、GPU 内存安全</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">推理加速 · 注意力机制 · MoE · GPU</span>
     </div>
   </div>
 </a>
@@ -2969,21 +2849,6 @@ permalink: /reading-list/
   </div>
 </a>
 
-<a class="rl-card tech" href="/reading-list/2026-06-03-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-06-03</time>
-    </div>
-    <h2>MoE量化 · 推测解码加速 · 亚精度推理 · GPU TLB优化 · 内核自动调优</h2>
-    <p>今日精选覆盖大模型量化、推理加速、GPU微架构优化与OS内核调优，7篇深度论文。</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">量化 · 推理加速 · GPU · 内核</span>
-    </div>
-  </div>
-</a>
 <a class="rl-card math" href="/reading-list/2026-06-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-02</time></div><h2>Venn 图分类 / 均值中位数众数</h2><p>Venn 图集合分类 · 平均数中位数众数综合枚举</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-02-finance-daily/">
   <div class="rl-accent"></div>
@@ -3249,21 +3114,6 @@ permalink: /reading-list/
     <div class="rl-meta">
       <span class="rl-source">Federal Reserve / Bloomberg Economics / MarketWatch</span>
       <span class="rl-tags">#宏观 #货币政策 #油价 #地缘</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-05-25-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-05-25</time>
-    </div>
-    <h2>扩散LM推理加速 · CUDA算子生成 · 差分注意力V2 · LLM约束衰减</h2>
-    <p>今日聚焦 LLM 推理提速、GPU 算子生成、内核 BPF 与 LLM Agent 可靠性。</p>
-    <div class="rl-meta">
-      <span class="rl-source">HuggingFace / LWN / arXiv</span>
-      <span class="rl-tags">推理 · CUDA · Transformer · BPF · Agent</span>
     </div>
   </div>
 </a>
@@ -6444,7 +6294,7 @@ permalink: /reading-list/
     html += '<button class="rl-page-btn" data-nav="prev"' + (page===1?' disabled':'') + '>‹</button>';
     var start = Math.max(1, page - 2), end = Math.min(totalPages, start + 4);
     start = Math.max(1, end - 4);
-    for (var i = start; i <= end; i++) html += '<button class="rl-page-btn" data-page="'+i+'"'+(i===page?' active':'')+'>'+i+'</button>';
+    for (var i = start; i <= end; i++) html += '<button data-page="'+i+'"'+(i===page?' class="rl-page-btn active"':' class="rl-page-btn"')+'>'+i+'</button>';
       html += '<button class="rl-page-btn" data-nav="next"' + (page===totalPages?' disabled':'') + '>›</button>';
     html += '<span class="rl-page-info">' + filtered.length + ' 篇 · 第 ' + page + '/' + totalPages + ' 页</span>';
     pager.innerHTML = html;
