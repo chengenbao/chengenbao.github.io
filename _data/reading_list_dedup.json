@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-08-06": [
-      "https://arxiv.org/abs/2608.02691",
-      "https://arxiv.org/abs/2608.02700",
-      "https://arxiv.org/abs/2608.03867",
-      "https://arxiv.org/abs/2608.02954",
-      "https://arxiv.org/abs/2608.02703",
-      "https://arxiv.org/abs/2608.02625"
-    ],
     "2026-08-07": [
       "https://arxiv.org/abs/2608.04048",
       "https://arxiv.org/abs/2608.04169",
@@ -261,6 +253,15 @@
       "https://arxiv.org/abs/2609.02998",
       "https://arxiv.org/abs/2606.18958",
       "https://arxiv.org/abs/2605.00555"
+    ],
+    "2026-09-06": [
+      "https://pytorch.org/blog/pytorch-2-14-release-blog/",
+      "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements/",
+      "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/",
+      "https://huggingface.co/blog/webgpu-kernels",
+      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2"
     ]
   },
   "finance": {
