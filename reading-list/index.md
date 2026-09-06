@@ -4,7 +4,6 @@ title: "Reading List"
 permalink: /reading-list/
 ---
 
-
 <div class="rl-page">
   <div class="rl-hero">
     <h1>Reading List</h1>
@@ -4416,20 +4415,150 @@ permalink: /reading-list/
   </div>
 </a>
 <a class="rl-card tech" href="/reading-list/2026-04-16-tech-daily/">
+<a class="rl-card math" href="/reading-list/2026-04-14-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-14</time>
+    </div>
+    <h2>白色木块最少拼法（五年级） / 超阶乘因数计数延伸（初三）</h2>
+    <p>接触图视角下 4 块环形构造与下界论证；Legendre 公式的超阶乘变体与一般分层公式</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#奥数题 #数学 #AMC8 #立体几何 #数论</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-04-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-14</time>
+    </div>
+    <h2>缩表流动性临界点 · 能源地缘溢价 · 关税数量端观察</h2>
+    <p>FEDS Notes 分解缩表三渠道并给出逆回购耗尽信号清单；能源地缘溢价用运费与保险费校准期货情绪；关税效应进入「量缩价稳」验证窗口</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Bloomberg / Yale Budget Lab</span>
+      <span class="rl-tags">#宏观 #流动性 #能源 #关税</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card tech" href="/reading-list/2026-04-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
       <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-04-16</time>
+      <time>2026-04-14</time>
     </div>
-    <h2>SFT层级分析、LoRA高阶扩展与推测解码加速</h2>
-    <p>精选 6 篇 arXiv 论文：SFT层级机制、PolyLoRA、MTP训练目标、分布式Pipeline并行、RLHF自蒸馏、推测解码</p>
+    <h2>MXFP8 训练实录 · 线性注意力工程化 · 多元算力生态</h2>
+    <p>MXFP8+DeepEP 在 B200 上 41% 加速的完整账本；线性注意力×RoPE 兼容层落地 1M token；ROCm 7.2 与 MI400 的软件最后一公里</p>
     <div class="rl-meta">
-      <span class="rl-source">arXiv cs.LG / cs.CL</span>
-      <span class="rl-tags">#LLM #RLHF #推理加速 #分布式训练</span>
+      <span class="rl-source">PyTorch Blog / arXiv / Tom's Hardware</span>
+      <span class="rl-tags">#大模型 #低精度训练 #线性注意力 #AMD</span>
     </div>
   </div>
 </a>
+
+<a class="rl-card math" href="/reading-list/2026-04-13-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-13</time>
+    </div>
+    <h2>数轴等距整数（四年级） / 蜘蛛网随机游走通项（初三）</h2>
+    <p>等距数列对称性求和；马尔可夫链一阶线性递推求通项与平稳分布</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#奥数题 #数学 #AMC8 #数列 #随机游走</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-04-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-13</time>
+    </div>
+    <h2>缩表三因素分解 · AI 技能溢价 · FOMC 文本解读</h2>
+    <p>资产负债表收缩的逆回购缓冲机制；AI 协作技能薪酬溢价 10-20%；关税效应测算的学术公共基线</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Federal Reserve</span>
+      <span class="rl-tags">#宏观 #缩表 #AI经济 #货币政策</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card tech" href="/reading-list/2026-04-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-13</time>
+    </div>
+    <h2>内核生成 Agent · NCCL 黑匣子 · MLA 专用内核</h2>
+    <p>HF Agent 技能化 CUDA 内核闭环；Flight Recorder 把万卡故障定位从小时压到分钟；MLA 内核成为推理引擎竞争制高点</p>
+    <div class="rl-meta">
+      <span class="rl-source">HuggingFace Blog / PyTorch Blog / arXiv</span>
+      <span class="rl-tags">#AI Agent #CUDA #NCCL #推理优化</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card math" href="/reading-list/2026-04-12-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-04-12</time>
+    </div>
+    <h2>数独式数字填充（五年级） / 蜘蛛五角星漫步（初三）</h2>
+    <p>和阵谜题的约束传播：先唯一分解后歧义收口；五角星图上 3 步随机游走的外点概率</p>
+    <div class="rl-meta">
+      <span class="rl-source">2026 AMC 8 真题</span>
+      <span class="rl-tags">#奥数题 #数学 #AMC8 #概率 #逻辑推理</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card finance" href="/reading-list/2026-04-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-04-12</time>
+    </div>
+    <h2>AI 与就业结构 · 稳定币基建 · 能源价格地缘变量</h2>
+    <p>官方数据追踪高 AI 采纳行业的 JD 技能结构变化；稳定币储备成短端市场新边际买家；运费与保险费是能源地缘溢价更诚实的传感器</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes / Bloomberg</span>
+      <span class="rl-tags">#AI经济 #稳定币 #能源 #劳动力</span>
+    </div>
+  </div>
+</a>
+
+<a class="rl-card tech" href="/reading-list/2026-04-12-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-04-12</time>
+    </div>
+    <h2>投机解码训练化 · 量化生态整合 · 内核生成基准</h2>
+    <p>TorchSpec 用推测执行填补通信空泡；GGML 加入 HuggingFace 整合边缘推理；KernelBench 成为 AI4Systems 的事实标准</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch Blog / HuggingFace Blog / GitHub</span>
+      <span class="rl-tags">#投机解码 #量化 #GPU内核 #GGML</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-04-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-16</time></div><h2>奥数每日两题 2026-04-16：复合变换的逆向追踪 / 偶数字数奇数个</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC10, AMC12, 几何, 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-04-16-finance-daily/">
   <div class="rl-accent"></div>
@@ -4447,15 +4576,6 @@ permalink: /reading-list/
   </div>
 </a>
 
-<a class="rl-card math" href="/reading-list/2026-04-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-12</time></div><h2>奥数每日两题 2026-04-12：数独式数字填充 / 蜘蛛网上的随机游走</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 概率, 随机游走, 逻辑推理</span></div></div></a>
-<a class="rl-card finance" href="/reading-list/2026-04-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-12</time></div><h2>财经精选 2026-04-12：AI 与就业结构、稳定币基建与能源价格的地缘变量</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, AI经济, 稳定币, 能源, 劳动力市场</span></div></div></a>
-<a class="rl-card tech" href="/reading-list/2026-04-12-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-12</time></div><h2>技术速递 2026-04-12：投机解码训练化、量化内核与长上下文的系统账</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, 投机解码, 量化, GPU内核, 推理框架</span></div></div></a>
-<a class="rl-card math" href="/reading-list/2026-04-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-13</time></div><h2>奥数每日两题 2026-04-13：数轴等距整数 / 五角星上的随机游走（进阶变式）</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 数轴, 算术数列, 概率, 随机游走</span></div></div></a>
-<a class="rl-card finance" href="/reading-list/2026-04-13-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-13</time></div><h2>财经精选 2026-04-13：资产负债表收缩的分解、AI 采纳与招聘、联储沟通</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 美联储, AI经济, 货币市场</span></div></div></a>
-<a class="rl-card tech" href="/reading-list/2026-04-13-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-13</time></div><h2>技术速递 2026-04-13：内核生成 Agent、NCCL 黑匣子与推理服务编译优化</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, AI Agent, NCCL, 编译器, GPU</span></div></div></a>
-<a class="rl-card math" href="/reading-list/2026-04-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-14</time></div><h2>奥数每日两题 2026-04-14：白色木块最少拼法 / 超阶乘因数计数的延伸</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 立体几何, 组合, 数论, 阶乘</span></div></div></a>
-<a class="rl-card finance" href="/reading-list/2026-04-14-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-14</time></div><h2>财经精选 2026-04-14：缩表流动性、能源地缘溢价与关税数量端观察</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 流动性, 能源, 关税, 缩表</span></div></div></a>
-<a class="rl-card tech" href="/reading-list/2026-04-14-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-14</time></div><h2>技术速递 2026-04-14：MXFP8 训练实录、线性注意力工程化与多元算力生态</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, 低精度训练, 线性注意力, AMD, 编译器</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-04-15-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4800,6 +4920,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
 <a class="rl-card finance" href="/reading-list/2026-04-04-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4914,6 +5035,7 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
 <a class="rl-card finance" href="/reading-list/2026-03-31-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -6259,7 +6381,6 @@ permalink: /reading-list/
         </div>
       </div>
     </a>
-
 
   </div>
 </div>

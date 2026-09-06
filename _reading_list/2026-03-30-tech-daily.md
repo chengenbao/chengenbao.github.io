@@ -1,6 +1,6 @@
 ---
 layout: reading
-title: "技术速递 2026-03-30：注意力机制再进化、无 checkpoint 推理与 AMD MI400 系列登场"
+title: "技术速递 2026-03-30：注意力机制再进化、AI 写内核与 AMD MI400 系列登场"
 category: tech
 tags: [技术, 大模型, 注意力机制, GPU内核, 推理框架, AMD, CUDA]
 date: 2026-03-30
