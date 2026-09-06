@@ -569,6 +569,8 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card tech" href="/reading-list/2026-08-21-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-08-21</time></div><h2>显存规划实战 · KV 优化组合拳 · GPU-NPU 混合 · 投机解码部署</h2><p>32B 模型显存算账与机型选型、KV 分页/量化/卸载叠加、Hybe 异构方案、EAGLE/MTP 部署调参与压测方法论</p><div class="rl-meta"><span class="rl-source">iWiki / ACM / HF Blog</span><span class="rl-tags">#显存规划 #KVCache #投机解码 #压测</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-08-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-20</time></div><h2>1–14 的整数配对 / 三局两胜季后赛概率</h2><p>组合配对计数与三局两胜概率——两道 AMC 10 真题精解</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-20-finance-daily/">
   <div class="rl-accent"></div>
@@ -1076,6 +1078,8 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card tech" href="/reading-list/2026-08-04-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-08-04</time></div><h2>开源发布潮盘点 · Nemotron 3 Ultra · DeepSeek-V4 · Gemma 4</h2><p>6 月 25+ 模型密集发布盘点、HF 开放模型生态报告、Nemotron 550B 与 DeepSeek-V4 架构演进、Gemma 4 端侧路线</p><div class="rl-meta"><span class="rl-source">iWiki / NVIDIA / Google</span><span class="rl-tags">#开源模型 #Nemotron #DeepSeekV4 #Gemma4</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-08-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-08-03</time></div><h2>多项式零点区间计数 / 随机选书重合概率</h2><p>两道 AMC 10 真题：多项式符号判定 + 组合概率实战。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数,组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-08-03-finance-daily/">
   <div class="rl-accent"></div>
@@ -1250,6 +1254,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-07-29-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-07-29</time></div><h2>arXiv 速报 · LLM 系统论文清单 · Hybe 异构 · AdaSpec 蒸馏</h2><p>三分类论文扫描、LLM 系统论文清单、GPU-NPU 混合百万上下文、投机解码选择性蒸馏与 GPU-CPU 协同推理</p><div class="rl-meta"><span class="rl-source">iWiki / GitHub / ACM</span><span class="rl-tags">#论文速报 #LLM系统 #GPU-NPU #投机解码</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-07-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-28</time></div><h2>对数方程组的最值 / 平均分组计数</h2><p>连取两次对数化出韦达结构求 log₂y 最大值；6+6 学生平分三队的经典去重计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-28-finance-daily/">
   <div class="rl-accent"></div>
@@ -1868,6 +1874,8 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card tech" href="/reading-list/2026-07-09-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-07-09</time></div><h2>CUDA Agent · KDA 实战 · KernelBench 实测 · Split-K 内核</h2><p>Agentic RL 生成 CUDA 内核、KDA 原子动作工作流、KernelBench 横向实测、Triton autotune 与 Split-K 解码内核</p><div class="rl-meta"><span class="rl-source">论文笔记 / GitHub</span><span class="rl-tags">#CUDAAgent #KDA #KernelBench #SplitK</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-07-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-08</time></div><h2>猜数游戏 / 节点总和</h2><p>二进制猜数游戏 + 图节点标号问题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-07-08-finance-daily/">
   <div class="rl-accent"></div>
@@ -2041,6 +2049,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-07-03-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-07-03</time></div><h2>DeepEP 通信库 · KernelBench · LLM4LLM 部署闭环 · veRL</h2><p>MoE 专家并行通信库、GPU 内核生成基准、基准到部署的闭环优化、veRL 混合编程模型与 Chunked Prefill 解析</p><div class="rl-meta"><span class="rl-source">GitHub / arXiv</span><span class="rl-tags">#DeepEP #KernelBench #veRL #ChunkedPrefill</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-07-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-07-02</time></div><h2>冰淇淋口味的容斥计数 / 三个连续整数之和</h2><p>容斥原理 + 连续整数，今日双题趣味挑战！</p><div class="rl-meta"><span class="rl-source">Spirit of Math 竞赛真题</span><span class="rl-tags">四年级 · 六年级 · 容斥原理 · 连续整数</span></div></div></a>
     <a class="rl-card finance" href="/reading-list/2026-07-02-finance-daily/">
       <div class="rl-accent"></div>
@@ -2151,6 +2161,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-06-29-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-06-29</time></div><h2>抢占式调度 · CacheGen · Mooncake KV 中心化 · 端侧推理</h2><p>LLM 服务抢占调度与 KV 换出、CacheGen 流式压缩传输、Mooncake KV 中心化集群、端侧推理综述与训练推理共置</p><div class="rl-meta"><span class="rl-source">arXiv / FAST'25</span><span class="rl-tags">#调度 #CacheGen #Mooncake #端侧推理</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-28</time></div><h2>座位排列问题 / 游泳圈数之谜</h2><p>等候室座位枚举 · 游泳分数整除：五年级+初一 NRICH 竞赛真题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">五年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-28-finance-daily/">
   <div class="rl-accent"></div>
@@ -2325,6 +2337,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-06-23-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-06-23</time></div><h2>MoE 推理优化全景 · Janus 解耦 · Megablocks · DeepSeek-V3</h2><p>MoE 路由/专家并行/通信全景、注意力-专家解耦架构、dropless 稀疏内核、DeepSeek-V3 均衡策略与 Switch Transformer</p><div class="rl-meta"><span class="rl-source">技术博客 / arXiv</span><span class="rl-tags">#MoE #专家并行 #Megablocks #负载均衡</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-22-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-22</time></div><h2>元胞自动机生存规则 / 最优主客场胜率</h2><p>5×5网格变换的合法初始配置数，以及三局两胜制中的最优客场胜率</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · 组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-22-finance-daily/">
   <div class="rl-accent"></div>
@@ -2640,6 +2654,8 @@ permalink: /reading-list/
 </a>
 <a class="rl-card math" href="/reading-list/2026-06-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-12</time></div><h2>立方体着色与对面 / 集合概率与韦恩图</h2><p>今日年级：六年级 + 初一</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC 10/12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-12</time></div><h2>通胀机制·稳定币·劳动力供给·信贷传导</h2><p>后疫情通胀结构变化 · 支付稳定币与货币政策 · 美国劳动力供给与潜在GDP · 美巴信贷传导跨国比较</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes · arXiv econ</span><span class="rl-tags">#通胀 #稳定币 #劳动力市场 #信贷传导</span></div></div></a>
+
+<a class="rl-card tech" href="/reading-list/2026-06-12-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-06-12</time></div><h2>BITS 节点发现 · DeepSeek 推理优化 · vLLM 架构 · DeepEP 前身实践</h2><p>P2P 节点发现算法、DeepSeek MLA/MTP/分块预填充拆解、vLLM 官方架构综述、DeepSpeed 推理内核与 Persistent Kernel</p><div class="rl-meta"><span class="rl-source">arXiv / 技术博客</span><span class="rl-tags">#P2P #DeepSeek #vLLM架构 #持久内核</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-11</time></div><h2>阶乘的规律 / 层层展开的计算</h2><p>阶乘提取公因子 / 嵌套运算从内到外展开，两道 AMC 10A 经典题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">阶乘 · 嵌套运算 · 四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-11-finance-daily/">
   <div class="rl-accent"></div>
@@ -2736,6 +2752,8 @@ permalink: /reading-list/
 </a>
 <a class="rl-card math" href="/reading-list/2026-06-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-08</time></div><h2>三个正方形能叠出多少个？ / 布朗家有几个孩子？</h2><p>几何重叠计数 + 逻辑方程推理，四年级与六年级各一题</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛数学题</span><span class="rl-tags">四年级 · 六年级 · NRICH</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-08-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-08</time></div><h2>美联储加息预期重燃，股债风险溢价消失</h2><p>高盛撤回降息预测、全球就业通胀强化加息押注、ERP归零、韩元汇率干预、咖啡价格新高</p><div class="rl-meta"><span class="rl-source">Bloomberg / WSJ</span><span class="rl-tags">#货币政策 #资产配置 #新兴市场</span></div></div></a>
+
+<a class="rl-card tech" href="/reading-list/2026-06-08-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-06-08</time></div><h2>cs.IR 论文日报 · FlexGen 分层放置 · SpecInfer 投机解码 · Alpa 自动并行</h2><p>cs.IR 日报扫描、推理全链路 Profiling、FlexGen 显存分层 ILP、SpecInfer 树验证与 Alpa 两级并行搜索</p><div class="rl-meta"><span class="rl-source">iWiki / arXiv / ICML</span><span class="rl-tags">#论文速报 #Offload #投机解码 #自动并行</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-07</time></div><h2>末位数字之谜 / 纸币组合计数</h2><p>2023 AMC 10B 精选：数论末位数字 + 组合整数方程</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">初二 · 初三 · AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-07-finance-daily/">
   <div class="rl-accent"></div>
@@ -2752,6 +2770,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-06-07-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-06-07</time></div><h2>推理引擎经济学 · KV Cache 综述 · H2O 驱逐 · GLA 线性注意力</h2><p>推理成本结构分析、KV Cache 四层优化综述、H2O 重度命中者驱逐、PagedAttention 官方复盘与门控线性注意力</p><div class="rl-meta"><span class="rl-source">技术博客 / arXiv</span><span class="rl-tags">#推理经济学 #KVCache #H2O #线性注意力</span></div></div></a>
 
 <a class="rl-card math" href="/reading-list/2026-06-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-06</time></div><h2>十乘十的神奇大树 / 平移直线的规律</h2><p>探索10的幂次运算与直线平移变换的代数规律</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">六年级 · 初一 · NRICH</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-06-06-tech-daily/">
@@ -3276,6 +3296,8 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card tech" href="/reading-list/2026-05-20-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-20</time></div><h2>LLM4Kernel 综述 · 推理引擎横评 · Orca 调度 · FlashAttention-2</h2><p>GPU kernel 生成 Agent 综述、三大推理引擎对比、Orca 迭代级调度、FlashAttention-2 并行度重构与 LLVM 编译管线</p><div class="rl-meta"><span class="rl-source">iWiki / arXiv / OSDI</span><span class="rl-tags">#KernelAgent #推理引擎 #调度 #FlashAttention</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-05-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-19</time></div><h2>分数大小比较 / 概率与集合应用</h2><p>分数大小比较 vs 概率集合应用，来自 2019 AMC 8 竞赛真题</p><div class="rl-meta"><span class="rl-source">AMC 8 竞赛真题</span><span class="rl-tags">AMC 8 · 竞赛数学 · 六年级 · 初一</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-19-finance-daily/">
   <div class="rl-accent"></div>
@@ -3324,6 +3346,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-05-18-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-18</time></div><h2>GPU Kernel Agent 竞赛 · KDA 工作流 · Triton · CUTLASS</h2><p>MLSys 2026 FlashInfer 竞赛复盘、KDA Agentic 内核优化、Triton 块级编程、FlashDecoding++ 与 CUTLASS 设计哲学</p><div class="rl-meta"><span class="rl-source">技术博客 / arXiv</span><span class="rl-tags">#KernelAgent #Triton #CUTLASS #解码内核</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-05-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-17</time></div><h2>直线平移探索 / 方位角计算</h2><p>初二探究直线平移与方程变化规律；初三用坐标法和三角函数求解方位角。</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛题库</span><span class="rl-tags">初二 · 初三 · 一次函数 · 三角函数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-17-finance-daily/">
   <div class="rl-accent"></div>
@@ -3734,6 +3758,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-05-04-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-04</time></div><h2>上下文并行环形注意力 · GQA · PD 分离调度 · FlashAttention</h2><p>Megatron 上下文并行、GQA 注意力演进、DistServe 预填充解码分离、FlashAttention IO 感知内核等 6 篇</p><div class="rl-meta"><span class="rl-source">arXiv / NSDI</span><span class="rl-tags">#上下文并行 #GQA #PDS分离 #FlashAttention</span></div></div></a>
 
 <a class="rl-card math" href="/reading-list/2026-05-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-03</time></div><h2>幂次个位数的规律 / 阶梯图形的周长</h2><p>2的幂次个位周期规律 · 阶梯组合图形周长计算</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">#四年级 #六年级 #AMC</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-03-finance-daily/">
@@ -4324,6 +4350,8 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card tech" href="/reading-list/2026-04-19-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-19</time></div><h2>Mojo 编译器解耦 · Megatron 张量并行 · Llama3 万卡实践 · SGLang</h2><p>Mojo 语言与 MLIR 协同设计、张量并行开山之作、Llama 3 1.6 万卡训练复盘、ZeroQuant 量化与 SGLang RadixAttention</p><div class="rl-meta"><span class="rl-source">arXiv / ACM SC'24</span><span class="rl-tags">#编译器 #模型并行 #量化 #推理引擎</span></div></div></a>
+
 <a class="rl-card math" href="/reading-list/2026-04-18-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4354,6 +4382,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+
+<a class="rl-card tech" href="/reading-list/2026-04-18-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-18</time></div><h2>FlashInfer 内核库 · AlpaServe 编排 · FlashMoE 持久内核 · MLIR · Gemma · PagedAttention</h2><p>FlashInfer JIT 算子生成、模型编排统计复用、MoE 单持久内核融合、MLIR 多层 IR 基础设施等 6 篇系统文献</p><div class="rl-meta"><span class="rl-source">arXiv cs.LG / cs.DC</span><span class="rl-tags">#GPU内核 #JIT编译 #MoE #编译器</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-04-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4417,6 +4447,15 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card math" href="/reading-list/2026-04-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-12</time></div><h2>奥数每日两题 2026-04-12：数独式数字填充 / 蜘蛛网上的随机游走</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 概率, 随机游走, 逻辑推理</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-04-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-12</time></div><h2>财经精选 2026-04-12：AI 与就业结构、稳定币基建与能源价格的地缘变量</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, AI经济, 稳定币, 能源, 劳动力市场</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-04-12-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-12</time></div><h2>技术速递 2026-04-12：投机解码训练化、量化内核与长上下文的系统账</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, 投机解码, 量化, GPU内核, 推理框架</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-04-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-13</time></div><h2>奥数每日两题 2026-04-13：数轴等距整数 / 五角星上的随机游走（进阶变式）</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 数轴, 算术数列, 概率, 随机游走</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-04-13-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-13</time></div><h2>财经精选 2026-04-13：资产负债表收缩的分解、AI 采纳与招聘、联储沟通</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 美联储, AI经济, 货币市场</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-04-13-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-13</time></div><h2>技术速递 2026-04-13：内核生成 Agent、NCCL 黑匣子与推理服务编译优化</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, AI Agent, NCCL, 编译器, GPU</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-04-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-14</time></div><h2>奥数每日两题 2026-04-14：白色木块最少拼法 / 超阶乘因数计数的延伸</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 立体几何, 组合, 数论, 阶乘</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-04-14-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-14</time></div><h2>财经精选 2026-04-14：缩表流动性、能源地缘溢价与关税数量端观察</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 流动性, 能源, 关税, 缩表</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-04-14-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-14</time></div><h2>技术速递 2026-04-14：MXFP8 训练实录、线性注意力工程化与多元算力生态</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, 低精度训练, 线性注意力, AMD, 编译器</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-04-15-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4728,6 +4767,9 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card math" href="/reading-list/2026-04-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-04-03</time></div><h2>奥数每日两题 2026-04-03：白色木块拼接 / 超阶乘中 7 的因子个数</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 立体几何, 组合, 阶乘, 整除</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-04-03-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-04-03</time></div><h2>财经精选 2026-04-03：关税追踪更新、鲍威尔继任者悬念与 AI 数据中心融资潮</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 关税, 美联储, 数据中心, 信贷市场</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-04-03-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-04-03</time></div><h2>技术速递 2026-04-03：MoE 并行策略、MXFP8 训练与 AI 写内核的基准化</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, MoE, 低精度训练, GPU内核, 编译器, CUDA</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-04-04-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -4838,6 +4880,9 @@ permalink: /reading-list/
   </div>
 </a>
 
+<a class="rl-card math" href="/reading-list/2026-03-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-03-30</time></div><h2>奥数每日两题 2026-03-30：数轴等距整数 / 连续奇数拆分 60</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">奥数题, 数学, AMC8, 数轴, 算术数列, 奇数拆分</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-03-30-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-03-30</time></div><h2>财经精选 2026-03-30：2026AMC8考点之外的宏观主线——关税、联储与AI资本开支</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">财经, 宏观, 关税, 美联储, AI资本开支, 债券市场</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-03-30-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-03-30</time></div><h2>技术速递 2026-03-30：注意力机制再进化、无 checkpoint 推理与 AMD MI400 系列登场</h2><p></p><div class="rl-meta"><span class="rl-source"></span><span class="rl-tags">技术, 大模型, 注意力机制, GPU内核, 推理框架, AMD, CUDA</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-03-31-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
