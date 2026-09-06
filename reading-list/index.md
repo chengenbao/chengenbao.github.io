@@ -6336,6 +6336,8 @@ permalink: /reading-list/
   </div>
 </div>
 
+<div class="rl-pagination" id="rl-pagination" style="display:none"></div>
+
 <style>
 .rl-page { max-width: 900px; margin: 0 auto; }
 
@@ -6356,6 +6358,19 @@ permalink: /reading-list/
 
 /* Grid */
 .rl-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+
+/* Pagination */
+.rl-pagination { display: flex; justify-content: center; align-items: center; gap: 6px; margin: 36px 0 12px; flex-wrap: wrap; }
+.rl-page-btn {
+  min-width: 34px; height: 34px; padding: 0 10px; border: 1.5px solid var(--border); border-radius: 8px;
+  background: var(--surface); color: var(--muted); font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: all .15s; font-family: var(--sans); display: inline-flex; align-items: center; justify-content: center;
+}
+.rl-page-btn:hover { border-color: var(--accent); color: var(--accent); }
+.rl-page-btn.active { background: var(--text); border-color: var(--text); color: #fff; }
+.rl-page-btn:disabled { opacity: .35; cursor: default; }
+.rl-page-btn:disabled:hover { border-color: var(--border); color: var(--muted); }
+.rl-page-info { color: var(--muted); font-size: 12px; margin: 0 6px; }
 
 /* Card */
 .rl-card {
@@ -6407,17 +6422,52 @@ permalink: /reading-list/
 
 <script>
 (function(){
+  var PAGE_SIZE = 30;
   var btns = document.querySelectorAll('.rl-filter');
-  var cards = document.querySelectorAll('.rl-card');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.rl-card'));
+  var pager = document.getElementById('rl-pagination');
+  var grid = document.querySelector('.rl-grid');
+  var filtered = cards, page = 1, totalPages = 1;
+
+  function render(){
+    totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    if (page > totalPages) page = totalPages;
+    cards.forEach(function(c){ c.style.display = 'none'; });
+    filtered.slice((page-1)*PAGE_SIZE, page*PAGE_SIZE).forEach(function(c){ c.style.display = ''; });
+    renderPager();
+  }
+
+  function renderPager(){
+    if (totalPages <= 1) { pager.style.display = 'none'; return; }
+    pager.style.display = '';
+    var html = '';
+    html += '<button class="rl-page-btn" data-nav="prev"' + (page===1?' disabled':'') + '>‹</button>';
+    var start = Math.max(1, page - 2), end = Math.min(totalPages, start + 4);
+    start = Math.max(1, end - 4);
+    for (var i = start; i <= end; i++) html += '<button class="rl-page-btn" data-page="'+i+'"'+(i===page?' active':'')+'>'+i+'</button>';
+      html += '<button class="rl-page-btn" data-nav="next"' + (page===totalPages?' disabled':'') + '>›</button>';
+    html += '<span class="rl-page-info">' + filtered.length + ' 篇 · 第 ' + page + '/' + totalPages + ' 页</span>';
+    pager.innerHTML = html;
+  }
+
+  pager.addEventListener('click', function(e){
+    var b = e.target.closest('.rl-page-btn'); if (!b || b.disabled) return;
+    if (b.dataset.nav === 'prev') page--; else if (b.dataset.nav === 'next') page++; else page = parseInt(b.dataset.page);
+    render();
+    grid.scrollIntoView({behavior:'smooth', block:'start'});
+  });
+
   btns.forEach(function(btn){
     btn.addEventListener('click', function(){
       btns.forEach(function(b){ b.classList.remove('active'); });
       btn.classList.add('active');
       var f = btn.dataset.filter;
-      cards.forEach(function(c){
-        c.style.display = (f === 'all' || c.classList.contains(f)) ? '' : 'none';
-      });
+      filtered = cards.filter(function(c){ return f === 'all' || c.classList.contains(f); });
+      page = 1;
+      render();
     });
   });
+
+  render();
 })();
 </script>
