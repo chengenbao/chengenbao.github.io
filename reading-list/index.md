@@ -2638,8 +2638,8 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card finance" <a class="rl-card math" href="/reading-list/2026-06-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-12</time></div><h2>立方体着色与对面 / 集合概率与韦恩图</h2><p>今日年级：六年级 + 初一</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC 10/12</span></div></div></a>
-href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-12</time></div><h2>通胀机制·稳定币·劳动力供给·信贷传导</h2><p>后疫情通胀结构变化 · 支付稳定币与货币政策 · 美国劳动力供给与潜在GDP · 美巴信贷传导跨国比较</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes · arXiv econ</span><span class="rl-tags">#通胀 #稳定币 #劳动力市场 #信贷传导</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-06-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-12</time></div><h2>立方体着色与对面 / 集合概率与韦恩图</h2><p>今日年级：六年级 + 初一</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC 10/12</span></div></div></a>
+<a class="rl-card finance" href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge finance">💰 财经精选</span><time>2026-06-12</time></div><h2>通胀机制·稳定币·劳动力供给·信贷传导</h2><p>后疫情通胀结构变化 · 支付稳定币与货币政策 · 美国劳动力供给与潜在GDP · 美巴信贷传导跨国比较</p><div class="rl-meta"><span class="rl-source">Fed FEDS Notes · arXiv econ</span><span class="rl-tags">#通胀 #稳定币 #劳动力市场 #信贷传导</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-06-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-06-11</time></div><h2>阶乘的规律 / 层层展开的计算</h2><p>阶乘提取公因子 / 嵌套运算从内到外展开，两道 AMC 10A 经典题</p><div class="rl-meta"><span class="rl-source">AMC 竞赛真题</span><span class="rl-tags">阶乘 · 嵌套运算 · 四年级 · 五年级</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-06-11-finance-daily/">
   <div class="rl-accent"></div>
@@ -2991,8 +2991,8 @@ href="/reading-list/2026-06-12-finance-daily/"><div class="rl-accent"></div><div
     </div>
   </div>
 </a>
-<a class="rl-card math" <a class="rl-card tech" href="/reading-list/2026-05-29-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-29</time></div><h2>LLM 推理加速与稀疏训练前沿进展</h2><p>📰 2026-05-29 · 每日技术速递</p><div class="rl-meta"><span class="rl-source">arXiv / PyTorch / HuggingFace</span><span class="rl-tags">#tech</span></div></div></a>
-href="/reading-list/2026-05-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-29</time></div><h2>机器人路径问题 / L形三连块拼接</h2><p>初二：等差数列与角度模运算；初三：数学归纳法与递归构造</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · NRICH · 几何 · 数论</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-05-29-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-29</time></div><h2>LLM 推理加速与稀疏训练前沿进展</h2><p>📰 2026-05-29 · 每日技术速递</p><div class="rl-meta"><span class="rl-source">arXiv / PyTorch / HuggingFace</span><span class="rl-tags">#tech</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-05-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-29</time></div><h2>机器人路径问题 / L形三连块拼接</h2><p>初二：等差数列与角度模运算；初三：数学归纳法与递归构造</p><div class="rl-meta"><span class="rl-source">NRICH 竞赛真题</span><span class="rl-tags">初二 · 初三 · NRICH · 几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-29-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
@@ -3635,8 +3635,8 @@ href="/reading-list/2026-05-29-math/"><div class="rl-accent"></div><div class="r
     </div>
   </div>
 </a>
-<a class="rl-card math" <a class="rl-card tech" href="/reading-list/2026-05-07-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-07</time></div><h2>KV Cache 压缩 · MoE 安全 · 存内计算 · vLLM RL 工程（2026-05-07）</h2><p>📰 2026-05-07 · 每日技术速递</p><div class="rl-meta"><span class="rl-source">arXiv / PyTorch / HuggingFace</span><span class="rl-tags">#tech</span></div></div></a>
-href="/reading-list/2026-05-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-07</time></div><h2>L型骨牌铺砖 / 遗产分配问题</h2><p>六年级：L型三格骨牌的归纳推理铺砖证明；初一：代数方程建模解决分配变化问题</p><div class="rl-meta"><span class="rl-source">NRICH 真题</span><span class="rl-tags">归纳推理 · 方程</span></div></div></a>
+<a class="rl-card tech" href="/reading-list/2026-05-07-tech-daily/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge tech">📰 技术速递</span><time>2026-05-07</time></div><h2>KV Cache 压缩 · MoE 安全 · 存内计算 · vLLM RL 工程（2026-05-07）</h2><p>📰 2026-05-07 · 每日技术速递</p><div class="rl-meta"><span class="rl-source">arXiv / PyTorch / HuggingFace</span><span class="rl-tags">#tech</span></div></div></a>
+<a class="rl-card math" href="/reading-list/2026-05-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-05-07</time></div><h2>L型骨牌铺砖 / 遗产分配问题</h2><p>六年级：L型三格骨牌的归纳推理铺砖证明；初一：代数方程建模解决分配变化问题</p><div class="rl-meta"><span class="rl-source">NRICH 真题</span><span class="rl-tags">归纳推理 · 方程</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-05-07-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
