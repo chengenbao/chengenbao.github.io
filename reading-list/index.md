@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-07</time>
+    </div>
+    <h2>国际货币格局、外资与贸易、美国财政与通胀</h2>
+    <p>5 篇精选：美元国际角色与稳定币、外资流入、贸易伙伴结构、周期调整预算余额、通胀 Nowcast。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / Econbrowser</span>
+      <span class="rl-tags">#宏观 #国际货币 #贸易 #财政</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
