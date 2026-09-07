@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-07</time>
+    </div>
+    <h2>LLM Agent 不确定性、残差流机制、边缘混合精度、RAG 软压缩、脉冲能效、小模型 GRPO</h2>
+    <p>今日 6 篇：Agent 失败预判、DeepSeek-V4 残差流解析、RBD 混合精度、DEX-Comp 软压缩、TTFS 脉冲 LLM、350M GRPO 实战。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">大模型 · 推理加速 · 边缘硬件 · 微调</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-06-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
