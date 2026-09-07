@@ -264,13 +264,6 @@
     ]
   },
   "finance": {
-    "2026-08-07": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-of-computer-software-and-accessories-inflation-20260522.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/how-is-geopolitical-fragmentation-reshaping-us-foreign-direct-investment-20250410.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-export-market-access-on-labor-market-power-firm-level-evidence-from-vietnam-20250331.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/federal-reserve-discount-rate-press-releases-in-the-1960s-and-1970s-through-the-lens-of-monetary-policy-20260529.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-cslt-unifying-u-s-cross-border-securities-holdings-and-transactions-data-20260521.html"
-    ],
     "2026-08-08": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/population-growth-and-labor-market-fragility-lessons-from-domestic-and-international-experiences-20260520.html",
@@ -465,6 +458,13 @@
       "http://arxiv.org/abs/2608.27598v1",
       "http://arxiv.org/abs/2608.27980v1",
       "http://arxiv.org/abs/2608.30522v1"
+    ],
+    "2026-09-07": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
+      "https://econbrowser.com/archives/2026/09/who-will-we-trade-with-if-the-fed-doesnt-lower-rates",
+      "https://econbrowser.com/archives/2026/09/the-cyclically-adjusted-budget-balance",
+      "https://econbrowser.com/archives/2026/09/inflation-nowcasted"
     ]
   }
 }
