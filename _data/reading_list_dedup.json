@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-08-08": [
-      "https://arxiv.org/abs/2608.05326",
-      "https://arxiv.org/abs/2607.28699",
-      "https://arxiv.org/abs/2608.05483",
-      "https://arxiv.org/abs/2608.05303",
-      "https://arxiv.org/abs/2608.05154",
-      "https://arxiv.org/abs/2608.05152",
-      "https://arxiv.org/abs/2603.00378"
-    ],
     "2026-08-09": [
       "https://arxiv.org/abs/2608.06291v1",
       "https://arxiv.org/abs/2608.06310v1",
@@ -261,6 +252,15 @@
       "http://arxiv.org/abs/2609.05152v1",
       "http://arxiv.org/abs/2609.05151v1",
       "https://huggingface.co/blog/grpo-with-trl-ifstruct"
+    ],
+    "2026-09-08": [
+      "https://arxiv.org/abs/2609.04244",
+      "https://arxiv.org/abs/2609.04263",
+      "https://arxiv.org/abs/2609.04238",
+      "https://arxiv.org/abs/2609.04724",
+      "https://arxiv.org/abs/2609.04774",
+      "https://arxiv.org/abs/2609.04259",
+      "https://huggingface.co/blog/Hcompany/neomme"
     ]
   },
   "finance": {
