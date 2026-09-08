@@ -17,6 +17,23 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+
+<a class="rl-card finance" href="/reading-list/2026-09-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-08</time>
+    </div>
+    <h2>通胀度量、中国增长成色与美元地位</h2>
+    <p>今日 5 篇美联储 FEDS Notes：从核心通胀的度量误差，到中国增长成色校验、美元国际角色与回购市场结构。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #国际贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
