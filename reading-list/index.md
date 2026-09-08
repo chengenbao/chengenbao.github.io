@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-08</time></div><h2>自定义运算与绝对值 / 等比数列与最小整数</h2><p>两道 AMC 12 真题：自定义绝对值运算的代数求值，与整数等比数列的位数求和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 
 <a class="rl-card finance" href="/reading-list/2026-09-08-finance-daily/">
   <div class="rl-accent"></div>
