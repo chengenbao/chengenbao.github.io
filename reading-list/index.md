@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-09</time>
+    </div>
+    <h2>关税预期·减贫成本·资产定价·能源转型·代际流动</h2>
+    <p>关税预期、减贫成本、资产定价、能源转型与代际流动的五维前沿研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / q-fin.GN / econ.EM</span>
+      <span class="rl-tags">#宏观 #资产定价 #能源转型 #减贫</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
