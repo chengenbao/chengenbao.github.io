@@ -264,13 +264,6 @@
     ]
   },
   "finance": {
-    "2026-08-09": [
-      "http://arxiv.org/abs/2608.06134v1",
-      "http://arxiv.org/abs/2608.04977v1",
-      "http://arxiv.org/abs/2608.04925v1",
-      "http://arxiv.org/abs/2608.03703v1",
-      "http://arxiv.org/abs/2608.04409v1"
-    ],
     "2026-08-10": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-central-bank-balance-sheet-trilemma-20260114.html",
@@ -465,6 +458,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-u-s-dollar-2025-edition-20250718.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/trade-offs-of-higher-u-s-tariffs-gdp-revenues-and-the-trade-deficit-20250707.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-12-trillion-u-s-repo-market-evidence-from-a-novel-panel-of-intermediaries-20250711.html"
+    ],
+    "2026-09-09": [
+      "https://arxiv.org/abs/2608.30522",
+      "https://arxiv.org/abs/2609.02013",
+      "https://arxiv.org/abs/2609.05162",
+      "https://arxiv.org/abs/2608.29818",
+      "https://arxiv.org/abs/2609.04994"
     ]
   }
 }
