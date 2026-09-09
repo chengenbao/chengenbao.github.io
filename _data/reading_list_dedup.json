@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-08-09": [
-      "https://arxiv.org/abs/2608.06291v1",
-      "https://arxiv.org/abs/2608.06310v1",
-      "https://arxiv.org/abs/2608.06296v1",
-      "https://arxiv.org/abs/2608.06305v1",
-      "https://arxiv.org/abs/2608.06362v1",
-      "https://arxiv.org/abs/2608.06171v1",
-      "https://pytorch.org/blog/pytorch-by-the-sea-the-inaugural-santa-cruz-pytorch-meetup/"
-    ],
     "2026-08-10": [
       "https://pytorch.org/blog/helion-on-tpu-towards-hardware-heterogeneous-kernel-authoring/",
       "https://huggingface.co/blog/pytorch-fsdp",
@@ -261,6 +252,15 @@
       "https://arxiv.org/abs/2609.04774",
       "https://arxiv.org/abs/2609.04259",
       "https://huggingface.co/blog/Hcompany/neomme"
+    ],
+    "2026-09-09": [
+      "http://arxiv.org/abs/2608.14376v1",
+      "http://arxiv.org/abs/2609.04774v1",
+      "http://arxiv.org/abs/2609.06172v1",
+      "http://arxiv.org/abs/2609.05764v1",
+      "http://arxiv.org/abs/2609.04724v1",
+      "http://arxiv.org/abs/2609.05221v1",
+      "http://arxiv.org/abs/2609.05363v1"
     ]
   },
   "finance": {
