@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-09</time>
+    </div>
+    <h2>LLM 推理确定性、上下文并行与 KV 量化：从系统调度到 NVM 接口的协同优化</h2>
+    <p>精选 7 篇 arXiv 深度技术论文，覆盖 LLM 推理加速、GPU 显存管理、低比特量化加速与推理蒸馏。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">arXiv · 推理加速 · 量化 · GPU内存 · 分布式服务</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-08</time></div><h2>自定义运算与绝对值 / 等比数列与最小整数</h2><p>两道 AMC 12 真题：自定义绝对值运算的代数求值，与整数等比数列的位数求和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 
 <a class="rl-card finance" href="/reading-list/2026-09-08-finance-daily/">
