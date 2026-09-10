@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-10</time>
+    </div>
+    <h2>全球债市抛售与通胀回升下的政策博弈</h2>
+    <p>全球债市抛售、通胀反弹、中国银行注资、美债回购遇冷、AI借贷搅动信贷——5 篇透视宏观与国际微观。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Economist / FT</span>
+      <span class="rl-tags">#宏观 #全球债市 #通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
