@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-11</time>
+    </div>
+    <h2>关税、AI、劳动力市场与央行资产负债表的多维透视</h2>
+    <p>5 篇美联储最新研究，解读宏观经济的结构性变化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #通胀 #美联储</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
