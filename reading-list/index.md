@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-11</time>
+    </div>
+    <h2>LLM 推理加速：量化/无乘法器注意力、近内存 KV 调度、GPU-PIM 块稀疏与跨词表/端侧投机解码</h2>
+    <p>今日 7 篇聚焦大模型推理加速与高效部署：去乘法器注意力、Agent 会话 KV 近内存调度、GPU-PIM 块稀疏、跨词表协同投机解码、目标无关起草器、端侧低功耗推理与 FP8 精度研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 近内存 · GPU-PIM · 投机解码 · 端侧推理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-10</time></div><h2>进制整除计数 / 3×3网格猜格</h2><p>数论（进制同余计数）+ 组合（棋盘染色最优化策略），AMC 12 真题两题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">奥数题 · 数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-10-finance-daily/">
   <div class="rl-accent"></div>
