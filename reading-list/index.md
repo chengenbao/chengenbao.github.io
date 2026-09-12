@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-12</time>
+    </div>
+    <h2>美联储最新研究五题</h2>
+    <p>覆盖货币政策沟通、跨境资本、劳动力、资产负债表与贸易摩擦传导。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #劳动力</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
