@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-12-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-12</time>
+    </div>
+    <h2>2026-09-12 技术速递：PIM-LLM 服务 · HBM 纠错 · 加速器协同设计 · GPU 通信重叠 · KV 缓存干预 · Agent 沙箱压缩 · Helion 内核</h2>
+    <p>7 篇精选覆盖 PIM LLM 服务、HBM 长跨度 ECC、AI 加速器协同设计、GPU 通信-计算重叠、KV 缓存人格干预、Agent 沙箱内存压缩与 Helion 可移植内核。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch</span>
+      <span class="rl-tags">LLM推理 · GPU · 编译器 · 硬件加速 · PIM</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-11</time></div><h2>青蛙随机出界概率 / 多项式根乘积式</h2><p>几何概率面积法 + 韦达定理对称式求值，两道 AMC 10/12 真题精讲。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-11-finance-daily/">
   <div class="rl-accent"></div>
