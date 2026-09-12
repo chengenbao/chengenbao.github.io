@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-08-12": [
-      "https://arxiv.org/abs/2608.07814",
-      "https://arxiv.org/abs/2608.07855",
-      "https://arxiv.org/abs/2608.07890",
-      "https://arxiv.org/abs/2608.07594",
-      "https://arxiv.org/abs/2608.07968",
-      "https://arxiv.org/abs/2608.07966",
-      "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/"
-    ],
     "2026-08-13": [
       "https://arxiv.org/abs/2608.10010",
       "https://arxiv.org/abs/2608.09941",
@@ -261,6 +252,15 @@
       "https://arxiv.org/abs/2609.09338",
       "https://arxiv.org/abs/2609.09662",
       "https://arxiv.org/abs/2606.06510"
+    ],
+    "2026-09-12": [
+      "https://arxiv.org/abs/2609.11392",
+      "https://arxiv.org/abs/2609.10861",
+      "https://arxiv.org/abs/2609.11906",
+      "https://arxiv.org/abs/2609.11562",
+      "https://arxiv.org/abs/2609.11020",
+      "https://arxiv.org/abs/2609.11294",
+      "https://pytorch.org/blog/helion-x-%f0%9f%a4%97-hf-kernels-building-and-shipping-out-of-the-box-performant-kernels/"
     ]
   },
   "finance": {
