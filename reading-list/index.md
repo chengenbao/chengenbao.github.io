@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-13</time>
+    </div>
+    <h2>MoE训练稳定性、优化器与推理安全前沿</h2>
+    <p>7篇聚焦 MoE 数据重复、AdamX 优化器、扩散采样调度、Transformer 距离泛化与推理安全的深度研究</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">arXiv · LLM · MoE · 推理安全</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-12</time></div><h2>长方体空间对角线 / 孪生素数立方差</h2><p>几何：长方体棱长条件求空间对角线；数论：孪生素数立方差与下一个素数的各位数字和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#几何 #数论 #AMC10 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-12-finance-daily/">
   <div class="rl-accent"></div>
