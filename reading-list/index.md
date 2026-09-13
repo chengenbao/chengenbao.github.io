@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧬 奥数题</span><time>2026-09-13</time></div><h2>含两个 7 的倍数的连续块计数 / 随机爬行停止位置大于 1 的概率</h2><p>今日两题：含两个 7 的倍数的连续块计数（组合）与 随机爬行停止位置大于 1 的概率（概率），均来自 AMC 12 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-09-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
