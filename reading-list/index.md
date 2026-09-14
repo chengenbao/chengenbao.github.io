@@ -24,6 +24,21 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-09-14</time>
     </div>
+    <h2>大模型训练、量化与推理加速前沿</h2>
+    <p>7 篇精选，覆盖 GRPO 微调、量化修复、投机解码、WebGPU 内核、Helion 编译器、PyTorch 2.14 与 GPU 调度</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型 · 量化 · 推理加速 · GPU · 编译器</span>
+    </div>
+  </div>
+</a>
+<a class="rl-card tech" href="/reading-list/2026-09-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-14</time>
+    </div>
     <h2>时间序列基础模型、RL训练、基准评测与Agent记忆</h2>
     <p>今日精选 5 篇 HuggingFace 深度技术文章：时序基础模型、RL 绘图训练、基准审计、Agent 记忆与安全对齐。</p>
     <div class="rl-meta">
