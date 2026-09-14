@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-14</time>
+    </div>
+    <h2>美联储视角：货币、银行与国债市场的结构性变化</h2>
+    <p>5篇 FEDS Notes 精选，覆盖稳定币对银行的冲击、国债订单流、存款与货基替代、关税与产能、基差交易跨境链条。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币 #国际金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-09-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧬 奥数题</span><time>2026-09-13</time></div><h2>含两个 7 的倍数的连续块计数 / 随机爬行停止位置大于 1 的概率</h2><p>今日两题：含两个 7 的倍数的连续块计数（组合）与 随机爬行停止位置大于 1 的概率（概率），均来自 AMC 12 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-09-13-tech-daily/">
   <div class="rl-accent"></div>
