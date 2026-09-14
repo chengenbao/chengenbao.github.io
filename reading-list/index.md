@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-14</time></div><h2>多项式根的对称式 / 有序三元组的计数</h2><p>2025 AMC 12A 两道真题：多项式根的对称式 + 有序三元组计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-09-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
