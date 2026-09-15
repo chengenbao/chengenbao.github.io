@@ -8,6 +8,15 @@
       "https://pytorch.org/blog/helion-x-%f0%9f%a4%97-hf-kernels-building-and-shipping-out-of-the-box-performant-kernels/",
       "https://pytorch.org/blog/pytorch-2-14-release-blog/",
       "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2"
+    ],
+    "2026-09-15": [
+      "https://arxiv.org/abs/2609.12923",
+      "https://arxiv.org/abs/2609.11938",
+      "https://arxiv.org/abs/2609.12208",
+      "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "https://arxiv.org/abs/2609.12276",
+      "https://arxiv.org/abs/2609.12978",
+      "https://arxiv.org/abs/2609.11954"
     ]
   },
   "finance": {}
