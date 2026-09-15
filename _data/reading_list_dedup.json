@@ -19,5 +19,11 @@
       "https://arxiv.org/abs/2609.11954"
     ]
   },
-  "finance": {}
+  "finance": {
+    "2026-09-15": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/a-roadmap-for-the-federal-reserves-2025-review-of-Its-monetary-policy-framework-20250822.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-part-II-20260408.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/using-generative-ai-models-to-understand-fomc-monetary-policy-discussions-20241206.html"
+    ]
+  }
 }
