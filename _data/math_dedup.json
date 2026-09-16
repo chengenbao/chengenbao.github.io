@@ -101,6 +101,10 @@
     "2026-09-15": [
       "https://github.com/math-eval/aaai2024comp/blob/master/TAL-SAQ6K-EN.jsonl",
       "https://github.com/math-eval/aaai2024comp/blob/master/TAL-SAQ6K-EN.jsonl"
+    ],
+    "2026-09-16": [
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_3",
+      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_10"
     ]
   }
 }
