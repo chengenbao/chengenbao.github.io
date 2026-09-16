@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-16</time>
+    </div>
+    <h2>货币、贸易与全球储备的新视角</h2>
+    <p>5 篇美联储 FEDS Notes：新型货币与货币总量、关税的州级敞口、黄金与美债储备之争、期货预测力、基金流动性错配风险。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#货币 #关税 #储备资产</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
