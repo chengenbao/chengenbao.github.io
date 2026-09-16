@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-16</time>
+    </div>
+    <h2>KV 缓存压缩、显存分层与 MoE 高效推理</h2>
+    <p>今日 7 篇聚焦 LLM 推理加速与 GPU/硬件协同设计：KV 缓存压缩、HBM/主机内存并发、自适应跳层、万亿参数 MoE 供给、移动端投机解码、GPU 模拟器与 AMD 矩阵核心建模。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · HBM · MoE · 推理加速 · GPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-15</time></div><h2>等差数列前16项和 / 演出顺序的插空排列</h2><p>两道 AMC 10/12 难度真实竞赛题：等差数列求和与插空排列计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-15-finance-daily/">
   <div class="rl-accent"></div>
