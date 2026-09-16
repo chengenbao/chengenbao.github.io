@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-16</time></div><h2>平方数整除计数 / 网格骨牌覆盖</h2><p>两道 AMC 10 真题：数论整除计数 + 组合最坏情形覆盖策略</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-16-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
