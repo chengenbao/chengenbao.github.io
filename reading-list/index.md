@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-17</time>
+    </div>
+    <h2>推理加速、量化可移植性与硬件协同优化</h2>
+    <p>精选 7 篇聚焦 FlashAttention 低精度、INT8 可移植性、KV 缓存、GPU DMA 通信、硬件形式化验证、RLVR 训练与隐私推理的前沿技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · 量化 · KV Cache · GPU · 隐私推理</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-09-17-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
