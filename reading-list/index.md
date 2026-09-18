@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-18</time>
+    </div>
+    <h2>货币、贸易与储备新动向</h2>
+    <p>美联储 FEDS Notes 精选：新型货币形态、中国冲击2.0、流动性错配风险、关税区域传导与全球储备格局。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #贸易 #储备</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-18-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
