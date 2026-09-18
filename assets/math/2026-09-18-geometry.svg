@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <defs>
+    <marker id="axis" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#444"/>
+    </marker>
+  </defs>
+  <!-- coordinate axes -->
+  <line x1="30" y1="210" x2="330" y2="210" stroke="#444" stroke-width="1.5" marker-end="url(#axis)"/>
+  <line x1="40" y1="220" x2="40" y2="20" stroke="#444" stroke-width="1.5" marker-end="url(#axis)"/>
+  <text x="320" y="225" font-size="12" fill="#444">x = log₂ x</text>
+  <text x="48" y="30" font-size="12" fill="#444">y</text>
+
+  <!-- scaled to fit: x-axis = log2 value * k, here k=40; y-axis = value * 40 -->
+  <!-- A(0,1) -> (40, 170) -->
+  <!-- B(log2 3 ~1.585, 2) -> (40+63.4, 130) = (103,130) -->
+  <!-- C(log2 7 ~2.807, 3) -> (40+112.3, 90) = (152,90) -->
+  <polygon points="40,170 103,130 152,90" fill="rgba(70,130,180,0.25)" stroke="#4682b4" stroke-width="2"/>
+  <circle cx="40" cy="170" r="4" fill="#e63946"/>
+  <circle cx="103" cy="130" r="4" fill="#e63946"/>
+  <circle cx="152" cy="90" r="4" fill="#e63946"/>
+  <text x="48" y="185" font-size="13" fill="#222">A(0, 1)</text>
+  <text x="108" y="125" font-size="13" fill="#222">B(log₂3, 2)</text>
+  <text x="158" y="88" font-size="13" fill="#222">C(log₂7, 3)</text>
+
+  <!-- gridlines -->
+  <line x1="40" y1="210" x2="40" y2="170" stroke="#bbb" stroke-dasharray="3,3"/>
+  <line x1="103" y1="210" x2="103" y2="130" stroke="#bbb" stroke-dasharray="3,3"/>
+  <line x1="152" y1="210" x2="152" y2="90" stroke="#bbb" stroke-dasharray="3,3"/>
+  <line x1="40" y1="170" x2="152" y2="170" stroke="#bbb" stroke-dasharray="3,3"/>
+  <line x1="40" y1="130" x2="152" y2="130" stroke="#bbb" stroke-dasharray="3,3"/>
+  <line x1="40" y1="90" x2="152" y2="90" stroke="#bbb" stroke-dasharray="3,3"/>
+</svg>
