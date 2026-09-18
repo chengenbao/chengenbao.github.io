@@ -35,6 +35,15 @@
       "https://arxiv.org/abs/2510.27485",
       "https://arxiv.org/abs/2609.16059",
       "https://arxiv.org/abs/2609.16898"
+    ],
+    "2026-09-18": [
+      "https://arxiv.org/abs/2609.17652",
+      "https://arxiv.org/abs/2609.17564",
+      "https://arxiv.org/abs/2609.17691",
+      "https://arxiv.org/abs/2609.17745",
+      "https://arxiv.org/abs/2609.17555",
+      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "https://pytorch.org/blog/low-precision-flash-attention-4-end-to-end-block-scaled-attention-for-blackwell/"
     ]
   },
   "finance": {
