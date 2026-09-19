@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-19</time></div><h2>变换的交换性 / 季后赛夺冠概率</h2><p>今日两题来自 AMC 10，分别考察平面变换的交换计数与三局两胜制的概率建模。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-19-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
