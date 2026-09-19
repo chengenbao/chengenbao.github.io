@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-19</time>
+    </div>
+    <h2>LLM 推理与训练优化前沿：评测、KV Cache 硬件加速、压缩与 RLVR 对齐</h2>
+    <p>今日精选 7 篇深度技术文章，覆盖 LLM 推理评测、KV Cache 加速器、模型压缩、注意力优化、RLVR 对齐与本地推理基建。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · KV Cache · 模型压缩 · RLVR · WebGPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-18-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
