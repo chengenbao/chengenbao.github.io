@@ -44,6 +44,15 @@
       "https://arxiv.org/abs/2609.17555",
       "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "https://pytorch.org/blog/low-precision-flash-attention-4-end-to-end-block-scaled-attention-for-blackwell/"
+    ],
+    "2026-09-19": [
+      "https://arxiv.org/abs/2609.19169",
+      "https://arxiv.org/abs/2609.19207",
+      "https://arxiv.org/abs/2609.19213",
+      "https://arxiv.org/abs/2609.19363",
+      "https://arxiv.org/abs/2609.19164",
+      "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "https://huggingface.co/blog/webgpu-kernels"
     ]
   },
   "finance": {
