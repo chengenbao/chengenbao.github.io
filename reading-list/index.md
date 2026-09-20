@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-20</time></div><h2>三数和与绝对值 / 数据集平均数的可能取值</h2><p>代数（一元一次方程与绝对值）与组合（平均数约束下的分类计数）两道 AMC 10 真题详解。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-20-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
