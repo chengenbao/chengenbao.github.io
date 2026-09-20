@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-20</time>
+    </div>
+    <h2>通胀回升、全球风险与信用利差</h2>
+    <p>美联储维持利率 3.5%–3.75%，BIS 警示债务与 AI 热潮风险，IMF 下调贸易增速预期。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / BIS / IMF / SF Fed</span>
+      <span class="rl-tags">#宏观 #全球金融稳定 #信用市场</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
