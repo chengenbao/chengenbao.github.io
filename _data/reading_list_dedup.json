@@ -53,6 +53,15 @@
       "https://arxiv.org/abs/2609.19164",
       "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "https://huggingface.co/blog/webgpu-kernels"
+    ],
+    "2026-09-20": [
+      "http://arxiv.org/abs/2609.19207v1",
+      "http://arxiv.org/abs/2609.19683v1",
+      "http://arxiv.org/abs/2609.18792v1",
+      "http://arxiv.org/abs/2609.18662v1",
+      "http://arxiv.org/abs/2609.18633v1",
+      "http://arxiv.org/abs/2609.13728v1",
+      "http://arxiv.org/abs/2609.20751v1"
     ]
   },
   "finance": {
