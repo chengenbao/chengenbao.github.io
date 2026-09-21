@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-21</time>
+    </div>
+    <h2>GPU 显存、推理服务与内核调度：大模型基础设施前沿</h2>
+    <p>精选 7 篇 arXiv 基础设施论文，聚焦显存卸载、按需注意力、KV 缓存管理与内核级调度优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">LLM Infra · GPU · 推理加速 · MoE · OS内核</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-20</time></div><h2>三数和与绝对值 / 数据集平均数的可能取值</h2><p>代数（一元一次方程与绝对值）与组合（平均数约束下的分类计数）两道 AMC 10 真题详解。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-20-finance-daily/">
   <div class="rl-accent"></div>
