@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-21-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-21</time>
+    </div>
+    <h2>美联储视角：支付、短缺、AI与货币演进</h2>
+    <p>美联储FEDS Notes精选五篇，覆盖跨境支付、全球供应链短缺、AI与劳动力、货币史与稳定币、中国创新力。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#跨境支付 #供应链 #AI #稳定币 #中国创新</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-21-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
