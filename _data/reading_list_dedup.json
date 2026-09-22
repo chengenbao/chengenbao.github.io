@@ -71,6 +71,15 @@
       "http://arxiv.org/abs/2609.12276v1",
       "http://arxiv.org/abs/2609.09662v1",
       "http://arxiv.org/abs/2609.06172v1"
+    ],
+    "2026-09-22": [
+      "https://arxiv.org/abs/2609.20888",
+      "https://arxiv.org/abs/2609.21137",
+      "https://arxiv.org/abs/2609.21264",
+      "https://arxiv.org/abs/2609.09800",
+      "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "https://huggingface.co/blog/tokenizers-v1",
+      "https://huggingface.co/blog/ibm-granite/granite-4-2"
     ]
   },
   "finance": {
