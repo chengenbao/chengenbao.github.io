@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-22</time>
+    </div>
+    <h2>私人信贷·区域银行·越南出口·AI基建·美元稳定币</h2>
+    <p>本期精选 5 篇美联储 FEDS Notes，覆盖非银信贷、银行韧性、供应链重塑、AI 宏观溢出与美元数字化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Federal Reserve</span>
+      <span class="rl-tags">#私人信贷 #区域银行 #越南出口 #AI基建 #美元稳定币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
