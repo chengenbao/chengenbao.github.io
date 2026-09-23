@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-23</time>
+    </div>
+    <h2>全球失衡、AI资本开支与货币紧缩下的跨境资本流动</h2>
+    <p>精选美联储 FEDS Notes 5篇，覆盖经常账户、AI资本开支、货币紧缩与跨境资本流动。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #美联储</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
