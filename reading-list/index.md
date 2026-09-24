@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-24</time>
+    </div>
+    <h2>宏观与技术投资、消费信贷与供应链的财经观察</h2>
+    <p>精选 5 篇 Fed FEDS Notes：AI 过度投资风险、BNPL 全景、墨西哥供应链角色、银行股地缘风险、劳动力市场脆弱性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #供应链 #消费信贷</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
