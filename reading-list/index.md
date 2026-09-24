@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-24</time></div><h2>同心圆弦长 / 九进制取模</h2><p>两道 AMC 12 真题：同心圆弦长（垂径定理）与九进制数模 5 余数，附完整推导与常见错误。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#几何 #数论 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-24-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
