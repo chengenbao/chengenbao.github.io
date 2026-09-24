@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-24</time>
+    </div>
+    <h2>大模型量化、GPU 注意力加速与推理确定性治理</h2>
+    <p>精选 7 篇深度技术文章，覆盖 LLM 量化、GPU 块稀疏注意力、显存分层、推理可复现、OS 内存与智能体、vLLM 硬件抽象。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">arXiv · PyTorch · HuggingFace</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-23</time></div><h2>三局两胜概率反推 / 三元方程组求解</h2><p>2024 AMC 10A 真题：概率胜率反推 + 代数对称方程组</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-23-finance-daily/">
   <div class="rl-accent"></div>
