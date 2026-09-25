@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-25</time></div><h2>牙签闭合回路计数 / 彩球独立事件概率</h2><p>AMC12 真题：8×3 网格牙签回路计数（组合）+ 6 球颜色图案独立事件概率。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-25-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
