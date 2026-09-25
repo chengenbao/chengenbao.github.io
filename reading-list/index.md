@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-25</time>
+    </div>
+    <h2>通胀粘性、稳定币冲击与新兴市场贸易不确定性</h2>
+    <p>5 篇 Fed FEDS Notes：宏观通胀、稳定币与银行、次级车贷、新兴市场大宗商品、货币供给。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #银行 #新兴市场 #货币</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-09-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
