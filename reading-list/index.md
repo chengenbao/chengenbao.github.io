@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-26</time>
+    </div>
+    <h2>AI 资产定价、CBDC 架构与风险资本化</h2>
+    <p>5 篇精选：股票 AI 因子、主权草根货币 CBDC、佛州公寓风险定价、女性董事与 ESG 元分析、生产网络风险敞口。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#资产定价 #CBDC #ESG #房地产 #产业网络</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
