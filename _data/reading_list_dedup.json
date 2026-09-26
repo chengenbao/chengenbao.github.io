@@ -173,6 +173,15 @@
       "https://arxiv.org/abs/2609.26828",
       "https://arxiv.org/abs/2609.28358",
       "https://arxiv.org/abs/2609.27040"
+    ],
+    "2026-09-26": [
+      "https://arxiv.org/abs/2609.28769",
+      "https://arxiv.org/abs/2609.28717",
+      "https://arxiv.org/abs/2609.30057",
+      "https://arxiv.org/abs/2609.29808",
+      "https://arxiv.org/abs/2609.29102",
+      "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "https://huggingface.co/blog/transformers-llama-cpp-quants"
     ]
   },
   "finance": {
