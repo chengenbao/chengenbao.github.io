@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-26</time>
+    </div>
+    <h2>GPU 追踪与推测推理加速 · OS 核级 agent 安全 · 连续扩散与本地量化</h2>
+    <p>7 篇前沿：GPU 核内追踪、FPGA-GPU 推测推理、共享 GPU 并发基准、内核级 agent 抢占、连续扩散推理、VLM 推测解码与 GGUF 本地推理。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">Tech, GPU, Inference, OS, Quantization</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-25</time></div><h2>牙签闭合回路计数 / 彩球独立事件概率</h2><p>AMC12 真题：8×3 网格牙签回路计数（组合）+ 6 球颜色图案独立事件概率。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-25-finance-daily/">
   <div class="rl-accent"></div>
