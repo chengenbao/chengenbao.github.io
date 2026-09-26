@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-09-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-26</time></div><h2>列方程求列表个数 / 整数分拆计数取钞</h2><p>AMC10B 真题：Maddy & Lara 列方程求个数（代数）+ Suzanne 取钞分拆计数（组合）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-26-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
