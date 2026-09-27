@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-27</time>
+    </div>
+    <h2>宏观通胀·国际投资·贸易政策·消费信贷</h2>
+    <p>美联储 FEDS Notes 精选：美国对华投资脱钩、软件分项推高 PCE、中国贸易顺差、供应链与银行信贷、自动化授信。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #中美脱钩 #贸易政策 #消费信贷</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
