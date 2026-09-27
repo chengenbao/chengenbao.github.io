@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-27</time>
+    </div>
+    <h2>LLM 训练·量化·推理加速与 GPU Kernel 优化</h2>
+    <p>7 篇精选：长上下文架构、多 GPU 分布式训练、KV Cache 量化、MoE、连续批处理、结构化剪枝与 GPU Kernel 优化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv · PyTorch · HuggingFace</span>
+      <span class="rl-tags">#LLM训练 #量化 #推理加速 #MoE #分布式</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-26</time></div><h2>列方程求列表个数 / 整数分拆计数取钞</h2><p>AMC10B 真题：Maddy & Lara 列方程求个数（代数）+ Suzanne 取钞分拆计数（组合）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-26-finance-daily/">
   <div class="rl-accent"></div>
