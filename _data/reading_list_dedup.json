@@ -182,6 +182,15 @@
       "https://arxiv.org/abs/2609.29102",
       "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "https://huggingface.co/blog/transformers-llama-cpp-quants"
+    ],
+    "2026-09-27": [
+      "https://huggingface.co/blog/deepseekv4",
+      "https://huggingface.co/blog/accelerate-nd-parallel",
+      "https://huggingface.co/blog/kv-cache-quantization",
+      "https://huggingface.co/blog/moe-transformers",
+      "https://huggingface.co/blog/continuous_batching",
+      "https://arxiv.org/abs/2609.29499",
+      "https://arxiv.org/abs/2609.30059"
     ]
   },
   "finance": {
