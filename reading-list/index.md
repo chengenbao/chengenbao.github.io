@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-28</time>
+    </div>
+    <h2>美联储视角：银行资本、货币市场、稳定币与关税传导</h2>
+    <p>每日精选 5 篇美联储 FEDS Notes，覆盖银行资本、货币市场基金、稳定币、印度经济与关税价格传导。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #银行 #稳定币 #关税</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
