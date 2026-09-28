@@ -191,6 +191,15 @@
       "https://huggingface.co/blog/continuous_batching",
       "https://arxiv.org/abs/2609.29499",
       "https://arxiv.org/abs/2609.30059"
+    ],
+    "2026-09-28": [
+      "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "https://pytorch.org/blog/how-shopify-built-a-continual-learning-loop-with-pytorch-and-vllm/",
+      "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "https://huggingface.co/blog/torch-attention-profile",
+      "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "https://huggingface.co/blog/revamped-kernels"
     ]
   },
   "finance": {
