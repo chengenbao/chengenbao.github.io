@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-28</time>
+    </div>
+    <h2>大模型推理加速、KV Cache 量化与分布式训练</h2>
+    <p>精选 6 篇深度技术文章，覆盖 vLLM 推理后端、KV Cache 量化、PyTorch 性能剖析、NVIDIA Warp 仿真加速与规模化知识蒸馏。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">大模型推理 · 量化 · 分布式训练 · vLLM</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-27</time></div><h2>曲线方程的几何身份 / 四面体的体积</h2><p>代数换元识别圆与双曲线；勾股定理逆定理秒杀四面体体积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #几何 #AMC10 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-27-finance-daily/">
   <div class="rl-accent"></div>
