@@ -32,6 +32,21 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
+<a class="rl-card tech" href="/reading-list/2026-09-29-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-29</time>
+    </div>
+    <h2>今日 7 篇：KV Cache 管理、PTQ/INT4 量化、MoE 剪枝与推理加速</h2>
+    <p>覆盖 KV Cache、训练后量化、MoE 专家剪枝与 Prefill/Decode 服务优化的前沿技术精选。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 量化 · KV Cache · MoE · 服务优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-28-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
