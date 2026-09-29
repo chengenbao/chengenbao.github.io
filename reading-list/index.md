@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-29</time>
+    </div>
+    <h2>脱钩直投、经常账户修订、汽车关税与芯片短缺、货币新形态</h2>
+    <p>5 篇美联储 FEDS Notes：覆盖中美脱钩、全球失衡、贸易关税、供应链与货币供给多维度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#FDI #关税 #供应链 #货币供给 #经常账户</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-29-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
