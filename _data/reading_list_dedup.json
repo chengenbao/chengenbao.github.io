@@ -200,6 +200,15 @@
       "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "https://huggingface.co/blog/revamped-kernels"
+    ],
+    "2026-09-29": [
+      "https://arxiv.org/abs/2609.31395",
+      "https://arxiv.org/abs/2609.31009",
+      "https://arxiv.org/abs/2609.30738",
+      "https://arxiv.org/abs/2609.30465",
+      "https://arxiv.org/abs/2609.30820",
+      "https://arxiv.org/abs/2609.31619",
+      "https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests"
     ]
   },
   "finance": {
