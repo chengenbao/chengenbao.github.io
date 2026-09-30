@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-09-30-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-09-30</time>
+    </div>
+    <h2>大模型推理加速与系统优化前沿</h2>
+    <p>7 篇聚焦 LLM 推理加速、MoE 架构、PIM 编译与 OS 内核安全的技术论文</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.AR / cs.CL / cs.OS</span>
+      <span class="rl-tags">推理加速 · MoE · PIM · KV Cache · 内核安全</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-29</time></div><h2>篮球分队队长概率 / 对数求和裂项</h2><p>AMC 12 概率分组计数 + 对数裂项求和，两道官方真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#概率 #代数 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-29-finance-daily/">
   <div class="rl-accent"></div>
