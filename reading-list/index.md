@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-09-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-09-30</time>
+    </div>
+    <h2>美联储视角下的脱钩、储备与货币新形态</h2>
+    <p>5 篇 FEDS Notes：美企去中国化、黄金与美债储备之争、关税消费敞口、私募信贷与货币总量更新</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际储备 #关税 #私募信贷 #货币总量</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-09-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
