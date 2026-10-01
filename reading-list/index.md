@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-01</time>
+    </div>
+    <h2>大模型量化、混合精度与扩散生成前沿</h2>
+    <p>精选 7 篇 arXiv 前沿论文，覆盖 KV-Cache 量化、混合精度计算、RLVR 训练信号与离散扩散生成。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 混合精度 · 扩散模型 · 加速器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-09-30-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-09-30</time></div><h2>内接直角三角形与外接圆面积比 / 数字串中的质数个数</h2><p>AMC 10 几何（圆周直径与面积比）+ 数论（结构分解判定合数）两道官方真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#几何 #数论 #AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-09-30-finance-daily/">
   <div class="rl-accent"></div>
