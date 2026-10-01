@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-01-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-01</time>
+    </div>
+    <h2>教育驱动的结构变迁、AI 时代企业竞争与气候合作博弈</h2>
+    <p>覆盖宏观、微观与国际三维度：从教育引发的需求升级，到语言模型空间中的企业重定位，再到临界点风险下的气候联盟稳定性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#宏观 #微观 #国际</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-01-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
