@@ -227,6 +227,15 @@
       "https://arxiv.org/abs/2609.35817",
       "https://arxiv.org/abs/2609.35852",
       "https://arxiv.org/abs/2609.37399"
+    ],
+    "2026-10-02": [
+      "https://arxiv.org/abs/2609.38201",
+      "https://arxiv.org/abs/2609.38510",
+      "https://arxiv.org/abs/2609.39131",
+      "https://arxiv.org/abs/2609.40247",
+      "https://arxiv.org/abs/2609.39334",
+      "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/",
+      "https://huggingface.co/blog/allenai/olmocore3"
     ]
   },
   "finance": {
