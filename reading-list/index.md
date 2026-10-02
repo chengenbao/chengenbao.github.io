@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-02-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-02</time>
+    </div>
+    <h2>美联储视角：宏观、国际与微观金融五题</h2>
+    <p>精选 5 篇 FEDS Notes，覆盖通胀预期、中美投资脱钩、货币新形态、关税区域敞口与私人信贷。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #私人信贷</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-02-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
