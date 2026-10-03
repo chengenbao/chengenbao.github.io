@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-03-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-03</time>
+    </div>
+    <h2>大模型量化、推理加速与内核 DSL 前沿</h2>
+    <p>7 篇精选覆盖量化/推理引擎/统一内存/测试时扩展等方向</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · 内核DSL · 测试时扩展 · 模型组合</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-02-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-02</time></div><h2>阶乘化简 / 骨牌覆盖博弈</h2><p>AMC 10/12 真题：阶乘因式分解 + 3×3 网格骨牌博弈的最坏情况分析</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-02-finance-daily/">
   <div class="rl-accent"></div>
