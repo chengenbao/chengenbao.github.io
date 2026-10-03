@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-03</time>
+    </div>
+    <h2>商品生产韧性、制造业细分、AI 渗透与对华投资脱钩</h2>
+    <p>美联储研究精选：商品生产韧性、制造业调查方法、AI 渗透、对华投资脱钩与中国经常账户修订。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #制造业 #AI #中美</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
