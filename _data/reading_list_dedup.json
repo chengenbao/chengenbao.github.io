@@ -236,6 +236,15 @@
       "https://arxiv.org/abs/2609.39334",
       "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/",
       "https://huggingface.co/blog/allenai/olmocore3"
+    ],
+    "2026-10-03": [
+      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
+      "https://arxiv.org/abs/2610.00207",
+      "https://arxiv.org/abs/2610.00738",
+      "https://arxiv.org/abs/2609.05635",
+      "https://arxiv.org/abs/2609.38205",
+      "https://arxiv.org/abs/2609.38332",
+      "https://arxiv.org/abs/2609.38261"
     ]
   },
   "finance": {
