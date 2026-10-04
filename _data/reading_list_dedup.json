@@ -245,6 +245,14 @@
       "https://arxiv.org/abs/2609.38205",
       "https://arxiv.org/abs/2609.38332",
       "https://arxiv.org/abs/2609.38261"
+    ],
+    "2026-10-04": [
+      "https://arxiv.org/abs/2610.00049",
+      "https://arxiv.org/abs/2610.00053",
+      "https://arxiv.org/abs/2610.00232",
+      "https://pytorch.org/blog/from-upstream-changes-to-downstream-confidence-inside-torch-spyres-integration-with-pytorch-crcr/",
+      "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "https://huggingface.co/blog/funes"
     ]
   },
   "finance": {
