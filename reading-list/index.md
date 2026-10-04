@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-04-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-04</time>
+    </div>
+    <h2>劳动力市场、AI 渗透与稳定币的宏观微观观察</h2>
+    <p>5 篇美联储 FEDS Notes：劳动力近零增长、AI 经济渗透、稳定币风险、地缘碎片化与 FDI、贸易合规成本。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #AI #稳定币 #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card math" href="/reading-list/2026-10-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-03</time></div><h2>等边三角形与圆的外切区域面积 / 等比数列中的最小项数字和</h2><p>2024 AMC 10A 真题：等边三角形外切圆区域面积 + 等比数列最小项数字和。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#AMC10 #几何 #代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-03-finance-daily/">
   <div class="rl-accent"></div>
