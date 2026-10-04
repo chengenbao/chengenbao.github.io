@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-04</time>
+    </div>
+    <h2>GPU 算子加速、FP4 低精度预训练与 Agent 记忆</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖 GPU 算子加速、FP4 低精度预训练与 Agent 记忆系统。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">GPU算子 · FP4量化 · Agent记忆</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-10-04-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
