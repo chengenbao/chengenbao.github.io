@@ -24,11 +24,11 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-10-05</time>
     </div>
-    <h2>X</h2>
-    <p>Y</p>
+    <h2>推理加速与训练效率：GGUF量化、异步GRPO、Tokenizer性能、VLM投机解码与Helion内核</h2>
+    <p>6篇精选覆盖本地量化推理、异步RL训练、tokenizer加速、VLM投机解码、小模型GRPO与vLLM Helion后端</p>
     <div class="rl-meta">
-      <span class="rl-source">arXiv</span>
-      <span class="rl-tags">a</span>
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · 量化 · RL训练 · 编译器 · Tokenizer</span>
     </div>
   </div>
 </a>
