@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+
+<a class="rl-card finance" href="/reading-list/2026-10-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-05</time>
+    </div>
+    <h2>关税传导、中美贸易、AI就业与稳定币</h2>
+    <p>美联储最新研究：关税传导、中美贸易、AI 就业与稳定币金融稳定。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #关税 #稳定币 #AI</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
