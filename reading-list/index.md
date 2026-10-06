@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-06-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-06</time>
+    </div>
+    <h2>气候贸易·家庭金融·叙事不对称性·女性董事·AMM 费率</h2>
+    <p>五大维度精选 5 篇：宏观气候贸易、微观家庭金融、行为金融叙事、公司治理创新、DeFi 市场微观结构。</p>
+    <div class="rl-meta">
+      <span class="rl-source">NBER / arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #公司金融 #市场微观结构</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-06-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
