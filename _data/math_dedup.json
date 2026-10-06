@@ -4,10 +4,6 @@
       "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12A_Problems/Problem_11",
       "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12B_Problems/Problem_10"
     ],
-    "2026-09-05": [
-      "https://artofproblemsolving.com/wiki/index.php/2021_AMC_12B_Problems/Problem_19",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_12"
-    ],
     "2026-09-06": [
       "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems",
       "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems"
@@ -116,6 +112,10 @@
     "2026-10-05": [
       "https://wiki.randommath.com/amc10/2024/part-a/problem-24",
       "https://wiki.randommath.com/amc12/2022/part-a/problem-14"
+    ],
+    "2026-10-06": [
+      "https://wiki.randommath.com/amc10/2021-fall/part-a",
+      "https://wiki.randommath.com/amc10/2023/part-a"
     ]
   }
 }
