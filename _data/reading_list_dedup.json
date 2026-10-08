@@ -270,6 +270,15 @@
       "https://arxiv.org/abs/2610.02251",
       "https://arxiv.org/abs/2610.02283",
       "https://arxiv.org/abs/2610.02676"
+    ],
+    "2026-10-08": [
+      "https://arxiv.org/abs/2610.07593",
+      "https://arxiv.org/abs/2610.06927",
+      "https://arxiv.org/abs/2610.08378",
+      "https://arxiv.org/abs/2610.07094",
+      "https://arxiv.org/abs/2610.06963",
+      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
+      "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/"
     ]
   },
   "finance": {
