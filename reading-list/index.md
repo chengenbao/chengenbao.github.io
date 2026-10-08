@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-08</time>
+    </div>
+    <h2>全球金融格局的多维透视</h2>
+    <p>本期精选 5 篇美联储 FEDS Notes，覆盖国际储备资产、中美直接投资脱钩、央行资产负债表政策权衡、基金流动性错配风险与期货价格预测能力，从宏观到市场、从国际到机构提供多元财经视角。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#外汇储备 #黄金 #美债 #国际货币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
