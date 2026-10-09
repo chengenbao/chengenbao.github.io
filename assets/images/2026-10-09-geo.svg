@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="520" height="420" fill="#fdfdfd"/>
+<line x1="50" y1="182" x2="470" y2="182" stroke="#999" stroke-width="1"/>
+<line x1="295" y1="380" x2="295" y2="39" stroke="#999" stroke-width="1"/>
+<text x="456.0" y="176" fill="#777" font-size="12">x</text>
+<text x="301" y="50" fill="#777" font-size="12">y</text>
+<line x1="85" y1="179" x2="85" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="81" y="196" fill="#999" font-size="9">-6</text>
+<line x1="120" y1="179" x2="120" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="116" y="196" fill="#999" font-size="9">-5</text>
+<line x1="155" y1="179" x2="155" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="151" y="196" fill="#999" font-size="9">-4</text>
+<line x1="190" y1="179" x2="190" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="186" y="196" fill="#999" font-size="9">-3</text>
+<line x1="225" y1="179" x2="225" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="221" y="196" fill="#999" font-size="9">-2</text>
+<line x1="260" y1="179" x2="260" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="256" y="196" fill="#999" font-size="9">-1</text>
+<line x1="330" y1="179" x2="330" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="326" y="196" fill="#999" font-size="9">1</text>
+<line x1="365" y1="179" x2="365" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="361" y="196" fill="#999" font-size="9">2</text>
+<line x1="400" y1="179" x2="400" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="396" y="196" fill="#999" font-size="9">3</text>
+<line x1="435" y1="179" x2="435" y2="185" stroke="#bbb" stroke-width="1"/>
+<text x="431" y="196" fill="#999" font-size="9">4</text>
+<line x1="50" y1="347" x2="470" y2="347" stroke="#eee" stroke-width="1"/>
+<line x1="50" y1="292" x2="470" y2="292" stroke="#eee" stroke-width="1"/>
+<line x1="50" y1="237" x2="470" y2="237" stroke="#eee" stroke-width="1"/>
+<line x1="50" y1="127" x2="470" y2="127" stroke="#eee" stroke-width="1"/>
+<line x1="50" y1="72" x2="470" y2="72" stroke="#eee" stroke-width="1"/>
+<polyline points="74.5,49.0 78.0,60.6 81.5,71.9 85.0,83.0 88.5,93.9 92.0,104.6 95.5,115.0 99.0,125.2 102.5,135.2 106.0,145.0 109.5,154.6 113.0,164.0 116.5,173.1 120.0,182.0 123.5,190.7 127.0,199.2 130.5,207.4 134.0,215.4 137.5,223.2 141.0,230.8 144.5,238.2 148.0,245.4 151.5,252.3 155.0,259.0 158.5,265.5 162.0,271.8 165.5,277.8 169.0,283.6 172.5,289.2 176.0,294.6 179.5,299.8 183.0,304.8 186.5,309.5 190.0,314.0 193.5,318.3 197.0,322.4 200.5,326.2 204.0,329.8 207.5,333.2 211.0,336.4 214.5,339.4 218.0,342.2 221.5,344.7 225.0,347.0 228.5,349.1 232.0,351.0 235.5,352.6 239.0,354.0 242.5,355.2 246.0,356.2 249.5,357.0 253.0,357.6 256.5,357.9 260.0,358.0 263.5,357.9 267.0,357.6 270.5,357.0 274.0,356.2 277.5,355.2 281.0,354.0 284.5,352.6 288.0,351.0 291.5,349.1 295.0,347.0 298.5,344.7 302.0,342.2 305.5,339.4 309.0,336.4 312.5,333.2 316.0,329.8 319.5,326.2 323.0,322.4 326.5,318.3 330.0,314.0 333.5,309.5 337.0,304.8 340.5,299.8 344.0,294.6 347.5,289.2 351.0,283.6 354.5,277.8 358.0,271.8 361.5,265.5 365.0,259.0 368.5,252.3 372.0,245.4 375.5,238.2 379.0,230.8 382.5,223.2 386.0,215.4 389.5,207.4 393.0,199.2 396.5,190.7 400.0,182.0 403.5,173.1 407.0,164.0 410.5,154.6 414.0,145.0 417.5,135.2 421.0,125.2 424.5,115.0 428.0,104.6 431.5,93.9 435.0,83.0 438.5,71.9 442.0,60.6 445.5,49.0" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<text x="300" y="60" fill="#2563eb" font-size="12">y = x² + 2x − 15</text>
+<circle cx="120" cy="182" r="5" fill="#dc2626"/>
+<text x="108" y="174" fill="#dc2626" font-size="13" font-weight="bold">A</text>
+<circle cx="295" cy="347" r="5" fill="#059669"/>
+<text x="304" y="341" fill="#059669" font-size="13" font-weight="bold">B</text>
+<circle cx="400" cy="182" r="5" fill="#dc2626"/>
+<text x="408" y="174" fill="#dc2626" font-size="13" font-weight="bold">C</text>
+<path d="M 276.1 329.2 A 26 26 0 0 1 309.0 325.1" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="325" y="345" fill="#f59e0b" font-size="12">θ</text>
+</svg>
