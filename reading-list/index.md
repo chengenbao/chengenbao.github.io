@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-09</time>
+    </div>
+    <h2>LLM 推理压缩与底层系统优化</h2>
+    <p>今日 7 篇覆盖 KV Cache 压缩、低秩条件计算、Linux I/O 建模、3D-DRAM PIM 编译器，以及 PyTorch 在 agentic 推理与专用硬件上的最新实践。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · 低秩压缩 · Linux I/O · PIM · PyTorch</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-08</time></div><h2>数据集平均值的可能值 / 整数配对数</h2><p>2022 AMC 10A 真题：代数均值求解 + 组合配对计数（高中竞赛难度）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 - 组合 - AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-08-finance-daily/">
   <div class="rl-accent"></div>
