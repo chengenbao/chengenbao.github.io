@@ -279,6 +279,15 @@
       "https://arxiv.org/abs/2610.06963",
       "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
       "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/"
+    ],
+    "2026-10-09": [
+      "https://arxiv.org/abs/2610.08811",
+      "https://arxiv.org/abs/2610.10137",
+      "https://arxiv.org/abs/2610.08858",
+      "https://arxiv.org/abs/2610.09156",
+      "https://pytorch.org/blog/session-aware-agentic-inference-with-nvidia-dynamo/",
+      "https://pytorch.org/blog/building-spyre-as-a-native-pytorch-device/",
+      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/"
     ]
   },
   "finance": {
