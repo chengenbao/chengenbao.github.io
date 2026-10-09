@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-09</time>
+    </div>
+    <h2>全球援助网络、能源权力与监管旋转门</h2>
+    <p>今日聚焦全球援助资金流向、能源行业所有权网络、公共卫生与宏观周期、监管旋转门，以及加密市场洗售交易。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#宏观 #监管 #加密市场</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
