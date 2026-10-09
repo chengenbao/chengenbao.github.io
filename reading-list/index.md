@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-09-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-09</time></div><h2>抛物线与坐标轴交点所成角的正切 / 对数距离与方程根的对称乘积</h2><p>两道 AMC 12 真题：抛物线与坐标轴夹角正切、对数距离对称乘积。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-09-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
