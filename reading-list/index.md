@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-10</time>
+    </div>
+    <h2>多维观察：收入不平等、劳动力弹性、贸易、小额信贷与 CBDC</h2>
+    <p>5 篇经济学工作论文，覆盖劳动经济、发展金融、国际贸易与货币政策。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#宏观 #微观 #国际经济</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
