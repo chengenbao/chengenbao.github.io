@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-11-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-11</time>
+    </div>
+    <h2>美联储SCF专题：家庭支出、非正式互助网络与消费倾向的异质性，叠加地缘冲突油价与全球失衡</h2>
+    <p>5 篇精选：家庭支出度量、非正式互助网络、消费倾向异质性、地缘冲突油价、全球失衡</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#美联储 #家庭金融 #宏观 #油价 #全球失衡</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-11-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
