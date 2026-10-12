@@ -8,6 +8,15 @@
       "https://huggingface.co/blog/allenai/impactful-scheduling",
       "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
+    ],
+    "2026-10-12": [
+      "https://arxiv.org/abs/2610.12444v1",
+      "https://arxiv.org/abs/2610.13408v1",
+      "https://arxiv.org/abs/2610.12338v1",
+      "https://arxiv.org/abs/2610.12327v1",
+      "https://arxiv.org/abs/2610.13125v1",
+      "https://arxiv.org/abs/2610.11284v1",
+      "https://arxiv.org/abs/2610.10137v1"
     ]
   },
   "finance": {
