@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-12</time>
+    </div>
+    <h2>全球货币政策、失衡与家庭金融的多维观察</h2>
+    <p>美联储 FEDS Notes 精选：AI 测度政策语调、全球资本流动、家庭 MPC 异质性与原油风险溢价。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #家庭金融</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
