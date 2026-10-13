@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-13</time>
+    </div>
+    <h2>从"中国冲击2.0"到稳定币与AI基建的全球溢出</h2>
+    <p>5篇美联储研究：国际经贸、AI基建贸易效应、稳定币金融稳定、央行资产负债表三难、BNPL消费信贷全景。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际经贸 #金融稳定 #货币政策 #消费金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
