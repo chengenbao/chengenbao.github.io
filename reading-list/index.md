@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-13-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-13</time>
+    </div>
+    <h2>大模型推理加速与高效训练：KV压缩、投机解码、零阶微调与GPU内存管理</h2>
+    <p>精选7篇前沿：Kronecker注意力10x KV压缩、DCOCO投机解码6.6x、SAZO零阶微调、AIQ量化、CacheScope扩散加速、Ember UVM与PyTorch原生设备集成</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 推理加速 · 量化 · GPU · PyTorch</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-12</time></div><h2>矩形内直角三角形的面积 / LCM·GCD 反推数位和</h2><p>矩形内直角三角形的面积（几何） / 由 LCM 与 GCD 反推数位和（数论）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-12-finance-daily/">
   <div class="rl-accent"></div>
