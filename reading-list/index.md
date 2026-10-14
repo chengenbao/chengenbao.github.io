@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-14</time>
+    </div>
+    <h2>全球货币政策、国际失衡与中美投资脱钩</h2>
+    <p>美联储 FEDS Notes 精选：全球货币政策量化评估、美国资本流动与全球失衡、家庭消费异质性、美国对华投资脱钩、以及货币新形态。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #货币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
