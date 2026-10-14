@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-14</time></div><h2>多项式根式的乘积值 / 12 令牌随机分配的组合概率</h2><p>三次多项式根式的乘积（代数 · 韦达定理+复数代入）/ 12 枚令牌随机分配的组合概率（组合 · 古典概型）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-14-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
