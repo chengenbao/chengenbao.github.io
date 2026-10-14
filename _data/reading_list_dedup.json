@@ -26,6 +26,15 @@
       "https://arxiv.org/abs/2610.12530",
       "https://arxiv.org/abs/2610.13408",
       "https://pytorch.org/blog/building-spyre-as-a-native-pytorch-device/"
+    ],
+    "2026-10-14": [
+      "http://arxiv.org/abs/2610.13708v1",
+      "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/",
+      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
+      "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "http://arxiv.org/abs/2610.13744v1",
+      "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/"
     ]
   },
   "finance": {
