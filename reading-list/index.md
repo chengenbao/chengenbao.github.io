@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-14</time>
+    </div>
+    <h2>大模型推理加速、量化与分布式训练</h2>
+    <p>精选 7 篇深度技术文章，覆盖推测解码/KV 优化、Flash Attention、vLLM 内核、异步 GRPO、自蒸馏与本地量化部署。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推测解码 · KV Cache · Flash Attention · Helion · GRPO · 量化 · Triton</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-13</time></div><h2>掷骰子累计和恰为3 / 随机系数三次式的三异整数根</h2><p>累计点数恰等于3的概率（概率 · 分类讨论） / 三次多项式具三个不同整数根的概率（组合 · 韦达定理）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-13-finance-daily/">
   <div class="rl-accent"></div>
