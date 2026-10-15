@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-15</time>
+    </div>
+    <h2>半流动性基金、全球货币政策与地缘油价</h2>
+    <p>5 篇美联储 FEDS Notes：覆盖基金流动性风险、全球政策周期、国际金融失衡与家庭微观金融。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #基金 #国际金融</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
