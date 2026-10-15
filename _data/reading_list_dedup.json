@@ -35,6 +35,15 @@
       "http://arxiv.org/abs/2610.13744v1",
       "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/"
+    ],
+    "2026-10-15": [
+      "http://arxiv.org/abs/2610.16890v1",
+      "http://arxiv.org/abs/2610.15781v1",
+      "http://arxiv.org/abs/2610.16159v1",
+      "http://arxiv.org/abs/2610.18862v1",
+      "http://arxiv.org/abs/2610.14532v1",
+      "http://arxiv.org/abs/2610.13408v1",
+      "http://arxiv.org/abs/2610.18853v1"
     ]
   },
   "finance": {
