@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-16</time>
+    </div>
+    <h2>AI时代的经济学前沿：从劳动力市场到市场机制设计</h2>
+    <p>从劳动力市场、公共采购到市场机制设计与消费行为，精选5篇经济学最新工作论文。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ（经济学工作论文）</span>
+      <span class="rl-tags">#AI替代 #公共采购 #市场设计 #消费行为</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
