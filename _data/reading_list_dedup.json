@@ -44,6 +44,15 @@
       "http://arxiv.org/abs/2610.14532v1",
       "http://arxiv.org/abs/2610.13408v1",
       "http://arxiv.org/abs/2610.18853v1"
+    ],
+    "2026-10-16": [
+      "https://arxiv.org/abs/2610.18925",
+      "https://arxiv.org/abs/2610.19645",
+      "https://arxiv.org/abs/2610.19026",
+      "https://arxiv.org/abs/2610.19064",
+      "https://arxiv.org/abs/2610.18878",
+      "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
+      "https://arxiv.org/abs/2610.19033"
     ]
   },
   "finance": {
