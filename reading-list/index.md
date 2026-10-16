@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-16</time>
+    </div>
+    <h2>大模型训练·推理加速·硬件协同：从 KV 缓存到脉动阵列</h2>
+    <p>精选 7 篇覆盖推理服务、稀疏注意力、分布式训练、编译器与低秩微调的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 大模型 · 推理加速 · 硬件协同</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-15</time></div><h2>指数笔误求和 / 四次方程的图像</h2><p>AMC 10/12 真题：指数方程与根式互化 · 配方降次识别圆与双曲线</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#指数方程 #二次曲线 #AMC10 #AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-15-finance-daily/">
   <div class="rl-accent"></div>
