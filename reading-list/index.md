@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-17</time>
+    </div>
+    <h2>货币政策传导、劳动力市场与稳定币买盘</h2>
+    <p>5篇权威宏观研究：银行监管如何影响信贷、财务高管预测工资、日本通胀互换定价、稳定币买美国国债、创新配置效率。</p>
+    <div class="rl-meta">
+      <span class="rl-source">FRBSF / arXiv</span>
+      <span class="rl-tags">#宏观 #货币政策 #稳定币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
