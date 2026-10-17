@@ -53,6 +53,15 @@
       "https://arxiv.org/abs/2610.18878",
       "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
       "https://arxiv.org/abs/2610.19033"
+    ],
+    "2026-10-17": [
+      "https://arxiv.org/abs/2610.20636",
+      "https://arxiv.org/abs/2610.21695",
+      "https://arxiv.org/abs/2610.21810",
+      "https://arxiv.org/abs/2610.20682",
+      "https://huggingface.co/blog/ulysses-sp",
+      "https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests",
+      "https://huggingface.co/blog/tokenizers-v1"
     ]
   },
   "finance": {
