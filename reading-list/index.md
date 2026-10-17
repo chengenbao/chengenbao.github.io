@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-17</time>
+    </div>
+    <h2>推理加速·量化训练·长上下文并行前沿</h2>
+    <p>7 篇精选：流匹配采样预算、边缘 QAT、LLM 查表量化、Mamba 混合架构、Ulysses 序列并行、Prefill/Decode 优化与 tokenizers v1。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · 量化 · 分布式 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-16</time></div><h2>梅森数与素因子 / 万圣节糖果逻辑</h2><p>两道 AMC 10/12 真题：素数整除性判断 + 逻辑分类计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论·组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-16-finance-daily/">
   <div class="rl-accent"></div>
