@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-18-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-18</time>
+    </div>
+    <h2>央行监管、地缘局势与科技股分化</h2>
+    <p>AI 监管、俄制裁豁免、芯片股分化、英企分红回暖与大类资产配置抉择。</p>
+    <div class="rl-meta">
+      <span class="rl-source">FT Markets</span>
+      <span class="rl-tags">#宏观 #央行 #科技股</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-18-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
