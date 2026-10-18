@@ -62,6 +62,14 @@
       "https://huggingface.co/blog/ulysses-sp",
       "https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests",
       "https://huggingface.co/blog/tokenizers-v1"
+    ],
+    "2026-10-18": [
+      "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "https://pytorch.org/blog/bringing-elastically-deterministic-data-loading-to-torchtitan-with-zephon/",
+      "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
+      "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
+      "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
     ]
   },
   "finance": {
