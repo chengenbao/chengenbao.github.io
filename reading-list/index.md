@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-19</time></div><h2>含间距约束的最大子集 / 三角形随机点概率</h2><p>今日两题来自 AMC 10/12 2024 真题：组合极值构造 + 几何概率积分估算。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合·概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-19-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
