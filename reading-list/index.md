@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-19</time>
+    </div>
+    <h2>美联储FEDS笔记五题：流动性·私人信贷·避险·失衡·关税</h2>
+    <p>5篇精选：联邦基金市场流动性信号、私人信贷入表、政府债避险与通胀、中国经常账户再审视、关税对各州暴露测度</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #国际失衡 #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
