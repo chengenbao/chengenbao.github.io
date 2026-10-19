@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-19-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-19</time>
+    </div>
+    <h2>编译器、GPU内核与LLM推理加速前沿</h2>
+    <p>6篇精选：TorchTitan数据加载、Inductor后端、Triton TBE、Helion vLLM、Dynamo智能体推理与llama.cpp量化</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / Hugging Face</span>
+      <span class="rl-tags">LLM · 编译器 · GPU内核 · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-18</time></div><h2>角平分线构造求线段 / 最小公倍数与最大公约数</h2><p>两道 2022 AMC 10A 真题：一道几何构造求线段，一道数论 LCM/GCD 反求整数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-18-finance-daily/">
   <div class="rl-accent"></div>
