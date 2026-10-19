@@ -70,6 +70,14 @@
       "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
       "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
       "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
+    ],
+    "2026-10-19": [
+      "https://pytorch.org/blog/bringing-elastically-deterministic-data-loading-to-torchtitan-with-zephon/",
+      "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
+      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/",
+      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
+      "https://pytorch.org/blog/session-aware-agentic-inference-with-nvidia-dynamo/",
+      "https://huggingface.co/blog/transformers-llama-cpp-quants"
     ]
   },
   "finance": {
