@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-20</time>
+    </div>
+    <h2>边缘GPU/存内RAG/推测解码与加速器编译器前沿</h2>
+    <p>7篇arXiv cs.AR深度论文，聚焦LLM推理加速、内存带宽瓶颈与新兴加速器编译器。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv cs.AR</span>
+      <span class="rl-tags">LLM推理 · 内存带宽 · 推测解码 · 混合精度 · 编译器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-19</time></div><h2>含间距约束的最大子集 / 三角形随机点概率</h2><p>今日两题来自 AMC 10/12 2024 真题：组合极值构造 + 几何概率积分估算。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合·概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-19-finance-daily/">
   <div class="rl-accent"></div>
