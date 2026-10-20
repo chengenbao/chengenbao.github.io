@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-20</time>
+    </div>
+    <h2>关税、通胀、AI与能源的宏观微观透视</h2>
+    <p>5篇美联储FEDS Notes：关税抢跑的全球溢出、实时通胀传导、职场AI渗透、欧洲能源依赖、离线支付韧性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #关税 #AI #能源</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
