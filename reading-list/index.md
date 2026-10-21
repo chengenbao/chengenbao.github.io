@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-21</time>
+    </div>
+    <h2>编译器、加速后端与智能体内存学习</h2>
+    <p>6 篇聚焦 PyTorch 编译器/加速后端与智能体记忆学习的技术深度文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">编译器·TPU·Trainium·MPS·智能体</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-10-21-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
