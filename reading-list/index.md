@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-22</time>
+    </div>
+    <h2>服务业结构、劳动力市场、能源与行为金融</h2>
+    <p>今日 4 篇精选：服务业崛起路径、职业任务结构与工资、英国电力市场投机头寸、数字助推与最优停止决策。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#宏观 #劳动力市场 #能源市场 #行为金融</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
