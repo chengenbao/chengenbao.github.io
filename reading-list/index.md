@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-22-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-10-22</time>
+    </div>
+    <h2>三角平方数 / 委员会职务分配</h2>
+    <p>数论：第四小的三角平方数各位数字之和；组合：16人分4委员会含职务的3的幂次。</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10/12 竞赛真题</span>
+      <span class="rl-tags">#数论 #组合 #AMC12</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-10-22-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
