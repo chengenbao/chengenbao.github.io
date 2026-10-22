@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-22</time>
+    </div>
+    <h2>分布式训练、GPU算子加速与 MoE 软硬件协同设计</h2>
+    <p>7篇精选：TorchTitan 5D并行与RL、AMD FlyDSL算子加速、3D-MoE近存解码、OptEP专家剪枝、PID碳建模、ASE强化学习探索、ClawMMU Agent内存安全。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">分布式训练 · GPU加速 · MoE · 存内计算 · RLVR · Agent安全</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-21-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-21</time></div><h2>四项式最值化简 / 两直线与截线围成三角形面积</h2><p>AMC 10 真题：四项式乘积的最小值 + 两条直线与截线围成三角形面积</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-10-21-tech-daily/">
   <div class="rl-accent"></div>
