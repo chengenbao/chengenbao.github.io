@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-23-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-23</time>
+    </div>
+    <h2>LLM 推理加速与异构算力协同</h2>
+    <p>7 篇聚焦 KV Cache、投机解码、低精度量化、模型剪枝与 MoE 加速的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">KV Cache · 投机解码 · MXFP4 · 剪枝 · MoE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-22-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
