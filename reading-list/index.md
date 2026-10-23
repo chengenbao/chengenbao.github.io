@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-23</time>
+    </div>
+    <h2>美联储视角下的流动性、全球外溢与信贷市场</h2>
+    <p>5 篇 FEDS Notes 笔记，覆盖货币政策操作、新兴市场韧性、私人信贷、关税缺口与人口结构</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#美联储 #宏观 #私人信贷 #关税 #人口</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
