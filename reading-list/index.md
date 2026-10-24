@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-24</time>
+    </div>
+    <h2>MoE/长上下文显存优化与 LLM 推理加速</h2>
+    <p>精选 7 篇覆盖 KV Cache 压缩、低比特量化硬件、GPU 预取与优化器理论的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · KV Cache · 量化 · GPU · 推理加速</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-23-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
