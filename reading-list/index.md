@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-24</time>
+    </div>
+    <h2>美联储视角：全球宏观、金融与贸易</h2>
+    <p>精选 5 篇 Fed FEDS Notes，覆盖印度经济、贸易融资、财富与消费、货币政策传导与对美 FDI。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
