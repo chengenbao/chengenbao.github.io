@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-25-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-25</time>
+    </div>
+    <h2>TPU/Trainium 原生后端、MLIR 编译器与关系基础模型</h2>
+    <p>本期聚焦 PyTorch 原生加速后端（TorchTPU / TorchNeuron）、IBM Spyre 的 MLIR 数据流编译器、Agent 后训练奖励设计，以及无需训练的关系基础模型。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">TPU · Trainium · MLIR · 强化学习 · 关系基础模型</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-24</time></div><h2>半圆挖去小半圆阴影面积 / 7的幂和模19余数</h2><p>几何：挖去小半圆的阴影面积；数论：大幂次求和取模的因式分解技巧。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC10 · AMC12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-24-finance-daily/">
   <div class="rl-accent"></div>
