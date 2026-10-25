@@ -122,6 +122,15 @@
       "https://arxiv.org/abs/2610.31169",
       "https://arxiv.org/abs/2610.30990",
       "https://arxiv.org/abs/2610.30280"
+    ],
+    "2026-10-25": [
+      "https://huggingface.co/blog/hf-torchtpu",
+      "https://huggingface.co/blog/hf-torchneuron",
+      "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
+      "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "https://huggingface.co/blog/nvidia/kumo-relational",
+      "https://huggingface.co/blog/allenai/litpivot"
     ]
   },
   "finance": {
