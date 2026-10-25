@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-25-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-25</time>
+    </div>
+    <h2>宏观财政、市场微观结构与全球技术冲击</h2>
+    <p>5 篇精选：欧洲紧缩与老年性别贫困、DeepSeek/Kimi 市场反应、巴菲特效应、债务减免融资、光伏+EV 脱碳。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#宏观 #行为金融 #债务 #气候</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
