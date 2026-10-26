@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-26</time>
+    </div>
+    <h2>美联储FEDS Notes：实体经济、通胀前瞻与贸易结构</h2>
+    <p>5篇精选覆盖宏观韧性、通胀指标、行业分化、AI生产率与进口贸易错觉。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / FEDS Notes</span>
+      <span class="rl-tags">#宏观 #通胀 #贸易 #AI</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
