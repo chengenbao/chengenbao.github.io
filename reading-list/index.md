@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-26</time>
+    </div>
+    <h2>LLM 推理优化与硬件加速前沿</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖 LLM 量化与 GEMM 加速、GPU 内存去重、KV 缓存系统、弹性推理与空间加速器自动生成。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">量化 · 推理加速 · GPU · KV缓存 · 编译器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-25</time></div><h2>16人四委员会职务分配 / 飞镖环形靶命中概率</h2><p>组合计数 × 几何概率：16人分组职务分配与飞镖环形靶命中概率两道 AMC 10 真题精讲</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · 组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-25-finance-daily/">
   <div class="rl-accent"></div>
