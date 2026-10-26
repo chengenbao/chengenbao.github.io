@@ -131,6 +131,14 @@
       "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "https://huggingface.co/blog/nvidia/kumo-relational",
       "https://huggingface.co/blog/allenai/litpivot"
+    ],
+    "2026-10-26": [
+      "http://arxiv.org/abs/2610.30480v1",
+      "http://arxiv.org/abs/2610.25219v1",
+      "http://arxiv.org/abs/2610.31169v1",
+      "http://arxiv.org/abs/2610.32492v1",
+      "http://arxiv.org/abs/2610.32279v1",
+      "http://arxiv.org/abs/2610.30990v1"
     ]
   },
   "finance": {
