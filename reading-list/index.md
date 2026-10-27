@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-27-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-27</time>
+    </div>
+    <h2>LLM 推理与训练系统：KV-Cache 存储、异构加速、注意力内核与量化</h2>
+    <p>7 篇深度技术文章，覆盖 KV-Cache 卸载/复用、GPU-NPU 异构推理、FlashAttention 长向量化、RL 数值稳定性与边缘三元量化。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">KV-Cache · 异构推理 · 向量化 · 量化 · GPU存储</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-26</time></div><h2>三次整根多项式 / 4×4 二进制矩阵计数</h2><p>代数：三次多项式的整根配对计数；组合：满足行/列和的 0-1 矩阵个数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #组合 #韦达定理 #矩阵计数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-26-finance-daily/">
   <div class="rl-accent"></div>
