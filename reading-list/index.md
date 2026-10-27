@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-27</time></div><h2>代数式最值 / 等腰三角形外接圆</h2><p>代数：给定区间下分式 (x+y)/x 的最值分析；几何：等腰三角形外接圆面积计算。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #几何 #不等式 #外接圆</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-27-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
