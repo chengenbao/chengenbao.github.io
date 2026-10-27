@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-27-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-27</time>
+    </div>
+    <h2>新兴市场货币政策、越南转口贸易与银行流动性风险</h2>
+    <p>5 篇美联储 FEDS Notes，覆盖宏观政策、国际贸易、银行体系与金融市场风险。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #银行</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
