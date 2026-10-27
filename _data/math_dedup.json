@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-09-26": [
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_5",
-      "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_11"
-    ],
     "2026-09-27": [
       "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_8",
       "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_13"
@@ -121,6 +117,10 @@
     "2026-10-26": [
       "https://wiki.randommath.com/amc12/2023/part-b/problem-14",
       "https://wiki.randommath.com/amc12/2022/part-b/problem-17"
+    ],
+    "2026-10-27": [
+      "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10A_Problems/Problem_15",
+      "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10B_Problems/Problem_11"
     ]
   }
 }
