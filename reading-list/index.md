@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-28</time>
+    </div>
+    <h2>宏观·微观·国际三重视角下的市场与政策信号</h2>
+    <p>国债避险、联邦基金流动性、半流动性基金、全球失衡与货币政策外溢。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #固收 #国际失衡</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
