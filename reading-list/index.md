@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-10-29-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-29</time></div><h2>四枚骰子的条件概率 / 三次方程根的对称式</h2><p>AMC 12 真题两题：条件概率补集计数 + 韦达定理与复数代入法。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#AMC12 #概率 #代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-10-29-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
