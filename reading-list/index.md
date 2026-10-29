@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-29-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-29</time>
+    </div>
+    <h2>大模型推理、GPU 内核优化与 OS 页缓存前沿精选</h2>
+    <p>今日 7 篇聚焦 LLM 推理能效、存算一体、GPU 内核、循环 Transformer、推测推理、持续学习与内核页缓存。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">存算一体 · GPU内核 · 循环Transformer · 推测推理 · 持续学习 · 页缓存</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-28-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-10-28</time></div><h2>除数列表里的下一个数 / 圆桌错位就座</h2><p>两道 AMC 12 真题：数论（因数放缩）与圆桌组合错位就座。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 
 <a class="rl-card finance" href="/reading-list/2026-10-28-finance-daily/">
