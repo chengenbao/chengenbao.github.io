@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-29-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-29</time>
+    </div>
+    <h2>美联储FEDS Notes精选：主权债避险、准备金市场、私募信贷与全球失衡</h2>
+    <p>本期聚焦宏观货币、信用市场与国际失衡，5篇美联储经济研究随笔。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #货币政策 #信用市场 #全球失衡</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-29-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
