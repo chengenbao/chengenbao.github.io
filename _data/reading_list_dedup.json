@@ -166,6 +166,15 @@
       "https://arxiv.org/abs/2610.33368",
       "https://arxiv.org/abs/2610.36734",
       "https://arxiv.org/abs/2610.36347"
+    ],
+    "2026-10-30": [
+      "https://pytorch.org/blog/pytorch-2-15-release-blog/",
+      "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
+      "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
+      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
+      "http://arxiv.org/abs/2610.37645v1",
+      "http://arxiv.org/abs/2610.37642v1",
+      "http://arxiv.org/abs/2610.34907v1"
     ]
   },
   "finance": {
