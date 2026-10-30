@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-30-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-30</time>
+    </div>
+    <h2>供应链冲击、期货定价与 AI 基建的宏观渗透</h2>
+    <p>5 篇美联储 FEDS Notes：半导体短缺复盘、期货预测能力、AI 基建指标、美元与稳定币、AI 热潮与经常账户</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #供应链 #美元 #AI基建 #期货</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-10-30-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
