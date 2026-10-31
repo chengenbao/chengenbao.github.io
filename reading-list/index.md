@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-10-31-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-10-31</time>
+    </div>
+    <h2>边缘推理、MLIR 编译器与端侧多模态模型</h2>
+    <p>今日 7 篇精选覆盖边缘/端侧推理优化、MLIR 数据流编译器、LLM 新颖性评测、Trainium 硬件适配与 Agent 数据合成。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">边缘推理 · 编译器 · 多模态 · 硬件适配 · Agent训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-10-30-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
