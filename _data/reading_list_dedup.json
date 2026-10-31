@@ -175,6 +175,15 @@
       "http://arxiv.org/abs/2610.37645v1",
       "http://arxiv.org/abs/2610.37642v1",
       "http://arxiv.org/abs/2610.34907v1"
+    ],
+    "2026-10-31": [
+      "https://pytorch.org/blog/optimizing-streaming-speech-recognition-on-arm-edge-devices-with-executorch/",
+      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
+      "https://huggingface.co/blog/allenai/novelty-bench",
+      "https://huggingface.co/blog/torch-neuronx-model-support",
+      "https://huggingface.co/blog/anydecisionmodel",
+      "https://huggingface.co/blog/LiquidAI/lfm3",
+      "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
     ]
   },
   "finance": {
