@@ -1,13 +1,5 @@
 {
   "sources": {
-    "2026-09-29": [
-      "https://live.poshenloh.com/past-contests/amc12/2025B/problem/11",
-      "https://live.poshenloh.com/past-contests/amc12/2025B/problem/7"
-    ],
-    "2026-09-30": [
-      "https://wiki.randommath.com/amc10/2023/part-b/problem-3",
-      "https://wiki.randommath.com/amc10/2022/part-b/problem-6"
-    ],
     "2026-10-01": [
       "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_25",
       "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_18"
@@ -121,6 +113,10 @@
     "2026-10-29": [
       "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_12",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_15"
+    ],
+    "2026-10-31": [
+      "https://wiki.randommath.com/amc10/2023/part-b/problem-14",
+      "https://wiki.randommath.com/amc10/2020/part-a/problem-25"
     ]
   }
 }
