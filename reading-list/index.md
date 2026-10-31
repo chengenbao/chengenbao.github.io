@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-10-31-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-10-31</time>
+    </div>
+    <h2>美债、流动性与稳定币：全球金融中介的压力与转型</h2>
+    <p>美联储FEDS Notes精选：美债发行压力、共同基金流动性、全球短缺、收入预期与稳定币冲击。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #流动性 #稳定币</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-10-31-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
