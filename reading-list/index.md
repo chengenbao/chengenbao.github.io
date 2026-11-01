@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-01-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-01</time>
+    </div>
+    <h2>分布式训练、极致量化与推理加速新进展</h2>
+    <p>今日 7 篇精选覆盖大规模训练平台、AMD GPU 算子加速、MLIR 数据流编译器、1.58bit 极致量化、KV Cache 量化与 vLLM 推理后端。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">分布式训练 · 量化压缩 · 推理加速 · GPU算子 · MLIR编译器</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-10-31-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
