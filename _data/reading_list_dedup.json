@@ -184,6 +184,15 @@
       "https://huggingface.co/blog/anydecisionmodel",
       "https://huggingface.co/blog/LiquidAI/lfm3",
       "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+    ],
+    "2026-11-01": [
+      "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
+      "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
+      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
+      "https://huggingface.co/blog/1_58_llm_extreme_quantization",
+      "https://huggingface.co/blog/kv-cache-quantization",
+      "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "https://huggingface.co/blog/accelerate-nd-parallel"
     ]
   },
   "finance": {
