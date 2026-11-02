@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-02-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-02</time>
+    </div>
+    <h2>大模型微调 · TPU/Mac/自研芯片后端 · 多模态检索 · 时间序列集成</h2>
+    <p>今日精选 7 篇深度技术文章，覆盖大模型 RL 微调、TPU/Apple Silicon/自研芯片后端、多模态检索编码、时间序列集成与浏览器端 GPU 算子。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Hugging Face</span>
+      <span class="rl-tags">GRPO · TPU · MPS · 多模态 · 时间序列 · WebGPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-01-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
