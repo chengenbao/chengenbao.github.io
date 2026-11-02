@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-10-02": [
-      "https://wiki.randommath.com/amc10/2024/part-b/problem-2",
-      "https://wiki.randommath.com/amc10/2023/part-b/problem-10"
-    ],
     "2026-10-03": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_19",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_14"
@@ -117,6 +113,10 @@
     "2026-11-01": [
       "https://huggingface.co/datasets/qwedsacf/competition_math",
       "https://huggingface.co/datasets/qwedsacf/competition_math"
+    ],
+    "2026-11-02": [
+      "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_9",
+      "https://artofproblemsolving.com/wiki/index.php/2020_AMC_12A_Problems/Problem_14"
     ]
   }
 }
