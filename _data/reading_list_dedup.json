@@ -193,6 +193,15 @@
       "https://huggingface.co/blog/kv-cache-quantization",
       "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "https://huggingface.co/blog/accelerate-nd-parallel"
+    ],
+    "2026-11-02": [
+      "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "https://huggingface.co/blog/Hcompany/neomme",
+      "https://huggingface.co/blog/hf-torchtpu",
+      "https://huggingface.co/blog/mps-pytorch-2-15",
+      "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "https://huggingface.co/blog/webgpu-kernels"
     ]
   },
   "finance": {
