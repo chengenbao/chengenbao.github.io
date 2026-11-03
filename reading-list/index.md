@@ -17,6 +17,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-03-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-03</time>
+    </div>
+    <h2>AI投资周期、关税传导与气候能源市场</h2>
+    <p>5 篇精选：覆盖宏观投资、贸易关税、稳定币监管与气候能源市场</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv</span>
+      <span class="rl-tags">#宏观 #关税 #稳定币 #气候 #能源</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-03-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
