@@ -202,6 +202,15 @@
       "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
       "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "https://huggingface.co/blog/webgpu-kernels"
+    ],
+    "2026-11-03": [
+      "https://arxiv.org/abs/2610.41919",
+      "https://arxiv.org/abs/2604.26103",
+      "https://arxiv.org/abs/2610.40847",
+      "https://arxiv.org/abs/2610.41177",
+      "https://arxiv.org/abs/2610.40943",
+      "https://arxiv.org/abs/2610.40914",
+      "https://arxiv.org/abs/2607.16408"
     ]
   },
   "finance": {
