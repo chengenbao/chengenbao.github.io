@@ -17,6 +17,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-04-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-04</time></div><h2>条件概率与比赛赛制 / 对称代数与恒等式</h2><p>AMC 10/12 竞赛真题：概率赛制题 + 代数对称恒等式</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · AMC12 · 概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-04-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
