@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-04-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-04</time>
+    </div>
+    <h2>Ray加速器SIG · 长上下文评测 · 小模型训练与安全基准</h2>
+    <p>今日 6 篇：分布式加速、状态追踪评测、风格化小模型训练、安全修复基准、集成回归测试与开放科学。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 多源 · 前沿</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-03-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-03</time></div><h2>阶乘整除 2024 / 网格牙签闭环计数</h2><p>AMC 10/12 竞赛真题：阶乘整除判定 + 网格牙签闭环计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-03-finance-daily/">
   <div class="rl-accent"></div>
