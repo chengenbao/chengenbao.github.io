@@ -1,6 +1,22 @@
 ---
 layout: default
-title: "Reading List"
+t
+<a class="rl-card finance" href="/reading-list/2026-11-05-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-05</time>
+    </div>
+    <h2>国债市场、债券避险与全球失衡</h2>
+    <p>4 篇美联储 FEDS Notes：一级交易商资产负债表压力、政府债避险属性、联邦基金市场流动性信号、全球失衡新视角。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#国债 #避险资产 #货币政策 #全球失衡</span>
+    </div>
+  </div>
+</a>
+itle: "Reading List"
 permalink: /reading-list/
 ---
 
