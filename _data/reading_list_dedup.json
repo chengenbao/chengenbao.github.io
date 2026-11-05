@@ -219,6 +219,15 @@
       "https://huggingface.co/blog/cwe-bench",
       "https://huggingface.co/blog/transformers-mic",
       "https://huggingface.co/blog/announcing-project-protostar"
+    ],
+    "2026-11-05": [
+      "https://arxiv.org/abs/2611.00172",
+      "https://arxiv.org/abs/2611.00244",
+      "https://arxiv.org/abs/2611.00616",
+      "https://pytorch.org/blog/pytorch-2-15-release-blog/",
+      "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
+      "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
+      "https://pytorch.org/blog/introducing-torchtpu/"
     ]
   },
   "finance": {
