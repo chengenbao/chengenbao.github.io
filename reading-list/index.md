@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-05</time></div><h2>13-14-15 三角形外接圆半径 / 2^2023 模 17 余数</h2><p>几何：经典 13-14-15 整数面积三角形求外接圆半径；数论：费马小定理化简大幂次模 17。</p><div class="rl-meta"><span class="rl-source">AMC 10 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC10</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-11-05-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
