@@ -17,6 +17,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-05-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-05</time>
+    </div>
+    <h2>嵌入表征 · 长上下文 · PyTorch 2.15 与硬件加速</h2>
+    <p>7 篇精选：全模态嵌入综述、MEMENTO 长上下文智能体、推理增强，以及 PyTorch 2.15、TorchTitan、FlyDSL、TorchTPU 等框架与硬件加速进展。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch</span>
+      <span class="rl-tags">Embedding · 长上下文 · PyTorch · GPU/TPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-04-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-04</time></div><h2>条件概率与比赛赛制 / 对称代数与恒等式</h2><p>AMC 10/12 竞赛真题：概率赛制题 + 代数对称恒等式</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC10 · AMC12 · 概率 · 代数</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-04-finance-daily/">
   <div class="rl-accent"></div>
