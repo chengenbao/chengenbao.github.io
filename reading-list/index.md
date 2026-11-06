@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-06-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-06</time>
+    </div>
+    <h2>GPU训练·分布式注意力·编译器·MoE推理·LLM强化学习</h2>
+    <p>7篇精选：从图灵Tensor Core解锁、AMD GPU训练流水线，到CHARM+跨硬件注意力、TauLang编译器和C-GRPO。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">GPU · 分布式训练 · 编译器 · MoE · GRPO</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-05-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-05</time></div><h2>13-14-15 三角形外接圆半径 / 2^2023 模 17 余数</h2><p>几何：经典 13-14-15 整数面积三角形求外接圆半径；数论：费马小定理化简大幂次模 17。</p><div class="rl-meta"><span class="rl-source">AMC 10 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC10</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-11-05-tech-daily/">
   <div class="rl-accent"></div>
