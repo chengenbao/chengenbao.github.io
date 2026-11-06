@@ -228,6 +228,15 @@
       "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
       "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
       "https://pytorch.org/blog/introducing-torchtpu/"
+    ],
+    "2026-11-06": [
+      "https://arxiv.org/abs/2611.05419",
+      "https://arxiv.org/abs/2611.05751",
+      "https://arxiv.org/abs/2611.05906",
+      "https://arxiv.org/abs/2607.04031",
+      "https://arxiv.org/abs/2611.06079",
+      "https://arxiv.org/abs/2611.05804",
+      "https://arxiv.org/abs/2611.05591"
     ]
   },
   "finance": {
