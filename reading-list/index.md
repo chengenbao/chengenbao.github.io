@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-07-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-07</time>
+    </div>
+    <h2>长上下文稀疏注意力与 KV Cache 压缩 · 端侧投机解码 · 推理解聚与 GPU 网络通信 · 异构内存页面放置</h2>
+    <p>今日精选 7 篇深度技术文章，覆盖长上下文推理加速、KV Cache 压缩、端侧投机解码、推理服务解聚、GPU 原生 RDMA、异构内存页面放置与 Agent token 成本度量。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">稀疏注意力 · KV Cache 压缩 · 投机解码 · 推理解聚 · GPU RDMA · 异构内存</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-06</time></div><h2>四圆相切正方形面积 / 进制整除计数</h2><p>几何：四圆外切求正方形面积；数论：b进制2024被16整除的b的个数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC10</span></div></div></a>
 <a class="rl-card math" href="/reading-list/2026-11-06-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-06</time></div><h2>四圆相切正方形面积 / 进制整除计数</h2><p>几何：四圆外切求正方形面积；数论：b进制2024被16整除的b的个数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论 · AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-06-finance-daily/">
