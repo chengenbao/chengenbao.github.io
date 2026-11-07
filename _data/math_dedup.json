@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-10-07": [
-      "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_23",
-      "https://artofproblemsolving.com/wiki/index.php/2021_AMC_12A_Problems/Problem_23"
-    ],
     "2026-10-08": [
       "https://www.isinj.com/mt-amc10/2022-AMC-10A-Problems.pdf",
       "https://www.isinj.com/mt-amc10/2022-AMC-10A-Problems.pdf"
@@ -118,6 +114,10 @@
     "2026-11-06": [
       "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_10A_Problems/Problem_15",
       "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_10A_Problems/Problem_18"
+    ],
+    "2026-11-07": [
+      "https://raw.githubusercontent.com/vqbc/trivial/master/public/data/aops/2023_AMC_10A.json",
+      "https://raw.githubusercontent.com/vqbc/trivial/master/public/data/aops/2024_AMC_12A.json"
     ]
   }
 }
