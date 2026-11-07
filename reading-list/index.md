@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-07-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-07</time>
+    </div>
+    <h2>货币政策、银行体系与企业韧性的多维透视</h2>
+    <p>5 篇英央行工作论文与经济学研究，覆盖央行资产负债表、利率传导、通胀动态、企业韧性与全球供应链。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Bank of England / arXiv econ</span>
+      <span class="rl-tags">#宏观 #货币政策 #供应链</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-07-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
