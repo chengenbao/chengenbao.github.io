@@ -246,6 +246,14 @@
       "https://arxiv.org/abs/2611.07559",
       "https://arxiv.org/abs/2611.07506",
       "https://arxiv.org/abs/2611.07238"
+    ],
+    "2026-11-08": [
+      "https://huggingface.co/blog/mistral-large4",
+      "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "https://huggingface.co/blog/phonon-tts",
+      "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "https://huggingface.co/blog/allenai/toyblocks"
     ]
   },
   "finance": {
