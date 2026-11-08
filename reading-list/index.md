@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-08-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-08</time>
+    </div>
+    <h2>美联储视角：货币、贸易与金融稳定</h2>
+    <p>5 篇 FEDS Notes 覆盖准备金制度、墨西哥供应链、抵押贷款估值、软件通胀测度与货基流动性。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #贸易 #金融稳定</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-08-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
