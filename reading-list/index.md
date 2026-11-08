@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-08-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-08</time>
+    </div>
+    <h2>Mistral Large 4、Cosmos 3、Granite Switch、Phonon TTS 等前沿技术速递</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖大模型架构、世界模型、端侧推理与机器人学习等方向。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 多源 · 前沿</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-07-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-07</time></div><h2>3×3 方格染色计数 / 等边三角形内随机点面积概率</h2><p>组合计数 72 种染色 + 几何概率落在 (3/4, 7/8]</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">🧮 奥数题 · 组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-07-finance-daily/">
   <div class="rl-accent"></div>
