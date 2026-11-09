@@ -254,6 +254,14 @@
       "https://huggingface.co/blog/phonon-tts",
       "https://huggingface.co/blog/anylanguagemodel-1-0",
       "https://huggingface.co/blog/allenai/toyblocks"
+    ],
+    "2026-11-09": [
+      "https://huggingface.co/blog/continuous_batching",
+      "https://huggingface.co/blog/torch-attention-profile",
+      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "https://huggingface.co/blog/packing-with-FA2",
+      "https://huggingface.co/blog/multi-lora-serving",
+      "https://huggingface.co/blog/deepspeed-to-fsdp-and-back"
     ]
   },
   "finance": {
