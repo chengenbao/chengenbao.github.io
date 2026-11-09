@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-09-math/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge math">🧮 奥数题</span>
+      <time>2026-11-09</time>
+    </div>
+    <h2>同心圆弧几何 / 直线分割正方形代数</h2>
+    <p>2025 AMC 12A/10B 真题：弧长联立求半径、直线平分梯形区域求参数。</p>
+    <div class="rl-meta">
+      <span class="rl-source">AMC 10/12 竞赛真题</span>
+      <span class="rl-tags">#AMC12 #AMC10 #几何 #代数</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card finance" href="/reading-list/2026-11-09-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
