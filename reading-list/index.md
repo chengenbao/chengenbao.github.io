@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-09-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-09</time>
+    </div>
+    <h2>LLM 推理加速、量化压缩与分布式训练前沿</h2>
+    <p>今日精选 6 篇深度技术文章，覆盖连续批处理、PyTorch 性能剖析、4-bit 量化修复、FA2 训练打包、Multi-LoRA 服务与 FSDP/DeepSpeed 分布式训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">HuggingFace</span>
+      <span class="rl-tags">推理加速 · 量化压缩 · 分布式训练 · 编译器剖析</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-08-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-08</time></div><h2>指数幂方程求解 / 坐标平面三角形面积</h2><p>代数：指数幂方程的实数求解；几何：坐标平面三角形面积（鞋带公式 + 对数化简）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何 · AMC10/12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-08-finance-daily/">
   <div class="rl-accent"></div>
