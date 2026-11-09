@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-09-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-09</time>
+    </div>
+    <h2>央行政策、美国就业与地缘贸易</h2>
+    <p>拉加德专访、美国10月就业超预期、美中贸易紧张、油价波动、伯克希尔回购五大财经热点。</p>
+    <div class="rl-meta">
+      <span class="rl-source">ECB / FT Markets</span>
+      <span class="rl-tags">#宏观 #央行 #大宗商品</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-09-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
