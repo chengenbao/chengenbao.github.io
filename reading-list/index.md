@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-10-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-10</time>
+    </div>
+    <h2>FP4 KV 缓存、扩散 LM 加速与端侧/晶圆级推理前沿</h2>
+    <p>今日 6 篇 arXiv 技术论文，聚焦大模型量化、推理加速与边缘硬件协同。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · arXiv · 推理加速 · 量化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-09-math/">
   <div class="rl-accent"></div>
   <div class="rl-body">
