@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-10-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-10</time>
+    </div>
+    <h2>市场效率、制裁威慑与城市重构的多维观察</h2>
+    <p>5 篇经济研究精选：网络适应性市场、制裁威慑、失业再培训、城市重建与因子组合逻辑。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / arXiv q-fin</span>
+      <span class="rl-tags">#市场微观结构 #网络经济学</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-10-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
