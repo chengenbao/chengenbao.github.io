@@ -262,6 +262,14 @@
       "https://huggingface.co/blog/packing-with-FA2",
       "https://huggingface.co/blog/multi-lora-serving",
       "https://huggingface.co/blog/deepspeed-to-fsdp-and-back"
+    ],
+    "2026-11-10": [
+      "https://arxiv.org/abs/2611.09825",
+      "https://arxiv.org/abs/2611.09239",
+      "https://arxiv.org/abs/2606.16190",
+      "https://arxiv.org/abs/2611.08508",
+      "https://arxiv.org/abs/2611.08780",
+      "https://arxiv.org/abs/2611.08496"
     ]
   },
   "finance": {
