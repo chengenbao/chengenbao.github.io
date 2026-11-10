@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-10-10": [
-      "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_25",
-      "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_19"
-    ],
     "2026-10-11": [
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_17",
       "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_13"
@@ -118,6 +114,10 @@
     "2026-11-09": [
       "https://artofproblemsolving.com/wiki/index.php/2025_AMC_12A_Problems/Problem_10",
       "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_6"
+    ],
+    "2026-11-10": [
+      "https://raw.githubusercontent.com/mihikabob/mathmasteryapp/main/src/data/problems.json#22",
+      "https://raw.githubusercontent.com/mihikabob/mathmasteryapp/main/src/data/problems.json#130"
     ]
   }
 }
