@@ -273,13 +273,6 @@
     ]
   },
   "finance": {
-    "2026-10-10": [
-      "https://arxiv.org/abs/2610.10606",
-      "https://arxiv.org/abs/2610.12049",
-      "https://arxiv.org/abs/2610.12186",
-      "https://arxiv.org/abs/2603.23825",
-      "https://arxiv.org/abs/2609.27727"
-    ],
     "2026-10-11": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-spending-in-the-survey-of-consumer-finances-20261009.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/informal-support-networks-in-the-survey-of-consumer-finances-20261009.html",
@@ -487,6 +480,13 @@
       "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603",
       "https://www.ft.com/content/0f3065ce-239e-4afb-a865-a45ef3e48c42",
       "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c"
+    ],
+    "2026-11-10": [
+      "https://arxiv.org/abs/2611.09208",
+      "https://arxiv.org/abs/2611.09337",
+      "https://arxiv.org/abs/2312.17123",
+      "https://arxiv.org/abs/2607.02978",
+      "https://arxiv.org/abs/2611.09834"
     ]
   }
 }
