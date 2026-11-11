@@ -1,9 +1,5 @@
 {
   "sources": {
-    "2026-10-11": [
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_17",
-      "https://artofproblemsolving.com/wiki/index.php/2024_AMC_12A_Problems/Problem_13"
-    ],
     "2026-10-12": [
       "https://wiki.randommath.com/amc10/2024/part-b/problem-11",
       "https://wiki.randommath.com/amc10/2022/part-a/problem-7"
@@ -118,6 +114,10 @@
     "2026-11-10": [
       "https://raw.githubusercontent.com/mihikabob/mathmasteryapp/main/src/data/problems.json#22",
       "https://raw.githubusercontent.com/mihikabob/mathmasteryapp/main/src/data/problems.json#130"
+    ],
+    "2026-11-11": [
+      "https://raw.githubusercontent.com/songsjun/AMC12_Problems/main/2024_AMC_12A_Problems/Problem_19.md",
+      "https://raw.githubusercontent.com/songsjun/AMC12_Problems/main/2024_AMC_12A_Problems/Problem_09.md"
     ]
   }
 }
