@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-11": [
-      "https://pytorch.org/blog/session-aware-agentic-inference-with-nvidia-dynamo/",
-      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
-      "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/",
-      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/",
-      "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
-    ],
     "2026-10-12": [
       "https://arxiv.org/abs/2610.12444v1",
       "https://arxiv.org/abs/2610.13408v1",
@@ -270,6 +261,15 @@
       "https://arxiv.org/abs/2611.08508",
       "https://arxiv.org/abs/2611.08780",
       "https://arxiv.org/abs/2611.08496"
+    ],
+    "2026-11-11": [
+      "https://pytorch.org/blog/optimizing-muse-spark-open-on-tpu-v7-with-sglang-torchtpu/",
+      "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+      "https://arxiv.org/abs/2611.09042",
+      "https://arxiv.org/abs/2611.09196",
+      "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "https://arxiv.org/abs/2611.09204",
+      "https://arxiv.org/abs/2611.09090"
     ]
   },
   "finance": {
