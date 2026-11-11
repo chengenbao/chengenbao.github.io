@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="380" viewBox="0 0 460 380" font-family="Georgia, serif">
+  <!-- background -->
+  <rect width="460" height="380" fill="#fdfdfd"/>
+
+  <!-- coordinate transform: world (x,y) -> screen (sx,sy)
+       D=(0,0) A=(5,0) C=(-1.5,2.598) B=(-0.795,5.515)
+       scale=46, origin at (300, 300), y flipped -->
+  <g stroke="#2b3a55" stroke-width="2" fill="none" stroke-linejoin="round">
+    <!-- circumcircle (approx through the 4 points) -->
+    <circle cx="285.5" cy="287" r="123" fill="none" stroke="#c9d6e5" stroke-width="1.5"/>
+
+    <!-- edges of quadrilateral ABCD -->
+    <line x1="300" y1="300" x2="30"  y2="47"/>  <!-- D-A  (DA=5) -->
+    <line x1="30"  y1="47"  x2="191" y2="120"/> <!-- A-B  (AB=8) -->
+    <line x1="191" y1="120" x2="231" y2="180"/> <!-- B-C  (BC=3) -->
+    <line x1="231" y1="180" x2="300" y2="300"/> <!-- C-D  (CD=3) -->
+
+    <!-- diagonals -->
+    <line x1="30"  y1="47"  x2="231" y2="180" stroke="#1f6feb" stroke-dasharray="5 4"/> <!-- A-C (7) -->
+    <line x1="300" y1="300" x2="191" y2="120" stroke="#e8590c" stroke-dasharray="5 4"/> <!-- D-B (39/7) -->
+  </g>
+
+  <!-- vertices -->
+  <g fill="#1f6feb" stroke="#1f6feb" stroke-width="1">
+    <circle cx="300" cy="300" r="5"/> <!-- D -->
+    <circle cx="30"  cy="47"  r="5"/> <!-- A -->
+    <circle cx="191" cy="120" r="5"/> <!-- B -->
+    <circle cx="231" cy="180" r="5"/> <!-- C -->
+  </g>
+
+  <!-- labels -->
+  <g font-size="16" fill="#1f2937">
+    <text x="312" y="316">D</text>
+    <text x="14"  y="40">A</text>
+    <text x="196" y="112">B</text>
+    <text x="240" y="190">C</text>
+  </g>
+
+  <!-- side/angle annotations -->
+  <g font-size="13" fill="#52606d">
+    <text x="158" y="358">DA = 5</text>
+    <text x="92"  y="86">AB = 8</text>
+    <text x="200" y="158">BC = 3</text>
+    <text x="252" y="248">CD = 3</text>
+    <text x="120" y="290" fill="#1f6feb">AC = 7</text>
+    <text x="232" y="210" fill="#e8590c">BD = 39/7</text>
+    <text x="250" y="330" fill="#9b2c2c">∠CDA = 120°</text>
+  </g>
+
+  <!-- angle arc at D -->
+  <path d="M 270 300 A 30 30 0 0 0 240 260" fill="none" stroke="#9b2c2c" stroke-width="1.5"/>
+</svg>
