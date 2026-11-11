@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-11-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-11</time>
+    </div>
+    <h2>超大模型推理、端侧运行时与 MoE 压缩前沿</h2>
+    <p>今日 7 篇：TPU v7 部署 816B MoE、ExecuTorch WebGPU、推理蒸馏、可解释性、HOPE 专家剪枝等。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 多源 · 前沿</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-10-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-10</time></div><h2>GCD与LCM的有序对 / 圆排列中的相邻限制</h2><p>两道 AMC 10 竞赛真题：数论（最大公约数/最小公倍数计数）与组合（圆排列补集法）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-10-finance-daily/">
   <div class="rl-accent"></div>
