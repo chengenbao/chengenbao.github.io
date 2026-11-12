@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-12-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-12</time>
+    </div>
+    <h2>可持续·AI就业·监管·能源贸易</h2>
+    <p>5篇精选：可持续储蓄、AI与就业、网络监管、跨境电力贸易、风光电价波动。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ</span>
+      <span class="rl-tags">#宏观 #AI #监管 #能源</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-12-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
