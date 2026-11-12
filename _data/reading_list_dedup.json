@@ -273,13 +273,6 @@
     ]
   },
   "finance": {
-    "2026-10-12": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-monetary-policy-globally-evidence-from-llms-and-semi-structural-models-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-the-current-account-u-s-financial-flows-and-global-imbalances-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/heterogeneity-in-the-marginal-propensity-to-consume-among-u-s-households-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/convenience-yields-risk-premiums-and-the-interpretation-of-oil-futures-prices-during-geo-conflict-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/informal-support-networks-in-the-survey-of-consumer-finances-20261009.html"
-    ],
     "2026-10-13": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/china-shock-2-0-how-china-ongoing-export-surge-differs-from-the-early-2000s-20260529.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
@@ -486,6 +479,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-oil-prices-on-core-inflation-recent-evidence-from-the-advanced-economies-20261109.html"
+    ],
+    "2026-11-12": [
+      "https://arxiv.org/abs/2611.12987",
+      "https://arxiv.org/abs/2507.08244",
+      "https://arxiv.org/abs/2611.13715",
+      "https://arxiv.org/abs/2611.13866",
+      "https://arxiv.org/abs/2611.10731"
     ]
   }
 }
