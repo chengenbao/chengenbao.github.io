@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-12-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-12</time>
+    </div>
+    <h2>稀疏注意力、GPU 建模与端侧推理引擎</h2>
+    <p>7 篇精选：长上下文注意力索引加速、NVIDIA GPU 性能/内存/数值建模、端侧推理智能体与多向量嵌入训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · GPU建模 · 端侧引擎 · 微内核 · 嵌入训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-11-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-11</time></div><h2>圆内接四边形短对角线 / 最大整数与完全平方数</h2><p>两道 AMC 12 竞赛真题：几何（圆内接四边形、托勒密定理）与数论（完全平方数、平方差分解）。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何 · 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-11-finance-daily/">
   <div class="rl-accent"></div>
