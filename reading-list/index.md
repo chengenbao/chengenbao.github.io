@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-12-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-12</time></div><h2>6名低年级生与6名高年级生分队 / 飞镖落在环形靶区的概率</h2><p>2024 AMC 10 真题：组合分队计数 + 几何概率（圆环/菱形面积比）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-12-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
