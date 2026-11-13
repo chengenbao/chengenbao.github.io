@@ -1,1 +1,8 @@
-dummy
+{
+  "sources": {
+    "2026-11-13": [
+      "2024_AMC_12B_Problems/Problem_20",
+      "2024_AMC_12B_Problems/Problem_24"
+    ]
+  }
+}
