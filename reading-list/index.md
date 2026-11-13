@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-13-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-13</time>
+    </div>
+    <h2>央行储备、私人信贷与通胀传导</h2>
+    <p>美联储 FEDS Notes 三篇（黄金储备迁移、私人信贷结构、油价与核心通胀）+ 芝加哥大学 BFI 政府债券风险收益研究。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / BFI</span>
+      <span class="rl-tags">#宏观 #私人信贷 #通胀</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-13-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
