@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-14": [
-      "http://arxiv.org/abs/2610.13708v1",
-      "https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell/",
-      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
-      "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "http://arxiv.org/abs/2610.13744v1",
-      "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/"
-    ],
     "2026-10-15": [
       "http://arxiv.org/abs/2610.16890v1",
       "http://arxiv.org/abs/2610.15781v1",
@@ -270,6 +261,14 @@
       "https://huggingface.co/blog/3d-lora-finetuning",
       "https://huggingface.co/blog/qvac/botpsy",
       "https://huggingface.co/blog/decision"
+    ],
+    "2026-11-14": [
+      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "https://huggingface.co/blog/allenai/xybench",
+      "https://pytorch.org/blog/kvcache-meetup-korea-2026-event-recap/",
+      "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "https://huggingface.co/blog/open-asr-leaderboard-liva"
     ]
   },
   "finance": {
