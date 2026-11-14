@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-14-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-14</time>
+    </div>
+    <h2>本地推理、结构化抽取与 KV Cache 优化前沿</h2>
+    <p>今日 6 篇精选，覆盖 llama.cpp v1.0.0、Dharma 字段抽取、XYBench、KVCache 优化等。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 量化 · 信息抽取 · KV Cache · 语音识别</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-13-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-13</time></div><h2>中线长与三角形面积的最值 / 高长与整数内切圆的三元组计数</h2><p>两道 2024 AMC 12B 真题：中线长最值与整数内切圆高长计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC12 · 代数 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-13-finance-daily/">
   <div class="rl-accent"></div>
