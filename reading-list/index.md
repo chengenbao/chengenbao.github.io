@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-14-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-14</time>
+    </div>
+    <h2>美联储前沿研究五题：消费、贸易、信贷、稳定币与AI</h2>
+    <p>今日 5 篇精选，覆盖家庭消费不平等、中国出口冲击2.0、先买后付(BNPL)、稳定币金融稳定与AI经济渗透。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #消费信贷 #稳定币 #AI #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-14-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
