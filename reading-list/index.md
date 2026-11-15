@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-15-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-15</time>
+    </div>
+    <h2>编译优化、万亿 MoE 训练与本地推理前沿</h2>
+    <p>精选 6 篇深度技术文章，覆盖 Helion 编译启发式、1T MoE 分布式训练、WebGPU 端侧推理、llama.cpp v1.0、嵌入向量压缩与网络安全基准。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">编译优化 · 分布式训练 · 端侧推理 · 量化 · 向量检索 · 安全评测</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-14-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-14</time></div><h2>整数解方程组 / 等边三角形随机面积概率</h2><p>今日两题：代数（整数方程因式分解）+ 几何（三角形面积几何概率），均取自 2024 AMC 12A 真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">AMC12 · 代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-14-finance-daily/">
   <div class="rl-accent"></div>
