@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-15-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-15</time>
+    </div>
+    <h2>货币政策成效、关税传导与银行体系脆弱性</h2>
+    <p>5 篇纽约联储 Liberty Street Economics：货币政策150年回顾、关税向消费价格的传导、AI热潮与国际收支、信用卡利率的市场结构、银行体系脆弱性2026更新。</p>
+    <div class="rl-meta">
+      <span class="rl-source">NY Fed Liberty Street Economics</span>
+      <span class="rl-tags">#货币政策 #关税传导 #AI贸易 #信用卡利率 #银行脆弱性</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-15-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
