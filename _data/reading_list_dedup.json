@@ -271,13 +271,6 @@
     ]
   },
   "finance": {
-    "2026-10-15": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-rise-of-semiliquid-funds-for-retail-investors-20261014.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-monetary-policy-globally-evidence-from-llms-and-semi-structural-models-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-the-current-account-u-s-financial-flows-and-global-imbalances-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/convenience-yields-risk-premiums-and-the-interpretation-of-oil-futures-prices-during-geo-conflict-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/informal-support-networks-in-the-survey-of-consumer-finances-20261009.html"
-    ],
     "2026-10-16": [
       "https://arxiv.org/abs/2610.18921",
       "https://arxiv.org/abs/2610.19045",
@@ -483,6 +476,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html"
+    ],
+    "2026-11-15": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/has-u-s-monetary-policy-really-improved-a-150-year-perspective/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/",
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/banking-system-vulnerability-2026-update/"
     ]
   }
 }
