@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-15": [
-      "http://arxiv.org/abs/2610.16890v1",
-      "http://arxiv.org/abs/2610.15781v1",
-      "http://arxiv.org/abs/2610.16159v1",
-      "http://arxiv.org/abs/2610.18862v1",
-      "http://arxiv.org/abs/2610.14532v1",
-      "http://arxiv.org/abs/2610.13408v1",
-      "http://arxiv.org/abs/2610.18853v1"
-    ],
     "2026-10-16": [
       "https://arxiv.org/abs/2610.18925",
       "https://arxiv.org/abs/2610.19645",
@@ -269,6 +260,14 @@
       "https://pytorch.org/blog/kvcache-meetup-korea-2026-event-recap/",
       "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
       "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    ],
+    "2026-11-15": [
+      "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
+      "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/",
+      "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "https://huggingface.co/blog/token-pooling",
+      "https://huggingface.co/blog/cwe-bench"
     ]
   },
   "finance": {
