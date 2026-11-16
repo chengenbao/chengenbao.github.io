@@ -271,13 +271,6 @@
     ]
   },
   "finance": {
-    "2026-10-16": [
-      "https://arxiv.org/abs/2610.18921",
-      "https://arxiv.org/abs/2610.19045",
-      "https://arxiv.org/abs/2610.20125",
-      "https://arxiv.org/abs/2609.28372",
-      "https://arxiv.org/abs/2604.21334"
-    ],
     "2026-10-17": [
       "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/10/bank-regulation-affects-monetary-policy-transmission/",
       "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/10/what-do-financial-officers-predict-for-labor-market/",
@@ -483,6 +476,12 @@
       "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account/",
       "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/",
       "https://libertystreeteconomics.newyorkfed.org/2026/11/banking-system-vulnerability-2026-update/"
+    ],
+    "2026-11-16": [
+      "https://www.brookings.edu/articles/economy-added-189000-jobs-according-to-alternative-seasonal-",
+      "https://www.brookings.edu/articles/tracking-trade-amid-uncertain-and-changing-tariff-policies/",
+      "https://www.worldbank.org/en/news/press-release/2026/11/05/developing-countries-external-debt-surges-to-record-9-4-trillion",
+      "https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"
     ]
   }
 }
