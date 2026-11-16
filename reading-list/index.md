@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-16-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-16</time>
+    </div>
+    <h2>就业、贸易、外债与大宗商品的多维观察</h2>
+    <p>覆盖美国就业、关税贸易、发展中国家外债与大宗商品市场的每日财经精选。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Brookings / World Bank</span>
+      <span class="rl-tags">#宏观 #贸易 #外债 #大宗商品</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-16-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
