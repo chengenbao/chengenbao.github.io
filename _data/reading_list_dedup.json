@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-16": [
-      "https://arxiv.org/abs/2610.18925",
-      "https://arxiv.org/abs/2610.19645",
-      "https://arxiv.org/abs/2610.19026",
-      "https://arxiv.org/abs/2610.19064",
-      "https://arxiv.org/abs/2610.18878",
-      "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
-      "https://arxiv.org/abs/2610.19033"
-    ],
     "2026-10-17": [
       "https://arxiv.org/abs/2610.20636",
       "https://arxiv.org/abs/2610.21695",
@@ -268,6 +259,15 @@
       "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "https://huggingface.co/blog/token-pooling",
       "https://huggingface.co/blog/cwe-bench"
+    ],
+    "2026-11-16": [
+      "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
+      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "https://huggingface.co/blog/token-pooling",
+      "https://huggingface.co/blog/transformers-mic",
+      "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "https://huggingface.co/blog/cwe-bench",
+      "https://huggingface.co/blog/decision"
     ]
   },
   "finance": {
