@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-16-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-16</time>
+    </div>
+    <h2>编译器启发式 · 本地推理 · 嵌入压缩 · MoE剪枝</h2>
+    <p>今日 7 篇精选，覆盖 Helion 编译优化、llama.cpp 1.0、Token Pooling 训练、MoE 高阶剪枝等前沿技术。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">编译器 · 推理 · 量化 · MoE · 安全基准</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-15-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-15</time></div><h2>LCM与调和和取模（2022 AMC 10A P19） / 递减整数序列构造（2025 AMC 10B P17）</h2><p>数论：LCM与调和和取模；组合：递减序列的最长构造——两道 AMC 10 真实真题精解。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合 · AMC10/12</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-15-finance-daily/">
   <div class="rl-accent"></div>
