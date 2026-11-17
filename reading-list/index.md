@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-17-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-17</time>
+    </div>
+    <h2>央行资产负债表困境、AI 基建贸易溢出与算法信贷</h2>
+    <p>今日 4 篇财经精选：宏观货币、国际贸易与家庭金融多维视角。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际贸易 #家庭金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-17-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
