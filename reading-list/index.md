@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-17-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-17</time>
+    </div>
+    <h2>硬件加速、编译优化与万亿参数MoE训练的今日前沿</h2>
+    <p>精选7篇：线性注意力RTL实现、边缘AI/LLM加速、GPU存储尾延迟、Helion编译启发式、1T MoE分布式训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">Tech · 加速器 · 编译器 · 分布式训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-16-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-16</time></div><h2>等比数列最小项 / 令牌分配概率</h2><p>2024 AMC 12A 两道真题：代数（等比数列）+ 概率（组合计数）</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-16-finance-daily/">
   <div class="rl-accent"></div>
