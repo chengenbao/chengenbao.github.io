@@ -271,13 +271,6 @@
     ]
   },
   "finance": {
-    "2026-10-17": [
-      "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/10/bank-regulation-affects-monetary-policy-transmission/",
-      "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/10/what-do-financial-officers-predict-for-labor-market/",
-      "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/10/pricing-inflation-swaps-in-japanese-bond-market/",
-      "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/09/stablecoin-issuers-growing-appetite-for-treasury-securities/",
-      "https://arxiv.org/abs/2610.14969"
-    ],
     "2026-10-18": [
       "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625",
       "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50",
@@ -482,6 +475,12 @@
       "https://www.brookings.edu/articles/tracking-trade-amid-uncertain-and-changing-tariff-policies/",
       "https://www.worldbank.org/en/news/press-release/2026/11/05/developing-countries-external-debt-surges-to-record-9-4-trillion",
       "https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"
+    ],
+    "2026-11-17": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-central-bank-balance-sheet-trilemma-20260114.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-global-trade-effects-of-the-ai-infrastructure-boom-20260213.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/lessons-from-brexit-on-the-effects-of-trade-disintegration-20260116.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/more-credit-more-debt-new-evidence-on-automated-credit-decisions-20260116.html"
     ]
   }
 }
