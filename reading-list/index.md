@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-18-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-18</time></div><h2>抛物线交点计数 / 硬币覆盖黑区概率</h2><p>无放回选参使两抛物线相交的计数；硬币落点覆盖黑区的概率表达式</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合, 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-18-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
