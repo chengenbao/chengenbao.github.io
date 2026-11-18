@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-18-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-18</time>
+    </div>
+    <h2>7 篇深度技术速递：量化训练、GPU I/O、分布式通信与端侧推理</h2>
+    <p>聚焦 4-bit 量化训练确定性、GPU 原生存储、SuperPOD 通信卸载、MLLM 压缩、Arm/TSO 内存模型、量子编译与移动 NPU 端侧推理。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">Quantization · GPU · Distributed · Compiler · NPU</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-17-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-17</time></div><h2>三角形周长与面积的几何约束 / 互补因子之差的数论构造</h2><p>两道 AMC 10 真实真题：几何存在性判定 + 数论互补因子构造。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">几何, 数论</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-17-finance-daily/">
   <div class="rl-accent"></div>
