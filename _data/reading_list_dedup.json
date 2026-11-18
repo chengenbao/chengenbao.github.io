@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-10-18": [
-      "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "https://pytorch.org/blog/bringing-elastically-deterministic-data-loading-to-torchtitan-with-zephon/",
-      "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
-      "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
-      "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
-    ],
     "2026-10-19": [
       "https://pytorch.org/blog/bringing-elastically-deterministic-data-loading-to-torchtitan-with-zephon/",
       "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
@@ -268,6 +260,15 @@
       "https://arxiv.org/abs/2611.17824",
       "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
       "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/"
+    ],
+    "2026-11-18": [
+      "http://arxiv.org/abs/2611.21370v1",
+      "http://arxiv.org/abs/2611.21288v1",
+      "http://arxiv.org/abs/2611.21274v1",
+      "http://arxiv.org/abs/2611.21459v1",
+      "http://arxiv.org/abs/2611.21406v1",
+      "http://arxiv.org/abs/2611.21270v1",
+      "http://arxiv.org/abs/2611.20772v1"
     ]
   },
   "finance": {
