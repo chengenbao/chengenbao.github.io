@@ -273,13 +273,6 @@
     ]
   },
   "finance": {
-    "2026-10-19": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ripples-in-the-reserve-pool-unveiling-liquidity-signals-from-the-federal-funds-market-20261016.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/introducing-private-credit-into-the-financial-accounts-of-the-united-states-20261016.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/revisiting-chinas-current-account-evidence-from-recent-revisions-20260922.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/which-states-are-most-exposed-to-tariff-increases-a-new-measure-based-on-the-consumption-channel-20260903.html"
-    ],
     "2026-10-20": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/racing-against-tariffs-global-impacts-of-frontloading-20250801.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20250509.html",
@@ -483,6 +476,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/treasury-issuance-and-dealer-balance-sheets-20261030.html"
+    ],
+    "2026-11-19": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/heterogeneity-in-the-marginal-propensity-to-consume-among-u-s-households-20261009.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/convenience-yields-risk-premiums-and-the-interpretation-of-oil-futures-prices-during-geo-conflict-20261009.html",
+      "https://arxiv.org/abs/2505.04555",
+      "https://arxiv.org/abs/2611.22517"
     ]
   }
 }
