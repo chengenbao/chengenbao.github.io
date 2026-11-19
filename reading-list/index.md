@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-19-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-19</time>
+    </div>
+    <h2>家庭消费、油价博弈、最低工资与气候风险</h2>
+    <p>美联储MPC异质性、地缘冲突油价结构、最低工资就业效应、气候关注度与金融风险。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed / arXiv econ</span>
+      <span class="rl-tags">#宏观 #劳动力 #气候金融</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-19-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
