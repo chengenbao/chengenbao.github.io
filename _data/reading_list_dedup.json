@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-10-19": [
-      "https://pytorch.org/blog/bringing-elastically-deterministic-data-loading-to-torchtitan-with-zephon/",
-      "https://pytorch.org/blog/extending-inductor-for-the-ibm-spyre-accelerator/",
-      "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/",
-      "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
-      "https://pytorch.org/blog/session-aware-agentic-inference-with-nvidia-dynamo/",
-      "https://huggingface.co/blog/transformers-llama-cpp-quants"
-    ],
     "2026-10-20": [
       "https://arxiv.org/abs/2610.22377",
       "https://arxiv.org/abs/2610.22579",
@@ -269,6 +261,15 @@
       "http://arxiv.org/abs/2611.21406v1",
       "http://arxiv.org/abs/2611.21270v1",
       "http://arxiv.org/abs/2611.20772v1"
+    ],
+    "2026-11-19": [
+      "https://arxiv.org/abs/2611.21852",
+      "https://arxiv.org/abs/2611.21839",
+      "https://arxiv.org/abs/2611.21882",
+      "https://arxiv.org/abs/2611.21677",
+      "https://arxiv.org/abs/2611.22243",
+      "https://huggingface.co/blog/moe-expert-streaming",
+      "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
     ]
   },
   "finance": {
