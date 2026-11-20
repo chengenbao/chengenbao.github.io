@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-20-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-20</time>
+    </div>
+    <h2>LLM 推理优化 · GPU 微架构 · 边缘 VLA/VLM 加速</h2>
+    <p>7 篇精选：生成式推荐 beam 优化、MoE 空泡回收、SASS 隐藏控制码、边缘 VLM/VLA 加速与智能体公平调度。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM Serving · GPU · MoE · Edge AI · 推理优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-19-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-19</time></div><h2>递归数列求项 / 异色立方体搭塔计数</h2><p>2019 AMC 10A 真题：代数递推数列 + 组合多重集排列，两道高中竞赛经典题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-19-finance-daily/">
   <div class="rl-accent"></div>
