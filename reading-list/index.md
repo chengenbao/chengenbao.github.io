@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-20-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-20</time>
+    </div>
+    <h2>AI、叙事与数字经济的财经启示</h2>
+    <p>从法律服务 AI 化到叙事驱动预期，5 篇研究透视微观、行为与宏观。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN</span>
+      <span class="rl-tags">#宏观 #行为金融 #数字经济</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-20-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
