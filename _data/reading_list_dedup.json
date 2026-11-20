@@ -273,13 +273,6 @@
     ]
   },
   "finance": {
-    "2026-10-20": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/racing-against-tariffs-global-impacts-of-frontloading-20250801.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20250509.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/measuring-ai-uptake-in-the-workplace-20240205.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/european-energy-import-dependency-20250416.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/offline-payments-implications-for-reliability-and-resiliency-in-digital-payment-systems-20240816.html"
-    ],
     "2026-10-21": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/the-price-of-bank-funding-behind-private-credit-evidence-from-business-development-companies-20260807.html",
@@ -482,6 +475,13 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/convenience-yields-risk-premiums-and-the-interpretation-of-oil-futures-prices-during-geo-conflict-20261009.html",
       "https://arxiv.org/abs/2505.04555",
       "https://arxiv.org/abs/2611.22517"
+    ],
+    "2026-11-20": [
+      "https://arxiv.org/abs/2611.23354",
+      "https://arxiv.org/abs/2607.04753",
+      "https://arxiv.org/abs/2608.21274",
+      "https://arxiv.org/abs/2610.33122",
+      "https://arxiv.org/abs/2309.10448"
     ]
   }
 }
