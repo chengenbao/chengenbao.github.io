@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-21-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-21</time>
+    </div>
+    <h2>大模型推理优化与分布式训练前沿</h2>
+    <p>精选 7 篇：KV Cache 管理、1T MoE 训练、Helion 编译启发式、MoE 极限推理</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM · KV Cache · 分布式训练 · 编译器 · MoE</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-20-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-20</time></div><h2>无限花纹刚体变换 / 完全平方或立方因子计数</h2><p>2019 AMC 10A 两道真题：无限重复图案的对称变换，以及 201^9 因数中完全平方/立方数的容斥计数。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#代数 #几何 #AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-20-finance-daily/">
   <div class="rl-accent"></div>
