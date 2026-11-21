@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-10-21": [
-      "https://pytorch.org/blog/one-search-two-layers-compiler-controls-inside-pytorch-helion-using-nvidia-compileiq/",
-      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
-      "https://pytorch.org/blog/introducing-torchtpu/",
-      "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
-      "https://huggingface.co/blog/mps-pytorch-2-15",
-      "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-    ],
     "2026-10-22": [
       "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
       "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
@@ -270,6 +262,15 @@
       "https://arxiv.org/abs/2611.24234",
       "https://arxiv.org/abs/2611.24437",
       "https://arxiv.org/abs/2611.23905"
+    ],
+    "2026-11-21": [
+      "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
+      "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/",
+      "https://arxiv.org/abs/2611.25112",
+      "https://arxiv.org/abs/2611.24969",
+      "https://arxiv.org/abs/2610.07593",
+      "https://huggingface.co/blog/moe-expert-streaming",
+      "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
     ]
   },
   "finance": {
