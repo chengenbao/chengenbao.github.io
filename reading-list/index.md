@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-22-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-22</time>
+    </div>
+    <h2>LLM服务·KV缓存·注意力稀疏·AI加速器·微架构·MoE</h2>
+    <p>今日精选 7 篇深度学习系统/硬件方向的深度技术文章，覆盖 LLM 服务、KV 缓存压缩、RoPE 注意力稀疏、脉动阵列、RTL 仿真、乱序内核与稀疏 MoE。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv</span>
+      <span class="rl-tags">Tech · 多源 · 前沿</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-21-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-21</time></div><h2>安娜与波妮塔的年龄 / 等腰三角形中的圆与角度</h2><p>AMC 10 真题：代数年龄问题 + 几何圆周角与完全四边形求角。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-21-finance-daily/">
   <div class="rl-accent"></div>
