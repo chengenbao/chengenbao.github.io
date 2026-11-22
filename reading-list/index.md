@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-22-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-22</time>
+    </div>
+    <h2>结构性转型、气候风险与 AI 融资热潮</h2>
+    <p>每日财经精选：数字经济的结构变迁、气候金融传导、AI 循环融资突破万亿。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ.GN / IMF / CNBC</span>
+      <span class="rl-tags">#宏观 #气候金融 #AI融资</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-22-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
