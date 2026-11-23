@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-23-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-23</time>
+    </div>
+    <h2>生产力、全球供应链、能源与新型货币</h2>
+    <p>4 篇精选覆盖 AI 生产率与利率、全球供应链溢出、欧洲天然气展望与新型货币形态。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #国际 #能源 #货币</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-23-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
