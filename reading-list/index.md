@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-23-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-23</time>
+    </div>
+    <h2>编译器优化、分布式训练与端侧推理前沿</h2>
+    <p>6 篇精选覆盖 Helion 编译优化、1T MoE 分布式训练、WebGPU 端侧推理与高效后训练。</p>
+    <div class="rl-meta">
+      <span class="rl-source">PyTorch / HuggingFace</span>
+      <span class="rl-tags">MoE · WebGPU · Helion · SGLang · 后训练</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-22-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-22</time></div><h2>季后赛胜率建模 / 根号方程最值</h2><p>三局两胜概率建模 + 根式化简求最小平方和，两道 AMC 10 中档代数/概率真题。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#概率 #代数 #AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-22-finance-daily/">
   <div class="rl-accent"></div>
