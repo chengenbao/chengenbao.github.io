@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-23": [
-      "https://arxiv.org/abs/2610.28637",
-      "https://arxiv.org/abs/2610.29013",
-      "https://arxiv.org/abs/2610.29489",
-      "https://arxiv.org/abs/2610.29873",
-      "https://arxiv.org/abs/2610.29445",
-      "https://arxiv.org/abs/2610.28773",
-      "https://arxiv.org/abs/2609.21137"
-    ],
     "2026-10-24": [
       "https://arxiv.org/abs/2610.30206",
       "https://arxiv.org/abs/2610.30480",
@@ -271,6 +262,14 @@
       "http://arxiv.org/abs/2611.26472v1",
       "http://arxiv.org/abs/2611.26517v1",
       "http://arxiv.org/abs/2611.26358v1"
+    ],
+    "2026-11-23": [
+      "https://pytorch.org/blog/fast-by-default-compile-time-heuris",
+      "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-p",
+      "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on",
+      "https://pytorch.org/blog/integrating-sglang-into-spyre-in-un",
+      "https://huggingface.co/blog/harness-adapters-at-scale",
+      "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
     ]
   },
   "finance": {
