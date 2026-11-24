@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-24-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-24</time>
+    </div>
+    <h2>LLM推理加速 · 低比特量化 · 联邦训练 · Agent运行时</h2>
+    <p>7 篇精选：LLM 低比特推理加速、RL 蒸馏复用、加速器数值设计、投机解码、Agent 服务与边云操作系统。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">LLM推理 · 量化 · 联邦学习 · Agent服务 · 操作系统</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-23-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-23</time></div><h2>变换的交换性 / 五素数之和的最小质数</h2><p>平面变换交换性（几何）+ 五素数之和最小质数（数论），两道 AMC 10 真题精解。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">#几何 #数论 #AMC10</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-23-finance-daily/">
   <div class="rl-accent"></div>
