@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-24-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-24</time>
+    </div>
+    <h2>生产率、供应链与通胀的多维洞察</h2>
+    <p>美联储 FEDS Notes 精选 5 篇：生产率与利率、全球供应链溢出、关税冲击、黄金储备与油价通胀。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #通胀 #贸易</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-24-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
