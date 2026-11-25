@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-25</time></div><h2>取整函数方程 / 网格牙签闭合回路计数</h2><p>今日精选两道 AMC 10/12 真题：代数（取整函数方程）与 组合（网格回路计数），附中文翻译与解题过程。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">[奥数题, 数学, AMC10, AMC12, 代数, 组合]</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
