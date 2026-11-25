@@ -263,13 +263,13 @@
       "https://arxiv.org/abs/2611.26805"
     ],
     "2026-11-25": [
-      "https://arxiv.org/abs/2611.26833",
-      "https://arxiv.org/abs/2611.26835",
-      "https://arxiv.org/abs/2611.26837",
-      "https://arxiv.org/abs/2611.26841",
-      "https://arxiv.org/abs/2611.26863",
-      "https://arxiv.org/abs/2611.26874",
-      "https://arxiv.org/abs/2611.26875"
+      "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "https://huggingface.co/blog/allenai/robotrack",
+      "https://huggingface.co/blog/agentic-evals",
+      "https://huggingface.co/blog/inkling2mini",
+      "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "https://huggingface.co/blog/rumble-2-flash",
+      "https://huggingface.co/blog/openrouter"
     ]
   },
   "finance": {
