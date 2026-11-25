@@ -263,13 +263,13 @@
       "https://arxiv.org/abs/2611.26805"
     ],
     "2026-11-25": [
-      "https://huggingface.co/blog/hub-gcp-marketplace",
-      "https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed/",
-      "https://pytorch.org/blog/2026-pytorch-foundation-contributor-awards/",
-      "https://pytorch.org/blog/pytorch-ambassador-community-highlights-november-2026/",
-      "https://pytorch.org/blog/call-for-proposals-pytorch-day-china-2026/",
-      "https://arxiv.org/abs/2611.26747",
-      "https://arxiv.org/abs/2611.26756"
+      "https://arxiv.org/abs/2611.26775",
+      "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "https://arxiv.org/abs/2611.26776",
+      "https://huggingface.co/blog/allenai/robotrack",
+      "https://arxiv.org/abs/2611.26806",
+      "https://huggingface.co/blog/agentic-evals",
+      "https://arxiv.org/abs/2611.26809"
     ]
   },
   "finance": {
