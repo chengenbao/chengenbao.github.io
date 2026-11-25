@@ -40,11 +40,11 @@ permalink: /reading-list/
       <span class="rl-badge tech">📰 技术速递</span>
       <time>2026-11-25</time>
     </div>
-    <h2>大模型推理加速与系统优化前沿</h2>
-    <p>聚焦投机解码、KV Cache 管理、稀疏注意力与 GPU 显存剖析等 7 篇深度技术文章。</p>
+    <h2>2026-11-25 技术速递（7篇）</h2>
+    <p>覆盖 大模型生态 · 深度学习框架 · 自然语言处理 等方向的前沿研究</p>
     <div class="rl-meta">
       <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">LLM · 推理加速 · KV Cache · GPU · 分布式</span>
+      <span class="rl-tags">大模型生态 · 深度学习框架 · 自然语言处理</span>
     </div>
   </div>
 </a>
@@ -63,66 +63,9 @@ permalink: /reading-list/
     </div>
   </div>
 </a>
-<a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-11-25</time>
-    </div>
-    <h2>2026-11-25 技术速递（7篇）</h2>
-    <p>覆盖 自然语言处理 等方向的前沿研究</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">自然语言处理</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-11-25</time>
-    </div>
-    <h2>2026-11-25 技术速递（7篇）</h2>
-    <p>覆盖 自然语言处理 等方向的前沿研究</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">自然语言处理</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-11-25</time>
-    </div>
-    <h2>2026-11-25 技术速递（7篇）</h2>
-    <p>覆盖 自然语言处理 等方向的前沿研究</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">自然语言处理</span>
-    </div>
-  </div>
-</a>
-<a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
-  <div class="rl-accent"></div>
-  <div class="rl-body">
-    <div class="rl-top">
-      <span class="rl-badge tech">📰 技术速递</span>
-      <time>2026-11-25</time>
-    </div>
-    <h2>2026-11-25 技术速递（7篇）</h2>
-    <p>覆盖 自然语言处理 等方向的前沿研究</p>
-    <div class="rl-meta">
-      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
-      <span class="rl-tags">自然语言处理</span>
-    </div>
-  </div>
-</a>
+
+
+
 <a class="rl-card math" href="/reading-list/2026-11-24-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-24</time></div><h2>彩色立方塔计数 / 抛硬币连号概率</h2><p>组合：彩色立方塔的排列计数；概率：抛硬币直到出现连续相同面的停时概率。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">组合 · 概率</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-24-finance-daily/">
   <div class="rl-accent"></div>
