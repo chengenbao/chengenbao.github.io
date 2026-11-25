@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-25": [
-      "https://huggingface.co/blog/hf-torchtpu",
-      "https://huggingface.co/blog/hf-torchneuron",
-      "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "https://pytorch.org/blog/from-ktir-to-spyrecode-an-mlir-dataflow-backend-for-ibm-spyre/",
-      "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "https://huggingface.co/blog/nvidia/kumo-relational",
-      "https://huggingface.co/blog/allenai/litpivot"
-    ],
     "2026-10-26": [
       "http://arxiv.org/abs/2610.30480v1",
       "http://arxiv.org/abs/2610.25219v1",
@@ -270,6 +261,15 @@
       "https://arxiv.org/abs/2611.26980",
       "https://arxiv.org/abs/2611.27225",
       "https://arxiv.org/abs/2611.26805"
+    ],
+    "2026-11-25": [
+      "https://arxiv.org/abs/2611.26747",
+      "https://arxiv.org/abs/2611.26756",
+      "https://arxiv.org/abs/2611.26775",
+      "https://arxiv.org/abs/2611.26776",
+      "https://arxiv.org/abs/2611.26806",
+      "https://arxiv.org/abs/2611.26809",
+      "https://arxiv.org/abs/2611.26832"
     ]
   },
   "finance": {
