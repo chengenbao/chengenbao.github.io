@@ -1,13 +1,5 @@
 {
   "tech": {
-    "2026-10-26": [
-      "http://arxiv.org/abs/2610.30480v1",
-      "http://arxiv.org/abs/2610.25219v1",
-      "http://arxiv.org/abs/2610.31169v1",
-      "http://arxiv.org/abs/2610.32492v1",
-      "http://arxiv.org/abs/2610.32279v1",
-      "http://arxiv.org/abs/2610.30990v1"
-    ],
     "2026-10-27": [
       "http://arxiv.org/abs/2610.21249v1",
       "http://arxiv.org/abs/2610.21241v1",
@@ -270,6 +262,15 @@
       "https://pytorch.org/blog/2026-pytorch-foundation-contributor-awards/",
       "https://huggingface.co/blog/allenai/robotrack",
       "https://arxiv.org/abs/2611.26775"
+    ],
+    "2026-11-26": [
+      "https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin/",
+      "https://arxiv.org/abs/2611.31256",
+      "https://arxiv.org/abs/2611.31265",
+      "https://arxiv.org/abs/2611.31258",
+      "https://huggingface.co/blog/rumble-2-flash",
+      "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "https://huggingface.co/blog/agentic-evals"
     ]
   },
   "finance": {
