@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-26-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-26</time>
+    </div>
+    <h2>全球贸易韧性、回购市场稳定与欧洲能源风险</h2>
+    <p>美联储 FEDS Notes 精选：贸易政策不确定性下的贸易韧性、对冲基金回购折扣稳定性、全球供应链跨境溢出、欧洲冬季天然气展望。</p>
+    <div class="rl-meta">
+      <span class="rl-source">Fed FEDS Notes</span>
+      <span class="rl-tags">#宏观 #金融市场 #供应链 #能源</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-26-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
