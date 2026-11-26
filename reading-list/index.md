@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-26-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-26</time>
+    </div>
+    <h2>LLM 推理加速与 Agent 工程前沿</h2>
+    <p>精选 7 篇深度技术文章，覆盖投机解码、KV 缓存压缩、长程 Agent 训练、开源语音与单卡推理部署。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / PyTorch / HuggingFace</span>
+      <span class="rl-tags">推理加速 · KV Cache · Agent · 多语言语音 · 评测</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-25-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-25</time></div><h2>取整函数方程 / 网格牙签闭合回路计数</h2><p>今日精选两道 AMC 10/12 真题：代数（取整函数方程）与 组合（网格回路计数），附中文翻译与解题过程。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">[奥数题, 数学, AMC10, AMC12, 代数, 组合]</span></div></div></a>
 <a class="rl-card tech" href="/reading-list/2026-11-25-tech-daily/">
   <div class="rl-accent"></div>
