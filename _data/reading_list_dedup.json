@@ -274,13 +274,6 @@
     ]
   },
   "finance": {
-    "2026-10-26": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-the-factory-gate-the-continued-importance-of-goods-production-20261002.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/pricing-sentiment-measuring-input-cost-pressure-from-ism-survey-responses-20261001.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-aggregates-measuring-manufacturing-subsector-heterogeneity-business-trends-and-outlook-survey-20261001.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-face-value-how-composition-changes-affect-import-unit-values-of-light-vehicles-20260928.html"
-    ],
     "2026-10-27": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/monetary-policy-stance-and-commodity-cycles-in-emerging-economies-20260731.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/vietnams-export-boom-to-the-u-s-the-role-of-Chinese-firms-20260717.html",
@@ -481,6 +474,12 @@
       "https://www.federalreserve.gov/econres/notes/feds-notes/private-credit-and-leveraged-loan-markets-similarities-differences-and-substitution-20260811.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-resilient-were-emerging-market-economies-through-the-2022-23-u-s-monetary-tightening-cycle-20260702.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/how-u-s-bank-stock-prices-respond-to-geopolitical-risk-20260602.html"
+    ],
+    "2026-11-26": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/why-has-global-trade-remained-resilient-despite-high-trade-policy-uncertainty-20261124.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/the-surprising-stability-of-hedge-fund-repo-haircuts-20261125.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/increasing-international-interdependence-global-supply-chains-and-cross-border-macroeconomic-spillovers-20261120.html",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/europes-natural-gas-outlook-for-the-upcoming-winter-2026-2027-20261120.html"
     ]
   }
 }
