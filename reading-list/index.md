@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-26-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-26</time></div><h2>多项式系数计数 / 等边三角形外扩面积比</h2><p>AMC 12 真题：多项式 P(-1)=-9 的计数，与等边三角形向外延长 3 倍边长后的面积比。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">代数 · 几何</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-26-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
