@@ -33,6 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card math" href="/reading-list/2026-11-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-27</time></div><h2>100次幂模125的余数 / 盖格子游戏的最少猜测次数</h2><p>数论（欧拉定理）+ 组合（命中集）：两道 AMC 10 真题，含完整推导与常见错误分析。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-27-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
