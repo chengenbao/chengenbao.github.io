@@ -33,7 +33,7 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
-<a class="rl-card finance" href="/reading-list/2026-11-27-fin-daily/">
+<a class="rl-card finance" href="/reading-list/2026-11-27-finance-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
     <div class="rl-top">
