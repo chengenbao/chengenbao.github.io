@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-27-fin-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-27</time>
+    </div>
+    <h2>海上贸易风险 · 波动率预测 · 金融知识图谱</h2>
+    <p>宏观、市场微观与 Fintech 多维财经精选</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv econ / q-fin</span>
+      <span class="rl-tags">#宏观 #波动率 #Fintech</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card tech" href="/reading-list/2026-11-27-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
