@@ -1,14 +1,5 @@
 {
   "tech": {
-    "2026-10-28": [
-      "https://arxiv.org/abs/2610.33076",
-      "https://arxiv.org/abs/2610.33719",
-      "https://arxiv.org/abs/2610.34731",
-      "https://arxiv.org/abs/2610.31728",
-      "https://arxiv.org/abs/2610.33006",
-      "https://arxiv.org/abs/2610.34824",
-      "https://arxiv.org/abs/2610.31768"
-    ],
     "2026-10-29": [
       "https://arxiv.org/abs/2610.37033",
       "https://arxiv.org/abs/2610.33298",
@@ -270,6 +261,15 @@
       "https://arxiv.org/abs/2611.33236",
       "https://arxiv.org/abs/2611.33259",
       "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+    ],
+    "2026-11-28": [
+      "https://arxiv.org/abs/2611.33468",
+      "https://arxiv.org/abs/2611.33174",
+      "https://arxiv.org/abs/2611.33250",
+      "https://arxiv.org/abs/2611.33307",
+      "https://arxiv.org/abs/2611.33428",
+      "https://arxiv.org/abs/2611.33197",
+      "https://huggingface.co/blog/training-swarms"
     ]
   },
   "finance": {
