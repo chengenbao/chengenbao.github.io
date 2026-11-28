@@ -273,13 +273,6 @@
     ]
   },
   "finance": {
-    "2026-10-28": [
-      "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/ripples-in-the-reserve-pool-unveiling-liquidity-signals-from-the-federal-funds-market-20261016.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/the-rise-of-semiliquid-funds-for-retail-investors-20261014.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/beyond-the-current-account-u-s-financial-flows-and-global-imbalances-20261009.html",
-      "https://www.federalreserve.gov/econres/notes/feds-notes/assessing-monetary-policy-globally-evidence-from-llms-and-semi-structural-models-20261009.html"
-    ],
     "2026-10-29": [
       "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
       "https://www.federalreserve.gov/econres/notes/feds-notes/ripples-in-the-reserve-pool-unveiling-liquidity-signals-from-the-federal-funds-market-20261016.html",
@@ -478,6 +471,13 @@
       "https://arxiv.org/abs/2606.20145",
       "https://arxiv.org/abs/2506.07928",
       "https://arxiv.org/abs/2611.33584"
+    ],
+    "2026-11-28": [
+      "https://www.nber.org/papers/w36038",
+      "https://www.nber.org/papers/w36039",
+      "https://www.nber.org/papers/w36040",
+      "https://www.nber.org/papers/w36043",
+      "https://www.nber.org/papers/w36046"
     ]
   }
 }
