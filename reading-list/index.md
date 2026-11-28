@@ -33,6 +33,21 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card tech" href="/reading-list/2026-11-28-tech-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge tech">📰 技术速递</span>
+      <time>2026-11-28</time>
+    </div>
+    <h2>大模型架构与训练系统优化</h2>
+    <p>精选 7 篇覆盖循环架构、智能体记忆、嵌入检索与多智能体训练的深度技术文章。</p>
+    <div class="rl-meta">
+      <span class="rl-source">arXiv / HuggingFace</span>
+      <span class="rl-tags">循环架构 · 智能体 · 嵌入模型 · 多智能体 · 系统优化</span>
+    </div>
+  </div>
+</a>
 <a class="rl-card math" href="/reading-list/2026-11-27-math/"><div class="rl-accent"></div><div class="rl-body"><div class="rl-top"><span class="rl-badge math">🧮 奥数题</span><time>2026-11-27</time></div><h2>100次幂模125的余数 / 盖格子游戏的最少猜测次数</h2><p>数论（欧拉定理）+ 组合（命中集）：两道 AMC 10 真题，含完整推导与常见错误分析。</p><div class="rl-meta"><span class="rl-source">AMC 10/12 竞赛真题</span><span class="rl-tags">数论 · 组合</span></div></div></a>
 <a class="rl-card finance" href="/reading-list/2026-11-27-finance-daily/">
   <div class="rl-accent"></div>
