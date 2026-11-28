@@ -33,6 +33,22 @@ permalink: /reading-list/
   </div>
 
   <div class="rl-grid">
+<a class="rl-card finance" href="/reading-list/2026-11-28-finance-daily/">
+  <div class="rl-accent"></div>
+  <div class="rl-body">
+    <div class="rl-top">
+      <span class="rl-badge finance">💰 财经精选</span>
+      <time>2026-11-28</time>
+    </div>
+    <h2>稳定币、风险投资与全球市场前沿</h2>
+    <p>5 篇 NBER 最新工作论文：稳定币事实、风投资本下沉、资本市场史、财政政策心理模型、全球市场分割代价。</p>
+    <div class="rl-meta">
+      <span class="rl-source">NBER</span>
+      <span class="rl-tags">#稳定币 #风险投资 #财政政策 #全球市场</span>
+    </div>
+  </div>
+</a>
+
 <a class="rl-card tech" href="/reading-list/2026-11-28-tech-daily/">
   <div class="rl-accent"></div>
   <div class="rl-body">
